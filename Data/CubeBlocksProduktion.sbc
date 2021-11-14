@@ -17,7 +17,12 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
-
+                <Component Subtype="SteelPlate" Count="120" >
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <Center x="1" y="0" z="1" />
@@ -91,7 +96,12 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
             <Components>
-
+                <Component Subtype="SteelPlate" Count="120" >
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MirroringZ>Y</MirroringZ>
@@ -200,7 +210,7 @@
             <BlueprintClasses>
 
                 <Class>BasicTools</Class>
-                <Class>ComponentsNotfall</Class>
+              <!--  <Class>ComponentsNotfall</Class>-->
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -222,7 +232,7 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Drahtextruder-->
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>Drahtextruder</SubtypeId>
+                <SubtypeId>LargeAssembler</SubtypeId>
             </Id>
             <DisplayName>Drahtextruder</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
@@ -234,7 +244,12 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
             <Components>
-
+                <Component Subtype="SteelPlate" Count="120" >
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -266,7 +281,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>ComponentsDrahtextruder</Class>
+                <!-- <Class>ComponentsDrahtextruder</Class>-->
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -288,7 +303,7 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Wickelmaschine-->
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>Wickelmaschine</SubtypeId>
+                <SubtypeId>LargeAssembler</SubtypeId>
             </Id>
             <DisplayName>Wickelmaschine</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
@@ -300,7 +315,12 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
             <Components>
-
+                <Component Subtype="SteelPlate" Count="120" >
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -332,7 +352,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>ComponentsWickelmaschine</Class>
+               <!--  <Class>ComponentsWickelmaschine</Class>-->
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -354,7 +374,7 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Rohrextruder-->
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>Rohrextruder</SubtypeId>
+                <SubtypeId>LargeAssembler</SubtypeId>
             </Id>
             <DisplayName>Rohrextruder</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
@@ -366,7 +386,12 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
             <Components>
-             
+                             <Component Subtype="SteelPlate" Count="120" >
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -398,7 +423,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>ComponentsRohrextruder</Class>
+               <!--  <Class>ComponentsRohrextruder</Class>-->
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -420,7 +445,7 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Plattenpresse-->
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>Plattenpresse</SubtypeId>
+                <SubtypeId>LargeAssembler</SubtypeId>
             </Id>
             <DisplayName>Plattenpresse</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
@@ -492,7 +517,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>ComponentsPlattenpresse</Class>
+              <!--   <Class>ComponentsPlattenpresse</Class>-->
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -514,7 +539,7 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Elektro_Assembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>Elektro_Assembler</SubtypeId>
+                <SubtypeId>LargeAssembler</SubtypeId>
             </Id>
             <DisplayName>Elektro Assembler</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
@@ -599,7 +624,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>ComponentsElektroAssembler</Class>
+              <!--   <Class>ComponentsElektroAssembler</Class>-->
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -621,7 +646,7 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Fertiger-->
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>Fertiger</SubtypeId>
+                <SubtypeId>LargeAssembler</SubtypeId>
             </Id>
             <DisplayName>Fertiger</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
@@ -665,7 +690,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>ComponentsFertiger</Class>
+             <!--    <Class>ComponentsFertiger</Class>-->
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -687,7 +712,7 @@
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--VerbrauchsmaterialAssembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
-                <SubtypeId>VerbrauchsmaterialAssembler</SubtypeId>
+                <SubtypeId>LargeAssembler</SubtypeId>
             </Id>
             <DisplayName>Verbrauchsmaterial Assembler</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
@@ -731,7 +756,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>ComponentsVerbrauchsmaterialAssembler</Class>
+              <!--   <Class>ComponentsVerbrauchsmaterialAssembler</Class>-->
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
