@@ -80,8 +80,8 @@
             </TieredUpdateTimes>
         </Definition>
 
-
-        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">              <!--Blast_Furnace-->
+<!--
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">             
             <Id>
                 <TypeId>Refinery</TypeId>
                 <SubtypeId>Blast_Furnace</SubtypeId>
@@ -156,8 +156,8 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--LargeAssembler-->
-            <Id>
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             
+           <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
             </Id>
@@ -209,10 +209,10 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>BasicTools</Class>
+                <Class>BasicTools</Class>-->
               <!--  <Class>ComponentsNotfall</Class>-->
 
-            </BlueprintClasses>
+<!--            </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockAssembler</PrimarySound>
@@ -229,7 +229,7 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Drahtextruder-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
@@ -280,10 +280,10 @@
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
-
+-->
                 <!-- <Class>ComponentsDrahtextruder</Class>-->
 
-            </BlueprintClasses>
+<!--            </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockAssembler</PrimarySound>
@@ -300,7 +300,7 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Wickelmaschine-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
@@ -351,10 +351,10 @@
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
-
+-->
                <!--  <Class>ComponentsWickelmaschine</Class>-->
 
-            </BlueprintClasses>
+ <!--           </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockAssembler</PrimarySound>
@@ -371,7 +371,7 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Rohrextruder-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">         
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
@@ -422,10 +422,10 @@
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
-
+-->
                <!--  <Class>ComponentsRohrextruder</Class>-->
 
-            </BlueprintClasses>
+ <!--           </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockAssembler</PrimarySound>
@@ -442,7 +442,7 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Plattenpresse-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">           
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
@@ -468,13 +468,13 @@
                     <TypeId>Ore</TypeId>
                     <SubtypeId>Scrap</SubtypeId>
                 </DeconstructId>
-				</Component>
+				</Component>-->
                 <!--<Component Subtype="Kupferdraht" Count="10" />
                 <DeconstructId>
                     <TypeId>Ore</TypeId>
                     <SubtypeId>ElectronicScrap</SubtypeId>
                 </DeconstructId>-->
-                <Component Subtype="SmallTube" Count="10" >
+ <!--               <Component Subtype="SmallTube" Count="10" >
                 <DeconstructId>
                     <TypeId>Ore</TypeId>
                     <SubtypeId>Scrap</SubtypeId>
@@ -516,10 +516,10 @@
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
-
+-->
               <!--   <Class>ComponentsPlattenpresse</Class>-->
 
-            </BlueprintClasses>
+ <!--           </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockAssembler</PrimarySound>
@@ -536,7 +536,7 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Elektro_Assembler-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
@@ -623,10 +623,10 @@
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
-
+-->
               <!--   <Class>ComponentsElektroAssembler</Class>-->
 
-            </BlueprintClasses>
+ <!--           </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockAssembler</PrimarySound>
@@ -643,7 +643,7 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Fertiger-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
@@ -689,10 +689,10 @@
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
-
+-->
              <!--    <Class>ComponentsFertiger</Class>-->
 
-            </BlueprintClasses>
+<!--            </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockAssembler</PrimarySound>
@@ -709,7 +709,7 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--VerbrauchsmaterialAssembler-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
@@ -755,10 +755,10 @@
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
-
+-->
               <!--   <Class>ComponentsVerbrauchsmaterialAssembler</Class>-->
 
-            </BlueprintClasses>
+  <!--          </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockAssembler</PrimarySound>
@@ -775,7 +775,7 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">               <!--SurvivalKitLarge-->
+        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">            
             <Id>
                 <TypeId>SurvivalKit</TypeId>
                 <SubtypeId>SurvivalKitLarge</SubtypeId>
@@ -847,7 +847,7 @@
         </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">               <!--SurvivalKit-->
+        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">             
             <Id>
                 <TypeId>SurvivalKit</TypeId>
                 <SubtypeId>SurvivalKit</SubtypeId>
@@ -921,7 +921,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-
+-->
     </CubeBlocks>
 
 </Definitions>
