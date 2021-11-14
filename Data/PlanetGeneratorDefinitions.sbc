@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!--Planets -->
-  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- EarthLike -->
+  <Definition xsi:type="PlanetGeneratorDefinition">    <!-- EarthLike -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>EarthLike</SubtypeId>
@@ -53,7 +54,7 @@
       <Material Material="Snow" Value ="130" MaxDepth ="3"/>
       <Material Material="Stone" Value ="160" MaxDepth ="3"/>
       <Material Material="Grass" Value ="180" MaxDepth ="3"/>
-	  <Material Material="Copper_CMM" Value ="253" MaxDepth ="2"/>
+      <Material Material="Copper_CMM" Value ="253" MaxDepth ="2"/>
     </CustomMaterialTable>
 
     <DistortionTable>
@@ -74,13 +75,18 @@
       <Ore Value="8" Type="Iron_02" Start="14" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Co 1-->
-      <Ore Value="30" Type="Copper_CMM" Start="9"  Depth="2"/>
-      <Ore Value="21" Type="Copper_CMM" Start="13"  Depth="3"/>
-      <Ore Value="22" Type="Copper_CMM" Start="10"  Depth="4"/>
-      <Ore Value="23" Type="Copper_CMM" Start="22"  Depth="7"/>
-      <Ore Value="26" Type="Copper_CMM" Start="25"  Depth="8"/>
-      <Ore Value="25" Type="Copper_CMM" Start="27"  Depth="9"/>
-
+      <Ore Value="30" Type="Copper_CMM" Start="9" Depth="2"/>
+      <Ore Value="21" Type="Copper_CMM" Start="13" Depth="3"/>
+      <Ore Value="22" Type="Copper_CMM" Start="10" Depth="4"/>
+      <Ore Value="23" Type="Copper_CMM" Start="22" Depth="7"/>
+      <Ore Value="26" Type="Copper_CMM" Start="25" Depth="8"/>
+      <Ore Value="25" Type="Copper_CMM" Start="27" Depth="9"/>
+      <Ore Value="176" Type="Copper_CMM" Start="66" Depth="13"/>
+      <Ore Value="177" Type="Copper_CMM" Start="58" Depth="14"/>
+      <Ore Value="178" Type="Copper_CMM" Start="64" Depth="15"/>
+      <Ore Value="179" Type="Copper_CMM" Start="69" Depth="17"/>
+      <Ore Value="180" Type="Copper_CMM" Start="60" Depth="18"/>
+      <Ore Value="181" Type="Copper_CMM" Start="58" Depth="12"/>
       <!-- Fe 2-->
       <Ore Value="12" Type="Iron_02" Start="25" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="16" Type="Iron_02" Start="28" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
@@ -1373,39 +1379,39 @@
     </Atmosphere>
 
     <!-- Earthlike Planet's Atmosphere settings -->
-      <AtmosphereSettings>
-          <RayleighScattering>
-              <X>100</X>
-              <Y>84</Y>
-              <Z>63</Z>
-          </RayleighScattering>
-          <MieScattering>50</MieScattering>
-          <MieColorScattering>
-              <X>44</X>
-              <Y>62</Y>
-              <Z>150</Z>
-          </MieColorScattering>
-          <RayleighHeight>36</RayleighHeight>
-          <RayleighHeightSpace>15</RayleighHeightSpace>
-          <RayleighTransitionModifier>0.4</RayleighTransitionModifier>
-          <MieHeight>200</MieHeight>
-          <MieG>0.999832332</MieG>
-          <Intensity>6</Intensity>
-          <SeaLevelModifier>1.0</SeaLevelModifier>
-          <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
-          <FogIntensity>1.0</FogIntensity>
-          <Scale>1</Scale>
-          <SunColor>
-            <X>1</X>
-            <Y>1</Y>
-            <Z>1</Z>
-          </SunColor>
-          <SunSpecularColor>
-            <X>1</X>
-            <Y>0.97</Y>
-            <Z>0.611</Z>
-          </SunSpecularColor>
-      </AtmosphereSettings>
+    <AtmosphereSettings>
+      <RayleighScattering>
+        <X>100</X>
+        <Y>84</Y>
+        <Z>63</Z>
+      </RayleighScattering>
+      <MieScattering>50</MieScattering>
+      <MieColorScattering>
+        <X>44</X>
+        <Y>62</Y>
+        <Z>150</Z>
+      </MieColorScattering>
+      <RayleighHeight>36</RayleighHeight>
+      <RayleighHeightSpace>15</RayleighHeightSpace>
+      <RayleighTransitionModifier>0.4</RayleighTransitionModifier>
+      <MieHeight>200</MieHeight>
+      <MieG>0.999832332</MieG>
+      <Intensity>6</Intensity>
+      <SeaLevelModifier>1.0</SeaLevelModifier>
+      <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+      <FogIntensity>1.0</FogIntensity>
+      <Scale>1</Scale>
+      <SunColor>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </SunColor>
+      <SunSpecularColor>
+        <X>1</X>
+        <Y>0.97</Y>
+        <Z>0.611</Z>
+      </SunSpecularColor>
+    </AtmosphereSettings>
 
     <!-- Earthlike Planet's Clouds settings-->
 
@@ -1515,279 +1521,279 @@
     </NightAnimalSpawnInfo>
 
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-	
-	<!-- Earthlike Planet's Weather Settings -->
-	
-	<WeatherFrequencyMin>600</WeatherFrequencyMin>
-	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
-	<WeatherGenerators>
-		<WeatherGenerator>
-			<Voxel>Grass</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>FogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>900</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-                <Weather>
-                    <Name>FogHeavy</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>900</MaxLength>
-                    <SpawnOffset>2000</SpawnOffset>
-                </Weather>
-				<Weather>
-					<Name>RainLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>RainHeavy</Name>
-					<Weight>2</Weight>
-					<MinLength>36000</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>ThunderstormLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>ThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>GrassDry</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>FogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-				</Weather>
-				<Weather>
-					<Name>RainLight</Name>
-					<Weight>4</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-				</Weather>
-				<Weather>
-					<Name>ThunderstormLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Soil</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>FogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>900</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-                <Weather>
-                    <Name>FogHeavy</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-                </Weather>
-				<Weather>
-					<Name>RainLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>RainHeavy</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>ThunderstormLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>ThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Snow</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>SnowLight</Name>
-					<Weight>5</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-				</Weather>
-				<Weather>
-					<Name>SnowHeavy</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>2400</MaxLength>
-				</Weather>
-				<Weather>
-					<Name>FogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>900</MaxLength>
-				</Weather>
-            	<Weather>
-					<Name>FogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>900</MaxLength>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Sand</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>SandStormLight</Name>
-					<Weight>4</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1800</MaxLength>
-				</Weather>
-				<Weather>
-					<Name>SandStormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>3600</MaxLength>
-				</Weather>
-            	<Weather>
-					<Name>Dust</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-        <WeatherGenerator>
-			<Voxel>Ice</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>FogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>900</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-                <Weather>
-                    <Name>FogHeavy</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-                </Weather>
-				<Weather>
-					<Name>RainLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>RainHeavy</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>ThunderstormLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>ThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-        <WeatherGenerator>
-			<Voxel>Rock</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>FogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>900</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-                <Weather>
-                    <Name>FogHeavy</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-                </Weather>
-				<Weather>
-					<Name>RainLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>RainHeavy</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>ThunderstormLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>ThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-	</WeatherGenerators>
+
+    <!-- Earthlike Planet's Weather Settings -->
+
+    <WeatherFrequencyMin>600</WeatherFrequencyMin>
+    <WeatherFrequencyMax>5400</WeatherFrequencyMax>
+    <WeatherGenerators>
+      <WeatherGenerator>
+        <Voxel>Grass</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>FogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>900</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>FogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>900</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>RainLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>RainHeavy</Name>
+            <Weight>2</Weight>
+            <MinLength>36000</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>ThunderstormLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>ThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>GrassDry</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>FogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+          </Weather>
+          <Weather>
+            <Name>RainLight</Name>
+            <Weight>4</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+          </Weather>
+          <Weather>
+            <Name>ThunderstormLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Soil</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>FogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>900</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>FogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>RainLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>RainHeavy</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>ThunderstormLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>ThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Snow</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>SnowLight</Name>
+            <Weight>5</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+          </Weather>
+          <Weather>
+            <Name>SnowHeavy</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>2400</MaxLength>
+          </Weather>
+          <Weather>
+            <Name>FogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>900</MaxLength>
+          </Weather>
+          <Weather>
+            <Name>FogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>900</MaxLength>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Sand</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>SandStormLight</Name>
+            <Weight>4</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1800</MaxLength>
+          </Weather>
+          <Weather>
+            <Name>SandStormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>3600</MaxLength>
+          </Weather>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Ice</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>FogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>900</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>FogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>RainLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>RainHeavy</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>ThunderstormLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>ThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Rock</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>FogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>900</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>FogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>RainLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>RainHeavy</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>ThunderstormLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>ThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+    </WeatherGenerators>
   </Definition>
 
-  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Alien -->
+  <Definition xsi:type="PlanetGeneratorDefinition">    <!-- Alien -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Alien</SubtypeId>
@@ -1928,33 +1934,33 @@
       <Ore Value="180" Type="Iron_02" Start="100" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="184" Type="Iron_02" Start="107" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="188" Type="Iron_02" Start="112" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
-	  
-	  <Ore Value="176" Type="Copper_CMM" Start="66"  Depth="13"/>
-		<Ore Value="177" Type="Copper_CMM" Start="58"  Depth="14"/>
-		<Ore Value="178" Type="Copper_CMM" Start="64"  Depth="15"/>
-		<Ore Value="179" Type="Copper_CMM" Start="69"  Depth="17"/>
-		<Ore Value="180" Type="Copper_CMM" Start="60"  Depth="18"/>
-		<Ore Value="181" Type="Copper_CMM" Start="58"  Depth="12"/>
-		<Ore Value="182" Type="Aluminum_CMM" Start="59"  Depth="13"/>
-		<Ore Value="183" Type="Aluminum_CMM" Start="57"  Depth="15"/>
-		<Ore Value="184" Type="Aluminum_CMM" Start="63"  Depth="17"/>
-		<Ore Value="185" Type="Aluminum_CMM" Start="74"  Depth="18"/>
-		<Ore Value="186" Type="Aluminum_CMM" Start="74"  Depth="19"/>
-		<Ore Value="187" Type="Aluminum_CMM" Start="64"  Depth="12"/>
-		<Ore Value="194" Type="Lead_CMM" Start="71"  Depth="13"/>
-		<Ore Value="195" Type="Lead_CMM" Start="55"  Depth="14"/>
-		<Ore Value="196" Type="Lead_CMM" Start="64"  Depth="15"/>
-		<Ore Value="197" Type="Lead_CMM" Start="65"  Depth="16"/>
-		<Ore Value="198" Type="Lead_CMM" Start="71"  Depth="17"/>
-		<Ore Value="199" Type="Lead_CMM" Start="65"  Depth="12"/>
-		<Ore Value="200" Type="Titanium_CMM" Start="64"  Depth="13"/>
-		<Ore Value="201" Type="Titanium_CMM" Start="68"  Depth="14"/>
-		<Ore Value="202" Type="Titanium_CMM" Start="70"  Depth="15"/>
-		<Ore Value="203" Type="Titanium_CMM" Start="68"  Depth="17"/>
-		<Ore Value="204" Type="Titanium_CMM" Start="70"  Depth="18"/>
-		<Ore Value="205" Type="Titanium_CMM" Start="74"  Depth="12"/>
-	  
-	  
+
+      <Ore Value="176" Type="Copper_CMM" Start="66" Depth="13"/>
+      <Ore Value="177" Type="Copper_CMM" Start="58" Depth="14"/>
+      <Ore Value="178" Type="Copper_CMM" Start="64" Depth="15"/>
+      <Ore Value="179" Type="Copper_CMM" Start="69" Depth="17"/>
+      <Ore Value="180" Type="Copper_CMM" Start="60" Depth="18"/>
+      <Ore Value="181" Type="Copper_CMM" Start="58" Depth="12"/>
+      <Ore Value="182" Type="Aluminum_CMM" Start="59" Depth="13"/>
+      <Ore Value="183" Type="Aluminum_CMM" Start="57" Depth="15"/>
+      <Ore Value="184" Type="Aluminum_CMM" Start="63" Depth="17"/>
+      <Ore Value="185" Type="Aluminum_CMM" Start="74" Depth="18"/>
+      <Ore Value="186" Type="Aluminum_CMM" Start="74" Depth="19"/>
+      <Ore Value="187" Type="Aluminum_CMM" Start="64" Depth="12"/>
+      <Ore Value="194" Type="Lead_CMM" Start="71" Depth="13"/>
+      <Ore Value="195" Type="Lead_CMM" Start="55" Depth="14"/>
+      <Ore Value="196" Type="Lead_CMM" Start="64" Depth="15"/>
+      <Ore Value="197" Type="Lead_CMM" Start="65" Depth="16"/>
+      <Ore Value="198" Type="Lead_CMM" Start="71" Depth="17"/>
+      <Ore Value="199" Type="Lead_CMM" Start="65" Depth="12"/>
+      <Ore Value="200" Type="Titanium_CMM" Start="64" Depth="13"/>
+      <Ore Value="201" Type="Titanium_CMM" Start="68" Depth="14"/>
+      <Ore Value="202" Type="Titanium_CMM" Start="70" Depth="15"/>
+      <Ore Value="203" Type="Titanium_CMM" Start="68" Depth="17"/>
+      <Ore Value="204" Type="Titanium_CMM" Start="70" Depth="18"/>
+      <Ore Value="205" Type="Titanium_CMM" Start="74" Depth="12"/>
+
+
     </OreMappings>
 
     <!-- Rules that define where Ambient sounds should be played defined by angle from equator -->
@@ -3148,10 +3154,10 @@
       <CloudLayer>
         <!-- Far layer -->
         <Color>
-            <X>0.81</X>
-            <Y>0.86</Y>
-            <Z>0.42</Z>
-            <W>1</W>
+          <X>0.81</X>
+          <Y>0.86</Y>
+          <Z>0.42</Z>
+          <W>1</W>
         </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
@@ -3172,13 +3178,13 @@
       </CloudLayer>
       <!-- Near layers -->
       <CloudLayer>
-          <Color>
-              <X>0.81</X>
-              <Y>0.86</Y>
-              <Z>0.42</Z>
-              <W>1</W>
-          </Color>
-          <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Color>
+          <X>0.81</X>
+          <Y>0.86</Y>
+          <Z>0.42</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/AlienSky.dds</Texture>
         </Textures>
@@ -3195,13 +3201,13 @@
         <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
       <CloudLayer>
-          <Color>
-              <X>0.81</X>
-              <Y>0.86</Y>
-              <Z>0.42</Z>
-              <W>1</W>
-          </Color>
-              <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Color>
+          <X>0.81</X>
+          <Y>0.86</Y>
+          <Z>0.42</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/AlienSky.dds</Texture>
         </Textures>
@@ -3232,302 +3238,302 @@
       </Animals>
     </AnimalSpawnInfo>
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-	
-	<!-- Alien Planet's Weather Settings -->
-	
-	<WeatherFrequencyMin>600</WeatherFrequencyMin>
-	<WeatherFrequencyMax>1800</WeatherFrequencyMax>
-	<WeatherGenerators>
-	<!-- Alien Grass Weather Generators-->
-		<WeatherGenerator>
-			<Voxel>AlienGreenGrass</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>AlienFogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienFogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>OrangeAlienGrass</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>AlienFogLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienFogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>AlienYellowGrass</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>AlienFogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>Dust</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>SandStormLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-        <WeatherGenerator>
-			<Voxel>Snow</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>SnowLight</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>SnowHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Sand</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>Dust</Name>
-					<Weight>2</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>SandStormLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>SandStormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Ice</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>FogLight</Name>
-					<Weight>2</Weight>
-					<MinLength>416</MinLength>
-					<MaxLength>500</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>FogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>416</MinLength>
-					<MaxLength>500</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-    	<WeatherGenerator>
-			<Voxel>Rock</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>AlienFogLight</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienFogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienRainHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormLight</Name>
-					<Weight>3</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienThunderstormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>18000</MinLength>
-					<MaxLength>72000</MaxLength>
-					<SpawnOffset>1000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-        <WeatherGenerator>
-            <Voxel>Soil</Voxel>
-            <Weathers>
-                <Weather>
-                    <Name>AlienFogLight</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>AlienRainLight</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>AlienThunderstormLight</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>Dust</Name>
-                    <Weight>2</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>SandStormLight</Name>
-                    <Weight>2</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>600</MaxLength>
-                    <SpawnOffset>1000</SpawnOffset>
-                </Weather>
-            </Weathers>
-        </WeatherGenerator>
-	</WeatherGenerators>
+
+    <!-- Alien Planet's Weather Settings -->
+
+    <WeatherFrequencyMin>600</WeatherFrequencyMin>
+    <WeatherFrequencyMax>1800</WeatherFrequencyMax>
+    <WeatherGenerators>
+      <!-- Alien Grass Weather Generators-->
+      <WeatherGenerator>
+        <Voxel>AlienGreenGrass</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienFogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>OrangeAlienGrass</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienFogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>AlienYellowGrass</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SandStormLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Snow</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>SnowLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SnowHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Sand</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SandStormLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SandStormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Ice</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>FogLight</Name>
+            <Weight>2</Weight>
+            <MinLength>416</MinLength>
+            <MaxLength>500</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>FogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>416</MinLength>
+            <MaxLength>500</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Rock</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienFogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>3</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>18000</MinLength>
+            <MaxLength>72000</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Soil</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienRainLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienThunderstormLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>SandStormLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>1000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+    </WeatherGenerators>
   </Definition>
 
-  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Mars -->
+  <Definition xsi:type="PlanetGeneratorDefinition">    <!-- Mars -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Mars</SubtypeId>
@@ -3591,12 +3597,12 @@
       <Ore Value="20" Type="Iron_02" Start="31" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Alu -->
-      <Ore Value="182" Type="Aluminum_CMM" Start="25"  Depth="2"/>
-      <Ore Value="183" Type="Aluminum_CMM" Start="15"  Depth="3"/>
-      <Ore Value="184" Type="Aluminum_CMM" Start="24"  Depth="5"/>
-      <Ore Value="185" Type="Aluminum_CMM" Start="27"  Depth="7"/>
-      <Ore Value="186" Type="Aluminum_CMM" Start="18"  Depth="8"/>
-      <Ore Value="187" Type="Aluminum_CMM" Start="24"  Depth="9"/>
+      <Ore Value="182" Type="Aluminum_CMM" Start="25" Depth="2"/>
+      <Ore Value="183" Type="Aluminum_CMM" Start="15" Depth="3"/>
+      <Ore Value="184" Type="Aluminum_CMM" Start="24" Depth="5"/>
+      <Ore Value="185" Type="Aluminum_CMM" Start="27" Depth="7"/>
+      <Ore Value="186" Type="Aluminum_CMM" Start="18" Depth="8"/>
+      <Ore Value="187" Type="Aluminum_CMM" Start="24" Depth="9"/>
 
       <!-- Ni 1-->
       <Ore Value="24" Type="Nickel_01" Start="10" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
@@ -3838,12 +3844,12 @@
     <CloudLayers>
       <CloudLayer>
         <!-- Far layer -->
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -3863,12 +3869,12 @@
       </CloudLayer>
 
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -3887,12 +3893,12 @@
         <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
       </CloudLayer>
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -3913,13 +3919,13 @@
 
       <!-- Near layers -->
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-              <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
         </Textures>
@@ -3937,13 +3943,13 @@
       </CloudLayer>
 
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-              <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
         </Textures>
@@ -3960,12 +3966,12 @@
         <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -3991,88 +3997,88 @@
 
     <HillParams Min = "-0.01" Max ="0.12"/>
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-	
-	<!-- Mars Planet's Weather Settings -->
-	
-	<WeatherFrequencyMin>1800</WeatherFrequencyMin>
-	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
-	<WeatherGenerators>
-		<WeatherGenerator>
-			<Voxel>MarsSoil</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>MarsStormLight</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>MarsStormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>1200</MinLength>
-					<MaxLength>3600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Dust</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Rock</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>MarsStormLight</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>MarsStormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>1200</MinLength>
-					<MaxLength>3600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Dust</Name>
-					<Weight>2</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-        <WeatherGenerator>
-            <Voxel>Snow</Voxel>
-            <Weathers>
-                <Weather>
-                    <Name>SnowLight</Name>
-                    <Weight>1</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>900</MaxLength>
-                    <SpawnOffset>2000</SpawnOffset>
-                </Weather>
-                <Weather>
-                    <Name>FogLight</Name>
-                    <Weight>2</Weight>
-                    <MinLength>300</MinLength>
-                    <MaxLength>900</MaxLength>
-                    <SpawnOffset>2000</SpawnOffset>
-                </Weather>
-            </Weathers>
-        </WeatherGenerator>
-	</WeatherGenerators>
+
+    <!-- Mars Planet's Weather Settings -->
+
+    <WeatherFrequencyMin>1800</WeatherFrequencyMin>
+    <WeatherFrequencyMax>5400</WeatherFrequencyMax>
+    <WeatherGenerators>
+      <WeatherGenerator>
+        <Voxel>MarsSoil</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>MarsStormLight</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>MarsStormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>1200</MinLength>
+            <MaxLength>3600</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Rock</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>MarsStormLight</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>MarsStormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>1200</MinLength>
+            <MaxLength>3600</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>2</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Snow</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>SnowLight</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>900</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>FogLight</Name>
+            <Weight>2</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>900</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+    </WeatherGenerators>
   </Definition>
 
   <!--Moons -->
-  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Moon -->
+  <Definition xsi:type="PlanetGeneratorDefinition">    <!-- Moon -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Moon</SubtypeId>
@@ -4446,7 +4452,7 @@
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
-  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Europa -->
+  <Definition xsi:type="PlanetGeneratorDefinition">    <!-- Europa -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Europa</SubtypeId>
@@ -4589,31 +4595,31 @@
       <Ore Value="212" Type="Iron_02" Start="110" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="217" Type="Iron_02" Start="114" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="222" Type="Iron_02" Start="119" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
-	  
-	  <Ore Value="176" Type="Copper_CMM" Start="66"  Depth="13"/>
-		<Ore Value="177" Type="Copper_CMM" Start="58"  Depth="14"/>
-		<Ore Value="178" Type="Copper_CMM" Start="64"  Depth="15"/>
-		<Ore Value="179" Type="Copper_CMM" Start="69"  Depth="17"/>
-		<Ore Value="180" Type="Copper_CMM" Start="60"  Depth="18"/>
-		<Ore Value="181" Type="Copper_CMM" Start="58"  Depth="12"/>
-		<Ore Value="182" Type="Aluminum_CMM" Start="59"  Depth="13"/>
-		<Ore Value="183" Type="Aluminum_CMM" Start="57"  Depth="15"/>
-		<Ore Value="184" Type="Aluminum_CMM" Start="63"  Depth="17"/>
-		<Ore Value="185" Type="Aluminum_CMM" Start="74"  Depth="18"/>
-		<Ore Value="186" Type="Aluminum_CMM" Start="74"  Depth="19"/>
-		<Ore Value="187" Type="Aluminum_CMM" Start="64"  Depth="12"/>
-		<Ore Value="194" Type="Lead_CMM" Start="71"  Depth="13"/>
-		<Ore Value="195" Type="Lead_CMM" Start="55"  Depth="14"/>
-		<Ore Value="196" Type="Lead_CMM" Start="64"  Depth="15"/>
-		<Ore Value="197" Type="Lead_CMM" Start="65"  Depth="16"/>
-		<Ore Value="198" Type="Lead_CMM" Start="71"  Depth="17"/>
-		<Ore Value="199" Type="Lead_CMM" Start="65"  Depth="12"/>
-		<Ore Value="200" Type="Titanium_CMM" Start="64"  Depth="13"/>
-		<Ore Value="201" Type="Titanium_CMM" Start="68"  Depth="14"/>
-		<Ore Value="202" Type="Titanium_CMM" Start="70"  Depth="15"/>
-		<Ore Value="203" Type="Titanium_CMM" Start="68"  Depth="17"/>
-		<Ore Value="204" Type="Titanium_CMM" Start="70"  Depth="18"/>
-		<Ore Value="205" Type="Titanium_CMM" Start="74"  Depth="12"/>
+
+      <Ore Value="176" Type="Copper_CMM" Start="66" Depth="13"/>
+      <Ore Value="177" Type="Copper_CMM" Start="58" Depth="14"/>
+      <Ore Value="178" Type="Copper_CMM" Start="64" Depth="15"/>
+      <Ore Value="179" Type="Copper_CMM" Start="69" Depth="17"/>
+      <Ore Value="180" Type="Copper_CMM" Start="60" Depth="18"/>
+      <Ore Value="181" Type="Copper_CMM" Start="58" Depth="12"/>
+      <Ore Value="182" Type="Aluminum_CMM" Start="59" Depth="13"/>
+      <Ore Value="183" Type="Aluminum_CMM" Start="57" Depth="15"/>
+      <Ore Value="184" Type="Aluminum_CMM" Start="63" Depth="17"/>
+      <Ore Value="185" Type="Aluminum_CMM" Start="74" Depth="18"/>
+      <Ore Value="186" Type="Aluminum_CMM" Start="74" Depth="19"/>
+      <Ore Value="187" Type="Aluminum_CMM" Start="64" Depth="12"/>
+      <Ore Value="194" Type="Lead_CMM" Start="71" Depth="13"/>
+      <Ore Value="195" Type="Lead_CMM" Start="55" Depth="14"/>
+      <Ore Value="196" Type="Lead_CMM" Start="64" Depth="15"/>
+      <Ore Value="197" Type="Lead_CMM" Start="65" Depth="16"/>
+      <Ore Value="198" Type="Lead_CMM" Start="71" Depth="17"/>
+      <Ore Value="199" Type="Lead_CMM" Start="65" Depth="12"/>
+      <Ore Value="200" Type="Titanium_CMM" Start="64" Depth="13"/>
+      <Ore Value="201" Type="Titanium_CMM" Start="68" Depth="14"/>
+      <Ore Value="202" Type="Titanium_CMM" Start="70" Depth="15"/>
+      <Ore Value="203" Type="Titanium_CMM" Start="68" Depth="17"/>
+      <Ore Value="204" Type="Titanium_CMM" Start="70" Depth="18"/>
+      <Ore Value="205" Type="Titanium_CMM" Start="74" Depth="12"/>
 
     </OreMappings>
 
@@ -4796,33 +4802,33 @@
     <HillParams Min = "-0.03" Max ="0.06"/>
 
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-	
-	<!-- Europa Planet's Weather Settings -->
-	
-	<WeatherFrequencyMin>300</WeatherFrequencyMin>
-	<WeatherFrequencyMax>600</WeatherFrequencyMax>
-	<GlobalWeather>true</GlobalWeather>
-	<WeatherGenerators>
-		<WeatherGenerator>
-			<Weathers>
-				<Weather>
-					<Name>FogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-				</Weather>
-				<Weather>
-					<Name>SnowHeavy</Name>
-					<Weight>6</Weight>
-					<MinLength>1200</MinLength>
-					<MaxLength>3600</MaxLength>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-	</WeatherGenerators>
+
+    <!-- Europa Planet's Weather Settings -->
+
+    <WeatherFrequencyMin>300</WeatherFrequencyMin>
+    <WeatherFrequencyMax>600</WeatherFrequencyMax>
+    <GlobalWeather>true</GlobalWeather>
+    <WeatherGenerators>
+      <WeatherGenerator>
+        <Weathers>
+          <Weather>
+            <Name>FogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+          </Weather>
+          <Weather>
+            <Name>SnowHeavy</Name>
+            <Weight>6</Weight>
+            <MinLength>1200</MinLength>
+            <MaxLength>3600</MaxLength>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+    </WeatherGenerators>
   </Definition>
 
-  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Titan -->
+  <Definition xsi:type="PlanetGeneratorDefinition">    <!-- Titan -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Titan</SubtypeId>
@@ -4959,30 +4965,30 @@
       <Ore Value="217" Type="Iron_02" Start="114" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="222" Type="Iron_02" Start="119" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 
-      <Ore Value="195" Type="Lead_CMM" Start="11"  Depth="2"/>
-      <Ore Value="196" Type="Lead_CMM" Start="13"  Depth="3"/>
-      <Ore Value="197" Type="Lead_CMM" Start="15"  Depth="4"/>
-      <Ore Value="198" Type="Lead_CMM" Start="16"  Depth="5"/>
-      <Ore Value="199" Type="Lead_CMM" Start="17"  Depth="6"/>
-      <Ore Value="200" Type="Lead_CMM" Start="18"  Depth="7"/>
-      <Ore Value="201" Type="Titanium_CMM" Start="27"  Depth="2"/>
-      <Ore Value="202" Type="Titanium_CMM" Start="18"  Depth="3"/>
-      <Ore Value="203" Type="Titanium_CMM" Start="24"  Depth="4"/>
-      <Ore Value="204" Type="Titanium_CMM" Start="18"  Depth="5"/>
-      <Ore Value="205" Type="Titanium_CMM" Start="24"  Depth="7"/>
-      <Ore Value="206" Type="Titanium_CMM" Start="27"  Depth="8"/>
-	  <Ore Value="194" Type="Lead_CMM" Start="118"  Depth="23"/>
-      <Ore Value="195" Type="Lead_CMM" Start="119"  Depth="24"/>
-      <Ore Value="196" Type="Lead_CMM" Start="126"  Depth="25"/>
-      <Ore Value="197" Type="Lead_CMM" Start="132"  Depth="26"/>
-      <Ore Value="198" Type="Lead_CMM" Start="117"  Depth="27"/>
-      <Ore Value="199" Type="Lead_CMM" Start="133"  Depth="22"/>
-      <Ore Value="200" Type="Titanium_CMM" Start="118"  Depth="23"/>
-      <Ore Value="201" Type="Titanium_CMM" Start="118"  Depth="24"/>
-      <Ore Value="202" Type="Titanium_CMM" Start="129"  Depth="25"/>
-      <Ore Value="203" Type="Titanium_CMM" Start="120"  Depth="27"/>
-      <Ore Value="204" Type="Titanium_CMM" Start="119"  Depth="28"/>
-      <Ore Value="205" Type="Titanium_CMM" Start="119"  Depth="22"/>
+      <Ore Value="195" Type="Lead_CMM" Start="11" Depth="2"/>
+      <Ore Value="196" Type="Lead_CMM" Start="13" Depth="3"/>
+      <Ore Value="197" Type="Lead_CMM" Start="15" Depth="4"/>
+      <Ore Value="198" Type="Lead_CMM" Start="16" Depth="5"/>
+      <Ore Value="199" Type="Lead_CMM" Start="17" Depth="6"/>
+      <Ore Value="200" Type="Lead_CMM" Start="18" Depth="7"/>
+      <Ore Value="201" Type="Titanium_CMM" Start="27" Depth="2"/>
+      <Ore Value="202" Type="Titanium_CMM" Start="18" Depth="3"/>
+      <Ore Value="203" Type="Titanium_CMM" Start="24" Depth="4"/>
+      <Ore Value="204" Type="Titanium_CMM" Start="18" Depth="5"/>
+      <Ore Value="205" Type="Titanium_CMM" Start="24" Depth="7"/>
+      <Ore Value="206" Type="Titanium_CMM" Start="27" Depth="8"/>
+      <Ore Value="194" Type="Lead_CMM" Start="118" Depth="23"/>
+      <Ore Value="195" Type="Lead_CMM" Start="119" Depth="24"/>
+      <Ore Value="196" Type="Lead_CMM" Start="126" Depth="25"/>
+      <Ore Value="197" Type="Lead_CMM" Start="132" Depth="26"/>
+      <Ore Value="198" Type="Lead_CMM" Start="117" Depth="27"/>
+      <Ore Value="199" Type="Lead_CMM" Start="133" Depth="22"/>
+      <Ore Value="200" Type="Titanium_CMM" Start="118" Depth="23"/>
+      <Ore Value="201" Type="Titanium_CMM" Start="118" Depth="24"/>
+      <Ore Value="202" Type="Titanium_CMM" Start="129" Depth="25"/>
+      <Ore Value="203" Type="Titanium_CMM" Start="120" Depth="27"/>
+      <Ore Value="204" Type="Titanium_CMM" Start="119" Depth="28"/>
+      <Ore Value="205" Type="Titanium_CMM" Start="119" Depth="22"/>
 
     </OreMappings>
 
@@ -5407,86 +5413,86 @@
     </AnimalSpawnInfo>
 
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-  
-  	<!-- Titan Moon Weather Settings -->
-	
-	<WeatherFrequencyMin>600</WeatherFrequencyMin>
-	<WeatherFrequencyMax>3600</WeatherFrequencyMax>
-	<WeatherGenerators>
-		<WeatherGenerator>
-			<Voxel>MarsSoil</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>MarsStormLight</Name>
-					<Weight>4</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>MarsStormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Dust</Name>
-					<Weight>4</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-		<WeatherGenerator>
-			<Voxel>Rock</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>MarsStormLight</Name>
-					<Weight>4</Weight>
-					<MinLength>600</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>MarsStormHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1800</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-            	<Weather>
-					<Name>Dust</Name>
-					<Weight>4</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>600</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-    	<WeatherGenerator>
-			<Voxel>Ice</Voxel>
-			<Weathers>
-				<Weather>
-					<Name>AlienFogLight</Name>
-					<Weight>4</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-				<Weather>
-					<Name>AlienFogHeavy</Name>
-					<Weight>1</Weight>
-					<MinLength>300</MinLength>
-					<MaxLength>1200</MaxLength>
-					<SpawnOffset>2000</SpawnOffset>
-				</Weather>
-			</Weathers>
-		</WeatherGenerator>
-	</WeatherGenerators>
+
+    <!-- Titan Moon Weather Settings -->
+
+    <WeatherFrequencyMin>600</WeatherFrequencyMin>
+    <WeatherFrequencyMax>3600</WeatherFrequencyMax>
+    <WeatherGenerators>
+      <WeatherGenerator>
+        <Voxel>MarsSoil</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>MarsStormLight</Name>
+            <Weight>4</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>MarsStormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>4</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Rock</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>MarsStormLight</Name>
+            <Weight>4</Weight>
+            <MinLength>600</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>MarsStormHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1800</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>Dust</Name>
+            <Weight>4</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>600</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+      <WeatherGenerator>
+        <Voxel>Ice</Voxel>
+        <Weathers>
+          <Weather>
+            <Name>AlienFogLight</Name>
+            <Weight>4</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+          <Weather>
+            <Name>AlienFogHeavy</Name>
+            <Weight>1</Weight>
+            <MinLength>300</MinLength>
+            <MaxLength>1200</MaxLength>
+            <SpawnOffset>2000</SpawnOffset>
+          </Weather>
+        </Weathers>
+      </WeatherGenerator>
+    </WeatherGenerators>
   </Definition>
-  
+
   <!--Tutorial Planets -->
   <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
@@ -6856,29 +6862,29 @@
     </Atmosphere>
 
     <!-- EarthLikeTutorial Planet's Atmosphere settings-->
-      <AtmosphereSettings>
-          <RayleighScattering>
-              <X>100</X>
-              <Y>84</Y>
-              <Z>63</Z>
-          </RayleighScattering>
-          <MieScattering>50</MieScattering>
-          <MieColorScattering>
-              <X>44</X>
-              <Y>62</Y>
-              <Z>150</Z>
-          </MieColorScattering>
-          <RayleighHeight>36</RayleighHeight>
-          <RayleighHeightSpace>15</RayleighHeightSpace>
-          <RayleighTransitionModifier>0.4</RayleighTransitionModifier>
-          <MieHeight>200</MieHeight>
-          <MieG>0.999832332</MieG>
-          <Intensity>6</Intensity>
-          <SeaLevelModifier>1.0</SeaLevelModifier>
-          <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
-          <FogIntensity>1.0</FogIntensity>
-          <Scale>1</Scale>
-      </AtmosphereSettings>
+    <AtmosphereSettings>
+      <RayleighScattering>
+        <X>100</X>
+        <Y>84</Y>
+        <Z>63</Z>
+      </RayleighScattering>
+      <MieScattering>50</MieScattering>
+      <MieColorScattering>
+        <X>44</X>
+        <Y>62</Y>
+        <Z>150</Z>
+      </MieColorScattering>
+      <RayleighHeight>36</RayleighHeight>
+      <RayleighHeightSpace>15</RayleighHeightSpace>
+      <RayleighTransitionModifier>0.4</RayleighTransitionModifier>
+      <MieHeight>200</MieHeight>
+      <MieG>0.999832332</MieG>
+      <Intensity>6</Intensity>
+      <SeaLevelModifier>1.0</SeaLevelModifier>
+      <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+      <FogIntensity>1.0</FogIntensity>
+      <Scale>1</Scale>
+    </AtmosphereSettings>
 
     <!-- Earthlike Clouds settings-->
 
@@ -7436,7 +7442,7 @@
     <MaterialsMinDepth Min="20" Max="20"/>
 
     <HillParams Min = "-0.03" Max ="0.03"/>
-    
+
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
@@ -7746,12 +7752,12 @@
 
     <CloudLayers>
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <!-- Far layer -->
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
@@ -7772,12 +7778,12 @@
       </CloudLayer>
 
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -7796,12 +7802,12 @@
         <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
       </CloudLayer>
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -7822,13 +7828,13 @@
 
       <!-- Near layers -->
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-              <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
         </Textures>
@@ -7846,13 +7852,13 @@
       </CloudLayer>
 
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
-              <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
         </Textures>
@@ -7869,12 +7875,12 @@
         <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
       </CloudLayer>
       <CloudLayer>
-          <Color>
-              <X>0.94</X>
-              <Y>0.73</Y>
-              <Z>0.48</Z>
-              <W>1</W>
-          </Color>
+        <Color>
+          <X>0.94</X>
+          <Y>0.73</Y>
+          <Z>0.48</Z>
+          <W>1</W>
+        </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
         <Textures>
           <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
@@ -7899,7 +7905,7 @@
     <MaterialsMinDepth Min="20" Max="20"/>
 
     <HillParams Min = "-0.01" Max ="0.12"/>
-    
+
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
@@ -8059,9 +8065,12 @@
 
     <!-- Music categories that will be played on this planet -->
     <MusicCategories>
-      <MusicCategory Category="Planet" Frequency="0.75" />  <!-- 75% chance -->
-      <MusicCategory Category="Calm" Frequency="0.2" />     <!-- 20% chance -->
-      <MusicCategory Category="Mystery" Frequency="0.05" /> <!--  5% chance -->
+      <MusicCategory Category="Planet" Frequency="0.75" />
+      <!-- 75% chance -->
+      <MusicCategory Category="Calm" Frequency="0.2" />
+      <!-- 20% chance -->
+      <MusicCategory Category="Mystery" Frequency="0.05" />
+      <!--  5% chance -->
     </MusicCategories>
 
 
@@ -8797,29 +8806,29 @@
     </Atmosphere>
 
     <!-- EarthLikeModExample Planet's Atmosphere settings-->
-      <AtmosphereSettings>
-          <RayleighScattering>
-              <X>100</X>
-              <Y>84</Y>
-              <Z>63</Z>
-          </RayleighScattering>
-          <MieScattering>50</MieScattering>
-          <MieColorScattering>
-              <X>44</X>
-              <Y>62</Y>
-              <Z>150</Z>
-          </MieColorScattering>
-          <RayleighHeight>36</RayleighHeight>
-          <RayleighHeightSpace>15</RayleighHeightSpace>
-          <RayleighTransitionModifier>0.4</RayleighTransitionModifier>
-          <MieHeight>200</MieHeight>
-          <MieG>0.999832332</MieG>
-          <Intensity>6</Intensity>
-          <SeaLevelModifier>1.0</SeaLevelModifier>
-          <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
-          <FogIntensity>1.0</FogIntensity>
-          <Scale>1</Scale>
-      </AtmosphereSettings>
+    <AtmosphereSettings>
+      <RayleighScattering>
+        <X>100</X>
+        <Y>84</Y>
+        <Z>63</Z>
+      </RayleighScattering>
+      <MieScattering>50</MieScattering>
+      <MieColorScattering>
+        <X>44</X>
+        <Y>62</Y>
+        <Z>150</Z>
+      </MieColorScattering>
+      <RayleighHeight>36</RayleighHeight>
+      <RayleighHeightSpace>15</RayleighHeightSpace>
+      <RayleighTransitionModifier>0.4</RayleighTransitionModifier>
+      <MieHeight>200</MieHeight>
+      <MieG>0.999832332</MieG>
+      <Intensity>6</Intensity>
+      <SeaLevelModifier>1.0</SeaLevelModifier>
+      <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+      <FogIntensity>1.0</FogIntensity>
+      <Scale>1</Scale>
+    </AtmosphereSettings>
 
     <!-- Earthlike Clouds settings-->
     <CloudLayers>
@@ -9175,7 +9184,8 @@
       <Material Material="Iron_02" Value ="195" MaxDepth ="5"/>
       <Material Material="Nickel_01" Value ="200" MaxDepth ="5"/>
       <Material Material="Cobalt_01" Value ="205" MaxDepth ="5"/>
-      <Material Material="Magnesium_01" Value ="210" MaxDepth ="5"/>z
+      <Material Material="Magnesium_01" Value ="210" MaxDepth ="5"/>
+
       <Material Material="Silicon_01" Value ="215" MaxDepth ="5"/>
       <Material Material="Silver_01" Value ="220" MaxDepth ="5"/>
       <Material Material="Gold_01" Value ="225" MaxDepth ="5"/>
