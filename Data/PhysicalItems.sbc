@@ -363,24 +363,7 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>IconSymbol_Au</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Hydrogen -->
-      <Id>
-        <TypeId>Ingot</TypeId>
-        <SubtypeId>Hydrogen</SubtypeId>
-      </Id>
-      <DisplayName>Liquid Hydrogen</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\hydrogen_ingot.dds</Icon>
-      <Size>
-        <X>0.072</X>
-        <Y>0.072</Y>
-        <Z>0.072</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.052</Volume>
-      <Model>Models\Ingots\OxygenTankItem.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <IconSymbol>H</IconSymbol>
-    </PhysicalItem>
+
     <PhysicalItem>      <!-- Iron -->
       <Id>
         <TypeId>Ingot</TypeId>
@@ -488,24 +471,6 @@
       <Model>Models\Ingots\nickel_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>IconSymbol_Ni</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>      <!-- Oxygen -->
-      <Id>
-        <TypeId>Ingot</TypeId>
-        <SubtypeId>Oxygen</SubtypeId>
-      </Id>
-      <DisplayName>Liquid Oxygen</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\oxygen_ingot.dds</Icon>
-      <Size>
-        <X>0.072</X>
-        <Y>0.072</Y>
-        <Z>0.072</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.052</Volume>
-      <Model>Models\Ingots\OxygenTankItem.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <IconSymbol>O</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>      <!-- Platinum -->
       <Id>
