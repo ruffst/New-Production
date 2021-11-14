@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClasses>
+	
+        <Class>					//Tools
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Tools</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+            <Description>Description_BlueprintClass_Tools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//BasicTools
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BasicTools</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicTools</DisplayName>
+            <Description>Description_BlueprintClass_BasicTools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+		</Class>
+		
+		
+        <Class>					//EliteTools
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>EliteTools</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+            <Description>Description_BlueprintClass_Tools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//ComponentsDrahtextruder
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Components</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_ComponentsDrahtextruder</DisplayName>
+            <Description>Description_BlueprintClass_ComponentsDrahtextruder</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//ComponentsWickelmaschine
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ComponentsWickelmaschine</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_ComponentsWickelmaschine</DisplayName>
+            <Description>Description_BlueprintClass_ComponentsWickelmaschine</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//ComponentsRohrextruder
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ComponentsRohrextruder</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_ComponentsRohrextruder</DisplayName>
+            <Description>Description_BlueprintClass_ComponentsRohrextruder</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//ComponentsPlattenpresse
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ComponentsPlattenpresse</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_ComponentsPlattenpresse</DisplayName>
+            <Description>Description_BlueprintClass_ComponentsPlattenpresse</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//ComponentsElektroAssembler
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ComponentsElektroAssembler</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_ComponentsElektroAssembler</DisplayName>
+            <Description>Description_BlueprintClass_ComponentsElektroAssembler</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//ComponentsFertiger
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ComponentsFertiger</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_ComponentsFertiger</DisplayName>
+            <Description>Description_BlueprintClass_ComponentsFertiger</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//ComponentsVerbrauchsmaterialAssembler
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>ComponentsVerbrauchsmaterialAssembler</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_ComponentsVerbrauchsmaterialAssembler</DisplayName>
+            <Description>Description_BlueprintClass_ComponentsVerbrauchsmaterialAssembler</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//SimpleComponents
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>SimpleComponents</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+            <Description>Description_BlueprintClass_Components</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component.dds</FocusIcon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component_focus.dds</HighlightIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//BasicComponents
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>BasicComponents</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
+            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//Ammo
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Ammo</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ammo</DisplayName>
+            <Description>Description_BlueprintClass_Ammo</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//Consumables
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Consumables</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Consumables</DisplayName>
+            <Description>Description_BlueprintClass_Consumables</Description>
+            <Icon>Textures\GUI\Icons\buttons\Consumables.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\Consumables.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\ConsumablesFocus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//EliteConsumables
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>EliteConsumables</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Consumables</DisplayName>
+            <Description>Description_BlueprintClass_Consumables</Description>
+            <Icon>Textures\GUI\Icons\buttons\Consumables.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\Consumables.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\ConsumablesFocus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//Ingots
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Ingots</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//CommonMetals
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>CommonMetals</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_CommonMetals</DisplayName>
+            <Description>Description_BlueprintClass_CommonMetals</Description>
+            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//Ice
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Ice</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ice</DisplayName>
+            <Description>Description_BlueprintClass_Ice</Description>
+            <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//OxygenBottles
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>OxygenBottles</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_OxygenBottles</DisplayName>
+            <Description>Description_BlueprintClass_OxygenBottles</Description>
+            <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+		
+		
+        <Class>					//HydrogenBottles
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>HydrogenBottles</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_HydrogenBottles</DisplayName>
+            <Description>Description_BlueprintClass_HydrogenBottles</Description>
+            <Icon>Textures\GUI\Icons\ore_H2O_ice.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+		
+		
+  </BlueprintClasses>
+  <BlueprintClassEntries>
+    
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="ConstructionComponent" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="GirderComponent" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="MetalGrid" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="InteriorPlate" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="SteelPlate" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="SmallTube" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="LargeTube" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="MotorComponent" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="Display" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="BulletproofGlass" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="ComputerComponent" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="MedicalComponent" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="RadioCommunicationComponent" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="DetectorComponent" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="SolarCell" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="PowerCell" />
+
+    <Entry Class="BasicComponents" BlueprintSubtypeId="StoneOreToIngotBasic" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="Display" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="SolarCell" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="SteelPlate" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="InteriorPlate" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="MotorComponent" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="GirderComponent" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="ComputerComponent" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="ConstructionComponent" />
+
+    <Entry Class="BasicTools" BlueprintSubtypeId="Welder" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="HandDrill" />
+    <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder" />
+    
+    <Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="IronOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="ScrapToIronIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="NickelOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="CobaltOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="MagnesiumOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="SiliconOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="SilverOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="GoldOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="PlatinumOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="UraniumOreToIngot" />
+
+    <Entry Class="CommonMetals" BlueprintSubtypeId="IronOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="NickelOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="CobaltOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="MagnesiumOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="ScrapToIronIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="SiliconOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="StoneOreToIngot" />
+	
+	
+	
+	
+	
+	
+	
+	<Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Kupferdraht" />
+	<Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Golddraht" />
+	<Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Platindraht" />
+	<Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Superconductor" />
+	
+	<Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="Spulle" />
+	<Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="Strator" />
+	<Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="Rotor" />
+	
+	<Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="SmallTube" />
+	<Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="LargeTube" />
+	<Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="GirderComponent" />
+	<Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="ConstructionComponent" />
+	
+	<Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="SteelPlate" />
+	<Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="Titanplatte" />
+	<Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="InteriorPlate" />
+	<Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="Bleiplatte" />
+	<Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="BulletproofGlass" />
+	<Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="MetalGrid" />
+	<Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="SolarCell" />
+	
+	<Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Display" />
+	<Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="SMD" />
+	<Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="ComputerComponent" />
+	<Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Gold-Computer" />
+	<Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Platin-Computer" />
+	<Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Titan-Computer" />
+	
+    <Entry Class="ComponentsFertiger" BlueprintSubtypeId="MotorComponent" />
+    <Entry Class="ComponentsFertiger" BlueprintSubtypeId="ReactorComponent" />
+    <Entry Class="ComponentsFertiger" BlueprintSubtypeId="ThrustComponent" />
+    <Entry Class="ComponentsFertiger" BlueprintSubtypeId="GravityGeneratorComponent" />
+	<Entry Class="ComponentsFertiger" BlueprintSubtypeId="RadioCommunicationComponent" />
+    <Entry Class="ComponentsFertiger" BlueprintSubtypeId="DetectorComponent" />
+    <Entry Class="ComponentsFertiger" BlueprintSubtypeId="PowerCell" />
+    <Entry Class="ComponentsFertiger" BlueprintSubtypeId="MedicalComponent" />
+	
+	<Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="ExplosivesComponent" />
+	<Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="SemiAutoPistol" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="FullAutoPistol" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AutomaticRifle" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="RapidFireAutomaticRifle" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Welder" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Welder2" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AngleGrinder" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AngleGrinder2" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="HandDrill" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="HandDrill2" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="OxygenBottle" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="HydrogenBottle" />
+	
+	<Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Welder" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="HandDrill" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AngleGrinder" />
+	
+	<Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="OxygenBottle" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="HydrogenBottle" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Welder" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Welder2" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Welder3" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Welder4" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="HandDrill" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="HandDrill2" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="HandDrill3" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="HandDrill4" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AngleGrinder" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AngleGrinder2" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AngleGrinder3" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AngleGrinder4" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AutomaticRifle" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="SemiAutoPistol" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="FullAutoPistol" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="EliteAutoPistol" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="PreciseAutomaticRifle" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="RapidFireAutomaticRifle" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="UltimateAutomaticRifle" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="BasicHandHeldLauncher" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AdvancedHandHeldLauncher" />
+	
+	<Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="ExplosivesComponent" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="NATO_25x184mmMagazine" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Missile200mm" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="SemiAutoPistolMagazine" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="FullAutoPistolMagazine" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="ElitePistolMagazine" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AutomaticRifleGun_Mag_20rd" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="PreciseAutomaticRifleGun_Mag_5rd" />
+    <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="UltimateAutomaticRifleGun_Mag_30rd" />
+	<Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Canvas" />
+
+
+
+
+
+
+
+    
+
+	
+    <Entry Class="Ice" BlueprintSubtypeId="IceToOxygen" />
+    <Entry Class="OxygenBottles" BlueprintSubtypeId="OxygenBottlesRefill" />
+    <Entry Class="HydrogenBottles" BlueprintSubtypeId="HydrogenBottlesRefill" />
+  </BlueprintClassEntries>
+</Definitions>
+
+
+<Entry Class="" BlueprintSubtypeId="" />
