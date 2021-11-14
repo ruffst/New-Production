@@ -2,7 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
-    <Blueprint>
+
+    <Blueprint>         //StoneOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot</SubtypeId>
@@ -20,7 +21,8 @@
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //StoneOreToIngotBasic
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngotBasic</SubtypeId>
@@ -35,11 +37,13 @@
         <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="0.24" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="0.4" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.02" TypeId="Ingot" SubtypeId="Copper" />
       </Results>
       <Priority>1000</Priority>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //StoneOreToIngot_Deconstruction
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot_Deconstruction</SubtypeId>
@@ -55,7 +59,8 @@
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //IronOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IronOreToIngot</SubtypeId>
@@ -69,7 +74,8 @@
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //NickelOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>NickelOreToIngot</SubtypeId>
@@ -82,7 +88,8 @@
       <Result Amount="0.4" TypeId="Ingot" SubtypeId="Nickel" />
       <BaseProductionTimeInSeconds>0.66</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //CobaltOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CobaltOreToIngot</SubtypeId>
@@ -95,7 +102,8 @@
       <Result Amount="0.3" TypeId="Ingot" SubtypeId="Cobalt" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //MagnesiumOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MagnesiumOreToIngot</SubtypeId>
@@ -108,7 +116,8 @@
       <Result Amount="0.007" TypeId="Ingot" SubtypeId="Magnesium" />
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //SiliconOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SiliconOreToIngot</SubtypeId>
@@ -121,7 +130,8 @@
       <Result Amount="0.7" TypeId="Ingot" SubtypeId="Silicon" />
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //SilverOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SilverOreToIngot</SubtypeId>
@@ -134,7 +144,8 @@
       <Result Amount="0.1" TypeId="Ingot" SubtypeId="Silver" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //GoldOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldOreToIngot</SubtypeId>
@@ -147,7 +158,8 @@
       <Result Amount="0.01" TypeId="Ingot" SubtypeId="Gold" />
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //PlatinumOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinumOreToIngot</SubtypeId>
@@ -160,7 +172,8 @@
       <Result Amount="0.005" TypeId="Ingot" SubtypeId="Platinum" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //UraniumOreToIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>UraniumOreToIngot</SubtypeId>
@@ -173,6 +186,7 @@
       <Result Amount="0.01" TypeId="Ingot" SubtypeId="Uranium" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
+    
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -186,7 +200,8 @@
       <Result Amount="0.8" TypeId="Ingot" SubtypeId="Iron" />
       <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //ScrapToIronIngot
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ScrapToIronIngot</SubtypeId>
@@ -199,7 +214,8 @@
       <Result Amount="0.8" TypeId="Ingot" SubtypeId="Iron" />
       <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //IceToOxygen
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IceToOxygen</SubtypeId>
@@ -212,7 +228,8 @@
       <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //OxygenBottlesRefill
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>OxygenBottlesRefill</SubtypeId>
@@ -226,7 +243,8 @@
       <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //OxygenBottle
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>OxygenBottle</SubtypeId>
@@ -242,7 +260,8 @@
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //HydrogenBottlesRefill
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HydrogenBottlesRefill</SubtypeId>
@@ -255,7 +274,8 @@
       <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //HydrogenBottle
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HydrogenBottle</SubtypeId>
@@ -271,7 +291,8 @@
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //ConstructionComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ConstructionComponent</SubtypeId>
@@ -285,7 +306,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //GirderComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GirderComponent</SubtypeId>
@@ -299,7 +321,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //MetalGrid
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MetalGrid</SubtypeId>
@@ -315,7 +338,8 @@
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //InteriorPlate
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>InteriorPlate</SubtypeId>
@@ -329,7 +353,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //SteelPlate
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SteelPlate</SubtypeId>
@@ -343,7 +368,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //SmallTube
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SmallTube</SubtypeId>
@@ -357,7 +383,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //LargeTube
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>LargeTube</SubtypeId>
@@ -371,7 +398,8 @@
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //MotorComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MotorComponent</SubtypeId>
@@ -386,7 +414,8 @@
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //Display
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Display</SubtypeId>
@@ -401,7 +430,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //BulletproofGlass
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>BulletproofGlass</SubtypeId>
@@ -415,7 +445,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //ComputerComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ComputerComponent</SubtypeId>
@@ -430,7 +461,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //ReactorComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ReactorComponent</SubtypeId>
@@ -445,7 +477,8 @@
       <Result Amount="1" TypeId="Component" SubtypeId="Reactor" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //ThrustComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ThrustComponent</SubtypeId>
@@ -461,7 +494,8 @@
       <Result Amount="1" TypeId="Component" SubtypeId="Thrust" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //GravityGeneratorComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GravityGeneratorComponent</SubtypeId>
@@ -477,7 +511,8 @@
       <Result Amount="1" TypeId="Component" SubtypeId="GravityGenerator" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //MedicalComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MedicalComponent</SubtypeId>
@@ -493,7 +528,8 @@
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //RadioCommunicationComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>RadioCommunicationComponent</SubtypeId>
@@ -508,7 +544,8 @@
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //DetectorComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>DetectorComponent</SubtypeId>
@@ -523,7 +560,8 @@
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //Canvas
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Canvas</SubtypeId>
@@ -537,7 +575,8 @@
       <Result Amount="1" TypeId="Component" SubtypeId="Canvas" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //ExplosivesComponent
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ExplosivesComponent</SubtypeId>
@@ -551,7 +590,8 @@
       <Result Amount="1" TypeId="Component" SubtypeId="Explosives" />
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //SolarCell
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SolarCell</SubtypeId>
@@ -566,7 +606,8 @@
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //PowerCell
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PowerCell</SubtypeId>
@@ -582,7 +623,8 @@
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //BasicHandHeldLauncher
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>BasicHandHeldLauncher</SubtypeId>
@@ -597,7 +639,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="BasicHandHeldLauncherItem" />
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //AdvancedHandHeldLauncher
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AdvancedHandHeldLauncher</SubtypeId>
@@ -613,8 +656,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AdvancedHandHeldLauncherItem" />
       <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
     </Blueprint>
-
-    <Blueprint>
+          
+    <Blueprint>         //SemiAutoPistol
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SemiAutoPistol</SubtypeId>
@@ -628,7 +671,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="SemiAutoPistolItem" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //FullAutoPistol
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FullAutoPistol</SubtypeId>
@@ -642,7 +686,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="FullAutoPistolItem" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //EliteAutoPistol
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>EliteAutoPistol</SubtypeId>
@@ -658,7 +703,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="ElitePistolItem" />
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //AutomaticRifle
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AutomaticRifle</SubtypeId>
@@ -672,7 +718,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AutomaticRifleItem" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //RapidFireAutomaticRifle
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>RapidFireAutomaticRifle</SubtypeId>
@@ -686,7 +733,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="RapidFireAutomaticRifleItem" />
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //PreciseAutomaticRifle
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PreciseAutomaticRifle</SubtypeId>
@@ -701,7 +749,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="PreciseAutomaticRifleItem" />
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //UltimateAutomaticRifle
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>UltimateAutomaticRifle</SubtypeId>
@@ -718,7 +767,7 @@
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>
+    <Blueprint>         //Welder
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Welder</SubtypeId>
@@ -734,7 +783,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //Welder2
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Welder2</SubtypeId>
@@ -751,7 +801,8 @@
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //Welder3
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Welder3</SubtypeId>
@@ -767,7 +818,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder3Item" />
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //Welder4
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Welder4</SubtypeId>
@@ -783,7 +835,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder4Item" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //AngleGrinder
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AngleGrinder</SubtypeId>
@@ -800,7 +853,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //AngleGrinder2
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AngleGrinder2</SubtypeId>
@@ -817,7 +871,8 @@
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //AngleGrinder3
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AngleGrinder3</SubtypeId>
@@ -834,7 +889,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder3Item" />
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //AngleGrinder4
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AngleGrinder4</SubtypeId>
@@ -851,7 +907,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder4Item" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //HandDrill
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HandDrill</SubtypeId>
@@ -867,7 +924,8 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //HandDrill2
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HandDrill2</SubtypeId>
@@ -883,7 +941,8 @@
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //HandDrill3
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HandDrill3</SubtypeId>
@@ -899,7 +958,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill3Item" />
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //HandDrill4
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HandDrill4</SubtypeId>
@@ -915,7 +975,8 @@
       <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill4Item" />
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //SemiAutoPistolMagazine
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SemiAutoPistolMagazine</SubtypeId>
@@ -930,7 +991,8 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SemiAutoPistolMagazine" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //FullAutoPistolMagazine
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FullAutoPistolMagazine</SubtypeId>
@@ -945,7 +1007,8 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="FullAutoPistolMagazine" />
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //ElitePistolMagazine
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ElitePistolMagazine</SubtypeId>
@@ -960,7 +1023,8 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="ElitePistolMagazine" />
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //AutomaticRifleGun_Mag_20rd
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
@@ -975,7 +1039,8 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="AutomaticRifleGun_Mag_20rd" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //RapidFireAutomaticRifleGun_Mag_50rd
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>RapidFireAutomaticRifleGun_Mag_50rd</SubtypeId>
@@ -990,7 +1055,8 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //PreciseAutomaticRifleGun_Mag_5rd
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PreciseAutomaticRifleGun_Mag_5rd</SubtypeId>
@@ -1005,7 +1071,8 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="PreciseAutomaticRifleGun_Mag_5rd" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //UltimateAutomaticRifleGun_Mag_30rd
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>UltimateAutomaticRifleGun_Mag_30rd</SubtypeId>
@@ -1021,7 +1088,7 @@
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
     <!--
-    <Blueprint>
+    <Blueprint>         //InteriorTurret_Mag_100rd
         <Id>
             <TypeId>BlueprintDefinition</TypeId>
             <SubtypeId>InteriorTurret_Mag_100rd</SubtypeId>
@@ -1037,7 +1104,7 @@
         <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
     -->
-    <!--<Blueprint>
+    <!--<Blueprint>         //NATO_5p56x45mmMagazine
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>NATO_5p56x45mmMagazine</SubtypeId>
@@ -1052,7 +1119,8 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint> -->
-    <Blueprint>
+
+    <Blueprint>         //NATO_25x184mmMagazine
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>NATO_25x184mmMagazine</SubtypeId>
@@ -1067,7 +1135,8 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //Missile200mm
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Missile200mm</SubtypeId>
@@ -1085,7 +1154,8 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>
+
+    <Blueprint>         //Superconductor
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Superconductor</SubtypeId>
@@ -1100,7 +1170,7 @@
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>
+    <Blueprint>         //ZoneChip
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ZoneChip</SubtypeId>
