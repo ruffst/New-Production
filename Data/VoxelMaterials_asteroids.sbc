@@ -1,6 +1,79 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VoxelMaterials>
+  		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Titanium-->	
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Titanium_CMM</SubtypeId>
+			</Id>
+			<MaterialTypeName>Rock</MaterialTypeName>
+			<MinedOre>Titanium</MinedOre>
+			<MinedOreRatio>1</MinedOreRatio>
+			<CanBeHarvested>true</CanBeHarvested>
+			<IsRare>true</IsRare>
+			<IsIndestructible>false</IsIndestructible>
+			<DamageRatio>0.4</DamageRatio>
+			<ParticleEffect>Collision_Meteor</ParticleEffect>
+			<SpecularPower>19</SpecularPower>
+			<SpecularShininess>6.2</SpecularShininess>
+			<ColorMetalXZnY>Textures\Voxels\Titanium_cm.dds</ColorMetalXZnY>			
+			<NormalGlossXZnY>Textures\Voxels\Titanium_ng.dds</NormalGlossXZnY>
+		</VoxelMaterial>
+  		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Lead_01(Native)-->	
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Lead_CMM</SubtypeId>
+			</Id>
+			<MaterialTypeName>Rock</MaterialTypeName>
+			<MinedOre>Lead</MinedOre>
+			<MinedOreRatio>1</MinedOreRatio>
+			<CanBeHarvested>true</CanBeHarvested>
+			<IsRare>true</IsRare>
+			<IsIndestructible>false</IsIndestructible>
+			<DamageRatio>0.5</DamageRatio>
+			<ParticleEffect>Collision_Meteor</ParticleEffect>
+			<SpecularPower>10</SpecularPower>
+			<SpecularShininess>6.5</SpecularShininess>
+			<ColorMetalXZnY>Textures\Voxels\Lead_cm.dds</ColorMetalXZnY>
+			<NormalGlossXZnY>Textures\Voxels\Lead_ng.dds</NormalGlossXZnY>
+		</VoxelMaterial>
+  		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Aluminum(Native)-->	
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Aluminum_CMM</SubtypeId>
+			</Id>
+			<MaterialTypeName>Rock</MaterialTypeName>
+			<MinedOre>Aluminum</MinedOre>
+			<MinedOreRatio>0.6</MinedOreRatio>
+			<CanBeHarvested>true</CanBeHarvested>
+			<IsRare>true</IsRare>
+			<SpawnsInAsteroids>true</SpawnsInAsteroids>
+			<IsIndestructible>false</IsIndestructible>
+			<DamageRatio>0.4</DamageRatio>
+			<ParticleEffect>Collision_Meteor</ParticleEffect>
+			<SpecularPower>21</SpecularPower>
+			<SpecularShininess>6.632</SpecularShininess>
+			<ColorMetalXZnY>Textures\Voxels\Aluminium_cm.dds</ColorMetalXZnY>			
+			<NormalGlossXZnY>Textures\Voxels\Aluminium_ng.dds</NormalGlossXZnY>			
+		</VoxelMaterial>
+  		<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">  <!-- Copper (Native)-->	
+			<Id>
+				<TypeId>VoxelMaterialDefinition</TypeId>
+				<SubtypeId>Copper_CMM</SubtypeId>
+			</Id>		
+			<MaterialTypeName>Rock</MaterialTypeName>
+			<MinedOre>Copper</MinedOre>
+			<MinedOreRatio>1</MinedOreRatio>
+			<CanBeHarvested>true</CanBeHarvested>
+			<IsRare>true</IsRare>
+			<IsIndestructible>false</IsIndestructible>
+			<DamageRatio>0.4</DamageRatio>
+			<ParticleEffect>Collision_Meteor</ParticleEffect>
+			<SpecularPower>11</SpecularPower>
+			<SpecularShininess>6.096</SpecularShininess>
+			<ColorMetalXZnY>Textures\Voxels\Copper_cm.dds</ColorMetalXZnY>
+			<NormalGlossXZnY>Textures\Voxels\Copper_ng.dds</NormalGlossXZnY>
+		</VoxelMaterial>
     <!-- Stone_01 - Stone_05 -->
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
