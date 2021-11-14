@@ -2,6 +2,116 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
+    <Blueprint>  <!-- ScrapToIronIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CMM_T5_ScrapToIronIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronOre</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Scrap" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.2327916" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="13.5795516" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.7136091" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="0.7165247" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.1590056" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.2235173" TypeId="Ingot" SubtypeId="Aluminium" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+   <Blueprint>  <!-- ElectronicScrapToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CMM_T5_ElectronicScrapToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Electronic Scrap</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_electronic_scrap.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="ElectronicScrap" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.1829105" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="0.2436542" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="0.1850699" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="0.2054501" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="0.4277130" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.1179247" TypeId="Ingot" SubtypeId="Phosphorus" />
+        <Item Amount="0.0539912" TypeId="Ingot" SubtypeId="Chlorine" />
+        <Item Amount="0.0912550" TypeId="Ingot" SubtypeId="Potassium" />
+        <Item Amount="0.0077579" TypeId="Ingot" SubtypeId="Vanadium" />
+        <Item Amount="0.3959233" TypeId="Ingot" SubtypeId="Chromium" />
+        <Item Amount="0.4183243" TypeId="Ingot" SubtypeId="Manganese" />
+        <Item Amount="0.4469197" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="0.4487457" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="2.4193489" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.2654522" TypeId="Ingot" SubtypeId="Gallium" />
+        <Item Amount="0.2852445" TypeId="Ingot" SubtypeId="Arsenic" />
+        <Item Amount="0.0406183" TypeId="Ingot" SubtypeId="Yttrium" />
+        <Item Amount="0.3652666" TypeId="Ingot" SubtypeId="Molybdenum" />
+        <Item Amount="0.8103330" TypeId="Ingot" SubtypeId="Palladium" />
+        <Item Amount="0.8213603" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="0.4279757" TypeId="Ingot" SubtypeId="Cadmium" />
+        <Item Amount="0.4371397" TypeId="Ingot" SubtypeId="Indium" />
+        <Item Amount="0.4519575" TypeId="Ingot" SubtypeId="Tin" />
+        <Item Amount="0.0185428" TypeId="Ingot" SubtypeId="Antimony" />
+        <Item Amount="0.0688912" TypeId="Ingot" SubtypeId="Tantalum" />
+        <Item Amount="0.0279969" TypeId="Ingot" SubtypeId="Tungsten" />
+        <Item Amount="0.4456253" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="0.7498988" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="0.0305478" TypeId="Ingot" SubtypeId="Mercury" />
+        <Item Amount="4.7331610" TypeId="Ingot" SubtypeId="Lead" />						
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>  <!-- PlasticScrapToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CMM_T5_PlasticScrapToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Plastic Scrap</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_plastic_scrap.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="PlasticScrap" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.788122799084263" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="6.5019544465379" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="0.561665387537609" TypeId="Ingot" SubtypeId="Nitrogen" />
+        <Item Amount="3.8494331432968" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="1.52366277547095" TypeId="Ingot" SubtypeId="Fluorine" />
+        <Item Amount="1.68933295226793" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.710828495804538" TypeId="Ingot" SubtypeId="Chlorine" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>				
+    <Blueprint>  <!-- BatteryScrapToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CMM_T5_BatteryScrapToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Battery Scrap</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ore" SubtypeId="BatteryScrap" />
+      </Prerequisites>				  					
+      <Results>
+        <Item Amount="0.0551804" TypeId="Ingot" SubtypeId="Hydrogen" />
+        <Item Amount="0.0345459" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="0.0597782" TypeId="Ingot" SubtypeId="Carbon" />
+        <Item Amount="1.1148243" TypeId="Ingot" SubtypeId="Oxygen" />
+        <Item Amount="0.1342891" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="0.1595901" TypeId="Ingot" SubtypeId="Sulfur" />						
+        <Item Amount="0.5468617" TypeId="Ingot" SubtypeId="Manganese" />
+        <Item Amount="0.2921218" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="0.2933153" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.5594786" TypeId="Ingot" SubtypeId="Cadmium" />
+        <Item Amount="12.3750143" TypeId="Ingot" SubtypeId="Lead" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>		
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
