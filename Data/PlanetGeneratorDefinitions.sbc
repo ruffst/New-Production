@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <!--Planets -->
-  <Definition xsi:type="PlanetGeneratorDefinition">
+  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- EarthLike -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>EarthLike</SubtypeId>
@@ -53,6 +53,7 @@
       <Material Material="Snow" Value ="130" MaxDepth ="3"/>
       <Material Material="Stone" Value ="160" MaxDepth ="3"/>
       <Material Material="Grass" Value ="180" MaxDepth ="3"/>
+	  <Material Material="Copper_CMM" Value ="253" MaxDepth ="2"/>
     </CustomMaterialTable>
 
     <DistortionTable>
@@ -71,7 +72,14 @@
       <Ore Value="1" Type="Iron_02" Start="10" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="4" Type="Iron_02" Start="12" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="8" Type="Iron_02" Start="14" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-     
+
+      <!-- Co 1-->
+      <Ore Value="30" Type="Copper_CMM" Start="9"  Depth="2"/>
+      <Ore Value="21" Type="Copper_CMM" Start="13"  Depth="3"/>
+      <Ore Value="22" Type="Copper_CMM" Start="10"  Depth="4"/>
+      <Ore Value="23" Type="Copper_CMM" Start="22"  Depth="7"/>
+      <Ore Value="26" Type="Copper_CMM" Start="25"  Depth="8"/>
+      <Ore Value="25" Type="Copper_CMM" Start="27"  Depth="9"/>
 
       <!-- Fe 2-->
       <Ore Value="12" Type="Iron_02" Start="25" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
@@ -1779,7 +1787,7 @@
 	</WeatherGenerators>
   </Definition>
 
-  <Definition xsi:type="PlanetGeneratorDefinition">
+  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Alien -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Alien</SubtypeId>
@@ -1920,6 +1928,33 @@
       <Ore Value="180" Type="Iron_02" Start="100" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="184" Type="Iron_02" Start="107" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="188" Type="Iron_02" Start="112" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+	  
+	  <Ore Value="176" Type="Copper_CMM" Start="66"  Depth="13"/>
+		<Ore Value="177" Type="Copper_CMM" Start="58"  Depth="14"/>
+		<Ore Value="178" Type="Copper_CMM" Start="64"  Depth="15"/>
+		<Ore Value="179" Type="Copper_CMM" Start="69"  Depth="17"/>
+		<Ore Value="180" Type="Copper_CMM" Start="60"  Depth="18"/>
+		<Ore Value="181" Type="Copper_CMM" Start="58"  Depth="12"/>
+		<Ore Value="182" Type="Aluminum_CMM" Start="59"  Depth="13"/>
+		<Ore Value="183" Type="Aluminum_CMM" Start="57"  Depth="15"/>
+		<Ore Value="184" Type="Aluminum_CMM" Start="63"  Depth="17"/>
+		<Ore Value="185" Type="Aluminum_CMM" Start="74"  Depth="18"/>
+		<Ore Value="186" Type="Aluminum_CMM" Start="74"  Depth="19"/>
+		<Ore Value="187" Type="Aluminum_CMM" Start="64"  Depth="12"/>
+		<Ore Value="194" Type="Lead_CMM" Start="71"  Depth="13"/>
+		<Ore Value="195" Type="Lead_CMM" Start="55"  Depth="14"/>
+		<Ore Value="196" Type="Lead_CMM" Start="64"  Depth="15"/>
+		<Ore Value="197" Type="Lead_CMM" Start="65"  Depth="16"/>
+		<Ore Value="198" Type="Lead_CMM" Start="71"  Depth="17"/>
+		<Ore Value="199" Type="Lead_CMM" Start="65"  Depth="12"/>
+		<Ore Value="200" Type="Titanium_CMM" Start="64"  Depth="13"/>
+		<Ore Value="201" Type="Titanium_CMM" Start="68"  Depth="14"/>
+		<Ore Value="202" Type="Titanium_CMM" Start="70"  Depth="15"/>
+		<Ore Value="203" Type="Titanium_CMM" Start="68"  Depth="17"/>
+		<Ore Value="204" Type="Titanium_CMM" Start="70"  Depth="18"/>
+		<Ore Value="205" Type="Titanium_CMM" Start="74"  Depth="12"/>
+	  
+	  
     </OreMappings>
 
     <!-- Rules that define where Ambient sounds should be played defined by angle from equator -->
@@ -3492,7 +3527,7 @@
 	</WeatherGenerators>
   </Definition>
 
-  <Definition xsi:type="PlanetGeneratorDefinition">
+  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Mars -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Mars</SubtypeId>
@@ -3554,6 +3589,14 @@
       <Ore Value="12" Type="Iron_02" Start="25" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="16" Type="Iron_02" Start="28" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="20" Type="Iron_02" Start="31" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <!-- Alu -->
+      <Ore Value="182" Type="Aluminum_CMM" Start="25"  Depth="2"/>
+      <Ore Value="183" Type="Aluminum_CMM" Start="15"  Depth="3"/>
+      <Ore Value="184" Type="Aluminum_CMM" Start="24"  Depth="5"/>
+      <Ore Value="185" Type="Aluminum_CMM" Start="27"  Depth="7"/>
+      <Ore Value="186" Type="Aluminum_CMM" Start="18"  Depth="8"/>
+      <Ore Value="187" Type="Aluminum_CMM" Start="24"  Depth="9"/>
 
       <!-- Ni 1-->
       <Ore Value="24" Type="Nickel_01" Start="10" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
@@ -4029,7 +4072,7 @@
   </Definition>
 
   <!--Moons -->
-  <Definition xsi:type="PlanetGeneratorDefinition">
+  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Moon -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Moon</SubtypeId>
@@ -4403,7 +4446,7 @@
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
-  <Definition xsi:type="PlanetGeneratorDefinition">
+  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Europa -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Europa</SubtypeId>
@@ -4546,6 +4589,32 @@
       <Ore Value="212" Type="Iron_02" Start="110" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="217" Type="Iron_02" Start="114" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="222" Type="Iron_02" Start="119" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+	  
+	  <Ore Value="176" Type="Copper_CMM" Start="66"  Depth="13"/>
+		<Ore Value="177" Type="Copper_CMM" Start="58"  Depth="14"/>
+		<Ore Value="178" Type="Copper_CMM" Start="64"  Depth="15"/>
+		<Ore Value="179" Type="Copper_CMM" Start="69"  Depth="17"/>
+		<Ore Value="180" Type="Copper_CMM" Start="60"  Depth="18"/>
+		<Ore Value="181" Type="Copper_CMM" Start="58"  Depth="12"/>
+		<Ore Value="182" Type="Aluminum_CMM" Start="59"  Depth="13"/>
+		<Ore Value="183" Type="Aluminum_CMM" Start="57"  Depth="15"/>
+		<Ore Value="184" Type="Aluminum_CMM" Start="63"  Depth="17"/>
+		<Ore Value="185" Type="Aluminum_CMM" Start="74"  Depth="18"/>
+		<Ore Value="186" Type="Aluminum_CMM" Start="74"  Depth="19"/>
+		<Ore Value="187" Type="Aluminum_CMM" Start="64"  Depth="12"/>
+		<Ore Value="194" Type="Lead_CMM" Start="71"  Depth="13"/>
+		<Ore Value="195" Type="Lead_CMM" Start="55"  Depth="14"/>
+		<Ore Value="196" Type="Lead_CMM" Start="64"  Depth="15"/>
+		<Ore Value="197" Type="Lead_CMM" Start="65"  Depth="16"/>
+		<Ore Value="198" Type="Lead_CMM" Start="71"  Depth="17"/>
+		<Ore Value="199" Type="Lead_CMM" Start="65"  Depth="12"/>
+		<Ore Value="200" Type="Titanium_CMM" Start="64"  Depth="13"/>
+		<Ore Value="201" Type="Titanium_CMM" Start="68"  Depth="14"/>
+		<Ore Value="202" Type="Titanium_CMM" Start="70"  Depth="15"/>
+		<Ore Value="203" Type="Titanium_CMM" Start="68"  Depth="17"/>
+		<Ore Value="204" Type="Titanium_CMM" Start="70"  Depth="18"/>
+		<Ore Value="205" Type="Titanium_CMM" Start="74"  Depth="12"/>
+
     </OreMappings>
 
     <SoundRules>
@@ -4753,7 +4822,7 @@
 	</WeatherGenerators>
   </Definition>
 
-  <Definition xsi:type="PlanetGeneratorDefinition">
+  <Definition xsi:type="PlanetGeneratorDefinition"> <!-- Titan -->
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Titan</SubtypeId>
@@ -4889,6 +4958,32 @@
       <Ore Value="212" Type="Iron_02" Start="110" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="217" Type="Iron_02" Start="114" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="222" Type="Iron_02" Start="119" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
+
+      <Ore Value="195" Type="Lead_CMM" Start="11"  Depth="2"/>
+      <Ore Value="196" Type="Lead_CMM" Start="13"  Depth="3"/>
+      <Ore Value="197" Type="Lead_CMM" Start="15"  Depth="4"/>
+      <Ore Value="198" Type="Lead_CMM" Start="16"  Depth="5"/>
+      <Ore Value="199" Type="Lead_CMM" Start="17"  Depth="6"/>
+      <Ore Value="200" Type="Lead_CMM" Start="18"  Depth="7"/>
+      <Ore Value="201" Type="Titanium_CMM" Start="27"  Depth="2"/>
+      <Ore Value="202" Type="Titanium_CMM" Start="18"  Depth="3"/>
+      <Ore Value="203" Type="Titanium_CMM" Start="24"  Depth="4"/>
+      <Ore Value="204" Type="Titanium_CMM" Start="18"  Depth="5"/>
+      <Ore Value="205" Type="Titanium_CMM" Start="24"  Depth="7"/>
+      <Ore Value="206" Type="Titanium_CMM" Start="27"  Depth="8"/>
+	  <Ore Value="194" Type="Lead_CMM" Start="118"  Depth="23"/>
+      <Ore Value="195" Type="Lead_CMM" Start="119"  Depth="24"/>
+      <Ore Value="196" Type="Lead_CMM" Start="126"  Depth="25"/>
+      <Ore Value="197" Type="Lead_CMM" Start="132"  Depth="26"/>
+      <Ore Value="198" Type="Lead_CMM" Start="117"  Depth="27"/>
+      <Ore Value="199" Type="Lead_CMM" Start="133"  Depth="22"/>
+      <Ore Value="200" Type="Titanium_CMM" Start="118"  Depth="23"/>
+      <Ore Value="201" Type="Titanium_CMM" Start="118"  Depth="24"/>
+      <Ore Value="202" Type="Titanium_CMM" Start="129"  Depth="25"/>
+      <Ore Value="203" Type="Titanium_CMM" Start="120"  Depth="27"/>
+      <Ore Value="204" Type="Titanium_CMM" Start="119"  Depth="28"/>
+      <Ore Value="205" Type="Titanium_CMM" Start="119"  Depth="22"/>
+
     </OreMappings>
 
     <SoundRules>
