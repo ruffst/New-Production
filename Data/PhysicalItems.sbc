@@ -1,44 +1,45 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
-  <!-- Ore -->
-    <PhysicalItem>  <!-- Aluminum -->
-			<Id>
-				<TypeId>Ore</TypeId>
-				<SubtypeId>Aluminum</SubtypeId>
-			</Id>
-			<DisplayName>Aluminum Ore</DisplayName>
-			<Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
-			<Size>
-				<X>0.07</X>
-				<Y>0.07</Y>
-				<Z>0.07</Z>
-			</Size>
-			<Mass>1</Mass>
-			<Volume>0.37</Volume>
-			<Model>Models\Components\Sphere.mwm</Model>
-			<PhysicalMaterial>Stone</PhysicalMaterial>
-			<IconSymbol>Al</IconSymbol>
-	</PhysicalItem>
-    <PhysicalItem>  <!-- Copper -->
-			<Id>
-				<TypeId>Ore</TypeId>
-				<SubtypeId>Copper</SubtypeId>
-			</Id>
-			<DisplayName>Copper Ore</DisplayName>
-			<Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
-			<Size>
-				<X>0.07</X>
-				<Y>0.07</Y>
-				<Z>0.07</Z>
-			</Size>
-			<Mass>1</Mass>
-			<Volume>0.37</Volume>
-			<Model>Models\Components\Sphere.mwm</Model>
-			<PhysicalMaterial>Stone</PhysicalMaterial>
-			<IconSymbol>Cu</IconSymbol>
-	</PhysicalItem>
-    <PhysicalItem>  <!-- Coal -->
+    <!-- Ore -->
+    <PhysicalItem>      <!-- Aluminum -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Aluminum</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Al</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Copper -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Copper</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Cu</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Coal -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Coal</SubtypeId>
@@ -55,7 +56,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <IconSymbol>Coal</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Gold -->
+    <PhysicalItem>      <!-- Gold -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Gold</SubtypeId>
@@ -73,7 +74,7 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Au</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Ice -->
+    <PhysicalItem>      <!-- Ice -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Ice</SubtypeId>
@@ -91,25 +92,25 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Ice</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Lead -->
-			<Id>
-				<TypeId>Ore</TypeId>
-				<SubtypeId>Lead</SubtypeId>
-			</Id>
-			<DisplayName>Lead Ore</DisplayName>
-			<Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
-			<Size>
-				<X>0.07</X>
-				<Y>0.07</Y>
-				<Z>0.07</Z>
-			</Size>
-			<Mass>1</Mass>
-			<Volume>0.37</Volume>
-			<Model>Models\Components\Sphere.mwm</Model>
-			<PhysicalMaterial>Stone</PhysicalMaterial>
-			<IconSymbol>Pb</IconSymbol>
-	</PhysicalItem>
-    <PhysicalItem>  <!-- Nickel -->
+    <PhysicalItem>      <!-- Lead -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Lead</SubtypeId>
+      </Id>
+      <DisplayName>Lead Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Pb</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Nickel -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Nickel</SubtypeId>
@@ -127,25 +128,25 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Ni</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Organic -->
-			<Id>
-				<TypeId>Ore</TypeId>
-				<SubtypeId>OrganicOre</SubtypeId>
-			</Id>
-			<DisplayName>Organic Mulch</DisplayName>
-			<Icon>Textures\GUI\Icons\ore_biomass.dds</Icon>
-			<Size>
-				<X>0.07</X>
-				<Y>0.07</Y>
-				<Z>0.07</Z>
-			</Size>
-			<Mass>1</Mass>
-			<Volume>0.37</Volume>
-			<Model>Models\Components\Sphere.mwm</Model>
-			<PhysicalMaterial>Stone</PhysicalMaterial>
-			<IconSymbol>Mulch</IconSymbol>
-	</PhysicalItem>
-    <PhysicalItem>  <!-- Platinum -->
+    <PhysicalItem>      <!-- Organic -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>OrganicOre</SubtypeId>
+      </Id>
+      <DisplayName>Organic Mulch</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_biomass.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Mulch</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Platinum -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Platinum</SubtypeId>
@@ -163,7 +164,7 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Pt</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Rock - Space -->
+    <PhysicalItem>      <!-- Rock - Space -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Rock</SubtypeId>
@@ -180,8 +181,8 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Stone</IconSymbol>
-    </PhysicalItem>	
-    <PhysicalItem>  <!-- Stone -->
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Stone -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Stone</SubtypeId>
@@ -198,8 +199,8 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Stone</IconSymbol>
-    </PhysicalItem>	
-    <PhysicalItem>  <!-- Silicon -->
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Silicon -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Silicon</SubtypeId>
@@ -217,7 +218,7 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Si</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Silver -->
+    <PhysicalItem>      <!-- Silver -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Silver</SubtypeId>
@@ -235,7 +236,7 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Ag</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Battery Scrap -->
+    <PhysicalItem>      <!-- Battery Scrap -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>BatteryScrap</SubtypeId>
@@ -252,25 +253,25 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Titanium -->
-		<Id>
-			<TypeId>Ore</TypeId>
-			<SubtypeId>Titanium</SubtypeId>
-		</Id>
-		<DisplayName>Titanium Ore</DisplayName>
-		<Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
-		<Size>
-			<X>0.07</X>
-			<Y>0.07</Y>
-			<Z>0.07</Z>
-		</Size>
-		<Mass>1</Mass>
-		<Volume>0.37</Volume>
-		<Model>Models\Components\Sphere.mwm</Model>
-		<PhysicalMaterial>Stone</PhysicalMaterial>
-		<IconSymbol>Ti</IconSymbol>
-	</PhysicalItem>
-    <PhysicalItem>  <!-- Uranium -->
+    <PhysicalItem>      <!-- Titanium -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Titanium</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Ti</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Uranium -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Uranium</SubtypeId>
@@ -289,44 +290,44 @@
       <IconSymbol>IconSymbol_U</IconSymbol>
     </PhysicalItem>
 
-	<!--Ingots-->
-    <PhysicalItem>  <!-- Aluminum -->
-		<Id>
-			<TypeId>Ingot</TypeId>
-			<SubtypeId>Aluminum</SubtypeId>
-		</Id>
-		<DisplayName>Aluminum Ingot</DisplayName>
-		<Icon>Textures\GUI\Icons\ingot\aluminum_ingot.dds</Icon>
-		<Size>
-			<X>0.072</X>
-			<Y>0.072</Y>
-			<Z>0.072</Z>
-		</Size>
-		<Mass>1</Mass>
-		<Volume>0.052</Volume>
-		<Model>Models\Ingots\platinum_ingot.mwm</Model>
-		<PhysicalMaterial>Metal</PhysicalMaterial>
-		<IconSymbol>Al</IconSymbol>
-	</PhysicalItem>
-    <PhysicalItem>  <!-- Cobalt -->
-        <Id>
-          <TypeId>Ingot</TypeId>
-          <SubtypeId>Cobalt</SubtypeId>
-        </Id>
-        <DisplayName>DisplayName_Item_CobaltIngot</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
-        <Size>
-          <X>0.048</X>
-          <Y>0.048</Y>
-          <Z>0.048</Z>
-        </Size>
-        <Mass>1</Mass>
-        <Volume>0.112</Volume>
-        <Model>Models\Ingots\cobalt_ingot.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-        <IconSymbol>IconSymbol_Co</IconSymbol>
-      </PhysicalItem>
-    <PhysicalItem>  <!-- Copper -->
+    <!--Ingots-->
+    <PhysicalItem>      <!-- Aluminum -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Aluminum</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\aluminum_ingot.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.052</Volume>
+      <Model>Models\Ingots\platinum_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Al</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Cobalt -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Cobalt</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_CobaltIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
+      <Size>
+        <X>0.048</X>
+        <Y>0.048</Y>
+        <Z>0.048</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.112</Volume>
+      <Model>Models\Ingots\cobalt_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Co</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Copper -->
       <Id>
         <TypeId>Ingot</TypeId>
         <SubtypeId>Copper</SubtypeId>
@@ -344,25 +345,25 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Cu</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Gold -->
-        <Id>
-          <TypeId>Ingot</TypeId>
-          <SubtypeId>Gold</SubtypeId>
-        </Id>
-        <DisplayName>DisplayName_Item_GoldIngot</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
-        <Size>
-          <X>0.037</X>
-          <Y>0.037</Y>
-          <Z>0.037</Z>
-        </Size>
-        <Mass>1</Mass>
-        <Volume>0.052</Volume>
-        <Model>Models\Ingots\gold_ingot.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-        <IconSymbol>IconSymbol_Au</IconSymbol>
-      </PhysicalItem>
-    <PhysicalItem>  <!-- Hydrogen -->
+    <PhysicalItem>      <!-- Gold -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Gold</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_GoldIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
+      <Size>
+        <X>0.037</X>
+        <Y>0.037</Y>
+        <Z>0.037</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.052</Volume>
+      <Model>Models\Ingots\gold_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Au</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Hydrogen -->
       <Id>
         <TypeId>Ingot</TypeId>
         <SubtypeId>Hydrogen</SubtypeId>
@@ -380,25 +381,25 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>H</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Iron -->
-        <Id>
-          <TypeId>Ingot</TypeId>
-          <SubtypeId>Iron</SubtypeId>
-        </Id>
-        <DisplayName>DisplayName_Item_IronIngot</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
-        <Size>
-          <X>0.05</X>
-          <Y>0.05</Y>
-          <Z>0.05</Z>
-        </Size>
-        <Mass>1</Mass>
-        <Volume>0.127</Volume>
-        <Model>Models\Ingots\iron_ingot.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-        <IconSymbol>IconSymbol_Fe</IconSymbol>
-      </PhysicalItem>
-    <PhysicalItem>  <!-- Lead -->
+    <PhysicalItem>      <!-- Iron -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Iron</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Size>
+        <X>0.05</X>
+        <Y>0.05</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.127</Volume>
+      <Model>Models\Ingots\iron_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Fe</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Lead -->
       <Id>
         <TypeId>Ingot</TypeId>
         <SubtypeId>Lead</SubtypeId>
@@ -416,7 +417,7 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Pb</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Lithium -->
+    <PhysicalItem>      <!-- Lithium -->
       <Id>
         <TypeId>Ingot</TypeId>
         <SubtypeId>Lithium</SubtypeId>
@@ -434,25 +435,25 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Li</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Magnesium -->
-        <Id>
-          <TypeId>Ingot</TypeId>
-          <SubtypeId>Magnesium</SubtypeId>
-        </Id>
-        <DisplayName>DisplayName_Item_MagnesiumPowder</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
-        <Size>
-          <X>0.083</X>
-          <Y>0.083</Y>
-          <Z>0.083</Z>
-        </Size>
-        <Mass>1</Mass>
-        <Volume>0.575</Volume>
-        <Model>Models\Ingots\magnesium_ingot.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-        <IconSymbol>IconSymbol_Mg</IconSymbol>
-      </PhysicalItem>
-    <PhysicalItem>  <!-- Neodymium -->
+    <PhysicalItem>      <!-- Magnesium -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Magnesium</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_MagnesiumPowder</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
+      <Size>
+        <X>0.083</X>
+        <Y>0.083</Y>
+        <Z>0.083</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.575</Volume>
+      <Model>Models\Ingots\magnesium_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Mg</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Neodymium -->
       <Id>
         <TypeId>Ingot</TypeId>
         <SubtypeId>Neodymium</SubtypeId>
@@ -470,25 +471,25 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Nd</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Nickel -->
-        <Id>
-          <TypeId>Ingot</TypeId>
-          <SubtypeId>Nickel</SubtypeId>
-        </Id>
-        <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
-        <Size>
-          <X>0.048</X>
-          <Y>0.048</Y>
-          <Z>0.048</Z>
-        </Size>
-        <Mass>1</Mass>
-        <Volume>0.112</Volume>
-        <Model>Models\Ingots\nickel_ingot.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-        <IconSymbol>IconSymbol_Ni</IconSymbol>
-      </PhysicalItem>
-    <PhysicalItem>  <!-- Oxygen -->
+    <PhysicalItem>      <!-- Nickel -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Nickel</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
+      <Size>
+        <X>0.048</X>
+        <Y>0.048</Y>
+        <Z>0.048</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.112</Volume>
+      <Model>Models\Ingots\nickel_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Ni</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Oxygen -->
       <Id>
         <TypeId>Ingot</TypeId>
         <SubtypeId>Oxygen</SubtypeId>
@@ -506,61 +507,61 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>O</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Platinum -->
-        <Id>
-          <TypeId>Ingot</TypeId>
-          <SubtypeId>Platinum</SubtypeId>
-        </Id>
-        <DisplayName>DisplayName_Item_PlatinumIngot</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
-        <Size>
-          <X>0.036</X>
-          <Y>0.036</Y>
-          <Z>0.036</Z>
-        </Size>
-        <Mass>1</Mass>
-        <Volume>0.047</Volume>
-        <Model>Models\Ingots\platinum_ingot.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-        <IconSymbol>IconSymbol_Pt</IconSymbol>
-      </PhysicalItem>
-    <PhysicalItem>  <!-- Silicon -->
-        <Id>
-          <TypeId>Ingot</TypeId>
-          <SubtypeId>Silicon</SubtypeId>
-        </Id>
-        <DisplayName>DisplayName_Item_SiliconWafer</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
-        <Size>
-          <X>0.075</X>
-          <Y>0.075</Y>
-          <Z>0.075</Z>
-        </Size>
-        <Mass>1</Mass>
-        <Volume>0.429</Volume>
-        <Model>Models\Ingots\silicon_ingot.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-        <IconSymbol>IconSymbol_Si</IconSymbol>
-      </PhysicalItem>
-    <PhysicalItem>  <!-- Silver -->
-        <Id>
-          <TypeId>Ingot</TypeId>
-          <SubtypeId>Silver</SubtypeId>
-        </Id>
-        <DisplayName>DisplayName_Item_SilverIngot</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
-        <Size>
-          <X>0.046</X>
-          <Y>0.046</Y>
-          <Z>0.046</Z>
-        </Size>
-        <Mass>1</Mass>
-        <Volume>0.095</Volume>
-        <Model>Models\Ingots\silver_ingot.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-        <IconSymbol>IconSymbol_Ag</IconSymbol>
-      </PhysicalItem>
-    <PhysicalItem>  <!-- Titanium -->
+    <PhysicalItem>      <!-- Platinum -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Platinum</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_PlatinumIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
+      <Size>
+        <X>0.036</X>
+        <Y>0.036</Y>
+        <Z>0.036</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.047</Volume>
+      <Model>Models\Ingots\platinum_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Pt</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Silicon -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Silicon</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SiliconWafer</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+      <Size>
+        <X>0.075</X>
+        <Y>0.075</Y>
+        <Z>0.075</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.429</Volume>
+      <Model>Models\Ingots\silicon_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Si</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Silver -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Silver</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SilverIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+      <Size>
+        <X>0.046</X>
+        <Y>0.046</Y>
+        <Z>0.046</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.095</Volume>
+      <Model>Models\Ingots\silver_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>IconSymbol_Ag</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Titanium -->
       <Id>
         <TypeId>Ingot</TypeId>
         <SubtypeId>Titanium</SubtypeId>
@@ -578,24 +579,24 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Ti</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>  <!-- Uranium -->
-        <Id>
-          <TypeId>Ingot</TypeId>
-          <SubtypeId>Uranium</SubtypeId>
-        </Id>
-        <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
-        <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
-        <Size>
-          <X>0.037</X>
-          <Y>0.037</Y>
-          <Z>0.037</Z>
-        </Size>
-        <Mass>1</Mass>
-        <Volume>0.052</Volume>
-        <Model>Models\Ingots\uranium_ingot.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-        <IconSymbol>IconSymbol_U</IconSymbol>
-      </PhysicalItem>
-	
+    <PhysicalItem>      <!-- Uranium -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
+      <Size>
+        <X>0.037</X>
+        <Y>0.037</Y>
+        <Z>0.037</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.052</Volume>
+      <Model>Models\Ingots\uranium_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>IconSymbol_U</IconSymbol>
+    </PhysicalItem>
+
   </PhysicalItems>
 </Definitions>
