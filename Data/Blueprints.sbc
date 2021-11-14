@@ -2,9 +2,9 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
-  <!--Scrap Material-->
+<!--Scrap Material-->
 
-    <Blueprint>      <!--CMM_T5_ScrapToIronIngot-->
+    <Blueprint>       <!--CMM_T5_ScrapToIronIngot-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T5_ScrapToIronIngot</SubtypeId>
@@ -25,7 +25,7 @@
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>      <!--ElectronicScrapToIngot-->
+    <Blueprint>       <!--ElectronicScrapToIngot-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T5_ElectronicScrapToIngot</SubtypeId>
@@ -71,7 +71,7 @@
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>      <!--PlasticScrapToIngot-->
+    <Blueprint>       <!--PlasticScrapToIngot-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T5_PlasticScrapToIngot</SubtypeId>
@@ -93,7 +93,7 @@
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>      <!--CMM_T5_BatteryScrapToIngot-->
+    <Blueprint>       <!--CMM_T5_BatteryScrapToIngot-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T5_BatteryScrapToIngot</SubtypeId>
@@ -147,7 +147,7 @@
       <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
     </Blueprint>
 
-  <!--Ore Verarbeitung-->
+<!--Ore Verarbeitung-->
 
     <Blueprint>       <!--StoneOreToIngot-->
       <Id>
@@ -164,6 +164,8 @@
         <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="2.4" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="4.0" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.06" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="0.03" TypeId="Ingot" SubtypeId="Neodymium" />
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -333,7 +335,75 @@
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
 
-  <!--Ice und Flaschen-->
+    <Blueprint>       <!--CopperOreToIngot-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CMM_T1_CopperOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Copper Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ore" SubtypeId="Copper" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Copper" />
+      </Results>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!-- AluminumOreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CMM_T1_AluminumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Aluminum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ore" SubtypeId="Aluminum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Aluminum" />
+      </Results>					
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!-- TinOreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CMM_T1_TinOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Tin Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Sn_tin.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Tin" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Tin" />
+      </Results>	
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!-- LeadOreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CMM_T1_LeadOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Lead Ore</DisplayName>
+			<Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Lead" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Lead" />
+      </Results>	
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+<!--Ice und Flaschen-->
 
     <Blueprint>       <!--IceToOxygen-->
       <Id>
@@ -1133,7 +1203,7 @@
     </Blueprint>
 
   <!--Ammo-->
-  
+
     <Blueprint>       <!--SemiAutoPistolMagazine-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -1283,7 +1353,7 @@
 
 
       <!--
-      <Blueprint>       <!--InteriorTurret_Mag_100rd-->
+      <Blueprint>     <!--InteriorTurret_Mag_100rd-->
         <Id>
             <TypeId>BlueprintDefinition</TypeId>
             <SubtypeId>InteriorTurret_Mag_100rd</SubtypeId>

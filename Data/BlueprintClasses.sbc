@@ -3,7 +3,7 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlueprintClasses>
 
-        <Class>					//Tools
+        <Class>             <!--Tools-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Tools</SubtypeId>
@@ -17,7 +17,7 @@
         </Class>
 
 
-        <Class>					//BasicTools
+        <Class>             <!--BasicTools-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>BasicTools</SubtypeId>
@@ -31,7 +31,7 @@
         </Class>
 
 
-        <Class>					//EliteTools
+        <Class>             <!--EliteTools-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>EliteTools</SubtypeId>
@@ -45,13 +45,13 @@
         </Class>
 
 
-        <Class>					//ComponentsDrahtextruder
+        <Class>             <!--ComponentsDrahtextruder-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Components</SubtypeId>
+                <SubtypeId>ComponentsDrahtextruder</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_ComponentsDrahtextruder</DisplayName>
-            <Description>Description_BlueprintClass_ComponentsDrahtextruder</Description>
+            <DisplayName>ComponentsDrahtextruder</DisplayName>
+            <Description>ComponentsDrahtextruder</Description>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
@@ -59,13 +59,13 @@
         </Class>
 
 
-        <Class>					//ComponentsWickelmaschine
+        <Class>             <!--ComponentsWickelmaschine-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsWickelmaschine</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_ComponentsWickelmaschine</DisplayName>
-            <Description>Description_BlueprintClass_ComponentsWickelmaschine</Description>
+            <DisplayName>ComponentsWickelmaschine</DisplayName>
+            <Description>ComponentsWickelmaschine</Description>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
@@ -73,13 +73,13 @@
         </Class>
 
 
-        <Class>					//ComponentsRohrextruder
+        <Class>             <!--ComponentsRohrextruder-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsRohrextruder</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_ComponentsRohrextruder</DisplayName>
-            <Description>Description_BlueprintClass_ComponentsRohrextruder</Description>
+            <DisplayName>ComponentsRohrextruder</DisplayName>
+            <Description>ComponentsRohrextruder</Description>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
@@ -87,13 +87,13 @@
         </Class>
 
 
-        <Class>					//ComponentsPlattenpresse
+        <Class>             <!--ComponentsPlattenpresse-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsPlattenpresse</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_ComponentsPlattenpresse</DisplayName>
-            <Description>Description_BlueprintClass_ComponentsPlattenpresse</Description>
+            <DisplayName>ComponentsPlattenpresse</DisplayName>
+            <Description>ComponentsPlattenpresse</Description>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
@@ -101,13 +101,13 @@
         </Class>
 
 
-        <Class>					//ComponentsElektroAssembler
+        <Class>             <!--ComponentsElektroAssembler-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsElektroAssembler</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_ComponentsElektroAssembler</DisplayName>
-            <Description>Description_BlueprintClass_ComponentsElektroAssembler</Description>
+            <DisplayName>ComponentsElektroAssembler</DisplayName>
+            <Description>ComponentsElektroAssembler</Description>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
@@ -115,13 +115,13 @@
         </Class>
 
 
-        <Class>					//ComponentsFertiger
+        <Class>             <!--ComponentsFertiger-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsFertiger</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_ComponentsFertiger</DisplayName>
-            <Description>Description_BlueprintClass_ComponentsFertiger</Description>
+            <DisplayName>ComponentsFertiger</DisplayName>
+            <Description>ComponentsFertiger</Description>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
@@ -129,13 +129,13 @@
         </Class>
 
 
-        <Class>					//ComponentsVerbrauchsmaterialAssembler
+        <Class>             <!--ComponentsVerbrauchsmaterialAssembler-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsVerbrauchsmaterialAssembler</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_ComponentsVerbrauchsmaterialAssembler</DisplayName>
-            <Description>Description_BlueprintClass_ComponentsVerbrauchsmaterialAssembler</Description>
+            <DisplayName>ComponentsVerbrauchsmaterialAssembler</DisplayName>
+            <Description>ComponentsVerbrauchsmaterialAssembler</Description>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
@@ -143,13 +143,13 @@
         </Class>
 
 
-        <Class>					//SimpleComponents
+        <Class>             <!--SimpleComponents-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>SimpleComponents</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
-            <Description>Description_BlueprintClass_Components</Description>
+            <DisplayName>DisplayName_BlueprintClass_SimpleComponents</DisplayName>
+            <Description>Description_BlueprintClass_SimpleComponents</Description>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <FocusIcon>Textures\GUI\Icons\buttons\component.dds</FocusIcon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component_focus.dds</HighlightIcon>
@@ -157,7 +157,7 @@
         </Class>
 
 
-        <Class>					//BasicComponents
+        <Class>             <!--BasicComponents-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>BasicComponents</SubtypeId>
@@ -171,7 +171,7 @@
         </Class>
 
 
-        <Class>					//Ammo
+        <Class>             <!--Ammo-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Ammo</SubtypeId>
@@ -185,7 +185,7 @@
         </Class>
 
 
-        <Class>					//Consumables
+        <Class>             <!--Consumables-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Consumables</SubtypeId>
@@ -199,7 +199,7 @@
         </Class>
 
 
-        <Class>					//EliteConsumables
+        <Class>             <!--EliteConsumables-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>EliteConsumables</SubtypeId>
@@ -213,7 +213,7 @@
         </Class>
 
 
-        <Class>					//Ingots
+        <Class>             <!--Ingots-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Ingots</SubtypeId>
@@ -228,7 +228,7 @@
         </Class>
 
 
-        <Class>					//CommonMetals
+        <Class>             <!--CommonMetals-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>CommonMetals</SubtypeId>
@@ -243,7 +243,7 @@
         </Class>
 
 
-        <Class>					//Ice
+        <Class>             <!--Ice-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Ice</SubtypeId>
@@ -258,7 +258,7 @@
         </Class>
 
 
-        <Class>					//OxygenBottles
+        <Class>             <!--OxygenBottles-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>OxygenBottles</SubtypeId>
@@ -273,7 +273,7 @@
         </Class>
 
 
-        <Class>					//HydrogenBottles
+        <Class>             <!--HydrogenBottles-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>HydrogenBottles</SubtypeId>
@@ -348,7 +348,16 @@
 
 
 
-
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="SteelPlate" />
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="" />
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="" />
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="" />
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="" />
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="" />
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="" />
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="" />
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="" />
+        <Entry Class="ComponentsNotfall" BlueprintSubtypeId="" />
 
         <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Kupferdraht" />
         <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Golddraht" />
@@ -444,6 +453,14 @@
         <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Canvas" />
 
 
+
+
+
+
+
+
+
+
         <Entry Class="Ice" BlueprintSubtypeId="IceToOxygen" />
         <Entry Class="OxygenBottles" BlueprintSubtypeId="OxygenBottlesRefill" />
         <Entry Class="HydrogenBottles" BlueprintSubtypeId="HydrogenBottlesRefill" />
@@ -451,3 +468,4 @@
 </Definitions>
 
 
+<Entry Class="" BlueprintSubtypeId="" />
