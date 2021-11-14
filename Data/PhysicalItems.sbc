@@ -3,6 +3,7 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
     <!-- Ore -->
+
     <PhysicalItem>      <!-- Aluminum -->
       <Id>
         <TypeId>Ore</TypeId>
@@ -363,7 +364,6 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>IconSymbol_Au</IconSymbol>
     </PhysicalItem>
-
     <PhysicalItem>      <!-- Iron -->
       <Id>
         <TypeId>Ingot</TypeId>

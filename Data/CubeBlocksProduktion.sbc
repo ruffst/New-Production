@@ -17,12 +17,13 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="120" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
+				<Component Subtype="SteelPlate" Count="1100" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="LargeTube" Count="20" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="SteelPlate" Count="100" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <Center x="1" y="0" z="1" />
@@ -80,7 +81,6 @@
             </TieredUpdateTimes>
         </Definition>
 
-
         <Definition xsi:type="MyObjectBuilder_RefineryDefinition">              <!--Blast_Furnace-->
             <Id>
                 <TypeId>Refinery</TypeId>
@@ -96,12 +96,11 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="120" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="10" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MirroringZ>Y</MirroringZ>
@@ -135,7 +134,9 @@
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
             <BlueprintClasses>
+
                 <Class>CommonMetals</Class>
+
             </BlueprintClasses>
             <RefineSpeed>0.65</RefineSpeed>
             <MaterialEfficiency>0.7</MaterialEfficiency>
@@ -154,7 +155,6 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-
 
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--LargeAssembler-->
             <Id>
@@ -210,7 +210,7 @@
             <BlueprintClasses>
 
                 <Class>BasicTools</Class>
-              <!--  <Class>ComponentsNotfall</Class>-->
+                <Class>ComponentsNotfall</Class>
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -228,7 +228,6 @@
             </TieredUpdateTimes>
         </Definition>
 
-
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Drahtextruder-->
             <Id>
                 <TypeId>Assembler</TypeId>
@@ -243,14 +242,15 @@
             <Size x="1" y="1" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
-            <Components>
-                <Component Subtype="SteelPlate" Count="120" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-            </Components>
+                <Components>
+                    <Component Subtype="SteelPlate" Count="120" />
+                    <Component Subtype="Construction" Count="80" />
+                    <Component Subtype="Motor" Count="20" />
+                    <Component Subtype="Display" Count="10" />
+                    <Component Subtype="MetalGrid" Count="10" />
+                    <Component Subtype="Computer" Count="160" />
+                    <Component Subtype="SteelPlate" Count="20" />
+                </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -281,7 +281,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <!-- <Class>ComponentsDrahtextruder</Class>-->
+                <Class>ComponentsDrahtextruder</Class>
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -298,7 +298,6 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-
 
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Wickelmaschine-->
             <Id>
@@ -315,13 +314,15 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="120" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-            </Components>
+                <Components>
+                    <Component Subtype="SteelPlate" Count="120" />
+                    <Component Subtype="Construction" Count="80" />
+                    <Component Subtype="Motor" Count="20" />
+                    <Component Subtype="Display" Count="10" />
+                    <Component Subtype="MetalGrid" Count="10" />
+                    <Component Subtype="Computer" Count="160" />
+                    <Component Subtype="SteelPlate" Count="20" />
+                </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -352,7 +353,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-               <!--  <Class>ComponentsWickelmaschine</Class>-->
+               <Class>ComponentsWickelmaschine</Class>
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -369,7 +370,6 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-
 
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Rohrextruder-->
             <Id>
@@ -385,14 +385,15 @@
             <Size x="1" y="1" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
-            <Components>
-                             <Component Subtype="SteelPlate" Count="120" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-            </Components>
+                <Components>
+                    <Component Subtype="SteelPlate" Count="120" />
+                    <Component Subtype="Construction" Count="80" />
+                    <Component Subtype="Motor" Count="20" />
+                    <Component Subtype="Display" Count="10" />
+                    <Component Subtype="MetalGrid" Count="10" />
+                    <Component Subtype="Computer" Count="160" />
+                    <Component Subtype="SteelPlate" Count="20" />
+                </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -423,7 +424,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-               <!--  <Class>ComponentsRohrextruder</Class>-->
+               <Class>ComponentsRohrextruder</Class>
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -441,7 +442,6 @@
             </TieredUpdateTimes>
         </Definition>
 
-
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Plattenpresse-->
             <Id>
                 <TypeId>Assembler</TypeId>
@@ -456,37 +456,15 @@
             <Size x="1" y="1" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
-            <Components>
-                <Component Subtype="SteelPlate" Count="120" >
-                <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>Scrap</SubtypeId>
-                </DeconstructId>
-				</Component>
-                <Component Subtype="Construction" Count="80" >
-                <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>Scrap</SubtypeId>
-                </DeconstructId>
-				</Component>
-                <!--<Component Subtype="Kupferdraht" Count="10" />
-                <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>ElectronicScrap</SubtypeId>
-                </DeconstructId>-->
-                <Component Subtype="SmallTube" Count="10" >
-                <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>Scrap</SubtypeId>
-				</DeconstructId>
-				</Component>
-                <Component Subtype="SteelPlate" Count="20" >
-                <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>Scrap</SubtypeId>
-                </DeconstructId>
-				</Component>
-            </Components>
+                <Components>
+                    <Component Subtype="SteelPlate" Count="120" />
+                    <Component Subtype="Construction" Count="80" />
+                    <Component Subtype="Motor" Count="20" />
+                    <Component Subtype="Display" Count="10" />
+                    <Component Subtype="MetalGrid" Count="10" />
+                    <Component Subtype="Computer" Count="160" />
+                    <Component Subtype="SteelPlate" Count="20" />
+                </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -535,7 +513,6 @@
             </TieredUpdateTimes>
         </Definition>
 
-
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Elektro_Assembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
@@ -550,50 +527,15 @@
             <Size x="1" y="1" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
-            <Components>
-                <Component Subtype="SteelPlate" Count="120" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-                <Component Subtype="Construction" Count="80" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-                <Component Subtype="Motor" Count="20" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-                <Component Subtype="Display" Count="10" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-                <Component Subtype="MetalGrid" Count="10" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-				<Component Subtype="Computer" Count="160" >
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-                <Component Subtype="SteelPlate" Count="20">
-					<DeconstructId>
-						<TypeId>Ore</TypeId>
-						<SubtypeId>Scrap</SubtypeId>
-					</DeconstructId>
-				</Component>
-            </Components>
+                <Components>
+                    <Component Subtype="SteelPlate" Count="120" />
+                    <Component Subtype="Construction" Count="80" />
+                    <Component Subtype="Motor" Count="20" />
+                    <Component Subtype="Display" Count="10" />
+                    <Component Subtype="MetalGrid" Count="10" />
+                    <Component Subtype="Computer" Count="160" />
+                    <Component Subtype="SteelPlate" Count="20" />
+                </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -642,7 +584,6 @@
             </TieredUpdateTimes>
         </Definition>
 
-
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Fertiger-->
             <Id>
                 <TypeId>Assembler</TypeId>
@@ -657,9 +598,15 @@
             <Size x="1" y="1" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
-            <Components>
- 
-            </Components>
+                <Components>
+                    <Component Subtype="SteelPlate" Count="120" />
+                    <Component Subtype="Construction" Count="80" />
+                    <Component Subtype="Motor" Count="20" />
+                    <Component Subtype="Display" Count="10" />
+                    <Component Subtype="MetalGrid" Count="10" />
+                    <Component Subtype="Computer" Count="160" />
+                    <Component Subtype="SteelPlate" Count="20" />
+                </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -708,7 +655,6 @@
             </TieredUpdateTimes>
         </Definition>
 
-
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--VerbrauchsmaterialAssembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
@@ -723,9 +669,15 @@
             <Size x="1" y="1" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
-            <Components>
-           
-            </Components>
+                <Components>
+                    <Component Subtype="SteelPlate" Count="120" />
+                    <Component Subtype="Construction" Count="80" />
+                    <Component Subtype="Motor" Count="20" />
+                    <Component Subtype="Display" Count="10" />
+                    <Component Subtype="MetalGrid" Count="10" />
+                    <Component Subtype="Computer" Count="160" />
+                    <Component Subtype="SteelPlate" Count="20" />
+                </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -774,7 +726,6 @@
             </TieredUpdateTimes>
         </Definition>
 
-
         <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">               <!--SurvivalKitLarge-->
             <Id>
                 <TypeId>SurvivalKit</TypeId>
@@ -790,15 +741,21 @@
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
-            <Components>
-                
-            </Components>
+                <Components>
+                    <Component Subtype="SteelPlate" Count="120" />
+                    <Component Subtype="Construction" Count="80" />
+                    <Component Subtype="Motor" Count="20" />
+                    <Component Subtype="Display" Count="10" />
+                    <Component Subtype="MetalGrid" Count="10" />
+                    <Component Subtype="Computer" Count="160" />
+                    <Component Subtype="SteelPlate" Count="20" />
+                </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />                
             <MountPoints>
                 <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
                 <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
             </MountPoints>
-            <CriticalComponent Subtype="Computer" Index="0" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <BuildProgressModels>
@@ -815,8 +772,10 @@
                 <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
             </ScreenAreas>
             <BlueprintClasses>
+
                 <Class>BasicTools</Class>
                 <Class>BasicComponents</Class>
+
             </BlueprintClasses>
             <AssemblySpeed>0.3</AssemblySpeed>
 
@@ -846,7 +805,6 @@
             </TieredUpdateTimes>
         </Definition>
 
-
         <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">               <!--SurvivalKit-->
             <Id>
                 <TypeId>SurvivalKit</TypeId>
@@ -861,7 +819,13 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
             <Components>
-               
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Medical" Count="3" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="1" />
+                <Component Subtype="Computer" Count="5" />
+                <Component Subtype="SteelPlate" Count="10" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
