@@ -17,26 +17,27 @@
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
                 <Component Subtype="SteelPlate" Count="1100" />
-				<DeconstructId>
+					<DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
                     </DeconstructId>
                 <Component Subtype="Construction" Count="40" />
-				<DeconstructId>
+					<DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
                     </DeconstructId>
                 <Component Subtype="LargeTube" Count="20" />
-				<DeconstructId>
+					<DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
                     </DeconstructId>
                 <Component Subtype="Motor" Count="16" />
-				<DeconstructId>
+					<DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
                     </DeconstructId>
-                <Component Subtype="MetalGrid" Count="20" /><DeconstructId>
+                <Component Subtype="MetalGrid" Count="20" />
+					<DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
                     </DeconstructId>
