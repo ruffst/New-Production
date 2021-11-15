@@ -81,12 +81,12 @@
             </TieredUpdateTimes>
         </Definition>
 
-        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">              <!--Blast_Furnace-->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">              <!--Oxygator (Blast_Furnace)-->
             <Id>
                 <TypeId>Refinery</TypeId>
                 <SubtypeId>Blast_Furnace</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_Arc_Furnace</DisplayName>
+            <DisplayName>Oxygator</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
             <Description>Description_RefineryBasic</Description>
             <CubeSize>Large</CubeSize>
@@ -135,7 +135,7 @@
             <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>CommonMetals</Class>
+                <Class>Oxyde</Class>
 
             </BlueprintClasses>
             <RefineSpeed>0.65</RefineSpeed>
@@ -210,8 +210,7 @@
             <BlueprintClasses>
 
                 <Class>BasicTools</Class>
-                <Class>ComponentsNotfall</Class>
-
+                
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>

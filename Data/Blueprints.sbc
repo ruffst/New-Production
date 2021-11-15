@@ -164,9 +164,26 @@
         <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="2.4" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="4.0" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="0.06" TypeId="Ingot" SubtypeId="Lithium" />
-        <Item Amount="0.03" TypeId="Ingot" SubtypeId="Neodymium" />
+        <Item Amount="2.4" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.60" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="0.30" TypeId="Ingot" SubtypeId="Neodymium" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--StoneIngotToOxyge-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1000" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Neodymium" />
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -186,7 +203,9 @@
         <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="0.24" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="0.4" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="0.02" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.24" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.06" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="0.03" TypeId="Ingot" SubtypeId="Neodymium" />
       </Results>
       <Priority>1000</Priority>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -516,7 +535,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>       <!--MetalGrid-->
+    <Blueprint>       <!--MetalGrid-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MetalGrid</SubtypeId>
@@ -524,9 +543,9 @@
       <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
       <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
       <Prerequisites>
-        <Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="3" TypeId="Ingot" SubtypeId="Cobalt" />
+
+        <Item Amount="25" TypeId="Component" SubtypeId="Girder" />
+        
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -548,17 +567,17 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>       <!--SteelPlate-->
+    <Blueprint>       <!--TitanPlate-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SteelPlate</SubtypeId>
+        <SubtypeId>TitanPlate</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+      <DisplayName>TitanPlate</DisplayName>
       <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
       <Prerequisites>
-        <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="21" TypeId="Ingot" SubtypeId="Titanium" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+      <Result Amount="1" TypeId="Component" SubtypeId="TitanPlate" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
@@ -574,6 +593,51 @@
         <Item Amount="21" TypeId="Ingot" SubtypeId="Lead" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Leadplate" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>       <!--Kupferdraht-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Kupferdraht</SubtypeId>
+      </Id>
+      <DisplayName>Kupferdraht</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--Golddraht-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Golddraht</SubtypeId>
+      </Id>
+      <DisplayName>Golddraht</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Golddraht" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--SteelPlate-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SteelPlate</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
