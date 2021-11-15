@@ -244,7 +244,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-<Blueprint>       <!--Nickel3Tin-->    <!--New-->
+    <Blueprint>       <!--Nickel3Tin-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Nickel3Tin</SubtypeId>
@@ -386,7 +386,6 @@
       <Result Amount="0.01" TypeId="Ingot" SubtypeId="Uranium" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
-
 
     <Blueprint>       <!--CopperOreToIngot-->    <!--New-->
       <Id>
@@ -659,6 +658,159 @@
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
 
+    <Blueprint>       <!--Platindraht-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Platindraht</SubtypeId>
+      </Id>
+      <DisplayName>Platindraht</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Platindraht" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--Superconductor (Titandraht)-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Superconductor</SubtypeId>
+      </Id>
+      <DisplayName>Titandraht</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel3Alu" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Superconductor" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--KupferSpulle-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>KupferSpulle</SubtypeId>
+      </Id>
+      <DisplayName>Kupfer Spulle</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="KupferSpulle" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--GoldSpulle-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldSpulle</SubtypeId>
+      </Id>
+      <DisplayName>Gold Spulle</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="GoldSpulle" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--PlatinSpulle-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinSpulle</SubtypeId>
+      </Id>
+      <DisplayName>Platin Spulle</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Platin" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PlatinSpulle" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--TitanSpulle-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitanSpulle</SubtypeId>
+      </Id>
+      <DisplayName>Titan Spulle</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TitanSpulle" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--Strator-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Strator</SubtypeId>
+      </Id>
+      <DisplayName>Strator</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Strator" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--PCB-Platine-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PCB-Platine</SubtypeId>
+      </Id>
+      <DisplayName>PCB-Platine</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="2" TypeId="Component" SubtypeId="BulletproofGlass" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--SMD-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SMD</SubtypeId>
+      </Id>
+      <DisplayName>SMD</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SMD" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>       <!--KupferRotor-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>KupferRotor</SubtypeId>
+      </Id>
+      <DisplayName>Kupfer Rotor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Neodymium" />
+        <Item Amount="2" TypeId="Component" SubtypeId="KupferSpulle" />
+        <Item Amount="2" TypeId="Component" SubtypeId="SmallTube" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="KupferRotor" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
     <Blueprint>       <!--SteelPlate-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -704,16 +856,19 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>       <!--MotorComponent-->
+    <Blueprint>       <!--MotorComponent-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MotorComponent</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_Motor</DisplayName>
+      <DisplayName>Kupfer Motor</DisplayName>
       <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
       <Prerequisites>
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="1" TypeId="Component" SubtypeId="KupferRotor" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Strator" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="50" TypeId="Component" SubtypeId="ConstructionComponent" />
+        <Item Amount="1" TypeId="Component" SubtypeId="ComputerComponent" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
@@ -751,16 +906,18 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>       <!--ComputerComponent-->
+    <Blueprint>       <!--ComputerComponent-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ComputerComponent</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_Computer</DisplayName>
+      <DisplayName>Kupfer Computer</DisplayName>
       <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
       <Prerequisites>
-        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -896,7 +1053,7 @@
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>       <!--SolarCell-->
+    <Blueprint>       <!--SolarCell-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SolarCell</SubtypeId>
@@ -904,8 +1061,10 @@
       <DisplayName>DisplayName_Item_SolarCell</DisplayName>
       <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
       <Prerequisites>
-        <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="6" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="6" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="6" TypeId="Component" SubtypeId="BulletproofGlass" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SolarCell" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -927,36 +1086,6 @@
       <Result Amount="1" TypeId="Component" SubtypeId="PowerCell" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
-    </Blueprint>
-
-    <Blueprint>       <!--Superconductor-->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Superconductor</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_Superconductor</DisplayName>
-      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
-      <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="2" TypeId="Ingot" SubtypeId="Gold" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Superconductor" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>       <!--Kupferdraht-->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Kupferdraht</SubtypeId>
-      </Id>
-      <DisplayName>Kupferdraht</DisplayName>
-      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
-      <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="2" TypeId="Ingot" SubtypeId="Stone" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
 
     <Blueprint>       <!--ZoneChip-->
