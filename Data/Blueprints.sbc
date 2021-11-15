@@ -171,7 +171,7 @@
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>       <!--StoneIngotToOxyge-->
+    <Blueprint>       <!--StoneIngotToOxyge-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot</SubtypeId>
@@ -225,6 +225,38 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
       </Results>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>       <!--Nickel3Alu-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Nickel3Alu</SubtypeId>
+      </Id>
+      <DisplayName>Nickel3Alu</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Aluminium" />
+      </Prerequisites>
+      <Result Amount="4" TypeId="Ingot" SubtypeId="Nickel3Alu" />
+      <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+<Blueprint>       <!--Nickel3Tin-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Nickel3Tin</SubtypeId>
+      </Id>
+      <DisplayName>Nickel3Tin</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Result Amount="4" TypeId="Ingot" SubtypeId="Nickel3Tin" />
+      <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
