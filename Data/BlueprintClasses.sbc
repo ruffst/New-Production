@@ -212,6 +212,20 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
+        <Class>             <!--CMM_T5_ScrapToIronIngot-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>CMM_T5_ScrapToIronIngot</SubtypeId>
+            </Id>
+            <DisplayName>CMM_T5_ScrapToIronIngot</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
         <Class>             <!--Oxyde-->        <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -331,7 +345,7 @@
         <Entry Class="BasicTools" BlueprintSubtypeId="HandDrill" />
         <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder" />
         <Entry Class="BasicTools" BlueprintSubtypeId="SemiAutoPistolGun" />
-        <Entry Class="BasicTools" BlueprintSubtypeId="SemiAutoPistolMagazine" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="SemiAutoPistolGun" />
 
         <Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />
         <Entry Class="Ingots" BlueprintSubtypeId="IronOreToIngot" />
