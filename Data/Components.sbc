@@ -147,12 +147,12 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>            <!--BleiPlate-->            <!--New-->
+        <Component>            <!--Bleiplatte-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>BleiPlate</SubtypeId>
+                <SubtypeId>Bleiplatte</SubtypeId>
             </Id>
-            <DisplayName>BleiPlate</DisplayName>
+            <DisplayName>Bleiplatte</DisplayName>
             <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
             <Size>
                 <X>0.5</X>

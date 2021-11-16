@@ -212,20 +212,6 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
-        <Class>             <!--CMM_T5_ScrapToIronIngot-->
-            <Id>
-                <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>CMM_T5_ScrapToIronIngot</SubtypeId>
-            </Id>
-            <DisplayName>CMM_T5_ScrapToIronIngot</DisplayName>
-            <Description>Description_BlueprintClass_Ingots</Description>
-            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
-            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
-            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
-        </Class>
-
         <Class>             <!--Oxyde-->        <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -236,7 +222,7 @@
             <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
@@ -250,7 +236,7 @@
             <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
-            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
@@ -349,7 +335,7 @@
 
         <Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />
         <Entry Class="Ingots" BlueprintSubtypeId="IronOreToIngot" />
-        <Entry Class="Ingots" BlueprintSubtypeId="ScrapToIronIngot" />
+        <!--<Entry Class="Ingots" BlueprintSubtypeId="CMM_T5_ScrapToIronIngot" />-->
         <Entry Class="Ingots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
         <Entry Class="Ingots" BlueprintSubtypeId="NickelOreToIngot" />
         <Entry Class="Ingots" BlueprintSubtypeId="CobaltOreToIngot" />
@@ -364,7 +350,7 @@
         <Entry Class="CommonMetals" BlueprintSubtypeId="NickelOreToIngot" />
         <Entry Class="CommonMetals" BlueprintSubtypeId="CobaltOreToIngot" />
         <Entry Class="CommonMetals" BlueprintSubtypeId="MagnesiumOreToIngot" />
-        <Entry Class="CommonMetals" BlueprintSubtypeId="ScrapToIronIngot" />
+       <!-- <Entry Class="CommonMetals" BlueprintSubtypeId="CMM_T5_ScrapToIronIngot" /> -->
         <Entry Class="CommonMetals" BlueprintSubtypeId="SiliconOreToIngot" />
         <Entry Class="CommonMetals" BlueprintSubtypeId="ScrapIngotToIronIngot" />
         <Entry Class="CommonMetals" BlueprintSubtypeId="StoneOreToIngot" />
@@ -372,8 +358,8 @@
 
         <Entry Class="Oxyde" BlueprintSubtypeId="StoneIngotToOxyde" />
         
-        <Entry Class="Legierung" BlueprintSubtypeId="Nickel3Alu" />
-        <Entry Class="Legierung" BlueprintSubtypeId="Nickel3Tin" />
+        <Entry Class="Legierung" BlueprintSubtypeId="Nickel3AluBP" />
+        <Entry Class="Legierung" BlueprintSubtypeId="Nickel3TinBP" />
 
 
         <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Kupferdraht" />

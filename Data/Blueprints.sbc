@@ -105,20 +105,6 @@
       <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>       <!--ScrapToIronIngot-->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ScrapToIronIngot</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
-      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Ore" SubtypeId="Scrap" />
-      </Prerequisites>
-      <Result Amount="0.8" TypeId="Ingot" SubtypeId="Iron" />
-      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
-    </Blueprint>
-
 <!--Ore Verarbeitung-->
 
     <Blueprint>       <!--StoneOreToIngot-->    <!--New_Items-->
@@ -200,10 +186,10 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>       <!--Nickel3Alu-->    <!--New-->
+    <Blueprint>       <!--Nickel3AluBP-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Nickel3Alu</SubtypeId>
+        <SubtypeId>Nickel3AluBP</SubtypeId>
       </Id>
       <DisplayName>Nickel3Alu</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
@@ -212,6 +198,22 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="Aluminium" />
       </Prerequisites>
       <Result Amount="4" TypeId="Ingot" SubtypeId="Nickel3Alu" />
+      <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>       <!--Nickel3TinBP-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Nickel3TinBP</SubtypeId>
+      </Id>
+      <DisplayName>Nickel3Tin</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Titanium" />
+      </Prerequisites>
+      <Result Amount="4" TypeId="Ingot" SubtypeId="Nickel3Tin" />
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
@@ -553,17 +555,17 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>       <!--BleiPlate-->    <!--New-->
+    <Blueprint>       <!--Bleiplatte-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>LeadPlate</SubtypeId>
+        <SubtypeId>Bleiplatte</SubtypeId>
       </Id>
       <DisplayName>Bleiplatte</DisplayName>
       <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
       <Prerequisites>
         <Item Amount="21" TypeId="Ingot" SubtypeId="Lead" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Leadplate" />
+      <Result Amount="1" TypeId="Component" SubtypeId="Bleiplatte" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
