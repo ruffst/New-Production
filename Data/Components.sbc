@@ -150,9 +150,9 @@
         <Component>            <!--BleiPlate-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>BleiPlate</SubtypeId>
+                <SubtypeId>Bleiplatte</SubtypeId>
             </Id>
-            <DisplayName>BleiPlate</DisplayName>
+            <DisplayName>Bleiplatte</DisplayName>
             <Icon>Textures\GUI\Icons\component\lead_plate.dds</Icon>
             <Size>
                 <X>0.5</X>
@@ -292,6 +292,35 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
+        <Component>            <!--Motor-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>GoldMotor</SubtypeId>
+            </Id>
+            <DisplayName>Gold Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\gold_motor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>24</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\motor_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>40</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>2000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
         <Component>            <!--Strator-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
@@ -324,10 +353,10 @@
         <Component>            <!--KupferRotor-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>KupferRotor</SubtypeId>
+                <SubtypeId>Rotor</SubtypeId>
             </Id>
-            <DisplayName>KupferRotor</DisplayName>
-            <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+            <DisplayName>Rotor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\rotor.dds</Icon>
             <Size>
                 <X>0.2</X>
                 <Y>0.2</Y>
@@ -414,7 +443,7 @@
                 <SubtypeId>Kupferdraht</SubtypeId>
             </Id>
             <DisplayName>Kupferdraht</DisplayName>
-            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\copper_wire.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -443,7 +472,7 @@
                 <SubtypeId>Golddraht</SubtypeId>
             </Id>
             <DisplayName>Golddraht</DisplayName>
-            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\gold_wire.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -472,7 +501,7 @@
                 <SubtypeId>Platindraht</SubtypeId>
             </Id>
             <DisplayName>Platindraht</DisplayName>
-            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\platin_wire.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -501,7 +530,7 @@
                 <SubtypeId>Superconductor</SubtypeId>
             </Id>
             <DisplayName>Titandraht</DisplayName>
-            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\titan_wire.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -529,8 +558,8 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>KupferSpulle</SubtypeId>
             </Id>
-            <DisplayName>KupferSpulle</DisplayName>
-            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <DisplayName>Kupfer Spule</DisplayName>
+            <Icon>Textures\GUI\Icons\component\copper_coil.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -558,8 +587,8 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldSpulle</SubtypeId>
             </Id>
-            <DisplayName>GoldSpulle</DisplayName>
-            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <DisplayName>Gold Spule</DisplayName>
+            <Icon>Textures\GUI\Icons\component\gold_coil.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -587,8 +616,8 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinSpulle</SubtypeId>
             </Id>
-            <DisplayName>PlatinSpulle</DisplayName>
-            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <DisplayName>Platin Spule</DisplayName>
+            <Icon>Textures\GUI\Icons\component\platin_coil.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -616,8 +645,37 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanSpulle</SubtypeId>
             </Id>
-            <DisplayName>TitanSpulle</DisplayName>
-            <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+            <DisplayName>Titan Spule</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titan_coil.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.03</Z>
+            </Size>
+            <Mass>15</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\superconductor_conducts_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>5</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>50</MinimumOrderAmount>
+            <MaximumOrderAmount>500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>            <!--Superconductor-->           
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Superconductor</SubtypeId>
+            </Id>
+            <DisplayName>TSuperconductor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\superconductor.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -646,7 +704,7 @@
                 <SubtypeId>Computer</SubtypeId>
             </Id>
             <DisplayName>Kupfer Computer</DisplayName>
-            <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>
             <Size>
                 <X>0.1</X>
                 <Y>0.1</Y>
@@ -674,8 +732,8 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>SMD</SubtypeId>
             </Id>
-            <DisplayName>SMD</DisplayName>
-            <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+            <DisplayName>Elektro Komponenten</DisplayName>
+            <Icon>Textures\GUI\Icons\component\chips.dds</Icon>
             <Size>
                 <X>0.1</X>
                 <Y>0.1</Y>
@@ -704,7 +762,7 @@
                 <SubtypeId>PCB-Platine</SubtypeId>
             </Id>
             <DisplayName>PCB-Platine</DisplayName>
-            <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\pcb.dds</Icon>
             <Size>
                 <X>0.1</X>
                 <Y>0.1</Y>
@@ -733,7 +791,7 @@
                 <SubtypeId>Reactor</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
-            <Icon>Textures\GUI\Icons\component\reactor_components_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\reactor_comp.dds</Icon>
             <Size>
                 <X>0.2</X>
                 <Y>0.2</Y>
@@ -762,7 +820,7 @@
                 <SubtypeId>Thrust</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
-            <Icon>Textures\GUI\Icons\component\thrust_components_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\thruster_component.dds</Icon>
             <Size>
                 <X>0.2</X>
                 <Y>0.2</Y>
@@ -791,7 +849,7 @@
                 <SubtypeId>GravityGenerator</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_GravityGeneratorComponents</DisplayName>
-            <Icon>Textures\GUI\Icons\component\gravity_generator_components_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\gravity_comp.dds</Icon>
             <Size>
                 <X>1</X>
                 <Y>0.7</Y>
@@ -820,7 +878,7 @@
                 <SubtypeId>Medical</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
-            <Icon>Textures\GUI\Icons\component\medical_components_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\medic_comp.dds</Icon>
             <Size>
                 <X>1</X>
                 <Y>0.4</Y>
@@ -936,7 +994,7 @@
                 <SubtypeId>SolarCell</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_SolarCell</DisplayName>
-            <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\solar_cell.dds</Icon>
             <Size>
                 <X>1</X>
                 <Y>0.5</Y>
