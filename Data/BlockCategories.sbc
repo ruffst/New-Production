@@ -2,7 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CategoryClasses>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--LargeBlocks-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -20,7 +21,7 @@
         <string>TextPanel/LargeLCDPanel5x3</string>
         <string>TextPanel/LargeLCDPanel5x5</string>
         <string>ProgrammableBlock/LargeProgrammableBlock</string>
-        <string>Assembler/BasicAssembler</string>
+        <!--<string>Assembler/BasicAssembler</string>-->
         <string>Assembler/LargeAssembler</string>
         <string>Assembler/LargeAssemblerIndustrial</string>
         <string>AirtightSlideDoor/LargeBlockSlideDoor</string>
@@ -468,7 +469,8 @@
         <string>CubeBlock/LargeArmor2x1HalfSlopedTipPanelHeavyLeft</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--SmallBlocks-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -802,7 +804,8 @@
         <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyLeft</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Armorblocks-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -956,7 +959,8 @@
         <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyLeft</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--ShipWeapons-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -974,7 +978,8 @@
         <string>SmallMissileLauncherReload/SmallRocketLauncherReload</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--ShipTools-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -994,7 +999,8 @@
         <string>ShipWelder/SmallShipWelder</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Weapons-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1014,7 +1020,8 @@
         <string>SmallMissileLauncherReload/SmallRocketLauncherReload</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Tools-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1030,7 +1037,8 @@
         <string>ShipWelder/SmallShipWelder</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--WindowBlocks-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1071,7 +1079,8 @@
         <string>CubeBlock/HalfWindowCornerInv</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Conveyors-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1109,7 +1118,8 @@
         <string>ShipConnector/Connector</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--CharacterAnimations-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1150,7 +1160,8 @@
         <string>EmoteDefinition/EmoteFingerGuns</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--CharacterTools-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1178,7 +1189,8 @@
         <string>GoodAIRewardPunishmentTool</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--CharacterWeapons-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1199,7 +1211,8 @@
         <string>AdvancedHandHeldLauncherItem</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--ShipThrusters-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1215,7 +1228,8 @@
         <string>LargeBlockLargeThrust</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--ShipLights-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1230,7 +1244,8 @@
         <string>SmallBlockFrontLight</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Cockpits-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1253,7 +1268,8 @@
         <string>Cockpit/BuggyCockpit</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Production-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1265,7 +1281,7 @@
         <string>Refinery/LargeRefinery</string>
         <string>Refinery/LargeRefineryIndustrial</string>
         <string>Refinery/Blast Furnace</string>
-        <string>Assembler/BasicAssembler</string>
+        <!--<string>Assembler/BasicAssembler</string>-->
         <string>Assembler/LargeAssembler</string>
         <string>Assembler/LargeAssemblerIndustrial</string>
         <string>Projector/LargeProjector</string>
@@ -1274,7 +1290,8 @@
         <string>SurvivalKit/SurvivalKitLarge</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Power-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1295,7 +1312,8 @@
         <string>HydrogenEngine/SmallHydrogenEngine</string>
       </ItemIds>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--DecorativeBlocks-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1325,7 +1343,7 @@
       </ItemIds>
     </Category>
 
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--DecorativeBlocks2-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1370,7 +1388,7 @@
       </ItemIds>
     </Category>
 
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--FrozenBlocks-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1392,7 +1410,7 @@
       <DLC>Frostbite</DLC>
     </Category>
 
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--VoxelHands-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1410,7 +1428,7 @@
       </ItemIds>
     </Category>
 
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--SparksOfTheFutureBlocks-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1450,7 +1468,7 @@
       </ItemIds>
     </Category>
 
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Symbols-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1506,7 +1524,7 @@
       </ItemIds>
     </Category>
 
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--ScrapRacePack-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1544,7 +1562,7 @@
       <DLC>ScrapRace</DLC>
     </Category>
 
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--WarfarePack1-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
@@ -1573,7 +1591,7 @@
       </ItemIds>
     </Category>
 
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--IndustrialPack-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
