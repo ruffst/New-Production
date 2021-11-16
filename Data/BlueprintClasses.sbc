@@ -330,6 +330,8 @@
         <Entry Class="BasicTools" BlueprintSubtypeId="Welder" />
         <Entry Class="BasicTools" BlueprintSubtypeId="HandDrill" />
         <Entry Class="BasicTools" BlueprintSubtypeId="AngleGrinder" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="SemiAutoPistolGun" />
+        <Entry Class="BasicTools" BlueprintSubtypeId="SemiAutoPistolMagazine" />
 
         <Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />
         <Entry Class="Ingots" BlueprintSubtypeId="IronOreToIngot" />

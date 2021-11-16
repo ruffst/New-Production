@@ -4,7 +4,7 @@
   <Blueprints>
 <!--Scrap Material-->
 
-    <Blueprint>       <!--CMM_T5_ScrapToIronIngot-->
+    <Blueprint>       <!--CMM_T5_ScrapToIronIngot-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T5_ScrapToIronIngot</SubtypeId>
@@ -25,7 +25,7 @@
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>       <!--ElectronicScrapToIngot-->
+    <Blueprint>       <!--ElectronicScrapToIngot-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T5_ElectronicScrapToIngot</SubtypeId>
@@ -71,7 +71,7 @@
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>       <!--PlasticScrapToIngot-->
+    <Blueprint>       <!--PlasticScrapToIngot-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T5_PlasticScrapToIngot</SubtypeId>
@@ -93,7 +93,7 @@
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>       <!--CMM_T5_BatteryScrapToIngot-->
+    <Blueprint>       <!--CMM_T5_BatteryScrapToIngot-->    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T5_BatteryScrapToIngot</SubtypeId>
@@ -149,7 +149,7 @@
 
 <!--Ore Verarbeitung-->
 
-    <Blueprint>       <!--StoneOreToIngot-->
+    <Blueprint>       <!--StoneOreToIngot-->    <!--New_Items-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot</SubtypeId>
@@ -188,7 +188,7 @@
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>       <!--StoneOreToIngotBasic-->
+    <Blueprint>       <!--StoneOreToIngotBasic-->    <!--New_Items-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngotBasic</SubtypeId>
@@ -769,7 +769,7 @@
         <SubtypeId>PCB-Platine</SubtypeId>
       </Id>
       <DisplayName>PCB-Platine</DisplayName>
-      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="2" TypeId="Component" SubtypeId="BulletproofGlass" />
@@ -785,7 +785,7 @@
         <SubtypeId>SMD</SubtypeId>
       </Id>
       <DisplayName>SMD</DisplayName>
-      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />

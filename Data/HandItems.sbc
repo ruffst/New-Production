@@ -1,11 +1,14 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <HandItems>
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--BasicHandHeldLauncherGun-->
             <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="BasicHandHeldLauncherGun" />
 
-            <WeaponType>RocketLauncher</WeaponType>
-            
+            <WeaponType>RocketLauncher</WeaponType>             
+
             <LeftHandOrientation>
                 <X>0.324681967</X>
                 <Y>-0.183467492</Y>
@@ -153,15 +156,15 @@
             <ItemPositioningShoot>TransformFromAnim</ItemPositioningShoot>
             <ItemPositioningShoot3rd>TransformFromAnim</ItemPositioningShoot3rd>
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
-            <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>            
+            <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
 
         </HandItem>
-        
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--AdvancedHandHeldLauncherGun-->
             <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="AdvancedHandHeldLauncherGun" />
 
             <WeaponType>RocketLauncher</WeaponType>
-            
+
             <LeftHandOrientation>
                 <X>0.324681967</X>
                 <Y>-0.183467492</Y>
@@ -309,11 +312,11 @@
             <ItemPositioningShoot>TransformFromAnim</ItemPositioningShoot>
             <ItemPositioningShoot3rd>TransformFromAnim</ItemPositioningShoot3rd>
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
-            <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>            
+            <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
 
-        </HandItem>        
-        
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+        </HandItem>
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--SemiAutoPistolGun-->
             <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="SemiAutoPistolGun" />
 
             <WeaponType>Pistol</WeaponType>
@@ -465,10 +468,10 @@
             <ItemPositioningShoot>TransformFromAnim</ItemPositioningShoot>
             <ItemPositioningShoot3rd>TransformFromAnim</ItemPositioningShoot3rd>
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
-            <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>            
+            <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
         </HandItem>
-        
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--FullAutoPistolGun-->
             <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="FullAutoPistolGun" />
 
             <WeaponType>Pistol</WeaponType>
@@ -620,10 +623,10 @@
             <ItemPositioningShoot>TransformFromAnim</ItemPositioningShoot>
             <ItemPositioningShoot3rd>TransformFromAnim</ItemPositioningShoot3rd>
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
-            <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>           
+            <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
         </HandItem>
-        
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--ElitePistolGun-->
             <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="ElitePistolGun" />
 
             <WeaponType>Pistol</WeaponType>
@@ -778,7 +781,7 @@
             <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
         </HandItem>
 
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--RifleGun-->
             <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="RifleGun" />
 
             <WeaponType>Rifle</WeaponType>
@@ -932,8 +935,8 @@
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
             <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
         </HandItem>
-        
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--RapidFireRifleGun-->
             <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="RapidFireRifleGun" />
 
             <WeaponType>Rifle</WeaponType>
@@ -1087,12 +1090,12 @@
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
             <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
         </HandItem>
-        
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--PreciseRifleGun-->
             <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="PreciseRifleGun" />
 
             <WeaponType>Rifle</WeaponType>
-            
+
 
             <LeftHandOrientation>
                 <X>0.28761512</X>
@@ -1243,12 +1246,12 @@
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
             <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
         </HandItem>
-        
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--UltimateRifleGun-->
             <Id Type="MyObjectBuilder_AutomaticRifle" Subtype="UltimateRifleGun" />
 
             <WeaponType>Rifle</WeaponType>
-            
+
             <LeftHandOrientation>
                 <X>0.285951</X>
                 <Y>-0.163958609</Y>
@@ -1398,8 +1401,8 @@
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
             <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
         </HandItem>
-        
-        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">              <!--Welder-->
             <Id Type="MyObjectBuilder_Welder" Subtype="Welder" />
             <LeftHandOrientation>
                 <X>-0.707107961</X>
@@ -1557,7 +1560,8 @@
             <Flare />
             <FlameEffect>WelderFlame</FlameEffect>
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">              <!--Welder2-->
             <Id Type="MyObjectBuilder_Welder" Subtype="Welder2" />
             <LeftHandOrientation>
                 <X>-0.707107961</X>
@@ -1717,7 +1721,8 @@
             <Flare />
             <FlameEffect>WelderFlame</FlameEffect>
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">              <!--Welder3-->
             <Id Type="MyObjectBuilder_Welder" Subtype="Welder3" />
             <LeftHandOrientation>
                 <X>-0.707107961</X>
@@ -1877,7 +1882,8 @@
             <Flare />
             <FlameEffect>WelderFlame</FlameEffect>
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">              <!--Welder4-->
             <Id Type="MyObjectBuilder_Welder" Subtype="Welder4" />
             <LeftHandOrientation>
                 <X>-0.707107961</X>
@@ -2037,7 +2043,8 @@
             <Flare />
             <FlameEffect>WelderFlame</FlameEffect>
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">                <!--AngleGrinder-->
             <Id Type="MyObjectBuilder_AngleGrinder" Subtype="AngleGrinder" />
             <LeftHandOrientation>
                 <X>-0.330544353</X>
@@ -2192,7 +2199,8 @@
             <ItemPositioningIronsight3rd>TransformFromData</ItemPositioningIronsight3rd>
             <Flare />
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">                <!--AngleGrinder2-->
             <Id Type="MyObjectBuilder_AngleGrinder" Subtype="AngleGrinder2" />
             <LeftHandOrientation>
                 <X>-0.330544353</X>
@@ -2346,7 +2354,8 @@
             <DistanceMultiplier>1.2</DistanceMultiplier>
             <Flare />
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">                <!--AngleGrinder3-->
             <Id Type="MyObjectBuilder_AngleGrinder" Subtype="AngleGrinder3" />
             <LeftHandOrientation>
                 <X>-0.330544353</X>
@@ -2500,7 +2509,8 @@
             <DistanceMultiplier>1.4</DistanceMultiplier>
             <Flare />
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">                <!--AngleGrinder4-->
             <Id Type="MyObjectBuilder_AngleGrinder" Subtype="AngleGrinder4" />
             <LeftHandOrientation>
                 <X>-0.3335125</X>
@@ -2654,7 +2664,8 @@
             <DistanceMultiplier>1.6</DistanceMultiplier>
             <Flare />
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_HandDrillDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandDrillDefinition">               <!--HandDrill-->
             <Id Type="MyObjectBuilder_HandDrill" Subtype="HandDrill" />
             <LeftHandOrientation>
                 <X>-0.157468185</X>
@@ -2814,7 +2825,8 @@
                 <Z>-0.72</Z>
             </ParticleOffset>
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_HandDrillDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandDrillDefinition">               <!--HandDrill2-->
             <Id Type="MyObjectBuilder_HandDrill" Subtype="HandDrill2" />
             <LeftHandOrientation>
                 <X>-0.157468185</X>
@@ -2973,7 +2985,8 @@
                 <Z>-0.72</Z>
             </ParticleOffset>
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_HandDrillDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandDrillDefinition">               <!--HandDrill3-->
             <Id Type="MyObjectBuilder_HandDrill" Subtype="HandDrill3" />
             <LeftHandOrientation>
                 <X>-0.157468185</X>
@@ -3133,7 +3146,8 @@
                 <Z>-0.72</Z>
             </ParticleOffset>
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_HandDrillDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandDrillDefinition">               <!--HandDrill4-->
             <Id Type="MyObjectBuilder_HandDrill" Subtype="HandDrill4" />
             <LeftHandOrientation>
                 <X>-0.157468185</X>
@@ -3293,7 +3307,8 @@
                 <Z>-0.72</Z>
             </ParticleOffset>
         </HandItem>
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--CubePlacerItem-->
             <Id Type="MyObjectBuilder_CubePlacer" Subtype="" />
             <LeftHandOrientation>
                 <X>0.317969531</X>
@@ -3445,8 +3460,8 @@
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
             <ItemPositioningIronsight3rd>TransformFromData</ItemPositioningIronsight3rd>
         </HandItem>
-        
-        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">
+
+        <HandItem xsi:type="MyObjectBuilder_HandItemDefinition">                <!--GoodAIRewardPunishmentTool-->
             <Id Type="MyObjectBuilder_GoodAIControlHandTool" Subtype="GoodAIRewardPunishmentTool" />
             <LeftHandOrientation>
                 <X>-0.707107961</X>
@@ -3598,5 +3613,6 @@
             <ItemPositioningIronsight>TransformFromData</ItemPositioningIronsight>
             <ItemPositioningIronsight3rd>TransformFromData</ItemPositioningIronsight3rd>
         </HandItem>
+        
     </HandItems>
 </Definitions>
