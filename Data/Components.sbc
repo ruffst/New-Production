@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Components>
-        <Component>             <!--Construction-->
+        <Component>            <!--Construction-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Construction</SubtypeId>
@@ -31,7 +31,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--MetalGrid-->
+        <Component>            <!--MetalGrid-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>MetalGrid</SubtypeId>
@@ -60,7 +60,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--InteriorPlate AluPlatte-->
+        <Component>            <!--InteriorPlate AluPlatte-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>InteriorPlate</SubtypeId>
@@ -89,7 +89,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--SteelPlate-->
+        <Component>            <!--SteelPlate-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>SteelPlate</SubtypeId>
@@ -118,7 +118,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--TitanPlate-->    <!--New-->
+        <Component>            <!--TitanPlate-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanPlate</SubtypeId>
@@ -147,7 +147,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--BleiPlate-->    <!--New-->
+        <Component>            <!--BleiPlate-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>BleiPlate</SubtypeId>
@@ -176,7 +176,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Girder-->
+        <Component>            <!--Girder-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Girder</SubtypeId>
@@ -205,7 +205,7 @@
             <MaximumAcquisitionAmount>400</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--SmallTube-->
+        <Component>            <!--SmallTube-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>SmallTube</SubtypeId>
@@ -234,7 +234,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--LargeTube-->
+        <Component>            <!--LargeTube-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>LargeTube</SubtypeId>
@@ -263,7 +263,7 @@
             <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Motor-->
+        <Component>            <!--Motor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Motor</SubtypeId>
@@ -292,7 +292,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Strator-->    <!--New-->
+        <Component>            <!--Strator-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Strator</SubtypeId>
@@ -321,7 +321,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--KupferRotor-->    <!--New-->
+        <Component>            <!--KupferRotor-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>KupferRotor</SubtypeId>
@@ -350,7 +350,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Display-->
+        <Component>            <!--Display-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Display</SubtypeId>
@@ -379,7 +379,7 @@
             <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--BulletproofGlass-->
+        <Component>            <!--BulletproofGlass-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>BulletproofGlass</SubtypeId>
@@ -408,7 +408,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Kupferdraht-->    <!--New-->
+        <Component>            <!--Kupferdraht-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Kupferdraht</SubtypeId>
@@ -437,7 +437,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Golddraht-->    <!--New-->
+        <Component>            <!--Golddraht-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Golddraht</SubtypeId>
@@ -466,7 +466,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Platindraht-->    <!--New-->
+        <Component>            <!--Platindraht-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Platindraht</SubtypeId>
@@ -495,7 +495,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Titandraht (Superconductor)-->    <!--New-->
+        <Component>            <!--Titandraht (Superconductor)-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Superconductor</SubtypeId>
@@ -524,7 +524,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--KupferSpulle-->    <!--New-->
+        <Component>            <!--KupferSpulle-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>KupferSpulle</SubtypeId>
@@ -553,7 +553,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--GoldSpulle-->    <!--New-->
+        <Component>            <!--GoldSpulle-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldSpulle</SubtypeId>
@@ -582,7 +582,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--PlatinSpulle-->    <!--New-->
+        <Component>            <!--PlatinSpulle-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinSpulle</SubtypeId>
@@ -611,7 +611,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--TitanSpulle-->    <!--New-->
+        <Component>            <!--TitanSpulle-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanSpulle</SubtypeId>
@@ -640,7 +640,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--KupferComputer-->    <!--New Items-->
+        <Component>            <!--KupferComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Computer</SubtypeId>
@@ -669,7 +669,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--SMD-->    <!--New-->
+        <Component>            <!--SMD-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>SMD</SubtypeId>
@@ -698,7 +698,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--PCB-Platine-->    <!--New-->
+        <Component>            <!--PCB-Platine-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PCB-Platine</SubtypeId>
@@ -727,7 +727,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Reactor-->
+        <Component>            <!--Reactor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Reactor</SubtypeId>
@@ -756,7 +756,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Thrust-->
+        <Component>            <!--Thrust-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Thrust</SubtypeId>
@@ -785,7 +785,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--GravityGenerator-->
+        <Component>            <!--GravityGenerator-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GravityGenerator</SubtypeId>
@@ -814,7 +814,7 @@
             <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Medical-->
+        <Component>            <!--Medical-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Medical</SubtypeId>
@@ -843,7 +843,7 @@
             <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--RadioCommunication-->
+        <Component>            <!--RadioCommunication-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>RadioCommunication</SubtypeId>
@@ -872,7 +872,7 @@
             <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Detector-->
+        <Component>            <!--Detector-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Detector</SubtypeId>
@@ -901,7 +901,7 @@
             <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Explosives-->
+        <Component>            <!--Explosives-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Explosives</SubtypeId>
@@ -930,7 +930,7 @@
             <MaximumAcquisitionAmount>18</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--SolarCell-->
+        <Component>            <!--SolarCell-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>SolarCell</SubtypeId>
@@ -959,7 +959,7 @@
             <MaximumAcquisitionAmount>30</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--PowerCell-->
+        <Component>            <!--PowerCell-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PowerCell</SubtypeId>
@@ -988,7 +988,7 @@
             <MaximumAcquisitionAmount>120</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>             <!--Canvas-->
+        <Component>            <!--Canvas-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Canvas</SubtypeId>
@@ -1016,6 +1016,6 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
         </Component>
-        
+
     </Components>
 </Definitions>

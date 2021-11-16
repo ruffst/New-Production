@@ -397,7 +397,7 @@
 
 <!--Ice und Flaschen-->
 
-    <Blueprint>       <!--IceToOxygen-->
+    <Blueprint>       <!--IceToOxygen-->        <!--Rezept Falsch?-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IceToOxygen</SubtypeId>
@@ -407,11 +407,11 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Ice" />
       </Prerequisites>
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>       <!--OxygenBottlesRefill-->
+    <Blueprint>       <!--OxygenBottlesRefill-->        <!--Rezept Falsch?-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>OxygenBottlesRefill</SubtypeId>
@@ -422,7 +422,7 @@
         <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="OxygenBottle" />
       </Prerequisites>
       <Results />
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
 
@@ -443,7 +443,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>       <!--HydrogenBottlesRefill-->
+    <Blueprint>       <!--HydrogenBottlesRefill-->        <!--Rezept Falsch?-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HydrogenBottlesRefill</SubtypeId>
@@ -453,7 +453,7 @@
       <Prerequisites>
         <Item Amount="1" TypeId="GasContainerObject" SubtypeId="HydrogenBottle" />
       </Prerequisites>
-      <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="Stone" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
 
