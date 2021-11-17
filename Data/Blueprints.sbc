@@ -716,6 +716,57 @@
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
       </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    
+    <Blueprint>       <!--Strator-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldStrator</SubtypeId>
+      </Id>
+      <DisplayName>Gold Strator</DisplayName>
+      <Icon>Textures\GUI\Icons\component\gold_strator.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Golddraht" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Strator" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    
+    <Blueprint>       <!--Strator-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinStrator</SubtypeId>
+      </Id>
+      <DisplayName>Platin Strator</DisplayName>
+      <Icon>Textures\GUI\Icons\component\platin_strator.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="GoldStrator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Platindraht" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Strator" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    
+    <Blueprint>       <!--Strator-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitanStrator</SubtypeId>
+      </Id>
+      <DisplayName>Titan Strator</DisplayName>
+      <Icon>Textures\GUI\Icons\component\titan_strator.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Titandraht" />
+      </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Strator" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>

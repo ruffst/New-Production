@@ -389,9 +389,13 @@
         <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="MetalGrid" />
         <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="SolarCell" />
 
-        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Strator" />
+        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="KupferStrator" />
+        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="GoldStrator" />
+        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PlatinStrator" />
+        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="TitanStrator" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Display" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="SMD" />
+        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PCB" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="ComputerComponent" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Gold-Computer" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Platin-Computer" />
