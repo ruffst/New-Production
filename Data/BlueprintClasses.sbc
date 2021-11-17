@@ -365,12 +365,17 @@
         <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Kupferdraht" />
         <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Golddraht" />
         <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Platindraht" />
-        <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Superconductor" />
+        <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Titandraht" />
+        <!--<Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Superconductor" />-->
 
-        <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="Spulle" />
-        <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="Strator" />
-        <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="Rotor" />
+        <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="KupferSpulle" />
+        <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="GoldSpulle" />
+        <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="PlatinSpulle" />
+        <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="TitanSpulle" />
+        <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="Superconductor" />
 
+
+        <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="Rotor" />
         <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="SmallTube" />
         <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="LargeTube" />
         <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="GirderComponent" />
@@ -384,6 +389,7 @@
         <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="MetalGrid" />
         <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="SolarCell" />
 
+        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Strator" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Display" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="SMD" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="ComputerComponent" />

@@ -498,12 +498,12 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GirderComponent</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_Girder</DisplayName>
-      <Icon>Textures\GUI\Icons\component\girder.dds</Icon>
+      <DisplayName>Träger</DisplayName>
+      <Icon>Textures\GUI\Icons\component\grider.dds</Icon>
       <Prerequisites>
         <Item Amount="6" TypeId="Ingot" SubtypeId="Iron" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Girder" />
+      <Result Amount="1" TypeId="Component" SubtypeId="GirderComponent" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
@@ -650,7 +650,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>KupferSpulle</SubtypeId>
       </Id>
-      <DisplayName>Kupfer Spulle</DisplayName>
+      <DisplayName>Kupfer Spule</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_coil.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
@@ -665,7 +665,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldSpulle</SubtypeId>
       </Id>
-      <DisplayName>Gold Spulle</DisplayName>
+      <DisplayName>Gold Spule</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_coil.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
@@ -680,7 +680,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinSpulle</SubtypeId>
       </Id>
-      <DisplayName>Platin Spulle</DisplayName>
+      <DisplayName>Platin Spule</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_coil.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Platin" />
@@ -695,7 +695,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanSpulle</SubtypeId>
       </Id>
-      <DisplayName>Titan Spulle</DisplayName>
+      <DisplayName>Titan Spule</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_coil.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Titanium" />

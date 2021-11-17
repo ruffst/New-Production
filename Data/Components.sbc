@@ -179,9 +179,9 @@
         <Component>            <!--Girder-->
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>Girder</SubtypeId>
+                <SubtypeId>GirderComponent</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_Girder</DisplayName>
+            <DisplayName>Träger</DisplayName>
 
             <Icon>Textures\GUI\Icons\component\grider.dds</Icon>
             <Size>
