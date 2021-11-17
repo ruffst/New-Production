@@ -513,7 +513,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MetalGrid</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+      <DisplayName>Eisengitter</DisplayName>
       <Icon>Textures\GUI\Icons\component\metal_grid.dds</Icon>
       <Prerequisites>
 
@@ -824,7 +824,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SteelPlate</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+      <DisplayName>Eisenplatte</DisplayName>
       <Icon>Textures\GUI\Icons\component\steel_plate.dds</Icon>
       <Prerequisites>
         <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
@@ -839,7 +839,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SmallTube</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+      <DisplayName>Kleine Rohre</DisplayName>
       <Icon>Textures\GUI\Icons\component\tube_smal.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
@@ -854,7 +854,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>LargeTube</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+      <DisplayName>Große Rohre</DisplayName>
       <Icon>Textures\GUI\Icons\component\tube_large.dds</Icon>
       <Prerequisites>
         <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />

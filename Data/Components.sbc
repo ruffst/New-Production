@@ -36,7 +36,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>MetalGrid</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <DisplayName>Eisengitter</DisplayName>
             <Icon>Textures\GUI\Icons\component\metal_grid.dds</Icon>
             <Size>
                 <X>0.5</X>
@@ -94,7 +94,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>SteelPlate</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <DisplayName>Eisenplatte</DisplayName>
             <Icon>Textures\GUI\Icons\component\steel_plate.dds</Icon>
             <Size>
                 <X>0.5</X>
@@ -210,7 +210,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>SmallTube</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <DisplayName>Kleine Rohre</DisplayName>
             <Icon>Textures\GUI\Icons\component\tube_smal.dds</Icon>
             <Size>
                 <X>1</X>
@@ -239,7 +239,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>LargeTube</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+            <DisplayName>Große Rohre</DisplayName>
             <Icon>Textures\GUI\Icons\component\tube_large.dds</Icon>
             <Size>
                 <X>1</X>
