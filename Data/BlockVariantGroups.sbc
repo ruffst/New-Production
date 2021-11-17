@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
 
-    <!-- Armor -->              
+        <!-- Armor -->              
 
         <BlockVariantGroup>             <!--LightArmorBlock-->
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightCubeGroup" />
@@ -210,6 +210,7 @@
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="Oxygator" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -223,7 +224,13 @@
                 <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Drahtextruder" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Wickelmaschine" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Rohrextruder" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Plattenpresse" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Elektro_Assembler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Fertiger" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="VerbrauchsmaterialAssembler" />
             </Blocks>
         </BlockVariantGroup>
 

@@ -197,8 +197,8 @@
         <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Aluminium" />
       </Prerequisites>
-      <Result Amount="4" TypeId="Ingot" SubtypeId="Nickel3Alu" />
-      <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
+      <Result Amount="4" TypeId="Ingot" SubtypeId="Iron" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
@@ -367,14 +367,14 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T1_AluminumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Ore</DisplayName>
+      <DisplayName>Aluminium Ore</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ore" SubtypeId="Aluminum" />
+        <Item Amount="10" TypeId="Ore" SubtypeId="Aluminium" />
       </Prerequisites>
       <Results>
         <Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="5" TypeId="Ingot" SubtypeId="Aluminum" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Aluminium" />
       </Results>					
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -872,11 +872,11 @@
       <DisplayName>Kupfer Motor</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_motor.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="KupferRotor" />
-        <Item Amount="1" TypeId="Component" SubtypeId="Strator" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
+        <Item Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
         <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="50" TypeId="Component" SubtypeId="ConstructionComponent" />
-        <Item Amount="1" TypeId="Component" SubtypeId="ComputerComponent" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>

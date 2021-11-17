@@ -257,12 +257,12 @@
     </PhysicalItem>
 
   <!--Ingots-->
-    <PhysicalItem>      <!-- Aluminum -->
+    <PhysicalItem>      <!-- Aluminium -->
       <Id>
         <TypeId>Ingot</TypeId>
-        <SubtypeId>Aluminum</SubtypeId>
+        <SubtypeId>Aluminium</SubtypeId>
       </Id>
-      <DisplayName>Aluminum Ingot</DisplayName>
+      <DisplayName>Aluminium Ingot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\aluminum_ingot.dds</Icon>
       <Size>
         <X>0.072</X>
