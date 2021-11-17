@@ -904,7 +904,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>BulletproofGlass</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_BulletproofGlass</DisplayName>
+      <DisplayName>Glasplatte</DisplayName>
       <Icon>Textures\GUI\Icons\component\glas.dds</Icon>
       <Prerequisites>
         <Item Amount="15" TypeId="Ingot" SubtypeId="Silicon" />
