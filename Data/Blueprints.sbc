@@ -927,7 +927,64 @@
         <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+      <Result Amount="1" TypeId="Component" SubtypeId="ComputerComponent" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+   <Blueprint>       <!--ComputerComponent-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitanComponent</SubtypeId>
+      </Id>
+      <DisplayName>Titan Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\titan_computer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="PlatinComponent" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TitanComputer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+       <Blueprint>       <!--ComputerComponent-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldComponent</SubtypeId>
+      </Id>
+      <DisplayName>Gold Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\gold_computer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="ComputerComponent" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="GoldComputer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+       <Blueprint>       <!--ComputerComponent-->    <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinComponent</SubtypeId>
+      </Id>
+      <DisplayName>Platin Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\platin_computer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="GoldComponent" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PlatinComputer" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
