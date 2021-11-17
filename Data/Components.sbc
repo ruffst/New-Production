@@ -37,7 +37,7 @@
                 <SubtypeId>MetalGrid</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
-            <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\metal_grid.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -321,13 +321,158 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
+        <Component>            <!--Motor-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TitanMotor</SubtypeId>
+            </Id>
+            <DisplayName>Titan Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titan_motor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>24</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\motor_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>40</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>2000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>            <!--Motor-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>PlatinMotor</SubtypeId>
+            </Id>
+            <DisplayName>Platin Motor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\platin_motor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>24</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\motor_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>40</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>2000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
         <Component>            <!--Strator-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>Strator</SubtypeId>
+                <SubtypeId>KupferStrator</SubtypeId>
             </Id>
             <DisplayName>Kupfer Strator</DisplayName>
             <Icon>Textures\GUI\Icons\component\copper_strator.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>24</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\motor_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>40</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>2000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>            <!--Strator-->            <!--New-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>GoldStrator</SubtypeId>
+            </Id>
+            <DisplayName>Gold Strator</DisplayName>
+            <Icon>Textures\GUI\Icons\component\gold_strator.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>24</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\motor_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>40</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>2000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>            <!--Strator-->            <!--New-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>PlatinStrator</SubtypeId>
+            </Id>
+            <DisplayName>Platin Strator</DisplayName>
+            <Icon>Textures\GUI\Icons\component\platin_strator.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>24</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\motor_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>40</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>2000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>            <!--Strator-->            <!--New-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TitanStrator</SubtypeId>
+            </Id>
+            <DisplayName>Titan Strator</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titan_strator.dds</Icon>
             <Size>
                 <X>0.2</X>
                 <Y>0.2</Y>
@@ -385,7 +530,7 @@
                 <SubtypeId>Display</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_Display</DisplayName>
-            <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\display.dds</Icon>
             <Size>
                 <X>0.3</X>
                 <Y>0.4</Y>
@@ -414,7 +559,7 @@
                 <SubtypeId>BulletproofGlass</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_BulletproofGlass</DisplayName>
-            <Icon>Textures\GUI\Icons\component\bulletproof_glass_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\glas.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.5</Y>
@@ -674,7 +819,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Superconductor</SubtypeId>
             </Id>
-            <DisplayName>TSuperconductor</DisplayName>
+            <DisplayName>Superconductor</DisplayName>
             <Icon>Textures\GUI\Icons\component\superconductor.dds</Icon>
             <Size>
                 <X>0.5</X>
@@ -726,6 +871,93 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
+
+       <Component>            <!--KupferComputer-->            <!--New Items-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>GoldComputer</SubtypeId>
+            </Id>
+            <DisplayName>Gold Computer</DisplayName>
+            <Icon>Textures\GUI\Icons\component\gold_computer.dds</Icon>
+            <Size>
+                <X>0.1</X>
+                <Y>0.1</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.2</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Components\computer_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>1</MaxIntegrity>
+            <DropProbability>0.1</DropProbability>
+            <Health>11</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOrderAmount>300</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+       <Component>            <!--KupferComputer-->            <!--New Items-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>PlatinComputer</SubtypeId>
+            </Id>
+            <DisplayName>Platin Computer</DisplayName>
+            <Icon>Textures\GUI\Icons\component\platin_computer.dds</Icon>
+            <Size>
+                <X>0.1</X>
+                <Y>0.1</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.2</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Components\computer_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>1</MaxIntegrity>
+            <DropProbability>0.1</DropProbability>
+            <Health>11</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOrderAmount>300</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+       <Component>            <!--KupferComputer-->            <!--New Items-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TitanComputer</SubtypeId>
+            </Id>
+            <DisplayName>Titan Computer</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titan_computer.dds</Icon>
+            <Size>
+                <X>0.1</X>
+                <Y>0.1</Y>
+                <Z>0.02</Z>
+            </Size>
+            <Mass>0.2</Mass>
+            <Volume>1</Volume>
+            <Model>Models\Components\computer_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>1</MaxIntegrity>
+            <DropProbability>0.1</DropProbability>
+            <Health>11</Health>
+            <MinimumOfferAmount>1000</MinimumOfferAmount>
+            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOrderAmount>300</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
 
         <Component>            <!--SMD-->            <!--New-->
             <Id>
@@ -790,8 +1022,95 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Reactor</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
-            <Icon>Textures\GUI\Icons\component\reactor_comp.dds</Icon>
+            <DisplayName>Kupfer Reactor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\copper_reactor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>25</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\reactor_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>20</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>            <!--Reactor-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>GoldReactor</SubtypeId>
+            </Id>
+            <DisplayName>Gold Reactor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\gold_reactor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>25</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\reactor_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>20</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
+
+       <Component>            <!--Reactor-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>PlatinReactor</SubtypeId>
+            </Id>
+            <DisplayName>Platin Reactor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\platin_reactor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>25</Mass>
+            <Volume>8</Volume>
+            <Model>Models\Components\reactor_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>20</MaxIntegrity>
+            <DropProbability>0.3</DropProbability>
+            <Health>14</Health>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
+
+       <Component>            <!--Reactor-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TitanReactor</SubtypeId>
+            </Id>
+            <DisplayName>Titan Reactor</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titan_reactor.dds</Icon>
             <Size>
                 <X>0.2</X>
                 <Y>0.2</Y>
@@ -819,8 +1138,8 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Thrust</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
-            <Icon>Textures\GUI\Icons\component\thruster_component.dds</Icon>
+            <DisplayName>Kupfer Thruster</DisplayName>
+            <Icon>Textures\GUI\Icons\component\copper_thruster.dds</Icon>
             <Size>
                 <X>0.2</X>
                 <Y>0.2</Y>
@@ -843,13 +1162,188 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
+       <Component>            <!--Thrust-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>GoldThrust</SubtypeId>
+            </Id>
+            <DisplayName>Gold Thruster</DisplayName>
+            <Icon>Textures\GUI\Icons\component\gold_thruster.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>40</Mass>
+            <Volume>10</Volume>
+            <Model>Models\Components\thrust_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.2</DropProbability>
+            <Health>12</Health>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>500</MaximumOfferAmount>
+            <MinimumOrderAmount>50</MinimumOrderAmount>
+            <MaximumOrderAmount>500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
+
+     <Component>            <!--Thrust-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>PlatinThrust</SubtypeId>
+            </Id>
+            <DisplayName>Platin Thruster</DisplayName>
+            <Icon>Textures\GUI\Icons\component\platin_thruster.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>40</Mass>
+            <Volume>10</Volume>
+            <Model>Models\Components\thrust_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.2</DropProbability>
+            <Health>12</Health>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>500</MaximumOfferAmount>
+            <MinimumOrderAmount>50</MinimumOrderAmount>
+            <MaximumOrderAmount>500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
+
+     <Component>            <!--Thrust-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TitanThrust</SubtypeId>
+            </Id>
+            <DisplayName>Titan Thruster</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titan_thruster.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>40</Mass>
+            <Volume>10</Volume>
+            <Model>Models\Components\thrust_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.2</DropProbability>
+            <Health>12</Health>
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>500</MaximumOfferAmount>
+            <MinimumOrderAmount>50</MinimumOrderAmount>
+            <MaximumOrderAmount>500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
+
+
         <Component>            <!--GravityGenerator-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GravityGenerator</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_GravityGeneratorComponents</DisplayName>
-            <Icon>Textures\GUI\Icons\component\gravity_comp.dds</Icon>
+            <DisplayName>Kupfer Gravi-Generator</DisplayName>
+            <Icon>Textures\GUI\Icons\component\copper_gravity.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>800</Mass>
+            <Volume>200</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>0.2</DropProbability>
+            <Health>12</Health>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>50</MaximumOfferAmount>
+            <MinimumOrderAmount>5</MinimumOrderAmount>
+            <MaximumOrderAmount>40</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>            <!--GravityGenerator-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>GoldGravityGenerator</SubtypeId>
+            </Id>
+            <DisplayName>Gold Gravi-Generator</DisplayName>
+            <Icon>Textures\GUI\Icons\component\gold_gravity.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>800</Mass>
+            <Volume>200</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>0.2</DropProbability>
+            <Health>12</Health>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>50</MaximumOfferAmount>
+            <MinimumOrderAmount>5</MinimumOrderAmount>
+            <MaximumOrderAmount>40</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>            <!--GravityGenerator-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>PlatinGravityGenerator</SubtypeId>
+            </Id>
+            <DisplayName>Platin Gravi-Generator</DisplayName>
+            <Icon>Textures\GUI\Icons\component\platin_gravity.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>800</Mass>
+            <Volume>200</Volume>
+            <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>0.2</DropProbability>
+            <Health>12</Health>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>50</MaximumOfferAmount>
+            <MinimumOrderAmount>5</MinimumOrderAmount>
+            <MaximumOrderAmount>40</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+        </Component>
+
+        <Component>            <!--GravityGenerator-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TitanGravityGenerator</SubtypeId>
+            </Id>
+            <DisplayName>Titan Gravi-Generator</DisplayName>
+            <Icon>Textures\GUI\Icons\component\titan_gravity.dds</Icon>
             <Size>
                 <X>1</X>
                 <Y>0.7</Y>
@@ -907,7 +1401,7 @@
                 <SubtypeId>RadioCommunication</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_RadioCommunicationComponents</DisplayName>
-            <Icon>Textures\GUI\Icons\component\radio_communication_components_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\radio.dds</Icon>
             <Size>
                 <X>1</X>
                 <Y>0.5</Y>
@@ -936,7 +1430,7 @@
                 <SubtypeId>Detector</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
-            <Icon>Textures\GUI\Icons\component\detector_components_component.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\detector.dds</Icon>
             <Size>
                 <X>0.15</X>
                 <Y>0.15</Y>
@@ -965,7 +1459,7 @@
                 <SubtypeId>Explosives</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_Explosives</DisplayName>
-            <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\explosive.dds</Icon>
             <Size>
                 <X>0.2</X>
                 <Y>0.2</Y>
@@ -1023,7 +1517,7 @@
                 <SubtypeId>PowerCell</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_PowerCell</DisplayName>
-            <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\energy_cell.dds</Icon>
             <Size>
                 <X>0.5</X>
                 <Y>0.3</Y>
@@ -1052,7 +1546,7 @@
                 <SubtypeId>Canvas</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Item_CanvasCartridge</DisplayName>
-            <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
+            <Icon>Textures\GUI\Icons\component\canvas.dds</Icon>
             <Size>
                 <X>0.25</X>
                 <Y>0.25</Y>
