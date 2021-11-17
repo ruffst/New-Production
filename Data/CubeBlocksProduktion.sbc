@@ -175,12 +175,12 @@
             <DLC>HeavyIndustry</DLC>
         </Definition>
 
-        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">              <!--Oxygator (Blast_Furnace)-->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">              <!--Legierer (Blast_Furnace)-->
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>Oxygator</SubtypeId>
+                <SubtypeId>Legierer</SubtypeId>
             </Id>
-            <DisplayName>Oxygator</DisplayName>
+            <DisplayName>Legierer</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
             <Description>Description_RefineryBasic</Description>
             <CubeSize>Large</CubeSize>
@@ -211,7 +211,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Oxygator </BlockPairName>
+            <BlockPairName>Legierer</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>

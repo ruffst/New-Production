@@ -623,7 +623,7 @@
       <DisplayName>Titandraht</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_wire.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Titan" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Titanium" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Titandraht" />
