@@ -3,7 +3,7 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlueprintClasses>
 
-        <Class>             <!--Tools-->
+        <Class>            <!--Tools-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Tools</SubtypeId>
@@ -16,7 +16,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--BasicTools-->
+        <Class>            <!--BasicTools-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>BasicTools</SubtypeId>
@@ -29,7 +29,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--EliteTools-->
+        <Class>            <!--EliteTools-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>EliteTools</SubtypeId>
@@ -42,7 +42,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--ComponentsDrahtextruder-->        <!--New-->
+        <Class>            <!--ComponentsDrahtextruder-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsDrahtextruder</SubtypeId>
@@ -55,7 +55,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--ComponentsWickelmaschine-->        <!--New-->
+        <Class>            <!--ComponentsWickelmaschine-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsWickelmaschine</SubtypeId>
@@ -68,7 +68,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--ComponentsRohrextruder-->        <!--New-->
+        <Class>            <!--ComponentsRohrextruder-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsRohrextruder</SubtypeId>
@@ -81,7 +81,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--ComponentsPlattenpresse-->        <!--New-->
+        <Class>            <!--ComponentsPlattenpresse-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsPlattenpresse</SubtypeId>
@@ -94,7 +94,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--ComponentsElektroAssembler-->        <!--New-->
+        <Class>            <!--ComponentsElektroAssembler-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsElektroAssembler</SubtypeId>
@@ -107,7 +107,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--ComponentsFertiger-->        <!--New-->
+        <Class>            <!--ComponentsFertiger-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsFertiger</SubtypeId>
@@ -120,7 +120,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--ComponentsVerbrauchsmaterialAssembler-->        <!--New-->
+        <Class>            <!--ComponentsVerbrauchsmaterialAssembler-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsVerbrauchsmaterialAssembler</SubtypeId>
@@ -133,7 +133,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--SimpleComponents-->
+        <Class>            <!--SimpleComponents-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>SimpleComponents</SubtypeId>
@@ -146,7 +146,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--BasicComponents-->
+        <Class>            <!--BasicComponents-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>BasicComponents</SubtypeId>
@@ -159,7 +159,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--Ammo-->
+        <Class>            <!--Ammo-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Ammo</SubtypeId>
@@ -172,7 +172,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--Consumables-->
+        <Class>            <!--Consumables-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Consumables</SubtypeId>
@@ -185,7 +185,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--EliteConsumables-->
+        <Class>            <!--EliteConsumables-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>EliteConsumables</SubtypeId>
@@ -198,7 +198,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
 
-        <Class>             <!--Ingots-->
+        <Class>            <!--Ingots-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Ingots</SubtypeId>
@@ -212,7 +212,7 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
-        <Class>             <!--Oxyde-->        <!--New-->
+        <Class>            <!--Oxyde-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Oxyde</SubtypeId>
@@ -226,7 +226,7 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
-        <Class>             <!--Legierung-->        <!--New-->
+        <Class>            <!--Legierung-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Legierung</SubtypeId>
@@ -240,7 +240,7 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
-        <Class>             <!--CommonMetals-->
+        <Class>            <!--CommonMetals-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>CommonMetals</SubtypeId>
@@ -254,7 +254,7 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
-        <Class>             <!--Ice-->
+        <Class>            <!--Ice-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Ice</SubtypeId>
@@ -268,7 +268,7 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
-        <Class>             <!--OxygenBottles-->
+        <Class>            <!--OxygenBottles-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>OxygenBottles</SubtypeId>
@@ -282,7 +282,7 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
-        <Class>             <!--HydrogenBottles-->
+        <Class>            <!--HydrogenBottles-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>HydrogenBottles</SubtypeId>
@@ -350,14 +350,14 @@
         <Entry Class="CommonMetals" BlueprintSubtypeId="NickelOreToIngot" />
         <Entry Class="CommonMetals" BlueprintSubtypeId="CobaltOreToIngot" />
         <Entry Class="CommonMetals" BlueprintSubtypeId="MagnesiumOreToIngot" />
-       <!-- <Entry Class="CommonMetals" BlueprintSubtypeId="CMM_T5_ScrapToIronIngot" /> -->
+        <!-- <Entry Class="CommonMetals" BlueprintSubtypeId="CMM_T5_ScrapToIronIngot" /> -->
         <Entry Class="CommonMetals" BlueprintSubtypeId="SiliconOreToIngot" />
         <Entry Class="CommonMetals" BlueprintSubtypeId="ScrapIngotToIronIngot" />
         <Entry Class="CommonMetals" BlueprintSubtypeId="StoneOreToIngot" />
 
 
         <Entry Class="Oxyde" BlueprintSubtypeId="StoneIngotToOxyde" />
-        
+
         <Entry Class="Legierung" BlueprintSubtypeId="Nickel3AluBP" />
         <Entry Class="Legierung" BlueprintSubtypeId="Nickel3TinBP" />
 
@@ -397,9 +397,9 @@
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="SMD" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PCB" />
         <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="ComputerComponent" />
-        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Gold-Computer" />
-        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Platin-Computer" />
-        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Titan-Computer" />
+        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="GoldComputer" />
+        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PlatinComputer" />
+        <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="TitanComputer" />
 
         <Entry Class="ComponentsFertiger" BlueprintSubtypeId="MotorComponent" />
         <Entry Class="ComponentsFertiger" BlueprintSubtypeId="ReactorComponent" />

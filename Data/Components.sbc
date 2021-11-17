@@ -36,7 +36,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>MetalGrid</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+            <DisplayName>Eisengitter</DisplayName>
             <Icon>Textures\GUI\Icons\component\metal_grid.dds</Icon>
             <Size>
                 <X>0.5</X>
@@ -94,7 +94,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>SteelPlate</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+            <DisplayName>Eisenplatte</DisplayName>
             <Icon>Textures\GUI\Icons\component\steel_plate.dds</Icon>
             <Size>
                 <X>0.5</X>
@@ -210,7 +210,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>SmallTube</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+            <DisplayName>Kleine Rohre</DisplayName>
             <Icon>Textures\GUI\Icons\component\tube_smal.dds</Icon>
             <Size>
                 <X>1</X>
@@ -239,7 +239,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>LargeTube</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+            <DisplayName>Große Rohre</DisplayName>
             <Icon>Textures\GUI\Icons\component\tube_large.dds</Icon>
             <Size>
                 <X>1</X>
@@ -529,7 +529,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Display</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_Display</DisplayName>
+            <DisplayName>Monitor</DisplayName>
             <Icon>Textures\GUI\Icons\component\display.dds</Icon>
             <Size>
                 <X>0.3</X>
@@ -814,7 +814,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-        <Component>            <!--Superconductor-->           
+        <Component>            <!--Superconductor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Superconductor</SubtypeId>
@@ -846,7 +846,7 @@
         <Component>            <!--KupferComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>Computer</SubtypeId>
+                <SubtypeId>ComputerComponent</SubtypeId>
             </Id>
             <DisplayName>Kupfer Computer</DisplayName>
             <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>
@@ -872,7 +872,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-       <Component>            <!--KupferComputer-->            <!--New Items-->
+        <Component>            <!--KupferComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldComputer</SubtypeId>
@@ -901,7 +901,7 @@
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
 
-       <Component>            <!--KupferComputer-->            <!--New Items-->
+        <Component>            <!--KupferComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinComputer</SubtypeId>
@@ -929,7 +929,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-       <Component>            <!--KupferComputer-->            <!--New Items-->
+        <Component>            <!--KupferComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanComputer</SubtypeId>
@@ -1075,7 +1075,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-       <Component>            <!--Reactor-->
+        <Component>            <!--Reactor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinReactor</SubtypeId>
@@ -1104,7 +1104,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-       <Component>            <!--Reactor-->
+        <Component>            <!--Reactor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanReactor</SubtypeId>
@@ -1162,7 +1162,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-       <Component>            <!--Thrust-->
+        <Component>            <!--Thrust-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldThrust</SubtypeId>
@@ -1191,7 +1191,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-     <Component>            <!--Thrust-->
+        <Component>            <!--Thrust-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinThrust</SubtypeId>
@@ -1220,7 +1220,7 @@
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
 
-     <Component>            <!--Thrust-->
+        <Component>            <!--Thrust-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanThrust</SubtypeId>
