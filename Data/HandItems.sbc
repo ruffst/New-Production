@@ -1402,7 +1402,7 @@
             <ItemPositioningIronsight3rd>TransformFromAnim</ItemPositioningIronsight3rd>
         </HandItem>
 
-        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">              <!--Welder-->
+        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">                  <!--Welder-->
             <Id Type="MyObjectBuilder_Welder" Subtype="Welder" />
             <LeftHandOrientation>
                 <X>-0.707107961</X>
@@ -1561,7 +1561,7 @@
             <FlameEffect>WelderFlame</FlameEffect>
         </HandItem>
 
-        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">              <!--Welder2-->
+        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">                  <!--Welder2-->
             <Id Type="MyObjectBuilder_Welder" Subtype="Welder2" />
             <LeftHandOrientation>
                 <X>-0.707107961</X>
@@ -1722,7 +1722,7 @@
             <FlameEffect>WelderFlame</FlameEffect>
         </HandItem>
 
-        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">              <!--Welder3-->
+        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">                  <!--Welder3-->
             <Id Type="MyObjectBuilder_Welder" Subtype="Welder3" />
             <LeftHandOrientation>
                 <X>-0.707107961</X>
@@ -1883,7 +1883,7 @@
             <FlameEffect>WelderFlame</FlameEffect>
         </HandItem>
 
-        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">              <!--Welder4-->
+        <HandItem xsi:type="MyObjectBuilder_WelderDefinition">                  <!--Welder4-->
             <Id Type="MyObjectBuilder_Welder" Subtype="Welder4" />
             <LeftHandOrientation>
                 <X>-0.707107961</X>
@@ -2044,7 +2044,7 @@
             <FlameEffect>WelderFlame</FlameEffect>
         </HandItem>
 
-        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">                <!--AngleGrinder-->
+        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">            <!--AngleGrinder-->
             <Id Type="MyObjectBuilder_AngleGrinder" Subtype="AngleGrinder" />
             <LeftHandOrientation>
                 <X>-0.330544353</X>
@@ -2200,7 +2200,7 @@
             <Flare />
         </HandItem>
 
-        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">                <!--AngleGrinder2-->
+        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">            <!--AngleGrinder2-->
             <Id Type="MyObjectBuilder_AngleGrinder" Subtype="AngleGrinder2" />
             <LeftHandOrientation>
                 <X>-0.330544353</X>
@@ -2355,7 +2355,7 @@
             <Flare />
         </HandItem>
 
-        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">                <!--AngleGrinder3-->
+        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">            <!--AngleGrinder3-->
             <Id Type="MyObjectBuilder_AngleGrinder" Subtype="AngleGrinder3" />
             <LeftHandOrientation>
                 <X>-0.330544353</X>
@@ -2510,7 +2510,7 @@
             <Flare />
         </HandItem>
 
-        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">                <!--AngleGrinder4-->
+        <HandItem xsi:type="MyObjectBuilder_AngleGrinderDefinition">            <!--AngleGrinder4-->
             <Id Type="MyObjectBuilder_AngleGrinder" Subtype="AngleGrinder4" />
             <LeftHandOrientation>
                 <X>-0.3335125</X>

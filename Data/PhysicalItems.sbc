@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
-    <!-- Ore -->
+  <!-- Ore -->
 
     <PhysicalItem>      <!-- Aluminum -->
       <Id>
@@ -256,7 +256,7 @@
       <IconSymbol>IconSymbol_U</IconSymbol>
     </PhysicalItem>
 
-    <!--Ingots-->
+  <!--Ingots-->
     <PhysicalItem>      <!-- Aluminum -->
       <Id>
         <TypeId>Ingot</TypeId>
