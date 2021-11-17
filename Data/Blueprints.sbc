@@ -517,7 +517,7 @@
       <Icon>Textures\GUI\Icons\component\metal_grid.dds</Icon>
       <Prerequisites>
 
-        <Item Amount="25" TypeId="Component" SubtypeId="Girder" />
+        <Item Amount="25" TypeId="Component" SubtypeId="GirderComponent" />
         
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
