@@ -418,6 +418,42 @@
       <Model>Models\Ingots\cobalt_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Nd</IconSymbol>
+    </PhysicalItem>    
+    <PhysicalItem>      <!-- Nickel3Alu -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Nickel3Alu</SubtypeId>
+      </Id>
+      <DisplayName>Nickel3Alu Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\nickel3_aluminum.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.052</Volume>
+      <Model>Models\Ingots\cobalt_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Ni3AL</IconSymbol>
+    </PhysicalItem>    
+    <PhysicalItem>      <!-- Nickel3Tin -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Nickel3Tin</SubtypeId>
+      </Id>
+      <DisplayName>Nickel3Tin Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\nickel3_titan_ingot.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.052</Volume>
+      <Model>Models\Ingots\cobalt_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Ni3Ti</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>      <!-- Nickel -->
       <Id>
