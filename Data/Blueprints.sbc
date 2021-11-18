@@ -683,7 +683,7 @@
       <DisplayName>Platin Spule</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_coil.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Platin" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PlatinSpulle" />
