@@ -212,6 +212,20 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
+        <Class>            <!--Recykling-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Recykling</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
         <Class>            <!--Oxyde-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -358,8 +372,16 @@
 
         <Entry Class="Oxyde" BlueprintSubtypeId="StoneIngotToOxyde" />
 
+
         <Entry Class="Legierung" BlueprintSubtypeId="Nickel3AluBP" />
         <Entry Class="Legierung" BlueprintSubtypeId="Nickel3TinBP" />
+
+
+        <Entry Class="Recykling" BlueprintSubtypeId="SkrapToKupfer" />
+        <Entry Class="Recykling" BlueprintSubtypeId="SkrapToGold" />
+        <Entry Class="Recykling" BlueprintSubtypeId="SkrapToPlatinum" />
+        <Entry Class="Recykling" BlueprintSubtypeId="SkrapToTitanium" />
+        <!--<Entry Class="Recykling" BlueprintSubtypeId="SkrapTo" /> -->
 
 
         <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Kupferdraht" />
