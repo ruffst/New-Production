@@ -9,7 +9,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ScrapIngotToIronIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <DisplayName>Eisenshrott zu Eisen</DisplayName>
       <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Scrap" />
@@ -23,8 +23,8 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GlassScrapToSilicon</SubtypeId>
       </Id>
-      <DisplayName>GlassskrapToSilicon</DisplayName>
-      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <DisplayName>Glasscherben zu Silizuim</DisplayName>
+      <Icon>Textures\GUI\Icons\glas_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="GlassScrap" />
       </Prerequisites>
@@ -37,8 +37,8 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>BatteryScrapToIngotBP</SubtypeId>
       </Id>
-      <DisplayName>BatteryScrapToIngotBP</DisplayName>
-      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <DisplayName>Batteriereste verwerten</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="BatteryScrap" />
       </Prerequisites>
@@ -55,8 +55,8 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ElektroScrapToSilicon</SubtypeId>
       </Id>
-      <DisplayName>ElektoScrapToSilicon</DisplayName>
-      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <DisplayName>Electroschrott verwerten</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_electronic_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="ElektroScrap" />
       </Prerequisites>
@@ -75,8 +75,8 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AluminiumScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>AluminiumScrapToIngot</DisplayName>
-      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <DisplayName>Aluschrott zu Aluminiumbarren</DisplayName>
+      <Icon>Textures\GUI\Icons\alu_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="AluminiumScrap" />
       </Prerequisites>
@@ -89,8 +89,8 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>TitanScrapToIngot</DisplayName>
-      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <DisplayName>Titanschrott zu Titanbarren</DisplayName>
+      <Icon>Textures\GUI\Icons\titan_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="TitanScrap" />
       </Prerequisites>
@@ -103,8 +103,8 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MechanicScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>MechanicScrapToIngot</DisplayName>
-      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <DisplayName>Mechanikschrott verwerten</DisplayName>
+      <Icon>Textures\GUI\Icons\mech_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="MechanicScrap" />
       </Prerequisites>
@@ -119,7 +119,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ScrapToKupfer</SubtypeId>
       </Id>
-      <DisplayName>ScrapToKupfer</DisplayName>
+      <DisplayName>Schrott zu Kupfer</DisplayName>
       <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
@@ -133,7 +133,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ScrapToGold</SubtypeId>
       </Id>
-      <DisplayName>ScrapToGold</DisplayName>
+      <DisplayName>Schrott zu Gold</DisplayName>
       <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
@@ -147,7 +147,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ScrapToPlatinum</SubtypeId>
       </Id>
-      <DisplayName>ScrapToPlatinum</DisplayName>
+      <DisplayName>Schrott zu Platin</DisplayName>
       <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
@@ -161,7 +161,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ScrapToTitanium</SubtypeId>
       </Id>
-      <DisplayName>ScrapToTitanium</DisplayName>
+      <DisplayName>Schrott zu Titan</DisplayName>
       <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
@@ -177,7 +177,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <DisplayName>Stein zu Eisen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
@@ -199,7 +199,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <DisplayName>Stein zu Eisen 2</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ingot" SubtypeId="Stone" />
@@ -216,7 +216,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngotBasic</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <DisplayName>Stein zu Eisen 3</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
@@ -239,7 +239,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot_Deconstruction</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_Gravel</DisplayName>
+      <DisplayName>Stein zu Schotter</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Stone" />
@@ -256,7 +256,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Nickel3AluBP</SubtypeId>
       </Id>
-      <DisplayName>Nickel3Alu</DisplayName>
+      <DisplayName>Nickel+Alu verschmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\nickel3_aluminum.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
@@ -272,7 +272,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Nickel3TinBP</SubtypeId>
       </Id>
-      <DisplayName>Nickel3Tin</DisplayName>
+      <DisplayName>Nickel+Titan verschmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\nickel3_titan_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
@@ -288,7 +288,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IronOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <DisplayName>Eisen schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Iron" />
