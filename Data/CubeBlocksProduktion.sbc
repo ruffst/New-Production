@@ -400,7 +400,7 @@
             <DLC>HeavyIndustry</DLC>
         </Definition>
 
-        <!--<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             Recycler
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             Recycler
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Recycler</SubtypeId>
@@ -475,10 +475,10 @@
                 <unsignedInt>120</unsignedInt>
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
-        </Definition>-->
+        </Definition>
 
 
-        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">              <!--Legierer (Blast_Furnace)-->
+       <!-- <Definition xsi:type="MyObjectBuilder_RefineryDefinition">              Legierer (Blast_Furnace)
             <Id>
                 <TypeId>Refinery</TypeId>
                 <SubtypeId>Recycler</SubtypeId>
@@ -552,7 +552,7 @@
                 <unsignedInt>120</unsignedInt>
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
-        </Definition>
+        </Definition> -->
 
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Wickelmaschine-->
             <Id>
