@@ -43,7 +43,7 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="BatteryScrap" />
       </Prerequisites>
       <Results>
-        <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="3" TypeId="Component" SubtypeId="Kufperdraht" />
         <Item Amount="0.8" TypeId="Ingot" SubtypeId="Neodymium" />
         <Item Amount="0.8" TypeId="Ingot" SubtypeId="Lithium" />
       </Results>
@@ -108,9 +108,11 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="MechanicScrap" />
       </Prerequisites>
-      <Result Amount="10" TypeId="Ingot" SubtypeId="Copper" />
-      <Result Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
-      <Result Amount="0.5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Results>
+          <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+          <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+          <Item Amount="0.5" TypeId="Ingot" SubtypeId="Nickel" />
+        </Results>
       <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
     </Blueprint>
 
