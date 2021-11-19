@@ -301,7 +301,7 @@
     <Blueprint>      <!--NickelOreToIngot-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>NickelOreToIngot</SubtypeId>
+        <SubtypeId>Nickel schmelzen</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
@@ -317,7 +317,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CobaltOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_CobaltIngot</DisplayName>
+      <DisplayName>Kobalt schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Cobalt" />
@@ -331,7 +331,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MagnesiumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_MagnesiumPowder</DisplayName>
+      <DisplayName>Magnesium schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Magnesium" />
@@ -345,7 +345,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SiliconOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_SiliconWafer</DisplayName>
+      <DisplayName>Silizium schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Silicon" />
@@ -359,7 +359,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SilverOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_SilverIngot</DisplayName>
+      <DisplayName>Silber schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Silver" />
@@ -373,7 +373,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_GoldIngot</DisplayName>
+      <DisplayName>Gold schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Gold" />
@@ -387,7 +387,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_PlatinumIngot</DisplayName>
+      <DisplayName>Platin schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Platinum" />
@@ -401,7 +401,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>UraniumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
+      <DisplayName>Uran schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Uranium" />
@@ -415,7 +415,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T1_CopperOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Copper Ore</DisplayName>
+      <DisplayName>Kupfer schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ore" SubtypeId="Copper" />
@@ -432,7 +432,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T1_AluminumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Aluminium Ore</DisplayName>
+      <DisplayName>Aluminium schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ore" SubtypeId="Aluminium" />
@@ -450,7 +450,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CMM_T1_LeadOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Lead Ore</DisplayName>
+      <DisplayName>Blei schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="Lead" />
@@ -469,7 +469,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IceToOxygen</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
+      <DisplayName>Sauerstoff extrahieren</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Ice" />
@@ -483,7 +483,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>OxygenBottlesRefill</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_OxygenBottles</DisplayName>
+      <DisplayName>Sauerstoffflaschen abfüllen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="OxygenBottle" />
@@ -498,7 +498,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>OxygenBottle</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_OxygenBottle</DisplayName>
+      <DisplayName>Sauerstoffflasche</DisplayName>
       <Icon>Textures\GUI\Icons\component\OxygenBottleComponent.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Ingot" SubtypeId="Iron" />
@@ -515,7 +515,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HydrogenBottlesRefill</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_HydrogenBottles</DisplayName>
+      <DisplayName>Wasserstoffflasche abfüllen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="GasContainerObject" SubtypeId="HydrogenBottle" />
@@ -529,7 +529,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HydrogenBottle</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_HydrogenBottle</DisplayName>
+      <DisplayName>Wasserstoffflasche</DisplayName>
       <Icon>Textures\GUI\Icons\component\HydrogenBottle_Component.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Ingot" SubtypeId="Iron" />
@@ -700,7 +700,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Superconductor</SubtypeId>
       </Id>
-      <DisplayName>Superconductor</DisplayName>
+      <DisplayName>Supraleiter</DisplayName>
       <Icon>Textures\GUI\Icons\component\superconductor.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel3Alu" />
@@ -854,7 +854,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SMD</SubtypeId>
       </Id>
-      <DisplayName>SMD</DisplayName>
+      <DisplayName>SMD Computerchips</DisplayName>
       <Icon>Textures\GUI\Icons\component\chips.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
@@ -1123,7 +1123,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>RadioCommunicationComponent</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_RadioCommunicationComponents</DisplayName>
+      <DisplayName>Kommunikationskomponente</DisplayName>
       <Icon>Textures\GUI\Icons\component\radio.dds</Icon>
       <Prerequisites>
         <Item Amount="8" TypeId="Ingot" SubtypeId="Iron" />
@@ -1139,7 +1139,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>DetectorComponent</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+      <DisplayName>Detektorkomponente</DisplayName>
       <Icon>Textures\GUI\Icons\component\detector.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
@@ -1155,7 +1155,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Canvas</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_CanvasCartridge</DisplayName>
+      <DisplayName>Fallschirm</DisplayName>
       <Icon>Textures\GUI\Icons\component\canvas.dds</Icon>
       <Prerequisites>
         <Item Amount="35" TypeId="Ingot" SubtypeId="Silicon" />
@@ -1170,7 +1170,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ExplosivesComponent</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_Explosives</DisplayName>
+      <DisplayName>Sprengstoff</DisplayName>
       <Icon>Textures\GUI\Icons\component\explosive.dds</Icon>
       <Prerequisites>
         <Item Amount="0.5" TypeId="Ingot" SubtypeId="Silicon" />
@@ -1185,7 +1185,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SolarCell</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+      <DisplayName>Solarzellen</DisplayName>
       <Icon>Textures\GUI\Icons\component\solar_cell.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
@@ -1203,7 +1203,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PowerCell</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_PowerCell</DisplayName>
+      <DisplayName>Batteriezelle</DisplayName>
       <Icon>Textures\GUI\Icons\component\energy_cell.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
@@ -1220,7 +1220,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ZoneChip</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_ZoneChip</DisplayName>
+      <DisplayName>Zonechip</DisplayName>
       <Icon>Textures\GUI\Icons\Items\ZoneChip_Item.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="ZoneChip" />
