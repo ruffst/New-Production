@@ -400,7 +400,7 @@
             <DLC>HeavyIndustry</DLC>
         </Definition>
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Recycler-->
+        <!--<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             Recycler
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Recycler</SubtypeId>
@@ -458,7 +458,7 @@
             <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>Recykling</Class>
+                <Class>Recycling</Class>
 
             </BlueprintClasses>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -475,72 +475,78 @@
                 <unsignedInt>120</unsignedInt>
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
-        </Definition>
+        </Definition>-->
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Drahtextruder-->
+
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">              <!--Legierer (Blast_Furnace)-->
             <Id>
-                <TypeId>Assembler</TypeId>
-                <SubtypeId>Drahtextruder</SubtypeId>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>Recycler</SubtypeId>
             </Id>
-            <DisplayName>Drahtextruder</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-            <Description>Description_Assembler</Description>
+            <DisplayName>Recycler</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+            <Description>Description_RefineryBasic</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2" />
+            <Size x="1" y="2" z="1" />
             <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\Assembler.mwm</Model>
-                <Components>
-                    <Component Subtype="SteelPlate" Count="120" />
-                    <Component Subtype="Construction" Count="80" />
-                    <Component Subtype="Motor" Count="20" />
-                    <Component Subtype="Display" Count="10" />
-                    <Component Subtype="MetalGrid" Count="10" />
-                    <Component Subtype="Computer" Count="160" />
-                    <Component Subtype="SteelPlate" Count="20" />
-                </Components>
+            <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Motor" Count="10" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
             <MountPoints>
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="2" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="2" />
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="1" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
             </MountPoints>
             <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
-                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Drahtextruder</BlockPairName>
+            <BlockPairName>Recycler</BlockPairName>
             <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>80</BuildTimeSeconds>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
             <InventoryMaxVolume>4</InventoryMaxVolume>
             <InventorySize>
-                <X>1</X>
-                <Y>1</Y>
-                <Z>1</Z>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
             </InventorySize>
+
+            <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+            <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-            <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+            <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
             <BlueprintClasses>
 
-                <Class>ComponentsDrahtextruder</Class>
+                <Class>Recycling</Class>
+                
 
             </BlueprintClasses>
+            <RefineSpeed>0.65</RefineSpeed>
+            <MaterialEfficiency>0.7</MaterialEfficiency>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <PrimarySound>BlockAssembler</PrimarySound>
-            <ActionSound>BlockAssemblerProcess</ActionSound>
-            <DestroyEffect>Explosion_Missile</DestroyEffect>
-            <DestroySound>WepSmallMissileExpl</DestroySound>
-            <PCU>40</PCU>
-            <IsAirTight>true</IsAirTight>
+            <PrimarySound>BlockRafinery</PrimarySound>
+            <ActionSound>BlockRafineryProcess</ActionSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+            <PCU>75</PCU>
             <TieredUpdateTimes>
                 <unsignedInt>60</unsignedInt>
                 <unsignedInt>120</unsignedInt>

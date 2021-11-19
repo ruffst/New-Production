@@ -202,7 +202,28 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Ag</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Battery Scrap -->
+
+  <!-- Scraps -->
+
+    <PhysicalItem>      <!-- Scrap -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Scrap</SubtypeId>
+      </Id>
+        <DisplayName>DisplayName_Item_Scrap</DisplayName>
+        <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+        <Size>
+          <X>0.2</X>
+          <Y>0.2</Y>
+          <Z>0.1</Z>
+        </Size>
+        <Mass>1</Mass>
+        <Volume>0.254</Volume>
+        <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+        <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+
+    <PhysicalItem>      <!-- Battery Scrap von Batterien -->                <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>BatteryScrap</SubtypeId>
@@ -219,6 +240,97 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
+
+    <PhysicalItem>      <!-- Elektro Scrap von Elekronik -->                  <!--New-->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>ElektroScrap</SubtypeId>
+      </Id>
+      <DisplayName>Elektro Scrap</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.254</Volume>
+      <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+
+    <PhysicalItem>      <!-- Aluminium Scrap von Alu Armor -->              <!--New-->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>AluminiumScrap</SubtypeId>
+      </Id>
+      <DisplayName>Aluminium Scrap</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.254</Volume>
+      <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+
+    <PhysicalItem>      <!-- Titan Scrap von Titanarmor-->                  <!--New-->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>TitanScrap</SubtypeId>
+      </Id>
+      <DisplayName>Titan Scrap</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.254</Volume>
+      <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+
+    <PhysicalItem>      <!-- Glass Scrap -->                                <!--New-->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>GlassScrap</SubtypeId>
+      </Id>
+      <DisplayName>Glass Scrap</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.254</Volume>
+      <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+
+    <PhysicalItem>      <!-- Mechanic Scrap von FertigerComponenten -->      <!--New-->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>MechanicScrap</SubtypeId>
+      </Id>
+      <DisplayName>Mechanic Scrap</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.254</Volume>
+      <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+
     <PhysicalItem>      <!-- Titanium -->
       <Id>
         <TypeId>Ore</TypeId>
@@ -371,6 +483,24 @@
         <SubtypeId>Lithium</SubtypeId>
       </Id>
       <DisplayName>Lithium Ingot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\lithium_ingot.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.052</Volume>
+      <Model>Models\Ingots\potassium_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Li</IconSymbol>
+    </PhysicalItem>    
+    <PhysicalItem>      <!-- Plastic -->         <!--New-->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Plastic</SubtypeId>
+      </Id>
+      <DisplayName>Plastic Ingot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\lithium_ingot.dds</Icon>
       <Size>
         <X>0.072</X>

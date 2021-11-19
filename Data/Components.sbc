@@ -594,8 +594,8 @@
                 <Y>0.5</Y>
                 <Z>0.03</Z>
             </Size>
-            <Mass>15</Mass>
-            <Volume>8</Volume>
+            <Mass>1</Mass>
+            <Volume>0.2</Volume>
             <Model>Models\Components\superconductor_conducts_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
             <MaxIntegrity>5</MaxIntegrity>
@@ -929,6 +929,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
+
         <Component>            <!--KupferComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
@@ -957,7 +958,6 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-
 
         <Component>            <!--SMD-->            <!--New-->
             <Id>
