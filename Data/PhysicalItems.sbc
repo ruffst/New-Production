@@ -222,7 +222,6 @@
         <Model>Models\Components\ScrapMetalComponent.mwm</Model>
         <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-
     <PhysicalItem>      <!-- Battery Scrap von Batterien -->                <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
@@ -240,7 +239,6 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-
     <PhysicalItem>      <!-- Elektro Scrap von Elekronik -->                  <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
@@ -258,7 +256,6 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-
     <PhysicalItem>      <!-- Aluminium Scrap von Alu Armor -->              <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
@@ -276,7 +273,6 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-
     <PhysicalItem>      <!-- Titan Scrap von Titanarmor-->                  <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
@@ -294,7 +290,6 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-
     <PhysicalItem>      <!-- Glass Scrap -->                                <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
@@ -312,7 +307,40 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-
+    <PhysicalItem>      <!-- Gold Scrap -->                                <!--New-->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>GoldScrap</SubtypeId>
+      </Id>
+      <DisplayName>Schrott Gold</DisplayName>
+      <Icon>Textures\GUI\Icons\Gold_scrap.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.254</Volume>
+      <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Platin Scrap -->                                <!--New-->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>PlatinScrap</SubtypeId>
+      </Id>
+      <DisplayName>Schrott Platin</DisplayName>
+      <Icon>Textures\GUI\Icons\Platin_scrap.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.254</Volume>
+      <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
     <PhysicalItem>      <!-- Mechanic Scrap von FertigerComponenten -->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
@@ -330,6 +358,8 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
+
+  <!--Ingots-->
 
     <PhysicalItem>      <!-- Titanium -->
       <Id>
@@ -367,8 +397,6 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_U</IconSymbol>
     </PhysicalItem>
-
-  <!--Ingots-->
     <PhysicalItem>      <!-- Aluminium -->
       <Id>
         <TypeId>Ingot</TypeId>
@@ -511,7 +539,7 @@
       <Volume>0.052</Volume>
       <Model>Models\Ingots\potassium_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
-      <IconSymbol>Li</IconSymbol>
+      <IconSymbol>PVC</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>      <!-- Magnesium -->
       <Id>
