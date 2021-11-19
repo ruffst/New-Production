@@ -123,7 +123,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanPlate</SubtypeId>
             </Id>
-            <DisplayName>TitanPlate</DisplayName>
+            <DisplayName>TitanPlatte</DisplayName>
             <Icon>Textures\GUI\Icons\component\titan_plate.dds</Icon>
             <Size>
                 <X>0.5</X>
@@ -819,7 +819,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Superconductor</SubtypeId>
             </Id>
-            <DisplayName>Superconductor</DisplayName>
+            <DisplayName>Supraleiter</DisplayName>
             <Icon>Textures\GUI\Icons\component\superconductor.dds</Icon>
             <Size>
                 <X>0.5</X>
@@ -1022,7 +1022,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Reactor</SubtypeId>
             </Id>
-            <DisplayName>Kupfer Reactor</DisplayName>
+            <DisplayName>Kupfer Reaktor</DisplayName>
             <Icon>Textures\GUI\Icons\component\copper_reactor.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1080,7 +1080,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinReactor</SubtypeId>
             </Id>
-            <DisplayName>Platin Reactor</DisplayName>
+            <DisplayName>Platin Reaktor</DisplayName>
             <Icon>Textures\GUI\Icons\component\platin_reactor.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1109,7 +1109,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanReactor</SubtypeId>
             </Id>
-            <DisplayName>Titan Reactor</DisplayName>
+            <DisplayName>Titan Reaktor</DisplayName>
             <Icon>Textures\GUI\Icons\component\titan_reactor.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1138,7 +1138,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Thrust</SubtypeId>
             </Id>
-            <DisplayName>Kupfer Thruster</DisplayName>
+            <DisplayName>Kupfer Triebwerk</DisplayName>
             <Icon>Textures\GUI\Icons\component\copper_thruster.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1167,7 +1167,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldThrust</SubtypeId>
             </Id>
-            <DisplayName>Gold Thruster</DisplayName>
+            <DisplayName>Gold Triebwerk</DisplayName>
             <Icon>Textures\GUI\Icons\component\gold_thruster.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1196,7 +1196,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinThrust</SubtypeId>
             </Id>
-            <DisplayName>Platin Thruster</DisplayName>
+            <DisplayName>Platin Triebwerk</DisplayName>
             <Icon>Textures\GUI\Icons\component\platin_thruster.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1225,7 +1225,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanThrust</SubtypeId>
             </Id>
-            <DisplayName>Titan Thruster</DisplayName>
+            <DisplayName>Titan Triebwerk</DisplayName>
             <Icon>Textures\GUI\Icons\component\titan_thruster.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1255,7 +1255,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>GravityGenerator</SubtypeId>
             </Id>
-            <DisplayName>Kupfer Gravi-Generator</DisplayName>
+            <DisplayName>Kupfer Gravitationskomponente</DisplayName>
             <Icon>Textures\GUI\Icons\component\copper_gravity.dds</Icon>
             <Size>
                 <X>1</X>
@@ -1284,7 +1284,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldGravityGenerator</SubtypeId>
             </Id>
-            <DisplayName>Gold Gravi-Generator</DisplayName>
+            <DisplayName>Gold Gravitationskomponente</DisplayName>
             <Icon>Textures\GUI\Icons\component\gold_gravity.dds</Icon>
             <Size>
                 <X>1</X>
@@ -1313,7 +1313,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinGravityGenerator</SubtypeId>
             </Id>
-            <DisplayName>Platin Gravi-Generator</DisplayName>
+            <DisplayName>Platin Gravitationskomponente</DisplayName>
             <Icon>Textures\GUI\Icons\component\platin_gravity.dds</Icon>
             <Size>
                 <X>1</X>
@@ -1342,7 +1342,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanGravityGenerator</SubtypeId>
             </Id>
-            <DisplayName>Titan Gravi-Generator</DisplayName>
+            <DisplayName>Titan Gravitationskomponente</DisplayName>
             <Icon>Textures\GUI\Icons\component\titan_gravity.dds</Icon>
             <Size>
                 <X>1</X>
@@ -1371,7 +1371,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Medical</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
+            <DisplayName>Medizinische Komponenten</DisplayName>
             <Icon>Textures\GUI\Icons\component\medic_comp.dds</Icon>
             <Size>
                 <X>1</X>
@@ -1400,7 +1400,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>RadioCommunication</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_RadioCommunicationComponents</DisplayName>
+            <DisplayName>Kommunikationskomponente</DisplayName>
             <Icon>Textures\GUI\Icons\component\radio.dds</Icon>
             <Size>
                 <X>1</X>
@@ -1429,7 +1429,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Detector</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+            <DisplayName>Detektorkomponente</DisplayName>
             <Icon>Textures\GUI\Icons\component\detector.dds</Icon>
             <Size>
                 <X>0.15</X>
@@ -1458,7 +1458,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Explosives</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_Explosives</DisplayName>
+            <DisplayName>Sprengstoff</DisplayName>
             <Icon>Textures\GUI\Icons\component\explosive.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1487,7 +1487,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>SolarCell</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+            <DisplayName>Solarzellen</DisplayName>
             <Icon>Textures\GUI\Icons\component\solar_cell.dds</Icon>
             <Size>
                 <X>1</X>
@@ -1516,7 +1516,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>PowerCell</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_PowerCell</DisplayName>
+            <DisplayName>Batteriezelle</DisplayName>
             <Icon>Textures\GUI\Icons\component\energy_cell.dds</Icon>
             <Size>
                 <X>0.5</X>
@@ -1545,7 +1545,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Canvas</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Item_CanvasCartridge</DisplayName>
+            <DisplayName>Fallschirm</DisplayName>
             <Icon>Textures\GUI\Icons\component\canvas.dds</Icon>
             <Size>
                 <X>0.25</X>
