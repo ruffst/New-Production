@@ -2,6 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
+
     <!--Scrap Material-->
 
     <Blueprint>      <!--ScrapIngotToIronIngot-->
@@ -40,7 +41,7 @@
       <DisplayName>Batteriereste verwerten</DisplayName>
       <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="BatteryScrap" />
+        <Item Amount="10" TypeId="Ore" SubtypeId="BatteryScrap" />
       </Prerequisites>
       <Results>
         <Item Amount="3" TypeId="Component" SubtypeId="Kufperdraht" />
@@ -58,14 +59,14 @@
       <DisplayName>Electroschrott verwerten</DisplayName>
       <Icon>Textures\GUI\Icons\ore_electronic_scrap.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ore" SubtypeId="ElektroScrap" />
+        <Item Amount="10" TypeId="Ore" SubtypeId="ElektroScrap" />
       </Prerequisites>
         <Results>
-          <Item Amount="0.8" TypeId="Ingot" SubtypeId="Plastic" />
-          <Item Amount="0.1" TypeId="Ingot" SubtypeId="Copper" />
-          <Item Amount="0.1" TypeId="Ingot" SubtypeId="Silicon" />
-          <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
-          <Item Amount="0.1" TypeId="Ingot" SubtypeId="Nickel" />
+          <Item Amount="1" TypeId="Ingot" SubtypeId="Plastic" />
+          <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+          <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
+          <Item Amount="0.3" TypeId="Ingot" SubtypeId="Iron" />
+          <Item Amount="0.3" TypeId="Ingot" SubtypeId="Nickel" />
         </Results>
       <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -109,8 +110,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="MechanicScrap" />
       </Prerequisites>
         <Results>
-          <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
-          <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+          <Item Amount="10" TypeId="Component" SubtypeId="Kupferdraht" />
+          <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
           <Item Amount="0.5" TypeId="Ingot" SubtypeId="Nickel" />
         </Results>
       <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
