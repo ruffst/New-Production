@@ -138,7 +138,7 @@
       </Prerequisites>
         <Results>
           <Item Amount="10" TypeId="Component" SubtypeId="Kupferdraht" />
-          <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
+          <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
           <Item Amount="0.5" TypeId="Ingot" SubtypeId="Nickel" />
         </Results>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -798,7 +798,7 @@
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>      <!--Strator-->      <!--New-->
+    <Blueprint>      <!--KupferStrator-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>KupferStrator</SubtypeId>
@@ -808,12 +808,13 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Cobalt" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>      <!--Strator-->      <!--New-->
+    <Blueprint>      <!--GoldStrator-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldStrator</SubtypeId>
@@ -824,12 +825,13 @@
         <Item Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="20" TypeId="Component" SubtypeId="Golddraht" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Cobalt" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GoldStrator" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>      <!--Strator-->      <!--New-->
+    <Blueprint>      <!--PlatinStrator-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinStrator</SubtypeId>
@@ -840,12 +842,13 @@
         <Item Amount="1" TypeId="Component" SubtypeId="GoldStrator" />
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="20" TypeId="Component" SubtypeId="Platindraht" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Cobalt" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <Blueprint>      <!--Strator-->      <!--New-->
+    <Blueprint>      <!--TitanStrator-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanStrator</SubtypeId>
@@ -856,6 +859,7 @@
         <Item Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="20" TypeId="Component" SubtypeId="Titandraht" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Cobalt" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="TitanStrator" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
@@ -901,7 +905,7 @@
       <DisplayName>Rotor</DisplayName>
       <Icon>Textures\GUI\Icons\component\rotor.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Neodymium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="2" TypeId="Component" SubtypeId="KupferSpulle" />
         <Item Amount="2" TypeId="Component" SubtypeId="SmallTube" />
       </Prerequisites>
@@ -1004,7 +1008,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>      <!--ComputerComponent-->      <!--New-->
+    <Blueprint>      <!--KupferComputer (ComputerComponent)-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ComputerComponent</SubtypeId>
@@ -1022,7 +1026,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>      <!--ComputerComponent-->      <!--New-->
+    <Blueprint>      <!--TitanComputer-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanComputer</SubtypeId>
@@ -1041,7 +1045,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>      <!--ComputerComponent-->      <!--New-->
+    <Blueprint>      <!--GoldComputer-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldComputer</SubtypeId>
@@ -1060,7 +1064,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>      <!--ComputerComponent-->      <!--New-->
+    <Blueprint>      <!--PlatinComputer-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinComputer</SubtypeId>
