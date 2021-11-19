@@ -4,92 +4,6 @@
   <Blueprints>
     <!--Scrap Material-->
 
-    <Blueprint>      <!--CMM_T5_ScrapToIronIngot-->      <!--New-->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CMM_T5_ScrapToIronIngot</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_IronOre</DisplayName>
-      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1000" TypeId="Ore" SubtypeId="Scrap" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="0.2327916" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="13.5795516" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="0.7136091" TypeId="Ingot" SubtypeId="Cobalt" />
-        <Item Amount="0.7165247" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="0.1590056" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="0.2235173" TypeId="Ingot" SubtypeId="Aluminium" />
-      </Results>
-      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>      <!--ElectronicScrapToIngot-->      <!--New-->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CMM_T5_ElectronicScrapToIngot</SubtypeId>
-      </Id>
-      <DisplayName>Electronic Scrap</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_electronic_scrap.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1000" TypeId="Ore" SubtypeId="ElectronicScrap" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="0.2436542" TypeId="Ingot" SubtypeId="Oxygen" />
-        <Item Amount="0.1850699" TypeId="Ingot" SubtypeId="Magnesium" />
-        <Item Amount="0.2054501" TypeId="Ingot" SubtypeId="Aluminum" />
-        <Item Amount="0.4277130" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="0.4469197" TypeId="Ingot" SubtypeId="Cobalt" />
-        <Item Amount="0.4487457" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="2.4193489" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="0.8213603" TypeId="Ingot" SubtypeId="Silver" />
-        <Item Amount="0.4456253" TypeId="Ingot" SubtypeId="Platinum" />
-        <Item Amount="0.7498988" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="4.7331610" TypeId="Ingot" SubtypeId="Lead" />
-      </Results>
-      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>      <!--PlasticScrapToIngot-->      <!--New-->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CMM_T5_PlasticScrapToIngot</SubtypeId>
-      </Id>
-      <DisplayName>Plastic Scrap</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_plastic_scrap.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1000" TypeId="Ore" SubtypeId="PlasticScrap" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="0.788122799084263" TypeId="Ingot" SubtypeId="Hydrogen" />
-        <Item Amount="3.8494331432968" TypeId="Ingot" SubtypeId="Oxygen" />
-      </Results>
-      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>      <!--CMM_T5_BatteryScrapToIngot-->      <!--New-->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CMM_T5_BatteryScrapToIngot</SubtypeId>
-      </Id>
-      <DisplayName>Battery Scrap</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1000" TypeId="Ore" SubtypeId="BatteryScrap" />
-      </Prerequisites>
-      <Results>
-        <Item Amount="14" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="2.4" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="4.0" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="2.4" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="0.60" TypeId="Ingot" SubtypeId="Lithium" />
-        <Item Amount="0.30" TypeId="Ingot" SubtypeId="Neodymium" />
-      </Results>
-      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
-    </Blueprint>
-
     <Blueprint>      <!--ScrapIngotToIronIngot-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -98,13 +12,165 @@
       <DisplayName>DisplayName_Item_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Scrap" />
       </Prerequisites>
-      <Result Amount="0.8" TypeId="Ingot" SubtypeId="Iron" />
+        <Result Amount="0.8" TypeId="Ingot" SubtypeId="Iron" />
       <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <!--Ore Verarbeitung-->
+    <Blueprint>      <!--GlassScrapToSilicon-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GlassScrapToSilicon</SubtypeId>
+      </Id>
+      <DisplayName>GlassskrapToSilicon</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="GlassScrap" />
+      </Prerequisites>
+      <Result Amount="0.8" TypeId="Ingot" SubtypeId="Silicon" />
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>      <!--BatteryScrapToIngotBP-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>BatteryScrapToIngotBP</SubtypeId>
+      </Id>
+      <DisplayName>BatteryScrapToIngotBP</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="BatteryScrap" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Neodymium" />
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Lithium" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>      <!--ElektroScrapToIngot-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ElektroScrapToSilicon</SubtypeId>
+      </Id>
+      <DisplayName>ElektoScrapToSilicon</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="ElektroScrap" />
+      </Prerequisites>
+        <Results>
+          <Item Amount="0.8" TypeId="Ingot" SubtypeId="Plastic" />
+          <Item Amount="0.1" TypeId="Ingot" SubtypeId="Copper" />
+          <Item Amount="0.1" TypeId="Ingot" SubtypeId="Silicon" />
+          <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
+          <Item Amount="0.1" TypeId="Ingot" SubtypeId="Nickel" />
+        </Results>
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>      <!--AluminiumScrapToIngot-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AluminiumScrapToIngot</SubtypeId>
+      </Id>
+      <DisplayName>AluminiumScrapToIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="AluminiumScrap" />
+      </Prerequisites>
+      <Result Amount="0.8" TypeId="Ingot" SubtypeId="Aluminium" />
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>      <!--TitanScrapToIngot-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitanScrapToIngot</SubtypeId>
+      </Id>
+      <DisplayName>TitanScrapToIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="TitanScrap" />
+      </Prerequisites>
+      <Result Amount="0.8" TypeId="Ingot" SubtypeId="Titanium" />
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>      <!--MechanicScrapToIngot-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MechanicScrapToIngot</SubtypeId>
+      </Id>
+      <DisplayName>MechanicScrapToIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="MechanicScrap" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+      <Result Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+      <Result Amount="0.5" TypeId="Ingot" SubtypeId="Nickel" />
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>      <!--ScrapToKupfer-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ScrapToKupfer</SubtypeId>
+      </Id>
+      <DisplayName>ScrapToKupfer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
+      </Prerequisites>
+      <Result Amount="0.8" TypeId="Ingot" SubtypeId="Copper" />
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>      <!--ScrapToGold-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ScrapToGold</SubtypeId>
+      </Id>
+      <DisplayName>ScrapToGold</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
+      </Prerequisites>
+      <Result Amount="0.8" TypeId="Ingot" SubtypeId="Gold" />
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>      <!--ScrapToPlatinum-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ScrapToPlatinum</SubtypeId>
+      </Id>
+      <DisplayName>ScrapToPlatinum</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
+      </Prerequisites>
+      <Result Amount="0.8" TypeId="Ingot" SubtypeId="Platinum" />
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>      <!--ScrapToTitanium-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>ScrapToTitanium</SubtypeId>
+      </Id>
+      <DisplayName>ScrapToTitanium</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Scrap" />
+      </Prerequisites>
+      <Result Amount="0.8" TypeId="Ingot" SubtypeId="Titanium" />
+      <BaseProductionTimeInSeconds>0.04</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  <!--Ore Verarbeitung-->
 
     <Blueprint>      <!--StoneOreToIngot-->      <!--New_Items-->
       <Id>
@@ -396,7 +462,7 @@
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <!--Ice und Flaschen-->
+  <!--Ice und Flaschen-->
 
     <Blueprint>      <!--IceToOxygen-->      <!--Rezept Falsch?-->
       <Id>
@@ -475,7 +541,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <!--Components-->
+  <!--Components-->
 
     <Blueprint>      <!--ConstructionComponent (Schrauben)-->      <!--New-->
       <Id>
@@ -719,7 +785,6 @@
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
 
-
     <Blueprint>      <!--Strator-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -736,7 +801,6 @@
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
 
-
     <Blueprint>      <!--Strator-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -752,7 +816,6 @@
       <Result Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
-
 
     <Blueprint>      <!--Strator-->      <!--New-->
       <Id>
