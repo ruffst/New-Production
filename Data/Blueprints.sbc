@@ -44,7 +44,7 @@
         <Item Amount="10" TypeId="Ore" SubtypeId="BatteryScrap" />
       </Prerequisites>
       <Results>
-        <Item Amount="3" TypeId="Component" SubtypeId="Kufperdraht" />
+        <Item Amount="3" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="0.8" TypeId="Ingot" SubtypeId="Neodymium" />
         <Item Amount="0.8" TypeId="Ingot" SubtypeId="Lithium" />
       </Results>
@@ -54,7 +54,7 @@
     <Blueprint>      <!--ElektroScrapToIngot-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ElektroScrapToSilicon</SubtypeId>
+        <SubtypeId>ElektroScrapToIngot</SubtypeId>
       </Id>
       <DisplayName>Electroschrott verwerten</DisplayName>
       <Icon>Textures\GUI\Icons\ore_electronic_scrap.dds</Icon>
