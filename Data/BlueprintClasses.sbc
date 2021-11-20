@@ -15,7 +15,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\tool_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--BasicTools-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -28,7 +27,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\tool_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--EliteTools-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -41,7 +39,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\tool_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--ComponentsDrahtextruder-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -54,7 +51,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--ComponentsWickelmaschine-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -67,7 +63,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--ComponentsRohrextruder-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -80,7 +75,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--ComponentsPlattenpresse-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -93,7 +87,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--ComponentsElektroAssembler-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -106,7 +99,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--ComponentsFertiger-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -119,7 +111,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--ComponentsVerbrauchsmaterialAssembler-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -132,7 +123,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--SimpleComponents-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -145,20 +135,30 @@
             <HighlightIcon>Textures\GUI\Icons\buttons\component_focus.dds</HighlightIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
-        <Class>            <!--BasicComponents-->
+        <Class>            <!--SurvivalHorst-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>BasicComponents</SubtypeId>
+                <SubtypeId>SurvivalHorst</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_BasicComponents</DisplayName>
-            <Description>Description_BlueprintClass_BasicComponents</Description>
+            <DisplayName>DisplayName_BlueprintClass_SurvivalHorst</DisplayName>
+            <Description>Description_BlueprintClass_SurvivalHorst</Description>
             <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
         </Class>
-
+        <Class>            <!--WoodToKohlenstoff-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>WoodToKohlenstoff</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_WoodToKohlenstoff</DisplayName>
+            <Description>Description_BlueprintClass_WoodToKohlenstoff</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+        </Class>
         <Class>            <!--Ammo-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -171,7 +171,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--Consumables-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -184,7 +183,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\ConsumablesFocus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--EliteConsumables-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -197,7 +195,6 @@
             <FocusIcon>Textures\GUI\Icons\buttons\ConsumablesFocus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
         <Class>            <!--Ingots-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -211,7 +208,6 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-
         <Class>            <!--Recycling-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -225,7 +221,6 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-
         <Class>            <!--Oxyde-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -239,7 +234,6 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-
         <Class>            <!--Legierung-->            <!--New-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -253,7 +247,6 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-
         <Class>            <!--CommonMetals-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -267,7 +260,6 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-
         <Class>            <!--Ice-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -281,7 +273,6 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-
         <Class>            <!--OxygenBottles-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -295,7 +286,6 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-
         <Class>            <!--HydrogenBottles-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -332,17 +322,14 @@
             <Entry Class="SimpleComponents" BlueprintSubtypeId="SolarCell" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="PowerCell" />
 
-        <!--BasicComponents-->
-            <Entry Class="BasicComponents" BlueprintSubtypeId="StoneOreToIngotBasic" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="Display" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="SolarCell" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="SteelPlate" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="InteriorPlate" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="MotorComponent" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="GirderComponent" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="ComputerComponent" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="ConstructionComponent" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="WoodLogsBP" />
+        <!--SurvivalHorst-->
+            <Entry Class="SurvivalHorst" BlueprintSubtypeId="StoneOreToIngotBasic" />
+            <Entry Class="SurvivalHorst" BlueprintSubtypeId="SteelPlate" />
+            <Entry Class="SurvivalHorst" BlueprintSubtypeId="ConstructionComponent" />
+            <Entry Class="SurvivalHorst" BlueprintSubtypeId="SmallTube" />
+
+        <!--WoodToKohlenstoff-->
+            <Entry Class="WoodToKohlenstoff" BlueprintSubtypeId="WoodLogsBP" />
 
         <!--BasicTools-->
             <Entry Class="BasicTools" BlueprintSubtypeId="Welder" />
@@ -419,6 +406,7 @@
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="BulletproofGlass" />
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="MetalGrid" />
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="SolarCell" />
+            <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="PCB-Platine" />
 
         <!--ComponentsElektroAssembler-->                   <!--New-->
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="KupferStrator" />
@@ -427,7 +415,6 @@
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="TitanStrator" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Display" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="SMD" />
-            <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PCB" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Computer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="GoldComputer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PlatinComputer" />

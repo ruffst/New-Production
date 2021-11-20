@@ -541,6 +541,24 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>PVC</IconSymbol>
     </PhysicalItem>
+    <PhysicalItem>      <!-- Kohlenstoff -->      <!--New-->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Kohlenstoff</SubtypeId>
+      </Id>
+      <DisplayName>Kohlenstoff</DisplayName>
+      <Icon>Textures\GUI\Icons\component\plastic.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.052</Volume>
+      <Model>Models\Ingots\generic_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>PVC</IconSymbol>
+    </PhysicalItem>
     <PhysicalItem>      <!-- Magnesium -->
       <Id>
         <TypeId>Ingot</TypeId>
