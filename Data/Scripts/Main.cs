@@ -77,7 +77,7 @@
 		int _nullCubeDefCount = 0;
 
 		
-		double HowMuchWoodToGive = 3500.0;
+		double HowMuchWoodToGive = 1500.0;
 		
 		//        static MyStringHash m_explosives = MyStringHash.GetOrCompute("Explosives");
 		static public MyObjectBuilder_Ore ScrapBuilder = MyObjectBuilderSerializer.CreateNewObject<MyObjectBuilder_Ore>("Scrap");

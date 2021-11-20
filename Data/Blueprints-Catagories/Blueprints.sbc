@@ -205,12 +205,12 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>WoodPlank</SubtypeId>
+        <SubtypeId>WoodLogsBP</SubtypeId>
       </Id>
       <DisplayName>Baumstämme in Plastik</DisplayName>
-      <Icon>Textures\GUI\Icons\Items\Plank.png</Icon>
+      <Icon>Textures\GUI\Icons\Items\Logs.png</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="WoodLogs" />
+        <Item Amount="100" TypeId="Component" SubtypeId="WoodLogs" />
       </Prerequisites>
       <Result Amount="1" TypeId="Ingot" SubtypeId="Plastic" />
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
@@ -504,7 +504,7 @@
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint>
 
-  <!--Ice und Flaschen-->
+<!--Ice und Flaschen-->
 
     <Blueprint>      <!--IceToOxygen-->      <!--Rezept Falsch?-->
       <Id>
@@ -583,7 +583,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-  <!--Components-->
+<!--Components-->
 
     <Blueprint>      <!--ConstructionComponent (Schrauben)-->      <!--New-->
       <Id>
@@ -888,8 +888,7 @@
       <Icon>Textures\GUI\Icons\component\pcb.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="2" TypeId="Component" SubtypeId="BulletproofGlass" />
-        <Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Plastic" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
@@ -1276,7 +1275,7 @@
     </Blueprint>
 
 
-    <!--Weapons-->
+<!--Weapons-->
 
     <Blueprint>      <!--BasicHandHeldLauncher-->
       <Id>
@@ -1421,7 +1420,7 @@
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <!--Tools-->
+  <!--Tools-->
 
     <Blueprint>      <!--Welder-->
       <Id>
@@ -1632,7 +1631,7 @@
       <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <!--Ammo-->
+  <!--Ammo-->
 
     <Blueprint>      <!--SemiAutoPistolMagazine-->
       <Id>
