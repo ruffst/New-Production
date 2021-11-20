@@ -1256,7 +1256,8 @@
             <PCU>25</PCU>
         </Definition>
 
-       <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">                <!--LargeBlockOxygenFarm-->
+<!--LargeBlockHydrogenFarm funktioniert leider noch nicht. -->
+     <!--  <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">                
             <Id>
                 <TypeId>OxygenFarm</TypeId>
                 <SubtypeId>LargeBlockHydrogenFarm</SubtypeId>
@@ -1320,7 +1321,7 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
-        </Definition>
+        </Definition> -->
 
         <!-- module -->
 
