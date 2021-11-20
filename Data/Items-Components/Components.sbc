@@ -179,7 +179,7 @@
         <Component>            <!--Girder-->
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>GirderComponent</SubtypeId>
+                <SubtypeId>Girder</SubtypeId>
             </Id>
             <DisplayName>Träger</DisplayName>
 
@@ -846,7 +846,7 @@
         <Component>            <!--KupferComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>ComputerComponent</SubtypeId>
+                <SubtypeId>Computer</SubtypeId>
             </Id>
             <DisplayName>Kupfer Computer</DisplayName>
             <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>

@@ -325,7 +325,7 @@
             <Entry Class="SimpleComponents" BlueprintSubtypeId="MotorComponent" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="Display" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="BulletproofGlass" />
-            <Entry Class="SimpleComponents" BlueprintSubtypeId="ComputerComponent" />
+            <Entry Class="SimpleComponents" BlueprintSubtypeId="Computer" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="MedicalComponent" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="RadioCommunicationComponent" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="DetectorComponent" />
@@ -340,7 +340,7 @@
             <Entry Class="BasicComponents" BlueprintSubtypeId="InteriorPlate" />
             <Entry Class="BasicComponents" BlueprintSubtypeId="MotorComponent" />
             <Entry Class="BasicComponents" BlueprintSubtypeId="GirderComponent" />
-            <Entry Class="BasicComponents" BlueprintSubtypeId="ComputerComponent" />
+            <Entry Class="BasicComponents" BlueprintSubtypeId="Computer" />
             <Entry Class="BasicComponents" BlueprintSubtypeId="ConstructionComponent" />
 
         <!--BasicTools-->
@@ -427,7 +427,7 @@
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Display" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="SMD" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PCB" />
-            <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="ComputerComponent" />
+            <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Computer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="GoldComputer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PlatinComputer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="TitanComputer" />

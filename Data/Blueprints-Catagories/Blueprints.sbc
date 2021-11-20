@@ -589,7 +589,7 @@
     <Blueprint>      <!--GirderComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GirderComponent</SubtypeId>
+        <SubtypeId>Girder</SubtypeId>
       </Id>
       <DisplayName>Träger</DisplayName>
       <Icon>Textures\GUI\Icons\component\grider.dds</Icon>
@@ -970,7 +970,7 @@
         <Item Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
         <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
-        <Item Amount="1" TypeId="Component" SubtypeId="ComputerComponent" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
@@ -1008,10 +1008,10 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>      <!--KupferComputer (ComputerComponent)-->      <!--New-->
+    <Blueprint>      <!--KupferComputer (Computer)-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ComputerComponent</SubtypeId>
+        <SubtypeId>Computer</SubtypeId>
       </Id>
       <DisplayName>Kupfer Computer</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>
@@ -1021,7 +1021,7 @@
         <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="ComputerComponent" />
+      <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
@@ -1053,7 +1053,7 @@
       <DisplayName>Gold Computer</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_computer.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="ComputerComponent" />
+        <Item Amount="1" TypeId="Component" SubtypeId="Computer" />
         <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
         <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
         <Item Amount="20" TypeId="Component" SubtypeId="Golddraht" />
