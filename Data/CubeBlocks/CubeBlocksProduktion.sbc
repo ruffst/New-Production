@@ -1190,7 +1190,7 @@
             </TieredUpdateTimes>
         </Definition>
 
-        <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">                <!--LargeBlockOxygenFarm-->
+        <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">            <!--LargeBlockOxygenFarm-->
             <Id>
                 <TypeId>OxygenFarm</TypeId>
                 <SubtypeId>LargeBlockOxygenFarm</SubtypeId>
@@ -1256,8 +1256,8 @@
             <PCU>25</PCU>
         </Definition>
 
-<!--LargeBlockHydrogenFarm funktioniert leider noch nicht. -->
-     <!--  <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">                
+        <!--LargeBlockHydrogenFarm funktioniert leider noch nicht. -->
+        <!--  <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">                
             <Id>
                 <TypeId>OxygenFarm</TypeId>
                 <SubtypeId>LargeBlockHydrogenFarm</SubtypeId>
