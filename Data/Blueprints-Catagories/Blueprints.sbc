@@ -202,6 +202,20 @@
 
   <!--Ore Verarbeitung-->
 
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WoodPlank</SubtypeId>
+      </Id>
+      <DisplayName>Baumstämme in Plastik</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\Plank.png</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="WoodLogs" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Plastic" />
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint> 
+
     <Blueprint>      <!--StoneOreToIngot-->      <!--New_Items-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
