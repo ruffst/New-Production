@@ -251,8 +251,6 @@
             </TieredUpdateTimes>
         </Definition>
 
-
-
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--LargeAssemblerIndustrial-->
             <Id>
                 <TypeId>Assembler</TypeId>
@@ -913,7 +911,7 @@
             </TieredUpdateTimes>
         </Definition>
 
-        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">            <!--SurvivalKit-->
+        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">            <!--SurvivalKitSmall-->
             <Id>
                 <TypeId>SurvivalKit</TypeId>
                 <SubtypeId>SurvivalKit</SubtypeId>
@@ -990,6 +988,8 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
+
+        <!--oxygen-->
 
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">            <!--OxygenGeneratorLarge-->
             <Id>
@@ -1085,6 +1085,7 @@
                 <unsignedInt>1200</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
+
         <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">            <!--OxygenGeneratorSmall-->
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
@@ -1189,8 +1190,179 @@
             </TieredUpdateTimes>
         </Definition>
 
-        <!-- Castrated Blocks-->
+        <!-- module -->
 
+        <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">            <!--LargeProductivityModule-->
+            <Id>
+                <TypeId>UpgradeModule</TypeId>
+                <SubtypeId>LargeProductivityModule</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ProductivityModule</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivity.dds</Icon>
+            <Description>Description_ProductivityModule</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\UpgradeProductivity.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SmallTube" Count="20" />
+                <Component Subtype="Computer" Count="60" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" Default="true" />
+                <MountPoint Side="Left" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+                <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+                <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+                <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+                <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\UpgradeProductivityConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeProductivityConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeProductivityConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ProductivityModule</BlockPairName>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <Upgrades>
+                <MyUpgradeModuleInfo>
+                    <UpgradeType>Productivity</UpgradeType>
+                    <Modifier>0.5</Modifier>
+                    <ModifierType>Additive</ModifierType>
+                </MyUpgradeModuleInfo>
+            </Upgrades>
+            <PrimarySound>BlockModuleProductivity</PrimarySound>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">            <!--LargeEffectivenessModule-->
+            <Id>
+                <TypeId>UpgradeModule</TypeId>
+                <SubtypeId>LargeEffectivenessModule</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_EffectivenessModule</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectiveness.dds</Icon>
+            <Description>Description_EffectivenessModule</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="SmallTube" Count="15" />
+                <Component Subtype="Superconductor" Count="20" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" Default="true" />
+                <MountPoint Side="Left" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+                <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+                <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+                <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+                <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>EffectivenessModule</BlockPairName>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <Upgrades>
+                <MyUpgradeModuleInfo>
+                    <UpgradeType>Effectiveness</UpgradeType>
+                    <Modifier>1.0905077</Modifier>
+                    <ModifierType>Multiplicative</ModifierType>
+                </MyUpgradeModuleInfo>
+            </Upgrades>
+            <PrimarySound>BlockModuleEffectiveness</PrimarySound>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">            <!--LargeEnergyModule-->
+            <Id>
+                <TypeId>UpgradeModule</TypeId>
+                <SubtypeId>LargeEnergyModule</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_PowerEfficiencyModule</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\UpgradeEnergy.dds</Icon>
+            <Description>Description_PowerEfficiencyModule</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="2" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\UpgradeEnergy.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SmallTube" Count="20" />
+                <Component Subtype="PowerCell" Count="20" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" Default="true" />
+                <MountPoint Side="Left" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+                <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+                <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+                <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+                <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\UpgradeEnergyConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEnergyConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEnergyConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>EnergyModule</BlockPairName>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <Upgrades>
+                <MyUpgradeModuleInfo>
+                    <UpgradeType>PowerEfficiency</UpgradeType>
+                    <Modifier>1.2228445</Modifier>
+                    <ModifierType>Multiplicative</ModifierType>
+                </MyUpgradeModuleInfo>
+            </Upgrades>
+            <PrimarySound>BlockModuleEfficiency</PrimarySound>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>1</PCU>
+            <IsAirTight>false</IsAirTight>
+        </Definition>
+
+        <!-- Castrated Assembler-->
 
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!-- BasicAssembler-->
             <Id>
@@ -1259,9 +1431,7 @@
             </TieredUpdateTimes>
         </Definition>
 
-
         <!-- Deactivated Blocks-->
-
 
         <Definition Enabled="false" xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--LargeAssembler-->
             <Id>
