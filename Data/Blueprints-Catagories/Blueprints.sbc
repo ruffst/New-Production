@@ -586,7 +586,7 @@
       <IsPrimary>true</IsPrimary>
     </Blueprint>
 
-    <Blueprint>      <!--GirderComponent-->
+    <Blueprint>      <!--Girder-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Girder</SubtypeId>
@@ -596,7 +596,7 @@
       <Prerequisites>
         <Item Amount="6" TypeId="Ingot" SubtypeId="Iron" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="GirderComponent" />
+      <Result Amount="1" TypeId="Component" SubtypeId="Girder" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
@@ -610,7 +610,7 @@
       <Icon>Textures\GUI\Icons\component\metal_grid.dds</Icon>
       <Prerequisites>
 
-        <Item Amount="25" TypeId="Component" SubtypeId="GirderComponent" />
+        <Item Amount="25" TypeId="Component" SubtypeId="Girder" />
 
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="MetalGrid" />

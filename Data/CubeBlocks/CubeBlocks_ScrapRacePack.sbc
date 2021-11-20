@@ -1325,7 +1325,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm"/>
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm"/>
             </BuildProgressModels>
-            <MountPoints/>
+
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
@@ -1404,7 +1404,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+           
             <BlockPairName>OffroadRealWheel</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
@@ -1472,7 +1472,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+        
             <BlockPairName>OffroadRealWheel5x5</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
@@ -1540,7 +1540,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+       
             <BlockPairName>OffroadRealWheel1x1</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
@@ -1607,7 +1607,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+   
             <BlockPairName>OffroadRealWheel</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
@@ -1676,7 +1676,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+           
             <BlockPairName>OffroadRealWheel5x5</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
@@ -1730,7 +1730,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm"/>
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm"/>
             </BuildProgressModels>
-            <MountPoints/>
+           
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
@@ -1809,7 +1809,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+           
             <BlockPairName>OffroadRealWheelmirrored</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
@@ -1877,7 +1877,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+           
             <BlockPairName>OffroadRealWheel5x5mirrored</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
@@ -1945,7 +1945,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+           
             <BlockPairName>OffroadRealWheel1x1mirrored</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
@@ -2012,7 +2012,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+           
             <BlockPairName>OffroadRealWheelmirrored</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
@@ -2081,7 +2081,7 @@
                     <MinAllowed>0.01</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <MountPoints/>
+           
             <BlockPairName>OffroadRealWheel5x5mirrored</BlockPairName>
             <UsesDeformation>false</UsesDeformation>
             <DeformationRatio>0.3</DeformationRatio>
