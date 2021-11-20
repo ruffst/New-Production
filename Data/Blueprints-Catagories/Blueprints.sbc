@@ -589,7 +589,7 @@
     <Blueprint>      <!--Girder-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Girder</SubtypeId>
+        <SubtypeId>GirderComponent</SubtypeId>
       </Id>
       <DisplayName>Träger</DisplayName>
       <Icon>Textures\GUI\Icons\component\grider.dds</Icon>
@@ -1011,7 +1011,7 @@
     <Blueprint>      <!--KupferComputer (Computer)-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Computer</SubtypeId>
+        <SubtypeId>ComputerComponent</SubtypeId>
       </Id>
       <DisplayName>Kupfer Computer</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>
