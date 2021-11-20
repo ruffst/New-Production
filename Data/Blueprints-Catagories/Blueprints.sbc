@@ -210,10 +210,10 @@
       <DisplayName>Baumstämme in Plastik</DisplayName>
       <Icon>Textures\GUI\Icons\Items\Logs.png</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Component" SubtypeId="WoodLogs" />
+        <Item Amount="10" TypeId="Component" SubtypeId="WoodLogs" />
       </Prerequisites>
       <Result Amount="1" TypeId="Ingot" SubtypeId="Plastic" />
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
     </Blueprint> 
 
     <Blueprint>      <!--StoneOreToIngot-->      <!--New_Items-->
