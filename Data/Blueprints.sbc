@@ -196,7 +196,7 @@
         <SubtypeId>WoodLogsBP</SubtypeId>
       </Id>
       <DisplayName>Baumstämme in Kohlenstoff</DisplayName>
-      <Icon>Textures\GUI\Icons\Items\Logs.png</Icon>
+      <Icon>Textures\GUI\Icons\Ingot\kohlenstoff.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="WoodLogs" />
       </Prerequisites>
