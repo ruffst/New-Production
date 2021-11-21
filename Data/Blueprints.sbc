@@ -208,7 +208,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlasticBP</SubtypeId>
       </Id>
-      <DisplayName>Kohlenstoff in Plastik</DisplayName>
+      <DisplayName>Plastik</DisplayName>
       <Icon>Textures\GUI\Icons\component\plastic.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Kohlenstoff" />

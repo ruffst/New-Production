@@ -96,7 +96,7 @@
     <ResearchBlock xsi:type="ResearchBlock">            <!--0-->
       <Id Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
       <UnlockedByGroups>
-        <GroupSubtype>0</GroupSubtype>
+        <GroupSubtype></GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
     <ResearchBlock xsi:type="ResearchBlock">            <!--0-->
@@ -180,7 +180,7 @@
     <ResearchBlock xsi:type="ResearchBlock">            <!--0 9-->
       <Id Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
       <UnlockedByGroups>
-        <GroupSubtype>0</GroupSubtype>
+        <GroupSubtype>3</GroupSubtype>
         <GroupSubtype>9</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
@@ -2350,12 +2350,7 @@
         <GroupSubtype>24</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">            <!--24-->
-      <Id Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorSmall" />
-      <UnlockedByGroups>
-        <GroupSubtype>24</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
+
     <ResearchBlock xsi:type="ResearchBlock">            <!--25-->
       <Id Type="MyObjectBuilder_Collector" Subtype="Collector" />
       <UnlockedByGroups>
@@ -2368,12 +2363,7 @@
         <GroupSubtype>25</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">            <!--25-->
-      <Id Type="MyObjectBuilder_ShipConnector" Subtype="Connector" />
-      <UnlockedByGroups>
-        <GroupSubtype>25</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
+
     <ResearchBlock xsi:type="ResearchBlock">            <!--25-->
       <Id Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorMedium" />
       <UnlockedByGroups>

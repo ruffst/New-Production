@@ -11,24 +11,7 @@
     <ResearchGroup xsi:type="ResearchGroup">                                        <!--3-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="3" />
       <Members>
-        <BlockId Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
-        <BlockId Type="MyObjectBuilder_InteriorLight" Subtype="PassageSciFiLight" />
-        <BlockId Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
-        <BlockId Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
-        <BlockId Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
-        <BlockId Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
-        <BlockId Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
-        <BlockId Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraight1" />
-        <BlockId Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraight2" />
-        <BlockId Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesCorner" />
-        <BlockId Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesBendUp" />
-        <BlockId Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesBendDown" />
-        <BlockId Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraightEnd1" />
-        <BlockId Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraightEnd2" />
-        <BlockId Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraightDown" />
-        <BlockId Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesU" />
-        <BlockId Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
-        <BlockId Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
+        
       </Members>
     </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">                                        <!--4-->
@@ -36,6 +19,7 @@
       <Members>
         <BlockId Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
         <BlockId Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
+        
       </Members>
     </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">                                        <!--5-->
