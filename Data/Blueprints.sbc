@@ -209,7 +209,7 @@
         <SubtypeId>PlasticBP</SubtypeId>
       </Id>
       <DisplayName>Kohlenstoff in Plastik</DisplayName>
-      <Icon>Textures\GUI\Icons\component\platic.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\plastic.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Kohlenstoff" />
       </Prerequisites>
