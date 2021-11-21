@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchGroups>
+
+    <ResearchGroup xsi:type="ResearchGroup">                                        <!--0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0" />
+      <Members>
+        <Id Type="MyObjectBuilder_Assembler" Subtype="Plattenpresse" />
+      </Members>
+    </ResearchGroup>
+    
+  </ResearchGroups>
+</Definitions>
