@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
 
-        <!-- Armor -->
+    <!-- Armor -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightCubeGroup" />
@@ -199,8 +199,89 @@
             </Blocks>
         </BlockVariantGroup>
 		
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorPanelsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
+            <DisplayName>DisplayName_Block_LightArmorPanel</DisplayName>
+            <Description>Description_ArmorPanel</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedSidePanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelTipLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLightInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLightInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorQuarterPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLightInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLightInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelLight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelLight" />
+            </Blocks>
+        </BlockVariantGroup>
 
-        <!-- Production -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorPanelsGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel.dds</Icon>
+            <DisplayName>DisplayName_Block_heavyArmorPanel</DisplayName>
+            <Description>Description_ArmorPanel</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedSidePanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelTipHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelHeavyInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelHeavyInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfSlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelHeavyRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelHeavyRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelHeavyLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelHeavyLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorQuarterPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelHeavyInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelHeavyInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelHeavyRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelHeavyRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelHeavyLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelHeavyLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelHeavy" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelHeavy" />
+            </Blocks>
+        </BlockVariantGroup>
+
+    <!-- Production -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefineryGroup" />
@@ -261,7 +342,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Energy -->
+    <!-- Energy -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BatteryGroup" />
@@ -299,10 +380,11 @@
                 <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine" />
+                <Block Type="MyObjectBuilder_ReactorDefinition" Subtype="Holzvergaser" />
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Medical -->
+    <!-- Medical -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MedicalGroup" />
@@ -317,7 +399,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Gases -->
+    <!-- Gases -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GasGeneratorGroup" />
@@ -367,7 +449,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Logistics -->
+    <!-- Logistics -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
@@ -445,7 +527,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Control -->
+    <!-- Control -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CockpitGroup" />
@@ -503,7 +585,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Thrusters -->
+    <!-- Thrusters -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterAtmoGroup" />
@@ -583,7 +665,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Landing -->
+    <!-- Landing -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ParachuteGroup" />
@@ -611,7 +693,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Wheels -->
+    <!-- Wheels -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionRightGroup" />
@@ -703,7 +785,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Ship Tools-->
+    <!-- Ship Tools-->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipToolGroup" />
@@ -731,7 +813,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Ship Weapons -->
+    <!-- Ship Weapons -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipWeaponStaticGroup" />
@@ -782,7 +864,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Countermeasures -->
+    <!-- Countermeasures -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoyGroup" />
@@ -795,7 +877,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Communication -->
+    <!-- Communication -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AntennaGroup" />
@@ -813,7 +895,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Passages -->
+    <!-- Passages -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DoorGroup" />
@@ -845,7 +927,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Hangars -->
+    <!-- Hangars -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BlastDoorGroup" />
@@ -875,7 +957,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Info -->
+    <!-- Info -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroup" />
@@ -923,7 +1005,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Internal Decoration -->
+    <!-- Internal Decoration -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
@@ -1048,7 +1130,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- External Decoration -->
+    <!-- External Decoration -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InteriorBlockGroup" />
@@ -1132,7 +1214,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Windows -->
+    <!-- Windows -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowSmallGroup" />
@@ -1250,7 +1332,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- High-Tech -->
+    <!-- High-Tech -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravityGroup" />
@@ -1278,7 +1360,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Advanced Systems -->
+    <!-- Advanced Systems -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroup" />
@@ -1347,7 +1429,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Mechanics -->
+    <!-- Mechanics -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RotorGroup" />
@@ -1397,7 +1479,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <!-- Symbols -->
+    <!-- Symbols -->
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LettersAZ" />
@@ -1588,87 +1670,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorPanelsGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\LightArmorPanel.dds</Icon>
-            <DisplayName>DisplayName_Block_LightArmorPanel</DisplayName>
-            <Description>Description_ArmorPanel</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedSidePanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelTipLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelLightInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelLightInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfSlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelLightLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelLightLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorQuarterPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLightInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLightInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelLight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelLight" />
-            </Blocks>
-        </BlockVariantGroup>
 
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorPanelsGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HeavyArmorPanel.dds</Icon>
-            <DisplayName>DisplayName_Block_heavyArmorPanel</DisplayName>
-            <Description>Description_ArmorPanel</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorSlopedSidePanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedPanelTipHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideBasePanelHeavyInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1SlopedSideTipPanelHeavyInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfSlopedPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelHeavyRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelHeavyRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedPanelHeavyLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmor2x1HalfSlopedTipPanelHeavyLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorHalfPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeArmorQuarterPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelHeavyInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelHeavyInv" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelHeavyRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelHeavyRight" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelHeavyLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelHeavyLeft" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelHeavy" />
-                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelHeavy" />
-            </Blocks>
-        </BlockVariantGroup>
         
     </BlockVariantGroups>
 </Definitions>
