@@ -184,12 +184,12 @@
         <IsAirTight>true</IsAirTight> 
       </Definition>  
 
-      <Definition>                         <!--Meilenstein_Fenster-->
+      <Definition>                         <!--Meilenstein_Cockpits-->
         <Id>
           <TypeId>Conveyor</TypeId>
-          <SubtypeId>Meilenstein_Fenster</SubtypeId>
+          <SubtypeId>Meilenstein_Cockpits</SubtypeId>
         </Id>
-        <DisplayName>Meilenstein Fenster</DisplayName>
+        <DisplayName>Meilenstein Cockpits</DisplayName>
         <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
         <Description>Forschungsblock zum freischalten von Blöcken</Description>
         <GuiVisible>false</GuiVisible>
@@ -214,7 +214,7 @@
           <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm"/>
           <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm"/>
         </BuildProgressModels>
-        <BlockPairName>Meilenstein Fenster</BlockPairName>
+        <BlockPairName>Meilenstein Cockpits</BlockPairName>
         <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
         <MirroringY>Z</MirroringY>
         <MirroringZ>Y</MirroringZ>
@@ -229,12 +229,12 @@
         <IsAirTight>true</IsAirTight>  
       </Definition> 
 
-      <Definition>                         <!--Meilenstein_Fenster-->
+      <Definition>                         <!--Meilenstein_Tools-->
         <Id>
           <TypeId>Conveyor</TypeId>
-          <SubtypeId>Meilenstein_Fenster</SubtypeId>
+          <SubtypeId>Meilenstein_Tools</SubtypeId>
         </Id>
-        <DisplayName>Meilenstein Fenster</DisplayName>
+        <DisplayName>Meilenstein Tools</DisplayName>
         <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
         <Description>Forschungsblock zum freischalten von Blöcken</Description>
         <GuiVisible>false</GuiVisible>
@@ -259,7 +259,7 @@
           <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm"/>
           <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm"/>
         </BuildProgressModels>
-        <BlockPairName>Meilenstein Fenster</BlockPairName>
+        <BlockPairName>Meilenstein Tools</BlockPairName>
         <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
         <MirroringY>Z</MirroringY>
         <MirroringZ>Y</MirroringZ>
