@@ -1313,6 +1313,45 @@
       </ItemIds>
     </Category>
 
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Tech-Blocks-->
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_TechBlocks</DisplayName>
+      <Name>Tech Blocks</Name>
+      <ItemIds>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorheavy</string>
+        <string>Conveyor/Meilenstein_ArmorDeko</string>
+        <string>Conveyor/Meilenstein_Fenster</string>
+        <string>Conveyor/Meilenstein_Cockpits</string>
+        <string>Conveyor/Meilenstein_Tools</string>
+        <string>Conveyor/Meilenstein_Waffen</string>
+        <string>Conveyor/Meilenstein_Meilenstein_Conveyors</string>
+        <string>Conveyor/Meilenstein_Deko1</string>
+        <string>Conveyor/Meilenstein_Deko2</string>
+        <string>Conveyor/Meilenstein_Industrial</string>
+        <string>Conveyor/Meilenstein_Power</string>
+        <string>Conveyor/Meilenstein_Lights</string>
+        <string>Conveyor/Meilenstein_Meilenstein_Thruster_Atmo</string>
+        <string>Conveyor/Meilenstein_Thruster_Hydro</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armorlight</string>
+
+      </ItemIds>
+    </Category>
+
+
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Power-->
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
