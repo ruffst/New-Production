@@ -14,22 +14,19 @@
             <Description>Description_SurvivalKit</Description>
             <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
             <CubeSize>Large</CubeSize>
-            <ResearchGroup>Tier00Basics</ResearchGroup>
-            <ResearchCost>5</ResearchCost>
+            <ResearchGroup></ResearchGroup>
+            <ResearchCost></ResearchCost>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="120" />
-                <Component Subtype="Construction" Count="80" />
-                <Component Subtype="Motor" Count="20" />
-                <Component Subtype="Display" Count="10" />
-                <Component Subtype="MetalGrid" Count="10" />
-                <Component Subtype="Computer" Count="160" />
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="Construction" Count="100" />
+                <Component Subtype="SmallTube" Count="50" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
                 <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
@@ -97,15 +94,12 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="20" />
-                <Component Subtype="Construction" Count="2" />
-                <Component Subtype="Medical" Count="3" />
-                <Component Subtype="Motor" Count="4" />
-                <Component Subtype="Display" Count="1" />
-                <Component Subtype="Computer" Count="5" />
                 <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="5" />
+                <Component Subtype="SteelPlate" Count="2" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="Construction" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3"/>
                 <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1"/>
@@ -169,6 +163,8 @@
             <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Large</CubeSize>
+            <ResearchGroup>Tier00Basics</ResearchGroup>
+            <ResearchCost></ResearchCost>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
@@ -260,6 +256,7 @@
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
+            <ResearchGroup>15</ResearchGroup>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -327,6 +324,7 @@
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
+            <ResearchGroup>10</ResearchGroup>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -385,6 +383,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>  
+
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">           <!--BasicAssembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
@@ -394,6 +393,7 @@
             <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
             <Description>Description_AssemblerBasic</Description>
             <CubeSize>Large</CubeSize>
+            <ResearchGroup></ResearchGroup>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -461,6 +461,7 @@
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
+           
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -530,6 +531,7 @@
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
+            
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />

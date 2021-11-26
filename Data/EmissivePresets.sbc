@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EmissiveColors>
+		<EmissiveColor>
+			<Id>
+				<TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+				<SubtypeId>Ganymede_Dark_Red</SubtypeId>
+			</Id>
+			<ColorDefinition>
+				<R>15</R>
+				<G>0</G>
+				<B>0</B>
+				<A>25</A>
+			</ColorDefinition>
+		</EmissiveColor>
+		<EmissiveColor>
+			<Id>
+				<TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+				<SubtypeId>Ganymede_Red2</SubtypeId>
+			</Id>
+			<ColorDefinition>
+				<R>255</R>
+				<G>4</G>
+				<B>0</B>
+				<A>255</A>
+			</ColorDefinition>
+		</EmissiveColor>
+		<EmissiveColor>
+			<Id>
+				<TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+				<SubtypeId>Ganymede_Aqua</SubtypeId>
+			</Id>
+			<ColorDefinition>
+				<R>77</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
+			</ColorDefinition>
+		</EmissiveColor>
+		<EmissiveColor>
+			<Id>
+				<TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+				<SubtypeId>Ganymede_Blue</SubtypeId>
+			</Id>
+			<ColorDefinition>
+				<R>28</R>
+				<G>67</G>
+				<B>134</B>
+				<A>255</A>
+			</ColorDefinition>
+		</EmissiveColor>
+		
+		<EmissiveColor>
+			<Id>
+				<TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+				<SubtypeId>Ganymede_LG</SubtypeId>
+			</Id>
+			<ColorDefinition>
+				<R>253</R>
+				<G>255</G>
+				<B>95</B>
+				<A>255</A>
+			</ColorDefinition>
+		</EmissiveColor>
+		<EmissiveColor>
+			<Id>
+				<TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+				<SubtypeId>Ganymede_Yellow</SubtypeId>
+			</Id>
+			<ColorDefinition>
+				<R>230</R>
+				<G>130</G>
+				<B>0</B>
+				<A>255</A>
+			</ColorDefinition>
+		</EmissiveColor>
+		<EmissiveColor>
+			<Id>
+				<TypeId>MyObjectBuilder_EmissiveColorDefinition</TypeId>
+				<SubtypeId>Ganymede_Light_Blue</SubtypeId>
+			</Id>
+			<ColorDefinition>
+				<R>0</R>
+				<G>211</G>
+				<B>255</B>
+				<A>255</A>
+			</ColorDefinition>
+		</EmissiveColor>
+	</EmissiveColors>
+	<EmissiveColorStatePresets>
+		
+		 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>GanymedeConveyor</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Ganymede_Dark_Red" DisplayColorName="Black" Emissivity="0.5" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Ganymede_Red2" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="Ganymede_Blue" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Warning" EmissiveColorName="Ganymede_Yellow" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	 <EmissiveColorStatePreset>
+      <Id>
+        <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
+        <SubtypeId>GanymedeConveyorJunction</SubtypeId>
+      </Id>
+      <EmissiveStates>
+        <EmissiveState StateName="Damaged" EmissiveColorName="Ganymede_Dark_Red" DisplayColorName="Black" Emissivity="0.5" />
+        <EmissiveState StateName="Disabled" EmissiveColorName="Ganymede_Red2" DisplayColorName="White" Emissivity="0.5" />
+        <EmissiveState StateName="Working" EmissiveColorName="Ganymede_Blue" DisplayColorName="White" Emissivity="1" />
+        <EmissiveState StateName="Warning" EmissiveColorName="Ganymede_Blue" DisplayColorName="White" Emissivity="1" />
+      </EmissiveStates>
+    </EmissiveColorStatePreset>
+	
+	</EmissiveColorStatePresets>
+</Definitions>
