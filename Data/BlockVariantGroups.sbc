@@ -315,6 +315,7 @@
                 <Block Type="MyObjectBuilder_Assembler" Subtype="Fertiger" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="VerbrauchsmaterialAssembler" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="Recycler" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="Forschungslabor" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -344,7 +345,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MeilensteinGroup" />
-            <Icon>Models\ConveyorHud2.DDS</Icon>
+            <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
             <DisplayName>Meilensteine</DisplayName>
             <Description>Gruppe für Forschungsblöcke</Description>
             <Blocks>
@@ -372,6 +373,7 @@
                 <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Räder" />
                 <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos" />
                 <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Communication" />
             </Blocks>
         </BlockVariantGroup>
 

@@ -1304,6 +1304,7 @@
         <string>Assembler/Fertiger</string>
         <string>Assembler/VerbrauchsmaterialAssembler</string>
         <string>Assembler/Recycler</string>
+        <string>Assembler/Forschungslabor</string>
 
         <string>Assembler/LargeAssemblerIndustrial</string>
         <string>Projector/LargeProjector</string>
@@ -1318,7 +1319,7 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>DisplayName_Category_TechBlocks</DisplayName>
+      <DisplayName>TechBlocks</DisplayName>
       <Name>Tech Blocks</Name>
       <ItemIds>
         <string>Conveyor/Meilenstein_Armorlight</string>
@@ -1345,9 +1346,9 @@
         <string>Conveyor/Meilenstein_Räder</string>
         <string>Conveyor/Meilenstein_Cargos</string>
         <string>Conveyor/Meilenstein_Jumpdrive</string>
+        <string>Conveyor/Meilenstein_Communication</string>
       </ItemIds>
     </Category>
-
 
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">        <!--Power-->
       <Id>
