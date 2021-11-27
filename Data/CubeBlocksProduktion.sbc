@@ -402,14 +402,17 @@
             </Id>
             <DisplayName>Plattenpresse</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+            <!--<Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>-->
             <Description>Description_Assembler</Description>
             <CubeSize>Large</CubeSize>
             <ResearchGroup>10</ResearchGroup>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="9" y="3" z="6"/>
+			<!--<Size x="9" y="3" z="6"/>-->
+            <Size x="1" y="1" z="2" />
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\IndustrialStorage.mwm</Model>
+			 <!--<Model>Models\IndustrialStorage.mwm</Model>-->
+             <Model>Models\Cubes\Large\Assembler.mwm</Model>
             <Components>
                 <Component Subtype="SteelPlate" Count="80" />
                 <Component Subtype="Construction" Count="100" />
@@ -426,9 +429,16 @@
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="1" />
             </MountPoints>
             <BuildProgressModels>
+             <!--            
 				<Model BuildPercentUpperBound="0.33" File="Models\IndustrialStorage_BS1.mwm"/>
 				<Model BuildPercentUpperBound="0.67" File="Models\IndustrialStorage_BS2.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\IndustrialStorage_BS3.mwm"/>
+            -->
+                <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
+                <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />1
             </BuildProgressModels>
             <BlockPairName>Plattenpresse</BlockPairName>
             <EdgeType>Light</EdgeType>
