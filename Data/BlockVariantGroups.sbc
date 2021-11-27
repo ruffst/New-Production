@@ -343,41 +343,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-    <!-- MeilensteinGroup -->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="MeilensteinGroup" />
-            <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
-            <DisplayName>Meilensteine</DisplayName>
-            <Description>Gruppe für Forschungsblöcke</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorlight" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorheavy" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_ArmorDeko" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Fenster" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cockpits" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Waffen" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Conveyors" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Deko1" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Deko2" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Lights" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Atmo" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_LCDs" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Sound_Blocks" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gravity" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Mechanic" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tore" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Räder" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Communication" />
-                <Block Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Landing" />
-            </Blocks>
-        </BlockVariantGroup>
+
 
     <!-- Energy -->
 

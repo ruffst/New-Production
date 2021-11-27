@@ -744,7 +744,7 @@
         <Definition  xsi:type="MyObjectBuilder_RefineryDefinition">           <!--Block_Arc_Furnace-->
             <Id>
                 <TypeId>Refinery</TypeId>
-                <SubtypeId>Blast Furnace</SubtypeId>
+                <SubtypeId>Blast_Furnace</SubtypeId>
             </Id>
             <DisplayName>DisplayName_Block_Arc_Furnace</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
