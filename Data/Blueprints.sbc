@@ -10,7 +10,7 @@
         <SubtypeId>MilestoneArmorMaterialBP</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Material Armor</DisplayName>
-      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\milestone_armor.dds</Icon>
       <Prerequisites>
         <Item Amount="1650" TypeId="Component" SubtypeId="SteelPlate" />
         <Item Amount="1200" TypeId="Component" SubtypeId="Construction" />
@@ -24,9 +24,9 @@
         <SubtypeId>MilestoneEnergyMaterialBP</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Material Energie</DisplayName>
-      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\milestone_energy.dds</Icon>
       <Prerequisites>
-        <Item Amount="850" TypeId="Component" SubtypeId="Batteriezelle" />
+        <Item Amount="850" TypeId="Component" SubtypeId="PowerCell" />
         <Item Amount="1650" TypeId="Component" SubtypeId="SmallTube" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneEnergyMaterial" />
@@ -38,7 +38,7 @@
         <SubtypeId>MilestoneMechanicMaterialBP</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Material Mechanik</DisplayName>
-      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\milestone_mech.dds</Icon>
       <Prerequisites>
         <Item Amount="850" TypeId="Component" SubtypeId="Motor" />
         <Item Amount="1650" TypeId="Component" SubtypeId="MetalGrid" />
@@ -53,7 +53,7 @@
         <SubtypeId>MilestoneElectroMaterialBP</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Material Elektrotechnik</DisplayName>
-      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\milestone_electro.dds</Icon>
       <Prerequisites>
         <Item Amount="850" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="1650" TypeId="Component" SubtypeId="SMD" />
@@ -68,13 +68,28 @@
         <SubtypeId>MilestoneSpaceMaterialBP</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Material Raumfahrt</DisplayName>
-      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Icon>Textures\GUI\Icons\component\milestone_space.dds</Icon>
       <Prerequisites>
         <Item Amount="850" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="350" TypeId="Component" SubtypeId="Supraleiter" />
+        <Item Amount="350" TypeId="Component" SubtypeId="Superconductor" />
         <Item Amount="350" TypeId="Component" SubtypeId="GravityGenerator" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneSpaceMaterial" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--MilestoneCargoMaterial-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MilestoneCargoMaterialBP</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein Material Lagerung</DisplayName>
+      <Icon>Textures\GUI\Icons\component\milestone_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="1650" TypeId="Component" SubtypeId="MetalGrid" />
+        <Item Amount="1950" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Component" SubtypeId="MilestoneCargoMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
 <!--Scrap Material-->

@@ -322,6 +322,7 @@
             <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneMechanicMaterialBP" />
             <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneElectroMaterialBP" />
             <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneSpaceMaterialBP" />
+            <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneCargoMaterialBP" />
 
         <!--SimpleComponents-->
             <Entry Class="SimpleComponents" BlueprintSubtypeId="ConstructionComponent" />
