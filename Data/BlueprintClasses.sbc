@@ -159,6 +159,18 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
         </Class>
+        <Class>            <!--Meilensteine-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Meilensteine</SubtypeId>
+            </Id>
+            <DisplayName>Meilensteine</DisplayName>
+            <Description>Herstellung von Material für die Freischaltung von Blöcken</Description>
+            <Icon>Textures\GUI\Icons\research.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\research.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
+        </Class>
         <Class>            <!--Ammo-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -303,6 +315,13 @@
 
     </BlueprintClasses>
     <BlueprintClassEntries>
+
+        <!--Meilensteine-->
+            <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneArmorMaterialBP" />
+            <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneEnergyMaterialBP" />
+            <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneMechanicMaterialBP" />
+            <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneElectroMaterialBP" />
+            <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneSpaceMaterialBP" />
 
         <!--SimpleComponents-->
             <Entry Class="SimpleComponents" BlueprintSubtypeId="ConstructionComponent" />
