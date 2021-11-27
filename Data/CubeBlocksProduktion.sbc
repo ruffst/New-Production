@@ -10,8 +10,8 @@
                 <TypeId>SurvivalKit</TypeId>
                 <SubtypeId>SurvivalKitLarge</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_SurvivalKit</DisplayName>
-            <Description>Description_SurvivalKit</Description>
+            <DisplayName>Survival-Kit</DisplayName>
+            <Description>Preiset die Pottsau und fürchtet euch vor dem Harlock</Description>
             <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
             <CubeSize>Large</CubeSize>
             <ResearchGroup></ResearchGroup>
@@ -511,7 +511,7 @@
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.28</OperationalPowerConsumption>
             <BlueprintClasses>
-                <Class>WoodToKohlenstoff</Class>
+                <Class>Meilensteine</Class>
             </BlueprintClasses>
             <AssemblySpeed>0.7</AssemblySpeed>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>

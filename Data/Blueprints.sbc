@@ -3,6 +3,72 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <Blueprints>
 
+<!--Meilensteine-->
+    <Blueprint>      <!--MilestoneArmorMaterialBP-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MilestoneArmorMaterialBP</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein Material Armor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Component" SubtypeId="Steelplate" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Component" SubtypeId="MilestoneArmorMaterial" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--MilestoneEnergyMaterial-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MilestoneEnergyMaterialBP</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein Material Energie</DisplayName>
+      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Component" SubtypeId="Steelplate" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Component" SubtypeId="MilestoneEnergyMaterial" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--MilestoneMechanicMaterial-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MilestoneMechanicMaterialBP</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein Material Mechanik</DisplayName>
+      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Component" SubtypeId="Steelplate" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Component" SubtypeId="MilestoneMechanicMaterial" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--MilestoneElectroMaterial-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MilestoneElectroMaterialBP</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein Material Elektrotechnik</DisplayName>
+      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Component" SubtypeId="Steelplate" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Component" SubtypeId="MilestoneElectroMaterial" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--MilestoneSpaceMaterial-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MilestoneSpaceMaterialBP</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein Material Raumfahrt</DisplayName>
+      <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
+      <Prerequisites>
+        <Item Amount="850" TypeId="Component" SubtypeId="Steelplate" />
+      </Prerequisites>
+        <Result Amount="1" TypeId="Component" SubtypeId="MilestoneSpaceMaterial" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
 <!--Scrap Material-->
 
     <Blueprint>      <!--ScrapIngotToIronIngot-->
