@@ -161,10 +161,24 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armor_Alu  Meilenstein_Armorlight-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armor_Alu" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armorheavy  Meilenstein_Armorlight-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorheavy" />
       <UnlockedByGroups>
         <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armor_Tin  Meilenstein_Armorheavy-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armor_Tin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
@@ -193,6 +207,27 @@
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools" />
       <UnlockedByGroups>
         <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tools_Gold  Meilenstein_Tools-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Gold" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Tools</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tools_Platin  Meilenstein_Tools_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Platin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Tools_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tools_Titan  Meilenstein_Tools_Platin-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Titan" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Tools_Platin</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
@@ -231,6 +266,27 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Industrial_Gold  Meilenstein_Industrial-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Gold" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Industrial_Platin  Meilenstein_Industrial_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Platin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Industrial_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Industrial_Titan  Meilenstein_Industrial_Platin-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Titan" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Industrial_Platin</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power" />
       <UnlockedByGroups>
@@ -259,10 +315,52 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Gold  Meilenstein_Thruster_Hydro-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Gold" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Platin  Meilenstein_Thruster_Hydro_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Platin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Hydro_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Titan  Meilenstein_Thruster_Hydro_Platin-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Titan" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Hydro_Platin</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen" />
       <UnlockedByGroups>
         <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen_Gold  Meilenstein_Thruster_Ionen-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Gold" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Ionen</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen_Platin  Meilenstein_Thruster_Ionen_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Platin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen_Titan  Meilenstein_Thruster_Ionen_Platin-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Titan" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
@@ -315,10 +413,52 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos_Gold  Meilenstein_Cargos-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Gold" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Cargos</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos_Platin  Meilenstein_Cargos_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Platin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Cargos_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos_Titan  Meilenstein_Cargos_Platin-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Titan" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Cargos_Platin</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive" />
       <UnlockedByGroups>
         <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Gold  Meilenstein_Jumpdrive-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Gold" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Jumpdrive</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Platin  Meilenstein_Jumpdrive_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Platin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Jumpdrive_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Titan  Meilenstein_Jumpdrive_Platin-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Titan" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Jumpdrive_Platin</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
@@ -340,6 +480,27 @@
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks" />
       <UnlockedByGroups>
         <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Gold  Meilenstein_Tanks-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Gold" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Platin  Meilenstein_Tanks_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Platin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Tanks_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Titan  Meilenstein_Tanks_Platin-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Titan" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Tanks_Platin</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
