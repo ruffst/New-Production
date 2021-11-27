@@ -3,28 +3,75 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ResearchGroups>
 
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Holzvergaser 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Reactor" Subtype="Holzvergaser" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Assembler-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Assembler" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="Basic_Battery" />
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Rohrextruder" />
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Plattenpresse" />
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Forschungslabor" />
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+        <BlockId Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Assembler1-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Assembler1" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Drahtextruder" />
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Wickelmaschine" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Assembler2-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Assembler2" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Refinery" Subtype="Blast_Furnace" />
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Recycler" />
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Elektro_Assembler" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Assembler4-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Assembler3" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Fertiger" />
+        <BlockId Type="MyObjectBuilder_Refinery" Subtype="Legierer" />
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="VerbrauchsmaterialAssembler" />
+      </Members>
+    </ResearchGroup>
+
+
+
+
+
+
     <ResearchGroup xsi:type="ResearchGroup">      <!--Armor-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Armor" />
-      <Members>
-        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Plattenpresse" />
+      <Members>       
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCorner" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerInv" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerSquare" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerSquareInverted" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCorner" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerInv" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerSquare" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerSquareInverted" />
       </Members>
     </ResearchGroup>
 
-    <ResearchGroup xsi:type="ResearchGroup">      <!--0-->
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Armor Leichts Armor1-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Armor1" />
       <Members>
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerSquare" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerSquareInverted" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Base" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Tip" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfArmorBlock" />
@@ -34,6 +81,8 @@
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopedCorner" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Base" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Tip" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerSquare" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerSquareInverted" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="HalfArmorBlock" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="HalfSlopeArmorBlock" />
         <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopeCorner" />
@@ -184,35 +233,11 @@
       </Members>
     </ResearchGroup>
 
-    <ResearchGroup xsi:type="ResearchGroup">      <!--0-->
-      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0" />
-      <Members>
-        <BlockId Type="MyObjectBuilder_Reactor" Subtype="Holzvergaser" />
-      </Members>
-    </ResearchGroup>
 
-    <ResearchGroup xsi:type="ResearchGroup">      <!--Plattenpresse 10-->
-      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="10" />
-      <Members>
-        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
-      </Members>
-    </ResearchGroup>
 
-    <ResearchGroup xsi:type="ResearchGroup">      <!--0-->
-      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="15" />
-      <Members>
-        <BlockId Type="MyObjectBuilder_Assembler" Subtype="Rohrextruder" />
-        
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiGate" />
-      </Members>
-    </ResearchGroup>
 
-    <ResearchGroup xsi:type="ResearchGroup">
-      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="20" />
-      <Members>
-        <BlockId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
-      </Members>
-    </ResearchGroup>
+
+
 
 
 

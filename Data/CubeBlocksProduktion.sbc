@@ -244,10 +244,90 @@
                 <unsignedInt>3600</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">           <!--Basic_Battery-->
+            <Id>
+                <TypeId>BatteryBlock</TypeId>
+                <SubtypeId>Basic_Battery</SubtypeId>
+            </Id>
+            <DisplayName>Basic Battery</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+            <Description>Description_Battery</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" >
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="10">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="PowerCell" Count="20">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>BatteryScrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="20">
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="SteelPlate" Count="60" >
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+            </Components>
+            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Basic Battery</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
 
+            <ResourceSourceGroup>Battery</ResourceSourceGroup>
+            <MaxPowerOutput>2</MaxPowerOutput>
+
+            <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+            <RequiredPowerInput>0.6</RequiredPowerInput>
+            <AdaptibleInput>true</AdaptibleInput>
+            <MaxStoredPower>2</MaxStoredPower>
+            <InitialStoredPowerRatio>0.2</InitialStoredPowerRatio>
+            <RechargeMultiplier>0.5</RechargeMultiplier>
+
+            <InventorySize>
+                <X>1</X>
+                <Y>1</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <Public>true</Public>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>15</PCU>
+            <IsAirTight>true</IsAirTight>
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+        </Definition>
     <!--1. buildstufe-->
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">           <!--Rohrextruder-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">              <!--Rohrextruder-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Rohrextruder</SubtypeId>
@@ -315,7 +395,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">           <!--Plattenpresse-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">              <!--Plattenpresse-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Plattenpresse</SubtypeId>
@@ -383,8 +463,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>  
-
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">           <!--Forschungslabor-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">              <!--Forschungslabor-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Forschungslabor</SubtypeId>
@@ -419,7 +498,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BasicAssembler</BlockPairName>
+            <BlockPairName>Forschungslabor</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -449,8 +528,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">           <!--BasicAssembler-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">              <!--BasicAssembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>BasicAssembler</SubtypeId>
@@ -518,7 +596,7 @@
                         <!--Freischaltung aller Armor Blöcke-->        
     <!--2. buildstufe-->
 
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">           <!--Drahtextruder-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Drahtextruder-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Drahtextruder</SubtypeId>
@@ -588,7 +666,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">           <!--Wickelmaschine-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">             <!--Wickelmaschine-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Wickelmaschine</SubtypeId>

@@ -388,6 +388,7 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
+                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="Basic_Battery" />
             </Blocks>
         </BlockVariantGroup>
 
