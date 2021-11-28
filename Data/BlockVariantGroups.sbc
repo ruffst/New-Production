@@ -462,6 +462,7 @@
             <Description>Description_BlockGroup_ContainerGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer" />
+                <Block Type="MyObjectBuilder_CargoContainer" Subtype="Basic_Cargo" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />

@@ -1103,6 +1103,7 @@
         <string>CargoContainer/SmallBlockSmallContainer</string>
         <string>CargoContainer/LargeBlockLargeContainer</string>
         <string>CargoContainer/LargeBlockSmallContainer</string>
+        <string>CargoContainer/Basic_Cargo</string>
         <string>SmallBlockConveyor</string>
         <string>LargeBlockConveyor</string>
         <string>ConveyorTube</string>
@@ -1323,21 +1324,35 @@
       <Name>Tech Blocks</Name>
       <ItemIds>
         <string>Conveyor/Meilenstein_Armorlight</string>
+        <string>Conveyor/Meilenstein_Armor_Alu</string>
         <string>Conveyor/Meilenstein_Armorheavy</string>
+        <string>Conveyor/Meilenstein_Armor_Tin</string>
         <string>Conveyor/Meilenstein_ArmorDeko</string>
         <string>Conveyor/Meilenstein_Fenster</string>
         <string>Conveyor/Meilenstein_Cockpits</string>
         <string>Conveyor/Meilenstein_Tools</string>
+        <string>Conveyor/Meilenstein_Tools_Gold</string>
+        <string>Conveyor/Meilenstein_Tools_Platin</string>
+        <string>Conveyor/Meilenstein_Tools_Titan</string>
         <string>Conveyor/Meilenstein_Waffen</string>
         <string>Conveyor/Meilenstein_Conveyors</string>
         <string>Conveyor/Meilenstein_Deko1</string>
         <string>Conveyor/Meilenstein_Deko2</string>
         <string>Conveyor/Meilenstein_Industrial</string>
+        <string>Conveyor/Meilenstein_Industrial_Gold</string>
+        <string>Conveyor/Meilenstein_Industrial_Platin</string>
+        <string>Conveyor/Meilenstein_Industrial_Titan</string>
         <string>Conveyor/Meilenstein_Power</string>
         <string>Conveyor/Meilenstein_Lights</string>
         <string>Conveyor/Meilenstein_Thruster_Atmo</string>
         <string>Conveyor/Meilenstein_Thruster_Hydro</string>
+        <string>Conveyor/Meilenstein_Thruster_Hydro_Gold</string>
+        <string>Conveyor/Meilenstein_Thruster_Hydro_Platin</string>
+        <string>Conveyor/Meilenstein_Thruster_Hydro_Titan</string>
         <string>Conveyor/Meilenstein_Thruster_Ionen</string>
+        <string>Conveyor/Meilenstein_Thruster_Ionen_Gold</string>
+        <string>Conveyor/Meilenstein_Thruster_Ionen_Platin</string>
+        <string>Conveyor/Meilenstein_Thruster_Ionen_Titan</string>
         <string>Conveyor/Meilenstein_LCDs</string>
         <string>Conveyor/Meilenstein_Sound_Blocks</string>
         <string>Conveyor/Meilenstein_Gravity</string>
@@ -1345,10 +1360,19 @@
         <string>Conveyor/Meilenstein_Tore</string>
         <string>Conveyor/Meilenstein_Räder</string>
         <string>Conveyor/Meilenstein_Cargos</string>
+        <string>Conveyor/Meilenstein_Cargos_Gold</string>
+        <string>Conveyor/Meilenstein_Cargos_Platin</string>
+        <string>Conveyor/Meilenstein_Cargos_Titan</string>
         <string>Conveyor/Meilenstein_Jumpdrive</string>
+        <string>Conveyor/Meilenstein_Jumpdrive_Gold</string>
+        <string>Conveyor/Meilenstein_Jumpdrive_Platin</string>
+        <string>Conveyor/Meilenstein_Jumpdrive_Titan</string>
         <string>Conveyor/Meilenstein_Communication</string>
         <string>Conveyor/Meilenstein_Landing</string>
         <string>Conveyor/Meilenstein_Tanks</string>
+        <string>Conveyor/Meilenstein_Tanks_Gold</string>
+        <string>Conveyor/Meilenstein_Tanks_Platin</string>
+        <string>Conveyor/Meilenstein_Tanks_Titan</string>
       </ItemIds>
     </Category>
 

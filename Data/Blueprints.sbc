@@ -321,15 +321,14 @@
         <Item Amount="2.4" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="4.0" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="2.4" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="0.60" TypeId="Ingot" SubtypeId="Lithium" />
-        <Item Amount="0.30" TypeId="Ingot" SubtypeId="Neodymium" />
+
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--StoneIngotToOxyge-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>StoneOreToIngot</SubtypeId>
+        <SubtypeId>StoneIngotToOxyge</SubtypeId>
       </Id>
       <DisplayName>Stein zu Eisen 2</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
@@ -358,11 +357,9 @@
         <Item Amount="0.24" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="0.4" TypeId="Ingot" SubtypeId="Silicon" />
         <Item Amount="0.24" TypeId="Ingot" SubtypeId="Copper" />
-        <Item Amount="0.06" TypeId="Ingot" SubtypeId="Lithium" />
-        <Item Amount="0.03" TypeId="Ingot" SubtypeId="Neodymium" />
       </Results>
       <Priority>1000</Priority>
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--StoneOreToIngot_Deconstruction-->
       <Id>

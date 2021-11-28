@@ -78,10 +78,24 @@
       </Members>
     </ResearchGroup>
 
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Armor_Alu 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Armor_Alu" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armor_Alu" />
+      </Members>
+    </ResearchGroup>
+
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Armorheavy 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Armorheavy" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorheavy" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Armor_Tin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Armor_Tin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armor_Tin" />
       </Members>
     </ResearchGroup>
 
@@ -110,6 +124,27 @@
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tools" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tools_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tools_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tools_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tools_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tools_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tools_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Titan" />
       </Members>
     </ResearchGroup>
 
@@ -148,6 +183,27 @@
       </Members>
     </ResearchGroup>
 
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Industrial_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Industrial_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Industrial_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Industrial_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Industrial_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Industrial_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Titan" />
+      </Members>
+    </ResearchGroup>
+
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Lights 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Lights" />
       <Members>
@@ -176,10 +232,52 @@
       </Members>
     </ResearchGroup>
 
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Hydro_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Hydro_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Hydro_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Hydro_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Hydro_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Hydro_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Titan" />
+      </Members>
+    </ResearchGroup>
+
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Ionen 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Ionen" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Ionen_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Ionen_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Ionen_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Ionen_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Ionen_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Ionen_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Titan" />
       </Members>
     </ResearchGroup>
 
@@ -211,6 +309,27 @@
       </Members>
     </ResearchGroup>
 
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Jumpdrive_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Jumpdrive_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Jumpdrive_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Jumpdrive_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Jumpdrive_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Jumpdrive_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Titan" />
+      </Members>
+    </ResearchGroup>
+
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Mechanic 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Mechanic" />
       <Members>
@@ -239,6 +358,27 @@
       </Members>
     </ResearchGroup>
 
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Cargos_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Cargos_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Cargos_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Cargos_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Cargos_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Cargos_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Titan" />
+      </Members>
+    </ResearchGroup>
+
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Communication 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Communication" />
       <Members>
@@ -257,6 +397,27 @@
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tanks" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tanks_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tanks_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tanks_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tanks_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tanks_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tanks_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Titan" />
       </Members>
     </ResearchGroup>
 
