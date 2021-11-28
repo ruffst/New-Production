@@ -36,6 +36,18 @@
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Cargo   0-->
+      <Id Type="MyObjectBuilder_Container" Subtype="Basic_Cargo" />
+      <UnlockedByGroups>
+        <GroupSubtype>0</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Sorter   0-->
+      <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />
+      <UnlockedByGroups>
+        <GroupSubtype>0</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
 
   <!--Freischatung Assembler1-->
 
