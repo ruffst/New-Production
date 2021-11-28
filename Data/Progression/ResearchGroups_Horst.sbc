@@ -113,10 +113,45 @@
       </Members>
     </ResearchGroup>
 
-    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Cockpits 0-->
-      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Cockpits" />
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Controls 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Controls" />
       <Members>
-        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cockpits" />
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Controls" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Remote 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Remote" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Remote" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Gyroskop 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Gyroskop" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gyroskop" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Gyroskop_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Gyroskop_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gyroskop_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Gyroskop_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Gyroskop_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gyroskop_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Gyroskop_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Gyroskop_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gyroskop_Titan" />
       </Members>
     </ResearchGroup>
 
