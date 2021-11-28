@@ -1,11 +1,25 @@
 $BlockIds = @(
 
-  'LargeBlockRemoteControl'
-  'SmallBlockRemoteControl'
+
+  'OffroadSuspension3x3'
+  'OffroadSuspension5x5'
+  'OffroadSuspension1x1'
+  'OffroadSmallSuspension3x3'
+  'OffroadSmallSuspension5x5'
+  'OffroadSmallSuspension1x1'
+  'OffroadSuspension3x3mirrored'
+  'OffroadSuspension5x5mirrored'
+  'OffroadSuspension1x1mirrored'
+  'OffroadSmallSuspension3x3mirrored'
+  'OffroadSmallSuspension5x5mirrored'
+  'OffroadSmallSuspension1x1mirrored'
+
+  
+
 
 );
-$Builder = "RemoteControl"
-$Freigeschaltet = "Meilenstein_Remote"
+$Builder = "MotorSuspension"
+$Freigeschaltet = "Meilenstein_Räder"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->

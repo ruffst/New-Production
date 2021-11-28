@@ -122,6 +122,13 @@
       </Members>
     </ResearchGroup>
 
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Medical 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Medical" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Medical" />
+      </Members>
+    </ResearchGroup>
+
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Remote 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Remote" />
       <Members>
@@ -185,8 +192,6 @@
       </Members>
     </ResearchGroup>
 
-
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_OreDetector 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_OreDetector" />
       <Members>
@@ -214,18 +219,6 @@
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Titan" />
       </Members>
     </ResearchGroup>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Waffen 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Waffen" />
@@ -280,6 +273,13 @@
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Industrial_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Titan" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Automation 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Automation" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Automation" />
       </Members>
     </ResearchGroup>
 
