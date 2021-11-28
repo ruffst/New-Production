@@ -2,10 +2,10 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
 <!--        Tier Gold-->
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--LargeBlockLargeContainer2x-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--LargeBlockLargeContainer_Gold-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeContainer2x</SubtypeId>
+                <SubtypeId>LargeBlockLargeContainer_Gold</SubtypeId>
             </Id>
             <DisplayName>Large Gold Container</DisplayName>
             <GuiVisible>false</GuiVisible>
@@ -41,7 +41,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer2x</BlockPairName>
+            <BlockPairName>LargeCargoContainer_Gold</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -58,10 +58,10 @@
             </InventorySize>
         </Definition>
 
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockLargeContainer2x-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockLargeContainer_Gold-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockLargeContainer2x</SubtypeId>
+                <SubtypeId>SmallBlockLargeContainer_Gold</SubtypeId>
             </Id>
             <DisplayName>Large Gold Container</DisplayName>
             <GuiVisible>false</GuiVisible>
@@ -93,7 +93,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer2x</BlockPairName>
+            <BlockPairName>LargeCargoContainer_Gold</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -111,10 +111,10 @@
         </Definition>
 
 <!--        Tier Platin-->
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--LargeBlockLargeContainer4x-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--LargeBlockLargeContainer_Platin-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeContainer4x</SubtypeId>
+                <SubtypeId>LargeBlockLargeContainer_Platin</SubtypeId>
             </Id>
             <DisplayName>Large Platin Container</DisplayName>
             <GuiVisible>false</GuiVisible>
@@ -150,7 +150,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer4x</BlockPairName>
+            <BlockPairName>LargeCargoContainer_Platin</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -167,10 +167,10 @@
             </InventorySize>
         </Definition>
 
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockLargeContainer4x-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockLargeContainer_Platin-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockLargeContainer4x</SubtypeId>
+                <SubtypeId>SmallBlockLargeContainer_Platin</SubtypeId>
             </Id>
             <DisplayName>Large Platin Container</DisplayName>
             <GuiVisible>false</GuiVisible>
@@ -202,7 +202,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer4x</BlockPairName>
+            <BlockPairName>LargeCargoContainer_Platin</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -221,10 +221,10 @@
         </Definition>
 
 <!--        Tier Titan-->
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--LargeBlockLargeContainer8x-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--LargeBlockLargeContainer_Titan-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeContainer8x</SubtypeId>
+                <SubtypeId>LargeBlockLargeContainer_Titan</SubtypeId>
             </Id>
             <DisplayName>Large Titan Container</DisplayName>
             <GuiVisible>false</GuiVisible>
@@ -260,7 +260,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer8x</BlockPairName>
+            <BlockPairName>LargeCargoContainer_Titan</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -277,10 +277,10 @@
             </InventorySize>
         </Definition>
 
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">  <!--SmallBlockLargeContainer8x-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">  <!--SmallBlockLargeContainer_Titan-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockLargeContainer8x</SubtypeId>
+                <SubtypeId>SmallBlockLargeContainer_Titan</SubtypeId>
             </Id>
             <DisplayName>Large Titan Container</DisplayName>
             <GuiVisible>false</GuiVisible>
@@ -312,7 +312,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer8x</BlockPairName>
+            <BlockPairName>LargeCargoContainer_Titan</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
