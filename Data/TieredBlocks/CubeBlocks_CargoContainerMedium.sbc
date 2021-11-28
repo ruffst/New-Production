@@ -112,10 +112,10 @@
         </Definition>
 
 <!--        Tier Titan-->
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockMediumContainer8x-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockMediumContainer_Titan-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockMediumContainer8x</SubtypeId>
+                <SubtypeId>SmallBlockMediumContainer_Titan</SubtypeId>
             </Id>
             <DisplayName>Medium Titan Container</DisplayName>
             <GuiVisible>false</GuiVisible>
@@ -147,7 +147,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>MediumCargoContainer8x</BlockPairName>
+            <BlockPairName>MediumCargoContainer_Titan</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
