@@ -185,6 +185,48 @@
       </Members>
     </ResearchGroup>
 
+
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_OreDetector 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_OreDetector" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_OreDetector_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_OreDetector_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_OreDetector_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_OreDetector_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_OreDetector_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_OreDetector_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Titan" />
+      </Members>
+    </ResearchGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Waffen 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Waffen" />
       <Members>
