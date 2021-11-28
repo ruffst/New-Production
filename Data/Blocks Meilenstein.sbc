@@ -271,7 +271,7 @@
       <Definition>                         <!--Meilenstein_Controls-->
         <Id>
           <TypeId>Conveyor</TypeId>
-          <SubtypeId>Meilenstein_Cockpits</SubtypeId>
+          <SubtypeId>Meilenstein_Controls</SubtypeId>
         </Id>
         <DisplayName>Meilenstein Controls</DisplayName>
         <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
@@ -356,8 +356,6 @@
         <PCU>10</PCU>
         <IsAirTight>true</IsAirTight>  
       </Definition> 
-
-
       <Definition>                         <!--Meilenstein_Gyroskop-->
         <Id>
           <TypeId>Conveyor</TypeId>
@@ -405,7 +403,7 @@
       <Definition>                         <!--Meilenstein_Gyroskop_Gold-->
         <Id>
           <TypeId>Conveyor</TypeId>
-          <SubtypeId>Meilenstein_Gyroskop Gold</SubtypeId>
+          <SubtypeId>Meilenstein_Gyroskop_Gold</SubtypeId>
         </Id>
         <DisplayName>Meilenstein Gyroskop_Gold</DisplayName>
         <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
@@ -493,7 +491,7 @@
       <Definition>                         <!--Meilenstein_Gyroskop_Titan-->
         <Id>
           <TypeId>Conveyor</TypeId>
-          <SubtypeId>Meilenstein_Gyroskop Titan</SubtypeId>
+          <SubtypeId>Meilenstein_Gyroskop_Titan</SubtypeId>
         </Id>
         <DisplayName>Meilenstein Gyroskop_Titan</DisplayName>
         <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
@@ -534,14 +532,6 @@
         <PCU>10</PCU>
         <IsAirTight>true</IsAirTight>  
       </Definition>
-
-
-
-
-
-
-
-
       <Definition>                         <!--Meilenstein_Tools-->
         <Id>
           <TypeId>Conveyor</TypeId>
