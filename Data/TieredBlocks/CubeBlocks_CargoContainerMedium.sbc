@@ -2,10 +2,10 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
 <!--        Tier Gold-->
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockMediumContainer2x-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockMediumContainer_Gold-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockMediumContainer2x</SubtypeId>
+                <SubtypeId>SmallBlockMediumContainer_Gold</SubtypeId>
             </Id>
             <DisplayName>Medium Gold Container</DisplayName>
             <GuiVisible>false</GuiVisible>
@@ -37,7 +37,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>MediumCargoContainer2x</BlockPairName>
+            <BlockPairName>MediumCargoContainer_Gold</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -57,10 +57,10 @@
         </Definition>
 
 <!--        Tier Platin-->
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockMediumContainer4x-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockMediumContainer_Platin-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockMediumContainer4x</SubtypeId>
+                <SubtypeId>SmallBlockMediumContainer_Platin</SubtypeId>
             </Id>
             <DisplayName>Medium Platin Container</DisplayName>
             <GuiVisible>false</GuiVisible>
@@ -92,7 +92,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>MediumCargoContainer4x</BlockPairName>
+            <BlockPairName>MediumCargoContainer_Platin</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
