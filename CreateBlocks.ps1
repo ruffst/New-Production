@@ -1,22 +1,11 @@
 $BlockIds = @(
 
-  'LargeBlockCockpitSeat'
-  'SmallBlockCockpit'
-  'DBSmallBlockFighterCockpit'
-  'SmallBlockCockpitIndustrial'
-  'LargeBlockCockpitIndustrial'
-  'LargeBlockCockpit'
-  'CockpitOpen'
-  'OpenCockpitLarge'
-  'OpenCockpitSmall'
-  'RoverCockpit'
-  'BuggyCockpit'
-  'PassengerSeatLarge'
-  'PassengerSeatSmall'
+  'LargeBlockRemoteControl'
+  'SmallBlockRemoteControl'
 
 );
-$Builder = "Cockpit"
-$Freigeschaltet = "Meilenstein_Controls"
+$Builder = "RemoteControl"
+$Freigeschaltet = "Meilenstein_Remote"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->
