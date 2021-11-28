@@ -373,8 +373,64 @@
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>10</PCU>
+            <InventorySize>
+                <X>1</X>
+                <Y>0.5</Y>
+                <Z>0.5</Z>
+            </InventorySize>
             <IsAirTight>true</IsAirTight>
-            </Definition>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">         <!--Basic_Sorter-->
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>Basic_Sorter</SubtypeId>
+            </Id>
+            <DisplayName>Basic Sorter</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorSorterLarge.dds</Icon>
+            <Description>Description_ConveyorSorter</Description>
+            <CubeSize>Large</CubeSize>
+                <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ConveyorSorter.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="40" />
+                <Component Subtype="Construction" Count="100" />
+                <Component Subtype="SmallTube" Count="50" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="InteriorPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorSorterConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorSorterConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorSorterConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Basic Sorter</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+            <PowerInput>0.00025</PowerInput>
+            <InventorySize>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+            </InventorySize>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>25</PCU>      
+            <IsAirTight>true</IsAirTight>
+        </Definition>
 
     <!--1. buildstufe-->
 
@@ -799,7 +855,6 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-                        <!--Freischaltung aller Lampen-->
 
     <!--3. buildstufe-->
 
