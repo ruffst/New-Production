@@ -484,6 +484,71 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockInteriorWall  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockInteriorWall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSciFiWall  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSciFiWall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeInteriorPillar  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeInteriorPillar" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeCoverWall  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeCoverWall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeCoverWallHalf  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeCoverWallHalf" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--FireCover  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="FireCover" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--FireCoverCorner  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="FireCoverCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCylindricalColumn  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockCylindricalColumn" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCylindricalColumn  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockCylindricalColumn" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+
+
 
   <!--Aluminium Panzerung-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armor_Alu  Meilenstein_Armorlight-->
@@ -2452,7 +2517,7 @@
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Blast Furnace  Meilenstein_Industrial-->
-          <Id Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+          <Id Type="MyObjectBuilder_Refinery" Subtype="Blast_Furnace" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
           </UnlockedByGroups>

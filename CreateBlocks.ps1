@@ -1,16 +1,20 @@
 $BlockIds = @(
 
 
-  'LargeBlockFrontLight'
-  'SmallBlockFrontLight'
-  'RotatingLightLarge'
-  'RotatingLightSmall'
-  'OffsetSpotlight'
+  'LargeBlockInteriorWall'
+  'LargeBlockSciFiWall'
+  'LargeInteriorPillar'
+  'LargeCoverWall'
+  'LargeCoverWallHalf'
+  'FireCover'
+  'FireCoverCorner'
+  'LargeBlockCylindricalColumn'
+  'SmallBlockCylindricalColumn'
 
 
 );
-$Builder = "ReflectorLight"
-$Freigeschaltet = "Meilenstein_Lights"
+$Builder = "CubeBlock"
+$Freigeschaltet = "Meilenstein_Armorlight"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->
