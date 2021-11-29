@@ -592,9 +592,15 @@
             <ResearchGroup></ResearchGroup>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
+            <!--
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\AQD_LG_ResearchLab.mwm</Model>
+            -->
+            <Size x="5" y="4" z="11"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Lab1With Pillars.mwm</Model>
+            
             <Components>
                 <Component Subtype="SteelPlate" Count="80" />
                 <Component Subtype="Construction" Count="100" />
@@ -602,6 +608,7 @@
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="SmallTube" Index="0" />
+            <!--
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -610,6 +617,11 @@
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
             </MountPoints>
+            -->
+			<MountPoints>
+				<MountPoint Side="Right" StartX="4.00" StartY="1.00" EndX="5.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="11.00"/>
+			</MountPoints>
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS2.mwm" />
@@ -619,11 +631,11 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>2</InventoryMaxVolume>
+            <InventoryMaxVolume>20</InventoryMaxVolume>
             <InventorySize>
-                <X>1</X>
-                <Y>1</Y>
-                <Z>1</Z>
+                <X>3</X>
+                <Y>3</Y>
+                <Z>3</Z>
             </InventorySize>
             <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
             <OperationalPowerConsumption>0.28</OperationalPowerConsumption>
