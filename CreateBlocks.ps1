@@ -1,25 +1,16 @@
 $BlockIds = @(
 
 
-  'OffroadSuspension3x3'
-  'OffroadSuspension5x5'
-  'OffroadSuspension1x1'
-  'OffroadSmallSuspension3x3'
-  'OffroadSmallSuspension5x5'
-  'OffroadSmallSuspension1x1'
-  'OffroadSuspension3x3mirrored'
-  'OffroadSuspension5x5mirrored'
-  'OffroadSuspension1x1mirrored'
-  'OffroadSmallSuspension3x3mirrored'
-  'OffroadSmallSuspension5x5mirrored'
-  'OffroadSmallSuspension1x1mirrored'
-
-  
+  'LargeBlockFrontLight'
+  'SmallBlockFrontLight'
+  'RotatingLightLarge'
+  'RotatingLightSmall'
+  'OffsetSpotlight'
 
 
 );
-$Builder = "MotorSuspension"
-$Freigeschaltet = "Meilenstein_Räder"
+$Builder = "ReflectorLight"
+$Freigeschaltet = "Meilenstein_Lights"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->
