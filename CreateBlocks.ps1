@@ -1,20 +1,19 @@
 $BlockIds = @(
 
 
-  'LargeBlockInteriorWall'
-  'LargeBlockSciFiWall'
-  'LargeInteriorPillar'
-  'LargeCoverWall'
-  'LargeCoverWallHalf'
-  'FireCover'
-  'FireCoverCorner'
-  'LargeBlockCylindricalColumn'
-  'SmallBlockCylindricalColumn'
+  'LargeBlockDeskCorner'
+  'LargeBlockDesk'
+  'LargeBlockCouch'
+  'LargeBlockCouchCorner'
+  'LargeBlockBathroomOpen'
+  'LargeBlockToilet'
+  'LargeBlockBathroom'
+
 
 
 );
-$Builder = "CubeBlock"
-$Freigeschaltet = "Meilenstein_Armorlight"
+$Builder = "Cockpit"
+$Freigeschaltet = "Meilenstein_Deko2"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->
