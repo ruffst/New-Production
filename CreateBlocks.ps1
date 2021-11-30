@@ -1,19 +1,33 @@
 $BlockIds = @(
 
 
-  'LargeBlockDeskCorner'
-  'LargeBlockDesk'
-  'LargeBlockCouch'
-  'LargeBlockCouchCorner'
-  'LargeBlockBathroomOpen'
-  'LargeBlockToilet'
-  'LargeBlockBathroom'
 
+
+  'LargeGridBeamBlock'
+  'LargeGridBeamBlockSlope'
+  'LargeGridBeamBlockRound'
+  'LargeGridBeamBlockSlope2x1Base'
+  'LargeGridBeamBlockSlope2x1Tip'
+  'LargeGridBeamBlockHalf'
+  'LargeGridBeamBlockHalfSlope'
+  'LargeGridBeamBlockEnd'
+  'LargeGridBeamBlockJunction'
+  'LargeGridBeamBlockTJunction'
+  'SmallGridBeamBlock'
+  'SmallGridBeamBlockSlope'
+  'SmallGridBeamBlockRound'
+  'SmallGridBeamBlockSlope2x1Base'
+  'SmallGridBeamBlockSlope2x1Tip'
+  'SmallGridBeamBlockHalf'
+  'SmallGridBeamBlockHalfSlope'
+  'SmallGridBeamBlockEnd'
+  'SmallGridBeamBlockJunction'
+  'SmallGridBeamBlockTJunction'
 
 
 );
-$Builder = "Cockpit"
-$Freigeschaltet = "Meilenstein_Deko2"
+$Builder = "CubeBlock"
+$Freigeschaltet = "Meilenstein_ArmorDeko"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->
