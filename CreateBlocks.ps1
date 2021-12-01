@@ -3,16 +3,16 @@ $BlockIds = @(
 
 
 
-  'LargeBlockDrill_Titan'
-  'SmallBlockDrill_Titan'
+  'LargeJumpDrive_Titan'
+
 
 
 
 
 
 );
-$Builder = "Drill"
-$Freigeschaltet = "Meilenstein_Tools_Titan"
+$Builder = "JumpDrive"
+$Freigeschaltet = "Meilenstein_Jumpdrive_Titan"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->
