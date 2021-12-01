@@ -290,6 +290,9 @@
             <Description>Description_Refinery</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery_Gold" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery_Platin" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery_Titan" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial_Gold" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial_Platin" />

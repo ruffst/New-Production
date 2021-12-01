@@ -306,6 +306,9 @@
         <string>Reactor/LargeBlockLargeGenerator</string>
         <string>Reactor/LargeBlockSmallGenerator</string>
         <string>Refinery/LargeRefinery</string>
+        <string>Refinery/LargeRefinery_Gold</string>
+        <string>Refinery/LargeRefinery_Platin</string>
+        <string>Refinery/LargeRefinery_Titan</string>
         <string>Refinery/LargeRefineryIndustrial</string>
         <string>Refinery/Blast Furnace</string>
         <string>ReflectorLight/LargeBlockFrontLight</string>
@@ -1313,6 +1316,9 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>Refinery/LargeRefinery</string>
+        <string>Refinery/LargeRefinery_Gold</string>
+        <string>Refinery/LargeRefinery_Platin</string>
+        <string>Refinery/LargeRefinery_Titan</string>
         <string>Refinery/LargeRefineryIndustrial</string>
         <string>Refinery/Blast Furnace</string>
         <string>Refinery/Legierer</string>
