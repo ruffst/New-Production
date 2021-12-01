@@ -83,7 +83,7 @@
       <PCU>10</PCU>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">      <!-- LargeHydrogenTankIndustrial_Gold-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">             <!-- LargeHydrogenTankIndustrial_Gold-->
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankIndustrial_Gold</SubtypeId>
@@ -164,7 +164,7 @@
       <IsAirTight>false</IsAirTight>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">      <!-- LargeHydrogenTankIndustrial_Gold-->
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">            <!-- LargeRefineryIndustrial_Gold-->
       <Id>
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeRefineryIndustrial_Gold</SubtypeId>
@@ -258,7 +258,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- SmallBlockLargeHydrogenThrustIndustrial_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- SmallBlockLargeHydrogenThrustIndustrial_Gold-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial_Gold</SubtypeId>
@@ -357,7 +357,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- SmallBlockSmallHydrogenThrustIndustrial_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- SmallBlockSmallHydrogenThrustIndustrial_Gold-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial_Gold</SubtypeId>
@@ -454,7 +454,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- LargeBlockLargeHydrogenThrustIndustrial_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- LargeBlockLargeHydrogenThrustIndustrial_Gold-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial_Gold</SubtypeId>
@@ -555,7 +555,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- LargeBlockSmallHydrogenThrustIndustrial_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- LargeBlockSmallHydrogenThrustIndustrial_Gold-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial_Gold</SubtypeId>
@@ -735,7 +735,7 @@
       <PCU>10</PCU>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">      <!-- LargeHydrogenTankIndustrial_Platin-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">             <!-- LargeHydrogenTankIndustrial_Platin-->
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankIndustrial_Platin</SubtypeId>
@@ -816,7 +816,7 @@
       <IsAirTight>false</IsAirTight>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">      <!-- LargeRefineryIndustrial_Platin-->
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">            <!-- LargeRefineryIndustrial_Platin-->
       <Id>
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeRefineryIndustrial_Platin</SubtypeId>
@@ -910,7 +910,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- SmallBlockLargeHydrogenThrustIndustrial_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- SmallBlockLargeHydrogenThrustIndustrial_Platin-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial_Platin</SubtypeId>
@@ -1009,7 +1009,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- SmallBlockSmallHydrogenThrustIndustrial_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- SmallBlockSmallHydrogenThrustIndustrial_Platin-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial_Platin</SubtypeId>
@@ -1106,7 +1106,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- LargeBlockLargeHydrogenThrustIndustrial_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- LargeBlockLargeHydrogenThrustIndustrial_Platin-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial_Platin</SubtypeId>
@@ -1207,7 +1207,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- LargeBlockSmallHydrogenThrustIndustrial_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- LargeBlockSmallHydrogenThrustIndustrial_Platin-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial_Platin</SubtypeId>
@@ -1387,7 +1387,7 @@
       <PCU>10</PCU>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">      <!-- LargeHydrogenTankIndustrial_Titan-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">             <!-- LargeHydrogenTankIndustrial_Titan-->
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankIndustrial_Titan</SubtypeId>
@@ -1468,7 +1468,7 @@
       <IsAirTight>false</IsAirTight>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">      <!-- LargeRefineryIndustrial_Titan-->
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">            <!-- LargeRefineryIndustrial_Titan-->
       <Id>
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeRefineryIndustrial_Titan</SubtypeId>
@@ -1562,7 +1562,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- SmallBlockLargeHydrogenThrustIndustrial_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- SmallBlockLargeHydrogenThrustIndustrial_Titan-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial_Titan</SubtypeId>
@@ -1661,7 +1661,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- SmallBlockSmallHydrogenThrustIndustrial_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- SmallBlockSmallHydrogenThrustIndustrial_Titan-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial_Titan</SubtypeId>
@@ -1758,7 +1758,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- LargeBlockLargeHydrogenThrustIndustrial_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- LargeBlockLargeHydrogenThrustIndustrial_Titan-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial_Titan</SubtypeId>
@@ -1859,7 +1859,7 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">      <!-- LargeBlockSmallHydrogenThrustIndustrial_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">              <!-- LargeBlockSmallHydrogenThrustIndustrial_Titan-->
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial_Titan</SubtypeId>

@@ -291,6 +291,9 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial_Gold" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial_Platin" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial_Titan" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
                 <Block Type="MyObjectBuilder_Refinery" Subtype="Legierer" />
             </Blocks>
@@ -429,6 +432,9 @@
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial_Gold" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial_Platin" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial_Titan" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -485,6 +491,10 @@
                 <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer_Platin" />
                 <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer_Titan" />
                 <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer_Titan" />
+
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer_Gold" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer_Platin" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer_Titan" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -645,6 +655,20 @@
                 <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrial_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrial_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial_Gold" />
+
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrial_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrial_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial_Platin" />
+
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrial_Titan" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrial_Titan" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial_Titan" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial_Titan" />
             </Blocks>
         </BlockVariantGroup>
 

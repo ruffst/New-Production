@@ -1145,7 +1145,11 @@
         <string>CargoContainer/SmallBlockSmallContainer_Platin</string>
         <string>CargoContainer/LargeBlockSmallContainer_Titan</string>
         <string>CargoContainer/SmallBlockSmallContainer_Titan</string>
-        
+
+        <string>CargoContainer/LargeBlockLargeIndustrialContainer_Gold</string>
+        <string>CargoContainer/LargeBlockLargeIndustrialContainer_Platin</string>
+        <string>CargoContainer/LargeBlockLargeIndustrialContainer_Titan</string>
+
       </ItemIds>
     </Category>
 
@@ -1721,6 +1725,9 @@
         <string>ButtonPanel/VerticalButtonPanelLarge</string>
         <string>CargoContainer/LargeBlockLargeIndustrialContainer</string>
         <string>OxygenTank/LargeHydrogenTankIndustrial</string>
+        <string>OxygenTank/LargeHydrogenTankIndustrial_Gold</string>
+        <string>OxygenTank/LargeHydrogenTankIndustrial_Platin</string>
+        <string>OxygenTank/LargeHydrogenTankIndustrial_Titan</string>
         <string>Thrust/SmallBlockLargeHydrogenThrustIndustrial</string>
         <string>Thrust/SmallBlockSmallHydrogenThrustIndustrial</string>
         <string>Thrust/LargeBlockLargeHydrogenThrustIndustrial</string>
@@ -1733,6 +1740,9 @@
         <string>ConveyorConnector/LargeBlockConveyorPipeEnd</string>
         <string>Assembler/LargeAssemblerIndustrial</string>
         <string>Refinery/LargeRefineryIndustrial</string>
+        <string>Refinery/LargeRefineryIndustrial_Gold</string>
+        <string>Refinery/LargeRefineryIndustrial_Platin</string>
+        <string>Refinery/LargeRefineryIndustrial_Titan</string>
         <string>CubeBlock/LargeBlockCylindricalColumn</string>
         <string>CubeBlock/SmallBlockCylindricalColumn</string>
         <string>ConveyorSorter/LargeBlockConveyorSorterIndustrial</string>
