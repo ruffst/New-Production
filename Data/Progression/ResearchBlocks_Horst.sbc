@@ -2351,7 +2351,7 @@
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tools  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools" />
       <UnlockedByGroups>
-        <GroupSubtype>Forschung</GroupSubtype>
+        <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
@@ -2434,14 +2434,14 @@
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeShipGrinder_Gold  Meilenstein_Tools_Gold-->
-          <Id Type="MyObjectBuilder__ShipGrinder" Subtype="LargeShipGrinder_Gold" />
+          <Id Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder_Gold" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tools_Gold</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipGrinder_Gold  Meilenstein_Tools_Gold-->
-          <Id Type="MyObjectBuilder__ShipGrinder" Subtype="SmallShipGrinder_Gold" />
+          <Id Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder_Gold" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tools_Gold</GroupSubtype>
           </UnlockedByGroups>
@@ -2484,14 +2484,14 @@
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeShipGrinder_Platin  Meilenstein_Tools_Platin-->
-          <Id Type="MyObjectBuilder__ShipGrinder" Subtype="LargeShipGrinder_Platin" />
+          <Id Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder_Platin" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tools_Platin</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipGrinder_Platin  Meilenstein_Tools_Platin-->
-          <Id Type="MyObjectBuilder__ShipGrinder" Subtype="SmallShipGrinder_Platin" />
+          <Id Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder_Platin" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tools_Platin</GroupSubtype>
           </UnlockedByGroups>
@@ -2534,14 +2534,14 @@
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeShipGrinder_Titan  Meilenstein_Tools_Titan-->
-          <Id Type="MyObjectBuilder__ShipGrinder" Subtype="LargeShipGrinder_Titan" />
+          <Id Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder_Titan" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tools_Titan</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipGrinder_Titan  Meilenstein_Tools_Titan-->
-          <Id Type="MyObjectBuilder__ShipGrinder" Subtype="SmallShipGrinder_Titan" />
+          <Id Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder_Titan" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tools_Titan</GroupSubtype>
           </UnlockedByGroups>
@@ -2551,7 +2551,7 @@
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector" />
       <UnlockedByGroups>
-        <GroupSubtype>Forschung</GroupSubtype>
+        <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
@@ -2576,6 +2576,9 @@
         <GroupSubtype>Meilenstein_OreDetector</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+
+
   <!--Meilenstein_OreDetector_Platin -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Platin  Meilenstein_OreDetector_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Platin" />
@@ -2583,6 +2586,9 @@
         <GroupSubtype>Meilenstein_OreDetector_Gold</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+
+
   <!--Meilenstein_OreDetector_Titan -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Titan  Meilenstein_OreDetector_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Titan" />
@@ -2590,6 +2596,9 @@
         <GroupSubtype>Meilenstein_OreDetector_Platin</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+
+
   <!--Meilenstein_Waffen -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Waffen  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Waffen" />
