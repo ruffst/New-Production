@@ -3,7 +3,7 @@
     <CubeBlocks>
 <!--        Tier Gold-->
     <!--Small Drill-->
-        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">         <!--SmallBlockDrill_Gold-->
             <Id>
                 <TypeId>Drill</TypeId>
                 <SubtypeId>SmallBlockDrill_Gold</SubtypeId>
@@ -79,7 +79,7 @@
 
         </Definition>
     <!--Large Drill-->
-        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">         <!--LargeBlockDrill_Gold-->
             <Id>
                 <TypeId>Drill</TypeId>
                 <SubtypeId>LargeBlockDrill_Gold</SubtypeId>
@@ -160,7 +160,7 @@
 
 <!--        Tier Platin-->
     <!--Small Drill-->
-        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">         <!--SmallBlockDrill_Platin-->
             <Id>
                 <TypeId>Drill</TypeId>
                 <SubtypeId>SmallBlockDrill_Platin</SubtypeId>
@@ -236,7 +236,7 @@
 
         </Definition>
     <!--Large Drill-->
-        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">         <!--LargeBlockDrill_Platin-->
             <Id>
                 <TypeId>Drill</TypeId>
                 <SubtypeId>LargeBlockDrill_Platin</SubtypeId>
@@ -317,7 +317,7 @@
 
 <!--        Tier Titan-->
     <!--Small Drill-->
-        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">         <!--SmallBlockDrill_Titan-->
             <Id>
                 <TypeId>Drill</TypeId>
                 <SubtypeId>SmallBlockDrill_Titan</SubtypeId>
@@ -393,7 +393,7 @@
 
         </Definition>
         <!--Large Drill-->
-        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">         <!--LargeBlockDrill_Titan-->
             <Id>
                 <TypeId>Drill</TypeId>
                 <SubtypeId>LargeBlockDrill_Titan</SubtypeId>
