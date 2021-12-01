@@ -4486,6 +4486,42 @@
         <GroupSubtype>Meilenstein_Cargos</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeContainer_Gold  Meilenstein_Cargos_Gold-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeContainer_Gold  Meilenstein_Cargos_Gold-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockMediumContainer_Gold  Meilenstein_Cargos_Gold-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallContainer_Gold  Meilenstein_Cargos_Gold-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallContainer_Gold  Meilenstein_Cargos_Gold-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Cargos_Platin -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos_Platin  Meilenstein_Cargos_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Platin" />
@@ -4493,6 +4529,42 @@
         <GroupSubtype>Meilenstein_Cargos_Gold</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeContainer_Platin  Meilenstein_Cargos_Platin-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeContainer_Platin  Meilenstein_Cargos_Platin-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockMediumContainer_Platin  Meilenstein_Cargos_Platin-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallContainer_Platin  Meilenstein_Cargos_Platin-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallContainer_Platin  Meilenstein_Cargos_Platin-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Cargos_Titan -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos_Titan  Meilenstein_Cargos_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Titan" />
@@ -4500,6 +4572,42 @@
         <GroupSubtype>Meilenstein_Cargos_Platin</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeContainer_Titan  Meilenstein_Cargos_Titan-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeContainer_Titan  Meilenstein_Cargos_Titan-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockMediumContainer_Titan  Meilenstein_Cargos_Titan-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallContainer_Titan  Meilenstein_Cargos_Titan-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallContainer_Titan  Meilenstein_Cargos_Titan-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Cargos_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Jumpdrive -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive" />

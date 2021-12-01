@@ -467,6 +467,24 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
+
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer_Gold" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer_Gold" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer_Platin" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer_Platin" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer_Titan" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer_Titan" />
+
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer_Gold" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer_Platin" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer_Titan" />
+
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer_Gold" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer_Gold" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer_Platin" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer_Platin" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer_Titan" />
+                <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer_Titan" />
             </Blocks>
         </BlockVariantGroup>
 
