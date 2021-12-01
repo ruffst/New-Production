@@ -3,17 +3,16 @@ $BlockIds = @(
 
 
 
-  'SmallBlockLargeHydrogenThrustIndustrial_Titan'
-  'SmallBlockSmallHydrogenThrustIndustrial_Titan'
-  'LargeBlockLargeHydrogenThrustIndustrial_Titan'
-  'LargeBlockSmallHydrogenThrustIndustrial_Titan'
+  'LargeBlockDrill_Titan'
+  'SmallBlockDrill_Titan'
+
 
 
 
 
 );
-$Builder = "Thrust"
-$Freigeschaltet = "Meilenstein_Thruster_Hydro_Titan"
+$Builder = "Drill"
+$Freigeschaltet = "Meilenstein_Tools_Titan"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->

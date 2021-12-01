@@ -848,6 +848,12 @@
                 <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder" />
                 <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
                 <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill_Gold" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill_Gold" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill_Platin" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill_Platin" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill_Titan" />
+                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill_Titan" />
             </Blocks>
         </BlockVariantGroup>
 
