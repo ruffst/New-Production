@@ -3,8 +3,8 @@ $BlockIds = @(
 
 
 
-  'LargeShipWelder_Titan'
-  'SmallShipWelder_Titan'
+  'LargeShipGrinder_Titan'
+  'SmallShipGrinder_Titan'
 
 
 
@@ -12,7 +12,7 @@ $BlockIds = @(
 
 
 );
-$Builder = "ShipWelder"
+$Builder = "_ShipGrinder"
 $Freigeschaltet = "Meilenstein_Tools_Titan"
 
 $TextBlock = '

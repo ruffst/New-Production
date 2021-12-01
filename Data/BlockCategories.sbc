@@ -319,6 +319,9 @@
         <string>SensorBlock/LargeBlockSensor</string>
         <string>ShipConnector/Connector</string>
         <string>ShipGrinder/LargeShipGrinder</string>
+        <string>ShipGrinder/LargeShipGrinder_Gold</string>
+        <string>ShipGrinder/LargeShipGrinder_Platin</string>
+        <string>ShipGrinder/LargeShipGrinder_Titan</string>
         <string>ShipWelder/LargeShipWelder</string>
         <string>ShipWelder/LargeShipWelder_Gold</string>
         <string>ShipWelder/LargeShipWelder_Platin</string>
@@ -722,6 +725,9 @@
         <string>ShipConnector/ConnectorMedium</string>
         <string>ShipConnector/ConnectorSmall</string>
         <string>ShipGrinder/SmallShipGrinder</string>
+        <string>ShipGrinder/SmallShipGrinder_Gold</string>
+        <string>ShipGrinder/SmallShipGrinder_Platin</string>
+        <string>ShipGrinder/SmallShipGrinder_Titan</string>
         <string>ShipWelder/SmallShipWelder</string>
         <string>ShipWelder/SmallShipWelder_Gold</string>
         <string>ShipWelder/SmallShipWelder_Platin</string>
@@ -1020,6 +1026,9 @@
       <IsToolCategory>true</IsToolCategory>
       <ItemIds>
         <string>ShipGrinder/LargeShipGrinder</string>
+        <string>ShipGrinder/LargeShipGrinder_Gold</string>
+        <string>ShipGrinder/LargeShipGrinder_Platin</string>
+        <string>ShipGrinder/LargeShipGrinder_Titan</string>
         <string>ShipWelder/LargeShipWelder</string>
         <string>ShipWelder/LargeShipWelder_Gold</string>
         <string>ShipWelder/LargeShipWelder_Platin</string>
@@ -1033,6 +1042,9 @@
         <string>Drill/LargeBlockDrill_Titan</string>
         <string>Drill/SmallBlockDrill_Titan</string>
         <string>ShipGrinder/SmallShipGrinder</string>
+        <string>ShipGrinder/SmallShipGrinder_Gold</string>
+        <string>ShipGrinder/SmallShipGrinder_Platin</string>
+        <string>ShipGrinder/SmallShipGrinder_Titan</string>
         <string>ShipWelder/SmallShipWelder</string>
         <string>ShipWelder/SmallShipWelder_Gold</string>
         <string>ShipWelder/SmallShipWelder_Platin</string>

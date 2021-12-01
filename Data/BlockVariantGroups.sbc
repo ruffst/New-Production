@@ -850,6 +850,14 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder" />
                 <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder" />
+
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder_Gold" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder_Gold" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder_Platin" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder_Platin" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder_Titan" />
+                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder_Titan" />
+
                 <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder" />
                 <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder" />
 
