@@ -4837,6 +4837,13 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeJumpDrive_Gold  Meilenstein_Jumpdrive_Gold-->
+          <Id Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Jumpdrive_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Jumpdrive_Platin -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Platin  Meilenstein_Jumpdrive_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Platin" />
@@ -4845,6 +4852,13 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeJumpDrive_Platin  Meilenstein_Jumpdrive_Platin-->
+          <Id Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Jumpdrive_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Jumpdrive_Titan -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Titan  Meilenstein_Jumpdrive_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Titan" />
@@ -4852,6 +4866,13 @@
         <GroupSubtype>Meilenstein_Jumpdrive_Platin</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeJumpDrive_Titan  Meilenstein_Jumpdrive_Titan-->
+          <Id Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Jumpdrive_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Communication -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Communication  Forschung-->
