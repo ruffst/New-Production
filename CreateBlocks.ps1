@@ -3,8 +3,8 @@ $BlockIds = @(
 
 
 
-  'LargeBlockGyro_Titan'
-  'SmallBlockGyro_Titan'
+  'LargeShipWelder_Titan'
+  'SmallShipWelder_Titan'
 
 
 
@@ -12,8 +12,8 @@ $BlockIds = @(
 
 
 );
-$Builder = "Gyro"
-$Freigeschaltet = "Meilenstein_Gyroskop_Titan"
+$Builder = "ShipWelder"
+$Freigeschaltet = "Meilenstein_Tools_Titan"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->

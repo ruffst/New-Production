@@ -263,6 +263,9 @@
         <string>GravityGenerator/(null)</string>
         <string>GravityGeneratorSphere/(null)</string>
         <string>Gyro/LargeBlockGyro</string>
+        <string>Gyro/LargeBlockGyro_Gold</string>
+        <string>Gyro/LargeBlockGyro_Platin</string>
+        <string>Gyro/LargeBlockGyro_Titan</string>
         <string>InteriorLight/SmallLight</string>
         <string>InteriorTurret/LargeInteriorTurret</string>
         <string>LandingGear/LargeBlockLandingGear</string>
@@ -317,6 +320,9 @@
         <string>ShipConnector/Connector</string>
         <string>ShipGrinder/LargeShipGrinder</string>
         <string>ShipWelder/LargeShipWelder</string>
+        <string>ShipWelder/LargeShipWelder_Gold</string>
+        <string>ShipWelder/LargeShipWelder_Platin</string>
+        <string>ShipWelder/LargeShipWelder_Titan</string>
         <string>SmallMissileLauncher/LargeMissileLauncher</string>
         <string>SpaceBall/SpaceBallLarge</string>
         <string>SolarPanel/LargeBlockSolarPanel</string>
@@ -679,6 +685,9 @@
         <string>Decoy/SmallDecoy</string>
         <string>Drill/SmallBlockDrill</string>
         <string>Gyro/SmallBlockGyro</string>
+        <string>Gyro/SmallBlockGyro_Gold</string>
+        <string>Gyro/SmallBlockGyro_Platin</string>
+        <string>Gyro/SmallBlockGyro_Titan</string>
         <string>LandingGear/SmallBlockLandingGear</string>
         <string>LandingGear/SmallBlockMagneticPlate</string>
         <string>LandingGear/SmallBlockSmallMagneticPlate</string>
@@ -714,6 +723,9 @@
         <string>ShipConnector/ConnectorSmall</string>
         <string>ShipGrinder/SmallShipGrinder</string>
         <string>ShipWelder/SmallShipWelder</string>
+        <string>ShipWelder/SmallShipWelder_Gold</string>
+        <string>ShipWelder/SmallShipWelder_Platin</string>
+        <string>ShipWelder/SmallShipWelder_Titan</string>
         <string>SmallGatlingGun/(null)</string>
         <string>SmallMissileLauncher/(null)</string>
         <string>SolarPanel/SmallBlockSolarPanel</string>
@@ -1009,6 +1021,9 @@
       <ItemIds>
         <string>ShipGrinder/LargeShipGrinder</string>
         <string>ShipWelder/LargeShipWelder</string>
+        <string>ShipWelder/LargeShipWelder_Gold</string>
+        <string>ShipWelder/LargeShipWelder_Platin</string>
+        <string>ShipWelder/LargeShipWelder_Titan</string>
         <string>Drill/LargeBlockDrill</string>
         <string>Drill/SmallBlockDrill</string>
         <string>Drill/LargeBlockDrill_Gold</string>
@@ -1019,6 +1034,9 @@
         <string>Drill/SmallBlockDrill_Titan</string>
         <string>ShipGrinder/SmallShipGrinder</string>
         <string>ShipWelder/SmallShipWelder</string>
+        <string>ShipWelder/SmallShipWelder_Gold</string>
+        <string>ShipWelder/SmallShipWelder_Platin</string>
+        <string>ShipWelder/SmallShipWelder_Titan</string>
       </ItemIds>
     </Category>
 

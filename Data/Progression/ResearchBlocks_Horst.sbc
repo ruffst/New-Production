@@ -2419,6 +2419,22 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeShipWelder_Gold  Meilenstein_Tools_Gold-->
+          <Id Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tools_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipWelder_Gold  Meilenstein_Tools_Gold-->
+          <Id Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tools_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+
+
   <!--Meilenstein_Tools_Platin -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tools_Platin  Meilenstein_Tools_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Platin" />
@@ -2441,6 +2457,22 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeShipWelder_Platin  Meilenstein_Tools_Platin-->
+          <Id Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tools_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipWelder_Platin  Meilenstein_Tools_Platin-->
+          <Id Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tools_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+      
+
   <!--Meilenstein_Tools_Titan -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tools_Titan  Meilenstein_Tools_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Titan" />
@@ -2462,6 +2494,22 @@
             <GroupSubtype>Meilenstein_Tools_Titan</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeShipWelder_Titan  Meilenstein_Tools_Titan-->
+          <Id Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tools_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipWelder_Titan  Meilenstein_Tools_Titan-->
+          <Id Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tools_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+
 
   <!--Meilenstein_OreDetector -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector  Forschung-->
