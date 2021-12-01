@@ -617,6 +617,12 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro_Gold" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Gold" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro_Platin" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Platin" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro_Titan" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Titan" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -846,6 +852,14 @@
                 <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder" />
                 <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder" />
                 <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder" />
+
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder_Gold" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder_Gold" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder_Platin" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder_Platin" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder_Titan" />
+                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder_Titan" />
+
                 <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
                 <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill" />
                 <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill_Gold" />
