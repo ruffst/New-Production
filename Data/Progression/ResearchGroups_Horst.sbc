@@ -297,6 +297,27 @@
       </Members>
     </ResearchGroup>
 
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Power_Gold 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Power_Gold" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Gold" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Power_Platin 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Power_Platin" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Platin" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Power_Titan 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Power_Titan" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Titan" />
+      </Members>
+    </ResearchGroup>
+
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Atmo 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Atmo" />
       <Members>

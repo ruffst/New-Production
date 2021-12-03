@@ -3,7 +3,7 @@
     <CubeBlocks>
 <!--        Tier Gold-->
     <!--Small Small Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--SmallBlockSmallThrust_Gold-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockSmallThrust_Gold</SubtypeId>
@@ -100,7 +100,7 @@
         </Definition>
 
         <!--Small Large Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--SmallBlockLargeThrust_Gold-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockLargeThrust_Gold</SubtypeId>
@@ -197,7 +197,7 @@
         </Definition>
 
     <!--Small Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--LargeBlockSmallThrust_Gold-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockSmallThrust_Gold</SubtypeId>
@@ -293,7 +293,7 @@
         </Definition>
 
     <!--Large Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--LargeBlockLargeThrust_Gold-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockLargeThrust_Gold</SubtypeId>
@@ -393,7 +393,7 @@
 
 <!--        Tier Platin-->
     <!--Small Small Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--SmallBlockSmallThrust_Platin-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockSmallThrust_Platin</SubtypeId>
@@ -490,7 +490,7 @@
         </Definition>
 
     <!--Small Large Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--SmallBlockLargeThrust_Platin-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockLargeThrust_Platin</SubtypeId>
@@ -587,7 +587,7 @@
         </Definition>
 
     <!--Small Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--LargeBlockSmallThrust_Platin-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockSmallThrust_Platin</SubtypeId>
@@ -683,7 +683,7 @@
         </Definition>
 
     <!--Large Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--LargeBlockLargeThrust_Platin-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockLargeThrust_Platin</SubtypeId>
@@ -783,7 +783,7 @@
 
 <!--        Tier Titan-->
     <!--Small Small Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--SmallBlockSmallThrust_Titan-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockSmallThrust_Titan</SubtypeId>
@@ -880,7 +880,7 @@
         </Definition>
 
         <!--Small Large Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--SmallBlockLargeThrust_Titan-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockLargeThrust_Titan</SubtypeId>
@@ -977,7 +977,7 @@
         </Definition>
 
         <!--Small Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--LargeBlockSmallThrust_Titan-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockSmallThrust_Titan</SubtypeId>
@@ -1073,7 +1073,7 @@
         </Definition>
 
         <!--Large Thrust-->
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">        <!--LargeBlockLargeThrust_Titan-->
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockLargeThrust_Titan</SubtypeId>

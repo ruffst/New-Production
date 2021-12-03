@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
-        <!--        Tier 2-->
-        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+
+    <!--Tier Gold-->
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">           <!--LargeOreDetector_Gold-->
             <Id>
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LargeOreDetector_Gold</SubtypeId>
@@ -52,7 +53,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>40</PCU>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">           <!--SmallBlockOreDetector_Gold-->
             <Id>
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>SmallBlockOreDetector_Gold</SubtypeId>
@@ -102,8 +103,8 @@
             <PCU>40</PCU>
         </Definition>
 
-        <!--        Tier 4-->
-        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    <!--Tier Platin-->
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">           <!--LargeOreDetector_Platin-->
             <Id>
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LargeOreDetector_Platin</SubtypeId>
@@ -153,7 +154,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>40</PCU>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">           <!--SmallBlockOreDetector_Platin-->
             <Id>
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>SmallBlockOreDetector_Platin</SubtypeId>
@@ -203,8 +204,8 @@
             <PCU>40</PCU>
         </Definition>
 
-        <!--        Tier 8-->
-        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    <!--Tier Titan-->
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">           <!--LargeOreDetector_Titan-->
             <Id>
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>LargeOreDetector_Titan</SubtypeId>
@@ -254,7 +255,7 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>40</PCU>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">           <!--SmallBlockOreDetector_Titan-->
             <Id>
                 <TypeId>OreDetector</TypeId>
                 <SubtypeId>SmallBlockOreDetector_Titan</SubtypeId>

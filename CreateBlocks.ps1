@@ -3,17 +3,15 @@ $BlockIds = @(
 
 
 
-  'LargeShipGrinder_Titan'
-  'SmallShipGrinder_Titan'
-
-
-
-
+  'LargeHydrogenTank_Titan'
+  'LargeHydrogenTankSmall_Titan'
+  'SmallHydrogenTank_Titan'
+  'SmallHydrogenTankSmall_Titan'
 
 
 );
-$Builder = "_ShipGrinder"
-$Freigeschaltet = "Meilenstein_Tools_Titan"
+$Builder = "OxygenTank"
+$Freigeschaltet = "Meilenstein_Tanks_Titan"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->

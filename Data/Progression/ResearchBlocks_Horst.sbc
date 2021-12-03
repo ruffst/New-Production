@@ -2577,7 +2577,19 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeOreDetector_Gold  Meilenstein_OreDetector_Gold-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_OreDetector_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockOreDetector_Gold  Meilenstein_OreDetector_Gold-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_OreDetector_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_OreDetector_Platin -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Platin  Meilenstein_OreDetector_Gold-->
@@ -2587,7 +2599,19 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeOreDetector_Platin  Meilenstein_OreDetector_Platin-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_OreDetector_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockOreDetector_Platin  Meilenstein_OreDetector_Platin-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_OreDetector_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_OreDetector_Titan -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Titan  Meilenstein_OreDetector_Platin-->
@@ -2597,7 +2621,19 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeOreDetector_Titan  Meilenstein_OreDetector_Titan-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_OreDetector_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockOreDetector_Titan  Meilenstein_OreDetector_Titan-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_OreDetector_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Waffen -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Waffen  Forschung-->
@@ -3479,6 +3515,155 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Power_Gold -->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power_Gold  Meilenstein_Power-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Gold" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Power</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallGenerator_Gold  Meilenstein_Power_Gold-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeGenerator_Gold  Meilenstein_Power_Gold-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallGenerator_Gold  Meilenstein_Power_Gold-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeGenerator_Gold  Meilenstein_Power_Gold-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Gold  Meilenstein_Power_Gold-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockBatteryBlock_Gold  Meilenstein_Power_Gold-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Power_Platin -->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power_Platin  Meilenstein_Power_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Platin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallGenerator_Platin  Meilenstein_Power_Platin-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeGenerator_Platin  Meilenstein_Power_Platin-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallGenerator_Platin  Meilenstein_Power_Platin-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeGenerator_Platin  Meilenstein_Power_Platin-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Platin  Meilenstein_Power_Platin-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockBatteryBlock_Platin  Meilenstein_Power_Platin-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Power_Titan -->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power_Titan  Meilenstein_Power_Platin-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Titan" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallGenerator_Titan  Meilenstein_Power_Titan-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeGenerator_Titan  Meilenstein_Power_Titan-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallGenerator_Titan  Meilenstein_Power_Titan-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeGenerator_Titan  Meilenstein_Power_Titan-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Titan  Meilenstein_Power_Titan-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockBatteryBlock_Titan  Meilenstein_Power_Titan-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Lights -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Lights  Forschung-->
@@ -3955,6 +4140,62 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallThrust_Gold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeThrust_Gold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallThrust_Gold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrust_Gold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallThrustSciFi_Gold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeThrustSciFi_Gold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallThrustSciFi_Gold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrustSciFi_Gold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Thruster_Ionen_Platin -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen_Platin  Meilenstein_Thruster_Ionen_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Platin" />
@@ -3963,6 +4204,62 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallThrust_Platin  Meilenstein_Thruster_Ionen_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeThrust_Platin  Meilenstein_Thruster_Ionen_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallThrust_Platin  Meilenstein_Thruster_Ionen_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrust_Platin  Meilenstein_Thruster_Ionen_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallThrustSciFi_Platin  Meilenstein_Thruster_Ionen_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeThrustSciFi_Platin  Meilenstein_Thruster_Ionen_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallThrustSciFi_Platin  Meilenstein_Thruster_Ionen_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrustSciFi_Platin  Meilenstein_Thruster_Ionen_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Thruster_Ionen_Titan -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen_Titan  Meilenstein_Thruster_Ionen_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Titan" />
@@ -3970,6 +4267,62 @@
         <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallThrust_Titan  Meilenstein_Thruster_Ionen_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeThrust_Titan  Meilenstein_Thruster_Ionen_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallThrust_Titan  Meilenstein_Thruster_Ionen_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrust_Titan  Meilenstein_Thruster_Ionen_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallThrustSciFi_Titan  Meilenstein_Thruster_Ionen_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeThrustSciFi_Titan  Meilenstein_Thruster_Ionen_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallThrustSciFi_Titan  Meilenstein_Thruster_Ionen_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrustSciFi_Titan  Meilenstein_Thruster_Ionen_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_LCDs -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_LCDs  Forschung-->
@@ -5237,6 +5590,34 @@
           </UnlockedByGroups>
         </ResearchBlock> 
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTank_Gold  Meilenstein_Tanks_Gold-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankSmall_Gold  Meilenstein_Tanks_Gold-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTank_Gold  Meilenstein_Tanks_Gold-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTankSmall_Gold  Meilenstein_Tanks_Gold-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Tanks_Platin -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Platin  Meilenstein_Tanks_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Platin" />
@@ -5251,6 +5632,34 @@
             <GroupSubtype>Meilenstein_Tanks_Platin</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock> 
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTank_Platin  Meilenstein_Tanks_Platin-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankSmall_Platin  Meilenstein_Tanks_Platin-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTank_Platin  Meilenstein_Tanks_Platin-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTankSmall_Platin  Meilenstein_Tanks_Platin-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Tanks_Titan -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Titan  Meilenstein_Tanks_Platin-->
@@ -5267,7 +5676,33 @@
           </UnlockedByGroups>
         </ResearchBlock> 
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTank_Titan  Meilenstein_Tanks_Titan-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankSmall_Titan  Meilenstein_Tanks_Titan-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTank_Titan  Meilenstein_Tanks_Titan-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTankSmall_Titan  Meilenstein_Tanks_Titan-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
 
 

@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <CubeBlocks>
-<!--        Tier Gold-->
- 
-    <!--Small Battery-->
-        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+
+    <!--Tier Gold-->
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">          <!--SmallBlockBatteryBlock_Gold-->
             <Id>
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>SmallBlockBatteryBlock_Gold</SubtypeId>
@@ -65,8 +64,7 @@
             <MirroringY>Z</MirroringY>
 
         </Definition>
-    <!--Large Battery-->
-        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">          <!--LargeBlockBatteryBlock_Gold-->
             <Id>
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LargeBlockBatteryBlock_Gold</SubtypeId>
@@ -130,10 +128,8 @@
 
         </Definition>
 
-<!--        Tier Platin-->
- 
-    <!--Small Battery-->
-        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+    <!--Tier Platin-->
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">          <!--SmallBlockBatteryBlock_Platin-->
             <Id>
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>SmallBlockBatteryBlock_Platin</SubtypeId>
@@ -194,8 +190,7 @@
             <MirroringY>Z</MirroringY>
 
         </Definition>
-    <!--Large Battery-->
-        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">          <!--LargeBlockBatteryBlock_Platin-->
             <Id>
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LargeBlockBatteryBlock_Platin</SubtypeId>
@@ -259,9 +254,8 @@
 
         </Definition>
 
-<!--        Tier Titan-->
-    <!--Small Battery-->
-        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+    <!--Tier Titan-->
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">          <!--SmallBlockBatteryBlock_Titan-->
             <Id>
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>SmallBlockBatteryBlock_Titan</SubtypeId>
@@ -322,8 +316,7 @@
             <MirroringY>Z</MirroringY>
 
         </Definition>
-        <!--Large Battery-->
-        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">          <!--LargeBlockBatteryBlock_Titan-->
             <Id>
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LargeBlockBatteryBlock_Titan</SubtypeId>
