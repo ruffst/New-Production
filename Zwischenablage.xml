@@ -1,35 +1,27 @@
+               
 
 
 
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfSlopeArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopeCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopedCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfSlopeArmorBlock" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopeCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfCorner" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopedCorner" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorInvCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorInvCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopeCornerInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopeInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorInvCorner2Base" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorInvCorner2Tip" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopeCornerInverted" />
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopeInverted" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorRoundSlope" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorRoundCorner" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorRoundCornerInv" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorRoundSlope" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorRoundCorner" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorRoundCornerInv" />
+
+OxygenTank
+
+
+            <string>OxygenTank/LargeHydrogenTank_Gold</string>
+            <string>OxygenTank/LargeHydrogenTankSmall_Gold</string>
+            <string>OxygenTank/SmallHydrogenTank_Gold</string>
+            <string>OxygenTank/SmallHydrogenTankSmall_Gold</string>
+
+
+            LargeOreDetector_Gold
+            SmallBlockOreDetector_Gold
+            LargeOreDetector_Platin
+            SmallBlockOreDetector_Platin
+            LargeOreDetector_Titan
+            SmallBlockOreDetector_Titan
+
+
+
+
+
+
+

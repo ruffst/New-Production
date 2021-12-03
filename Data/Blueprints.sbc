@@ -388,7 +388,7 @@
         <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="1" TypeId="Ingot" SubtypeId="Aluminium" />
       </Prerequisites>
-      <Result Amount="4" TypeId="Ingot" SubtypeId="Iron" />
+      <Result Amount="4" TypeId="Ingot" SubtypeId="Nickel3Alu" />
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
