@@ -88,7 +88,7 @@
         <Y>0.07</Y>
         <Z>0.07</Z>
       </Size>
-      <Mass>1</Mass>
+      <Mass>5</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
@@ -409,7 +409,7 @@
         <Y>0.072</Y>
         <Z>0.072</Z>
       </Size>
-      <Mass>1</Mass>
+      <Mass>0.3</Mass>
       <Volume>0.052</Volume>
       <Model>Models\Ingots\platinum_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
@@ -499,8 +499,8 @@
         <Y>0.072</Y>
         <Z>0.072</Z>
       </Size>
-      <Mass>1</Mass>
-      <Volume>0.052</Volume>
+      <Mass>5</Mass>
+      <Volume>0.5</Volume>
       <Model>Models\Ingots\platinum_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Pb</IconSymbol>
@@ -517,8 +517,8 @@
         <Y>0.072</Y>
         <Z>0.072</Z>
       </Size>
-      <Mass>1</Mass>
-      <Volume>0.052</Volume>
+      <Mass>2</Mass>
+      <Volume>0.12</Volume>
       <Model>Models\Ingots\potassium_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Li</IconSymbol>
@@ -536,7 +536,7 @@
         <Z>0.072</Z>
       </Size>
       <Mass>1</Mass>
-      <Volume>0.052</Volume>
+      <Volume>0.025</Volume>
       <Model>Models\Ingots\generic_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>PVC</IconSymbol>
@@ -589,8 +589,8 @@
         <Y>0.072</Y>
         <Z>0.072</Z>
       </Size>
-      <Mass>1</Mass>
-      <Volume>0.052</Volume>
+      <Mass>3</Mass>
+      <Volume>0.52</Volume>
       <Model>Models\Ingots\cobalt_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Nd</IconSymbol>

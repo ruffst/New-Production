@@ -12,8 +12,8 @@
       <DisplayName>Meilenstein Material Armor</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_armor.dds</Icon>
       <Prerequisites>
-        <Item Amount="1650" TypeId="Component" SubtypeId="SteelPlate" />
-        <Item Amount="1200" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="165" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="120" TypeId="Component" SubtypeId="Construction" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneArmorMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -26,8 +26,8 @@
       <DisplayName>Meilenstein Material Energie</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_energy.dds</Icon>
       <Prerequisites>
-        <Item Amount="850" TypeId="Component" SubtypeId="PowerCell" />
-        <Item Amount="1650" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="85" TypeId="Component" SubtypeId="PowerCell" />
+        <Item Amount="165" TypeId="Component" SubtypeId="SmallTube" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneEnergyMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -40,9 +40,9 @@
       <DisplayName>Meilenstein Material Mechanik</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_mech.dds</Icon>
       <Prerequisites>
-        <Item Amount="850" TypeId="Component" SubtypeId="Motor" />
-        <Item Amount="1650" TypeId="Component" SubtypeId="MetalGrid" />
-        <Item Amount="1950" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="85" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="165" TypeId="Component" SubtypeId="MetalGrid" />
+        <Item Amount="195" TypeId="Component" SubtypeId="Construction" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneMechanicMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -55,9 +55,9 @@
       <DisplayName>Meilenstein Material Elektrotechnik</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_electro.dds</Icon>
       <Prerequisites>
-        <Item Amount="850" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="1650" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="650" TypeId="Component" SubtypeId="PCB-Platine" />
+        <Item Amount="85" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="165" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="65" TypeId="Component" SubtypeId="PCB-Platine" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneElectroMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -70,9 +70,9 @@
       <DisplayName>Meilenstein Material Raumfahrt</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_space.dds</Icon>
       <Prerequisites>
-        <Item Amount="850" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="350" TypeId="Component" SubtypeId="Superconductor" />
-        <Item Amount="350" TypeId="Component" SubtypeId="GravityGenerator" />
+        <Item Amount="85" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="35" TypeId="Component" SubtypeId="Superconductor" />
+        <Item Amount="35" TypeId="Component" SubtypeId="GravityGenerator" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneSpaceMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -85,9 +85,9 @@
       <DisplayName>Meilenstein Material Lagerung</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_armor.dds</Icon>
       <Prerequisites>
-        <Item Amount="850" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="1650" TypeId="Component" SubtypeId="MetalGrid" />
-        <Item Amount="1950" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="85" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="165" TypeId="Component" SubtypeId="MetalGrid" />
+        <Item Amount="195" TypeId="Component" SubtypeId="Construction" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneCargoMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
@@ -149,7 +149,7 @@
       </Prerequisites>
         <Results>
           <Item Amount="1" TypeId="Ingot" SubtypeId="Plastic" />
-          <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+          <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
           <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
           <Item Amount="0.5" TypeId="Ingot" SubtypeId="Copper" />
         </Results>
@@ -323,7 +323,7 @@
         <Item Amount="2.4" TypeId="Ingot" SubtypeId="Copper" />
 
       </Results>
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--StoneIngotToOxyge-->      <!--New-->
       <Id>
@@ -336,7 +336,7 @@
         <Item Amount="1000" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
-        <Item Amount="6" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Lithium" />
         <Item Amount="3" TypeId="Ingot" SubtypeId="Neodymium" />
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -418,7 +418,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="Iron" />
       </Prerequisites>
       <Result Amount="0.7" TypeId="Ingot" SubtypeId="Iron" />
-      <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
     <Blueprint>      <!--NickelOreToIngot-->
@@ -432,7 +432,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="Nickel" />
       </Prerequisites>
       <Result Amount="0.4" TypeId="Ingot" SubtypeId="Nickel" />
-      <BaseProductionTimeInSeconds>0.66</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--CobaltOreToIngot-->
       <Id>
@@ -445,7 +445,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="Cobalt" />
       </Prerequisites>
       <Result Amount="0.3" TypeId="Ingot" SubtypeId="Cobalt" />
-      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--MagnesiumOreToIngot-->
       <Id>
@@ -458,7 +458,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="Magnesium" />
       </Prerequisites>
       <Result Amount="0.007" TypeId="Ingot" SubtypeId="Magnesium" />
-      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>0.8</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--SiliconOreToIngot-->
       <Id>
@@ -497,7 +497,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="Gold" />
       </Prerequisites>
       <Result Amount="0.01" TypeId="Ingot" SubtypeId="Gold" />
-      <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--PlatinumOreToIngot-->
       <Id>
@@ -509,8 +509,8 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Platinum" />
       </Prerequisites>
-      <Result Amount="0.005" TypeId="Ingot" SubtypeId="Platinum" />
-      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+      <Result Amount="0.05" TypeId="Ingot" SubtypeId="Platinum" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--UraniumOreToIngot-->
       <Id>
@@ -523,7 +523,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="Uranium" />
       </Prerequisites>
       <Result Amount="0.01" TypeId="Ingot" SubtypeId="Uranium" />
-      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--CopperOreToIngot-->      <!--New-->
       <Id>
@@ -539,7 +539,7 @@
         <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
         <Item Amount="4" TypeId="Ingot" SubtypeId="Copper" />
       </Results>
-      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!-- AluminumOreToIngot -->      <!--New-->
       <Id>
@@ -553,9 +553,9 @@
       </Prerequisites>
       <Results>
         <Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="5" TypeId="Ingot" SubtypeId="Aluminium" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Aluminium" />
       </Results>					
-      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!-- LeadOreToIngot -->      <!--New-->
       <Id>
@@ -571,7 +571,7 @@
         <Item Amount="60" TypeId="Ingot" SubtypeId="Stone" />
         <Item Amount="40" TypeId="Ingot" SubtypeId="Lead" />
       </Results>
-      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
 
 <!--Ice und Flaschen-->
@@ -753,7 +753,7 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--Golddraht-->      <!--New-->
       <Id>
@@ -767,7 +767,7 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Golddraht" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--Platindraht-->      <!--New-->
       <Id>
@@ -781,7 +781,7 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Platindraht" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--Titandraht-->      <!--New-->
       <Id>
@@ -791,11 +791,11 @@
       <DisplayName>Titandraht</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_wire.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Titanium" />
-        <Item Amount="2" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Titandraht" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--Superconductor ()-->      <!--New-->
       <Id>
@@ -819,11 +819,11 @@
       <DisplayName>Kupfer Spule</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_coil.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="KupferSpulle" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--GoldSpulle-->      <!--New-->
       <Id>
@@ -833,11 +833,11 @@
       <DisplayName>Gold Spule</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_coil.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Golddraht" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GoldSpulle" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--PlatinSpulle-->      <!--New-->
       <Id>
@@ -847,11 +847,11 @@
       <DisplayName>Platin Spule</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_coil.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Platindraht" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PlatinSpulle" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--TitanSpulle-->      <!--New-->
       <Id>
@@ -861,11 +861,11 @@
       <DisplayName>Titan Spule</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_coil.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Titanium" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Titandraht" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="TitanSpulle" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--KupferStrator-->      <!--New-->
       <Id>
@@ -876,11 +876,11 @@
       <Icon>Textures\GUI\Icons\component\copper_strator.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
-        <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="4" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="6" TypeId="Component" SubtypeId="KupferSpulle" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--GoldStrator-->      <!--New-->
       <Id>
@@ -892,11 +892,11 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
-        <Item Amount="20" TypeId="Component" SubtypeId="Golddraht" />
-        <Item Amount="4" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="6" TypeId="Component" SubtypeId="GoldSpulle" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GoldStrator" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--PlatinStrator-->      <!--New-->
       <Id>
@@ -908,11 +908,11 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="GoldStrator" />
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
-        <Item Amount="20" TypeId="Component" SubtypeId="Platindraht" />
-        <Item Amount="4" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="6" TypeId="Component" SubtypeId="PlatinSpulle" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--TitanStrator-->      <!--New-->
       <Id>
@@ -924,25 +924,25 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
-        <Item Amount="20" TypeId="Component" SubtypeId="Titandraht" />
-        <Item Amount="4" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="6" TypeId="Component" SubtypeId="TitanSpulle" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Cobalt" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="TitanStrator" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!--PCB-Platine-->      <!--New-->
+    <Blueprint>      <!--PCB_Platine-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>PCB-Platine</SubtypeId>
+        <SubtypeId>PCB_Platine</SubtypeId>
       </Id>
-      <DisplayName>PCB-Platine</DisplayName>
+      <DisplayName>PCB Platine</DisplayName>
       <Icon>Textures\GUI\Icons\component\pcb.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="2" TypeId="Ingot" SubtypeId="Plastic" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <Result Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--SMD-->      <!--New-->
       <Id>
@@ -952,12 +952,12 @@
       <DisplayName>SMD Computerchips</DisplayName>
       <Icon>Textures\GUI\Icons\component\chips.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="SMD" />
-      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+      <Result Amount="7" TypeId="Component" SubtypeId="SMD" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--Rotor-->      <!--New-->
       <Id>
@@ -1042,7 +1042,11 @@
       <DisplayName>Monitor</DisplayName>
       <Icon>Textures\GUI\Icons\component\display.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1" TypeId="Component" SubtypeId="BulletproofGlass" />
+        <Item Amount="2" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Display" />
@@ -1074,7 +1078,7 @@
         <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
         <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
         <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -1090,9 +1094,9 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="PlatinComputer" />
         <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="20" TypeId="Component" SubtypeId="Titandraht" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="TitanComputer" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -1108,9 +1112,9 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Computer" />
         <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="20" TypeId="Component" SubtypeId="Golddraht" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GoldComputer" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -1126,9 +1130,9 @@
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="GoldComputer" />
         <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="20" TypeId="Component" SubtypeId="Platindraht" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PlatinComputer" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -1142,8 +1146,11 @@
       <DisplayName>Kupfer Reaktor</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_reactor.dds</Icon>
       <Prerequisites>
-        <Item Amount="15" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="5" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bleiplatte" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="5" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Silver" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Reactor" />
@@ -1157,10 +1164,11 @@
       <DisplayName>Kupfer Triebwerk</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_thruster.dds</Icon>
       <Prerequisites>
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="0.4" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="20" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="20" TypeId="Component" SubtypeId="ConstructionComponent" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Thrust" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -1173,10 +1181,12 @@
       <DisplayName>Kupfer Gravi-Generator</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_gravity.dds</Icon>
       <Prerequisites>
-        <Item Amount="5" TypeId="Ingot" SubtypeId="Silver" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="220" TypeId="Ingot" SubtypeId="Cobalt" />
-        <Item Amount="600" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="2" TypeId="Component" SubtypeId="KupferComputer" />
+        <Item Amount="6" TypeId="Component" SubtypeId="KupferSpulle" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GravityGenerator" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
@@ -1205,8 +1215,10 @@
       <DisplayName>Kommunikationskomponente</DisplayName>
       <Icon>Textures\GUI\Icons\component\radio.dds</Icon>
       <Prerequisites>
-        <Item Amount="8" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="8" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="3" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="3" TypeId="Component" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="RadioCommunication" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -1220,8 +1232,10 @@
       <DisplayName>Detektorkomponente</DisplayName>
       <Icon>Textures\GUI\Icons\component\detector.dds</Icon>
       <Prerequisites>
-        <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="15" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="3" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="15" TypeId="Component" SubtypeId="Nickel" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Detector" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -1280,9 +1294,12 @@
       <DisplayName>Batteriezelle</DisplayName>
       <Icon>Textures\GUI\Icons\component\energy_cell.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="2" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="20" TypeId="Component" SubtypeId="ConstructionComponent" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PowerCell" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>

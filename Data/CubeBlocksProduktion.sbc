@@ -267,12 +267,6 @@
                         <SubtypeId>Scrap</SubtypeId>
                     </DeconstructId>
                 </Component>
-                <Component Subtype="PowerCell" Count="20">
-                    <DeconstructId>
-                        <TypeId>Ore</TypeId>
-                        <SubtypeId>BatteryScrap</SubtypeId>
-                    </DeconstructId>
-                </Component>
                 <Component Subtype="Construction" Count="20">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
@@ -297,7 +291,7 @@
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
             <ResourceSourceGroup>Battery</ResourceSourceGroup>
-            <MaxPowerOutput>2</MaxPowerOutput>
+            <MaxPowerOutput>1</MaxPowerOutput>
 
             <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
             <RequiredPowerInput>0.6</RequiredPowerInput>
@@ -336,15 +330,10 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
             <Components>
-                <Component Subtype="InteriorPlate" Count="30" />
-                <Component Subtype="Construction" Count="35" />
-                <Component Subtype="MetalGrid" Count="4" />
+                <Component Subtype="SteelPlate" Count="35" />
+                <Component Subtype="Construction" Count="20" />
                 <Component Subtype="SmallTube" Count="20" />
-                <Component Subtype="Motor" Count="4" />
-                <Component Subtype="Display" Count="1" />
-                <Component Subtype="Computer" Count="2" />
-                <Component Subtype="Construction" Count="5" />
-                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -392,13 +381,10 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\ConveyorSorter.mwm</Model>
             <Components>
-                <Component Subtype="InteriorPlate" Count="40" />
-                <Component Subtype="Construction" Count="100" />
-                <Component Subtype="SmallTube" Count="50" />
-                <Component Subtype="Computer" Count="20" />
-                <Component Subtype="Motor" Count="2" />
-                <Component Subtype="Construction" Count="20" />
-                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="SmallTube" Count="20" />
+                <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Motor" Index="0" />
             <BuildProgressModels>
@@ -593,8 +579,8 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="80" />
-                <Component Subtype="Construction" Count="100" />
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="30" />
                 <Component Subtype="SmallTube" Count="50" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
@@ -733,7 +719,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="120" />
                 <Component Subtype="Construction" Count="80" />
-                <Component Subtype="Kupferdraht" Count="50" />
+                <Component Subtype="Kupferdraht" Count="60" />
                 <Component Subtype="SmallTube" Count="10" />
                 <Component Subtype="LargeTube" Count="10" />
                 <Component Subtype="MetalGrid" Count="160" />
@@ -1032,12 +1018,14 @@
 			<Model>Models\Lab1With Pillars.mwm</Model>
             
             <Components>
-                <Component Subtype="SteelPlate" Count="80" />
-                <Component Subtype="Construction" Count="100" />
-                <Component Subtype="SmallTube" Count="50" />
-                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlate" Count="300" />
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="ComputerComponent" Count="100" />
+                <Component Subtype="MotorComponent" Count="100" />
+                <Component Subtype="Display" Count="20" />
+                <Component Subtype="SteelPlate" Count="100" />
             </Components>
-            <CriticalComponent Subtype="SmallTube" Index="0" />
+            <CriticalComponent Subtype="Display" Index="0" />
             <!--
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1061,7 +1049,7 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSinkGroup>Factory</ResourceSinkGroup>
-            <InventoryMaxVolume>20</InventoryMaxVolume>
+            <InventoryMaxVolume>40</InventoryMaxVolume>
             <InventorySize>
                 <X>3</X>
                 <Y>3</Y>
@@ -1072,7 +1060,7 @@
             <BlueprintClasses>
                 <Class>Meilensteine</Class>
             </BlueprintClasses>
-            <AssemblySpeed>0.7</AssemblySpeed>
+            <AssemblySpeed>1</AssemblySpeed>
             <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
             <DamagedSound>ParticleHeavyMech</DamagedSound>
             <PrimarySound>BlockResearchLab</PrimarySound>
@@ -1107,7 +1095,7 @@
                 <Component Subtype="Motor" Count="20" />
                 <Component Subtype="Display" Count="10" />
                 <Component Subtype="MetalGrid" Count="10" />
-                <Component Subtype="Computer" Count="160" />
+                <Component Subtype="Computer" Count="16" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
@@ -1175,6 +1163,8 @@
                 <Component Subtype="SteelPlate" Count="100" />
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="Motor" Count="10" />
+                <Component Subtype="KupferSpulle" Count="20" />
+                <Component Subtype="Display" Count="10" />
                 <Component Subtype="Computer" Count="10" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>

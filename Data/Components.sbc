@@ -842,7 +842,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--KupferComputer-->            <!--New Items-->
+        <Component>            <!--GoldComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldComputer</SubtypeId>
@@ -870,7 +870,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--KupferComputer-->            <!--New Items-->
+        <Component>            <!--PlatinComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinComputer</SubtypeId>
@@ -898,7 +898,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--KupferComputer-->            <!--New Items-->
+        <Component>            <!--TitanComputer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanComputer</SubtypeId>
@@ -954,12 +954,12 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--PCB-Platine-->            <!--New-->
+        <Component>            <!--PCB_Platine-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
-                <SubtypeId>PCB-Platine</SubtypeId>
+                <SubtypeId>PCB_Platine</SubtypeId>
             </Id>
-            <DisplayName>PCB-Platine</DisplayName>
+            <DisplayName>PCB Platine</DisplayName>
             <Icon>Textures\GUI\Icons\component\pcb.dds</Icon>
             <Size>
                 <X>0.1</X>
@@ -1037,7 +1037,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Reactor-->
+        <Component>            <!--GoldReactor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldReactor</SubtypeId>
@@ -1065,7 +1065,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Reactor-->
+        <Component>            <!--PlatinReactor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinReactor</SubtypeId>
@@ -1093,7 +1093,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Reactor-->
+        <Component>            <!--TitanReactor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanReactor</SubtypeId>
@@ -1149,7 +1149,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Thrust-->
+        <Component>            <!--GoldThrust-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldThrust</SubtypeId>
@@ -1177,7 +1177,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Thrust-->
+        <Component>            <!--PlatinThrust-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinThrust</SubtypeId>
@@ -1205,7 +1205,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Thrust-->
+        <Component>            <!--TitanThrust-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanThrust</SubtypeId>
@@ -1261,7 +1261,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--GravityGenerator-->
+        <Component>            <!--GoldGravityGenerator-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldGravityGenerator</SubtypeId>
@@ -1289,7 +1289,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--GravityGenerator-->
+        <Component>            <!--PlatinGravityGenerator-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinGravityGenerator</SubtypeId>
@@ -1317,7 +1317,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--GravityGenerator-->
+        <Component>            <!--TitanGravityGenerator-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanGravityGenerator</SubtypeId>
@@ -1570,7 +1570,6 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-
         <Component>            <!--Milestone Energy-->
             <Id>
                 <TypeId>Component</TypeId>
