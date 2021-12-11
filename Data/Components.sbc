@@ -282,7 +282,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Motor-->
+        <Component>            <!--GoldMotor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldMotor</SubtypeId>
@@ -310,7 +310,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Motor-->
+        <Component>            <!--TitanMotor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanMotor</SubtypeId>
@@ -338,7 +338,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Motor-->
+        <Component>            <!--PlatinMotor-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinMotor</SubtypeId>
@@ -366,7 +366,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Strator-->            <!--New-->
+        <Component>            <!--KupferStrator-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>KupferStrator</SubtypeId>
@@ -394,7 +394,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Strator-->            <!--New-->
+        <Component>            <!--GoldStrator-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldStrator</SubtypeId>
@@ -422,7 +422,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Strator-->            <!--New-->
+        <Component>            <!--PlatinStrator-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinStrator</SubtypeId>
@@ -450,7 +450,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Strator-->            <!--New-->
+        <Component>            <!--TitanStrator-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanStrator</SubtypeId>
@@ -478,7 +478,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--KupferRotor-->            <!--New-->
+        <Component>            <!--Rotor-->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Rotor</SubtypeId>
@@ -646,7 +646,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Titandraht (Superconductor)-->            <!--New-->
+        <Component>            <!--Titandraht -->            <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Titandraht</SubtypeId>
@@ -814,7 +814,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--KupferComputer-->            <!--New Items-->
+        <Component>            <!--Computer-->            <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Computer</SubtypeId>
@@ -1682,7 +1682,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Milestone Raumfahrt-->
+        <Component>            <!--Milestone Cargo-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>MilestoneCargoMaterial</SubtypeId>
