@@ -82,11 +82,6 @@
                 <Component Subtype="SteelPlate" Count="30"/>
                 <Component Subtype="Construction" Count="15"/>
                 <Component Subtype="PowerCell" Count="120">
-                    <DeconstructId>
-                        <TypeId>Ore</TypeId>
-                        <SubtypeId>Scrap</SubtypeId>
-                    </DeconstructId>
-                </Component>
                 <Component Subtype="Computer" Count="38"/>
                 <Component Subtype="Construction" Count="30"/>
                 <Component Subtype="SteelPlate" Count="90"/>
@@ -254,7 +249,7 @@
 
         </Definition>
 
-    <!--Tier Titan-->
+    <!--Tier Titan-->    
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">          <!--SmallBlockBatteryBlock_Titan-->
             <Id>
                 <TypeId>BatteryBlock</TypeId>
