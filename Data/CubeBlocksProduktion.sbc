@@ -263,7 +263,7 @@
                         <SubtypeId>Scrap</SubtypeId>
                     </DeconstructId>
                 </Component>
-                <Component Subtype="Construction" Count="20">
+                <Component Subtype="SmallTube" Count="20">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
@@ -276,7 +276,7 @@
                     </DeconstructId>
                 </Component>
             </Components>
-            <CriticalComponent Subtype="Construction" Index="0" />
+            <CriticalComponent Subtype="SmallTube" Index="0" />
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -2030,6 +2030,5 @@
             </TieredUpdateTimes>
 
         </Definition>
-
     </CubeBlocks>
 </Definitions>
