@@ -397,7 +397,6 @@
       <Model>Models\Cubes\Large\MotorRotor.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <!-- top part  cost is not balance-only issue,  rotor "overtravel" issue  when rotation limits are set is reduced by adding more weight into top part -->
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="LargeTube" Count="6" />
       </Components>
@@ -492,7 +491,6 @@
       <Model>Models\Cubes\Small\MotorRotor.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <!-- top part  cost is not balance-only issue, rotor "overtravel" issue when rotation limits are set is reduced by adding more weight into top part -->
         <Component Subtype="SteelPlate" Count="12" />
         <Component Subtype="SmallTube" Count="6" />
       </Components>
