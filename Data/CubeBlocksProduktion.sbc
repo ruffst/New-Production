@@ -4,7 +4,7 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
 
-        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">            <!--SurvivalKitLarge-->
+        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">                  <!--SurvivalKitLarge-->
             <Id>
                 <TypeId>SurvivalKit</TypeId>
                 <SubtypeId>SurvivalKitLarge</SubtypeId>
@@ -79,7 +79,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">            <!--SurvivalKitSmall-->
+        <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">                  <!--SurvivalKitSmall-->
             <Id>
                 <TypeId>SurvivalKit</TypeId>
                 <SubtypeId>SurvivalKit</SubtypeId>
@@ -153,7 +153,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">            <!--Holzvergaser-->
+        <Definition xsi:type="MyObjectBuilder_ReactorDefinition">                      <!--Holzvergaser-->
             <Id>
                 <TypeId>Reactor</TypeId>
                 <SubtypeId>Holzvergaser</SubtypeId>
@@ -243,7 +243,7 @@
                 <unsignedInt>3600</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">            <!--Basic_Battery-->
+        <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">                 <!--Basic_Battery-->
             <Id>
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>Basic_Battery</SubtypeId>
@@ -312,7 +312,7 @@
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">            <!--Basic_Cargo-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">               <!--Basic_Cargo-->
             <Id>
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>Basic_Cargo</SubtypeId>
@@ -362,7 +362,7 @@
             </InventorySize>
             <IsAirTight>true</IsAirTight>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">            <!--Basic_Sorter-->
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">               <!--Basic_Sorter-->
             <Id>
                 <TypeId>ConveyorSorter</TypeId>
                 <SubtypeId>Basic_Sorter</SubtypeId>
@@ -410,11 +410,8 @@
             <PCU>25</PCU>
             <IsAirTight>true</IsAirTight>
         </Definition>
-
-
         <!--1. buildstufe-->
-
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--Rohrextruder-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--Rohrextruder-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Rohrextruder</SubtypeId>
@@ -482,7 +479,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--Plattenpresse-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--Plattenpresse-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Plattenpresse</SubtypeId>
@@ -560,7 +557,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--BasicAssembler-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--BasicAssembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>BasicAssembler</SubtypeId>
@@ -625,11 +622,8 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-
-
         <!--2. buildstufe-->
-
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--Drahtextruder-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--Drahtextruder-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Drahtextruder</SubtypeId>
@@ -699,7 +693,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--Wickelmaschine-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--Wickelmaschine-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Wickelmaschine</SubtypeId>
@@ -770,10 +764,8 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-
         <!--3. buildstufe-->
-
-        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">            <!--Block_Arc_Furnace-->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">                     <!--Block_Arc_Furnace-->
             <Id>
                 <TypeId>Refinery</TypeId>
                 <SubtypeId>Blast_Furnace</SubtypeId>
@@ -846,7 +838,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--Recycler-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--Recycler-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Recycler</SubtypeId>
@@ -921,7 +913,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--Elektro_Assembler-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--Elektro_Assembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Elektro_Assembler</SubtypeId>
@@ -991,10 +983,8 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-
         <!--4. buildstufe-->
-
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--Forschungslabor-->            
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Forschungslabor</SubtypeId>
@@ -1051,8 +1041,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition> 
-
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--Fertiger-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--Fertiger-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Fertiger</SubtypeId>
@@ -1122,7 +1111,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">            <!--Legierer (Blast_Furnace)-->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">                     <!--Legierer (Blast_Furnace)-->
             <Id>
                 <TypeId>Refinery</TypeId>
                 <SubtypeId>Legierer</SubtypeId>
@@ -1199,7 +1188,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--VerbrauchsmaterialAssembler-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--VerbrauchsmaterialAssembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>VerbrauchsmaterialAssembler</SubtypeId>
@@ -1269,8 +1258,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-
-        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">            <!--LargeRefinery-->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">                     <!--LargeRefinery-->
             <Id>
                 <TypeId>Refinery</TypeId>
                 <SubtypeId>LargeRefinery</SubtypeId>
@@ -1284,10 +1272,11 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\Refinery.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="1100" />
-                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="1000" />
+                <Component Subtype="Construction" Count="400" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="Motor" Count="16" />
+                <Component Subtype="KupferSpulle" Count="80" />
                 <Component Subtype="MetalGrid" Count="20" />
                 <Component Subtype="Computer" Count="20" />
                 <Component Subtype="SteelPlate" Count="100" />
@@ -1345,7 +1334,7 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">            <!--LargeRefineryIndustrial-->
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">                     <!--LargeRefineryIndustrial-->
             <Id>
                 <TypeId>Refinery</TypeId>
                 <SubtypeId>LargeRefineryIndustrial</SubtypeId>
@@ -1359,10 +1348,11 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\AdvancedRefinery.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="1100" />
-                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="1000" />
+                <Component Subtype="Construction" Count="400" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="Motor" Count="16" />
+                <Component Subtype="KupferSpulle" Count="80" />
                 <Component Subtype="MetalGrid" Count="20" />
                 <Component Subtype="Computer" Count="20" />
                 <Component Subtype="SteelPlate" Count="100" />
@@ -1438,7 +1428,7 @@
             </TieredUpdateTimes>
             <DLC>HeavyIndustry</DLC>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--LargeAssemblerIndustrial-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--LargeAssemblerIndustrial-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssemblerIndustrial</SubtypeId>
@@ -1515,9 +1505,8 @@
             </TieredUpdateTimes>
             <DLC>HeavyIndustry</DLC>
         </Definition>
-
         <!--oxygen-->
-        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">            <!--OxygenGeneratorLarge-->
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">              <!--OxygenGeneratorLarge-->
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId></SubtypeId>
@@ -1535,6 +1524,7 @@
                 <Component Subtype="Construction" Count="5" />
                 <Component Subtype="LargeTube" Count="2" />
                 <Component Subtype="Motor" Count="4" />
+                <Component Subtype="KupferSpulle" Count="10" />
                 <Component Subtype="Computer" Count="5" />
                 <Component Subtype="SteelPlate" Count="10" />
             </Components>
@@ -1611,7 +1601,7 @@
                 <unsignedInt>1200</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">            <!--OxygenGeneratorSmall-->
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">              <!--OxygenGeneratorSmall-->
             <Id>
                 <TypeId>OxygenGenerator</TypeId>
                 <SubtypeId>OxygenGeneratorSmall</SubtypeId>
@@ -1630,6 +1620,7 @@
                 <Component Subtype="Construction" Count="8" />
                 <Component Subtype="LargeTube" Count="2" />
                 <Component Subtype="Motor" Count="1" />
+                <Component Subtype="KupferSpulle" Count="2" />
                 <Component Subtype="Computer" Count="3" />
                 <Component Subtype="SteelPlate" Count="2" />
             </Components>
@@ -1714,7 +1705,7 @@
                 <unsignedInt>1200</unsignedInt>
             </TieredUpdateTimes>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">            <!--LargeBlockOxygenFarm-->
+        <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">                   <!--LargeBlockOxygenFarm-->
             <Id>
                 <TypeId>OxygenFarm</TypeId>
                 <SubtypeId>LargeBlockOxygenFarm</SubtypeId>
@@ -1769,7 +1760,7 @@
                     <TypeId>GasProperties</TypeId>
                     <SubtypeId>Oxygen</SubtypeId>
                 </Id>
-                <MaxOutputPerSecond>0.03</MaxOutputPerSecond>
+                <MaxOutputPerSecond>0.3</MaxOutputPerSecond>
             </ProducedGas>
             <OperationalPowerConsumption>0.02</OperationalPowerConsumption>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
@@ -1779,9 +1770,8 @@
             <DestroySound>WepSmallWarheadExpl</DestroySound>
             <PCU>25</PCU>
         </Definition>
-
         <!-- module -->
-        <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">            <!--LargeProductivityModule-->
+        <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">                <!--LargeProductivityModule-->
             <Id>
                 <TypeId>UpgradeModule</TypeId>
                 <SubtypeId>LargeProductivityModule</SubtypeId>
@@ -1800,6 +1790,7 @@
                 <Component Subtype="SmallTube" Count="20" />
                 <Component Subtype="Computer" Count="60" />
                 <Component Subtype="Motor" Count="4" />
+                <Component Subtype="KupferSpulle" Count="5" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Motor" Index="0" />
@@ -1836,7 +1827,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">            <!--LargeEffectivenessModule-->
+        <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">                <!--LargeEffectivenessModule-->
             <Id>
                 <TypeId>UpgradeModule</TypeId>
                 <SubtypeId>LargeEffectivenessModule</SubtypeId>
@@ -1892,7 +1883,7 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">            <!--LargeEnergyModule-->
+        <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">                <!--LargeEnergyModule-->
             <Id>
                 <TypeId>UpgradeModule</TypeId>
                 <SubtypeId>LargeEnergyModule</SubtypeId>
@@ -1948,9 +1939,8 @@
             <PCU>1</PCU>
             <IsAirTight>false</IsAirTight>
         </Definition>
-
         <!-- Castrated Assembler-->
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--LargeAssembler-->
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">                    <!--LargeAssembler-->
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler</SubtypeId>
