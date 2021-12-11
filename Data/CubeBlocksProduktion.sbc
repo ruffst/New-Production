@@ -267,7 +267,7 @@
                         <SubtypeId>Scrap</SubtypeId>
                     </DeconstructId>
                 </Component>
-                <Component Subtype="Construction" Count="20">
+                <Component Subtype="SmallTube" Count="20">
                     <DeconstructId>
                         <TypeId>Ore</TypeId>
                         <SubtypeId>Scrap</SubtypeId>
@@ -280,7 +280,7 @@
                     </DeconstructId>
                 </Component>
             </Components>
-            <CriticalComponent Subtype="PowerCell" Index="0" />
+            <CriticalComponent Subtype="SmallTube" Index="0" />
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -335,7 +335,7 @@
                 <Component Subtype="SmallTube" Count="20" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="SmallTube" Index="0" />
             <MountPoints>
                 <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -386,7 +386,7 @@
                 <Component Subtype="SmallTube" Count="20" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="Motor" Index="0" />
+            <CriticalComponent Subtype="SmallTube" Index="0" />
             <BuildProgressModels>
                 <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorSorterConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorSorterConstruction_2.mwm" />
@@ -797,7 +797,7 @@
                 <Component Subtype="KupferSpulle" Count="80" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="KupferSpulle" Index="0" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
             <MountPoints>
@@ -870,7 +870,7 @@
                 <Component Subtype="BulletproofGlass" Count="50" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1.1" />
                 <MountPoint Side="Front" StartX="0" StartY="1.1" EndX="1" EndY="2" />
@@ -946,7 +946,7 @@
                 <Component Subtype="BulletproofGlass" Count="50" />
                 <Component Subtype="SteelPlate" Count="20" />
             </Components>
-            <CriticalComponent Subtype="Computer" Index="0" />
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
