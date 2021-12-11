@@ -312,10 +312,8 @@
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
 
-
     </BlueprintClasses>
     <BlueprintClassEntries>
-
         <!--Meilensteine-->
             <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneArmorMaterialBP" />
             <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneEnergyMaterialBP" />
