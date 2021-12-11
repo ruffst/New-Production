@@ -16,8 +16,18 @@
       <ModelOffset x="0" y="-4" z="0" />
       <Model>Models\Environment\Props\Monolith.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="130" />
-        <Component Subtype="Superconductor" Count="130" />
+        <Component Subtype="SteelPlate" Count="130">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Superconductor" Count="130">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Superconductor" Index="0" />
       <EdgeType>Light</EdgeType>
@@ -30,7 +40,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -46,8 +55,18 @@
       <ModelOffset x="0" y="-4" z="0" />
       <Model>Models\Environment\Props\Stereolith.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="130" />
-        <Component Subtype="Superconductor" Count="130" />
+        <Component Subtype="SteelPlate" Count="130">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Superconductor" Count="130">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Superconductor" Index="0" />
       <EdgeType>Light</EdgeType>
@@ -60,7 +79,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -76,8 +94,18 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Debris\dead_astronaut.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="13" />
-        <Component Subtype="Superconductor" Count="13" />
+        <Component Subtype="SteelPlate" Count="13">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Superconductor" Count="13">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Superconductor" Index="0" />
       <EdgeType>Light</EdgeType>
@@ -89,7 +117,6 @@
       <PhysicsOption>None</PhysicsOption>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -105,8 +132,18 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Debris\dead_astronaut.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="13" />
-        <Component Subtype="Superconductor" Count="13" />
+        <Component Subtype="SteelPlate" Count="13">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Superconductor" Count="13">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Superconductor" Index="0" />
       <EdgeType>Light</EdgeType>
@@ -117,6 +154,6 @@
       </InventorySize>
       <PhysicsOption>None</PhysicsOption>
       <IsAirTight>false</IsAirTight>
-    </Definition>  	
+    </Definition>
   </CubeBlocks>
 </Definitions>

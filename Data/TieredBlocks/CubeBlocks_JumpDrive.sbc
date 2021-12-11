@@ -1,184 +1,297 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <CubeBlocks>
-
+  <CubeBlocks>
 <!--        Tier Gold-->
-        <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">        <!--LargeJumpDrive_Gold-->
-            <Id>
-                <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LargeJumpDrive_Gold</SubtypeId>
-            </Id>
-            <DisplayName>Gold Jump Drive</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\JumpDrive_Gold.dds</Icon>
-            <Description>Description_JumpDrive</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
-            <Components>
-                <Component Subtype="SteelPlate" Count="60"/>
-                <Component Subtype="MetalGrid" Count="75"/>
-                <Component Subtype="GravityGenerator" Count="30"/>
-                <Component Subtype="Detector" Count="30"/>
-                <Component Subtype="PowerCell" Count="180"/>
-                <Component Subtype="Superconductor" Count="1500"/>
-                <Component Subtype="Computer" Count="450"/>
-                <Component Subtype="Construction" Count="60"/>
-                <Component Subtype="SteelPlate" Count="30"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0"/>
-            <MountPoints>
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3"/>
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3"/>
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3"/>
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3"/>
-                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <BlockPairName>JumpDrive_Gold</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>180</BuildTimeSeconds>
-            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-            <DamagedSound>ParticleWeapExpl</DamagedSound>
-
-            <ResourceSinkGroup>Charging</ResourceSinkGroup>
-            <RequiredPowerInput>64</RequiredPowerInput>
-            <PowerNeededForJump>6</PowerNeededForJump>
-
-            <MaxJumpDistance>3500000</MaxJumpDistance>
-            <MaxJumpMass>2187500</MaxJumpMass>
-            <EmissiveColorPreset>Extended</EmissiveColorPreset>
-            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-            <DestroySound>WepLrgWarheadExpl</DestroySound>
-            <PCU>100</PCU>
-            <IsAirTight>true</IsAirTight>
-        </Definition>
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition"><!--LargeJumpDrive_Gold-->
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeJumpDrive_Gold</SubtypeId>
+      </Id>
+      <DisplayName>Gold Jump Drive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive_Gold.dds</Icon>
+      <Description>Description_JumpDrive</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="75">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="GravityGenerator" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Detector" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="PowerCell" Count="180" />
+        <Component Subtype="Superconductor" Count="1500">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="450">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>JumpDrive_Gold</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>180</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>64</RequiredPowerInput>
+      <PowerNeededForJump>6</PowerNeededForJump>
+      <MaxJumpDistance>3500000</MaxJumpDistance>
+      <MaxJumpMass>2187500</MaxJumpMass>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
 <!--        Tier Platin-->
-        <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">        <!--LargeJumpDrive_Platin-->
-            <Id>
-                <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LargeJumpDrive_Platin</SubtypeId>
-            </Id>
-            <DisplayName>Platin Jump Drive</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\JumpDrive_Platin.dds</Icon>
-            <Description>Description_JumpDrive</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
-            <Components>
-                <Component Subtype="SteelPlate" Count="90"/>
-                <Component Subtype="MetalGrid" Count="113"/>
-                <Component Subtype="GravityGenerator" Count="45"/>
-                <Component Subtype="Detector" Count="45"/>
-                <Component Subtype="PowerCell" Count="270"/>
-                <Component Subtype="Superconductor" Count="2250"/>
-                <Component Subtype="Computer" Count="675"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="SteelPlate" Count="45"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0"/>
-            <MountPoints>
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3"/>
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3"/>
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3"/>
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3"/>
-                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <BlockPairName>JumpDrive_Platin</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>270</BuildTimeSeconds>
-            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-            <DamagedSound>ParticleWeapExpl</DamagedSound>
-
-            <ResourceSinkGroup>Charging</ResourceSinkGroup>
-            <RequiredPowerInput>128</RequiredPowerInput>
-            <PowerNeededForJump>12</PowerNeededForJump>
-
-            <MaxJumpDistance>6125000</MaxJumpDistance>
-            <MaxJumpMass>3828125</MaxJumpMass>
-            <EmissiveColorPreset>Extended</EmissiveColorPreset>
-            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-            <DestroySound>WepLrgWarheadExpl</DestroySound>
-            <PCU>100</PCU>
-            <IsAirTight>true</IsAirTight>
-        </Definition>
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition"><!--LargeJumpDrive_Platin-->
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeJumpDrive_Platin</SubtypeId>
+      </Id>
+      <DisplayName>Platin Jump Drive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive_Platin.dds</Icon>
+      <Description>Description_JumpDrive</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="90">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="113">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="GravityGenerator" Count="45">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Detector" Count="45">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="PowerCell" Count="270" />
+        <Component Subtype="Superconductor" Count="2250">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="675">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="90">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="45">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>JumpDrive_Platin</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>270</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>128</RequiredPowerInput>
+      <PowerNeededForJump>12</PowerNeededForJump>
+      <MaxJumpDistance>6125000</MaxJumpDistance>
+      <MaxJumpMass>3828125</MaxJumpMass>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
 <!--        Tier Titan-->
-    <!--Large Jump Drive-->
-        <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">        <!--LargeJumpDrive_Titan-->
-            <Id>
-                <TypeId>JumpDrive</TypeId>
-                <SubtypeId>LargeJumpDrive_Titan</SubtypeId>
-            </Id>
-            <DisplayName>Titan Jump Drive</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\JumpDrive_Titan.dds</Icon>
-            <Description>Description_JumpDrive</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
-            <Components>
-                <Component Subtype="SteelPlate" Count="135"/>
-                <Component Subtype="MetalGrid" Count="169"/>
-                <Component Subtype="GravityGenerator" Count="68"/>
-                <Component Subtype="Detector" Count="68"/>
-                <Component Subtype="PowerCell" Count="405"/>
-                <Component Subtype="Superconductor" Count="3375"/>
-                <Component Subtype="Computer" Count="1013"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="SteelPlate" Count="68"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0"/>
-            <MountPoints>
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3"/>
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3"/>
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3"/>
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3"/>
-                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <BlockPairName>JumpDrive_Titan</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>405</BuildTimeSeconds>
-            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-            <DamagedSound>ParticleWeapExpl</DamagedSound>
-
-            <ResourceSinkGroup>Charging</ResourceSinkGroup>
-            <RequiredPowerInput>256</RequiredPowerInput>
-            <PowerNeededForJump>24</PowerNeededForJump>
-
-            <MaxJumpDistance>10718750</MaxJumpDistance>
-            <MaxJumpMass>6699218</MaxJumpMass>
-            <EmissiveColorPreset>Extended</EmissiveColorPreset>
-            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-            <DestroySound>WepLrgWarheadExpl</DestroySound>
-            <PCU>100</PCU>
-            <IsAirTight>true</IsAirTight>
-        </Definition>
-    </CubeBlocks>
+<!--Large Jump Drive-->
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition"><!--LargeJumpDrive_Titan-->
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeJumpDrive_Titan</SubtypeId>
+      </Id>
+      <DisplayName>Titan Jump Drive</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive_Titan.dds</Icon>
+      <Description>Description_JumpDrive</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="135">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="169">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="GravityGenerator" Count="68">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Detector" Count="68">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="PowerCell" Count="405" />
+        <Component Subtype="Superconductor" Count="3375">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1013">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="135">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="68">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>JumpDrive_Titan</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>405</BuildTimeSeconds>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>256</RequiredPowerInput>
+      <PowerNeededForJump>24</PowerNeededForJump>
+      <MaxJumpDistance>10718750</MaxJumpDistance>
+      <MaxJumpMass>6699218</MaxJumpMass>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+  </CubeBlocks>
 </Definitions>

@@ -1,421 +1,629 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <CubeBlocks>
+  <CubeBlocks>
 <!--        Tier Gold-->
-    <!--Small Grinder-->
-        <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
-            <Id>
-                <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>SmallShipGrinder_Gold</SubtypeId>
-            </Id>
-            <DisplayName>Gold Grinder</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\Grinder_Gold.dds</Icon>
-            <Description>Description_ShipGrinder</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="1" y="1" z="3"/>
-            <Model>Models\Cubes\Small\Grinder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="SteelPlate" Count="15"/>
-                <Component Subtype="Construction" Count="23"/>
-                <Component Subtype="SmallTube" Count="6"/>
-                <Component Subtype="Motor" Count="6"/>
-                <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="Construction" Count="3"/>
-                <Component Subtype="SteelPlate" Count="3"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5"/>
-                <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5"/>
-                <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5"/>
-                <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8"/>
-                <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true"/>
-                <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75"/>
-            </MountPoints>
-            <BlockPairName>ShipGrinder_Gold</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>27</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <Flare></Flare>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>2.6250</SensorRadius>
-            <PCU>100</PCU>
-            <IsAirTight>false</IsAirTight>
-
-        </Definition>
-    <!--Large Grinder-->
-        <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
-            <Id>
-                <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>LargeShipGrinder_Gold</SubtypeId>
-            </Id>
-            <DisplayName>Gold Grinder</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\Grinder_Gold.dds</Icon>
-            <Description>Description_ShipGrinder</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="0" y="0" z="1"/>
-            <Model>Models\Cubes\Large\Grinder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="SteelPlate" Count="23"/>
-                <Component Subtype="Construction" Count="38"/>
-                <Component Subtype="LargeTube" Count="2"/>
-                <Component Subtype="Motor" Count="6"/>
-                <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="Construction" Count="8"/>
-                <Component Subtype="SteelPlate" Count="8"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80"/>
-                <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80"/>
-                <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70"/>
-                <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipGrinder_Gold</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>36</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <Flare></Flare>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>3.5000</SensorRadius>
-            <PCU>100</PCU>
-
-        </Definition>
-
+<!--Small Grinder-->
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>SmallShipGrinder_Gold</SubtypeId>
+      </Id>
+      <DisplayName>Gold Grinder</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder_Gold.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="23">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <BlockPairName>ShipGrinder_Gold</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>27</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare>
+      </Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>2.6250</SensorRadius>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+<!--Large Grinder-->
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>LargeShipGrinder_Gold</SubtypeId>
+      </Id>
+      <DisplayName>Gold Grinder</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder_Gold.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="23">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="38">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>ShipGrinder_Gold</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>36</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare>
+      </Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>3.5000</SensorRadius>
+      <PCU>100</PCU>
+    </Definition>
 <!--        Tier Platin-->
-    <!--Small Grinder-->
-        <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
-            <Id>
-                <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>SmallShipGrinder_Platin</SubtypeId>
-            </Id>
-            <DisplayName>Platin Grinder</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\Grinder_Platin.dds</Icon>
-            <Description>Description_ShipGrinder</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="1" y="1" z="3"/>
-            <Model>Models\Cubes\Small\Grinder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="SteelPlate" Count="23"/>
-                <Component Subtype="Construction" Count="34"/>
-                <Component Subtype="SmallTube" Count="9"/>
-                <Component Subtype="Motor" Count="9"/>
-                <Component Subtype="Computer" Count="5"/>
-                <Component Subtype="Construction" Count="5"/>
-                <Component Subtype="SteelPlate" Count="5"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5"/>
-                <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5"/>
-                <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5"/>
-                <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8"/>
-                <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true"/>
-                <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75"/>
-            </MountPoints>
-            <BlockPairName>ShipGrinder_Platin</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>41</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <Flare></Flare>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>4.5938</SensorRadius>
-            <PCU>100</PCU>
-            <IsAirTight>false</IsAirTight>
-
-        </Definition>
-    <!--Large Grinder-->
-        <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
-            <Id>
-                <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>LargeShipGrinder_Platin</SubtypeId>
-            </Id>
-            <DisplayName>Platin Grinder</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\Grinder_Platin.dds</Icon>
-            <Description>Description_ShipGrinder</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="0" y="0" z="1"/>
-            <Model>Models\Cubes\Large\Grinder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="57"/>
-                <Component Subtype="LargeTube" Count="3"/>
-                <Component Subtype="Motor" Count="9"/>
-                <Component Subtype="Computer" Count="5"/>
-                <Component Subtype="Construction" Count="12"/>
-                <Component Subtype="SteelPlate" Count="12"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80"/>
-                <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80"/>
-                <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70"/>
-                <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipGrinder_Platin</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>54</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <Flare></Flare>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>6.1250</SensorRadius>
-            <PCU>100</PCU>
-
-        </Definition>
-
+<!--Small Grinder-->
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>SmallShipGrinder_Platin</SubtypeId>
+      </Id>
+      <DisplayName>Platin Grinder</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder_Platin.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="23">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="34">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="9">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="9">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <BlockPairName>ShipGrinder_Platin</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>41</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare>
+      </Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>4.5938</SensorRadius>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+<!--Large Grinder-->
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>LargeShipGrinder_Platin</SubtypeId>
+      </Id>
+      <DisplayName>Platin Grinder</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder_Platin.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="34">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="57">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="9">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>ShipGrinder_Platin</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>54</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare>
+      </Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>6.1250</SensorRadius>
+      <PCU>100</PCU>
+    </Definition>
 <!--        Tier Titan-->
-    <!--Small Grinder-->
-        <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
-            <Id>
-                <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>SmallShipGrinder_Titan</SubtypeId>
-            </Id>
-            <DisplayName>Titan Grinder</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\Grinder_Titan.dds</Icon>
-            <Description>Description_ShipGrinder</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="1" y="1" z="3"/>
-            <Model>Models\Cubes\Small\Grinder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="51"/>
-                <Component Subtype="SmallTube" Count="14"/>
-                <Component Subtype="Motor" Count="14"/>
-                <Component Subtype="Computer" Count="7"/>
-                <Component Subtype="Construction" Count="7"/>
-                <Component Subtype="SteelPlate" Count="7"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5"/>
-                <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5"/>
-                <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5"/>
-                <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8"/>
-                <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true"/>
-                <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75"/>
-            </MountPoints>
-            <BlockPairName>ShipGrinder_Titan</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>61</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <Flare></Flare>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>8.0391</SensorRadius>
-            <PCU>100</PCU>
-            <IsAirTight>false</IsAirTight>
-
-        </Definition>
-    <!--Large Grinder-->
-        <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
-            <Id>
-                <TypeId>ShipGrinder</TypeId>
-                <SubtypeId>LargeShipGrinder_Titan</SubtypeId>
-            </Id>
-            <DisplayName>Titan Grinder</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\Grinder_Titan.dds</Icon>
-            <Description>Description_ShipGrinder</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="0" y="0" z="1"/>
-            <Model>Models\Cubes\Large\Grinder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="SteelPlate" Count="51"/>
-                <Component Subtype="Construction" Count="85"/>
-                <Component Subtype="LargeTube" Count="4"/>
-                <Component Subtype="Motor" Count="14"/>
-                <Component Subtype="Computer" Count="7"/>
-                <Component Subtype="Construction" Count="17"/>
-                <Component Subtype="SteelPlate" Count="17"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80"/>
-                <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80"/>
-                <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70"/>
-                <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipGrinder_Titan</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>81</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <Flare></Flare>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>10.7188</SensorRadius>
-            <PCU>100</PCU>
-
-        </Definition>
-    </CubeBlocks>
+<!--Small Grinder-->
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>SmallShipGrinder_Titan</SubtypeId>
+      </Id>
+      <DisplayName>Titan Grinder</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder_Titan.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="6" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="1" y="1" z="3" />
+      <Model>Models\Cubes\Small\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="34">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="51">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="14">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="14">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="7">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="7">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="7">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\GrinderConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" Default="true" />
+        <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <BlockPairName>ShipGrinder_Titan</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>61</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare>
+      </Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>8.0391</SensorRadius>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+<!--Large Grinder-->
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>LargeShipGrinder_Titan</SubtypeId>
+      </Id>
+      <DisplayName>Titan Grinder</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder_Titan.dds</Icon>
+      <Description>Description_ShipGrinder</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Center x="0" y="0" z="1" />
+      <Model>Models\Cubes\Large\Grinder.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="51">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="85">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="14">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="7">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="17">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="17">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GrinderConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GrinderConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GrinderConstruction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80" />
+        <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70" />
+        <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BlockPairName>ShipGrinder_Titan</BlockPairName>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>81</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <Flare>
+      </Flare>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <SensorRadius>10.7188</SensorRadius>
+      <PCU>100</PCU>
+    </Definition>
+  </CubeBlocks>
 </Definitions>

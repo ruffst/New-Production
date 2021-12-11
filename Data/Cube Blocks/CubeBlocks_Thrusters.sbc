@@ -11,7 +11,7 @@
       <Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
@@ -19,12 +19,42 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="Thrust" Count="1" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Thrust" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Thrust" Index="0" />
       <MountPoints>
@@ -56,18 +86,15 @@
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>14400</ForceMagnitude>
       <MaxPowerConsumption>0.200</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
-
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
       <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
-
       <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
       <FlameDamage>0.1</FlameDamage>
       <FlameLengthScale>1.4</FlameLengthScale>
@@ -94,11 +121,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -116,12 +143,42 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="LargeTube" Count="5" />
-        <Component Subtype="Thrust" Count="12" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Thrust" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Thrust" Index="0" />
       <MountPoints>
@@ -154,18 +211,15 @@
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>172800</ForceMagnitude>
       <MaxPowerConsumption>2.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
-
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
       <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
-
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameDamage>0.2</FlameDamage>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -192,11 +246,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -207,7 +261,7 @@
       <Icon>Textures\GUI\Icons\Cubes\thrust.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
@@ -215,12 +269,42 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
-        <Component Subtype="Thrust" Count="80" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Thrust" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Thrust" Index="0" />
       <MountPoints>
@@ -253,18 +337,15 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
-
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>345600</ForceMagnitude>
       <MaxPowerConsumption>3.36</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
-
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
       <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
-
       <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
       <FlameLengthScale>1.5</FlameLengthScale>
       <FlameIdleColor>
@@ -290,11 +371,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -312,12 +393,42 @@
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="70" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Thrust" Count="960" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="SteelPlate" Count="100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="70">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Thrust" Count="960">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Thrust" Index="0" />
       <MountPoints>
@@ -353,18 +464,15 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>90</BuildTimeSeconds>
-
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>4320000</ForceMagnitude>
       <MaxPowerConsumption>33.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
-
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
       <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
-
       <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
@@ -390,13 +498,12 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
-
     <!--HydrogenThrusters-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -414,19 +521,49 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="150" />
-        <Component Subtype="MetalGrid" Count="250" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="SteelPlate" Count="100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="150">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="250">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <Center x="1" y="1" z="2" />
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true"/>
-        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" Default="true"/>
-        <MountPoint Side="Back" StartX="1" StartY="2" EndX="2" EndY="3" Default="true"/>
+        <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
+        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" Default="true" />
+        <MountPoint Side="Back" StartX="1" StartY="2" EndX="2" EndY="3" Default="true" />
         <MountPoint Side="Right" StartX="0" StartY="1" EndX="1" EndY="2" />
         <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="3" />
         <MountPoint Side="Left" StartX="2" StartY="1" EndX="3" EndY="2" />
@@ -493,11 +630,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -508,7 +645,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -516,12 +653,42 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="40" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="LargeTube" Count="8" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -593,11 +760,11 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -615,19 +782,49 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="MetalGrid" Count="22" />
-        <Component Subtype="LargeTube" Count="10" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="22">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <Center x="1" y="1" z="2" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
-        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" Default="true"/>
-        <MountPoint Side="Back" StartX="1" StartY="2" EndX="2" EndY="3" Default="true"/>
+        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1" Default="true" />
+        <MountPoint Side="Back" StartX="1" StartY="2" EndX="2" EndY="3" Default="true" />
         <MountPoint Side="Right" StartX="0" StartY="1" EndX="1" EndY="2" />
         <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="3" />
         <MountPoint Side="Left" StartX="2" StartY="1" EndX="3" EndY="2" />
@@ -693,11 +890,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -708,7 +905,7 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -716,16 +913,46 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -793,14 +1020,13 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <!--HydrogenThrusters End-->
-
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -817,13 +1043,48 @@
       <ThrusterType>Atmospheric</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="Construction" Count="40" />
-        <Component Subtype="LargeTube" Count="50" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="Motor" Count="1100" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="130" />
+        <Component Subtype="SteelPlate" Count="100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="1100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="130">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
@@ -855,19 +1116,16 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>90</BuildTimeSeconds>
-
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>6480000</ForceMagnitude>
       <MaxPowerConsumption>16.8</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
-
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
       <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
       <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
-
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
@@ -901,11 +1159,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -916,7 +1174,7 @@
       <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterSmall.dds</Icon>
       <Description>Description_AtmosphericThrust</Description>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -924,17 +1182,52 @@
       <ThrusterType>Atmospheric</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="LargeTube" Count="8" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="Motor" Count="110" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="110">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
-        <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
+        <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true" />
         <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
         <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -963,19 +1256,16 @@
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
-
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>648000</ForceMagnitude>
       <MaxPowerConsumption>2.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
-
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
       <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
       <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
-
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
@@ -1009,11 +1299,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -1031,17 +1321,52 @@
       <ThrusterType>Atmospheric</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="LargeTube" Count="4" />
-        <Component Subtype="MetalGrid" Count="8" />
-        <Component Subtype="Motor" Count="90" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="90">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
-        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true" />
         <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="4" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="4" EndY="2" />
@@ -1069,19 +1394,16 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
-
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>576000</ForceMagnitude>
       <MaxPowerConsumption>2.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
-
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
       <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
       <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
-
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameDamage>0.2</FlameDamage>
       <FlameLengthScale>1.15</FlameLengthScale>
@@ -1116,11 +1438,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -1139,13 +1461,48 @@
       <ThrusterType>Atmospheric</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="Motor" Count="18" />
-        <Component Subtype="Construction" Count="2" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="18">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
@@ -1177,19 +1534,16 @@
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>96000</ForceMagnitude>
       <MaxPowerConsumption>0.600</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
-
       <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
       <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
       <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
-
       <FlameDamageLengthScale>0.35</FlameDamageLengthScale>
       <FlameDamage>0.1</FlameDamage>
       <FlameLengthScale>1.5</FlameLengthScale>
@@ -1225,11 +1579,11 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>3600</unsignedInt>
-            <unsignedInt>0</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+        <unsignedInt>0</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <!-- End Region Thrust-->
   </CubeBlocks>

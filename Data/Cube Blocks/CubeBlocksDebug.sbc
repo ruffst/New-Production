@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
     <Definition>
@@ -15,9 +15,24 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\RailStraight.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="12" />
-        <Component Subtype="Construction" Count="8" />
-        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="SteelPlate" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
@@ -36,7 +51,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_DebugSphere1Definition">
       <Id>
         <TypeId>DebugSphere1</TypeId>
@@ -58,8 +72,18 @@
       </MountPoints>
       <Model>Models\Debug\RenderDebugSpheres.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -71,7 +95,6 @@
       <Public>false</Public>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_DebugSphere2Definition">
       <Id>
         <TypeId>DebugSphere2</TypeId>
@@ -93,8 +116,18 @@
       </MountPoints>
       <Model>Models\Debug\RenderDebugSpheresMetallic.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -106,7 +139,6 @@
       <Public>false</Public>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_DebugSphere3Definition">
       <Id>
         <TypeId>DebugSphere3</TypeId>
@@ -128,8 +160,18 @@
       </MountPoints>
       <Model>Models\Debug\RenderDebugSpheresMetalnessDegrees.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>

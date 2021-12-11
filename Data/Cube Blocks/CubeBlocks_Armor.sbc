@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-  
     <!-- Region ARMOR -->
     <Definition>
       <Id>
@@ -29,8 +27,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -174,7 +182,7 @@
         <CubeTopology>Slope</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Large\Armor\SlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
+          <Side Model="Models\Cubes\Large\Armor\SlopePlate.mwm" ScaleTileV="3" PatternWidth="4" PatternHeight="4" />
           <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -182,8 +190,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -307,8 +325,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -405,8 +433,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="16" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="16">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -554,8 +592,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -605,8 +653,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -664,8 +722,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="16" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="16">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -724,9 +792,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="135" />
-        <Component Subtype="MetalGrid" Count="50" />
-        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="135">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -879,7 +962,7 @@
         <CubeTopology>Slope</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Large\Armor\HeavySlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySlopePlate.mwm" ScaleTileV="3" PatternWidth="4" PatternHeight="4" />
           <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -887,9 +970,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="65" />
-        <Component Subtype="MetalGrid" Count="25" />
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="65">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -1014,9 +1112,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="MetalGrid" Count="10" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -1114,9 +1227,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="110" />
-        <Component Subtype="MetalGrid" Count="50" />
-        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="110">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -1266,7 +1394,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -1417,7 +1550,7 @@
         <CubeTopology>Slope</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Small\Armor\SlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
+          <Side Model="Models\Cubes\Small\Armor\SlopePlate.mwm" ScaleTileV="3" PatternWidth="4" PatternHeight="4" />
           <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -1425,7 +1558,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -1549,7 +1687,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -1646,7 +1789,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -1795,9 +1943,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="MetalGrid" Count="2" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -1948,7 +2111,7 @@
         <CubeTopology>Slope</CubeTopology>
         <ShowEdges>true</ShowEdges>
         <Sides>
-          <Side Model="Models\Cubes\Small\Armor\HeavySlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySlopePlate.mwm" ScaleTileV="3" PatternWidth="4" PatternHeight="4" />
           <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
           <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -1956,9 +2119,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -2082,9 +2260,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -2181,9 +2374,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -2334,8 +2542,18 @@
       <GuiVisible>false</GuiVisible>
       <PhysicsOption>Convex</PhysicsOption>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -2497,9 +2715,24 @@
       <GuiVisible>false</GuiVisible>
       <PhysicsOption>Convex</PhysicsOption>
       <Components>
-        <Component Subtype="SteelPlate" Count="50" />
-        <Component Subtype="MetalGrid" Count="25" />
-        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="SteelPlate" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -2660,8 +2893,18 @@
       <GuiVisible>false</GuiVisible>
       <PhysicsOption>Convex</PhysicsOption>
       <Components>
-        <Component Subtype="SteelPlate" Count="5" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -2822,9 +3065,24 @@
       <GuiVisible>false</GuiVisible>
       <PhysicsOption>Convex</PhysicsOption>
       <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="MetalGrid" Count="15" />
-        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -2959,7 +3217,6 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <!-- Small half blocks -->
     <Definition>
       <Id>
@@ -2988,7 +3245,12 @@
       <GuiVisible>false</GuiVisible>
       <PhysicsOption>Convex</PhysicsOption>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -3150,9 +3412,24 @@
       <GuiVisible>false</GuiVisible>
       <PhysicsOption>Convex</PhysicsOption>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -3287,7 +3564,6 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -3314,7 +3590,12 @@
       <GuiVisible>false</GuiVisible>
       <PhysicsOption>Convex</PhysicsOption>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -3449,7 +3730,6 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -3476,9 +3756,24 @@
       <GuiVisible>false</GuiVisible>
       <PhysicsOption>Convex</PhysicsOption>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -3613,7 +3908,6 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <!-- End region ARMOR -->
     <!-- Region ROUND ARMOR -->
     <!--    Region LARGE LIGHT -->
@@ -3641,8 +3935,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -3766,8 +4070,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -3864,8 +4178,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="16" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="16">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -4015,9 +4339,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="115" />
-        <Component Subtype="MetalGrid" Count="50" />
-        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="115">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -4142,9 +4481,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="110" />
-        <Component Subtype="MetalGrid" Count="40" />
-        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="110">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -4242,9 +4596,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="125" />
-        <Component Subtype="MetalGrid" Count="50" />
-        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="125">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -4395,7 +4764,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -4519,7 +4893,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -4616,7 +4995,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -4766,9 +5150,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -4892,9 +5291,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -4991,9 +5405,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -5119,7 +5548,6 @@
     </Definition>
     <!--    End region SMALL HEAVY-->
     <!-- End region ROUND ARMOR -->
-
     <!-- Region NON-DEFORMING SLOPED ARMOR -->
     <!--    Large Light-->
     <!--    2x1x1 SLOPE-->
@@ -5148,8 +5576,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -5311,8 +5749,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="5" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -5439,8 +5887,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="8" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -5567,8 +6025,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -5666,8 +6134,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="18" />
-        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="SteelPlate" Count="18">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -5819,8 +6297,18 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="13" />
-        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="13">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -5948,7 +6436,6 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
-
     <!--    Large Heavy    -->
     <!--    2x1x1 SLOPE-->
     <Definition>
@@ -5976,9 +6463,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="100" />
-        <Component Subtype="MetalGrid" Count="45" />
-        <Component Subtype="SteelPlate" Count="12" />
+        <Component Subtype="SteelPlate" Count="100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="45">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
@@ -6140,9 +6642,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="MetalGrid" Count="6" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -6269,9 +6786,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="50" />
-        <Component Subtype="MetalGrid" Count="15" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -6398,9 +6930,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="17" />
-        <Component Subtype="MetalGrid" Count="6" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="17">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -6498,9 +7045,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="120" />
-        <Component Subtype="MetalGrid" Count="45" />
-        <Component Subtype="SteelPlate" Count="13" />
+        <Component Subtype="SteelPlate" Count="120">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="45">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="13">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -6652,9 +7214,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="84" />
-        <Component Subtype="MetalGrid" Count="25" />
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="84">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -6782,7 +7359,6 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
-
     <!--    Small Light    -->
     <!--    2x1x1 SLOPE-->
     <Definition>
@@ -6810,7 +7386,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -6972,7 +7553,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -7099,7 +7685,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -7226,7 +7817,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -7324,7 +7920,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -7476,7 +8077,12 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -7604,7 +8210,6 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
-
     <!--    Small Heavy    -->
     <!--    2x1x1 SLOPE-->
     <Definition>
@@ -7632,9 +8237,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -7796,9 +8416,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -7925,9 +8560,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -8054,9 +8704,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -8154,9 +8819,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -8308,9 +8988,24 @@
         </Sides>
       </CubeDefinition>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="MetalGrid" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>

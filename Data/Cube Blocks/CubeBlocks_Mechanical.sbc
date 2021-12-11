@@ -17,16 +17,46 @@
       <Model>Models\Cubes\Large\PistonBase.mwm</Model>
       <PlaceDecals>false</PlaceDecals>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="LargeTube" Count="4" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true"/>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
         <MountPoint Side="Right" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
         <MountPoint Side="Front" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
@@ -55,11 +85,7 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>100</PCU>
-      <IsAirTight>false</IsAirTight>      
-    </Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -71,17 +97,48 @@
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="3" z="1" />
-      <Center x="0" y="0" z="0"></Center>
+      <Center x="0" y="0" z="0">
+      </Center>
       <ModelOffset x="0" y="-1.25" z="0" />
       <Model>Models\Cubes\Large\PistonBase.mwm</Model>
       <PlaceDecals>false</PlaceDecals>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="LargeTube" Count="4" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -113,11 +170,7 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>100</PCU>
-      <IsAirTight>false</IsAirTight>      
-    </Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -134,8 +187,18 @@
       <Model>Models\Cubes\Large\PistonTop.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -158,7 +221,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>1</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_PistonBaseDefinition">
       <Id>
@@ -176,12 +239,42 @@
       <Model>Models\Cubes\Small\PistonBase.mwm</Model>
       <PlaceDecals>false</PlaceDecals>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="4" />
-        <Component Subtype="SmallTube" Count="4" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -214,10 +307,7 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>100</PCU>      
-    </Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -230,17 +320,48 @@
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="3" z="1" />
-      <Center x="0" y="0" z="0"></Center>
+      <Center x="0" y="0" z="0">
+      </Center>
       <ModelOffset x="0" y="-0.25" z="0" />
       <Model>Models\Cubes\Small\PistonBase.mwm</Model>
       <PlaceDecals>false</PlaceDecals>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="4" />
-        <Component Subtype="SmallTube" Count="4" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -272,10 +393,7 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>100</PCU>      
-    </Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -292,8 +410,18 @@
       <Model>Models\Cubes\Small\PistonTop.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="4" />
-        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -314,7 +442,7 @@
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>1</PCU>      
+      <PCU>1</PCU>
     </Definition>
     <!-- End Region Piston-->
     <!-- Region MotorStator-->
@@ -332,12 +460,42 @@
       <ModelOffset x="0" y="-1.25" z="0" />
       <Model>Models\Cubes\Large\MotorStator.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="LargeTube" Count="4" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -378,7 +536,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <RotorType>Rotor</RotorType>
       <PCU>100</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -390,15 +548,25 @@
       <Description>Description_RotorPart</Description>
       <BlockPairName>MotorRotor</BlockPairName>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\MotorRotor.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="LargeTube" Count="6" />
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -414,7 +582,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <PCU>1</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
       <Id>
@@ -430,12 +598,42 @@
       <ModelOffset x="0" y="-0.25" z="0" />
       <Model>Models\Cubes\Small\MotorStator.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SmallTube" Count="1" />
-        <Component Subtype="Motor" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
@@ -473,7 +671,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <RotorType>Rotor</RotorType>
       <PCU>100</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -491,8 +689,18 @@
       <Model>Models\Cubes\Small\MotorRotor.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="12" />
-        <Component Subtype="SmallTube" Count="6" />
+        <Component Subtype="SteelPlate" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -509,7 +717,7 @@
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <RotorPart>MotorRotor</RotorPart>
       <PCU>1</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <!-- End Region MotorStator-->
     <!-- Region AdvMotorStator-->
@@ -523,18 +731,48 @@
       <Icon>Textures\GUI\Icons\Cubes\AdvancedMotor.dds</Icon>
       <Description>Description_AdvancedRotor</Description>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="-1.25" z="0" />
       <Model>Models\Cubes\Large\MotorAdvancedStator.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="LargeTube" Count="4" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -573,7 +811,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <RotorType>Rotor</RotorType>
       <PCU>100</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -585,15 +823,25 @@
       <Description>Description_AdvancedRotorPart</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\MotorAdvancedRotor.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -610,7 +858,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <PCU>1</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
       <Id>
@@ -622,18 +870,48 @@
       <Icon>Textures\GUI\Icons\Cubes\AdvancedMotor.dds</Icon>
       <Description>Description_AdvancedRotor</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="3" />
       <ModelOffset x="0" y="-0.25" z="0" />
       <Model>Models\Cubes\Small\MotorAdvancedStator.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="3" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SmallTube" Count="1" />
-        <Component Subtype="Motor" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
@@ -666,7 +944,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <RotorType>Rotor</RotorType>
-      <PCU>100</PCU>      
+      <PCU>100</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -677,15 +955,25 @@
       <Icon>Textures\GUI\Icons\Cubes\AdvancedRotorPart.dds</Icon>
       <Description>Description_AdvancedRotor</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="3" />
       <ModelOffset x="0" y="-0.25" z="0" />
       <Model>Models\Cubes\Small\MotorAdvancedRotor.mwm</Model>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="LargeTube" Count="10" />
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -701,11 +989,10 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <RotorPart>MotorAdvancedRotor</RotorPart>
-      <PCU>1</PCU>      
+      <PCU>1</PCU>
     </Definition>
     <!-- End Region AdvMotorStator-->
-    <!-- Region HingeBlocks-->   
-  
+    <!-- Region HingeBlocks-->
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -720,12 +1007,42 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\Hinge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="LargeTube" Count="4" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -751,8 +1068,8 @@
       <RotorDisplacementMinSmall>0</RotorDisplacementMinSmall>
       <RotorDisplacementMaxSmall>0</RotorDisplacementMaxSmall>
       <RotorDisplacementInModel>0</RotorDisplacementInModel>
-	  <MinAngleDeg>-90</MinAngleDeg>
-	  <MaxAngleDeg>90</MaxAngleDeg>
+      <MinAngleDeg>-90</MinAngleDeg>
+      <MaxAngleDeg>90</MaxAngleDeg>
       <SafetyDetach>5</SafetyDetach>
       <SafetyDetachMax>5</SafetyDetachMax>
       <DamageEffectId>212</DamageEffectId>
@@ -761,7 +1078,6 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -776,10 +1092,30 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HingeHead.mwm</Model>
       <Components>
-          <Component Subtype="SteelPlate" Count="8" />
-          <Component Subtype="LargeTube" Count="4" />
-          <Component Subtype="Construction" Count="8" />
-          <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="SteelPlate" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -794,8 +1130,7 @@
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
-    </Definition>  
-      
+    </Definition>
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -810,12 +1145,42 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HingeMedium.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="6" />
-        <Component Subtype="Construction" Count="6" />
-        <Component Subtype="LargeTube" Count="2" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="SteelPlate" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -840,8 +1205,8 @@
       <RotorDisplacementMinSmall>0</RotorDisplacementMinSmall>
       <RotorDisplacementMaxSmall>0</RotorDisplacementMaxSmall>
       <RotorDisplacementInModel>0</RotorDisplacementInModel>
-	  <MinAngleDeg>-90</MinAngleDeg>
-	  <MaxAngleDeg>90</MaxAngleDeg>
+      <MinAngleDeg>-90</MinAngleDeg>
+      <MaxAngleDeg>90</MaxAngleDeg>
       <SafetyDetach>5</SafetyDetach>
       <SafetyDetachMax>5</SafetyDetachMax>
       <DamageEffectId>212</DamageEffectId>
@@ -850,7 +1215,6 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -865,10 +1229,30 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HingeHeadMedium.mwm</Model>
       <Components>
-          <Component Subtype="SteelPlate" Count="4" />
-          <Component Subtype="LargeTube" Count="2" />
-          <Component Subtype="Construction" Count="4" />
-          <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -883,8 +1267,7 @@
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
-    </Definition>  
-      
+    </Definition>
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -899,12 +1282,42 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HingeSmall.mwm</Model>
       <Components>
-          <Component Subtype="SteelPlate" Count="4" />
-          <Component Subtype="Construction" Count="4" />
-          <Component Subtype="LargeTube" Count="1" />
-          <Component Subtype="Motor" Count="2" />
-          <Component Subtype="Computer" Count="2" />
-          <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -929,8 +1342,8 @@
       <RotorDisplacementMinSmall>0</RotorDisplacementMinSmall>
       <RotorDisplacementMaxSmall>0</RotorDisplacementMaxSmall>
       <RotorDisplacementInModel>0</RotorDisplacementInModel>
-	  <MinAngleDeg>-90</MinAngleDeg>
-	  <MaxAngleDeg>90</MaxAngleDeg>
+      <MinAngleDeg>-90</MinAngleDeg>
+      <MaxAngleDeg>90</MaxAngleDeg>
       <SafetyDetach>5</SafetyDetach>
       <SafetyDetachMax>5</SafetyDetachMax>
       <DamageEffectId>212</DamageEffectId>
@@ -939,7 +1352,6 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -955,10 +1367,30 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HingeHeadSmall.mwm</Model>
       <Components>
-          <Component Subtype="SteelPlate" Count="2" />
-          <Component Subtype="LargeTube" Count="1" />
-          <Component Subtype="Construction" Count="2" />
-          <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
@@ -973,7 +1405,6 @@
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
-    </Definition>  
-  
+    </Definition>
   </CubeBlocks>
 </Definitions>

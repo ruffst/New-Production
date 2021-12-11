@@ -15,12 +15,42 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
-        <Component Subtype="LargeTube" Count="8" />
-        <Component Subtype="SmallTube" Count="10" />
-        <Component Subtype="Computer" Count="8" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -69,11 +99,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>300</unsignedInt>
-            <unsignedInt>600</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
@@ -89,12 +119,42 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="60" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="SmallTube" Count="60" />
-        <Component Subtype="Computer" Count="8" />
-        <Component Subtype="Construction" Count="40" />
-        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -150,11 +210,11 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>300</unsignedInt>
-            <unsignedInt>600</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
@@ -166,18 +226,48 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="160" />
-        <Component Subtype="LargeTube" Count="80" />
-        <Component Subtype="SmallTube" Count="60" />
-        <Component Subtype="Computer" Count="8" />
-        <Component Subtype="Construction" Count="40" />
-        <Component Subtype="SteelPlate" Count="120" />
+        <Component Subtype="SteelPlate" Count="160">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="120">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -226,11 +316,11 @@
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>300</unsignedInt>
-            <unsignedInt>600</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
@@ -242,18 +332,48 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="60" />
-        <Component Subtype="LargeTube" Count="40" />
-        <Component Subtype="SmallTube" Count="60" />
-        <Component Subtype="Computer" Count="8" />
-        <Component Subtype="Construction" Count="40" />
-        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -297,11 +417,11 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <PCU>25</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>300</unsignedInt>
-            <unsignedInt>600</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
@@ -312,19 +432,49 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <Public>true</Public>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="5" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="LargeTube" Count="20" />
-        <Component Subtype="SmallTube" Count="30" />
-        <Component Subtype="Computer" Count="4" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -385,11 +535,11 @@
       <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>300</unsignedInt>
-            <unsignedInt>600</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
@@ -401,18 +551,48 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="SmallTube" Count="2" />
-        <Component Subtype="Computer" Count="4" />
-        <Component Subtype="Construction" Count="2" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -456,11 +636,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
-        <TieredUpdateTimes>
-            <unsignedInt>100</unsignedInt>
-            <unsignedInt>300</unsignedInt>
-            <unsignedInt>600</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
       <Id>
@@ -476,11 +656,36 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\OxygenPressurizer.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="Motor" Count="10" />
-        <Component Subtype="Computer" Count="5" />
-        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -500,13 +705,11 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
-
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
-
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <PressurizeSound>BlockAirVentExhale</PressurizeSound>
@@ -515,7 +718,7 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>10</PCU>      
+      <PCU>10</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
       <Id>
@@ -531,11 +734,36 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\OxygenPressurizer.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="5" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Computer" Count="5" />
-        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -555,13 +783,11 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
-
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <OperationalPowerConsumption>0.01</OperationalPowerConsumption>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <VentilationCapacityPerSecond>30</VentilationCapacityPerSecond>
-
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <PressurizeSound>BlockAirVentExhale</PressurizeSound>
@@ -570,7 +796,7 @@
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>10</PCU>      
+      <PCU>10</PCU>
     </Definition>
     <!-- Region Cargo Container-->
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -587,12 +813,42 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="2" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="Computer" Count="1" />
-        <Component Subtype="Motor" Count="1" />
-        <Component Subtype="Display" Count="1" />
-        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="InteriorPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -628,18 +884,48 @@
       <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
       <Description>Description_MediumCargoContainer</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="20" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="Computer" Count="4" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Display" Count="1" />
-        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="InteriorPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -675,18 +961,48 @@
       <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="5" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="55" />
-        <Component Subtype="Construction" Count="25" />
-        <Component Subtype="Computer" Count="6" />
-        <Component Subtype="Motor" Count="8" />
-        <Component Subtype="Display" Count="1" />
-        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="InteriorPlate" Count="55">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -726,15 +1042,60 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="30" />
-        <Component Subtype="Construction" Count="35" />
-        <Component Subtype="MetalGrid" Count="4" />
-        <Component Subtype="SmallTube" Count="20" />
-        <Component Subtype="Motor" Count="4" />
-        <Component Subtype="Display" Count="1" />
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="InteriorPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="35">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -771,21 +1132,66 @@
       <Icon>Textures\GUI\Icons\Cubes\container_large.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="300" />
-        <Component Subtype="Construction" Count="60" />
-        <Component Subtype="MetalGrid" Count="24" />
-        <Component Subtype="SmallTube" Count="60" />
-        <Component Subtype="Motor" Count="20" />
-        <Component Subtype="Display" Count="1" />
-        <Component Subtype="Computer" Count="8" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="InteriorPlate" Count="60" />
+        <Component Subtype="InteriorPlate" Count="300">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="24">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -813,7 +1219,6 @@
       <PCU>10</PCU>
     </Definition>
     <!-- End Region Cargo Container-->
-    
     <!-- Region Conveyor system -->
     <Definition>
       <Id>
@@ -830,17 +1235,37 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\conveyor.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="2" />
-        <Component Subtype="Construction" Count="4" />
-        <Component Subtype="Motor" Count="1" />
-        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="InteriorPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <Mountpoints>
         <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
-        <MountPoint Side="Top" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0"  />
-        <MountPoint Side="Back" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0"  />
-        <MountPoint Side="Bottom" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0"  />
+        <MountPoint Side="Top" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Back" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Bottom" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0" />
         <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
         <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
       </Mountpoints>
@@ -859,7 +1284,7 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>true</IsAirTight>      
+      <IsAirTight>true</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -876,12 +1301,42 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\conveyor.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SmallTube" Count="20" />
-        <Component Subtype="Motor" Count="6" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="InteriorPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -900,7 +1355,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>true</IsAirTight>      
+      <IsAirTight>true</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_PoweredCargoContainerDefinition">
       <Id>
@@ -916,13 +1371,48 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\Collector.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="Construction" Count="50" />
-        <Component Subtype="SmallTube" Count="12" />
-        <Component Subtype="Motor" Count="8" />
-        <Component Subtype="Display" Count="4" />
-        <Component Subtype="Computer" Count="10" />
-        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -955,9 +1445,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>true</IsAirTight>      
+      <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition  xsi:type="MyObjectBuilder_PoweredCargoContainerDefinition">
+    <Definition xsi:type="MyObjectBuilder_PoweredCargoContainerDefinition">
       <Id>
         <TypeId>Collector</TypeId>
         <SubtypeId>CollectorSmall</SubtypeId>
@@ -971,13 +1461,48 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\Collector.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="25" />
-        <Component Subtype="Construction" Count="35" />
-        <Component Subtype="SmallTube" Count="12" />
-        <Component Subtype="Motor" Count="8" />
-        <Component Subtype="Display" Count="2" />
-        <Component Subtype="Computer" Count="8" />
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="35">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -1008,9 +1533,9 @@
       <ActionSound>BlockCollect</ActionSound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
     </Definition>
-     <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
       <Id>
         <TypeId>ShipConnector</TypeId>
         <SubtypeId>Connector</SubtypeId>
@@ -1019,18 +1544,48 @@
       <Icon>Textures\GUI\Icons\Cubes\Connector.dds</Icon>
       <Description>Description_Connector</Description>
       <CubeSize>Large</CubeSize>
-         <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\Connector.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="130" />
-        <Component Subtype="Construction" Count="40" />
-        <Component Subtype="SmallTube" Count="12" />
-        <Component Subtype="Motor" Count="8" />
-        <Component Subtype="Computer" Count="20" />
-        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="130">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -1042,7 +1597,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <MountPoints>
-        <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.9" Default="true"/>
+        <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.9" Default="true" />
         <MountPoint Side="Top" StartX="0.27" StartY="0.65" EndX="0.73" EndY="0.9" />
         <MountPoint Side="Top" StartX="0.27" StartY="0.0" EndX="0.73" EndY="0.09" />
         <MountPoint Side="Bottom" StartX="0.27" StartY="0.1" EndX="0.73" EndY="0.35" />
@@ -1057,14 +1612,14 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>125</PCU>
-      <IsAirTight>false</IsAirTight>  
+      <IsAirTight>false</IsAirTight>
       <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
       <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
-         <TieredUpdateTimes>
-             <unsignedInt>80</unsignedInt>
-             <unsignedInt>160</unsignedInt>
-             <unsignedInt>320</unsignedInt>
-         </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
       <Id>
@@ -1075,18 +1630,48 @@
       <Icon>Textures\GUI\Icons\Cubes\ConnectorSmall.dds</Icon>
       <Description>Description_Ejector</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\Connector.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="5" />
-        <Component Subtype="Construction" Count="4" />
-        <Component Subtype="SmallTube" Count="2" />
-        <Component Subtype="Motor" Count="1" />
-        <Component Subtype="Computer" Count="4" />
-        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -1112,14 +1697,14 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>125</PCU>
-      <IsAirTight>true</IsAirTight>  
-	  <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+      <IsAirTight>true</IsAirTight>
+      <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
       <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
-        <TieredUpdateTimes>
-            <unsignedInt>80</unsignedInt>
-            <unsignedInt>160</unsignedInt>
-            <unsignedInt>320</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
       <Id>
@@ -1130,18 +1715,48 @@
       <Icon>Textures\GUI\Icons\Cubes\Connector.dds</Icon>
       <Description>Description_Connector</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="2" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\ConnectorMedium.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
-        <Component Subtype="Construction" Count="12" />
-        <Component Subtype="SmallTube" Count="6" />
-        <Component Subtype="Motor" Count="6" />
-        <Component Subtype="Computer" Count="6" />
-        <Component Subtype="SteelPlate" Count="6" />
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
@@ -1166,14 +1781,14 @@
       <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>125</PCU>    
-	  <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+      <PCU>125</PCU>
+      <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
       <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
-        <TieredUpdateTimes>
-            <unsignedInt>80</unsignedInt>
-            <unsignedInt>160</unsignedInt>
-            <unsignedInt>320</unsignedInt>
-        </TieredUpdateTimes>
+      <TieredUpdateTimes>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
+      </TieredUpdateTimes>
     </Definition>
     <Definition>
       <Id>
@@ -1190,11 +1805,36 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\ConveyorTube.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SmallTube" Count="12" />
-        <Component Subtype="Motor" Count="6" />
-        <Component Subtype="InteriorPlate" Count="4" />
+        <Component Subtype="InteriorPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1205,7 +1845,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true"/>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
         <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
@@ -1221,7 +1861,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -1237,13 +1877,28 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\ConveyorTube.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="1" />
-        <Component Subtype="Motor" Count="1" />
-        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
-        <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.2" EndY="0.9" Default="true"/>
+        <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.2" EndY="0.9" Default="true" />
         <MountPoint Side="Back" StartX="0.8" StartY="0.1" EndX="0.9" EndY="0.9" />
         <MountPoint Side="Back" StartX="0.2" StartY="0.1" EndX="0.8" EndY="0.2" />
         <MountPoint Side="Back" StartX="0.2" StartY="0.8" EndX="0.8" EndY="0.9" />
@@ -1265,7 +1920,7 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -1282,11 +1937,36 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\ConveyorTubeMedium.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="8" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SmallTube" Count="10" />
-        <Component Subtype="Motor" Count="6" />
-        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="InteriorPlate" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1315,7 +1995,7 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -1326,17 +2006,42 @@
       <Icon>Textures\GUI\Icons\Cubes\ConveyorFrameMedium.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\ConveyorFrameMedium.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="4" />
-        <Component Subtype="Construction" Count="12" />
-        <Component Subtype="SmallTube" Count="5" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="InteriorPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1364,7 +2069,7 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -1381,11 +2086,36 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\ConveyorTubeCurved.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="10" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SmallTube" Count="12" />
-        <Component Subtype="Motor" Count="6" />
-        <Component Subtype="InteriorPlate" Count="4" />
+        <Component Subtype="InteriorPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1414,7 +2144,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -1431,9 +2161,24 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\ConveyorTubeCurved.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="1" />
-        <Component Subtype="Motor" Count="1" />
-        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1454,7 +2199,7 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -1471,11 +2216,36 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\ConveyorTurnMedium.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="2" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SmallTube" Count="10" />
-        <Component Subtype="Motor" Count="6" />
-        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="InteriorPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1504,7 +2274,7 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -1522,12 +2292,42 @@
       <!--<Center x="1" y="1" z="1" />-->
       <Model>Models\Cubes\Small\ConveyorHub.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="20" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SmallTube" Count="25" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Construction" Count="15" />
-        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="InteriorPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1563,7 +2363,7 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <IsAirTight>true</IsAirTight>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
       <Id>
@@ -1574,19 +2374,54 @@
       <Icon>Textures\GUI\Icons\Cubes\ConveyorSorterLarge.dds</Icon>
       <Description>Description_ConveyorSorter</Description>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\ConveyorSorter.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="40" />
-        <Component Subtype="Construction" Count="100" />
-        <Component Subtype="SmallTube" Count="50" />
-        <Component Subtype="Computer" Count="20" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="InteriorPlate" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1613,7 +2448,7 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
@@ -1625,19 +2460,54 @@
       <Icon>Textures\GUI\Icons\Cubes\ConveyorSorterMedium.dds</Icon>
       <Description>Description_ConveyorSorter</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\ConveyorSorterMedium.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="4" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SmallTube" Count="5" />
-        <Component Subtype="Computer" Count="5" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Construction" Count="2" />
-        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="InteriorPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1664,7 +2534,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>true</IsAirTight>      
+      <IsAirTight>true</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
       <Id>
@@ -1680,13 +2550,48 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\ConveyorSorterSmall.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="4" />
-        <Component Subtype="Construction" Count="10" />
-        <Component Subtype="SmallTube" Count="5" />
-        <Component Subtype="Computer" Count="5" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Construction" Count="2" />
-        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="InteriorPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
@@ -1713,7 +2618,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>true</IsAirTight>      
+      <IsAirTight>true</IsAirTight>
     </Definition>
     <!-- End Region Conveyor system -->
   </CubeBlocks>

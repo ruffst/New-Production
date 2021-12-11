@@ -1,332 +1,551 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <CubeBlocks>
+  <CubeBlocks>
 <!--        Tier Gold-->
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--LargeBlockLargeContainer_Gold-->
-            <Id>
-                <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeContainer_Gold</SubtypeId>
-            </Id>
-            <DisplayName>Large Gold Container</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\container_large_gold.dds</Icon>
-            <Description>Description_LargeCargoContainer</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="3"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
-            <Components>
-                <Component Subtype="InteriorPlate" Count="450"/>
-                <Component Subtype="Construction" Count="90"/>
-                <Component Subtype="MetalGrid" Count="36"/>
-                <Component Subtype="SmallTube" Count="90"/>
-                <Component Subtype="Motor" Count="30"/>
-                <Component Subtype="Display" Count="2"/>
-                <Component Subtype="Computer" Count="12"/>
-                <Component Subtype="Construction" Count="30"/>
-                <Component Subtype="InteriorPlate" Count="90"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0"/>
-            <MountPoints>
-                <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true"/>
-                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer Gold</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>68</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>10</PCU>
-            <InventorySize>
-                <X>15</X>
-                <Y>7.5</Y>
-                <Z>7.5</Z>
-            </InventorySize>
-        </Definition>
-
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockLargeContainer_Gold-->
-            <Id>
-                <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockLargeContainer_Gold</SubtypeId>
-            </Id>
-            <DisplayName>Large Gold Container</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\container_large_gold.dds</Icon>
-            <Description>Description_LargeCargoContainer</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="5" y="5" z="5"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
-            <Components>
-                <Component Subtype="InteriorPlate" Count="83"/>
-                <Component Subtype="Construction" Count="38"/>
-                <Component Subtype="Computer" Count="9"/>
-                <Component Subtype="Motor" Count="12"/>
-                <Component Subtype="Display" Count="2"/>
-                <Component Subtype="InteriorPlate" Count="30"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0"/>
-            <MountPoints>
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true"/>
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer Gold</BlockPairName>
-            <MirroringX>Z</MirroringX>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>38</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>10</PCU>
-            <InventorySize>
-                <X>5</X>
-                <Y>2.5</Y>
-                <Z>2.5</Z>
-            </InventorySize>
-        </Definition>
-
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--LargeBlockLargeContainer_Gold-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockLargeContainer_Gold</SubtypeId>
+      </Id>
+      <DisplayName>Large Gold Container</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\container_large_gold.dds</Icon>
+      <Description>Description_LargeCargoContainer</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="450">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="90">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="36">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="90">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="90">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeCargoContainer Gold</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>68</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <InventorySize>
+        <X>15</X>
+        <Y>7.5</Y>
+        <Z>7.5</Z>
+      </InventorySize>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--SmallBlockLargeContainer_Gold-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockLargeContainer_Gold</SubtypeId>
+      </Id>
+      <DisplayName>Large Gold Container</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\container_large_gold.dds</Icon>
+      <Description>Description_LargeCargoContainer</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="83">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="38">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="9">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeCargoContainer Gold</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>38</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <InventorySize>
+        <X>5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+    </Definition>
 <!--        Tier Platin-->
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--LargeBlockLargeContainer_Platin-->
-            <Id>
-                <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeContainer_Platin</SubtypeId>
-            </Id>
-            <DisplayName>Large Platin Container</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\container_large_platin.dds</Icon>
-            <Description>Description_LargeCargoContainer</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="3"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
-            <Components>
-                <Component Subtype="InteriorPlate" Count="675"/>
-                <Component Subtype="Construction" Count="135"/>
-                <Component Subtype="MetalGrid" Count="54"/>
-                <Component Subtype="SmallTube" Count="135"/>
-                <Component Subtype="Motor" Count="45"/>
-                <Component Subtype="Display" Count="3"/>
-                <Component Subtype="Computer" Count="18"/>
-                <Component Subtype="Construction" Count="45"/>
-                <Component Subtype="InteriorPlate" Count="135"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0"/>
-            <MountPoints>
-                <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true"/>
-                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer Platin</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>102</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>10</PCU>
-            <InventorySize>
-                <X>30</X>
-                <Y>7.5</Y>
-                <Z>7.5</Z>
-            </InventorySize>
-        </Definition>
-
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--SmallBlockLargeContainer_Platin-->
-            <Id>
-                <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockLargeContainer_Platin</SubtypeId>
-            </Id>
-            <DisplayName>Large Platin Container</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\container_large_platin.dds</Icon>
-            <Description>Description_LargeCargoContainer</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="5" y="5" z="5"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
-            <Components>
-                <Component Subtype="InteriorPlate" Count="124"/>
-                <Component Subtype="Construction" Count="57"/>
-                <Component Subtype="Computer" Count="14"/>
-                <Component Subtype="Motor" Count="18"/>
-                <Component Subtype="Display" Count="3"/>
-                <Component Subtype="InteriorPlate" Count="45"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0"/>
-            <MountPoints>
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true"/>
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer Platin</BlockPairName>
-            <MirroringX>Z</MirroringX>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>57</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>10</PCU>
-            <InventorySize>
-                <X>10</X>
-                <Y>2.5</Y>
-                <Z>2.5</Z>
-            </InventorySize>
-
-        </Definition>
-
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--LargeBlockLargeContainer_Platin-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockLargeContainer_Platin</SubtypeId>
+      </Id>
+      <DisplayName>Large Platin Container</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\container_large_platin.dds</Icon>
+      <Description>Description_LargeCargoContainer</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="675">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="135">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="54">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="135">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="45">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="18">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="45">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="135">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeCargoContainer Platin</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>102</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <InventorySize>
+        <X>30</X>
+        <Y>7.5</Y>
+        <Z>7.5</Z>
+      </InventorySize>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--SmallBlockLargeContainer_Platin-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockLargeContainer_Platin</SubtypeId>
+      </Id>
+      <DisplayName>Large Platin Container</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\container_large_platin.dds</Icon>
+      <Description>Description_LargeCargoContainer</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="124">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="57">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="14">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="18">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="45">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeCargoContainer Platin</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>57</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <InventorySize>
+        <X>10</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+    </Definition>
 <!--        Tier Titan-->
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"> <!--LargeBlockLargeContainer_Titan-->
-            <Id>
-                <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeContainer_Titan</SubtypeId>
-            </Id>
-            <DisplayName>Large Titan Container</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\container_large_titan.dds</Icon>
-            <Description>Description_LargeCargoContainer</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="3"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
-            <Components>
-                <Component Subtype="InteriorPlate" Count="1013"/>
-                <Component Subtype="Construction" Count="203"/>
-                <Component Subtype="MetalGrid" Count="81"/>
-                <Component Subtype="SmallTube" Count="203"/>
-                <Component Subtype="Motor" Count="68"/>
-                <Component Subtype="Display" Count="4"/>
-                <Component Subtype="Computer" Count="27"/>
-                <Component Subtype="Construction" Count="68"/>
-                <Component Subtype="InteriorPlate" Count="203"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0"/>
-            <MountPoints>
-                <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true"/>
-                <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
-                <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer Titan</BlockPairName>
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>152</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>10</PCU>
-            <InventorySize>
-                <X>60</X>
-                <Y>7.5</Y>
-                <Z>7.5</Z>
-            </InventorySize>
-        </Definition>
-
-        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">  <!--SmallBlockLargeContainer_Titan-->
-            <Id>
-                <TypeId>CargoContainer</TypeId>
-                <SubtypeId>SmallBlockLargeContainer_Titan</SubtypeId>
-            </Id>
-            <DisplayName>Large Titan Container</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\GUI\Icons\Cubes\container_large_titan.dds</Icon>
-            <Description>Description_LargeCargoContainer</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="5" y="5" z="5"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
-            <Components>
-                <Component Subtype="InteriorPlate" Count="186"/>
-                <Component Subtype="Construction" Count="85"/>
-                <Component Subtype="Computer" Count="21"/>
-                <Component Subtype="Motor" Count="27"/>
-                <Component Subtype="Display" Count="4"/>
-                <Component Subtype="InteriorPlate" Count="68"/>
-            </Components>
-            <CriticalComponent Subtype="Computer" Index="0"/>
-            <MountPoints>
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true"/>
-                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <BlockPairName>LargeCargoContainer_Titan</BlockPairName>
-            <MirroringX>Z</MirroringX>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>85</BuildTimeSeconds>
-            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-            <DamagedSound>ParticleHeavyMech</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>10</PCU>
-            <InventorySize>
-                <X>20</X>
-                <Y>2.5</Y>
-                <Z>2.5</Z>
-            </InventorySize>
-        </Definition>
-    </CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--LargeBlockLargeContainer_Titan-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>LargeBlockLargeContainer_Titan</SubtypeId>
+      </Id>
+      <DisplayName>Large Titan Container</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\container_large_titan.dds</Icon>
+      <Description>Description_LargeCargoContainer</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1013">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="203">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="81">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="203">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="68">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="27">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="68">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="203">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="1" StartY="1" EndX="2" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeCargoContainer Titan</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>152</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <InventorySize>
+        <X>60</X>
+        <Y>7.5</Y>
+        <Z>7.5</Z>
+      </InventorySize>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--SmallBlockLargeContainer_Titan-->
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>SmallBlockLargeContainer_Titan</SubtypeId>
+      </Id>
+      <DisplayName>Large Titan Container</DisplayName>
+      <GuiVisible>false</GuiVisible>
+      <Icon>Textures\GUI\Icons\Cubes\container_large_titan.dds</Icon>
+      <Description>Description_LargeCargoContainer</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="186">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="85">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="21">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="27">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Display" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="68">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeCargoContainer_Titan</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>85</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <InventorySize>
+        <X>20</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+    </Definition>
+  </CubeBlocks>
 </Definitions>
