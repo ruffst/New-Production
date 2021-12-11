@@ -40,7 +40,12 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="180" />
+        <Component Subtype="PowerCell" Count="180" />>
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Superconductor" Count="1500">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -137,7 +142,12 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="270" />
+        <Component Subtype="PowerCell" Count="270" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Superconductor" Count="2250">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -235,7 +245,12 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="405" />
+        <Component Subtype="PowerCell" Count="405">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Superconductor" Count="3375">
           <DeconstructId>
             <TypeId>Ore</TypeId>

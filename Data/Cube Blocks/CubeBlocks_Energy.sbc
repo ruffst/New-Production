@@ -811,7 +811,12 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="1" />
+        <Component Subtype="PowerCell" Count="1" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -935,7 +940,12 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="1" />
+        <Component Subtype="PowerCell" Count="1" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>

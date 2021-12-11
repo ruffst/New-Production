@@ -304,7 +304,12 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="120" />
+        <Component Subtype="PowerCell" Count="120" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Superconductor" Count="1000">
           <DeconstructId>
             <TypeId>Ore</TypeId>
