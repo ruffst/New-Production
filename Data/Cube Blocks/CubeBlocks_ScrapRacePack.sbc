@@ -3737,7 +3737,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="10" />
+        <Component Subtype="PowerCell" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Motor" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -3756,7 +3761,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="10" />
+        <Component Subtype="PowerCell" Count="10" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Motor" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
