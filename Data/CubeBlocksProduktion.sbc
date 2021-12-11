@@ -993,8 +993,8 @@
         </Definition>
 
         <!--4. buildstufe-->
-<!--
-        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            Forschungslabor
+
+        <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            
             <Id>
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>Forschungslabor</SubtypeId>
@@ -1003,33 +1003,24 @@
             <Icon>Textures\GUI\Icons\Cubes\ResearchLab.dds</Icon>
             <Description>Forschungslabor zur Herstellung von Meilensteinmaterial</Description>
             <CubeSize>Large</CubeSize>
-            <ResearchGroup></ResearchGroup>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
-
             <Size x="5" y="4" z="11"/>
             <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Lab1With Pillars.mwm</Model>
-
+            <Model>Models\Lab2WithPillarsnofloor.mwm</Model>
             <Components>
                 <Component Subtype="SteelPlate" Count="300" />
                 <Component Subtype="Construction" Count="500" />
-                <Component Subtype="ComputerComponent" Count="100" />
-                <Component Subtype="MotorComponent" Count="100" />
+                <Component Subtype="Computer" Count="100" />
+                <Component Subtype="Motor" Count="100" />
                 <Component Subtype="Display" Count="20" />
                 <Component Subtype="SteelPlate" Count="100" />
             </Components>
             <CriticalComponent Subtype="Display" Index="0" />
-           
-            <MountPoints>
-                <MountPoint Side="Right" StartX="4.00" StartY="1.00" EndX="5.00" EndY="2.00"/>
-                <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="11.00"/>
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS3.mwm" />
-            </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Right" StartX="4.00" StartY="1.00" EndX="5.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="11.00"/>
+			</MountPoints>
             <BlockPairName>Forschungslabor</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
@@ -1053,13 +1044,13 @@
             <DestroyEffect>Explosion_Missile</DestroyEffect>
             <DestroySound>WepSmallMissileExpl</DestroySound>
             <PCU>40</PCU>
-            <IsAirTight>true</IsAirTight>
+            <IsAirTight>false</IsAirTight>
             <TieredUpdateTimes>
                 <unsignedInt>60</unsignedInt>
                 <unsignedInt>120</unsignedInt>
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
-        </Definition> -->
+        </Definition> 
 
         <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">            <!--Fertiger-->
             <Id>
