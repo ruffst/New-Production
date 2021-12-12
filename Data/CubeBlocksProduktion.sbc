@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
-    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition"><!--SurvivalKitLarge-->
       <Id>
         <TypeId>SurvivalKit</TypeId>
         <SubtypeId>SurvivalKitLarge</SubtypeId>
@@ -11,10 +11,6 @@
       <Description>Preiset die Pottsau und fürchtet euch vor dem Harlock</Description>
       <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
       <CubeSize>Large</CubeSize>
-      <ResearchGroup>
-      </ResearchGroup>
-      <ResearchCost>
-      </ResearchCost>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -26,31 +22,13 @@
               <SubtypeId>Scrap</SubtypeId>
             </DeconstructId>
           </Component>
-          <Component Subtype="Construction" Count="2" >
+          <Component Subtype="Construction" Count="10" >
             <DeconstructId>
               <TypeId>Ore</TypeId>
               <SubtypeId>Scrap</SubtypeId>
             </DeconstructId>
           </Component>
-          <Component Subtype="Medical" Count="3" >
-            <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>Scrap</SubtypeId>
-            </DeconstructId>
-          </Component>
-          <Component Subtype="Motor" Count="4" >
-            <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>Scrap</SubtypeId>
-            </DeconstructId>
-          </Component>
-          <Component Subtype="Display" Count="1" >
-            <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>Scrap</SubtypeId>
-            </DeconstructId>
-          </Component>
-          <Component Subtype="Computer" Count="5" >
+          <Component Subtype="Computer" Count="1" >
             <DeconstructId>
               <TypeId>Ore</TypeId>
               <SubtypeId>Scrap</SubtypeId>
@@ -111,7 +89,7 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-       <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition"><!--SurvivalKit-->
             <Id>
                 <TypeId>SurvivalKit</TypeId>
                 <SubtypeId>SurvivalKit</SubtypeId>
@@ -137,25 +115,7 @@
                     <SubtypeId>Scrap</SubtypeId>
                   </DeconstructId>
                 </Component>
-                <Component Subtype="Medical" Count="3">
-                  <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>Scrap</SubtypeId>
-                  </DeconstructId>
-                </Component>
-                <Component Subtype="Motor" Count="4" >
-                  <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>Scrap</SubtypeId>
-                  </DeconstructId>
-                </Component>
-                <Component Subtype="Display" Count="1" >
-                  <DeconstructId>
-                    <TypeId>Ore</TypeId>
-                    <SubtypeId>Scrap</SubtypeId>
-                  </DeconstructId>
-                </Component>
-                <Component Subtype="Computer" Count="5" >
+                <Component Subtype="Computer" Count="1" >
                   <DeconstructId>
                     <TypeId>Ore</TypeId>
                     <SubtypeId>Scrap</SubtypeId>
@@ -219,7 +179,7 @@
                 <unsignedInt>120</unsignedInt>
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
-        </Definition>
+    </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!---Holzvergaser-->
       <Id>
@@ -2016,8 +1976,7 @@
     <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition"><!---OxygenGeneratorLarge-->
       <Id>
         <TypeId>OxygenGenerator</TypeId>
-        <SubtypeId>
-        </SubtypeId>
+        <SubtypeId>OxygenGenerator</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
@@ -2249,7 +2208,7 @@
       </BlueprintClasses>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <BlockPairName>OxygenGenerator</BlockPairName>
+      <BlockPairName>OxygenGeneratorSmall</BlockPairName>
       <GenerateSound>BlockOxyGenProcess</GenerateSound>
       <IdleSound>BlockOxyGenIdle</IdleSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
