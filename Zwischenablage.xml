@@ -3,25 +3,40 @@
 
 
 
-OxygenTank
+<BlueprintClasses>
+
+        <Class>            <!--Tools-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Tools</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+            <Description>Description_BlueprintClass_Tools</Description>
+            <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\tool.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\tool_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
+    <BlockVariantGroups>
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <DisplayName>DisplayName_Block_LightArmorBlock</DisplayName>
+            <Description>Description_LightArmor</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+            </Blocks>
+        </BlockVariantGroup>        
 
 
-            <string>OxygenTank/LargeHydrogenTank_Gold</string>
-            <string>OxygenTank/LargeHydrogenTankSmall_Gold</string>
-            <string>OxygenTank/SmallHydrogenTank_Gold</string>
-            <string>OxygenTank/SmallHydrogenTankSmall_Gold</string>
-
-
-            LargeOreDetector_Gold
-            SmallBlockOreDetector_Gold
-            LargeOreDetector_Platin
-            SmallBlockOreDetector_Platin
-            LargeOreDetector_Titan
-            SmallBlockOreDetector_Titan
-
-
-
-
-
+<ResearchBlocks>
+    <ResearchBlock xsi:type="ResearchBlock">      <!--SafeZoneBlock   0-->
+      <Id Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>Assembler1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+</ResearchBlocks>
 
 

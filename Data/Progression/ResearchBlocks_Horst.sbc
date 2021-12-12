@@ -84,6 +84,12 @@
         <GroupSubtype>Assembler1</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">      <!--SafeZoneBlock  Assembler2-->
+      <Id Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>Assembler2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
 
   <!--Freischatung Assembler3-->
 
@@ -5310,12 +5316,6 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SafeZoneBlock  Meilenstein_Jumpdrive-->
-          <Id Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Jumpdrive</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
 
   <!--Meilenstein_Jumpdrive_Gold -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Gold  Meilenstein_Jumpdrive-->
