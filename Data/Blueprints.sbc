@@ -604,10 +604,10 @@
 
 <!--Components-->
 
-    <Blueprint>      <!--ConstructionComponent (Schrauben)-->      <!--New-->
+    <Blueprint>      <!--Construction (Schrauben)-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ConstructionComponent</SubtypeId>
+        <SubtypeId>Construction</SubtypeId>
       </Id>
       <DisplayName>Schrauben</DisplayName>
       <Icon>Textures\GUI\Icons\component\screws.dds</Icon>
@@ -1019,7 +1019,7 @@
     <Blueprint>      <!--KupferComputer (Computer)-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ComputerComponent</SubtypeId>
+        <SubtypeId>Computer</SubtypeId>
       </Id>
       <DisplayName>Kupfer Computer</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>
@@ -1030,6 +1030,60 @@
         <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>      <!--TitanMotor-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitanMotor</SubtypeId>
+      </Id>
+      <DisplayName>Titan Motor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\titan_motor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
+        <Item Amount="1" TypeId="Component" SubtypeId="TitanStrator" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Titandraht" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="1" TypeId="Component" SubtypeId="TitanComputer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TitanMotor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>      <!--GoldMotor-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldMotor</SubtypeId>
+      </Id>
+      <DisplayName>Gold Motor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\gold_motor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
+        <Item Amount="1" TypeId="Component" SubtypeId="GoldStrator" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Golddraht" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="1" TypeId="Component" SubtypeId="GoldComputer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="GoldMotor" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+    <Blueprint>      <!--PlatinMotor-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinMotor</SubtypeId>
+      </Id>
+      <DisplayName>Platin Motor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\platin_motor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Platindraht" />
+        <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PlatinComputer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PlatinMotor" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
@@ -1105,6 +1159,63 @@
       <Result Amount="1" TypeId="Component" SubtypeId="Reactor" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
     </Blueprint>
+    <Blueprint>      <!--GoldReactor-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldReactor</SubtypeId>
+      </Id>
+      <DisplayName>Gold Reaktor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\gold_reactor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bleiplatte" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="5" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="10" TypeId="Component" SubtypeId="GoldStrator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Reactor" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="GoldReactor" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--TitanReactor-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitanReactor</SubtypeId>
+      </Id>
+      <DisplayName>Titan Reaktor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\titan_reactor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bleiplatte" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="5" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="10" TypeId="Component" SubtypeId="TitanStrator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PlatinReactor" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TitanReactor" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--PlatinReactor-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinReactor</SubtypeId>
+      </Id>
+      <DisplayName>Platin Reaktor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\platin_reactor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="10" TypeId="Component" SubtypeId="Bleiplatte" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="5" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PlatinStrator" />
+        <Item Amount="10" TypeId="Component" SubtypeId="GoldReactor" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PlatinReactor" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
     <Blueprint>      <!--ThrustComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -1117,9 +1228,63 @@
         <Item Amount="20" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="20" TypeId="Component" SubtypeId="ConstructionComponent" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Thrust" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--GoldThrust-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GoldThrust</SubtypeId>
+      </Id>
+      <DisplayName>Gold Triebwerk</DisplayName>
+      <Icon>Textures\GUI\Icons\component\gold_thruster.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="20" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="15" TypeId="Component" SubtypeId="Thrust" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="GoldThrust" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--PlatinThrust-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PlatinThrust</SubtypeId>
+      </Id>
+      <DisplayName>Platin Triebwerk</DisplayName>
+      <Icon>Textures\GUI\Icons\component\platin_thruster.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="20" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="15" TypeId="Component" SubtypeId="GoldThrust" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PlatinThrust" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--TitanThrust-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TitanThrust</SubtypeId>
+      </Id>
+      <DisplayName>Titan Triebwerk</DisplayName>
+      <Icon>Textures\GUI\Icons\component\titan_thruster.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="20" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="15" TypeId="Component" SubtypeId="PlatinThrust" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="TitanThrust" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--GravityGeneratorComponent-->
@@ -1132,7 +1297,7 @@
       <Prerequisites>
         <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
         <Item Amount="10" TypeId="Component" SubtypeId="SmallTube" />
-        <Item Amount="2" TypeId="Component" SubtypeId="KupferComputer" />
+        <Item Amount="2" TypeId="Component" SubtypeId="Computer" />
         <Item Amount="6" TypeId="Component" SubtypeId="KupferSpulle" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Gold" />
         <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
@@ -1167,7 +1332,7 @@
         <Item Amount="8" TypeId="Component" SubtypeId="SteelPlate" />
         <Item Amount="3" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="3" TypeId="Component" SubtypeId="Silicon" />
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="RadioCommunication" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -1184,7 +1349,7 @@
         <Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
         <Item Amount="3" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="15" TypeId="Component" SubtypeId="Nickel" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Detector" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -1248,7 +1413,7 @@
         <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
         <Item Amount="10" TypeId="Ingot" SubtypeId="Lithium" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="20" TypeId="Component" SubtypeId="ConstructionComponent" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PowerCell" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>

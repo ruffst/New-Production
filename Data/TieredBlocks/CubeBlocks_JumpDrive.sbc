@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-<!--        Tier Gold-->
+    <!--        Tier Gold-->
     <!--LargeJumpDrive_Gold-->
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
@@ -41,7 +41,7 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="180" >
+        <Component Subtype="PowerCell" Count="180">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
@@ -53,10 +53,10 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="450">
+        <Component Subtype="GoldComputer" Count="450">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="60">
@@ -72,7 +72,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
@@ -104,7 +104,7 @@
       <PCU>100</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-<!--        Tier Platin-->
+    <!--        Tier Platin-->
     <!--LargeJumpDrive_Platin-->
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
@@ -144,7 +144,7 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="270" >
+        <Component Subtype="PowerCell" Count="270">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
@@ -156,10 +156,10 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="675">
+        <Component Subtype="PlatinComputer" Count="675">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="90">
@@ -175,7 +175,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
@@ -207,8 +207,8 @@
       <PCU>100</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-<!--        Tier Titan-->
-<!--Large Jump Drive-->
+    <!--        Tier Titan-->
+    <!--Large Jump Drive-->
     <!--LargeJumpDrive_Titan-->
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
@@ -260,10 +260,10 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="1013">
+        <Component Subtype="TitanComputer" Count="1013">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="135">
@@ -279,7 +279,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-<!--        Tier Gold-->
-<!--LargeBlockLargeContainer_Gold-->
+    <!--        Tier Gold-->
+    <!--LargeBlockLargeContainer_Gold-->
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
@@ -42,10 +42,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="30">
+        <Component Subtype="GoldMotor" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="2">
@@ -54,10 +54,10 @@
             <SubtypeId>GlassScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="12">
+        <Component Subtype="GoldComputer" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="30">
@@ -73,7 +73,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -131,16 +131,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="9">
+        <Component Subtype="GoldComputer" Count="9">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="12">
+        <Component Subtype="GoldMotor" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="2">
@@ -156,7 +156,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
@@ -185,7 +185,7 @@
         <Z>2.5</Z>
       </InventorySize>
     </Definition>
-<!--        Tier Platin-->
+    <!--        Tier Platin-->
     <!--LargeBlockLargeContainer_Platin-->
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
@@ -226,10 +226,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="45">
+        <Component Subtype="PlatinMotor" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="3">
@@ -238,10 +238,10 @@
             <SubtypeId>GlassScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="18">
+        <Component Subtype="PlatinComputer" Count="18">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="45">
@@ -257,7 +257,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -315,16 +315,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="14">
+        <Component Subtype="PlatinComputer" Count="14">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="18">
+        <Component Subtype="PlatinMotor" Count="18">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="3">
@@ -340,7 +340,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
@@ -369,7 +369,7 @@
         <Z>2.5</Z>
       </InventorySize>
     </Definition>
-<!--        Tier Titan-->
+    <!--        Tier Titan-->
     <!--LargeBlockLargeContainer_Titan-->
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
@@ -410,10 +410,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="68">
+        <Component Subtype="TitanMotor" Count="68">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="4">
@@ -422,10 +422,10 @@
             <SubtypeId>GlassScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="27">
+        <Component Subtype="TitanComputer" Count="27">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="68">
@@ -441,7 +441,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -499,16 +499,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="21">
+        <Component Subtype="TitanComputer" Count="21">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="27">
+        <Component Subtype="TitanMotor" Count="27">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="4">
@@ -524,7 +524,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />

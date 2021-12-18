@@ -38,10 +38,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="2">
+        <Component Subtype="GoldThrust" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="2">
@@ -57,7 +57,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="GoldThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -159,10 +159,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="18">
+        <Component Subtype="GoldThrust" Count="18">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="2">
@@ -178,7 +178,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="GoldThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -282,10 +282,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="120">
+        <Component Subtype="GoldThrust" Count="120">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="30">
@@ -301,7 +301,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="GoldThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -403,10 +403,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="1440">
+        <Component Subtype="GoldThrust" Count="1440">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="45">
@@ -422,7 +422,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="GoldThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -528,10 +528,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="3">
+        <Component Subtype="PlatinThrust" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="3">
@@ -547,7 +547,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="GoldThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -649,10 +649,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="27">
+        <Component Subtype="PlatinThrust" Count="27">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="3">
@@ -668,7 +668,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="PlatinThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -772,10 +772,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="180">
+        <Component Subtype="PlatinThrust" Count="180">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="45">
@@ -791,7 +791,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="PlatinThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -893,10 +893,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="2160">
+        <Component Subtype="PlatinThrust" Count="2160">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="68">
@@ -912,7 +912,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="PlatinThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -1018,10 +1018,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="4">
+        <Component Subtype="TitanThrust" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="4">
@@ -1037,7 +1037,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="TitanThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1139,10 +1139,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="41">
+        <Component Subtype="TitanThrust" Count="41">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="4">
@@ -1158,7 +1158,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="TitanThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -1262,10 +1262,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="270">
+        <Component Subtype="TitanThrust" Count="270">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="68">
@@ -1281,7 +1281,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="TitanThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1383,10 +1383,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="3240">
+        <Component Subtype="TitanThrust" Count="3240">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="102">
@@ -1402,7 +1402,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="TitanThrust" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />

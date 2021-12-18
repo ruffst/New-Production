@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-<!--        Tier Gold-->
-<!--Small Gyro-->
+    <!--        Tier Gold-->
+    <!--Small Gyro-->
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
@@ -37,16 +37,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="3">
+        <Component Subtype="GoldMotor" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="5">
+        <Component Subtype="GoldComputer" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="15">
@@ -56,7 +56,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
@@ -81,7 +81,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Large Gyro-->
+    <!--Large Gyro-->
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
@@ -121,16 +121,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="GoldMotor" Count="6">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="8">
+        <Component Subtype="GoldComputer" Count="8">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="150">
@@ -140,7 +140,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
@@ -166,8 +166,8 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--        Tier Platin-->
-<!--Small Gyro-->
+    <!--        Tier Platin-->
+    <!--Small Gyro-->
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
@@ -202,16 +202,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="5">
+        <Component Subtype="PlatinMotor" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="7">
+        <Component Subtype="PlatinComputer" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="23">
@@ -221,7 +221,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
@@ -246,7 +246,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Large Gyro-->
+    <!--Large Gyro-->
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
@@ -286,16 +286,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="9">
+        <Component Subtype="PlatinMotor" Count="9">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="12">
+        <Component Subtype="PlatinComputer" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="225">
@@ -305,7 +305,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
@@ -331,8 +331,8 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--        Tier Titan-->
-<!--Small Gyro-->
+    <!--        Tier Titan-->
+    <!--Small Gyro-->
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
@@ -367,16 +367,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="7">
+        <Component Subtype="TitanMotor" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="11">
+        <Component Subtype="TitanComputer" Count="11">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="34">
@@ -386,7 +386,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
@@ -411,7 +411,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Large Gyro-->
+    <!--Large Gyro-->
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
@@ -451,16 +451,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="14">
+        <Component Subtype="TitanMotor" Count="14">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="17">
+        <Component Subtype="TitanComputer" Count="17">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="338">
@@ -470,7 +470,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>

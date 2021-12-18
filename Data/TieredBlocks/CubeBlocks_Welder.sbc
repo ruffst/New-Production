@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-<!--        Tier Gold-->
-<!--Small Welder-->
+    <!--        Tier Gold-->
+    <!--Small Welder-->
     <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
@@ -39,16 +39,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="3">
+        <Component Subtype="GoldMotor" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="3">
+        <Component Subtype="GoldComputer" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="3">
@@ -64,7 +64,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm" />
@@ -94,7 +94,7 @@
       <PCU>150</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Large Welder-->
+    <!--Large Welder-->
     <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
@@ -131,16 +131,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="3">
+        <Component Subtype="GoldMotor" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="3">
+        <Component Subtype="GoldComputer" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="8">
@@ -156,14 +156,14 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -196,8 +196,8 @@
       <SensorRadius>10.5000</SensorRadius>
       <PCU>150</PCU>
     </Definition>
-<!--        Tier Platin-->
-<!--Small Welder-->
+    <!--        Tier Platin-->
+    <!--Small Welder-->
     <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
@@ -234,16 +234,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="5">
+        <Component Subtype="PlatinMotor" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="5">
+        <Component Subtype="PlatinComputer" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="5">
@@ -259,7 +259,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm" />
@@ -289,7 +289,7 @@
       <PCU>150</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Large Welder-->
+    <!--Large Welder-->
     <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
@@ -326,16 +326,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="5">
+        <Component Subtype="PlatinMotor" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="5">
+        <Component Subtype="PlatinComputer" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="12">
@@ -351,14 +351,14 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -391,8 +391,8 @@
       <SensorRadius>18.3750</SensorRadius>
       <PCU>150</PCU>
     </Definition>
-<!--        Tier Titan-->
-<!--Small Welder-->
+    <!--        Tier Titan-->
+    <!--Small Welder-->
     <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
@@ -429,16 +429,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="7">
+        <Component Subtype="TitanMotor" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="7">
+        <Component Subtype="TitanComputer" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="7">
@@ -454,7 +454,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm" />
@@ -484,7 +484,7 @@
       <PCU>150</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Large Welder-->
+    <!--Large Welder-->
     <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
@@ -521,16 +521,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="7">
+        <Component Subtype="TitanMotor" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="7">
+        <Component Subtype="TitanComputer" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="17">
@@ -546,14 +546,14 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>

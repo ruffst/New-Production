@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-<!--Tier Gold-->
-  <!--SmallBlockBatteryBlock_Gold-->
+    <!--Tier Gold-->
+    <!--SmallBlockBatteryBlock_Gold-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
@@ -36,10 +36,10 @@
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="3">
+        <Component Subtype="GoldComputer" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="5">
@@ -55,7 +55,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
@@ -113,16 +113,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PowerCell" Count="120" >
+        <Component Subtype="PowerCell" Count="120">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="38">
+        <Component Subtype="GoldComputer" Count="38">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="30">
@@ -138,7 +138,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -170,8 +170,8 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
-<!--Tier Platin-->
-<!--SmallBlockBatteryBlock_Platin-->
+    <!--Tier Platin-->
+    <!--SmallBlockBatteryBlock_Platin-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
@@ -202,13 +202,13 @@
         <Component Subtype="PowerCell" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="5">
+        <Component Subtype="PlatinComputer" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="7">
@@ -224,7 +224,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
@@ -285,13 +285,13 @@
         <Component Subtype="PowerCell" Count="180">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="57">
+        <Component Subtype="PlatinComputer" Count="57">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="45">
@@ -307,7 +307,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
@@ -339,8 +339,8 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
-<!--Tier Titan-->
-<!--SmallBlockBatteryBlock_Titan-->
+    <!--Tier Titan-->
+    <!--SmallBlockBatteryBlock_Titan-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
@@ -371,13 +371,13 @@
         <Component Subtype="PowerCell" Count="68">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="7">
+        <Component Subtype="TitanComputer" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="11">
@@ -393,7 +393,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
@@ -454,13 +454,13 @@
         <Component Subtype="PowerCell" Count="270">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="85">
+        <Component Subtype="TitanComputer" Count="85">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="68">
@@ -476,7 +476,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-<!--Tier Gold-->
-<!--Small Small Reactor-->
+    <!--Tier Gold-->
+    <!--Small Small Reactor-->
     <!--SmallBlockSmallGenerator_Gold-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -44,22 +44,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="5">
-          <DeconstructId>
+        <Component Subtype="GoldReactor" Count="5">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="2">
+        <Component Subtype="GoldMotor" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="15">
+        <Component Subtype="GoldComputer" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="3">
@@ -69,7 +69,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -111,7 +111,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Small Large Reactor-->
+    <!--Small Large Reactor-->
     <!--SmallBlockLargeGenerator_Gold-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -153,22 +153,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="143">
-          <DeconstructId>
+        <Component Subtype="GoldReactor" Count="143">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="8">
+        <Component Subtype="GoldMotor" Count="8">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="38">
+        <Component Subtype="GoldComputer" Count="38">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="30">
@@ -178,7 +178,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -223,7 +223,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-<!--Small Reactor-->
+    <!--Small Reactor-->
     <!--LargeBlockSmallGenerator_Gold-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -264,22 +264,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="150">
-          <DeconstructId>
+        <Component Subtype="GoldReactor" Count="150">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="9">
+        <Component Subtype="GoldMotor" Count="9">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="38">
+        <Component Subtype="GoldComputer" Count="38">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="45">
@@ -289,7 +289,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
         <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
@@ -332,7 +332,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Large Reactor-->
+    <!--Large Reactor-->
     <!--LargeBlockLargeGenerator_Gold-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -379,22 +379,22 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="3000">
-          <DeconstructId>
+        <Component Subtype="GoldReactor" Count="3000">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="30">
+        <Component Subtype="GoldMotor" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="113">
+        <Component Subtype="GoldComputer" Count="113">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="300">
@@ -404,7 +404,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -449,8 +449,8 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Tier Platin-->
-<!--Small Small Reactor-->
+    <!--Tier Platin-->
+    <!--Small Small Reactor-->
     <!--SmallBlockSmallGenerator_Platin-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -492,22 +492,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="7">
-          <DeconstructId>
+        <Component Subtype="PlatinReactor" Count="7">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="3">
+        <Component Subtype="PlatinMotor" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="23">
+        <Component Subtype="PlatinComputer" Count="23">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="5">
@@ -517,7 +517,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -559,7 +559,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Small Large Reactor-->
+    <!--Small Large Reactor-->
     <!--SmallBlockLargeGenerator_Platin-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -601,22 +601,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="214">
-          <DeconstructId>
+        <Component Subtype="PlatinReactor" Count="214">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="12">
+        <Component Subtype="PlatinMotor" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="57">
+        <Component Subtype="PlatinComputer" Count="57">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="45">
@@ -626,7 +626,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -671,8 +671,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-<!--Small Reactor-->
-<!--LargeBlockSmallGenerator_Platin-->
+    <!--Small Reactor-->
+    <!--LargeBlockSmallGenerator_Platin-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -712,22 +712,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="225">
-          <DeconstructId>
+        <Component Subtype="PlatinReactor" Count="225">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="14">
+        <Component Subtype="PlatinMotor" Count="14">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="57">
+        <Component Subtype="PlatinComputer" Count="57">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="68">
@@ -737,7 +737,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
         <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
@@ -780,7 +780,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Large Reactor-->
+    <!--Large Reactor-->
     <!--LargeBlockLargeGenerator_Platin-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -827,22 +827,22 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="4500">
-          <DeconstructId>
+        <Component Subtype="PlatinReactor" Count="4500">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="45">
+        <Component Subtype="PlatinMotor" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="169">
+        <Component Subtype="PlatinComputer" Count="169">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="450">
@@ -852,7 +852,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -897,8 +897,8 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Tier Titan-->
-<!--Small Small Reactor-->
+    <!--Tier Titan-->
+    <!--Small Small Reactor-->
     <!--SmallBlockSmallGenerator_Titan-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -940,22 +940,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="11">
-          <DeconstructId>
+        <Component Subtype="TitanReactor" Count="11">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="4">
+        <Component Subtype="TitanMotor" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="34">
+        <Component Subtype="TitanComputer" Count="34">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="7">
@@ -965,7 +965,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1007,7 +1007,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Small Large Reactor-->
+    <!--Small Large Reactor-->
     <!--SmallBlockLargeGenerator_Titan-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -1049,22 +1049,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="321">
-          <DeconstructId>
+        <Component Subtype="TitanReactor" Count="321">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="17">
+        <Component Subtype="TitanMotor" Count="17">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="85">
+        <Component Subtype="TitanComputer" Count="85">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="68">
@@ -1074,7 +1074,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -1119,7 +1119,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-<!--Small Reactor-->
+    <!--Small Reactor-->
     <!--LargeBlockSmallGenerator_Titan-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -1160,22 +1160,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="338">
-          <DeconstructId>
+        <Component Subtype="TitanReactor" Count="338">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="21">
+        <Component Subtype="TitanMotor" Count="21">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="85">
+        <Component Subtype="TitanComputer" Count="85">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="102">
@@ -1185,7 +1185,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
         <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
@@ -1228,7 +1228,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-<!--Large Reactor-->
+    <!--Large Reactor-->
     <!--LargeBlockLargeGenerator_Titan-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -1275,22 +1275,22 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="6750">
-          <DeconstructId>
+        <Component Subtype="TitanReactor" Count="6750">
+                  <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="68">
+        <Component Subtype="TitanMotor" Count="68">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="254">
+        <Component Subtype="TitanComputer" Count="254">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="675">
@@ -1300,7 +1300,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />

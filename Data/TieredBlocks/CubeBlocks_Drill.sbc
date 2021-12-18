@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-<!--        Tier Gold-->
-<!--Small Drill-->
+    <!--        Tier Gold-->
+    <!--Small Drill-->
     <!--SmallBlockDrill_Gold-->
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
@@ -39,16 +39,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="2">
+        <Component Subtype="GoldMotor" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="2">
+        <Component Subtype="GoldComputer" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="18">
@@ -58,7 +58,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <Center x="1" y="1" z="5" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
@@ -70,7 +70,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -106,7 +106,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>190</PCU>
     </Definition>
-<!--Large Drill-->
+    <!--Large Drill-->
     <!--LargeBlockDrill_Gold-->
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
@@ -144,16 +144,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="8">
+        <Component Subtype="GoldMotor" Count="8">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="8">
+        <Component Subtype="GoldComputer" Count="8">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="180">
@@ -163,7 +163,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -177,7 +177,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -213,8 +213,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>190</PCU>
     </Definition>
-<!--        Tier Platin-->
-<!--Small Drill-->
+    <!--        Tier Platin-->
+    <!--Small Drill-->
     <!--SmallBlockDrill_Platin-->
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
@@ -251,16 +251,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="3">
+        <Component Subtype="PlatinMotor" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="3">
+        <Component Subtype="PlatinComputer" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="27">
@@ -270,7 +270,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <Center x="1" y="1" z="5" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
@@ -282,7 +282,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -318,7 +318,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>190</PCU>
     </Definition>
-<!--Large Drill-->
+    <!--Large Drill-->
     <!--LargeBlockDrill_Platin-->
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
@@ -356,16 +356,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="12">
+        <Component Subtype="PlatinMotor" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="12">
+        <Component Subtype="PlatinComputer" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="270">
@@ -375,7 +375,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -389,7 +389,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -425,8 +425,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>190</PCU>
     </Definition>
-<!--        Tier Titan-->
-<!--Small Drill-->
+    <!--        Tier Titan-->
+    <!--Small Drill-->
     <!--SmallBlockDrill_Titan-->
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
@@ -463,16 +463,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="4">
+        <Component Subtype="TitanMotor" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="4">
+        <Component Subtype="TitanComputer" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="41">
@@ -482,7 +482,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <Center x="1" y="1" z="5" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
@@ -494,7 +494,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DrillerConstruction_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -530,7 +530,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>190</PCU>
     </Definition>
-<!--Large Drill-->
+    <!--Large Drill-->
     <!--LargeBlockDrill_Titan-->
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
@@ -568,16 +568,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="17">
+        <Component Subtype="TitanMotor" Count="17">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="17">
+        <Component Subtype="TitanComputer" Count="17">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="405">
@@ -587,7 +587,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -601,7 +601,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DrillConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-    <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>

@@ -324,7 +324,7 @@
             <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneCargoMaterialBP" />
 
         <!--SimpleComponents-->
-            <Entry Class="SimpleComponents" BlueprintSubtypeId="ConstructionComponent" />
+            <Entry Class="SimpleComponents" BlueprintSubtypeId="Construction" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="Girder" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="MetalGrid" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="InteriorPlate" />
@@ -344,7 +344,7 @@
         <!--SurvivalHorst-->
             <Entry Class="SurvivalHorst" BlueprintSubtypeId="StoneOreToIngotBasic" />
             <Entry Class="SurvivalHorst" BlueprintSubtypeId="SteelPlate" />
-            <Entry Class="SurvivalHorst" BlueprintSubtypeId="ConstructionComponent" />
+            <Entry Class="SurvivalHorst" BlueprintSubtypeId="Construction" />
             <Entry Class="SurvivalHorst" BlueprintSubtypeId="SmallTube" />
 
         <!--WoodToKohlenstoff-->
@@ -415,7 +415,7 @@
             <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="SmallTube" />
             <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="LargeTube" />
             <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="GirderComponent" />
-            <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="ConstructionComponent" />
+            <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="Construction" />
 
         <!--ComponentsPlattenpresse-->                      <!--New-->
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="SteelPlate" />
@@ -450,6 +450,15 @@
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="DetectorComponent" />
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="PowerCell" />
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="MedicalComponent" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="GoldMotor" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="GoldReactor" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="GoldThrust" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="PlatinMotor" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="PlatinReactor" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="PlatinThrust" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="TitanMotor" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="TitanReactor" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="TitanThrust" />
 
         <!--ComponentsVerbrauchsmaterialAssembler-->        <!--New-->
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="ExplosivesComponent" />
