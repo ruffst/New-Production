@@ -1,0 +1,2327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <!-- Region Alu ARMOR -->
+    <!-- Large -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AluLargeBlockArmorBlock</SubtypeId>
+      </Id>
+      <DisplayName>Alu Block</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_cube.dds</Icon>
+      <Description>Leichte stabile Panzerung</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SquarePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SquarePlateConstruction_2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\SquarePlateConstruction_3.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>LightArmorBlock</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <NavigationDefinition>Default</NavigationDefinition>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AluLargeBlockArmorSlope</SubtypeId>
+      </Id>
+      <DisplayName>Alu Block Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_slope.dds</Icon>
+      <Description>Leichte stabile Panzerung</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\SlopePlate.mwm" ScaleTileV="3" PatternWidth="4" PatternHeight="4" />
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SlopePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SlopePlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\SlopePlateConstruction_3.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>LightArmorSlope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AluLargeBlockArmorCorner</SubtypeId>
+      </Id>
+      <DisplayName>Alu Block Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_corner.dds</Icon>
+      <Description>Leichte stabile Panzerung</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\FaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1.0" EndY="1.0" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\FaceTrianglePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\FaceTrianglePlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\FaceTrianglePlateConstruction_3.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>LightArmorCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AluLargeBlockArmorCornerInv</SubtypeId>
+      </Id>
+      <DisplayName>Alu Block Corner Inv.</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_inv_corner.dds</Icon>
+      <Description>Leichte stabile Panzerung</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\InvFaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="16">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0" StartY="1.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="1.0" EndX="1.0" EndY="0.0" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\InvFaceTrianglePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\InvFaceTrianglePlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\InvFaceTrianglePlateConstruction_3.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>LightArmorInvCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <!-- Region Titan ARMOR -->
+    <!-- Large -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>TitanLargeHeavyBlockArmorBlock</SubtypeId>
+      </Id>
+      <DisplayName>Titan Block</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_cube.dds</Icon>
+      <Description>Schwere stabile Panzerung</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="TitanPlate" Count="135">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="TitanPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_3.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>HeavyArmorBlock</BlockPairName>
+      <DeformationRatio>0.2</DeformationRatio>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>TitanLargeHeavyBlockArmorSlope</SubtypeId>
+      </Id>
+      <DisplayName>Titan Block Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_slope.dds</Icon>
+      <Description>Schwere stabile Panzerung</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\HeavySlopePlate.mwm" ScaleTileV="3" PatternWidth="4" PatternHeight="4" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="TitanPlate" Count="65">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="TitanPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySlopePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySlopePlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySlopePlateConstruction_3.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>HeavyArmorSlope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <DeformationRatio>0.2</DeformationRatio>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>TitanLargeHeavyBlockArmorCorner</SubtypeId>
+      </Id>
+      <DisplayName>Titan Block Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_corner.dds</Icon>
+      <Description>Schwere stabile Panzerung</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="TitanPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanPlate" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="TitanPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1.0" EndY="1.0" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavyFacePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavyFacePlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyFacePlateConstruction_3.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>HeavyArmorCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <DeformationRatio>0.2</DeformationRatio>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>TitanLargeHeavyBlockArmorCornerInv</SubtypeId>
+      </Id>
+      <DisplayName>Titan Block Corner Inv.</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_inv_corner.dds</Icon>
+      <Description>Schwere stabile Panzerung</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Large\Armor\HeavyInvFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="TitanPlate" Count="110">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="TitanPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0" StartY="1.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="1.0" EndX="1.0" EndY="0.0" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavyInvFacePlateConstruction_3.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <DeformationRatio>0.2</DeformationRatio>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <!-- Region Alu ARMOR -->
+    <!-- Small -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AluSmallBlockArmorBlock</SubtypeId>
+      </Id>
+      <DisplayName>Alu Block</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_cube.dds</Icon>
+      <Description>Leichte stabile Panzerung</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\SquarePlateConstruction_1.mwm" RandomOrientation="true" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\SquarePlateConstruction_2.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>LightArmorBlock</BlockPairName>
+      <DeformationRatio>0.32</DeformationRatio>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <EdgeType>Light</EdgeType>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AluSmallBlockArmorSlope</SubtypeId>
+      </Id>
+      <DisplayName>Alu Block Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_slope.dds</Icon>
+      <Description>Leichte stabile Panzerung</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\SlopePlate.mwm" ScaleTileV="3" PatternWidth="4" PatternHeight="4" />
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\SlopePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\SlopePlateConstruction_2.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>LightArmorSlope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <DeformationRatio>0.32</DeformationRatio>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <EdgeType>Light</EdgeType>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AluSmallBlockArmorCorner</SubtypeId>
+      </Id>
+      <DisplayName>Alu Block Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_corner.dds</Icon>
+      <Description>Leichte stabile Panzerung</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\FaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1.0" EndY="1.0" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\FaceTrianglePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\FaceTrianglePlateConstruction_2.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>LightArmorCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <DeformationRatio>0.32</DeformationRatio>
+      <BuildTimeSeconds>1</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <EdgeType>Light</EdgeType>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AluSmallBlockArmorCornerInv</SubtypeId>
+      </Id>
+      <DisplayName>Alu Block Corner Inv.</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_inv_corner.dds</Icon>
+      <Description>Leichte stabile Panzerung</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\InvFaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0" StartY="1.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="1.0" EndX="1.0" EndY="0.0" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\InvFaceTrianglePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\InvFaceTrianglePlateConstruction_2.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>LightArmorInvCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <DeformationRatio>0.15</DeformationRatio>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <EdgeType>Light</EdgeType>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <!-- Region Titan ARMOR -->
+    <!-- Small -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>TitanSmallHeavyBlockArmorBlock</SubtypeId>
+      </Id>
+      <DisplayName>Titan Block</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_cube.dds</Icon>
+      <Description>Schwere stabile Panzerung</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Box</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="TitanPlate" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="TitanPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavySquarePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>HeavyArmorBlock</BlockPairName>
+      <DeformationRatio>0.06</DeformationRatio>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <EdgeType>Heavy</EdgeType>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>TitanSmallHeavyBlockArmorSlope</SubtypeId>
+      </Id>
+      <DisplayName>Titan Block Slope</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_slope.dds</Icon>
+      <Description>Schwere stabile Panzerung</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Slope</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\HeavySlopePlate.mwm" ScaleTileV="3" PatternWidth="4" PatternHeight="4" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="TitanPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="TitanPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavySlopePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavySlopePlateConstruction_2.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>HeavyArmorSlope</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <DeformationRatio>0.06</DeformationRatio>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <EdgeType>Heavy</EdgeType>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>TitanSmallHeavyBlockArmorCorner</SubtypeId>
+      </Id>
+      <DisplayName>Titan Block Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_corner.dds</Icon>
+      <Description>Schwere stabile Panzerung</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>Corner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="TitanPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="TitanPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1.0" EndY="1.0" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyFacePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyFacePlateConstruction_2.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>HeavyArmorCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfY</MirroringZ>
+      <DeformationRatio>0.06</DeformationRatio>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <EdgeType>Heavy</EdgeType>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>TitanSmallHeavyBlockArmorCornerInv</SubtypeId>
+      </Id>
+      <DisplayName>Titan Block Corner Inv.</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_inv_corner.dds</Icon>
+      <Description>Schwere stabile Panzerung</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>Cube</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <CubeDefinition>
+        <CubeTopology>InvCorner</CubeTopology>
+        <ShowEdges>true</ShowEdges>
+        <Sides>
+          <Side Model="Models\Cubes\Small\Armor\HeavyInvFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyCornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavyCornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+          <Side Model="Models\Cubes\Small\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+        </Sides>
+      </CubeDefinition>
+      <Components>
+        <Component Subtype="TitanPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="TitanPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Front" StartX="0" StartY="1.0" EndX="0.5" EndY="0.5" />
+        <MountPoint Side="Front" StartX="0.5" StartY="1.0" EndX="1.0" EndY="0.0" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+      </MountPoints>
+      <PhysicsOption>Convex</PhysicsOption>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Armor\HeavyInvFacePlateConstruction_2.mwm" />
+      </BuildProgressModels>
+      <Skeleton>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="2" y="2" z="0" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="0" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="2" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="1" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="2" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="1" y="0" z="1" />
+          <BoneOffset x="127" y="127" z="127" />
+        </BoneInfo>
+      </Skeleton>
+      <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+      <MirroringX>YHalfX</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>YHalfZ</MirroringZ>
+      <DeformationRatio>0.06</DeformationRatio>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <EdgeType>Heavy</EdgeType>
+      <PCU>1</PCU>
+      <PCUConsole>2</PCUConsole>
+    </Definition>
+  </CubeBlocks>
+</Definitions>

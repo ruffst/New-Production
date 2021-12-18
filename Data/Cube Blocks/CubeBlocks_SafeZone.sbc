@@ -74,11 +74,11 @@
             <DamagedSound>ParticleElectrical</DamagedSound>
 
             <!-- Safezone info -->
-            <MaxSafeZoneRadius>45</MaxSafeZoneRadius>
+            <MaxSafeZoneRadius>90</MaxSafeZoneRadius>
             <MinSafeZoneRadius>10</MinSafeZoneRadius>
             <DefaultSafeZoneRadius>20</DefaultSafeZoneRadius>
             <SafeZoneActivationTimeS>60</SafeZoneActivationTimeS>
-            <MaxSafeZonePowerDrainkW>4500</MaxSafeZonePowerDrainkW>
+            <MaxSafeZonePowerDrainkW>24500</MaxSafeZonePowerDrainkW>
             <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
             <SafeZoneUpkeep>0</SafeZoneUpkeep>
             <SafeZoneUpkeepTimeM>2880</SafeZoneUpkeepTimeM>
