@@ -755,7 +755,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -1067,7 +1067,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -1379,7 +1379,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -1474,49 +1474,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1558,56 +1516,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -1642,56 +1558,32 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneMechanicMaterial" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
+        <Component Subtype="MilestoneEnergyMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -1978,56 +1870,26 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneMechanicMaterial" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneCargoMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneCargoMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -2062,56 +1924,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneEnergyMaterial" Count="6">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -2146,56 +1966,20 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneEnergyMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -2482,56 +2266,26 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneMechanicMaterial" Count="70">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -2566,56 +2320,20 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneMechanicMaterial" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -2902,56 +2620,26 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+<Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneMechanicMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
+        <Component Subtype="MilestoneEnergyMaterial" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -3238,56 +2926,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -3322,56 +2968,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -3406,56 +3010,26 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneSpaceMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneEnergyMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -3490,56 +3064,26 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
+        <Component Subtype="MilestoneEnergyMaterial" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -3826,56 +3370,26 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneMechanicMaterial" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -3910,56 +3424,26 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneMechanicMaterial" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -3994,56 +3478,26 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneMechanicMaterial" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -4078,56 +3532,20 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneCargoMaterial" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneMechanicMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -4414,56 +3832,20 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
+        <Component Subtype="MilestoneEnergyMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -4498,56 +3880,26 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneMechanicMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
@@ -4582,56 +3934,20 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
+        <Component Subtype="MilestoneCargoMaterial" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
