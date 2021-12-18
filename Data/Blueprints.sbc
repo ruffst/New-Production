@@ -57,7 +57,7 @@
       <Prerequisites>
         <Item Amount="85" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="165" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="65" TypeId="Component" SubtypeId="PCB-Platine" />
+        <Item Amount="65" TypeId="Component" SubtypeId="PCB_Platine" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneElectroMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>

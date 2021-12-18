@@ -70,13 +70,13 @@
                 <Y>0.5</Y>
                 <Z>0.05</Z>
             </Size>
-            <Mass>3</Mass>
+            <Mass>5</Mass>
             <Volume>5</Volume>
             <Model>Models\Components\interior_plate_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>15</MaxIntegrity>
+            <MaxIntegrity>150</MaxIntegrity>
             <DropProbability>0.8</DropProbability>
-            <Health>36</Health>
+            <Health>75</Health>
             <MinimumOfferAmount>1000</MinimumOfferAmount>
             <MaximumOfferAmount>5000</MaximumOfferAmount>
             <MinimumOrderAmount>500</MinimumOrderAmount>
@@ -114,7 +114,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--TitanPlate-->            <!--New-->
+        <Component>            <!--TitanPlate-->                <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanPlate</SubtypeId>
@@ -126,13 +126,13 @@
                 <Y>0.5</Y>
                 <Z>0.01</Z>
             </Size>
-            <Mass>20</Mass>
+            <Mass>10</Mass>
             <Volume>3</Volume>
             <Model>Models\Components\steel_plate_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>100</MaxIntegrity>
+            <MaxIntegrity>250</MaxIntegrity>
             <DropProbability>0.9</DropProbability>
-            <Health>53</Health>
+            <Health>100</Health>
             <MinimumOfferAmount>250</MinimumOfferAmount>
             <MaximumOfferAmount>2500</MaximumOfferAmount>
             <MinimumOrderAmount>100</MinimumOrderAmount>
@@ -142,7 +142,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Bleiplatte-->            <!--New-->
+        <Component>            <!--Bleiplatte-->                <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Bleiplatte</SubtypeId>
@@ -366,7 +366,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--KupferStrator-->            <!--New-->
+        <Component>            <!--KupferStrator-->             <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>KupferStrator</SubtypeId>
@@ -394,7 +394,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--GoldStrator-->            <!--New-->
+        <Component>            <!--GoldStrator-->               <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldStrator</SubtypeId>
@@ -422,7 +422,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--PlatinStrator-->            <!--New-->
+        <Component>            <!--PlatinStrator-->             <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinStrator</SubtypeId>
@@ -450,7 +450,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--TitanStrator-->            <!--New-->
+        <Component>            <!--TitanStrator-->              <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanStrator</SubtypeId>
@@ -478,7 +478,7 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Rotor-->            <!--New-->
+        <Component>            <!--Rotor-->                     <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Rotor</SubtypeId>
@@ -562,7 +562,7 @@
             <MinimumAcquisitionAmount>200</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Kupferdraht-->            <!--New-->
+        <Component>            <!--Kupferdraht-->               <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Kupferdraht</SubtypeId>
@@ -590,7 +590,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Golddraht-->            <!--New-->
+        <Component>            <!--Golddraht-->                 <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Golddraht</SubtypeId>
@@ -618,7 +618,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Platindraht-->            <!--New-->
+        <Component>            <!--Platindraht-->               <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Platindraht</SubtypeId>
@@ -646,7 +646,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Titandraht -->            <!--New-->
+        <Component>            <!--Titandraht -->               <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Titandraht</SubtypeId>
@@ -674,7 +674,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--KupferSpulle-->            <!--New-->
+        <Component>            <!--KupferSpulle-->              <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>KupferSpulle</SubtypeId>
@@ -702,7 +702,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--GoldSpulle-->            <!--New-->
+        <Component>            <!--GoldSpulle-->                <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldSpulle</SubtypeId>
@@ -730,7 +730,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--PlatinSpulle-->            <!--New-->
+        <Component>            <!--PlatinSpulle-->              <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PlatinSpulle</SubtypeId>
@@ -758,7 +758,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--TitanSpulle-->            <!--New-->
+        <Component>            <!--TitanSpulle-->               <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanSpulle</SubtypeId>
@@ -814,7 +814,7 @@
             <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Computer-->            <!--New Items-->
+        <Component>            <!--Computer-->                  <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>Computer</SubtypeId>
@@ -842,7 +842,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--GoldComputer-->            <!--New Items-->
+        <Component>            <!--GoldComputer-->              <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>GoldComputer</SubtypeId>
@@ -898,7 +898,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--TitanComputer-->            <!--New Items-->
+        <Component>            <!--TitanComputer-->             <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>TitanComputer</SubtypeId>
@@ -926,7 +926,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--SMD-->            <!--New-->
+        <Component>            <!--SMD-->                       <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>SMD</SubtypeId>
@@ -954,7 +954,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--PCB_Platine-->            <!--New-->
+        <Component>            <!--PCB_Platine-->               <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>PCB_Platine</SubtypeId>
@@ -982,7 +982,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--WoodLogs-->            <!--New-->
+        <Component>            <!--WoodLogs-->                  <!--New-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>WoodLogs</SubtypeId>
