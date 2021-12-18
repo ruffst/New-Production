@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--SmallBlockSmallThrustSciFi_Gold-->
+    <!--SmallBlockSmallThrustSciFi_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallThrustSciFi_Gold</SubtypeId>
@@ -122,7 +123,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--SmallBlockLargeThrustSciFi_Gold-->
+    <!--SmallBlockLargeThrustSciFi_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeThrustSciFi_Gold</SubtypeId>
@@ -243,7 +245,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--LargeBlockSmallThrustSciFi_Gold-->
+    <!--LargeBlockSmallThrustSciFi_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallThrustSciFi_Gold</SubtypeId>
@@ -364,7 +367,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--LargeBlockLargeThrustSciFi_Gold-->
+    <!--LargeBlockLargeThrustSciFi_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeThrustSciFi_Gold</SubtypeId>
@@ -487,7 +491,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--SmallBlockSmallThrustSciFi_Platin-->
+    <!--SmallBlockSmallThrustSciFi_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallThrustSciFi_Platin</SubtypeId>
@@ -608,7 +613,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--SmallBlockLargeThrustSciFi_Platin-->
+    <!--SmallBlockLargeThrustSciFi_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeThrustSciFi_Platin</SubtypeId>
@@ -729,7 +735,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--LargeBlockSmallThrustSciFi_Platin-->
+    <!--LargeBlockSmallThrustSciFi_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallThrustSciFi_Platin</SubtypeId>
@@ -850,7 +857,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--LargeBlockLargeThrustSciFi_Platin-->
+    <!--LargeBlockLargeThrustSciFi_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeThrustSciFi_Platin</SubtypeId>
@@ -973,7 +981,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--SmallBlockSmallThrustSciFi_Titan-->
+    <!--SmallBlockSmallThrustSciFi_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallThrustSciFi_Titan</SubtypeId>
@@ -1094,7 +1103,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--SmallBlockLargeThrustSciFi_Titan-->
+    <!--SmallBlockLargeThrustSciFi_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeThrustSciFi_Titan</SubtypeId>
@@ -1215,7 +1225,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--LargeBlockSmallThrustSciFi_Titan-->
+    <!--LargeBlockSmallThrustSciFi_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallThrustSciFi_Titan</SubtypeId>
@@ -1336,7 +1347,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition"><!--LargeBlockLargeThrustSciFi_Titan-->
+    <!--LargeBlockLargeThrustSciFi_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeThrustSciFi_Titan</SubtypeId>

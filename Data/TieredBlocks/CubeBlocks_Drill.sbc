@@ -3,7 +3,8 @@
   <CubeBlocks>
 <!--        Tier Gold-->
 <!--Small Drill-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition"><!--SmallBlockDrill_Gold-->
+    <!--SmallBlockDrill_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>SmallBlockDrill_Gold</SubtypeId>
@@ -106,7 +107,8 @@
       <PCU>190</PCU>
     </Definition>
 <!--Large Drill-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition"><!--LargeBlockDrill_Gold-->
+    <!--LargeBlockDrill_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>LargeBlockDrill_Gold</SubtypeId>
@@ -213,7 +215,8 @@
     </Definition>
 <!--        Tier Platin-->
 <!--Small Drill-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition"><!--SmallBlockDrill_Platin-->
+    <!--SmallBlockDrill_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>SmallBlockDrill_Platin</SubtypeId>
@@ -316,7 +319,8 @@
       <PCU>190</PCU>
     </Definition>
 <!--Large Drill-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition"><!--LargeBlockDrill_Platin-->
+    <!--LargeBlockDrill_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>LargeBlockDrill_Platin</SubtypeId>
@@ -423,7 +427,8 @@
     </Definition>
 <!--        Tier Titan-->
 <!--Small Drill-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition"><!--SmallBlockDrill_Titan-->
+    <!--SmallBlockDrill_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>SmallBlockDrill_Titan</SubtypeId>
@@ -526,7 +531,8 @@
       <PCU>190</PCU>
     </Definition>
 <!--Large Drill-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition"><!--LargeBlockDrill_Titan-->
+    <!--LargeBlockDrill_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>LargeBlockDrill_Titan</SubtypeId>

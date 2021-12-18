@@ -3,7 +3,8 @@
   <CubeBlocks>
 <!--Tier Gold-->
 <!--Small Small Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--SmallBlockSmallGenerator_Gold-->
+    <!--SmallBlockSmallGenerator_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockSmallGenerator_Gold</SubtypeId>
@@ -111,7 +112,8 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 <!--Small Large Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--SmallBlockLargeGenerator_Gold-->
+    <!--SmallBlockLargeGenerator_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockLargeGenerator_Gold</SubtypeId>
@@ -222,7 +224,8 @@
       <PCU>25</PCU>
     </Definition>
 <!--Small Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--LargeBlockSmallGenerator_Gold-->
+    <!--LargeBlockSmallGenerator_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockSmallGenerator_Gold</SubtypeId>
@@ -330,7 +333,8 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 <!--Large Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--LargeBlockLargeGenerator_Gold-->
+    <!--LargeBlockLargeGenerator_Gold-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockLargeGenerator_Gold</SubtypeId>
@@ -447,7 +451,8 @@
     </Definition>
 <!--Tier Platin-->
 <!--Small Small Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--SmallBlockSmallGenerator_Platin-->
+    <!--SmallBlockSmallGenerator_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockSmallGenerator_Platin</SubtypeId>
@@ -555,7 +560,8 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 <!--Small Large Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--SmallBlockLargeGenerator_Platin-->
+    <!--SmallBlockLargeGenerator_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockLargeGenerator_Platin</SubtypeId>
@@ -666,7 +672,8 @@
       <PCU>25</PCU>
     </Definition>
 <!--Small Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--LargeBlockSmallGenerator_Platin-->
+<!--LargeBlockSmallGenerator_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockSmallGenerator_Platin</SubtypeId>
@@ -774,7 +781,8 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 <!--Large Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--LargeBlockLargeGenerator_Platin-->
+    <!--LargeBlockLargeGenerator_Platin-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockLargeGenerator_Platin</SubtypeId>
@@ -891,7 +899,8 @@
     </Definition>
 <!--Tier Titan-->
 <!--Small Small Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--SmallBlockSmallGenerator_Titan-->
+    <!--SmallBlockSmallGenerator_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockSmallGenerator_Titan</SubtypeId>
@@ -999,7 +1008,8 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 <!--Small Large Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--SmallBlockLargeGenerator_Titan-->
+    <!--SmallBlockLargeGenerator_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockLargeGenerator_Titan</SubtypeId>
@@ -1110,7 +1120,8 @@
       <PCU>25</PCU>
     </Definition>
 <!--Small Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--LargeBlockSmallGenerator_Titan-->
+    <!--LargeBlockSmallGenerator_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockSmallGenerator_Titan</SubtypeId>
@@ -1218,7 +1229,8 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 <!--Large Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!--LargeBlockLargeGenerator_Titan-->
+    <!--LargeBlockLargeGenerator_Titan-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockLargeGenerator_Titan</SubtypeId>

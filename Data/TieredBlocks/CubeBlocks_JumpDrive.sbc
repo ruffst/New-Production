@@ -2,7 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
 <!--        Tier Gold-->
-    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition"><!--LargeJumpDrive_Gold-->
+    <!--LargeJumpDrive_Gold-->
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
         <SubtypeId>LargeJumpDrive_Gold</SubtypeId>
@@ -104,7 +105,8 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
 <!--        Tier Platin-->
-    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition"><!--LargeJumpDrive_Platin-->
+    <!--LargeJumpDrive_Platin-->
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
         <SubtypeId>LargeJumpDrive_Platin</SubtypeId>
@@ -207,7 +209,8 @@
     </Definition>
 <!--        Tier Titan-->
 <!--Large Jump Drive-->
-    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition"><!--LargeJumpDrive_Titan-->
+    <!--LargeJumpDrive_Titan-->
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
         <SubtypeId>LargeJumpDrive_Titan</SubtypeId>

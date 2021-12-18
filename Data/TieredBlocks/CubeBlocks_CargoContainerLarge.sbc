@@ -2,7 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
 <!--        Tier Gold-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--LargeBlockLargeContainer_Gold-->
+<!--LargeBlockLargeContainer_Gold-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainer_Gold</SubtypeId>
@@ -102,7 +103,8 @@
         <Z>7.5</Z>
       </InventorySize>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--SmallBlockLargeContainer_Gold-->
+    <!--SmallBlockLargeContainer_Gold-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainer_Gold</SubtypeId>
@@ -184,7 +186,8 @@
       </InventorySize>
     </Definition>
 <!--        Tier Platin-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--LargeBlockLargeContainer_Platin-->
+    <!--LargeBlockLargeContainer_Platin-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainer_Platin</SubtypeId>
@@ -284,7 +287,8 @@
         <Z>7.5</Z>
       </InventorySize>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--SmallBlockLargeContainer_Platin-->
+    <!--SmallBlockLargeContainer_Platin-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainer_Platin</SubtypeId>
@@ -366,7 +370,8 @@
       </InventorySize>
     </Definition>
 <!--        Tier Titan-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--LargeBlockLargeContainer_Titan-->
+    <!--LargeBlockLargeContainer_Titan-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainer_Titan</SubtypeId>
@@ -466,7 +471,8 @@
         <Z>7.5</Z>
       </InventorySize>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--SmallBlockLargeContainer_Titan-->
+    <!--SmallBlockLargeContainer_Titan-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainer_Titan</SubtypeId>

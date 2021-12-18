@@ -2,7 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 <!--        Tier Gold-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--SmallBlockMediumContainer_Gold-->
+    <!--SmallBlockMediumContainer_Gold-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainer_Gold</SubtypeId>
@@ -85,7 +86,8 @@
       </InventorySize>
     </Definition>
 <!--        Tier Platin-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--SmallBlockMediumContainer_Platin-->
+    <!--SmallBlockMediumContainer_Platin-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainer_Platin</SubtypeId>
@@ -168,7 +170,8 @@
       </InventorySize>
     </Definition>
 <!--        Tier Titan-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!--SmallBlockMediumContainer_Titan-->
+    <!--SmallBlockMediumContainer_Titan-->
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainer_Titan</SubtypeId>

@@ -2,7 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
     <!--Tier Gold-->
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--LargeHydrogenTank_Gold-->
+    <!--LargeHydrogenTank_Gold-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTank_Gold</SubtypeId>
@@ -104,7 +105,8 @@
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--LargeHydrogenTankSmall_Gold-->
+    <!--LargeHydrogenTankSmall_Gold-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankSmall_Gold</SubtypeId>
@@ -201,7 +203,8 @@
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--SmallHydrogenTank_Gold-->
+    <!--SmallHydrogenTank_Gold-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTank_Gold</SubtypeId>
@@ -315,7 +318,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--SmallHydrogenTankSmall_Gold-->
+    <!--SmallHydrogenTankSmall_Gold-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTankSmall_Gold</SubtypeId>
@@ -413,7 +417,8 @@
       <PCU>25</PCU>
     </Definition>
     <!--Tier Platin-->
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--LargeHydrogenTank_Platin-->
+    <!--LargeHydrogenTank_Platin-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTank_Platin</SubtypeId>
@@ -515,7 +520,8 @@
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--LargeHydrogenTankSmall_Platin-->
+    <!--LargeHydrogenTankSmall_Platin-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankSmall_Platin</SubtypeId>
@@ -612,7 +618,8 @@
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--SmallHydrogenTank_Platin-->
+    <!--SmallHydrogenTank_Platin-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTank_Platin</SubtypeId>
@@ -726,7 +733,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--SmallHydrogenTankSmall_Platin-->
+    <!--SmallHydrogenTankSmall_Platin-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTankSmall_Platin</SubtypeId>
@@ -824,7 +832,8 @@
       <PCU>25</PCU>
     </Definition>
     <!--Tier Titan-->
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--LargeHydrogenTank_Titan-->
+    <!--LargeHydrogenTank_Titan-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTank_Titan</SubtypeId>
@@ -926,7 +935,8 @@
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--LargeHydrogenTankSmall_Titan-->
+    <!--LargeHydrogenTankSmall_Titan-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankSmall_Titan</SubtypeId>
@@ -1023,7 +1033,8 @@
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--SmallHydrogenTank_Titan-->
+    <!--SmallHydrogenTank_Titan-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTank_Titan</SubtypeId>
@@ -1137,7 +1148,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_GasTankDefinition"><!--SmallHydrogenTankSmall_Titan-->
+    <!--SmallHydrogenTankSmall_Titan-->
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTankSmall_Titan</SubtypeId>
