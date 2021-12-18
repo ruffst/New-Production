@@ -2376,6 +2376,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="KupferStrator" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SteelPlate" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -2383,7 +2389,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="0" />
       <Center x="1" y="1" z="3" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -2507,6 +2513,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="KupferStrator" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SteelPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -2514,7 +2526,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
       </MountPoints>
@@ -2633,6 +2645,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="KupferStrator" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SteelPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -2640,7 +2658,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="0" />
       <Center x="1" y="1" z="3" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -2762,6 +2780,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="KupferStrator" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SteelPlate" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -2769,7 +2793,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
       </MountPoints>

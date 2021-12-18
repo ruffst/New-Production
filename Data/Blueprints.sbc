@@ -13,7 +13,7 @@
       <Icon>Textures\GUI\Icons\component\milestone_armor.dds</Icon>
       <Prerequisites>
         <Item Amount="165" TypeId="Component" SubtypeId="SteelPlate" />
-        <Item Amount="120" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="250" TypeId="Component" SubtypeId="Construction" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneArmorMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
