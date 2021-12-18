@@ -2,6 +2,73 @@
 
 
 
+Bausteine
+        MilestoneArmorMaterial
+        MilestoneEnergyMaterial
+        MilestoneMechanicMaterial
+        MilestoneElectroMaterial
+        MilestoneSpaceMaterial
+        MilestoneCargoMaterial
+
+Abfall
+        ScrapIngot
+        GlassScrap
+        BatteryScrap
+        ElektroScrap
+        AluminiumScrap
+        TitanScrap
+        PlatinScrap
+        GoldScrap
+        MechanicScrap
+
+
+
+        <Component Subtype="MilestoneArmorMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+
+        <Component Subtype="MilestoneEnergyMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+
+        <Component Subtype="MilestoneMechanicMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+
+        <Component Subtype="MilestoneElectroMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+
+        <Component Subtype="MilestoneSpaceMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+
+        <Component Subtype="MilestoneCargoMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+
+
+
+
+
 
 <BlueprintClasses>
 
