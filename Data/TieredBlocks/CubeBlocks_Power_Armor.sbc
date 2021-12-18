@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-<!-- Region Alu ARMOR -->
-  <!-- Large -->
+    <!-- Region Alu ARMOR -->
+    <!-- Large -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -31,13 +31,13 @@
         <Component Subtype="InteriorPlate" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="InteriorPlate" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -194,13 +194,13 @@
         <Component Subtype="InteriorPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="InteriorPlate" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -329,13 +329,13 @@
         <Component Subtype="InteriorPlate" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="InteriorPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -437,13 +437,13 @@
         <Component Subtype="InteriorPlate" Count="16">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="InteriorPlate" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -569,9 +569,8 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
- 
-<!-- Region Titan ARMOR -->
-  <!-- Large -->
+    <!-- Region Titan ARMOR -->
+    <!-- Large -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -600,7 +599,7 @@
         <Component Subtype="TitanPlate" Count="135">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MetalGrid" Count="50">
@@ -612,7 +611,7 @@
         <Component Subtype="TitanPlate" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -778,7 +777,7 @@
         <Component Subtype="TitanPlate" Count="65">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MetalGrid" Count="25">
@@ -790,7 +789,7 @@
         <Component Subtype="TitanPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -920,7 +919,7 @@
         <Component Subtype="TitanPlate" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MetalGrid" Count="10">
@@ -932,7 +931,7 @@
         <Component Subtype="TitanPlate" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -1035,7 +1034,7 @@
         <Component Subtype="TitanPlate" Count="110">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MetalGrid" Count="50">
@@ -1047,7 +1046,7 @@
         <Component Subtype="TitanPlate" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -1174,9 +1173,8 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
-
-<!-- Region Alu ARMOR -->
-  <!-- Small -->
+    <!-- Region Alu ARMOR -->
+    <!-- Small -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1205,7 +1203,7 @@
         <Component Subtype="InteriorPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -1369,7 +1367,7 @@
         <Component Subtype="InteriorPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -1498,7 +1496,7 @@
         <Component Subtype="InteriorPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -1600,7 +1598,7 @@
         <Component Subtype="InteriorPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -1726,9 +1724,8 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
-
-<!-- Region Titan ARMOR -->
-  <!-- Small -->
+    <!-- Region Titan ARMOR -->
+    <!-- Small -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1757,7 +1754,7 @@
         <Component Subtype="TitanPlate" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MetalGrid" Count="2">
@@ -1769,7 +1766,7 @@
         <Component Subtype="TitanPlate" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -1933,7 +1930,7 @@
         <Component Subtype="TitanPlate" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MetalGrid" Count="1">
@@ -1945,7 +1942,7 @@
         <Component Subtype="TitanPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -2074,7 +2071,7 @@
         <Component Subtype="TitanPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MetalGrid" Count="1">
@@ -2086,7 +2083,7 @@
         <Component Subtype="TitanPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -2188,7 +2185,7 @@
         <Component Subtype="TitanPlate" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MetalGrid" Count="1">
@@ -2200,7 +2197,7 @@
         <Component Subtype="TitanPlate" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -2326,6 +2323,5 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
- 
   </CubeBlocks>
 </Definitions>
