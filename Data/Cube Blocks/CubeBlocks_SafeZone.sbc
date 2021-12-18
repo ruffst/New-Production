@@ -16,11 +16,36 @@
             <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
 
             <Components>
-                <Component Subtype="SteelPlate" Count="750" />
-                <Component Subtype="Construction" Count="180" />
-                <Component Subtype="MetalGrid" Count="80" />
-                <Component Subtype="Computer" Count="1" />
-                <Component Subtype="SteelPlate" Count="50" />
+                <Component Subtype="SteelPlate" Count="750" >
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Construction" Count="180"  >
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="MetalGrid" Count="80"  >
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="Computer" Count="1" >
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
+                <Component Subtype="SteelPlate" Count="50"  >
+                    <DeconstructId>
+                        <TypeId>Ore</TypeId>
+                        <SubtypeId>Scrap</SubtypeId>
+                    </DeconstructId>
+                </Component>
             </Components>
 
             <CriticalComponent Subtype="MetalGrid" Index="0" />
@@ -28,11 +53,8 @@
                 <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />
                 <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="2.5" />
-
                 <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
-
                 <MountPoint Side="Right" StartX="1" StartY="0.5" EndX="2" EndY="2" />
-
                 <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
             </MountPoints>
             <BuildProgressModels>
