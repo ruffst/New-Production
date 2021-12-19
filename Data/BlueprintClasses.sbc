@@ -360,7 +360,7 @@
             <Entry Class="BasicTools" BlueprintSubtypeId="SemiAutoPistolMagazine" />
 
         <!--Ingots-->
-            <Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />
+            <!--<Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />-->
             <Entry Class="Ingots" BlueprintSubtypeId="IronOreToIngot" />
             <Entry Class="Ingots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
             <Entry Class="Ingots" BlueprintSubtypeId="NickelOreToIngot" />
