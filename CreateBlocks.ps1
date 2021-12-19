@@ -3,15 +3,22 @@ $BlockIds = @(
 
 
 
-  'LargeHydrogenTank_Titan'
-  'LargeHydrogenTankSmall_Titan'
-  'SmallHydrogenTank_Titan'
-  'SmallHydrogenTankSmall_Titan'
+  'TitanLargeHeavyBlockArmorBlock'
+  'TitanLargeHeavyBlockArmorSlope'
+  'TitanLargeHeavyBlockArmorCorner'
+  'TitanLargeHeavyBlockArmorCornerInv'
+
+  'TitanSmallHeavyBlockArmorBlock'
+  'TitanSmallHeavyBlockArmorSlope'
+  'TitanSmallHeavyBlockArmorCorner'
+  'TitanSmallHeavyBlockArmorCornerInv'
+
+  
 
 
 );
-$Builder = "OxygenTank"
-$Freigeschaltet = "Meilenstein_Tanks_Titan"
+$Builder = "CubeBlock"
+$Freigeschaltet = "Meilenstein_Armor_Tin"
 
 $TextBlock = '
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--XXXXX  zzzzz-->
