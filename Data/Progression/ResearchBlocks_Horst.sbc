@@ -54,7 +54,12 @@
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-
+    <ResearchBlock xsi:type="ResearchBlock">      <!--SafeZoneBlock  0-->
+      <Id Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
+      <UnlockedByGroups>
+        <GroupSubtype>0</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
   <!--Freischatung Assembler1-->
 
     <ResearchBlock xsi:type="ResearchBlock">      <!--Drahtextruder   Assembler1-->
@@ -90,12 +95,7 @@
         <GroupSubtype>Assembler1</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--SafeZoneBlock  Assembler2-->
-      <Id Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
-      <UnlockedByGroups>
-        <GroupSubtype>Assembler2</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
+
 
   <!--Freischatung Assembler3-->
 
