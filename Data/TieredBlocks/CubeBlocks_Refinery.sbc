@@ -47,6 +47,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="GoldComputer" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -150,6 +156,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="PlatinComputer" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -251,6 +263,12 @@
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="TitanComputer" Count="68">
