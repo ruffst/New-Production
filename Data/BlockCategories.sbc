@@ -49,6 +49,7 @@
         <string>CargoContainer/LargeBlockLargeContainer</string>
         <string>CargoContainer/LargeBlockLargeIndustrialContainer</string>
         <string>CargoContainer/LargeBlockSmallContainer</string>
+        <string>CargoContainer/Basic_Cargo</string>
         <string>Cockpit/CockpitOpen</string>
         <string>Cockpit/LargeBlockCockpit</string>
         <string>Cockpit/LargeBlockCockpitSeat</string>
@@ -57,6 +58,7 @@
         <string>Conveyor/LargeBlockConveyor</string>
         <string>ConveyorSorter/LargeBlockConveyorSorter</string>
         <string>ConveyorSorter/LargeBlockConveyorSorterIndustrial</string>
+        <string>ConveyorSorter/Basic_Sorter</string>
         <string>ConveyorConnector/ConveyorTube</string>
         <string>ConveyorConnector/ConveyorTubeCurved</string>
         <string>Conveyor/LargeBlockConveyorPipeJunction</string>
@@ -1198,7 +1200,7 @@
         <string>CargoContainer/SmallBlockSmallContainer</string>
         <string>CargoContainer/LargeBlockLargeContainer</string>
         <string>CargoContainer/LargeBlockSmallContainer</string>
-        <string>CargoContainer/Basic_Cargo</string>
+        <!--<string>CargoContainer/Basic_Cargo</string>-->
         <string>SmallBlockConveyor</string>
         <string>LargeBlockConveyor</string>
         <string>ConveyorTube</string>
@@ -1214,7 +1216,7 @@
         <string>ConveyorConnector/LargeBlockConveyorPipeCorner</string>
         <string>ConveyorConnector/LargeBlockConveyorPipeFlange</string>
         <string>ConveyorConnector/LargeBlockConveyorPipeEnd</string>
-        <string>ConveyorSorter/Basic_Sorter</string>
+        <!--<string>ConveyorSorter/Basic_Sorter</string>--> 
         <string>ConveyorSorter/LargeBlockConveyorSorter</string>
         <string>ConveyorSorter/MediumBlockConveyorSorter</string>
         <string>ConveyorSorter/SmallBlockConveyorSorter</string>

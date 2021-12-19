@@ -180,7 +180,6 @@
                 <unsignedInt>240</unsignedInt>
             </TieredUpdateTimes>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!---Holzvergaser-->
       <Id>
         <TypeId>Reactor</TypeId>
@@ -880,7 +879,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Assembler</BlockPairName>
+      <BlockPairName>Drahtextruder</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -1266,7 +1265,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Elektro_Assembler</BlockPairName>
+      <BlockPairName>Elektro Assembler</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
