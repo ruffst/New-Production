@@ -398,6 +398,8 @@
             <Entry Class="Recycling" BlueprintSubtypeId="MechanicScrapToIngot" />
             <Entry Class="Recycling" BlueprintSubtypeId="PlatinScrapToIngot" />
             <Entry Class="Recycling" BlueprintSubtypeId="GoldScrapToIngot" />
+            <Entry Class="Recycling" BlueprintSubtypeId="LeadScrapToIngot" />
+            <Entry Class="Recycling" BlueprintSubtypeId="CopperScrapToIngot" />
 
         <!--ComponentsDrahtextruder-->                      <!--New-->
             <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Kupferdraht" />

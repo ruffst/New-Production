@@ -207,6 +207,32 @@
       <Result Amount="50" TypeId="Ingot" SubtypeId="Gold" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
+    <Blueprint>      <!--CopperScrapToIngot-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CopperScrapToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Kupferschrott zu Kupferbarren</DisplayName>
+      <Icon>Textures\GUI\Icons\gold_scrap.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="CopperScrap" />
+      </Prerequisites>
+      <Result Amount="50" TypeId="Ingot" SubtypeId="Copper" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--LeadScrapToIngot-->      <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>LeadScrapToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Bleischrott zu Bleibarren</DisplayName>
+      <Icon>Textures\GUI\Icons\gold_scrap.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="LeadScrap" />
+      </Prerequisites>
+      <Result Amount="50" TypeId="Ingot" SubtypeId="Lead" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>   
     <Blueprint>      <!--MechanicScrapToIngot-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
