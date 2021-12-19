@@ -1044,9 +1044,6 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-
-
-
     <Blueprint>      <!--TitanMotor-->                        <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -1119,7 +1116,6 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-
     <Blueprint>      <!--Owner Chip (Computer)-->         <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -1135,7 +1131,6 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-
     <Blueprint>      <!--CopperComputer (Computer)-->         <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -1153,7 +1148,6 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-
     <Blueprint>      <!--GoldComputer-->                      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
