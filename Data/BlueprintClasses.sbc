@@ -331,13 +331,13 @@
             <Entry Class="SimpleComponents" BlueprintSubtypeId="SteelPlate" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="SmallTube" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="LargeTube" />
-            <Entry Class="SimpleComponents" BlueprintSubtypeId="MotorComponent" />
+            <Entry Class="SimpleComponents" BlueprintSubtypeId="Motor" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="Display" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="BulletproofGlass" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="Computer" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="MedicalComponent" />
-            <Entry Class="SimpleComponents" BlueprintSubtypeId="RadioCommunicationComponent" />
-            <Entry Class="SimpleComponents" BlueprintSubtypeId="DetectorComponent" />
+            <Entry Class="SimpleComponents" BlueprintSubtypeId="RadioCommunication" />
+            <Entry Class="SimpleComponents" BlueprintSubtypeId="Detector" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="SolarCell" />
             <Entry Class="SimpleComponents" BlueprintSubtypeId="PowerCell" />
 
@@ -442,14 +442,14 @@
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="TitanComputer" />
 
         <!--ComponentsFertiger-->                           <!--New-->
-            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="MotorComponent" />
-            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="ReactorComponent" />
-            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="ThrustComponent" />
-            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="GravityGeneratorComponent" />
-            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="RadioCommunicationComponent" />
-            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="DetectorComponent" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="Motor" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="Reactor" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="Thrust" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="GravityGenerator" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="RadioCommunication" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="Detector" />
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="PowerCell" />
-            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="MedicalComponent" />
+            <Entry Class="ComponentsFertiger" BlueprintSubtypeId="Medical" />
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="GoldMotor" />
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="GoldReactor" />
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="GoldThrust" />
@@ -461,7 +461,7 @@
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="TitanThrust" />
 
         <!--ComponentsVerbrauchsmaterialAssembler-->        <!--New-->
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="ExplosivesComponent" />
+            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Explosives" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="SemiAutoPistol" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="FullAutoPistol" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AutomaticRifle" />
@@ -503,7 +503,7 @@
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="BasicHandHeldLauncher" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AdvancedHandHeldLauncher" />
 
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="ExplosivesComponent" />
+            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Explosives" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="NATO_25x184mmMagazine" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Missile200mm" />
