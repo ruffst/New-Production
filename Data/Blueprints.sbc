@@ -659,7 +659,7 @@
         <Item Amount="3" TypeId="Ingot" SubtypeId="Aluminium" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
     <Blueprint>      <!--TitanPlate-->                        <!--New-->
@@ -673,7 +673,7 @@
         <Item Amount="21" TypeId="Ingot" SubtypeId="Titanium" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="TitanPlate" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
     <Blueprint>      <!--Bleiplatte-->                        <!--New-->
@@ -687,7 +687,7 @@
         <Item Amount="21" TypeId="Ingot" SubtypeId="Lead" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Bleiplatte" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
     <Blueprint>      <!--Kupferdraht-->                       <!--New-->
