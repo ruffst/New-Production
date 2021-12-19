@@ -2,7 +2,9 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
     <!-- Region Alu ARMOR -->
+
     <!-- Large -->
+    <!-- AluLargeBlockArmorBlock -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -157,7 +159,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorBlock</BlockPairName>
+      <BlockPairName>AluLightArmorBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -166,6 +168,7 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>true</IsAirTight>
     </Definition>
+    <!-- AluLargeBlockArmorSlope -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -293,7 +296,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlope</BlockPairName>
+      <BlockPairName>AluLightArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -302,6 +305,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
+    <!-- AluLargeBlockArmorCorner -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -396,7 +400,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorCorner</BlockPairName>
+      <BlockPairName>AluLightArmorBlock</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -407,6 +411,7 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!-- AluLargeBlockArmorCornerInv -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -559,7 +564,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorInvCorner</BlockPairName>
+      <BlockPairName>AluLightArmorBlock</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -569,8 +574,11 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
+
     <!-- Region Titan ARMOR -->
+
     <!-- Large -->
+    <!-- TitanLargeHeavyBlockArmorBlock -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -739,7 +747,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorBlock</BlockPairName>
+      <BlockPairName>TitanHeavyArmorBlock</BlockPairName>
       <DeformationRatio>0.2</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
@@ -749,6 +757,7 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>true</IsAirTight>
     </Definition>
+    <!-- TitanLargeHeavyBlockArmorSlope -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -882,7 +891,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlope</BlockPairName>
+      <BlockPairName>TitanHeavyArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.2</DeformationRatio>
@@ -892,6 +901,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
+    <!-- TitanLargeHeavyBlockArmorCorner -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -992,7 +1002,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCorner</BlockPairName>
+      <BlockPairName>TitanHeavyArmorBlock</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1004,6 +1014,7 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!-- TitanLargeHeavyBlockArmorCornerInv -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1162,7 +1173,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+      <BlockPairName>TitanHeavyArmorBlock</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -1173,8 +1184,11 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
+
     <!-- Region Alu ARMOR -->
+
     <!-- Small -->
+    <!-- AluSmallBlockArmorBlock -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1330,7 +1344,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorBlock</BlockPairName>
+      <BlockPairName>AluLightArmorBlock</BlockPairName>
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -1339,6 +1353,7 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>true</IsAirTight>
     </Definition>
+    <!-- AluSmallBlockArmorSlope -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1459,7 +1474,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlope</BlockPairName>
+      <BlockPairName>AluLightArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.32</DeformationRatio>
@@ -1469,6 +1484,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
+    <!-- AluSmallBlockArmorCorner -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1556,7 +1572,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorCorner</BlockPairName>
+      <BlockPairName>AluLightArmorBlock</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1568,6 +1584,7 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!-- AluSmallBlockArmorCornerInv -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1713,7 +1730,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorInvCorner</BlockPairName>
+      <BlockPairName>AluLightArmorBlock</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -1724,8 +1741,11 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
+
     <!-- Region Titan ARMOR -->
+
     <!-- Small -->
+    <!-- TitanSmallHeavyBlockArmorBlock -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1893,7 +1913,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorBlock</BlockPairName>
+      <BlockPairName>TitanHeavyArmorBlock</BlockPairName>
       <DeformationRatio>0.06</DeformationRatio>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
@@ -1902,6 +1922,7 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>true</IsAirTight>
     </Definition>
+    <!-- TitanSmallHeavyBlockArmorSlope -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -2034,7 +2055,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlope</BlockPairName>
+      <BlockPairName>TitanHeavyArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.06</DeformationRatio>
@@ -2044,6 +2065,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
+    <!-- TitanSmallHeavyBlockArmorCorner -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -2143,7 +2165,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCorner</BlockPairName>
+      <BlockPairName>TitanHeavyArmorBlock</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -2155,6 +2177,7 @@
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!-- TitanSmallHeavyBlockArmorCornerInv -->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -2312,7 +2335,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+      <BlockPairName>TitanHeavyArmorBlock</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
