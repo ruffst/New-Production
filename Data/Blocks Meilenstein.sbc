@@ -2650,14 +2650,14 @@
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="30">
+        <Component Subtype="GravityGenerator" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="GravityGenerator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
         <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />

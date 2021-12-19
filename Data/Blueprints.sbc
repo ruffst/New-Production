@@ -621,7 +621,7 @@
     <Blueprint>      <!--Girder-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GirderComponent</SubtypeId>
+        <SubtypeId>Girder</SubtypeId>
       </Id>
       <DisplayName>Träger</DisplayName>
       <Icon>Textures\GUI\Icons\component\grider.dds</Icon>
@@ -968,7 +968,7 @@
     <Blueprint>      <!--MotorComponent-->                    <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>MotorComponent</SubtypeId>
+        <SubtypeId>Motor</SubtypeId>
       </Id>
       <DisplayName>Kupfer Motor</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_motor.dds</Icon>
@@ -1144,7 +1144,7 @@
     <Blueprint>      <!--ReactorComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ReactorComponent</SubtypeId>
+        <SubtypeId>Reactor</SubtypeId>
       </Id>
       <DisplayName>Kupfer Reaktor</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_reactor.dds</Icon>
@@ -1219,7 +1219,7 @@
     <Blueprint>      <!--ThrustComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ThrustComponent</SubtypeId>
+        <SubtypeId>Thrust</SubtypeId>
       </Id>
       <DisplayName>Kupfer Triebwerk</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_thruster.dds</Icon>
@@ -1290,7 +1290,7 @@
     <Blueprint>      <!--GravityGeneratorComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>GravityGeneratorComponent</SubtypeId>
+        <SubtypeId>GravityGenerator</SubtypeId>
       </Id>
       <DisplayName>Kupfer Gravi-Generator</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_gravity.dds</Icon>
@@ -1308,7 +1308,7 @@
     <Blueprint>      <!--MedicalComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>MedicalComponent</SubtypeId>
+        <SubtypeId>Medical</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
       <Icon>Textures\GUI\Icons\component\medic_comp.dds</Icon>
@@ -1324,7 +1324,7 @@
     <Blueprint>      <!--RadioCommunicationComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>RadioCommunicationComponent</SubtypeId>
+        <SubtypeId>RadioCommunication</SubtypeId>
       </Id>
       <DisplayName>Kommunikationskomponente</DisplayName>
       <Icon>Textures\GUI\Icons\component\radio.dds</Icon>
@@ -1341,7 +1341,7 @@
     <Blueprint>      <!--DetectorComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>DetectorComponent</SubtypeId>
+        <SubtypeId>Detector</SubtypeId>
       </Id>
       <DisplayName>Detektorkomponente</DisplayName>
       <Icon>Textures\GUI\Icons\component\detector.dds</Icon>
@@ -1372,7 +1372,7 @@
     <Blueprint>      <!--ExplosivesComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ExplosivesComponent</SubtypeId>
+        <SubtypeId>Explosives</SubtypeId>
       </Id>
       <DisplayName>Sprengstoff</DisplayName>
       <Icon>Textures\GUI\Icons\component\explosive.dds</Icon>
