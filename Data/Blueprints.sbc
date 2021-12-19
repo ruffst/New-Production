@@ -213,7 +213,7 @@
         <SubtypeId>CopperScrapToIngot</SubtypeId>
       </Id>
       <DisplayName>Kupferschrott zu Kupferbarren</DisplayName>
-      <Icon>Textures\GUI\Icons\gold_scrap.dds</Icon>
+      <Icon>Textures\GUI\Icons\copper_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="CopperScrap" />
       </Prerequisites>
@@ -226,7 +226,7 @@
         <SubtypeId>LeadScrapToIngot</SubtypeId>
       </Id>
       <DisplayName>Bleischrott zu Bleibarren</DisplayName>
-      <Icon>Textures\GUI\Icons\gold_scrap.dds</Icon>
+      <Icon>Textures\GUI\Icons\lead_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="LeadScrap" />
       </Prerequisites>
