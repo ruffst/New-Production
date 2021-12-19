@@ -78,10 +78,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="20">
+        <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -122,10 +128,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="20">
+        <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -166,10 +178,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="20">
+        <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>

@@ -39,10 +39,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="8">
+        <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="8">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="RadioCommunication" Count="40">
@@ -113,10 +119,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="10">
+        <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="RadioCommunication" Count="40">
@@ -203,6 +215,12 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="CopperComputer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="RadioCommunication" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -277,6 +295,12 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="CopperComputer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="RadioCommunication" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -347,10 +371,16 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="15">
+        <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="InteriorPlate" Count="5">
@@ -428,6 +458,12 @@
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="InteriorPlate" Count="1">
@@ -521,10 +557,16 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="50">
+        <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="BulletproofGlass" Count="4">
@@ -628,10 +670,16 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="30">
+        <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="BulletproofGlass" Count="2">

@@ -2,7 +2,6 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
     <!-- Region Alu ARMOR -->
-
     <!-- Large -->
     <!-- AluLargeBlockArmorBlock -->
     <Definition>
@@ -578,9 +577,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
-
     <!-- Region Titan ARMOR -->
-
     <!-- Large -->
     <!-- TitanLargeHeavyBlockArmorBlock -->
     <Definition>
@@ -1190,9 +1187,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
-
     <!-- Region Alu ARMOR -->
-
     <!-- Small -->
     <!-- AluSmallBlockArmorBlock -->
     <Definition>
@@ -1751,9 +1746,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
     </Definition>
-
     <!-- Region Titan ARMOR -->
-
     <!-- Small -->
     <!-- TitanSmallHeavyBlockArmorBlock -->
     <Definition>

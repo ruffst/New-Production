@@ -45,6 +45,12 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="GoldComputer" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -148,6 +154,12 @@
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="GoldComputer" Count="8">
@@ -257,6 +269,12 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="PlatinComputer" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -360,6 +378,12 @@
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>PlatinScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="PlatinComputer" Count="12">
@@ -469,6 +493,12 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="TitanComputer" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -572,6 +602,12 @@
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="TitanComputer" Count="17">
