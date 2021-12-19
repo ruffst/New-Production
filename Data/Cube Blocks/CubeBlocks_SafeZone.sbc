@@ -15,7 +15,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="750">
+        <Component Subtype="SteelPlate" Count="350">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -27,7 +27,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MetalGrid" Count="80">
+        <Component Subtype="MetalGrid" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -39,7 +39,7 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="CopperComputer" Count="1">
+        <Component Subtype="CopperComputer" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>CopperScrap</SubtypeId>
