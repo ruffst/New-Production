@@ -484,7 +484,7 @@
     <Definition xsi:type="MyObjectBuilder_GyroDefinition"><!---SmallBlockGyroBasic-->
       <Id>
         <TypeId>Gyro</TypeId>
-        <SubtypeId>SmallBlockGyroBasic</SubtypeId>
+        <SubtypeId>SmallBlockGyro_Basic</SubtypeId>
       </Id>
       <DisplayName>Basic Gyroscope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
@@ -529,7 +529,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gyroscope</BlockPairName>
+      <BlockPairName>Basic Gyroscope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>14</BuildTimeSeconds>
