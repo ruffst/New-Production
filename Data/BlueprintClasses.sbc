@@ -371,6 +371,10 @@
             <Entry Class="Ingots" BlueprintSubtypeId="GoldOreToIngot" />
             <Entry Class="Ingots" BlueprintSubtypeId="PlatinumOreToIngot" />
             <Entry Class="Ingots" BlueprintSubtypeId="UraniumOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="LeadOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="CopperOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="AluminumOreToIngot" />
+            <Entry Class="Ingots" BlueprintSubtypeId="TitaniumOreToIngot" />          
 
         <!--CommonMetals-->
             <Entry Class="CommonMetals" BlueprintSubtypeId="IronOreToIngot" />

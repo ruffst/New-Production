@@ -202,6 +202,42 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Ag</IconSymbol>
     </PhysicalItem>
+    <PhysicalItem>      <!-- Titanium -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Titanium</SubtypeId>
+      </Id>
+      <DisplayName>Erz Titan</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Ti</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Uranium -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </Id>
+      <DisplayName>Erz Uran</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_UO2_uranite.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>IconSymbol_U</IconSymbol>
+    </PhysicalItem>
 
     <!-- Scraps -->
 
@@ -375,7 +411,6 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-
     <PhysicalItem>      <!-- Mechanic Scrap von FertigerComponenten -->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
@@ -396,42 +431,6 @@
 
     <!--Ingots-->
 
-    <PhysicalItem>      <!-- Titanium -->
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>Titanium</SubtypeId>
-      </Id>
-      <DisplayName>Erz Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ti</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>      <!-- Uranium -->
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>Uranium</SubtypeId>
-      </Id>
-      <DisplayName>Erz Uran</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_UO2_uranite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>IconSymbol_U</IconSymbol>
-    </PhysicalItem>
     <PhysicalItem>      <!-- Aluminium -->
       <Id>
         <TypeId>Ingot</TypeId>
