@@ -351,6 +351,7 @@
 
         <!--WoodToKohlenstoff-->
             <Entry Class="WoodToKohlenstoff" BlueprintSubtypeId="WoodLogsBP" />
+            <Entry Class="WoodToKohlenstoff" BlueprintSubtypeId="IrontoKohlenstoff" />
 
         <!--BasicTools-->
             <Entry Class="BasicTools" BlueprintSubtypeId="Welder" />
