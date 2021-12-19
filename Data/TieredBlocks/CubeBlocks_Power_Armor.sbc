@@ -163,6 +163,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
       <NavigationDefinition>Default</NavigationDefinition>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
@@ -301,6 +302,7 @@
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
@@ -407,6 +409,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
@@ -570,6 +573,7 @@
       <MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
@@ -752,7 +756,7 @@
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
-      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
       <IsAirTight>true</IsAirTight>
@@ -897,6 +901,7 @@
       <DeformationRatio>0.2</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>15</BuildTimeSeconds>
+      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <DisassembleRatio>3</DisassembleRatio>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
@@ -1178,6 +1183,7 @@
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
       <DeformationRatio>0.2</DeformationRatio>
+      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>16</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
@@ -1347,6 +1353,7 @@
       <BlockPairName>Alu Block Small</BlockPairName>
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>3</BuildTimeSeconds>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
       <PCU>1</PCU>
@@ -1480,6 +1487,7 @@
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
       <EdgeType>Light</EdgeType>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
@@ -1578,6 +1586,7 @@
       <MirroringZ>YHalfY</MirroringZ>
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>1</BuildTimeSeconds>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
       <PCU>1</PCU>
@@ -1735,6 +1744,7 @@
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
       <DeformationRatio>0.32</DeformationRatio>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <EdgeType>Light</EdgeType>
@@ -1914,6 +1924,7 @@
         </BoneInfo>
       </Skeleton>
       <BlockPairName>Titan Block Small</BlockPairName>
+      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <DeformationRatio>0.06</DeformationRatio>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
@@ -2059,6 +2070,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.06</DeformationRatio>
+      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
       <EdgeType>Heavy</EdgeType>
@@ -2170,6 +2182,7 @@
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
       <DeformationRatio>0.06</DeformationRatio>
+      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
       <EdgeType>Heavy</EdgeType>
@@ -2340,6 +2353,7 @@
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
       <DeformationRatio>0.06</DeformationRatio>
+      <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
       <EdgeType>Heavy</EdgeType>
