@@ -347,6 +347,7 @@
             <Entry Class="SurvivalHorst" BlueprintSubtypeId="Construction" />
             <Entry Class="SurvivalHorst" BlueprintSubtypeId="SmallTube" />
             <Entry Class="SurvivalHorst" BlueprintSubtypeId="Bleiplatte" />
+            <Entry Class="SurvivalHorst" BlueprintSubtypeId="Computer" />
 
         <!--WoodToKohlenstoff-->
             <Entry Class="WoodToKohlenstoff" BlueprintSubtypeId="WoodLogsBP" />
@@ -430,6 +431,7 @@
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="PlasticBP" />
 
         <!--ComponentsElektroAssembler-->                   <!--New-->
+            <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Computer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="KupferStrator" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="GoldStrator" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PlatinStrator" />
@@ -437,7 +439,7 @@
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Display" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="SMD" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PCB_Platine" />
-            <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Computer" />
+            <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="CopperComputer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="GoldComputer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PlatinComputer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="TitanComputer" />

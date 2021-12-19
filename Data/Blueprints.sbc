@@ -1018,23 +1018,9 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>      <!--KupferComputer (Computer)-->         <!--New-->
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Computer</SubtypeId>
-      </Id>
-      <DisplayName>Kupfer Computer</DisplayName>
-      <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="1" TypeId="Component" SubtypeId="PCB-Platine" />
-        <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
-      <IsPrimary>true</IsPrimary>
-    </Blueprint>
+
+
+
     <Blueprint>      <!--TitanMotor-->                        <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -1107,6 +1093,41 @@
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
+
+    <Blueprint>      <!--Owner Chip (Computer)-->         <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Computer</SubtypeId>
+      </Id>
+      <DisplayName>Owner Chip</DisplayName>
+      <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Copper" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
+    <Blueprint>      <!--CopperComputer (Computer)-->         <!--New-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CopperComputer</SubtypeId>
+      </Id>
+      <DisplayName>Kupfer Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
+        <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
+        <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="CopperComputer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
+
     <Blueprint>      <!--GoldComputer-->                      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>

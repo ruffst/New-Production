@@ -819,7 +819,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Computer</SubtypeId>
             </Id>
-            <DisplayName>Owner-Chip</DisplayName>
+            <DisplayName>Owner Chip</DisplayName>
             <Icon>Textures\GUI\Icons\component\ownerchip.dds</Icon>
             <Size>
                 <X>0.1</X>
@@ -842,7 +842,7 @@
             <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
-        <Component>            <!--Computer-->                  <!--New Items-->
+        <Component>            <!--CopperComputer-->                  <!--New Items-->
             <Id>
                 <TypeId>Component</TypeId>
                 <SubtypeId>CopperComputer</SubtypeId>

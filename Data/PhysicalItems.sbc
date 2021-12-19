@@ -341,6 +341,41 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
+    <PhysicalItem>      <!-- CopperScrap -->      <!--New-->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>CopperScrap</SubtypeId>
+      </Id>
+      <DisplayName>Schrott Kupfer</DisplayName>
+      <Icon>Textures\GUI\Icons\Platin_scrap.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.254</Volume>
+      <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- LeadScrap -->      <!--New-->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>LeadScrap</SubtypeId>
+      </Id>
+      <DisplayName>Schrott Blei</DisplayName>
+      <Icon>Textures\GUI\Icons\Platin_scrap.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.254</Volume>
+      <Model>Models\Components\ScrapMetalComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
+
     <PhysicalItem>      <!-- Mechanic Scrap von FertigerComponenten -->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
