@@ -297,7 +297,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>AluLightArmorBlock</BlockPairName>
+      <BlockPairName>Alu Block Slope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -402,7 +402,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>AluLightArmorBlock</BlockPairName>
+      <BlockPairName>Alu Block Corner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1200,7 +1200,7 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorBlock</SubtypeId>
       </Id>
-      <DisplayName>Alu Block Small</DisplayName>
+      <DisplayName>Alu Block</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_cube.dds</Icon>
       <Description>Leichte stabile Panzerung</Description>
       <CubeSize>Small</CubeSize>
@@ -1350,7 +1350,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Small</BlockPairName>
+      <BlockPairName>Alu Block</BlockPairName>
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
@@ -1366,7 +1366,7 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorSlope</SubtypeId>
       </Id>
-      <DisplayName>Alu Block Slope Small</DisplayName>
+      <DisplayName>Alu Block Slope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_slope.dds</Icon>
       <Description>Leichte stabile Panzerung</Description>
       <CubeSize>Small</CubeSize>
@@ -1481,7 +1481,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Slope Small</BlockPairName>
+      <BlockPairName>Alu Block Slope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.32</DeformationRatio>
@@ -1580,7 +1580,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Corner Small</BlockPairName>
+      <BlockPairName>Alu Block Corner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1739,7 +1739,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Corner Inv. Small</BlockPairName>
+      <BlockPairName>Alu Block Corner Inv.</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -1923,7 +1923,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Small</BlockPairName>
+      <BlockPairName>Titan Block</BlockPairName>
       <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <DeformationRatio>0.06</DeformationRatio>
       <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -2066,7 +2066,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Slope Small</BlockPairName>
+      <BlockPairName>Titan Block Slope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.06</DeformationRatio>
@@ -2177,7 +2177,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Corner Small</BlockPairName>
+      <BlockPairName>Titan Block Corner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -2348,7 +2348,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Corner Inv. Small</BlockPairName>
+      <BlockPairName>Titan Block Corner Inv.</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
