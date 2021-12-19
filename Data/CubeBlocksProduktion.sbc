@@ -569,6 +569,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -650,6 +656,12 @@
       <Model>Models\Cubes\Large\Assembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -747,6 +759,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -827,6 +845,12 @@
       <Model>Models\Cubes\Large\Assembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -929,13 +953,24 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Kupferdraht" Count="60" />
+        <Component Subtype="Kupferdraht" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1028,20 +1063,36 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Kupferdraht" Count="20" />
+        <Component Subtype="Kupferdraht" Count="20">
+          <DeconstructId>
+              <TypeId>Ore</TypeId>
+              <SubtypeId>Scrap</SubtypeId>
+            </DeconstructId>
+          </Component>
         <Component Subtype="LargeTube" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferSpulle" Count="80" />
+        <Component Subtype="KupferSpulle" Count="80">
+          <DeconstructId>
+              <TypeId>Ore</TypeId>
+              <SubtypeId>Scrap</SubtypeId>
+            </DeconstructId>
+          </Component>
         <Component Subtype="SteelPlate" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1119,13 +1170,24 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferSpulle" Count="50" />
+        <Component Subtype="KupferSpulle" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="LargeTube" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1217,13 +1279,24 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferSpulle" Count="100" />
+        <Component Subtype="KupferSpulle" Count="100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="LargeTube" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1316,6 +1389,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="250">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="500">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1398,6 +1477,12 @@
       <Model>Models\Cubes\Large\Assembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1506,6 +1591,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1518,7 +1609,12 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferSpulle" Count="20" />
+        <Component Subtype="KupferSpulle" Count="20">
+          <DeconstructId>
+              <TypeId>Ore</TypeId>
+              <SubtypeId>Scrap</SubtypeId>
+            </DeconstructId>
+          </Component>
         <Component Subtype="Display" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1604,6 +1700,12 @@
       <Model>Models\Cubes\Large\Assembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1711,6 +1813,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="180">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="400">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1729,7 +1837,12 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferSpulle" Count="80" />
+        <Component Subtype="KupferSpulle" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="MetalGrid" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1820,6 +1933,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="180">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="400">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1838,7 +1957,12 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferSpulle" Count="80" />
+        <Component Subtype="KupferSpulle" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="MetalGrid" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1943,6 +2067,12 @@
       <Model>Models\Cubes\Large\AdvancedAssemblerIndustrial.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
