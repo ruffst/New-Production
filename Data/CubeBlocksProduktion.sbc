@@ -66,7 +66,7 @@
         <Class>BasicTools</Class>
         <Class>SurvivalHorst</Class>
       </BlueprintClasses>
-      <AssemblySpeed>0.4</AssemblySpeed>
+      <AssemblySpeed>0.5</AssemblySpeed>
       <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
       <InventoryMaxVolume>2</InventoryMaxVolume>
@@ -941,7 +941,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="Girder" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1056,7 +1056,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1153,7 +1153,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferSpulle" Count="80">
+        <Component Subtype="KupferSpulle" Count="50">
           <DeconstructId>
               <TypeId>Ore</TypeId>
               <SubtypeId>Scrap</SubtypeId>

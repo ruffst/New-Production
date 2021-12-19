@@ -729,7 +729,7 @@
       <DisplayName>Bleiplatte</DisplayName>
       <Icon>Textures\GUI\Icons\component\lead_plate.dds</Icon>
       <Prerequisites>
-        <Item Amount="12" TypeId="Ingot" SubtypeId="Lead" />
+        <Item Amount="18" TypeId="Ingot" SubtypeId="Lead" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Bleiplatte" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
