@@ -48,6 +48,12 @@
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockGyroBasic   0-->
+      <Id Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyroBasic" />
+      <UnlockedByGroups>
+        <GroupSubtype>0</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
 
   <!--Freischatung Assembler1-->
 
