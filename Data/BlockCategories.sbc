@@ -145,6 +145,15 @@
         <string>CubeBlock/LargeBlockArmorHalfSlopedCorner</string>
         <string>CubeBlock/LargeBlockHeavyArmorHalfSlopedCorner</string>
 
+        <string>CubeBlock/AluLargeBlockArmorBlock</string>
+        <string>CubeBlock/AluLargeBlockArmorSlope</string>
+        <string>CubeBlock/AluLargeBlockArmorCorner</string>
+        <string>CubeBlock/AluLargeBlockArmorCornerInv</string>
+
+        <string>CubeBlock/TitanLargeHeavyBlockArmorBlock</string>
+        <string>CubeBlock/TitanLargeHeavyBlockArmorSlope</string>
+        <string>CubeBlock/TitanLargeHeavyBlockArmorCorner</string>
+        <string>CubeBlock/TitanLargeHeavyBlockArmorCornerInv</string>
 
 
         <string>CubeBlock/LargeBlockInteriorWall</string>
@@ -627,6 +636,16 @@
         <string>CubeBlock/SmallBlockArmorHalfSlopedCorner</string>
         <string>CubeBlock/SmallBlockHeavyArmorHalfSlopedCorner</string>
 
+        <string>CubeBlock/AluSmallBlockArmorBlock</string>
+        <string>CubeBlock/AluSmallBlockArmorSlope</string>
+        <string>CubeBlock/AluSmallBlockArmorCorner</string>
+        <string>CubeBlock/AluSmallBlockArmorCornerInv</string>
+
+        <string>CubeBlock/TitanSmallHeavyBlockArmorBlock</string>
+        <string>CubeBlock/TitanSmallHeavyBlockArmorSlope</string>
+        <string>CubeBlock/TitanSmallHeavyBlockArmorCorner</string>
+        <string>CubeBlock/TitanSmallHeavyBlockArmorCornerInv</string>
+
         <string>CubeBlock/SmallWindow1x1Face</string>
         <string>CubeBlock/SmallWindow1x1Flat</string>
         <string>CubeBlock/SmallWindow1x1FlatInv</string>
@@ -1004,6 +1023,27 @@
         <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyRight</string>
         <string>CubeBlock/SmallArmor2x1HalfSlopedPanelHeavyLeft</string>
         <string>CubeBlock/SmallArmor2x1HalfSlopedTipPanelHeavyLeft</string>
+
+        <string>CubeBlock/TitanLargeHeavyBlockArmorBlock</string>
+        <string>CubeBlock/TitanLargeHeavyBlockArmorSlope</string>
+        <string>CubeBlock/TitanLargeHeavyBlockArmorCorner</string>
+        <string>CubeBlock/TitanLargeHeavyBlockArmorCornerInv</string>
+
+        <string>CubeBlock/TitanSmallHeavyBlockArmorBlock</string>
+        <string>CubeBlock/TitanSmallHeavyBlockArmorSlope</string>
+        <string>CubeBlock/TitanSmallHeavyBlockArmorCorner</string>
+        <string>CubeBlock/TitanSmallHeavyBlockArmorCornerInv</string>
+
+        <string>CubeBlock/AluLargeBlockArmorBlock</string>
+        <string>CubeBlock/AluLargeBlockArmorSlope</string>
+        <string>CubeBlock/AluLargeBlockArmorCorner</string>
+        <string>CubeBlock/AluLargeBlockArmorCornerInv</string>
+
+        <string>CubeBlock/AluSmallBlockArmorBlock</string>
+        <string>CubeBlock/AluSmallBlockArmorSlope</string>
+        <string>CubeBlock/AluSmallBlockArmorCorner</string>
+        <string>CubeBlock/AluSmallBlockArmorCornerInv</string>
+
       </ItemIds>
     </Category>
 

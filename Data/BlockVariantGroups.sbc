@@ -26,6 +26,23 @@
         </BlockVariantGroup>
 
         <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aluminium_Armor" />
+            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <DisplayName>Aluminium Armor</DisplayName>
+            <Description>Extrem Leichte Panzerung</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluLargeBlockArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluLargeBlockArmorSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluLargeBlockArmorCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluLargeBlockArmorCornerInv" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluSmallBlockArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluSmallBlockArmorSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluSmallBlockArmorCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AluSmallBlockArmorCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightRampGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Slope2x1x1Base.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ArmorLightRampGroup</DisplayName>
@@ -102,6 +119,23 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorCornerInv" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorCornerSquare" />
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorCornerSquareInverted" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Titan_Armor" />
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <DisplayName>Titan Armor</DisplayName>
+            <Description>Leicht und Stabile Panzerung Panzerung</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TitanLargeHeavyBlockArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TitanLargeHeavyBlockArmorSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TitanLargeHeavyBlockArmorCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TitanLargeHeavyBlockArmorCornerInv" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TitanSmallHeavyBlockArmorBlock" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TitanSmallHeavyBlockArmorSlope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TitanSmallHeavyBlockArmorCorner" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="TitanSmallHeavyBlockArmorCornerInv" />
             </Blocks>
         </BlockVariantGroup>
 

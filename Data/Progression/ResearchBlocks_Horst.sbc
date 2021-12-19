@@ -756,6 +756,63 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--AluLargeBlockArmorBlock  Meilenstein_Armor_Alu--> 
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="AluLargeBlockArmorBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Alu</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--AluLargeBlockArmorSlope  Meilenstein_Armor_Alu--> 
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="AluLargeBlockArmorSlope" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Alu</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--AluLargeBlockArmorCorner  Meilenstein_Armor_Alu-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="AluLargeBlockArmorCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Alu</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--AluLargeBlockArmorCornerInv  Meilenstein_Armor_Alu-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="AluLargeBlockArmorCornerInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Alu</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--AluSmallBlockArmorBlock  Meilenstein_Armor_Alu-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="AluSmallBlockArmorBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Alu</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--AluSmallBlockArmorSlope  Meilenstein_Armor_Alu-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="AluSmallBlockArmorSlope" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Alu</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--AluSmallBlockArmorCorner  Meilenstein_Armor_Alu-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="AluSmallBlockArmorCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Alu</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--AluSmallBlockArmorCornerInv  Meilenstein_Armor_Alu-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="AluSmallBlockArmorCornerInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Alu</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+
   <!--Schwere Panzerung -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armorheavy  Meilenstein_Armorlight-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorheavy" />
@@ -1135,6 +1192,64 @@
         <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TitanLargeHeavyBlockArmorBlock  Meilenstein_Armor_Tin-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="TitanLargeHeavyBlockArmorBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Tin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TitanLargeHeavyBlockArmorSlope  Meilenstein_Armor_Tin-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="TitanLargeHeavyBlockArmorSlope" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Tin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TitanLargeHeavyBlockArmorCorner  Meilenstein_Armor_Tin-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="TitanLargeHeavyBlockArmorCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Tin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TitanLargeHeavyBlockArmorCornerInv  Meilenstein_Armor_Tin-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="TitanLargeHeavyBlockArmorCornerInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Tin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TitanSmallHeavyBlockArmorBlock  Meilenstein_Armor_Tin-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="TitanSmallHeavyBlockArmorBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Tin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TitanSmallHeavyBlockArmorSlope  Meilenstein_Armor_Tin-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="TitanSmallHeavyBlockArmorSlope" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Tin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TitanSmallHeavyBlockArmorCorner  Meilenstein_Armor_Tin-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="TitanSmallHeavyBlockArmorCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Tin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TitanSmallHeavyBlockArmorCornerInv  Meilenstein_Armor_Tin-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="TitanSmallHeavyBlockArmorCornerInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armor_Tin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+
   <!--Meilenstein_ArmorDeko -->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_ArmorDeko  Meilenstein_Armorheavy-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_ArmorDeko" />
