@@ -15,19 +15,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="350">
+        <Component Subtype="SteelPlate" Count="250">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="180">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MetalGrid" Count="30">
+        <Component Subtype="Construction" Count="110">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -39,20 +33,14 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="CopperComputer" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="50">
+        <Component Subtype="SteelPlate" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />
