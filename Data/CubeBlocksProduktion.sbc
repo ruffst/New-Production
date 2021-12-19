@@ -187,8 +187,8 @@
         <SubtypeId>Holzvergaser</SubtypeId>
       </Id>
       <DisplayName>Holzvergaser</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Holzvergaser.dds</Icon>
-      <Description>Vergase dein Holz</Description>
+      <Icon>Textures\GUI\Icons\Cubes\CoalGenerator.dds</Icon>
+      <Description>Nutze die Holzgase um Energie zu erzeugen</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
       <ResearchCost>
@@ -196,7 +196,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\LargeIceGrinder.mwm</Model>
+      <Model>Models\CoalGenerator.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -225,17 +225,17 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-        <MountPoint Side="Right" StartX="0.03" StartY="0.02" EndX="0.98" EndY="0.94" />
-        <MountPoint Side="Left" StartX="0.03" StartY="0.02" EndX="0.98" EndY="0.94" />
-        <MountPoint Side="Top" StartX="0.02" StartY="0.60" EndX="0.98" EndY="0.98" />
-        <MountPoint Side="Front" StartX="0.02" StartY="0.02" EndX="0.98" EndY="1.98" />
-        <MountPoint Side="Back" StartX="0.03" StartY="0.02" EndX="0.98" EndY="0.94" />
-        <MountPoint Side="Bottom" StartX="0.03" StartY="0.03" EndX="0.98" EndY="0.98" />
-        <MountPoint Side="Right" StartX="0.60" StartY="0.94" EndX="0.98" EndY="1.98" />
-        <MountPoint Side="Left" StartX="0.03" StartY="0.94" EndX="0.40" EndY="1.98" />
+        <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\LargeIceGrinder_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Holzvergaser</BlockPairName>
       <MirroringY>Z</MirroringY>
