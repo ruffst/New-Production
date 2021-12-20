@@ -238,7 +238,7 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_U</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Uranium -->
+    <PhysicalItem>      <!-- Cobalt -->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Cobalt</SubtypeId>
@@ -254,7 +254,7 @@
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>IconSymbol_U</IconSymbol>
+      <IconSymbol>Co</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>      <!-- Uranium -->
       <Id>
