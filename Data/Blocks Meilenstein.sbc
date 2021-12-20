@@ -1780,12 +1780,6 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Reactor" Count="50">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
       </Components>
       <CriticalComponent Subtype="Reactor" Index="0" />
       <BuildProgressModels>

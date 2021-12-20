@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
-    <!-- Ore -->
+  <!--Ore -->
 
     <PhysicalItem>      <!-- Aluminum -->
       <Id>
@@ -274,7 +274,7 @@
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_U</IconSymbol>
     </PhysicalItem>
-    <!-- Scraps -->
+  <!--Scraps -->
 
     <PhysicalItem>      <!-- Scrap -->
       <Id>
@@ -464,7 +464,7 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
 
-    <!--Ingots-->
+  <!--Ingots-->
 
     <PhysicalItem>      <!-- Stone -->
       <Id>
@@ -828,7 +828,7 @@
       <IconSymbol>IconSymbol_U</IconSymbol>
     </PhysicalItem>
 
-    <!-- Tools -->
+  <!--Tools -->
 
     <PhysicalItem>
       <Id>
@@ -1131,7 +1131,7 @@
       <Volume>1</Volume>
     </PhysicalItem>
 
-    <!-- bottles -->
+  <!--bottles -->
 
 
     <PhysicalItem xsi:type="MyObjectBuilder_OxygenContainerDefinition">
@@ -1194,7 +1194,7 @@
       <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
     </PhysicalItem>
-    <!-- Guns -->
+  <!--Guns -->
 
     <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
       <Id>
