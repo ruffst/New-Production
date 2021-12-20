@@ -278,7 +278,7 @@
         <Item Amount="10" TypeId="Ore" SubtypeId="Iron" />
       </Prerequisites>
       <Result Amount="1" TypeId="Ingot" SubtypeId="Kohlenstoff" />
-      <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--PlasticBP-->      <!--New_Items-->
       <Id>
