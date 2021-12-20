@@ -260,13 +260,13 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-        <Class>            <!--CommonMetals-->
+        <Class>            <!--CommonMetalHorst-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>CommonMetals</SubtypeId>
+                <SubtypeId>CommonMetalHorst</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_BlueprintClass_CommonMetals</DisplayName>
-            <Description>Description_BlueprintClass_CommonMetals</Description>
+            <DisplayName>DisplayName_BlueprintClass_CommonMetalHorst</DisplayName>
+            <Description>Description_BlueprintClass_CommonMetalHorst</Description>
             <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
             <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
             <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
@@ -377,16 +377,16 @@
             <Entry Class="Ingots" BlueprintSubtypeId="AluminumOreToIngot" />
             <Entry Class="Ingots" BlueprintSubtypeId="TitaniumOreToIngot" />          
 
-        <!--CommonMetals-->
-            <Entry Class="CommonMetals" BlueprintSubtypeId="IronOreToIngot2" />
-            <Entry Class="CommonMetals" BlueprintSubtypeId="NickelOreToIngot" />
-            <Entry Class="CommonMetals" BlueprintSubtypeId="CobaltOreToIngot" />
-            <Entry Class="CommonMetals" BlueprintSubtypeId="MagnesiumOreToIngot" />
-            <Entry Class="CommonMetals" BlueprintSubtypeId="SiliconOreToIngot" />
-            <Entry Class="CommonMetals" BlueprintSubtypeId="ScrapIngotToIronIngot" />
-            <Entry Class="CommonMetals" BlueprintSubtypeId="StoneOreToIngot" />
-            <Entry Class="CommonMetals" BlueprintSubtypeId="CopperOreToIngot" />
-            <Entry Class="CommonMetals" BlueprintSubtypeId="LeadOreToIngot" />
+        <!--CommonMetalHorst-->
+            <Entry Class="CommonMetalHorst" BlueprintSubtypeId="IronOreToIngot2" />
+            <Entry Class="CommonMetalHorst" BlueprintSubtypeId="NickelOreToIngot" />
+            <Entry Class="CommonMetalHorst" BlueprintSubtypeId="CobaltOreToIngot" />
+            <Entry Class="CommonMetalHorst" BlueprintSubtypeId="MagnesiumOreToIngot" />
+            <Entry Class="CommonMetalHorst" BlueprintSubtypeId="SiliconOreToIngot" />
+            <Entry Class="CommonMetalHorst" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+            <Entry Class="CommonMetalHorst" BlueprintSubtypeId="StoneOreToIngot" />
+            <Entry Class="CommonMetalHorst" BlueprintSubtypeId="CopperOreToIngot" />
+            <Entry Class="CommonMetalHorst" BlueprintSubtypeId="LeadOreToIngot" />
 
         <!--Oxyde-->                                        <!--New-->
             <Entry Class="Oxyde" BlueprintSubtypeId="StoneIngotToOxyde" />
