@@ -977,6 +977,7 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="2" TypeId="Component" SubtypeId="KupferSpulle" />
         <Item Amount="2" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="1.5" TypeId="Ingot" SubtypeId="Neodymium" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Rotor" />
       <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
