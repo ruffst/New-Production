@@ -378,13 +378,15 @@
             <Entry Class="Ingots" BlueprintSubtypeId="TitaniumOreToIngot" />          
 
         <!--CommonMetals-->
-            <Entry Class="CommonMetals" BlueprintSubtypeId="IronOreToIngot" />
+            <Entry Class="CommonMetals" BlueprintSubtypeId="IronOreToIngot2" />
             <Entry Class="CommonMetals" BlueprintSubtypeId="NickelOreToIngot" />
             <Entry Class="CommonMetals" BlueprintSubtypeId="CobaltOreToIngot" />
             <Entry Class="CommonMetals" BlueprintSubtypeId="MagnesiumOreToIngot" />
             <Entry Class="CommonMetals" BlueprintSubtypeId="SiliconOreToIngot" />
             <Entry Class="CommonMetals" BlueprintSubtypeId="ScrapIngotToIronIngot" />
             <Entry Class="CommonMetals" BlueprintSubtypeId="StoneOreToIngot" />
+            <Entry Class="CommonMetals" BlueprintSubtypeId="CopperOreToIngot" />
+            <Entry Class="CommonMetals" BlueprintSubtypeId="LeadOreToIngot" />
 
         <!--Oxyde-->                                        <!--New-->
             <Entry Class="Oxyde" BlueprintSubtypeId="StoneIngotToOxyde" />

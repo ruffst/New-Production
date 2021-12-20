@@ -411,6 +411,23 @@
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
+    <Blueprint>      <!--IronOreToIngot2-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IronOreToIngot2</SubtypeId>
+      </Id>
+      <DisplayName>Eisen schmelzen2</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Iron" />
+      </Prerequisites>
+      <Results> 
+        <Item Amount="0.7" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="Kohlenstoff" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
+    </Blueprint>
     <Blueprint>      <!--NickelOreToIngot-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
