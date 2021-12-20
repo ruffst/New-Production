@@ -466,6 +466,25 @@
 
     <!--Ingots-->
 
+    <PhysicalItem>      <!-- Stone -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Stone</SubtypeId>
+      </Id>
+      <DisplayName>Barren Kies Sack</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>0.3</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Ingots\stone_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Kies</IconSymbol>
+    </PhysicalItem>
+
     <PhysicalItem>      <!-- Aluminium -->
       <Id>
         <TypeId>Ingot</TypeId>
