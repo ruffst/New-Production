@@ -317,18 +317,18 @@
     <Blueprint>      <!--StoneIngotToOxyge-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>StoneIngotToOxyge</SubtypeId>
+        <SubtypeId>StoneIngotToOxyde</SubtypeId>
       </Id>
       <DisplayName>Stein zu Eisen 2</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
         <Item Amount="3" TypeId="Ingot" SubtypeId="Lithium" />
         <Item Amount="3" TypeId="Ingot" SubtypeId="Neodymium" />
       </Results>
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--StoneOreToIngotBasic-->      <!--New_Items-->
       <Id>
