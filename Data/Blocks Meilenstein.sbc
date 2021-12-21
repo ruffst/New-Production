@@ -7,14 +7,14 @@
         <SubtypeId>Meilenstein_Armorlight</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Armor leicht</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von leichten Panzerblöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -49,14 +49,14 @@
         <SubtypeId>Meilenstein_Armor_Alu</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Armor Alu</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von leichten Panzerblöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -73,9 +73,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Armor Alu</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -97,14 +95,14 @@
         <SubtypeId>Meilenstein_Armorheavy</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Armor schwer</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von schweren Panzerblöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -145,14 +143,14 @@
         <SubtypeId>Meilenstein_Armor_Tin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Armor Tin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von leichten Panzerblöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -193,14 +191,14 @@
         <SubtypeId>Meilenstein_ArmorDeko</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Deko Armor</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -241,14 +239,14 @@
         <SubtypeId>Meilenstein_Fenster</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Fenster</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -289,14 +287,14 @@
         <SubtypeId>Meilenstein_Controls</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Controls</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="3">
           <DeconstructId>
@@ -337,14 +335,14 @@
         <SubtypeId>Meilenstein_Medical</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Medical</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="3">
           <DeconstructId>
@@ -385,14 +383,14 @@
         <SubtypeId>Meilenstein_Remote</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Remote</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="5">
           <DeconstructId>
@@ -433,14 +431,14 @@
         <SubtypeId>Meilenstein_Gyroskop</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Gyroskop</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -493,14 +491,14 @@
         <SubtypeId>Meilenstein_Gyroskop_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Gyroskop_Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -559,14 +557,14 @@
         <SubtypeId>Meilenstein_Gyroskop_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Gyroskop Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -625,14 +623,14 @@
         <SubtypeId>Meilenstein_Gyroskop_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Gyroskop Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -691,14 +689,14 @@
         <SubtypeId>Meilenstein_Tools</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Tools</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -745,14 +743,14 @@
         <SubtypeId>Meilenstein_Tools_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Tools Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -805,14 +803,14 @@
         <SubtypeId>Meilenstein_Tools_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Tools Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -865,14 +863,14 @@
         <SubtypeId>Meilenstein_Tools_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Tools Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -925,14 +923,14 @@
         <SubtypeId>Meilenstein_OreDetector</SubtypeId>
       </Id>
       <DisplayName>Meilenstein OreDetector</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -985,14 +983,14 @@
         <SubtypeId>Meilenstein_OreDetector_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein OreDetector Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -1051,14 +1049,14 @@
         <SubtypeId>Meilenstein_OreDetector_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein OreDetector Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -1117,14 +1115,14 @@
         <SubtypeId>Meilenstein_OreDetector_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein OreDetector Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -1183,14 +1181,14 @@
         <SubtypeId>Meilenstein_Waffen</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Waffen</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -1243,14 +1241,14 @@
         <SubtypeId>Meilenstein_Conveyors</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Conveyors</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="10">
           <DeconstructId>
@@ -1303,14 +1301,14 @@
         <SubtypeId>Meilenstein_Deko1</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Deko</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -1345,14 +1343,14 @@
         <SubtypeId>Meilenstein_Deko2</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Deko2</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -1387,14 +1385,14 @@
         <SubtypeId>Meilenstein_Industrial</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Industrial</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -1447,14 +1445,14 @@
         <SubtypeId>Meilenstein_Industrial_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Industrial Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -1519,14 +1517,14 @@
         <SubtypeId>Meilenstein_Industrial_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Industrial Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -1591,14 +1589,14 @@
         <SubtypeId>Meilenstein_Industrial_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Industrial Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -1663,14 +1661,14 @@
         <SubtypeId>Meilenstein_Automation</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Automation</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="50">
           <DeconstructId>
@@ -1717,14 +1715,14 @@
         <SubtypeId>Meilenstein_Lights</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Lights</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="6">
           <DeconstructId>
@@ -1759,14 +1757,14 @@
         <SubtypeId>Meilenstein_Power</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Power</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="20">
           <DeconstructId>
@@ -1807,14 +1805,14 @@
         <SubtypeId>Meilenstein_Power_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Power Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="20">
           <DeconstructId>
@@ -1861,14 +1859,14 @@
         <SubtypeId>Meilenstein_Power_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Power Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="20">
           <DeconstructId>
@@ -1915,14 +1913,14 @@
         <SubtypeId>Meilenstein_Power_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Power Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="20">
           <DeconstructId>
@@ -1969,14 +1967,14 @@
         <SubtypeId>Meilenstein_Thruster_Atmo</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Thruster Atmo</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -2023,14 +2021,14 @@
         <SubtypeId>Meilenstein_Thruster_Hydro</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Thruster Hydro</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="10">
           <DeconstructId>
@@ -2077,14 +2075,14 @@
         <SubtypeId>Meilenstein_Thruster_Hydro_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Thruster Hydro Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="15">
           <DeconstructId>
@@ -2131,14 +2129,14 @@
         <SubtypeId>Meilenstein_Thruster_Hydro_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Thruster Hydro Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="20">
           <DeconstructId>
@@ -2185,14 +2183,14 @@
         <SubtypeId>Meilenstein_Thruster_Hydro_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Thruster Hydro Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="25">
           <DeconstructId>
@@ -2239,14 +2237,14 @@
         <SubtypeId>Meilenstein_Thruster_Ionen</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Thruster Ionen</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
@@ -2299,14 +2297,14 @@
         <SubtypeId>Meilenstein_Thruster_Ionen_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Thruster Ionen Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="35">
           <DeconstructId>
@@ -2359,14 +2357,14 @@
         <SubtypeId>Meilenstein_Thruster_Ionen_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Thruster Ionen Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="35">
           <DeconstructId>
@@ -2419,14 +2417,14 @@
         <SubtypeId>Meilenstein_Thruster_Ionen_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Thruster Ionen Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="35">
           <DeconstructId>
@@ -2479,14 +2477,14 @@
         <SubtypeId>Meilenstein_LCDs</SubtypeId>
       </Id>
       <DisplayName>Meilenstein LCDs</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -2521,14 +2519,14 @@
         <SubtypeId>Meilenstein_Sound_Blocks</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Sound Blocks</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -2563,14 +2561,14 @@
         <SubtypeId>Meilenstein_Gravity</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Gravity</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="10">
           <DeconstructId>
@@ -2617,14 +2615,14 @@
         <SubtypeId>Meilenstein_Jumpdrive</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Jumpdrive</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
@@ -2677,14 +2675,14 @@
         <SubtypeId>Meilenstein_Jumpdrive_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Jumpdrive Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
@@ -2737,14 +2735,14 @@
         <SubtypeId>Meilenstein_Jumpdrive_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Jumpdrive Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
@@ -2797,14 +2795,14 @@
         <SubtypeId>Meilenstein_Jumpdrive_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Jumpdrive Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
@@ -2857,14 +2855,14 @@
         <SubtypeId>Meilenstein_Mechanic</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Mechanic</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="40">
           <DeconstructId>
@@ -2911,14 +2909,14 @@
         <SubtypeId>Meilenstein_Tore</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Tore</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="30">
           <DeconstructId>
@@ -2965,14 +2963,14 @@
         <SubtypeId>Meilenstein_Räder</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Räder</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="30">
           <DeconstructId>
@@ -3019,14 +3017,14 @@
         <SubtypeId>Meilenstein_Cargos</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Cargos</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="40">
           <DeconstructId>
@@ -3067,14 +3065,14 @@
         <SubtypeId>Meilenstein_Cargos_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Cargos Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="40">
           <DeconstructId>
@@ -3127,14 +3125,14 @@
         <SubtypeId>Meilenstein_Cargos_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Cargos Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="40">
           <DeconstructId>
@@ -3187,14 +3185,14 @@
         <SubtypeId>Meilenstein_Cargos_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Cargos Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="40">
           <DeconstructId>
@@ -3247,14 +3245,14 @@
         <SubtypeId>Meilenstein_Communication</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Communication</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="20">
           <DeconstructId>
@@ -3295,14 +3293,14 @@
         <SubtypeId>Meilenstein_Landing</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Landing</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="20">
           <DeconstructId>
@@ -3349,14 +3347,14 @@
         <SubtypeId>Meilenstein_Tanks</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Tanks</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="30">
           <DeconstructId>
@@ -3397,14 +3395,14 @@
         <SubtypeId>Meilenstein_Tanks_Gold</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Tanks Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="30">
           <DeconstructId>
@@ -3451,14 +3449,14 @@
         <SubtypeId>Meilenstein_Tanks_Platin</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Tanks Platin</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="30">
           <DeconstructId>
@@ -3505,14 +3503,14 @@
         <SubtypeId>Meilenstein_Tanks_Titan</SubtypeId>
       </Id>
       <DisplayName>Meilenstein Tanks Titan</DisplayName>
-      <Icon>Textures\GUI\Icons\GanymedeConveyorJunctionLG2.png</Icon>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\GanymedeConveyorJunctionLG2.mwm</Model>
+      <Model>Models\Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="30">
           <DeconstructId>
