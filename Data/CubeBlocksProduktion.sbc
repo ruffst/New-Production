@@ -2810,16 +2810,16 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <SensorRadius>0.9</SensorRadius>
-      <SensorOffset>0.8</SensorOffset>
-      <CutOutRadius>0.9</CutOutRadius>
-      <CutOutOffset>0.3</CutOutOffset>
+      <SensorRadius>0.5</SensorRadius>
+      <SensorOffset>0.4</SensorOffset>
+      <CutOutRadius>0.6</CutOutRadius>
+      <CutOutOffset>0.15</CutOutOffset>
       <ParticleOffset>
         <X>0</X>
         <Y>0</Y>
         <Z>-1.45</Z>
       </ParticleOffset>
-      <DeformationRatio>0.15</DeformationRatio>
+      <DeformationRatio>0.1</DeformationRatio>
       <UsesDeformation>false</UsesDeformation>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
