@@ -5120,6 +5120,20 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension3x3  Meilenstein_Räder-->
+          <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadSuspension3x3" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension5x5  Meilenstein_Räder-->
+          <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadSuspension5x5" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallSuspension3x3  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension3x3" />
           <UnlockedByGroups>
