@@ -575,7 +575,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
+ 
     <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition"><!---SpawnOreDetector-->
       <Id>
         <TypeId>OreDetector</TypeId>

@@ -1,75 +1,4 @@
                
-
-
-
-Bausteine
-        MilestoneArmorMaterial
-        MilestoneEnergyMaterial
-        MilestoneMechanicMaterial
-        MilestoneElectroMaterial
-        MilestoneSpaceMaterial
-        MilestoneCargoMaterial
-
-Abfall
-        ScrapIngot
-        GlassScrap
-        BatteryScrap
-        ElektroScrap
-        AluminiumScrap
-        TitanScrap
-        PlatinScrap
-        GoldScrap
-        MechanicScrap
-
-
-
-        <Component Subtype="MilestoneArmorMaterial" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-
-        <Component Subtype="MilestoneEnergyMaterial" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>BatteryScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-
-        <Component Subtype="MilestoneMechanicMaterial" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-
-        <Component Subtype="MilestoneElectroMaterial" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-
-        <Component Subtype="MilestoneSpaceMaterial" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-
-        <Component Subtype="MilestoneCargoMaterial" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-
-
-
-
-
-
 <BlueprintClasses>
 
         <Class>            <!--Tools-->
@@ -105,5 +34,30 @@ Abfall
       </UnlockedByGroups>
     </ResearchBlock>
 </ResearchBlocks>
+
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorCornerSquare  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerSquare" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <Component Subtype="Computer" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+
+
+OffroadSuspension3x3
+OffroadSuspension5x5
+
+
+
+
+
+
 
 

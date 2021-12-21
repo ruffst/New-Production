@@ -535,7 +535,7 @@
     <Blueprint>      <!--CopperOreToIngot-->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CMM_T1_CopperOreToIngot</SubtypeId>
+        <SubtypeId>CopperOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Kupfer schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
@@ -551,7 +551,7 @@
     <Blueprint>      <!-- AluminumOreToIngot -->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CMM_T1_AluminumOreToIngot</SubtypeId>
+        <SubtypeId>AluminumOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Aluminium schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
@@ -567,7 +567,7 @@
     <Blueprint>      <!-- LeadOreToIngot -->      <!--New-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>CMM_T1_LeadOreToIngot</SubtypeId>
+        <SubtypeId>LeadOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Blei schmelzen</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
