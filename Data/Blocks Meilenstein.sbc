@@ -1352,13 +1352,13 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="30">
+        <Component Subtype="MilestoneMechanicMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneElectroMaterial" Count="20">
+        <Component Subtype="MilestoneElectroMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
@@ -1706,13 +1706,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneEnergyMaterial" Count="20">
+        <Component Subtype="MilestoneEnergyMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneElectroMaterial" Count="20">
+        <Component Subtype="MilestoneElectroMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
@@ -2400,7 +2400,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneElectroMaterial" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="6">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
@@ -2868,7 +2868,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneMechanicMaterial" Count="30">
+        <Component Subtype="MilestoneMechanicMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
@@ -2880,7 +2880,7 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneArmorMaterial" Count="20">
+        <Component Subtype="MilestoneArmorMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -2920,7 +2920,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneCargoMaterial" Count="40">
+        <Component Subtype="MilestoneCargoMaterial" Count="25">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
