@@ -203,6 +203,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -297,6 +303,12 @@
       <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -531,6 +543,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -565,8 +583,8 @@
       <EdgeType>Light</EdgeType>
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
-      <ForceMagnitude>100000</ForceMagnitude>
-      <RequiredPowerInput>0.002</RequiredPowerInput>
+      <ForceMagnitude>8000</ForceMagnitude>
+      <RequiredPowerInput>0.4</RequiredPowerInput>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
