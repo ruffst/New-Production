@@ -178,6 +178,13 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--BasicSmallBlockDrill  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_Drill" Subtype="BasicSmallBlockDrill" />
+          <UnlockedByGroups>
+            <GroupSubtype>Forschung</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Leichte Panzerung-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armorlight  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorlight" />
