@@ -254,23 +254,22 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>3</MaxPowerOutput>
+      <MaxPowerOutput>6</MaxPowerOutput>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
         <Z>1</Z>
       </InventorySize>
-      <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
-      <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
+      <InventoryFillFactorMin>0.005</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.01</InventoryFillFactorMax>
       <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
       <FuelInfos>
         <FuelInfo>
           <Id>
             <TypeId>Component</TypeId>
             <SubtypeId>WoodLogs</SubtypeId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Ice</SubtypeId>
           </Id>
+          <Ratio>100.000</Ratio>
         </FuelInfo>
       </FuelInfos>
       <PrimarySound>ShipLrgNuclearSm</PrimarySound>

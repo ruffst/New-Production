@@ -119,55 +119,7 @@
     </ResearchBlock>
 
 
-  <!--Armor  0-->
-    <ResearchBlock xsi:type="ResearchBlock">      <!--LargeBlockArmorBlock   0-->
-      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-      <UnlockedByGroups>
-        <GroupSubtype></GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--LargeBlockArmorSlope   0-->
-      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope" />
-      <UnlockedByGroups>
-        <GroupSubtype></GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--LargeBlockArmorCorner   0-->
-      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype></GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--LargeBlockArmorCornerInv   0-->
-      <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerInv" />
-      <UnlockedByGroups>
-        <GroupSubtype></GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockArmorBlock   0-->
-      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock" />
-      <UnlockedByGroups>
-        <GroupSubtype></GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockArmorSlope   0-->
-      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope" />
-      <UnlockedByGroups>
-        <GroupSubtype></GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockArmorCorner   0-->
-      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype></GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockArmorCornerInv   0-->
-      <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerInv" />
-      <UnlockedByGroups>
-        <GroupSubtype></GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
+
 
   <!--Reasearch Blocks-->
 
@@ -5128,14 +5080,14 @@
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension3x3  Meilenstein_Räder-->
-          <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadSuspension3x3" />
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension3x3" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension5x5  Meilenstein_Räder-->
-          <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadSuspension5x5" />
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension5x5" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
