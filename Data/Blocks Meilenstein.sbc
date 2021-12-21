@@ -25,9 +25,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Armor leicht</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -119,9 +117,7 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Armor schwer</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -167,9 +163,7 @@
       </Components>
       <CriticalComponent Subtype="TitanPlate" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Armor Tin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -215,9 +209,7 @@
       </Components>
       <CriticalComponent Subtype="Construction" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Deko Armor</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -263,9 +255,7 @@
       </Components>
       <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Fenster</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -311,9 +301,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Controls</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -359,9 +347,7 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Medical</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -407,9 +393,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Remote</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -467,9 +451,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Gyroskop</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -533,9 +515,7 @@
       </Components>
       <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Gyroskop Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -599,9 +579,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Gyroskop Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -665,9 +643,7 @@
       </Components>
       <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Gyroskop Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -719,9 +695,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Tools</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -779,9 +753,7 @@
       </Components>
       <CriticalComponent Subtype="GoldMotor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Tools Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -839,9 +811,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinMotor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Tools Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -899,9 +869,7 @@
       </Components>
       <CriticalComponent Subtype="TitanMotor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Tools Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -959,9 +927,7 @@
       </Components>
       <CriticalComponent Subtype="Detector" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein OreDetector</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1025,9 +991,7 @@
       </Components>
       <CriticalComponent Subtype="GoldMotor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein OreDetector Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1091,9 +1055,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinMotor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein OreDetector Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1157,9 +1119,7 @@
       </Components>
       <CriticalComponent Subtype="TitanMotor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein OreDetector Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1217,9 +1177,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Waffen</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1277,9 +1235,7 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Conveyors</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1319,9 +1275,7 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Deko</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1361,9 +1315,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Deko2</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1421,9 +1373,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Industrial</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1493,9 +1443,7 @@
       </Components>
       <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Industrial Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1565,9 +1513,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Industrial Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1637,9 +1583,7 @@
       </Components>
       <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Industrial Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1691,9 +1635,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneCargoMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Automation</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1733,9 +1675,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Lights</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1781,9 +1721,7 @@
       </Components>
       <CriticalComponent Subtype="Reactor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Power</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1835,9 +1773,7 @@
       </Components>
       <CriticalComponent Subtype="GoldReactor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Power Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1889,9 +1825,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinReactor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Power Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1943,9 +1877,7 @@
       </Components>
       <CriticalComponent Subtype="TitanReactor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Power Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -1997,9 +1929,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Thruster Atmo</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2051,9 +1981,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Thruster Hydro</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2105,9 +2033,7 @@
       </Components>
       <CriticalComponent Subtype="GoldStrator" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Thruster Hydro</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2159,9 +2085,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinStrator" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Thruster Hydro Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2213,9 +2137,7 @@
       </Components>
       <CriticalComponent Subtype="TitanStrator" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Thruster Hydro Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2273,9 +2195,7 @@
       </Components>
       <CriticalComponent Subtype="Thrust" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Thruster Ionen</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2333,9 +2253,7 @@
       </Components>
       <CriticalComponent Subtype="GoldThrust" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Thruster Ionen Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2393,9 +2311,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinThrust" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Thruster Ionen Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2453,9 +2369,7 @@
       </Components>
       <CriticalComponent Subtype="TitanThrust" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Thruster Ionen Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2495,9 +2409,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein LCDs</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2537,9 +2449,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Sound Blocks</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2591,9 +2501,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Gravity</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2651,9 +2559,7 @@
       </Components>
       <CriticalComponent Subtype="GravityGenerator" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Jumpdrive</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2711,9 +2617,7 @@
       </Components>
       <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Jumpdrive Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2771,9 +2675,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Jumpdrive Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2831,9 +2733,7 @@
       </Components>
       <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Jumpdrive Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2885,9 +2785,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Mechanic</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2939,9 +2837,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Tore</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -2993,9 +2889,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Räder</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3041,9 +2935,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Cargos</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3101,9 +2993,7 @@
       </Components>
       <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Cargos Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3161,9 +3051,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Cargos Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3221,9 +3109,7 @@
       </Components>
       <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Cargos Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3269,9 +3155,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Communication</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3323,9 +3207,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Landing</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3371,9 +3253,7 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Tanks</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3425,9 +3305,7 @@
       </Components>
       <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Tanks Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3479,9 +3357,7 @@
       </Components>
       <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Tanks Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
@@ -3533,9 +3409,7 @@
       </Components>
       <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\GanymedeConveyorJunctionLG_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.67" File="Models\GanymedeConveyorJunctionLG_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\GanymedeConveyorJunctionLG_BS3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein Tanks Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
