@@ -60,6 +60,13 @@
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">      <!--OxygenGeneratorBasic  0-->
+      <Id Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorBasic" />
+      <UnlockedByGroups>
+        <GroupSubtype>0</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
   <!--Freischatung Assembler1-->
 
     <ResearchBlock xsi:type="ResearchBlock">      <!--Drahtextruder   Assembler1-->
@@ -5586,7 +5593,7 @@
     </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OxygenGenerator  Meilenstein_Tanks-->
-          <Id Type="MyObjectBuilder_OxygenGenerator" Subtype="" />
+          <Id Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGenerator" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
