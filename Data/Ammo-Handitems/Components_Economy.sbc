@@ -21,7 +21,7 @@
             <MinimalPricePerUnit>100000</MinimalPricePerUnit>
             <MinimumOfferAmount>10</MinimumOfferAmount>
             <MaximumOfferAmount>48</MaximumOfferAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
+            <CanPlayerOrder>false</CanPlayerOrder>
 
             <MaxIntegrity>1</MaxIntegrity>
             <DropProbability>0.1</DropProbability>

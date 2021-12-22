@@ -21,7 +21,7 @@
 
             <MinimumOfferAmount>5</MinimumOfferAmount>
             <MaximumOfferAmount>20</MaximumOfferAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
+            <CanPlayerOrder>false</CanPlayerOrder>
         </PhysicalItem>
 
         <PhysicalItem xsi:type="MyObjectBuilder_PackageDefinition">
@@ -66,7 +66,7 @@
             <MinimalPricePerUnit>750</MinimalPricePerUnit>
             <MinimumOfferAmount>1000</MinimumOfferAmount>
             <MaximumOfferAmount>10000</MaximumOfferAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
+            <CanPlayerOrder>false</CanPlayerOrder>
         </PhysicalItem>
         <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
             <Id>
@@ -92,7 +92,7 @@
             <MinimalPricePerUnit>1000</MinimalPricePerUnit>
             <MinimumOfferAmount>1000</MinimumOfferAmount>
             <MaximumOfferAmount>10000</MaximumOfferAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
+            <CanPlayerOrder>false</CanPlayerOrder>
         </PhysicalItem>
         <PhysicalItem xsi:type="MyObjectBuilder_PhysicalItemDefinition">
             <Id>
