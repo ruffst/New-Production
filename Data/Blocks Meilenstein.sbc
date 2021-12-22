@@ -482,31 +482,31 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneElectroMaterial" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneEnergyMaterial" Count="10">
+        <Component Subtype="MilestoneEnergyMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneSpaceMaterial" Count="8">
+        <Component Subtype="MilestoneSpaceMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="10">
+        <Component Subtype="MilestoneMechanicMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="GoldComputer" Count="10">
+        <Component Subtype="GoldComputer" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>GoldScrap</SubtypeId>

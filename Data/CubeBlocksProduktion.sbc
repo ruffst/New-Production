@@ -2737,7 +2737,7 @@
       <PCU>25</PCU>
     </Definition>
     <!--Tools-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition"><!---BasicSmallBlockDrill-->
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>BasicSmallBlockDrill</SubtypeId>

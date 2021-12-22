@@ -365,7 +365,7 @@
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
       <RequiredPowerInput>32</RequiredPowerInput>
       <PowerNeededForJump>3</PowerNeededForJump>
-      <MaxJumpDistance>2000000</MaxJumpDistance>
+      <MaxJumpDistance>200000</MaxJumpDistance>
       <MaxJumpMass>1250000</MaxJumpMass>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
@@ -540,7 +540,7 @@
       <Icon>Textures\GUI\Icons\Cubes\MergeBlock.dds</Icon>
       <Description>Description_MergeBlock</Description>
       <CubeSize>Large</CubeSize>
-      <Strength>0.1</Strength>
+      <Strength>0.4</Strength>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -618,7 +618,7 @@
       <Icon>Textures\GUI\Icons\Cubes\MergeBlock.dds</Icon>
       <Description>Description_MergeBlock</Description>
       <CubeSize>Small</CubeSize>
-      <Strength>0.015</Strength>
+      <Strength>0.035</Strength>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -703,7 +703,7 @@
       <Icon>Textures\GUI\Icons\Cubes\MergeBlockSmall.dds</Icon>
       <Description>Description_MergeBlock</Description>
       <CubeSize>Small</CubeSize>
-      <Strength>0.005</Strength>
+      <Strength>0.015</Strength>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
