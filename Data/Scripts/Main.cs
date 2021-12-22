@@ -74,7 +74,7 @@
 		int _nullCubeDefCount = 0;
 
 		
-		double HowMuchWoodToGive = 1500.0;
+		double HowMuchWoodToGive = 150.0;
 		static public MyObjectBuilder_Component LogBuilder = MyObjectBuilderSerializer.CreateNewObject<MyObjectBuilder_Component>("WoodLogs");
 
 		public override void Init(MyObjectBuilder_SessionComponent sessionComponent)
