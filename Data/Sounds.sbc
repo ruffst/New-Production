@@ -9,11 +9,11 @@
       <Category>BLOCK</Category>
       <MaxDistance>100</MaxDistance>
       <PreventSynchronization>0</PreventSynchronization>
-      <Volume>0.8</Volume>
+      <Volume>2.5</Volume>
       <Loopable>true</Loopable>
       <Waves>
         <Wave Type="D3">
-           <Start>Audio\ARC\BLOCK\vergaser_betrieb.wav</Start>    
+           <Loop>Audio\ARC\BLOCK\vergaser_betrieb.wav</Loop>    
         </Wave>
       </Waves>
     </Sound>
