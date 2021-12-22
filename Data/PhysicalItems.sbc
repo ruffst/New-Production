@@ -25,7 +25,7 @@
             <MaximumOfferAmount>9000</MaximumOfferAmount>
             <MinimumOrderAmount>1000</MinimumOrderAmount>
             <MaximumOrderAmount>9000</MaximumOrderAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
+            <CanPlayerOrder>false</CanPlayerOrder>
 
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
@@ -877,7 +877,7 @@
       <MaximumOfferAmount>20</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>100</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -901,7 +901,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -925,7 +925,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -949,7 +949,7 @@
       <MaximumOfferAmount>3</MaximumOfferAmount>
       <MinimumOrderAmount>5</MinimumOrderAmount>
       <MaximumOrderAmount>10</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -972,7 +972,7 @@
       <MaximumOfferAmount>20</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>100</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -996,7 +996,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1020,7 +1020,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1044,7 +1044,7 @@
       <MaximumOfferAmount>3</MaximumOfferAmount>
       <MinimumOrderAmount>5</MinimumOrderAmount>
       <MaximumOrderAmount>10</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1067,7 +1067,7 @@
       <MaximumOfferAmount>20</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>100</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1091,7 +1091,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1115,7 +1115,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1139,7 +1139,7 @@
       <MaximumOfferAmount>3</MaximumOfferAmount>
       <MinimumOrderAmount>5</MinimumOrderAmount>
       <MaximumOrderAmount>10</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1185,7 +1185,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>20</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
 
       <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
@@ -1215,7 +1215,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>20</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
 
       <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
@@ -1245,7 +1245,7 @@
       <MaximumOfferAmount>20</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>100</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
       <Id>
@@ -1270,7 +1270,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>100</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
       <Id>
@@ -1295,7 +1295,7 @@
       <MaximumOfferAmount>3</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>100</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
       <Id>
@@ -1320,7 +1320,7 @@
       <MaximumOfferAmount>20</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>100</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
       <Id>
@@ -1345,7 +1345,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
       <Id>
@@ -1370,7 +1370,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>50</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
       <Id>
@@ -1395,7 +1395,7 @@
       <MaximumOfferAmount>3</MaximumOfferAmount>
       <MinimumOrderAmount>5</MinimumOrderAmount>
       <MaximumOrderAmount>10</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
       <Id>
@@ -1420,7 +1420,7 @@
       <MaximumOfferAmount>5</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>100</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
       <Id>
@@ -1445,7 +1445,7 @@
       <MaximumOfferAmount>3</MaximumOfferAmount>
       <MinimumOrderAmount>10</MinimumOrderAmount>
       <MaximumOrderAmount>100</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
+      <CanPlayerOrder>false</CanPlayerOrder>
     </PhysicalItem>
 
 		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -1471,7 +1471,7 @@
             <MinimalPricePerUnit>100</MinimalPricePerUnit>
             <MinimumOfferAmount>1000</MinimumOfferAmount>
             <MaximumOfferAmount>10000</MaximumOfferAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
+            <CanPlayerOrder>false</CanPlayerOrder>
         </PhysicalItem>
         <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
             <Id>
@@ -1497,7 +1497,7 @@
             <MinimalPricePerUnit>100</MinimalPricePerUnit>
             <MinimumOfferAmount>1000</MinimumOfferAmount>
             <MaximumOfferAmount>10000</MaximumOfferAmount>
-            <CanPlayerOrder>true</CanPlayerOrder>
+            <CanPlayerOrder>false</CanPlayerOrder>
         </PhysicalItem>
 
   </PhysicalItems>
