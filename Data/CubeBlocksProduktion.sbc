@@ -185,17 +185,17 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>Holzvergaser</SubtypeId>
       </Id>
-      <DisplayName>Holzvergaser</DisplayName>
+      <DisplayName>Biomasse Verbrenner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\CoalGenerator.dds</Icon>
-      <Description>Nutze die Holzgase um Energie zu erzeugen</Description>
+      <Description>Verbrenne Holz um Energie zu erzeugen</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
       <ResearchCost>
       </ResearchCost>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\CoalGenerator.mwm</Model>
+      <Size x="3" y="4" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\BiomassBurner0_11.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
