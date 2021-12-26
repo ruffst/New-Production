@@ -190,8 +190,7 @@
       <Description>Verbrenne Holz um Energie zu erzeugen</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
-      <ResearchCost>
-      </ResearchCost>
+      <ResearchCost></ResearchCost>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="4" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -203,7 +202,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Bleiplatte" Count="60">
+        <Component Subtype="Bleiplatte" Count="120">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -235,13 +234,13 @@
         </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
-        <MountPoint Side="Right" StartX="0" StartY="0.3" EndX="0.6" EndY="2.7" />
-        <MountPoint Side="Back" StartX="0.05" StartY="0.05" EndX="2.95" EndY="2.95" Default="true" />
-        <MountPoint Side="Left" StartX="3.4" StartY="0.3" EndX="4" EndY="2.7" />
-        <MountPoint Side="Bottom" StartX="0.3" StartY="3.4" EndX="2.7" EndY="4" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1.00" StartY="0.00" EndX="2.00" EndY="0.94"/>
+				<MountPoint Side="Back" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="1.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
@@ -256,7 +255,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>6</MaxPowerOutput>
+      <MaxPowerOutput>9</MaxPowerOutput>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
