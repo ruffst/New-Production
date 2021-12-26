@@ -183,7 +183,6 @@
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition"><!---Holzvergaser-->
       <Id>
         <TypeId>Reactor</TypeId>
-        <TypeId>ExhaustBlock</TypeId>
         <SubtypeId>Holzvergaser</SubtypeId>
       </Id>
       <DisplayName>Biomasse Verbrenner</DisplayName>
@@ -191,8 +190,7 @@
       <Description>Verbrenne Holz um Energie zu erzeugen</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
-      <ResearchCost>
-      </ResearchCost>
+      <ResearchCost></ResearchCost>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="4" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
@@ -204,7 +202,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Bleiplatte" Count="60">
+        <Component Subtype="Bleiplatte" Count="120">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -257,7 +255,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>6</MaxPowerOutput>
+      <MaxPowerOutput>9</MaxPowerOutput>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
