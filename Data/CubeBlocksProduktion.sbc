@@ -235,18 +235,24 @@
         </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <!--<MountPoints>
-        <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
-        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
-      </MountPoints>-->
+      <MountPoints>
+        <MountPoint Side="Top" StartX="1.1" StartY="1.1" EndX="1.9" EndY="1.9" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.3" StartY="0" EndX="2.7" EndY="0.3" />
+        <MountPoint Side="Bottom" StartX="0.3" StartY="2.7" EndX="2.7" EndY="3" />
+        <MountPoint Side="Left" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Left" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Right" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Right" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Front" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Front" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Back" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Back" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+      </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
       </BuildProgressModels>
       <BlockPairName>Holzvergaser</BlockPairName>
       <MirroringY>Z</MirroringY>
