@@ -288,7 +288,7 @@
       </TieredUpdateTimes>
     </Definition>
 
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition"><!---Basic_Battery-->
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition"><!--Basic_Battery-->
       <Id>
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>Basic_Battery</SubtypeId>
@@ -366,6 +366,86 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
+
+   <Definition xsi:type="MyObjectBuilder_ConveyorConnectorDefinition"><!--BasicConveyorTube-->
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>BasicConveyorTube</SubtypeId>
+      </Id>
+      <DisplayName>Basic Conveyor Tube</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\ConveyorTube.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="24">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="22">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="14">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Bleiplatte" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicConveyorTube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <AutorotateMode>OppositeDirections</AutorotateMode>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <InventorySize>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!---Basic_Cargo-->
       <Id>
         <TypeId>CargoContainer</TypeId>
