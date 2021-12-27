@@ -1955,12 +1955,6 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Motor" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
         <Component Subtype="KupferSpulle" Count="20">
           <DeconstructId>
               <TypeId>Ore</TypeId>
