@@ -18,28 +18,11 @@
       </Members>
     </ResearchGroup>
 
-    <ResearchGroup xsi:type="ResearchGroup">      <!--Basic_Blöcke 0-->
-      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Basic_Blöcke" />
-      <Members>
-        <BlockId Type="MyObjectBuilder_BatteryBlock" Subtype="Basic_Battery" />
-        <BlockId Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />
-        <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="Basic_Cargo" />
-        <BlockId Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyroBasic" />
-
-      </Members>
-    </ResearchGroup>
 
     <ResearchGroup xsi:type="ResearchGroup">      <!--Armor-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Armor" />
       <Members>       
-        <!--<BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCorner" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerInv" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorBlock" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCorner" />
-        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerInv" />-->
+
       </Members>
     </ResearchGroup>
 
