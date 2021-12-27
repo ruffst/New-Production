@@ -896,7 +896,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>KupferStrator</SubtypeId>
       </Id>
-      <DisplayName>Kupfer Strator</DisplayName>
+      <DisplayName>Kupfer Stator</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_strator.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
@@ -911,7 +911,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldStrator</SubtypeId>
       </Id>
-      <DisplayName>Gold Strator</DisplayName>
+      <DisplayName>Gold Stator</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_strator.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
@@ -927,7 +927,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinStrator</SubtypeId>
       </Id>
-      <DisplayName>Platin Strator</DisplayName>
+      <DisplayName>Platin Stator</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_strator.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="GoldStrator" />
@@ -943,7 +943,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanStrator</SubtypeId>
       </Id>
-      <DisplayName>Titan Strator</DisplayName>
+      <DisplayName>Titan Stator</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_strator.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
