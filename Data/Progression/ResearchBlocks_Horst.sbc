@@ -4,14 +4,9 @@
 <ResearchBlocks>
 
 
-  <!--Freischatung Assembler-->
+  <!--Freischaltung Assembler-->
 
-    <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Battery   0-->
-      <Id Type="MyObjectBuilder_BatteryBlock" Subtype="Basic_Battery" />
-      <UnlockedByGroups>
-        <GroupSubtype>0</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
+
     <ResearchBlock xsi:type="ResearchBlock">      <!--Rohrextruder   0-->
       <Id Type="MyObjectBuilder_Assembler" Subtype="Rohrextruder" />
       <UnlockedByGroups>
@@ -36,38 +31,65 @@
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Cargo   0-->
-      <Id Type="MyObjectBuilder_Container" Subtype="Basic_Cargo" />
-      <UnlockedByGroups>
-        <GroupSubtype>0</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Sorter   0-->
-      <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />
-      <UnlockedByGroups>
-        <GroupSubtype>0</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockGyro_Basic   0-->
-      <Id Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Basic" />
-      <UnlockedByGroups>
-        <GroupSubtype>0</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
     <ResearchBlock xsi:type="ResearchBlock">      <!--SafeZoneBlock  0-->
       <Id Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
       <UnlockedByGroups>
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-    <ResearchBlock xsi:type="ResearchBlock">      <!--OxygenGeneratorBasic  0-->
-      <Id Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorBasic" />
+
+  <!--Freischaltung Meilenstein_Basic-->
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Basic  0-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Basic" />
       <UnlockedByGroups>
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
-  <!--Freischatung Assembler1-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--OxygenGeneratorBasic  Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorBasic" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+
+      <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockGyro_Basic   Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Basic" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+
+      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Cargo   Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_Container" Subtype="Basic_Cargo" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+
+      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Sorter   Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+
+      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Battery   Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_BatteryBlock" Subtype="Basic_Battery" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+
+      <ResearchBlock xsi:type="ResearchBlock">      <!--BasicConveyorTube   Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_Conveyor" Subtype="BasicConveyorTube" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+
+  <!--Freischaltung Assembler1-->
 
     <ResearchBlock xsi:type="ResearchBlock">      <!--Drahtextruder   Assembler1-->
       <Id Type="MyObjectBuilder_Assembler" Subtype="Drahtextruder" />
@@ -82,7 +104,7 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-  <!--Freischatung Assembler2-->
+  <!--Freischaltung Assembler2-->
 
     <ResearchBlock xsi:type="ResearchBlock">      <!--Blast_Furnace   Assembler2-->
       <Id Type="MyObjectBuilder_Refinery" Subtype="Blast_Furnace" />
@@ -103,8 +125,7 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-
-  <!--Freischatung Assembler3-->
+  <!--Freischaltung Assembler3-->
 
     <ResearchBlock xsi:type="ResearchBlock">      <!--Fertiger   Assembler3-->
       <Id Type="MyObjectBuilder_Assembler" Subtype="Fertiger" />
@@ -124,9 +145,6 @@
         <GroupSubtype>Assembler2</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-
-
-
 
   <!--Reasearch Blocks-->
 
@@ -2837,13 +2855,6 @@
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockConveyorSorter  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--Basic_Sorter  Meilenstein_Conveyors-->
-          <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>

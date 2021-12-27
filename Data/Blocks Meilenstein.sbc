@@ -1,6 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+
+    <Definition><!---Meilenstein_Basic-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Basic</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein Basic</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Basic Komponenten</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Milestone.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="120">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="150">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>       
+      </Components>
+      <CriticalComponent Subtype="Bleiplatte" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein Basic</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
     <Definition><!---Meilenstein_Armorlight-->
       <Id>
         <TypeId>Conveyor</TypeId>

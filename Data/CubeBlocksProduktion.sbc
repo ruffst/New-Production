@@ -270,7 +270,7 @@
             <TypeId>Component</TypeId>
             <SubtypeId>WoodLogs</SubtypeId>
           </Id>
-          <Ratio>250.000</Ratio>
+          <Ratio>100.000</Ratio>
         </FuelInfo>
       </FuelInfos>
       <PrimarySound>VergaserBetrieb</PrimarySound>
@@ -286,6 +286,60 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition"><!---SpawnOreDetector-->
+      <Id>
+        <TypeId>OreDetector</TypeId>
+        <SubtypeId>SpawnOreDetector</SubtypeId>
+      </Id>
+      <DisplayName>SmallOreDetectorStarter</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
+      <Description>Description_OreDetector</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\OreDetector.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Detector" Index="0" />
+      <Center x="0" y="0" z="1" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OreDetector</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <MaximumRange>150</MaximumRange>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>40</PCU>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition"><!--Basic_Battery-->
@@ -366,86 +420,6 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
-
-    <Definition xsi:type="MyObjectBuilder_ConveyorConnectorDefinition"><!--BasicConveyorTube-->
-      <Id>
-        <TypeId>ConveyorConnector</TypeId>
-        <SubtypeId>BasicConveyorTube</SubtypeId>
-      </Id>
-      <DisplayName>Basic Conveyor Tube</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
-      <Description>Description_ConveyorTube</Description>
-      <GuiVisible>true</GuiVisible>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\ConveyorTube.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="40">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="34">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="42">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Bleiplatte" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="34">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Bleiplatte" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeConstruction_2.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>BasicConveyorTube</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>7</BuildTimeSeconds>
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
-        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
-        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
-        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
-        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
-        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
-      </MountPoints>
-      <AutorotateMode>OppositeDirections</AutorotateMode>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
-      <DestroySound>PoofExplosionCat3</DestroySound>
-      <PCU>10</PCU>
-      <InventorySize>
-        <X>1</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </InventorySize>
-      <IsAirTight>false</IsAirTight>
-    </Definition>
-
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!---Basic_Cargo-->
       <Id>
         <TypeId>CargoContainer</TypeId>
@@ -673,6 +647,84 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <Definition xsi:type="MyObjectBuilder_ConveyorConnectorDefinition"><!--BasicConveyorTube-->
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>BasicConveyorTube</SubtypeId>
+      </Id>
+      <DisplayName>Basic Conveyor Tube</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\ConveyorTube.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="34">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="42">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="34">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Bleiplatte" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicConveyorTube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <AutorotateMode>OppositeDirections</AutorotateMode>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <InventorySize>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
     <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition"><!---OxygenGeneratorBasic-->
       <Id>
         <TypeId>OxygenGenerator</TypeId>
@@ -787,62 +839,7 @@
         <unsignedInt>1200</unsignedInt>
         <unsignedInt>2400</unsignedInt>
       </TieredUpdateTimes>
-    </Definition> 
-    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition"><!---SpawnOreDetector-->
-      <Id>
-        <TypeId>OreDetector</TypeId>
-        <SubtypeId>SpawnOreDetector</SubtypeId>
-      </Id>
-      <DisplayName>SmallOreDetectorStarter</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
-      <Description>Description_OreDetector</Description>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\OreDetector.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="80">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Computer" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Detector" Index="0" />
-      <Center x="0" y="0" z="1" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>OreDetector</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>14</BuildTimeSeconds>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <MaximumRange>150</MaximumRange>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>40</PCU>
     </Definition>
-
 
     <!--1. buildstufe-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition"><!---Rohrextruder-->
@@ -918,7 +915,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -1021,7 +1018,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -1229,7 +1226,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -1344,7 +1341,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -1453,7 +1450,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
@@ -1572,7 +1569,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -1682,7 +1679,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -1781,11 +1778,11 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>40</InventoryMaxVolume>
+      <InventoryMaxVolume>20</InventoryMaxVolume>
       <InventorySize>
-        <X>3</X>
-        <Y>3</Y>
-        <Z>3</Z>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
       </InventorySize>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.28</OperationalPowerConsumption>
@@ -1891,7 +1888,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -1999,7 +1996,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
@@ -2120,7 +2117,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -2240,7 +2237,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>90</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>7.5</InventoryMaxVolume>
+      <InventoryMaxVolume>3.5</InventoryMaxVolume>
       <InventorySize>
         <X>2.5</X>
         <Y>2.5</Y>
@@ -2383,7 +2380,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>90</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>7.5</InventoryMaxVolume>
+      <InventoryMaxVolume>3.5</InventoryMaxVolume>
       <InventorySize>
         <X>2.5</X>
         <Y>2.5</Y>
@@ -2510,7 +2507,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -2622,7 +2619,7 @@
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <IceConsumptionPerSecond>25</IceConsumptionPerSecond>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
@@ -3395,7 +3392,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
