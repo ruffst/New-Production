@@ -35,6 +35,7 @@
         <BlockId Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
         <BlockId Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />
         <BlockId Type="MyObjectBuilder_ConveyorConnector" Subtype="BasicConveyorTube" />
+        <BlockId Type="MyObjectBuilder_ConveyorConnector" Subtype="BasicConveyorTubeCurved" />
         <BlockId Type="MyObjectBuilder_CargoContainer" Subtype="Basic_Cargo" />
         
       </Members>

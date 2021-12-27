@@ -552,6 +552,7 @@
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
                 <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="BasicConveyorTube" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="BasicConveyorTubeCurved" />
                 
             </Blocks>
         </BlockVariantGroup>

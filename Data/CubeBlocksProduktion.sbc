@@ -445,7 +445,81 @@
       </InventorySize>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
+    <Definition><!--ConveyorTubeCurved-->
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>BasicConveyorTubeCurved</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorTubeCurved</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeCurved.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\ConveyorTubeCurved.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="34">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="42">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="34">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Bleiplatte" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeCurvedConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeCurvedConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicConveyorTube</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <AutorotateMode>FirstDirection</AutorotateMode>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition"><!---Basic_Cargo-->
       <Id>
         <TypeId>CargoContainer</TypeId>
@@ -1715,7 +1789,7 @@
       </Id>
       <DisplayName>Forschungslabor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ResearchLab.dds</Icon>
-      <Description>Forschungslabor zur Herstellung von Meilensteinmaterial</Description>
+      <Description>Forschungslabor zur Herstellung von Meilensteinmaterial. Die meißten Meilensteine sind nach dem Bau des Labors baubar. Einige sind verschachtelt.</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
