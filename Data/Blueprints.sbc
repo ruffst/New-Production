@@ -966,7 +966,7 @@
         <Item Amount="2" TypeId="Ingot" SubtypeId="Plastic" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--SMD-->                               <!--New-->
       <Id>
@@ -981,7 +981,7 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
       </Prerequisites>
       <Result Amount="7" TypeId="Component" SubtypeId="SMD" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--Rotor-->                             <!--New-->
       <Id>
@@ -1053,7 +1053,6 @@
         <Item Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
         <Item Amount="20" TypeId="Component" SubtypeId="Kupferdraht" />
         <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
-        <Item Amount="1" TypeId="Component" SubtypeId="Computer" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>

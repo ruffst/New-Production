@@ -312,6 +312,19 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
+        <Class>            <!--Research Blocks-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Research_Blocks</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_LargeBlocks</DisplayName>
+            <Description>Description_BlueprintClass_LargeBlocks</Description>
+            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+
 
     </BlueprintClasses>
     <BlueprintClassEntries>
@@ -529,9 +542,13 @@
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Canvas" />
 
         <!--Gas Verarbeitung-->
+
             <Entry Class="Ice" BlueprintSubtypeId="IceToOxygen" />
             <Entry Class="OxygenBottles" BlueprintSubtypeId="OxygenBottlesRefill" />
             <Entry Class="HydrogenBottles" BlueprintSubtypeId="HydrogenBottlesRefill" />
+
+        <!--Research_Blocks-->
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Meilenstein_Basic" />
 
     </BlueprintClassEntries>
 </Definitions>
