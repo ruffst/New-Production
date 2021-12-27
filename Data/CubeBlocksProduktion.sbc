@@ -1710,6 +1710,8 @@
       <OperationalPowerConsumption>0.28</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>Meilensteine</Class>
+        <Class>Research_Blocks</Class>
+        <Class>BuildPlanner</Class>
       </BlueprintClasses>
       <AssemblySpeed>0.5</AssemblySpeed>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>

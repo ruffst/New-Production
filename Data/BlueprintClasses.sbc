@@ -312,7 +312,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-        <Class>            <!--Research Blocks-->
+        <Class>            <!--Research_Blocks-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Research_Blocks</SubtypeId>
@@ -548,7 +548,70 @@
             <Entry Class="HydrogenBottles" BlueprintSubtypeId="HydrogenBottlesRefill" />
 
         <!--Research_Blocks-->
-            <Entry Class="Research_Blocks" BlueprintSubtypeId="Meilenstein_Basic" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Basic" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Armorlight" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Armor_Alu" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Armorheavy" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Armor_Tin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_ArmorDeko" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Fenster" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Controls" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Medical" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Remote" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Gyroskop" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Gyroskop_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Gyroskop_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Gyroskop_Titan" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Tools" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Tools_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Tools_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Tools_Titan" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_OreDetector" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_OreDetector_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_OreDetector_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_OreDetector_Titan" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Waffen" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Conveyors" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Deko1" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Deko2" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Industrial" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Industrial_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Industrial_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Industrial_Titan" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Power" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Power_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Power_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Power_Titan" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Lights" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Thruster_Atmo" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Thruster_Hydro" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Thruster_Hydro_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Thruster_Hydro_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Thruster_Hydro_Titan" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Thruster_Ionen" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Thruster_Ionen_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Thruster_Ionen_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Thruster_Ionen_Titan" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_LCDs" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Sound_Blocks" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Gravity" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Mechanic" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Tore" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Räder" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Cargos" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Cargos_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Cargos_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Cargos_Titan" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Jumpdrive" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Jumpdrive_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Jumpdrive_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Jumpdrive_Titan" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Communication" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Landing" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Tanks" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Tanks_Gold" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Tanks_Platin" />
+            <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Tanks_Titan" />
 
     </BlueprintClassEntries>
 </Definitions>
