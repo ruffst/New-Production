@@ -367,7 +367,7 @@
       <MirroringY>Z</MirroringY>
     </Definition>
 
-   <Definition xsi:type="MyObjectBuilder_ConveyorConnectorDefinition"><!--BasicConveyorTube-->
+    <Definition xsi:type="MyObjectBuilder_ConveyorConnectorDefinition"><!--BasicConveyorTube-->
       <Id>
         <TypeId>ConveyorConnector</TypeId>
         <SubtypeId>BasicConveyorTube</SubtypeId>
@@ -382,31 +382,31 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\ConveyorTube.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="SteelPlate" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="24">
+        <Component Subtype="Construction" Count="34">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SmallTube" Count="22">
+        <Component Subtype="SmallTube" Count="42">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Bleiplatte" Count="6">
+        <Component Subtype="Bleiplatte" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="14">
+        <Component Subtype="SteelPlate" Count="34">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
