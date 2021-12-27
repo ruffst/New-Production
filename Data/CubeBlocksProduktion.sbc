@@ -1649,12 +1649,6 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Rotor" Count="50">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
         <Component Subtype="BulletproofGlass" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
