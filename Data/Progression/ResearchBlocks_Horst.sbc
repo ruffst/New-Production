@@ -146,7 +146,7 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-  <!--Reasearch Blocks-->
+  <!--Forschungslabor-->
 
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Forschungslabor   0-->
       <Id Type="MyObjectBuilder_Assembler" Subtype="Forschungslabor" />
@@ -162,7 +162,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Leichte Panzerung-->
+  <!--Meilenstein_Armorlight-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armorlight  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorlight" />
       <UnlockedByGroups>
@@ -732,7 +732,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Aluminium Panzerung-->
+  <!--Meilenstein_Armor_Alu-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armor_Alu  Meilenstein_Armorlight-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armor_Alu" />
       <UnlockedByGroups>
@@ -797,7 +797,7 @@
         </ResearchBlock>
 
 
-  <!--Schwere Panzerung -->
+  <!--Meilenstein_Armorheavy-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armorheavy  Meilenstein_Armorlight-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorheavy" />
       <UnlockedByGroups>
@@ -1169,7 +1169,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Armor_Tin -->
+  <!--Meilenstein_Armor_Tin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armor_Tin  Meilenstein_Armorheavy-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armor_Tin" />
       <UnlockedByGroups>
@@ -1234,7 +1234,7 @@
         </ResearchBlock>
 
 
-  <!--Meilenstein_ArmorDeko -->
+  <!--Meilenstein_ArmorDeko-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_ArmorDeko  Meilenstein_Armorheavy-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_ArmorDeko" />
       <UnlockedByGroups>
@@ -1831,7 +1831,7 @@
         </ResearchBlock>
 
 
-  <!--Meilenstein_Fenster -->
+  <!--Meilenstein_Fenster-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Fenster  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Fenster" />
       <UnlockedByGroups>
@@ -2198,7 +2198,7 @@
 
 
 
-  <!--Meilenstein_Controls -->
+  <!--Meilenstein_Controls-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Controls  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Controls" />
       <UnlockedByGroups>
@@ -2206,7 +2206,7 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-  <!--Meilenstein_Medical -->
+  <!--Meilenstein_Medical-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Medical  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Medical" />
       <UnlockedByGroups>
@@ -2508,7 +2508,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Tools_Gold -->
+  <!--Meilenstein_Tools_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tools_Gold  Meilenstein_Tools-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Gold" />
       <UnlockedByGroups>
@@ -2558,7 +2558,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Tools_Platin -->
+  <!--Meilenstein_Tools_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tools_Platin  Meilenstein_Tools_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Platin" />
       <UnlockedByGroups>
@@ -2608,7 +2608,7 @@
           </UnlockedByGroups>
         </ResearchBlock>      
 
-  <!--Meilenstein_Tools_Titan -->
+  <!--Meilenstein_Tools_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tools_Titan  Meilenstein_Tools_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Titan" />
       <UnlockedByGroups>
@@ -2658,7 +2658,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_OreDetector -->
+  <!--Meilenstein_OreDetector-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector" />
       <UnlockedByGroups>
@@ -2680,7 +2680,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_OreDetector_Gold -->
+  <!--Meilenstein_OreDetector_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Gold  Meilenstein_OreDetector-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Gold" />
       <UnlockedByGroups>
@@ -2702,7 +2702,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_OreDetector_Platin -->
+  <!--Meilenstein_OreDetector_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Platin  Meilenstein_OreDetector_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Platin" />
       <UnlockedByGroups>
@@ -2724,7 +2724,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_OreDetector_Titan -->
+  <!--Meilenstein_OreDetector_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Titan  Meilenstein_OreDetector_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Titan" />
       <UnlockedByGroups>
@@ -2746,7 +2746,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Waffen -->
+  <!--Meilenstein_Waffen-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Waffen  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Waffen" />
       <UnlockedByGroups>
@@ -2845,7 +2845,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Conveyors -->
+  <!--Meilenstein_Conveyors-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Conveyors  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Conveyors" />
       <UnlockedByGroups>
@@ -3028,7 +3028,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Deko1 -->
+  <!--Meilenstein_Deko1-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Deko1  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Deko1" />
       <UnlockedByGroups>
@@ -3163,7 +3163,7 @@
         </ResearchBlock>
 
 
-  <!--Meilenstein_Deko2 -->
+  <!--Meilenstein_Deko2-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Deko2  Meilenstein_Deko1-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Deko2" />
       <UnlockedByGroups>
@@ -3277,7 +3277,7 @@
         </ResearchBlock>
 
 
-  <!--Meilenstein_Industrial -->
+  <!--Meilenstein_Industrial-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Industrial  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial" />
       <UnlockedByGroups>
@@ -3355,7 +3355,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Industrial_Gold -->
+  <!--Meilenstein_Industrial_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Industrial_Gold  Meilenstein_Industrial-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Gold" />
       <UnlockedByGroups>
@@ -3377,7 +3377,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Industrial_Platin -->
+  <!--Meilenstein_Industrial_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Industrial_Platin  Meilenstein_Industrial_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Platin" />
       <UnlockedByGroups>
@@ -3399,7 +3399,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Industrial_Titan -->
+  <!--Meilenstein_Industrial_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Industrial_Titan  Meilenstein_Industrial_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Titan" />
       <UnlockedByGroups>
@@ -3421,7 +3421,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Automation -->   
+  <!--Meilenstein_Automation-->   
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Automation  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Automation" />
       <UnlockedByGroups>
@@ -3527,7 +3527,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Power -->
+  <!--Meilenstein_Power-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power" />
       <UnlockedByGroups>
@@ -3619,7 +3619,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Power_Gold -->
+  <!--Meilenstein_Power_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power_Gold  Meilenstein_Power-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Gold" />
       <UnlockedByGroups>
@@ -3669,7 +3669,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Power_Platin -->
+  <!--Meilenstein_Power_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power_Platin  Meilenstein_Power_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Platin" />
       <UnlockedByGroups>
@@ -3719,7 +3719,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Power_Titan -->
+  <!--Meilenstein_Power_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power_Titan  Meilenstein_Power_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Titan" />
       <UnlockedByGroups>
@@ -3769,7 +3769,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Lights -->
+  <!--Meilenstein_Lights-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Lights  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Lights" />
       <UnlockedByGroups>
@@ -3932,7 +3932,7 @@
         </ResearchBlock>
 
 
-  <!--Meilenstein_Thruster_Atmo -->
+  <!--Meilenstein_Thruster_Atmo-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Atmo  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Atmo" />
       <UnlockedByGroups>
@@ -3998,7 +3998,7 @@
 
 
 
-  <!--Meilenstein_Thruster_Hydro -->
+  <!--Meilenstein_Thruster_Hydro-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro" />
       <UnlockedByGroups>
@@ -4064,7 +4064,7 @@
 
 
 
-  <!--Meilenstein_Thruster_Hydro_Gold -->
+  <!--Meilenstein_Thruster_Hydro_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Gold  Meilenstein_Thruster_Hydro-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Gold" />
       <UnlockedByGroups>
@@ -4100,7 +4100,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Thruster_Hydro_Platin -->
+  <!--Meilenstein_Thruster_Hydro_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Platin  Meilenstein_Thruster_Hydro_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Platin" />
       <UnlockedByGroups>
@@ -4136,7 +4136,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Thruster_Hydro_Titan -->
+  <!--Meilenstein_Thruster_Hydro_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Titan  Meilenstein_Thruster_Hydro_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Titan" />
       <UnlockedByGroups>
@@ -4172,7 +4172,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Thruster_Ionen -->
+  <!--Meilenstein_Thruster_Ionen-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen" />
       <UnlockedByGroups>
@@ -4236,7 +4236,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Thruster_Ionen_Gold -->
+  <!--Meilenstein_Thruster_Ionen_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen_Gold  Meilenstein_Thruster_Ionen-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Gold" />
       <UnlockedByGroups>
@@ -4300,7 +4300,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Thruster_Ionen_Platin -->
+  <!--Meilenstein_Thruster_Ionen_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen_Platin  Meilenstein_Thruster_Ionen_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Platin" />
       <UnlockedByGroups>
@@ -4364,7 +4364,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Thruster_Ionen_Titan -->
+  <!--Meilenstein_Thruster_Ionen_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen_Titan  Meilenstein_Thruster_Ionen_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Titan" />
       <UnlockedByGroups>
@@ -4428,7 +4428,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_LCDs -->
+  <!--Meilenstein_LCDs-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_LCDs  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_LCDs" />
       <UnlockedByGroups>
@@ -4571,7 +4571,7 @@
 
 
 
-  <!--Meilenstein_Sound_Blocks -->
+  <!--Meilenstein_Sound_Blocks-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Sound_Blocks  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Sound_Blocks" />
       <UnlockedByGroups>
@@ -4593,7 +4593,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Gravity -->
+  <!--Meilenstein_Gravity-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Gravity  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gravity" />
       <UnlockedByGroups>
@@ -4643,7 +4643,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Mechanic -->
+  <!--Meilenstein_Mechanic-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Mechanic  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Mechanic" />
       <UnlockedByGroups>
@@ -4798,7 +4798,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Tore -->
+  <!--Meilenstein_Tore-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tore  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tore" />
       <UnlockedByGroups>
@@ -4914,7 +4914,7 @@
 
 
 
-  <!--Meilenstein_Räder -->
+  <!--Meilenstein_Räder-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Räder  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Räder" />
       <UnlockedByGroups>
@@ -5174,7 +5174,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Cargos -->
+  <!--Meilenstein_Cargos-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos" />
       <UnlockedByGroups>
@@ -5263,7 +5263,7 @@
 
 
 
-  <!--Meilenstein_Cargos_Gold -->
+  <!--Meilenstein_Cargos_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos_Gold  Meilenstein_Cargos-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Gold" />
       <UnlockedByGroups>
@@ -5313,7 +5313,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Cargos_Platin -->
+  <!--Meilenstein_Cargos_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos_Platin  Meilenstein_Cargos_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Platin" />
       <UnlockedByGroups>
@@ -5363,7 +5363,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Cargos_Titan -->
+  <!--Meilenstein_Cargos_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos_Titan  Meilenstein_Cargos_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Titan" />
       <UnlockedByGroups>
@@ -5413,7 +5413,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Jumpdrive -->
+  <!--Meilenstein_Jumpdrive-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive" />
       <UnlockedByGroups>
@@ -5429,7 +5429,7 @@
         </ResearchBlock>
 
 
-  <!--Meilenstein_Jumpdrive_Gold -->
+  <!--Meilenstein_Jumpdrive_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Gold  Meilenstein_Jumpdrive-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Gold" />
       <UnlockedByGroups>
@@ -5444,7 +5444,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Jumpdrive_Platin -->
+  <!--Meilenstein_Jumpdrive_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Platin  Meilenstein_Jumpdrive_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Platin" />
       <UnlockedByGroups>
@@ -5459,7 +5459,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Jumpdrive_Titan -->
+  <!--Meilenstein_Jumpdrive_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Titan  Meilenstein_Jumpdrive_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Titan" />
       <UnlockedByGroups>
@@ -5474,7 +5474,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Communication -->
+  <!--Meilenstein_Communication-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Communication  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Communication" />
       <UnlockedByGroups>
@@ -5531,7 +5531,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Landing -->
+  <!--Meilenstein_Landing-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Landing  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Landing" />
       <UnlockedByGroups>
@@ -5595,7 +5595,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Tanks -->
+  <!--Meilenstein_Tanks-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks" />
       <UnlockedByGroups>
@@ -5687,7 +5687,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Tanks_Gold -->
+  <!--Meilenstein_Tanks_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Gold  Meilenstein_Tanks-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Gold" />
       <UnlockedByGroups>
@@ -5730,7 +5730,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Tanks_Platin -->
+  <!--Meilenstein_Tanks_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Platin  Meilenstein_Tanks_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Platin" />
       <UnlockedByGroups>
@@ -5773,7 +5773,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-  <!--Meilenstein_Tanks_Titan -->
+  <!--Meilenstein_Tanks_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Titan  Meilenstein_Tanks_Platin-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Titan" />
       <UnlockedByGroups>

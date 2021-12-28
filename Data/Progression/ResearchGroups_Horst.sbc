@@ -2,7 +2,8 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ResearchGroups>
-<!--Basic Tree-->
+<!--Large Block-->
+  <!--Basic Tree-->
 
     <ResearchGroup xsi:type="ResearchGroup">      <!--Holzvergaser 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0" />
@@ -33,9 +34,7 @@
         <BlockId Type="MyObjectBuilder_Assembler" Subtype="Plattenpresse" />
         <BlockId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
         <BlockId Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />    
-        <BlockId Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />
-
-        
+        <BlockId Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />        
       </Members>
     </ResearchGroup>
 
@@ -65,7 +64,7 @@
       </Members>
     </ResearchGroup>
 
-<!--Tech Tree-->
+  <!--Tech Tree-->
 
     <ResearchGroup xsi:type="ResearchGroup">      <!--Forschungslabor 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Forschung" />
@@ -73,448 +72,384 @@
         <BlockId Type="MyObjectBuilder_Assembler" Subtype="Forschungslabor" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Armorlight 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Armorlight" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorlight" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Armor_Alu 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Armor_Alu" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armor_Alu" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Armorheavy 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Armorheavy" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorheavy" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Armor_Tin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Armor_Tin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armor_Tin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_ArmorDeko 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_ArmorDeko" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_ArmorDeko" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Fenster 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Fenster" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Fenster" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Controls 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Controls" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Controls" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Medical 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Medical" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Medical" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Remote 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Remote" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Remote" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Gyroskop 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Gyroskop" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gyroskop" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Gyroskop_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Gyroskop_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gyroskop_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Gyroskop_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Gyroskop_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gyroskop_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Gyroskop_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Gyroskop_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gyroskop_Titan" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tools 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tools" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tools_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tools_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tools_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tools_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tools_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tools_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tools_Titan" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_OreDetector 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_OreDetector" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_OreDetector_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_OreDetector_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_OreDetector_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_OreDetector_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_OreDetector_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_OreDetector_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_OreDetector_Titan" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Waffen 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Waffen" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Waffen" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Conveyors 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Conveyors" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Conveyors" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Deko1 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Deko1" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Deko1" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Deko2 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Deko2" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Deko2" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Industrial 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Industrial" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Industrial_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Industrial_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Industrial_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Industrial_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Industrial_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Industrial_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Industrial_Titan" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Automation 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Automation" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Automation" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Lights 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Lights" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Lights" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Power 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Power" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Power_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Power_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Power_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Power_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Power_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Power_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Power_Titan" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Atmo 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Atmo" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Atmo" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Hydro 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Hydro" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Hydro_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Hydro_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Hydro_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Hydro_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Hydro_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Hydro_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Titan" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Ionen 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Ionen" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Ionen_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Ionen_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Ionen_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Ionen_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Ionen_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Ionen_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen_Titan" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_LCDs 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_LCDs" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_LCDs" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Sound_Blocks 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Sound_Blocks" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Sound_Blocks" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Gravity 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Gravity" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Gravity" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Jumpdrive 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Jumpdrive" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Jumpdrive_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Jumpdrive_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Jumpdrive_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Jumpdrive_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Jumpdrive_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Jumpdrive_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive_Titan" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Mechanic 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Mechanic" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Mechanic" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tore 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tore" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tore" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Räder 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Räder" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Räder" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Cargos 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Cargos" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Cargos_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Cargos_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Cargos_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Cargos_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Cargos_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Cargos_Titan" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Cargos_Titan" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Communication 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Communication" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Communication" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Landing 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Landing" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Landing" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tanks 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tanks" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tanks_Gold 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tanks_Gold" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Gold" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tanks_Platin 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tanks_Platin" />
       <Members>
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Tanks_Platin" />
       </Members>
     </ResearchGroup>
-
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Tanks_Titan 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Tanks_Titan" />
       <Members>
@@ -522,9 +457,9 @@
       </Members>
     </ResearchGroup>
 
+<!--Small Block-->
 
-
-
+  <!--Tech Tree-->
 
 
 
