@@ -1,0 +1,1330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition><!---Meilenstein_Small_Armorlight-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Armorlight</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Armor leicht</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von leichten Panzerblöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>       
+      </Components>
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Armor leicht</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Armorheavy-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Armorheavy</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Armor schwer</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von schweren Panzerblöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="500">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>        
+      </Components>
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Armor schwer</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Fenster-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Fenster</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Fenster</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="BulletproofGlass" Count="500">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Fenster</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Controls-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Controls</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Controls</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneEnergyMaterial" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneElectroMaterial" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Controls</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Medical-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Medical</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Medical</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneElectroMaterial" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Medical</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Remote-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Remote</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Remote</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneElectroMaterial" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneEnergyMaterial" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Remote</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Gyroskop-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Gyroskop</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Gyroskop</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneElectroMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneEnergyMaterial" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneSpaceMaterial" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Gyroskop</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Tools-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Tools</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Tools</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneElectroMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneEnergyMaterial" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Tools</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_OreDetector-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_OreDetector</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small OreDetector</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneElectroMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneEnergyMaterial" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Detector" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Detector" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small OreDetector</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Waffen-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Waffen</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Waffen</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneCargoMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneElectroMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Waffen</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Conveyors-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Conveyors</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Conveyors</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneMechanicMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneCargoMaterial" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Conveyors</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Industrial-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Industrial</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Industrial</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneElectroMaterial" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneEnergyMaterial" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Industrial</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Automation-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Automation</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Automation</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneElectroMaterial" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneCargoMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneCargoMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Automation</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Lights-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Lights</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Lights</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneEnergyMaterial" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Lights</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Power-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Power</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Power</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneEnergyMaterial" Count="7">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneElectroMaterial" Count="7">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Power</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Thruster_Atmo-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Thruster_Atmo</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Thruster Atmo</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneArmorMaterial" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneArmorMaterial" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Thruster Atmo</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Thruster_Hydro-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Thruster_Hydro</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Thruster Hydro</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="KupferStrator" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="KupferStrator" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Thruster Hydro</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Thruster_Ionen-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Thruster_Ionen</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Thruster Ionen</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneSpaceMaterial" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneEnergyMaterial" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Thrust" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Thruster Ionen</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_LCDs-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_LCDs</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small LCDs</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneElectroMaterial" Count="3">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small LCDs</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Mechanic-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Mechanic</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Mechanic</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneMechanicMaterial" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneElectroMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneArmorMaterial" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Mechanic</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Tore-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Tore</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Tore</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneMechanicMaterial" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneElectroMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneArmorMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Tore</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Räder-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Räder</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Räder</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneMechanicMaterial" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneElectroMaterial" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneArmorMaterial" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Räder</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Cargos-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Cargos</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Cargos</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneCargoMaterial" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneMechanicMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Cargos</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Communication-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Communication</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Communication</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneElectroMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneEnergyMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Communication</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Landing-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Landing</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Landing</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneMechanicMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneElectroMaterial" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneArmorMaterial" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Landing</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <Definition><!---Meilenstein_Small_Tanks-->
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>Meilenstein_Small_Tanks</SubtypeId>
+      </Id>
+      <DisplayName>Meilenstein_Small Tanks</DisplayName>
+      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
+      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Components>
+        <Component Subtype="MilestoneCargoMaterial" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MilestoneArmorMaterial" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Meilenstein_Small Tanks</BlockPairName>
+      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+  </CubeBlocks>
+</Definitions>
