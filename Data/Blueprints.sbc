@@ -26,7 +26,7 @@
       <DisplayName>Meilenstein Material Energie</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_energy.dds</Icon>
       <Prerequisites>
-        <Item Amount="85" TypeId="Component" SubtypeId="PowerCell" />
+        <Item Amount="70" TypeId="Component" SubtypeId="PowerCell" />
         <Item Amount="165" TypeId="Component" SubtypeId="SmallTube" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneEnergyMaterial" />
@@ -40,9 +40,9 @@
       <DisplayName>Meilenstein Material Mechanik</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_mech.dds</Icon>
       <Prerequisites>
-        <Item Amount="85" TypeId="Component" SubtypeId="Motor" />
-        <Item Amount="165" TypeId="Component" SubtypeId="MetalGrid" />
-        <Item Amount="195" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="65" TypeId="Component" SubtypeId="Motor" />
+        <Item Amount="150" TypeId="Component" SubtypeId="MetalGrid" />
+        <Item Amount="150" TypeId="Component" SubtypeId="Construction" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneMechanicMaterial" />
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
