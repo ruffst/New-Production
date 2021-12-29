@@ -74,7 +74,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MediumCargoContainer Gold</BlockPairName>
+      <BlockPairName>SmallBlockMediumContainer_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -164,7 +164,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MediumCargoContainer Platin</BlockPairName>
+      <BlockPairName>SmallBlockMediumContainer_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -254,7 +254,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MediumCargoContainer Titan</BlockPairName>
+      <BlockPairName>SmallBlockMediumContainer_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

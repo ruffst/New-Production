@@ -73,7 +73,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AntennaConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AntennaConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Antenna</BlockPairName>
+      <BlockPairName>LargeBlockRadioAntenna</BlockPairName>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <BuildTimeSeconds>40</BuildTimeSeconds>
@@ -158,7 +158,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Beacon</BlockPairName>
+      <BlockPairName>LargeBlockBeacon</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <BuildTimeSeconds>40</BuildTimeSeconds>
@@ -239,7 +239,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BeaconConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BeaconConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Beacon</BlockPairName>
+      <BlockPairName>SmallBlockBeacon</BlockPairName>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -327,7 +327,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Antenna</BlockPairName>
+      <BlockPairName>SmallBlockRadioAntenna</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -405,7 +405,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RemoteControlConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RemoteControlConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>RemoteControl</BlockPairName>
+      <BlockPairName>LargeBlockRemoteControl</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <MirroringY>Z</MirroringY>
@@ -486,7 +486,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\RemoteControlConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RemoteControlConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>RemoteControl</BlockPairName>
+      <BlockPairName>SmallBlockRemoteControl</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -595,7 +595,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LaserCom_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LaserCom_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LaserAntenna</BlockPairName>
+      <BlockPairName>LargeBlockLaserAntenna</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <MirroringY>Z</MirroringY>
@@ -708,7 +708,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\LaserCom_Construction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LaserCom_Construction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LaserAntenna</BlockPairName>
+      <BlockPairName>SmallBlockLaserAntenna</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

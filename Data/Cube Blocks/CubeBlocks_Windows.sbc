@@ -45,7 +45,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\WindowSquareConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindowSquareConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>VerticalWindow</BlockPairName>
+      <BlockPairName>LargeWindowSquare</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -103,7 +103,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\WindowEdgeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindowEdgeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>DiagonalWindow</BlockPairName>
+      <BlockPairName>LargeWindowEdge</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -213,7 +213,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2InvConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2InvConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2FaceInv</BlockPairName>
+      <BlockPairName>Window1x2Inv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <MountPoints>
@@ -809,7 +809,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x1InvConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x1InvConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x1FaceInv</BlockPairName>
+      <BlockPairName>Window1x1Inv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <MountPoints>
@@ -1301,7 +1301,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Window1x2SlopeConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2Slope</BlockPairName>
+      <BlockPairName>SmallWindow1x2Slope</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <MountPoints>
@@ -1362,7 +1362,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2InvConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2FaceInv</BlockPairName>
+      <BlockPairName>SmallWindow1x2Inv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <MountPoints>
@@ -1426,7 +1426,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2FaceConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2Face</BlockPairName>
+      <BlockPairName>SmallWindow1x2Face</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <MountPoints>
@@ -1491,7 +1491,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2SideLeftConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2SideLeft</BlockPairName>
+      <BlockPairName>SmallWindow1x2SideLeft</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <MountPoints>
@@ -1547,7 +1547,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2SideLeftConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2SideLeftInv</BlockPairName>
+      <BlockPairName>SmallWindow1x2SideLeftInv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <MountPoints>
@@ -1603,7 +1603,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2SideRightConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2SideRight</BlockPairName>
+      <BlockPairName>SmallWindow1x2SideRight</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <MountPoints>
@@ -1659,7 +1659,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Window1x2SideRightConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2SideRightInv</BlockPairName>
+      <BlockPairName>SmallWindow1x2SideRightInv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <MountPoints>
@@ -1715,7 +1715,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Window1x1SlopeConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x1Slope</BlockPairName>
+      <BlockPairName>SmallWindow1x1Slope</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <MountPoints>
@@ -1775,7 +1775,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Window1x1FaceConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x1Face</BlockPairName>
+      <BlockPairName>SmallWindow1x1Face</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <MountPoints>
@@ -1840,7 +1840,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Window1x1SideConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x1Side</BlockPairName>
+      <BlockPairName>SmallWindow1x1Side</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <MountPoints>
@@ -1894,7 +1894,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Window1x1SideConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x1SideInv</BlockPairName>
+      <BlockPairName>SmallWindow1x1SideInv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <MountPoints>
@@ -1948,7 +1948,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Window1x1InvConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x1FaceInv</BlockPairName>
+      <BlockPairName>SmallWindow1x1Inv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <MountPoints>
@@ -2012,7 +2012,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2FlatConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2Flat</BlockPairName>
+      <BlockPairName>SmallWindow1x2Flat</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <MountPoints>
@@ -2065,7 +2065,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2FlatInvConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x2FlatInv</BlockPairName>
+      <BlockPairName>SmallWindow1x2FlatInv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <MountPoints>
@@ -2118,7 +2118,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\Window1x1FlatConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x1Flat</BlockPairName>
+      <BlockPairName>SmallWindow1x1Flat</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <MountPoints>
@@ -2170,7 +2170,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x1FlatInvConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window1x1FlatInv</BlockPairName>
+      <BlockPairName>SmallWindow1x1FlatInv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <MountPoints>
@@ -2222,7 +2222,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window3x3FlatConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window3x3Flat</BlockPairName>
+      <BlockPairName>SmallWindow3x3Flat</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <MountPoints>
@@ -2274,7 +2274,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window3x3FlatInvConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window3x3FlatInv</BlockPairName>
+      <BlockPairName>SmallWindow3x3FlatInv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <MountPoints>
@@ -2325,7 +2325,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window2x3FlatConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window2x3Flat</BlockPairName>
+      <BlockPairName>SmallWindow2x3Flat</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <MountPoints>
@@ -2378,7 +2378,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window2x3FlatInvConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Window2x3FlatInv</BlockPairName>
+      <BlockPairName>SmallWindow2x3FlatInv</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <MountPoints>

@@ -60,7 +60,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LightConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ReflectorLight</BlockPairName>
+      <BlockPairName>LargeBlockFrontLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
@@ -139,7 +139,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\LightConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ReflectorLight</BlockPairName>
+      <BlockPairName>SmallBlockFrontLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
@@ -190,7 +190,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorLightConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>InteriorLight</BlockPairName>
+      <BlockPairName>SmallLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
@@ -242,7 +242,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorLightConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>InteriorLight</BlockPairName>
+      <BlockPairName>SmallBlockSmallLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
@@ -266,7 +266,7 @@
         <SubtypeId>LargeBlockLight_1corner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_CornerLight</DisplayName>
-      <BlockPairName>CornerLight</BlockPairName>
+      <BlockPairName>LargeBlockLight_1corner</BlockPairName>
       <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
       <Description>Description_CornerLight</Description>
       <CubeSize>Large</CubeSize>
@@ -375,7 +375,7 @@
         <SubtypeId>SmallBlockLight_1corner</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_CornerLight</DisplayName>
-      <BlockPairName>CornerLight</BlockPairName>
+      <BlockPairName>SmallBlockLight_1corner</BlockPairName>
       <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
       <Description>Description_CornerLight</Description>
       <CubeSize>Small</CubeSize>

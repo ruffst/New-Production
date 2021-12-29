@@ -98,7 +98,7 @@
         <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
         <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
       </MountPoints>
-      <BlockPairName>ShipGrinder_Gold</BlockPairName>
+      <BlockPairName>SmallShipGrinder_Gold</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -207,7 +207,7 @@
         <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
-      <BlockPairName>ShipGrinder_Gold</BlockPairName>
+      <BlockPairName>LargeShipGrinder_Gold</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -318,7 +318,7 @@
         <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
         <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
       </MountPoints>
-      <BlockPairName>ShipGrinder_Platin</BlockPairName>
+      <BlockPairName>SmallShipGrinder_Platin</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -427,7 +427,7 @@
         <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
-      <BlockPairName>ShipGrinder_Platin</BlockPairName>
+      <BlockPairName>LargeShipGrinder_Platin</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -538,7 +538,7 @@
         <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
         <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
       </MountPoints>
-      <BlockPairName>ShipGrinder_Titan</BlockPairName>
+      <BlockPairName>SmallShipGrinder_Titan</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -647,7 +647,7 @@
         <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
-      <BlockPairName>ShipGrinder_Titan</BlockPairName>
+      <BlockPairName>LargeShipGrinder_Titan</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>

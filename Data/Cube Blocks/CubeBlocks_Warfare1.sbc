@@ -55,7 +55,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WeaponRackConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WeaponRackConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>WeaponRack</BlockPairName>
+      <BlockPairName>LargeBlockWeaponRack</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -118,7 +118,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WeaponRackConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WeaponRackConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>WeaponRack</BlockPairName>
+      <BlockPairName>SmallBlockWeaponRack</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

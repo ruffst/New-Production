@@ -115,7 +115,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorCornerSquare</BlockPairName>
+      <BlockPairName>LargeBlockArmorCornerSquare</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3.0</BuildTimeSeconds>
@@ -241,7 +241,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorCornerSquare</BlockPairName>
+      <BlockPairName>SmallBlockArmorCornerSquare</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1.0</BuildTimeSeconds>
@@ -374,7 +374,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCornerSquare</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorCornerSquare</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -513,7 +513,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCornerSquare</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorCornerSquare</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -657,7 +657,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorCornerSquareInverted</BlockPairName>
+      <BlockPairName>LargeBlockArmorCornerSquareInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7.0</BuildTimeSeconds>
@@ -789,7 +789,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorCornerSquareInverted</BlockPairName>
+      <BlockPairName>SmallBlockArmorCornerSquareInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3.0</BuildTimeSeconds>
@@ -928,7 +928,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCornerSquareInverted</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorCornerSquareInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>16.0</BuildTimeSeconds>
@@ -1073,7 +1073,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCornerSquareInverted</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorCornerSquareInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -1202,7 +1202,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfCorner</BlockPairName>
+      <BlockPairName>LargeBlockArmorHalfCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -1320,7 +1320,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfCorner</BlockPairName>
+      <BlockPairName>SmallBlockArmorHalfCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1.0</BuildTimeSeconds>
@@ -1445,7 +1445,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfCorner</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorHalfCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -1576,7 +1576,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfCorner</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorHalfCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -1683,7 +1683,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopeCorner</BlockPairName>
+      <BlockPairName>LargeBlockArmorHalfSlopeCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -1778,7 +1778,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopeCorner</BlockPairName>
+      <BlockPairName>SmallBlockArmorHalfSlopeCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1.0</BuildTimeSeconds>
@@ -1880,7 +1880,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopeCorner</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorHalfSlopeCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -1987,7 +1987,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopeCorner</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorHalfSlopeCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -2184,7 +2184,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopeCornerInverted</BlockPairName>
+      <BlockPairName>LargeBlockArmorHalfSlopeCornerInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -2369,7 +2369,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopeCornerInverted</BlockPairName>
+      <BlockPairName>SmallBlockArmorHalfSlopeCornerInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3.0</BuildTimeSeconds>
@@ -2561,7 +2561,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopeCornerInverted</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorHalfSlopeCornerInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>20.0</BuildTimeSeconds>
@@ -2759,7 +2759,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopeCornerInverted</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorHalfSlopeCornerInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>6.0</BuildTimeSeconds>
@@ -2894,7 +2894,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopedCorner</BlockPairName>
+      <BlockPairName>LargeBlockArmorHalfSlopedCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3.0</BuildTimeSeconds>
@@ -3017,7 +3017,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopedCorner</BlockPairName>
+      <BlockPairName>SmallBlockArmorHalfSlopedCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1.0</BuildTimeSeconds>
@@ -3147,7 +3147,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopedCorner</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorHalfSlopedCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -3283,7 +3283,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopedCorner</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorHalfSlopedCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -3441,7 +3441,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopedCornerBase</BlockPairName>
+      <BlockPairName>LargeBlockArmorHalfSlopedCornerBase</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4.0</BuildTimeSeconds>
@@ -3587,7 +3587,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopedCornerBase</BlockPairName>
+      <BlockPairName>SmallBlockArmorHalfSlopedCornerBase</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -3740,7 +3740,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopedCornerBase</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorHalfSlopedCornerBase</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>10.0</BuildTimeSeconds>
@@ -3899,7 +3899,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopedCornerBase</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorHalfSlopedCornerBase</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>3.0</BuildTimeSeconds>
@@ -4082,7 +4082,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopeInverted</BlockPairName>
+      <BlockPairName>LargeBlockArmorHalfSlopeInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -4253,7 +4253,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorHalfSlopeInverted</BlockPairName>
+      <BlockPairName>SmallBlockArmorHalfSlopeInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3.0</BuildTimeSeconds>
@@ -4431,7 +4431,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopeInverted</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorHalfSlopeInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>20.0</BuildTimeSeconds>
@@ -4615,7 +4615,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorHalfSlopeInverted</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorHalfSlopeInverted</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>6.0</BuildTimeSeconds>
@@ -4769,7 +4769,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlopedCorner</BlockPairName>
+      <BlockPairName>LargeBlockArmorSlopedCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4.0</BuildTimeSeconds>
@@ -4911,7 +4911,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlopedCorner</BlockPairName>
+      <BlockPairName>SmallBlockArmorSlopedCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -5060,7 +5060,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlopedCorner</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorSlopedCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>10.0</BuildTimeSeconds>
@@ -5215,7 +5215,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlopedCorner</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorSlopedCorner</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>4.0</BuildTimeSeconds>
@@ -5397,7 +5397,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlopedCornerBase</BlockPairName>
+      <BlockPairName>LargeBlockArmorSlopedCornerBase</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7.0</BuildTimeSeconds>
@@ -5567,7 +5567,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlopedCornerBase</BlockPairName>
+      <BlockPairName>SmallBlockArmorSlopedCornerBase</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3.0</BuildTimeSeconds>
@@ -5744,7 +5744,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlopedCornerBase</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorSlopedCornerBase</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>16.0</BuildTimeSeconds>
@@ -5927,7 +5927,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlopedCornerBase</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorSlopedCornerBase</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -6046,7 +6046,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlopedCornerTip</BlockPairName>
+      <BlockPairName>LargeBlockArmorSlopedCornerTip</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>
@@ -6154,7 +6154,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlopedCornerTip</BlockPairName>
+      <BlockPairName>SmallBlockArmorSlopedCornerTip</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1.0</BuildTimeSeconds>
@@ -6269,7 +6269,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlopedCornerTip</BlockPairName>
+      <BlockPairName>LargeBlockHeavyArmorSlopedCornerTip</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -6389,7 +6389,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlopedCornerTip</BlockPairName>
+      <BlockPairName>SmallBlockHeavyArmorSlopedCornerTip</BlockPairName>
       <PhysicsOption>Convex</PhysicsOption>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>2.0</BuildTimeSeconds>

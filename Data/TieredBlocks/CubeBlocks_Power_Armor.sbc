@@ -158,7 +158,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block</BlockPairName>
+      <BlockPairName>AluLargeBlockArmorBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -296,7 +296,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Slope</BlockPairName>
+      <BlockPairName>AluLargeBlockArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -401,7 +401,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Corner</BlockPairName>
+      <BlockPairName>AluLargeBlockArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -566,7 +566,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Corner Inv.</BlockPairName>
+      <BlockPairName>AluLargeBlockArmorCornerInv</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -748,7 +748,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block</BlockPairName>
+      <BlockPairName>TitanLargeHeavyBlockArmorBlock</BlockPairName>
       <DeformationRatio>0.2</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
@@ -892,7 +892,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Slope</BlockPairName>
+      <BlockPairName>TitanLargeHeavyBlockArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.2</DeformationRatio>
@@ -1004,7 +1004,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Corner</BlockPairName>
+      <BlockPairName>TitanLargeHeavyBlockArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1175,7 +1175,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Corner Inv.</BlockPairName>
+      <BlockPairName>TitanLargeHeavyBlockArmorCornerInv</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -1345,7 +1345,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block</BlockPairName>
+      <BlockPairName>AluSmallBlockArmorBlock</BlockPairName>
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
@@ -1476,7 +1476,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Slope</BlockPairName>
+      <BlockPairName>AluSmallBlockArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.32</DeformationRatio>
@@ -1575,7 +1575,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Corner</BlockPairName>
+      <BlockPairName>AluSmallBlockArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1734,7 +1734,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Alu Block Corner Inv.</BlockPairName>
+      <BlockPairName>AluSmallBlockArmorCornerInv</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -1916,7 +1916,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block</BlockPairName>
+      <BlockPairName>TitanSmallHeavyBlockArmorBlock</BlockPairName>
       <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
       <DeformationRatio>0.06</DeformationRatio>
       <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -2059,7 +2059,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Slope</BlockPairName>
+      <BlockPairName>TitanSmallHeavyBlockArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.06</DeformationRatio>
@@ -2170,7 +2170,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Corner</BlockPairName>
+      <BlockPairName>TitanSmallHeavyBlockArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -2341,7 +2341,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>Titan Block Corner Inv.</BlockPairName>
+      <BlockPairName>TitanSmallHeavyBlockArmorCornerInv</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>

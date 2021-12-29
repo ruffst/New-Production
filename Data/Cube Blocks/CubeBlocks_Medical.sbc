@@ -106,7 +106,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>MedicalRoom</BlockPairName>
+      <BlockPairName>LargeMedicalRoom</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -215,7 +215,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>CryoChamber</BlockPairName>
+      <BlockPairName>LargeBlockCryoChamber</BlockPairName>
       <OverlayTexture>Textures\GUI\Screens\cryopod_interior.dds</OverlayTexture>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
@@ -336,7 +336,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>CryoChamber</BlockPairName>
+      <BlockPairName>SmallBlockCryoChamber</BlockPairName>
       <OverlayTexture>Textures\GUI\Screens\cryopod_interior.dds</OverlayTexture>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>

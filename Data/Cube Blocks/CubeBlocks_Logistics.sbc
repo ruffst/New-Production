@@ -75,7 +75,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OxygenTank</BlockPairName>
+      <BlockPairName>OxygenTankSmall</BlockPairName>
       <Center x="1" y="1" z="1" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -190,7 +190,8 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OxygenTank</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -305,7 +306,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTank</BlockPairName>
+      <BlockPairName>LargeHydrogenTank</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -412,7 +413,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>LargeHydrogenTankSmall</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -536,7 +537,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTank</BlockPairName>
+      <BlockPairName>SmallHydrogenTank</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -643,7 +644,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmall</BlockPairName>
+      <BlockPairName>SmallHydrogenTankSmall</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -742,7 +743,8 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenPressurizerConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenPressurizerConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AirVent</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -826,7 +828,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\OxygenPressurizerConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenPressurizerConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AirVent</BlockPairName>
+      <BlockPairName>SmallAirVent</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -917,7 +919,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallCargoContainer</BlockPairName>
+      <BlockPairName>SmallBlockSmallContainer</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -1000,7 +1002,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MediumCargoContainer</BlockPairName>
+      <BlockPairName>SmallBlockMediumContainer</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1083,7 +1085,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeCargoContainer</BlockPairName>
+      <BlockPairName>SmallBlockLargeContainer</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1183,7 +1185,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallCargoContainer</BlockPairName>
+      <BlockPairName>LargeBlockSmallContainer</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1285,7 +1287,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeCargoContainer</BlockPairName>
+      <BlockPairName>LargeBlockLargeContainer</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1351,7 +1353,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorSmall</BlockPairName>
+      <BlockPairName>SmallBlockConveyor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1422,7 +1424,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Conveyor</BlockPairName>
+      <BlockPairName>LargeBlockConveyor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1599,7 +1601,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CollectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CollectorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Collector</BlockPairName>
+      <BlockPairName>CollectorSmall</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
@@ -1871,7 +1873,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Connector</BlockPairName>
+      <BlockPairName>ConnectorMedium</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <Center x="1" y="1" z="1" />
@@ -2081,7 +2083,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorTube</BlockPairName>
+      <BlockPairName>ConveyorTubeMedium</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <MountPoints>
@@ -2155,7 +2157,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorFrameMediumConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorFrame</BlockPairName>
+      <BlockPairName>ConveyorFrameMedium</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <MountPoints>
@@ -2296,7 +2298,7 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
-      <BlockPairName>ConveyorTubeCurvedSmall</BlockPairName>
+      <BlockPairName>ConveyorTubeSmallCurved</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <MirroringY>Z</MirroringY>
@@ -2370,7 +2372,7 @@
         <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="0.4" EndY="2.7" />
         <MountPoint Side="Right" StartX="2.6" StartY="0.3" EndX="2.7" EndY="2.7" />
       </MountPoints>
-      <BlockPairName>ConveyorTubeCurved</BlockPairName>
+      <BlockPairName>ConveyorTubeCurvedMedium</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <AutorotateMode>FirstDirection</AutorotateMode>
@@ -2462,7 +2464,7 @@
         <MountPoint Side="Front" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
         <MountPoint Side="Front" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
       </MountPoints>
-      <BlockPairName>Conveyor</BlockPairName>
+      <BlockPairName>SmallShipConveyorHub</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>14</BuildTimeSeconds>
@@ -2543,7 +2545,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorSorterConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorSorterConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorSorter</BlockPairName>
+      <BlockPairName>LargeBlockConveyorSorter</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2634,7 +2636,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorSorterMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorSorterMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorSorter</BlockPairName>
+      <BlockPairName>MediumBlockConveyorSorter</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2724,7 +2726,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorSorterSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorSorterSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorSorterSmall</BlockPairName>
+      <BlockPairName>SmallBlockConveyorSorter</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

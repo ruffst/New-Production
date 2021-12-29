@@ -85,7 +85,7 @@
         <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
         <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true" />
       </MountPoints>
-      <BlockPairName>ShipWelder_Gold</BlockPairName>
+      <BlockPairName>SmallShipWelder_Gold</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -194,7 +194,7 @@
         <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
-      <BlockPairName>ShipWelder_Gold</BlockPairName>
+      <BlockPairName>LargeShipWelder_Gold</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -292,7 +292,7 @@
         <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
         <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true" />
       </MountPoints>
-      <BlockPairName>ShipWelder_Platin</BlockPairName>
+      <BlockPairName>SmallShipWelder_Platin</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -401,7 +401,7 @@
         <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
-      <BlockPairName>ShipWelder_Platin</BlockPairName>
+      <BlockPairName>LargeShipWelder_Platin</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -499,7 +499,7 @@
         <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
         <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true" />
       </MountPoints>
-      <BlockPairName>ShipWelder_Titan</BlockPairName>
+      <BlockPairName>SmallShipWelder_Titan</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -608,7 +608,7 @@
         <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
-      <BlockPairName>ShipWelder_Titan</BlockPairName>
+      <BlockPairName>LargeShipWelder_Titan</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>

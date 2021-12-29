@@ -45,7 +45,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RailStraight.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RailStraight.mwm" />
       </BuildProgressModels>
-      <BlockPairName>RailStraight</BlockPairName>
+      <BlockPairName>LargeRailStraight</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PCU>1</PCU>

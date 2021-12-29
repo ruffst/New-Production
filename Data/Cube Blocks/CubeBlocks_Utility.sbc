@@ -52,7 +52,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LandingGearConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LandingGearConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LandingGear</BlockPairName>
+      <BlockPairName>LargeBlockLandingGear</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -116,7 +116,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\LandingGearConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LandingGearConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LandingGear</BlockPairName>
+      <BlockPairName>SmallBlockLandingGear</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>12</BuildTimeSeconds>
@@ -184,7 +184,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SimpleMagneticPlateConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SimpleMagneticPlateConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MagneticPlate</BlockPairName>
+      <BlockPairName>LargeBlockSmallMagneticPlate</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -252,7 +252,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SimpleMagneticPlateConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SimpleMagneticPlateConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MagneticPlate</BlockPairName>
+      <BlockPairName>SmallBlockSmallMagneticPlate</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -355,7 +355,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>JumpDrive</BlockPairName>
+      <BlockPairName>LargeJumpDrive</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -437,7 +437,7 @@
       </VoxelPlacement>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
-      <BlockPairName>Camera</BlockPairName>
+      <BlockPairName>SmallCameraBlock</BlockPairName>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -505,7 +505,7 @@
       </BuildProgressModels>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
-      <BlockPairName>Camera</BlockPairName>
+      <BlockPairName>LargeCameraBlock</BlockPairName>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -595,7 +595,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MergeBlockConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\MergeBlockConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MergeBlock</BlockPairName>
+      <BlockPairName>LargeShipMergeBlock</BlockPairName>
       <MirroringX>Y</MirroringX>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -680,7 +680,7 @@
         <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="2.9" />
         <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.9" EndY="2.9" />
       </MountPoints>
-      <BlockPairName>MergeBlock</BlockPairName>
+      <BlockPairName>SmallShipMergeBlock</BlockPairName>
       <MirroringX>Y</MirroringX>
       <EdgeType>Light</EdgeType>
       <Public>true</Public>
@@ -765,7 +765,7 @@
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
-      <BlockPairName>MergeBlockSmall</BlockPairName>
+      <BlockPairName>SmallShipSmallMergeBlock</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -840,7 +840,7 @@
         </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BlockPairName>Parachute Hatch</BlockPairName>
+      <BlockPairName>LgParachute</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1040,7 +1040,7 @@
         </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BlockPairName>Parachute Hatch</BlockPairName>
+      <BlockPairName>SmParachute</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>

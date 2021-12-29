@@ -156,7 +156,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorBlock</BlockPairName>
+      <BlockPairName>LargeBlockArmorBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -292,7 +292,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlope</BlockPairName>
+      <BlockPairName>LargeBlockArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -395,7 +395,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorCorner</BlockPairName>
+      <BlockPairName>LargeBlockArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -558,7 +558,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorInvCorner</BlockPairName>
+      <BlockPairName>LargeBlockArmorCornerInv</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -620,7 +620,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SlopePlateConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\SlopePlateConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightRoundArmorSlope</BlockPairName>
+      <BlockPairName>LargeRoundArmor_Slope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -684,7 +684,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\FaceTrianglePlateConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\FaceTrianglePlateConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightRoundArmorCorner</BlockPairName>
+      <BlockPairName>LargeRoundArmor_Corner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -756,7 +756,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\InvFaceTrianglePlateConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\InvFaceTrianglePlateConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightRoundArmorInvCorner</BlockPairName>
+      <BlockPairName>LargeRoundArmor_CornerInv</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -935,7 +935,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorBlock</BlockPairName>
+      <BlockPairName>LargeHeavyBlockArmorBlock</BlockPairName>
       <DeformationRatio>0.4</DeformationRatio>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
@@ -1078,7 +1078,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlope</BlockPairName>
+      <BlockPairName>LargeHeavyBlockArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.4</DeformationRatio>
@@ -1188,7 +1188,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCorner</BlockPairName>
+      <BlockPairName>LargeHeavyBlockArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1358,7 +1358,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+      <BlockPairName>LargeHeavyBlockArmorCornerInv</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -1524,7 +1524,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorBlock</BlockPairName>
+      <BlockPairName>SmallBlockArmorBlock</BlockPairName>
       <DeformationRatio>0.32</DeformationRatio>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -1653,7 +1653,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorSlope</BlockPairName>
+      <BlockPairName>SmallBlockArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.32</DeformationRatio>
@@ -1750,7 +1750,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorCorner</BlockPairName>
+      <BlockPairName>SmallBlockArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1907,7 +1907,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LightArmorInvCorner</BlockPairName>
+      <BlockPairName>SmallBlockArmorCornerInv</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -2085,7 +2085,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorBlock</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorBlock</BlockPairName>
       <DeformationRatio>0.16</DeformationRatio>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <DisassembleRatio>3</DisassembleRatio>
@@ -2226,7 +2226,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorSlope</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.16</DeformationRatio>
@@ -2335,7 +2335,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorCorner</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -2504,7 +2504,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorInvCorner</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorCornerInv</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -2682,7 +2682,7 @@
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-      <BlockPairName>HalfLightArmorBlock</BlockPairName>
+      <BlockPairName>LargeHalfArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <PCU>1</PCU>
@@ -2861,7 +2861,7 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-      <BlockPairName>HalfHeavyArmorBlock</BlockPairName>
+      <BlockPairName>LargeHeavyHalfArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <PCU>1</PCU>
@@ -3028,7 +3028,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HalfSlopeLightArmorBlock</BlockPairName>
+      <BlockPairName>LargeHalfSlopeArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Heavy</EdgeType>
@@ -3206,7 +3206,7 @@
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.45" EndY="0.45" />
         <MountPoint Side="Right" StartX="0.55" StartY="0" EndX="1.0" EndY="0.45" />
       </MountPoints>
-      <BlockPairName>HalfSlopeHeavyArmorBlock</BlockPairName>
+      <BlockPairName>LargeHeavyHalfSlopeArmorBlock</BlockPairName>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -3375,7 +3375,7 @@
         <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
       </MountPoints>
-      <BlockPairName>HalfLightArmorBlock</BlockPairName>
+      <BlockPairName>HalfArmorBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -3554,7 +3554,7 @@
         <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Top" StartX="0" StartY="0.5" EndX="1" EndY="1" />
       </MountPoints>
-      <BlockPairName>HalfHeavyArmorBlock</BlockPairName>
+      <BlockPairName>HeavyHalfArmorBlock</BlockPairName>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -3719,7 +3719,7 @@
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.45" EndY="0.45" />
         <MountPoint Side="Right" StartX="0.55" StartY="0" EndX="1.0" EndY="0.45" />
       </MountPoints>
-      <BlockPairName>HalfSlopeLightArmorBlock</BlockPairName>
+      <BlockPairName>HalfSlopeArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -3901,7 +3901,7 @@
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <NavigationDefinition>Default</NavigationDefinition>
-      <BlockPairName>HalfSlopeHeavyArmorBlock</BlockPairName>
+      <BlockPairName>HeavyHalfSlopeArmorBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <PCU>1</PCU>
@@ -4037,7 +4037,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>ArmorRoundSlope</BlockPairName>
+      <BlockPairName>LargeBlockArmorRoundSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -4140,7 +4140,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>ArmorRoundCorner</BlockPairName>
+      <BlockPairName>LargeBlockArmorRoundCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -4303,7 +4303,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>ArmorRoundCornerInv</BlockPairName>
+      <BlockPairName>LargeBlockArmorRoundCornerInv</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -4447,7 +4447,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundSlope</BlockPairName>
+      <BlockPairName>LargeHeavyBlockArmorRoundSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <DeformationRatio>0.4</DeformationRatio>
@@ -4557,7 +4557,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundCorner</BlockPairName>
+      <BlockPairName>LargeHeavyBlockArmorRoundCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -4727,7 +4727,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundCornerInv</BlockPairName>
+      <BlockPairName>LargeHeavyBlockArmorRoundCornerInv</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -4859,7 +4859,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>ArmorRoundSlope</BlockPairName>
+      <BlockPairName>SmallBlockArmorRoundSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -4956,7 +4956,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>ArmorRoundCorner</BlockPairName>
+      <BlockPairName>SmallBlockArmorRoundCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -5113,7 +5113,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>ArmorRoundCornerInv</BlockPairName>
+      <BlockPairName>SmallBlockArmorRoundCornerInv</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -5257,7 +5257,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundSlope</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorRoundSlope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Heavy</EdgeType>
@@ -5366,7 +5366,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundCorner</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorRoundCorner</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -5535,7 +5535,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>HeavyArmorRoundCornerInv</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorRoundCornerInv</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -7519,7 +7519,7 @@
         </BoneInfo>
       </Skeleton>
       <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>LargeBlockArmorSlope2Base</BlockPairName>
+      <BlockPairName>SmallBlockArmorSlope2Base</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -7651,7 +7651,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeBlockArmorSlope2Tip</BlockPairName>
+      <BlockPairName>SmallBlockArmorSlope2Tip</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -7782,7 +7782,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeBlockArmorCorner2Base</BlockPairName>
+      <BlockPairName>SmallBlockArmorCorner2Base</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>MinusHalfX</MirroringY>
       <MirroringZ>HalfX</MirroringZ>
@@ -7882,7 +7882,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeBlockArmorCorner2Tip</BlockPairName>
+      <BlockPairName>SmallBlockArmorCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -8040,7 +8040,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeBlockArmorInvCorner2Base</BlockPairName>
+      <BlockPairName>SmallBlockArmorInvCorner2Base</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -8200,7 +8200,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeBlockArmorInvCorner2Tip</BlockPairName>
+      <BlockPairName>SmallBlockArmorInvCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -8382,7 +8382,7 @@
         </BoneInfo>
       </Skeleton>
       <PhysicsOption>Convex</PhysicsOption>
-      <BlockPairName>LargeHeavyBlockArmorSlope2Base</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorSlope2Base</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Heavy</EdgeType>
@@ -8526,7 +8526,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorSlope2Tip</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorSlope2Tip</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Heavy</EdgeType>
@@ -8669,7 +8669,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorCorner2Base</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorCorner2Base</BlockPairName>
       <MirroringX>YHalfX</MirroringX>
       <MirroringY>MinusHalfX</MirroringY>
       <MirroringZ>HalfX</MirroringZ>
@@ -8781,7 +8781,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorCorner2Tip</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -8951,7 +8951,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorInvCorner2Base</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorInvCorner2Base</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>
@@ -9123,7 +9123,7 @@
           <BoneOffset x="127" y="127" z="127" />
         </BoneInfo>
       </Skeleton>
-      <BlockPairName>LargeHeavyBlockArmorInvCorner2Tip</BlockPairName>
+      <BlockPairName>SmallHeavyBlockArmorInvCorner2Tip</BlockPairName>
       <MirroringX>HalfZ</MirroringX>
       <MirroringY>MinusHalfZ</MirroringY>
       <MirroringZ>XMinusHalfZ</MirroringZ>

@@ -40,7 +40,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorPanelLight</BlockPairName>
+      <BlockPairName>LargeArmorPanelLight</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -86,7 +86,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorSlopedSidePanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorSlopedSidePanelLight</BlockPairName>
+      <BlockPairName>LargeArmorSlopedSidePanelLight</BlockPairName>
       <MirroringX>ZMinusHalfX</MirroringX>
       <MirroringY>XHalfX</MirroringY>
       <MirroringZ>HalfX</MirroringZ>
@@ -141,7 +141,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmorSlopedPanel</BlockPairName>
+      <BlockPairName>LargeArmorSlopedPanelLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -187,7 +187,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorHalfPanelLight</BlockPairName>
+      <BlockPairName>LargeArmorHalfPanelLight</BlockPairName>
       <MirroringY>X</MirroringY>
       <MirroringX>Y</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -232,7 +232,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightQuarterPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorQuarterPanelLight</BlockPairName>
+      <BlockPairName>LargeArmorQuarterPanelLight</BlockPairName>
       <MirroringY>ZHalfZ</MirroringY>
       <MirroringX>HalfZ</MirroringX>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -283,7 +283,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedPanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedPanelLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -333,7 +333,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedPanelTip_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedPanelTip</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedPanelTipLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -381,7 +381,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedSideBasePanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedSideBasePanelLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1SlopedSideBasePanelLightInv</MirroringBlock>
@@ -429,7 +429,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedSideTipPanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedSideTipPanelLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1SlopedSideTipPanelLightInv</MirroringBlock>
@@ -478,7 +478,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedSideBasePanelInv</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedSideBasePanelLightInv</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1SlopedSideBasePanelLight</MirroringBlock>
@@ -526,7 +526,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedSideTipPanelInv</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedSideTipPanelLightInv</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1SlopedSideTipPanelLight</MirroringBlock>
@@ -576,7 +576,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmorHalfSlopedPanel</BlockPairName>
+      <BlockPairName>LargeArmorHalfSlopedPanelLight</BlockPairName>
       <MirroringX>ZHalfX</MirroringX>
       <MirroringY>HalfX</MirroringY>
       <MirroringZ>XHalfX</MirroringZ>
@@ -624,7 +624,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1HalfSlopedPanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1HalfSlopedPanelLightRight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1HalfSlopedPanelLightLeft</MirroringBlock>
@@ -672,7 +672,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1HalfSlopedTipPanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1HalfSlopedTipPanelLightRight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1HalfSlopedTipPanelLightLeft</MirroringBlock>
@@ -720,7 +720,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1HalfSlopedPanelInv</BlockPairName>
+      <BlockPairName>LargeArmor2x1HalfSlopedPanelLightLeft</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1HalfSlopedPanelLightRight</MirroringBlock>
@@ -768,7 +768,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1HalfSlopedTipPanelInv</BlockPairName>
+      <BlockPairName>LargeArmor2x1HalfSlopedTipPanelLightLeft</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1HalfSlopedTipPanelLightRight</MirroringBlock>
@@ -823,7 +823,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorPanelHeavy</BlockPairName>
+      <BlockPairName>LargeArmorPanelHeavy</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Heavy</EdgeType>
@@ -875,7 +875,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorSlopedSidePanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorSlopedSidePanelHeavy</BlockPairName>
+      <BlockPairName>LargeArmorSlopedSidePanelHeavy</BlockPairName>
       <MirroringX>ZMinusHalfX</MirroringX>
       <MirroringY>XHalfX</MirroringY>
       <MirroringZ>HalfX</MirroringZ>
@@ -936,7 +936,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmorSlopedPanel</BlockPairName>
+      <BlockPairName>LargeArmorSlopedPanelHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Heavy</EdgeType>
@@ -988,7 +988,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorHalfPanelHeavy</BlockPairName>
+      <BlockPairName>LargeArmorHalfPanelHeavy</BlockPairName>
       <MirroringY>X</MirroringY>
       <MirroringX>Y</MirroringX>
       <EdgeType>Heavy</EdgeType>
@@ -1039,7 +1039,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightQuarterPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorQuarterPanelHeavy</BlockPairName>
+      <BlockPairName>LargeArmorQuarterPanelHeavy</BlockPairName>
       <MirroringY>ZHalfZ</MirroringY>
       <MirroringX>HalfZ</MirroringX>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -1096,7 +1096,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedPanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedPanelHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Heavy</EdgeType>
@@ -1152,7 +1152,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedPanelTip_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedPanelTip</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedPanelTipHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Heavy</EdgeType>
@@ -1206,7 +1206,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedSideBasePanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedSideBasePanelHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1SlopedSideBasePanelHeavyInv</MirroringBlock>
@@ -1260,7 +1260,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedSideTipPanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedSideTipPanelHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1SlopedSideTipPanelHeavyInv</MirroringBlock>
@@ -1315,7 +1315,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedSideBasePanelInv</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedSideBasePanelHeavyInv</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1SlopedSideBasePanelHeavy</MirroringBlock>
@@ -1369,7 +1369,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedSideTipPanelInv</BlockPairName>
+      <BlockPairName>LargeArmor2x1SlopedSideTipPanelHeavyInv</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1SlopedSideTipPanelHeavy</MirroringBlock>
@@ -1425,7 +1425,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmorHalfSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmorHalfSlopedPanel</BlockPairName>
+      <BlockPairName>LargeArmorHalfSlopedPanelHeavy</BlockPairName>
       <MirroringX>ZHalfX</MirroringX>
       <MirroringY>HalfX</MirroringY>
       <MirroringZ>XHalfX</MirroringZ>
@@ -1479,7 +1479,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1HalfSlopedPanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1HalfSlopedPanelHeavyRight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1HalfSlopedPanelHeavyLeft</MirroringBlock>
@@ -1533,7 +1533,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1HalfSlopedTipPanel</BlockPairName>
+      <BlockPairName>LargeArmor2x1HalfSlopedTipPanelHeavyRight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1HalfSlopedTipPanelHeavyLeft</MirroringBlock>
@@ -1587,7 +1587,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1HalfSlopedPanelInv</BlockPairName>
+      <BlockPairName>LargeArmor2x1HalfSlopedPanelHeavyLeft</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1HalfSlopedPanelHeavyRight</MirroringBlock>
@@ -1641,7 +1641,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1HalfSlopedTipPanelInv</BlockPairName>
+      <BlockPairName>LargeArmor2x1HalfSlopedTipPanelHeavyLeft</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>LargeArmor2x1HalfSlopedTipPanelHeavyRight</MirroringBlock>
@@ -1685,7 +1685,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorPanelLight</BlockPairName>
+      <BlockPairName>SmallArmorPanelLight</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1725,7 +1725,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedSidePanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorSlopedSidePanelLight</BlockPairName>
+      <BlockPairName>SmallArmorSlopedSidePanelLight</BlockPairName>
       <MirroringX>ZMinusHalfX</MirroringX>
       <MirroringY>XHalfX</MirroringY>
       <MirroringZ>HalfX</MirroringZ>
@@ -1774,7 +1774,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmorSlopedPanel</BlockPairName>
+      <BlockPairName>SmallArmorSlopedPanelLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1814,7 +1814,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorHalfPanelLight</BlockPairName>
+      <BlockPairName>SmallArmorHalfPanelLight</BlockPairName>
       <MirroringY>X</MirroringY>
       <MirroringX>Y</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -1853,7 +1853,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightQuarterPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorQuarterPanelLight</BlockPairName>
+      <BlockPairName>SmallArmorQuarterPanelLight</BlockPairName>
       <MirroringY>ZHalfZ</MirroringY>
       <MirroringX>HalfZ</MirroringX>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -1898,7 +1898,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedPanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedPanelLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1942,7 +1942,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedPanelTip_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedPanelTip</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedPanelTipLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1984,7 +1984,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedSideBasePanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedSideBasePanelLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1SlopedSideBasePanelLightInv</MirroringBlock>
@@ -2026,7 +2026,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedSideTipPanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedSideTipPanelLight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1SlopedSideTipPanelLightInv</MirroringBlock>
@@ -2069,7 +2069,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedSideBasePanelInv</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedSideBasePanelLightInv</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1SlopedSideBasePanelLight</MirroringBlock>
@@ -2111,7 +2111,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1SlopedSideTipPanelInv</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedSideTipPanelLightInv</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1SlopedSideTipPanelLight</MirroringBlock>
@@ -2155,7 +2155,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmorHalfSlopedPanel</BlockPairName>
+      <BlockPairName>SmallArmorHalfSlopedPanelLight</BlockPairName>
       <MirroringX>ZHalfX</MirroringX>
       <MirroringY>HalfX</MirroringY>
       <MirroringZ>XHalfX</MirroringZ>
@@ -2197,7 +2197,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1HalfSlopedPanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1HalfSlopedPanelLightRight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1HalfSlopedPanelLightLeft</MirroringBlock>
@@ -2239,7 +2239,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1HalfSlopedTipPanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1HalfSlopedTipPanelLightRight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1HalfSlopedTipPanelLightLeft</MirroringBlock>
@@ -2281,7 +2281,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1HalfSlopedPanelInv</BlockPairName>
+      <BlockPairName>SmallArmor2x1HalfSlopedPanelLightLeft</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1HalfSlopedPanelLightRight</MirroringBlock>
@@ -2323,7 +2323,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LightArmor2x1HalfSlopedTipPanelInv</BlockPairName>
+      <BlockPairName>SmallArmor2x1HalfSlopedTipPanelLightLeft</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1HalfSlopedTipPanelLightRight</MirroringBlock>
@@ -2379,7 +2379,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorPanelHeavy</BlockPairName>
+      <BlockPairName>SmallArmorPanelHeavy</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Heavy</EdgeType>
@@ -2431,7 +2431,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedSidePanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorSlopedSidePanelHeavy</BlockPairName>
+      <BlockPairName>SmallArmorSlopedSidePanelHeavy</BlockPairName>
       <MirroringX>ZMinusHalfX</MirroringX>
       <MirroringY>XHalfX</MirroringY>
       <MirroringZ>HalfX</MirroringZ>
@@ -2492,7 +2492,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmorSlopedPanel</BlockPairName>
+      <BlockPairName>SmallArmorSlopedPanelHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Heavy</EdgeType>
@@ -2544,7 +2544,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorHalfPanelHeavy</BlockPairName>
+      <BlockPairName>SmallArmorHalfPanelHeavy</BlockPairName>
       <MirroringY>X</MirroringY>
       <MirroringX>Y</MirroringX>
       <EdgeType>Heavy</EdgeType>
@@ -2595,7 +2595,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightQuarterPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ArmorQuarterPanelHeavy</BlockPairName>
+      <BlockPairName>SmallArmorQuarterPanelHeavy</BlockPairName>
       <MirroringY>ZHalfZ</MirroringY>
       <MirroringX>HalfZ</MirroringX>
       <MirroringZ>YHalfZ</MirroringZ>
@@ -2652,7 +2652,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedPanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedPanelHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Heavy</EdgeType>
@@ -2708,7 +2708,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedPanelTip_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedPanelTip</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedPanelTipHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Heavy</EdgeType>
@@ -2762,7 +2762,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedSideBasePanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedSideBasePanelHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1SlopedSideBasePanelHeavyInv</MirroringBlock>
@@ -2816,7 +2816,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedSideTipPanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedSideTipPanelHeavy</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1SlopedSideTipPanelHeavyInv</MirroringBlock>
@@ -2871,7 +2871,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopedSideBasePanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedSideBasePanelInv</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedSideBasePanelHeavyInv</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1SlopedSideBasePanelHeavy</MirroringBlock>
@@ -2925,7 +2925,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1SlopeSideTipPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1SlopedSideTipPanelInv</BlockPairName>
+      <BlockPairName>SmallArmor2x1SlopedSideTipPanelHeavyInv</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1SlopedSideTipPanelHeavy</MirroringBlock>
@@ -2981,7 +2981,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmorHalfSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmorHalfSlopedPanel</BlockPairName>
+      <BlockPairName>SmallArmorHalfSlopedPanelHeavy</BlockPairName>
       <MirroringX>ZHalfX</MirroringX>
       <MirroringY>HalfX</MirroringY>
       <MirroringZ>XHalfX</MirroringZ>
@@ -3035,7 +3035,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1HalfSlopedPanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1HalfSlopedPanelHeavyRight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1HalfSlopedPanelHeavyLeft</MirroringBlock>
@@ -3089,7 +3089,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanel_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1HalfSlopedTipPanel</BlockPairName>
+      <BlockPairName>SmallArmor2x1HalfSlopedTipPanelHeavyRight</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1HalfSlopedTipPanelHeavyLeft</MirroringBlock>
@@ -3143,7 +3143,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1HalfSlopedPanelInv</BlockPairName>
+      <BlockPairName>SmallArmor2x1HalfSlopedPanelHeavyLeft</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1HalfSlopedPanelHeavyRight</MirroringBlock>
@@ -3197,7 +3197,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightArmor2x1HalfSlopedTipPanelInv_Construction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HeavyArmor2x1HalfSlopedTipPanelInv</BlockPairName>
+      <BlockPairName>SmallArmor2x1HalfSlopedTipPanelHeavyLeft</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MirroringBlock>SmallArmor2x1HalfSlopedTipPanelHeavyRight</MirroringBlock>

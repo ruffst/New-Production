@@ -81,7 +81,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrust</BlockPairName>
+      <BlockPairName>SmallBlockSmallThrust</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -205,7 +205,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrust</BlockPairName>
+      <BlockPairName>SmallBlockLargeThrust</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -332,7 +332,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrust</BlockPairName>
+      <BlockPairName>LargeBlockSmallThrust</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -458,7 +458,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrust</BlockPairName>
+      <BlockPairName>LargeBlockLargeThrust</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -593,7 +593,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrust</BlockPairName>
+      <BlockPairName>LargeBlockLargeHydrogenThrust</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -728,7 +728,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrust</BlockPairName>
+      <BlockPairName>LargeBlockSmallHydrogenThrust</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -866,7 +866,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrust</BlockPairName>
+      <BlockPairName>SmallBlockLargeHydrogenThrust</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1000,7 +1000,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrust</BlockPairName>
+      <BlockPairName>SmallBlockSmallHydrogenThrust</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1135,7 +1135,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeAtmoThrust</BlockPairName>
+      <BlockPairName>LargeBlockLargeAtmosphericThrust</BlockPairName>
       <Center x="1" y="1" z="2" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1274,7 +1274,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallAtmoThrust</BlockPairName>
+      <BlockPairName>LargeBlockSmallAtmosphericThrust</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
@@ -1413,7 +1413,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeAtmoThrust</BlockPairName>
+      <BlockPairName>SmallBlockLargeAtmosphericThrust</BlockPairName>
       <Center x="1" y="1" z="2" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1553,7 +1553,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallAtmoThrust</BlockPairName>
+      <BlockPairName>SmallBlockSmallAtmosphericThrust</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>10</BuildTimeSeconds>

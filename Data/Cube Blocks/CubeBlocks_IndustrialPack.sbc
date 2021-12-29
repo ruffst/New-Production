@@ -57,7 +57,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MagneticPlateLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MagneticPlateLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeMagneticPlate</BlockPairName>
+      <BlockPairName>LargeBlockMagneticPlate</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -122,7 +122,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MagneticPlateConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MagneticPlateConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeMagneticPlate</BlockPairName>
+      <BlockPairName>SmallBlockMagneticPlate</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -249,7 +249,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeCargoContainerIndustrial</BlockPairName>
+      <BlockPairName>LargeBlockLargeIndustrialContainer</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -316,7 +316,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\VerticalButtonPanelConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\VerticalButtonPanelConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>VerticalButtonPanel</BlockPairName>
+      <BlockPairName>VerticalButtonPanelLarge</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -414,7 +414,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeSeamlessConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeSeamlessConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorPipeSeamless</BlockPairName>
+      <BlockPairName>LargeBlockConveyorPipeSeamless</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -490,7 +490,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeCornerConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeCornerConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorPipeCorner</BlockPairName>
+      <BlockPairName>LargeBlockConveyorPipeCorner</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -574,7 +574,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeNodeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeNodeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorPipeJunction</BlockPairName>
+      <BlockPairName>LargeBlockConveyorPipeJunction</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -650,7 +650,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeJunctionConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeJunctionConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorPipeIntersection</BlockPairName>
+      <BlockPairName>LargeBlockConveyorPipeIntersection</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -724,7 +724,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeFlangeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeFlangeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorPipeFlange</BlockPairName>
+      <BlockPairName>LargeBlockConveyorPipeFlange</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -802,7 +802,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PipeEndConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PipeEndConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorPipeEnd</BlockPairName>
+      <BlockPairName>LargeBlockConveyorPipeEnd</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -907,7 +907,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankIndustrial</BlockPairName>
+      <BlockPairName>LargeHydrogenTankIndustrial</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1172,7 +1172,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CylindricalColumnConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CylindricalColumnConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>CylindricalColumn</BlockPairName>
+      <BlockPairName>LargeBlockCylindricalColumn</BlockPairName>
       <MirroringY>X</MirroringY>
       <MirroringX>Y</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -1233,7 +1233,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CylindricalColumnConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CylindricalColumnConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>CylindricalColumn</BlockPairName>
+      <BlockPairName>SmallBlockCylindricalColumn</BlockPairName>
       <MirroringY>X</MirroringY>
       <MirroringX>Y</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -1321,7 +1321,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorSorterReskinConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorSorterReskinConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ConveyorSorterIndustrial</BlockPairName>
+      <BlockPairName>LargeBlockConveyorSorterIndustrial</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1390,7 +1390,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderStraightConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlock</BlockPairName>
+      <BlockPairName>LargeGridBeamBlock</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1442,7 +1442,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderSlopeConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockSlope</BlockPairName>
+      <BlockPairName>LargeGridBeamBlockSlope</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -1494,7 +1494,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderRoundConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockRound</BlockPairName>
+      <BlockPairName>LargeGridBeamBlockRound</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -1549,7 +1549,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderSlope2x1BaseConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockSlope2x1Base</BlockPairName>
+      <BlockPairName>LargeGridBeamBlockSlope2x1Base</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -1601,7 +1601,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderSlope2x1TipConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockSlope2x1Tip</BlockPairName>
+      <BlockPairName>LargeGridBeamBlockSlope2x1Tip</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -1655,7 +1655,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderStraightHalfConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockHalf</BlockPairName>
+      <BlockPairName>LargeGridBeamBlockHalf</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1707,7 +1707,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderSlopeHalfConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockHalfSlope</BlockPairName>
+      <BlockPairName>LargeGridBeamBlockHalfSlope</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -1761,7 +1761,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderStraightEndConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockEnd</BlockPairName>
+      <BlockPairName>LargeGridBeamBlockEnd</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1817,7 +1817,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderJunctionConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockJunction</BlockPairName>
+      <BlockPairName>LargeGridBeamBlockJunction</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1872,7 +1872,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GirderT-JunctionConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockTJunction</BlockPairName>
+      <BlockPairName>LargeGridBeamBlockTJunction</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -1920,7 +1920,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderStraightConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlock</BlockPairName>
+      <BlockPairName>SmallGridBeamBlock</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1966,7 +1966,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderSlopeConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockSlope</BlockPairName>
+      <BlockPairName>SmallGridBeamBlockSlope</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -2012,7 +2012,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderRoundConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockRound</BlockPairName>
+      <BlockPairName>SmallGridBeamBlockRound</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -2061,7 +2061,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderSlope2x1BaseConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockSlope2x1Base</BlockPairName>
+      <BlockPairName>SmallGridBeamBlockSlope2x1Base</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -2107,7 +2107,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderSlope2x1TipConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockSlope2x1Tip</BlockPairName>
+      <BlockPairName>SmallGridBeamBlockSlope2x1Tip</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -2152,7 +2152,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderStraightHalfConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockHalf</BlockPairName>
+      <BlockPairName>SmallGridBeamBlockHalf</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -2196,7 +2196,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderSlopeHalfConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockHalfSlope</BlockPairName>
+      <BlockPairName>SmallGridBeamBlockHalfSlope</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -2245,7 +2245,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderStraightEndConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockEnd</BlockPairName>
+      <BlockPairName>SmallGridBeamBlockEnd</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -2295,7 +2295,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderJunctionConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockJunction</BlockPairName>
+      <BlockPairName>SmallGridBeamBlockJunction</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -2344,7 +2344,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GirderT-JunctionConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BeamBlockTJunction</BlockPairName>
+      <BlockPairName>SmallGridBeamBlockTJunction</BlockPairName>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -2440,7 +2440,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+      <BlockPairName>LargeBlockLargeHydrogenThrustIndustrial</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2572,7 +2572,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+      <BlockPairName>LargeBlockSmallHydrogenThrustIndustrial</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2708,7 +2708,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+      <BlockPairName>SmallBlockLargeHydrogenThrustIndustrial</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2838,7 +2838,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+      <BlockPairName>SmallBlockSmallHydrogenThrustIndustrial</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>

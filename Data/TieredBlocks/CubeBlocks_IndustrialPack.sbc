@@ -121,7 +121,7 @@
         <Y>7.5</Y>
         <Z>7.5</Z>
       </InventorySize>
-      <BlockPairName>LargeCargoContainerIndustrial_Gold</BlockPairName>
+      <BlockPairName>LargeBlockLargeIndustrialContainer_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -214,7 +214,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankIndustrial_Gold</BlockPairName>
+      <BlockPairName>LargeHydrogenTankIndustrial_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -349,7 +349,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>RefineryIndustrial_Gold</BlockPairName>
+      <BlockPairName>LargeRefineryIndustrial_Gold</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>135</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -466,7 +466,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial_Gold</BlockPairName>
+      <BlockPairName>SmallBlockLargeHydrogenThrustIndustrial_Gold</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -592,7 +592,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial_Gold</BlockPairName>
+      <BlockPairName>SmallBlockSmallHydrogenThrustIndustrial_Gold</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -725,7 +725,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial_Gold</BlockPairName>
+      <BlockPairName>LargeBlockLargeHydrogenThrustIndustrial_Gold</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -853,7 +853,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial_Gold</BlockPairName>
+      <BlockPairName>LargeBlockSmallHydrogenThrustIndustrial_Gold</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1024,7 +1024,7 @@
         <Y>7.5</Y>
         <Z>7.5</Z>
       </InventorySize>
-      <BlockPairName>LargeCargoContainerIndustrial_Platin</BlockPairName>
+      <BlockPairName>LargeBlockLargeIndustrialContainer_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1117,7 +1117,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankIndustrial_Platin</BlockPairName>
+      <BlockPairName>LargeHydrogenTankIndustrial_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1252,7 +1252,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>RefineryIndustrial_Platin</BlockPairName>
+      <BlockPairName>LargeRefineryIndustrial_Platin</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>203</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -1369,7 +1369,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial_Platin</BlockPairName>
+      <BlockPairName>SmallBlockLargeHydrogenThrustIndustrial_Platin</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1495,7 +1495,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial_Platin</BlockPairName>
+      <BlockPairName>SmallBlockSmallHydrogenThrustIndustrial_Platin</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1628,7 +1628,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial_Platin</BlockPairName>
+      <BlockPairName>LargeBlockLargeHydrogenThrustIndustrial_Platin</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1756,7 +1756,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial_Platin</BlockPairName>
+      <BlockPairName>LargeBlockSmallHydrogenThrustIndustrial_Platin</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1927,7 +1927,7 @@
         <Y>7.5</Y>
         <Z>7.5</Z>
       </InventorySize>
-      <BlockPairName>LargeCargoContainerIndustrial_Titan</BlockPairName>
+      <BlockPairName>LargeBlockLargeIndustrialContainer_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2020,7 +2020,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankIndustrial_Titan</BlockPairName>
+      <BlockPairName>LargeHydrogenTankIndustrial_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2155,7 +2155,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AdvancedRefinery_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AdvancedRefinery_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>RefineryIndustrial_Titan</BlockPairName>
+      <BlockPairName>LargeRefineryIndustrial_Titan</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>304</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -2272,7 +2272,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial_Titan</BlockPairName>
+      <BlockPairName>SmallBlockLargeHydrogenThrustIndustrial_Titan</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2398,7 +2398,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial_Titan</BlockPairName>
+      <BlockPairName>SmallBlockSmallHydrogenThrustIndustrial_Titan</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2531,7 +2531,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrustIndustrial_Titan</BlockPairName>
+      <BlockPairName>LargeBlockLargeHydrogenThrustIndustrial_Titan</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2659,7 +2659,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrustIndustrial_Titan</BlockPairName>
+      <BlockPairName>LargeBlockSmallHydrogenThrustIndustrial_Titan</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>

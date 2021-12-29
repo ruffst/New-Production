@@ -92,7 +92,8 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DoorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DoorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Door</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -198,7 +199,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\DoorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DoorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Door</BlockPairName>
+      <BlockPairName>SmallDoor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -293,7 +294,8 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AirtightHangarDoor</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -412,7 +414,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SlideDoor_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SlideDoor_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AirtightSlide Door</BlockPairName>
+      <BlockPairName>LargeBlockSlideDoor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -680,7 +682,7 @@
         <MountPoint Side="Top" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
         <MountPoint Side="Bottom" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
       </MountPoints>
-      <BlockPairName>ArmorCenter</BlockPairName>
+      <BlockPairName>SmallArmorCenter</BlockPairName>
       <EdgeType>Light</EdgeType>
       <DeformationRatio>0.24</DeformationRatio>
       <BuildTimeSeconds>5</BuildTimeSeconds>
@@ -731,7 +733,7 @@
         <MountPoint Side="Left" StartX="0.38" StartY="0.0" EndX="0.62" EndY="1.0" />
         <MountPoint Side="Top" StartX="0.0" StartY="0.38" EndX="1.0" EndY="0.62" />
       </MountPoints>
-      <BlockPairName>ArmorCorner</BlockPairName>
+      <BlockPairName>SmallArmorCorner</BlockPairName>
       <MirroringY>X</MirroringY>
       <MirroringX>Y</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -784,7 +786,7 @@
         <MountPoint Side="Right" StartX="0.1" StartY="0.0" EndX="0.9" EndY="1.0" />
         <MountPoint Side="Bottom" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
       </MountPoints>
-      <BlockPairName>ArmorInvCorner</BlockPairName>
+      <BlockPairName>SmallArmorInvCorner</BlockPairName>
       <MirroringY>X</MirroringY>
       <MirroringX>Y</MirroringX>
       <EdgeType>Light</EdgeType>
@@ -837,7 +839,7 @@
         <MountPoint Side="Bottom" StartX="0.0" StartY="0.1" EndX="1.0" EndY="0.9" />
         <MountPoint Side="Top" StartX="0.0" StartY="0.38" EndX="1.0" EndY="0.62" />
       </MountPoints>
-      <BlockPairName>ArmorSide</BlockPairName>
+      <BlockPairName>SmallArmorSide</BlockPairName>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
       <DeformationRatio>0.24</DeformationRatio>

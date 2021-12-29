@@ -92,7 +92,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>JumpDrive_Gold</BlockPairName>
+      <BlockPairName>LargeJumpDrive_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -201,7 +201,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>JumpDrive_Platin</BlockPairName>
+      <BlockPairName>LargeJumpDrive_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -311,7 +311,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>JumpDrive_Titan</BlockPairName>
+      <BlockPairName>LargeJumpDrive_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

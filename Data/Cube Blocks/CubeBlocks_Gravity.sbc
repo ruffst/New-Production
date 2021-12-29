@@ -80,7 +80,8 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GravityGeneratorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GravityGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>GravityGenerator</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -179,7 +180,8 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GravityGeneratorSphericalConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GravityGeneratorSphericalConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>GravityGeneratorSphere</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -272,7 +274,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\VirtualMassBlockConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\VirtualMassBlockConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>VirtualMass</BlockPairName>
+      <BlockPairName>VirtualMassLarge</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>24</BuildTimeSeconds>
       <VirtualMass>50000</VirtualMass>
@@ -350,7 +352,7 @@
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Small\VirtualMassBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\VirtualMassBlockConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>VirtualMass</BlockPairName>
+      <BlockPairName>VirtualMassSmall</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <VirtualMass>2000</VirtualMass>
@@ -372,7 +374,7 @@
       <DisplayName>DisplayName_Block_SpaceBall</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SpaceBall.dds</Icon>
       <Description>Description_SpaceBall</Description>
-      <BlockPairName>SpaceBall</BlockPairName>
+      <BlockPairName>SpaceBallLarge</BlockPairName>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -450,7 +452,7 @@
       <DisplayName>DisplayName_Block_SpaceBall</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SpaceBall.dds</Icon>
       <Description>Description_SpaceBall</Description>
-      <BlockPairName>SpaceBall</BlockPairName>
+      <BlockPairName>SpaceBallSmall</BlockPairName>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

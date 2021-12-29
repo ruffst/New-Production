@@ -122,7 +122,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\ControlPanelConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ControlPanel</BlockPairName>
+      <BlockPairName>SmallControlPanel</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -210,7 +210,7 @@
       <ScreenAreas>
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" />
       </ScreenAreas>
-      <BlockPairName>CockpitLarge</BlockPairName>
+      <BlockPairName>LargeBlockCockpit</BlockPairName>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
@@ -348,7 +348,7 @@
         <ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_BottomLeft" TextureResolution="256" ScreenWidth="9" ScreenHeight="7" Script="TSS_ClockAnalog" />
         <ScreenArea Name="CockpitScreen_06" DisplayName="DisplayName_Screen_BottomRight" TextureResolution="256" ScreenWidth="9" ScreenHeight="7" />
       </ScreenAreas>
-      <BlockPairName>Cockpit</BlockPairName>
+      <BlockPairName>LargeBlockCockpitSeat</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -471,7 +471,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Cockpit</BlockPairName>
+      <BlockPairName>SmallBlockCockpit</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -616,7 +616,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\small\CockpitFighterConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\small\CockpitFighterConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>DBLargeBlockFighterCockpit</BlockPairName>
+      <BlockPairName>DBSmallBlockFighterCockpit</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <BuildTimeSeconds>34</BuildTimeSeconds>
@@ -947,7 +947,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gyroscope</BlockPairName>
+      <BlockPairName>LargeBlockGyro</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1030,7 +1030,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gyroscope</BlockPairName>
+      <BlockPairName>SmallBlockGyro</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>14</BuildTimeSeconds>
@@ -1121,7 +1121,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OpenCockpitSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OpenCockpitSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OpenCockpit</BlockPairName>
+      <BlockPairName>OpenCockpitSmall</BlockPairName>
       <ScreenAreas>
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="TSS_ArtificialHorizon" />
       </ScreenAreas>
@@ -1224,7 +1224,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OpenCockpitLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OpenCockpitLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OpenCockpit</BlockPairName>
+      <BlockPairName>OpenCockpitLarge</BlockPairName>
       <ScreenAreas>
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="TSS_ArtificialHorizon" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_TopLeft" TextureResolution="256" ScreenWidth="3" ScreenHeight="2" Script="TSS_EnergyHydrogen" />

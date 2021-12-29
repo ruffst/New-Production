@@ -65,7 +65,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BatteryBlock</BlockPairName>
+      <BlockPairName>LargeBlockBatteryBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -154,7 +154,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BatteryBlock</BlockPairName>
+      <BlockPairName>SmallBlockBatteryBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -243,7 +243,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Battery1x1Block</BlockPairName>
+      <BlockPairName>SmallBlockSmallBatteryBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -352,7 +352,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallReactor</BlockPairName>
+      <BlockPairName>SmallBlockSmallGenerator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -487,7 +487,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeReactor</BlockPairName>
+      <BlockPairName>SmallBlockLargeGenerator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -616,7 +616,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallReactor</BlockPairName>
+      <BlockPairName>LargeBlockSmallGenerator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -755,7 +755,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeReactor</BlockPairName>
+      <BlockPairName>LargeBlockLargeGenerator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -888,7 +888,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenEngine</BlockPairName>
+      <BlockPairName>LargeHydrogenEngine</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1028,7 +1028,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenEngine</BlockPairName>
+      <BlockPairName>SmallHydrogenEngine</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1137,7 +1137,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindTurbine_Construction2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>WindTurbine</BlockPairName>
+      <BlockPairName>LargeBlockWindTurbine</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <DamageEffectId>214</DamageEffectId>
@@ -1246,7 +1246,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SolarPanel</BlockPairName>
+      <BlockPairName>LargeBlockSolarPanel</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
@@ -1346,7 +1346,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SolarPanel</BlockPairName>
+      <BlockPairName>SmallBlockSolarPanel</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>

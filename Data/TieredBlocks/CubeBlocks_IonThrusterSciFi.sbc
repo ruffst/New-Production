@@ -81,7 +81,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrustSciFi_Gold</BlockPairName>
+      <BlockPairName>SmallBlockSmallThrustSciFi_Gold</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -202,7 +202,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrustSciFi_Gold</BlockPairName>
+      <BlockPairName>SmallBlockLargeThrustSciFi_Gold</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -326,7 +326,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrustSciFi_Gold</BlockPairName>
+      <BlockPairName>LargeBlockSmallThrustSciFi_Gold</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -449,7 +449,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrustSciFi_Gold</BlockPairName>
+      <BlockPairName>LargeBlockLargeThrustSciFi_Gold</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -571,7 +571,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrustSciFi_Platin</BlockPairName>
+      <BlockPairName>SmallBlockSmallThrustSciFi_Platin</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>23</BuildTimeSeconds>
@@ -692,7 +692,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrustSciFi_Platin</BlockPairName>
+      <BlockPairName>SmallBlockLargeThrustSciFi_Platin</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -816,7 +816,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrustSciFi_Platin</BlockPairName>
+      <BlockPairName>LargeBlockSmallThrustSciFi_Platin</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -939,7 +939,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrustSciFi_Platin</BlockPairName>
+      <BlockPairName>LargeBlockLargeThrustSciFi_Platin</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1061,7 +1061,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrustSciFi_Titan</BlockPairName>
+      <BlockPairName>SmallBlockSmallThrustSciFi_Titan</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>34</BuildTimeSeconds>
@@ -1182,7 +1182,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrustSciFi_Titan</BlockPairName>
+      <BlockPairName>SmallBlockLargeThrustSciFi_Titan</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1306,7 +1306,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrustSciFi_Titan</BlockPairName>
+      <BlockPairName>LargeBlockSmallThrustSciFi_Titan</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1429,7 +1429,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrustSciFi_Titan</BlockPairName>
+      <BlockPairName>LargeBlockLargeThrustSciFi_Titan</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>

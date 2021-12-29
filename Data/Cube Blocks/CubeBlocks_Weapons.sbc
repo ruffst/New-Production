@@ -78,7 +78,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WarheadConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WarheadConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Warhead</BlockPairName>
+      <BlockPairName>LargeWarhead</BlockPairName>
       <ActionSound>WepLrgWarheadExpl</ActionSound>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -158,7 +158,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\WarheadConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\WarheadConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Warhead</BlockPairName>
+      <BlockPairName>SmallWarhead</BlockPairName>
       <ActionSound>WepLrgWarheadExpl</ActionSound>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -242,7 +242,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DecoyConstruction_3.mwm" />
       </BuildProgressModels>
       <Public>true</Public>
-      <BlockPairName>Decoy</BlockPairName>
+      <BlockPairName>LargeDecoy</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>16</BuildTimeSeconds>
       <!--<UseModelIntersection>true</UseModelIntersection>-->
@@ -317,7 +317,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\DecoyConstruction_2.mwm" />
       </BuildProgressModels>
       <Public>true</Public>
-      <BlockPairName>Decoy</BlockPairName>
+      <BlockPairName>SmallDecoy</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <UseModelIntersection>true</UseModelIntersection>
@@ -422,7 +422,8 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>GatlingTurret</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -552,7 +553,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>GatlingTurret</BlockPairName>
+      <BlockPairName>SmallGatlingTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -679,7 +680,8 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>MissileTurret</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -810,7 +812,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>MissileTurret</BlockPairName>
+      <BlockPairName>SmallMissileTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -931,7 +933,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>InteriorTurret</BlockPairName>
+      <BlockPairName>LargeInteriorTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1042,7 +1044,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RocketLauncherConstruction_2.mwm" />
       </BuildProgressModels>
       <MirroringZ>X</MirroringZ>
-      <BlockPairName>RocketLauncher</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <Center x="0" y="0" z="3" />
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
@@ -1132,7 +1135,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RocketLauncherConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RocketLauncherConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>RocketLauncher</BlockPairName>
+      <BlockPairName>LargeMissileLauncher</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <Center x="0" y="0" z="1" />
       <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -1323,7 +1326,8 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GatlingGunConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GatlingGunConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>GatlingGun</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <Center x="0" y="0" z="3" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>

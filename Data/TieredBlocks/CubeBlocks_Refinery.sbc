@@ -82,7 +82,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Refinery_Gold</BlockPairName>
+      <BlockPairName>LargeRefinery_Gold</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>135</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -191,7 +191,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Refinery_Platin</BlockPairName>
+      <BlockPairName>LargeRefinery_Platin</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>203</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -300,7 +300,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Refinery_Titan</BlockPairName>
+      <BlockPairName>LargeRefinery_Titan</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>304</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
