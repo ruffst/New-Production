@@ -70,7 +70,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gyroscope_Gold</BlockPairName>
+      <BlockPairName>SmallBlockGyro_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>21</BuildTimeSeconds>
@@ -161,7 +161,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gyroscope_Gold</BlockPairName>
+      <BlockPairName>LargeBlockGyro_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -247,7 +247,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gyroscope_Platin</BlockPairName>
+      <BlockPairName>SmallBlockGyro_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>32</BuildTimeSeconds>
@@ -338,7 +338,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gyroscope_Platin</BlockPairName>
+      <BlockPairName>LargeBlockGyro_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -424,7 +424,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gyroscope_Titan</BlockPairName>
+      <BlockPairName>SmallBlockGyro_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>48</BuildTimeSeconds>
@@ -515,7 +515,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GyroscopeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GyroscopeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gyroscope_Titan</BlockPairName>
+      <BlockPairName>LargeBlockGyro_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

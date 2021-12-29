@@ -88,7 +88,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallReactor_Gold</BlockPairName>
+      <BlockPairName>SmallBlockSmallGenerator_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -207,7 +207,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeReactor_Gold</BlockPairName>
+      <BlockPairName>SmallBlockLargeGenerator_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>45</BuildTimeSeconds>
@@ -321,7 +321,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallReactor_Gold</BlockPairName>
+      <BlockPairName>LargeBlockSmallGenerator_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -444,7 +444,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeReactor_Gold</BlockPairName>
+      <BlockPairName>LargeBlockLargeGenerator_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -560,7 +560,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallReactor_Platin</BlockPairName>
+      <BlockPairName>SmallBlockSmallGenerator_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -679,7 +679,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeReactor_Platin</BlockPairName>
+      <BlockPairName>SmallBlockLargeGenerator_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>68</BuildTimeSeconds>
@@ -793,7 +793,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallReactor_Platin</BlockPairName>
+      <BlockPairName>LargeBlockSmallGenerator_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -916,7 +916,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeReactor_Platin</BlockPairName>
+      <BlockPairName>LargeBlockLargeGenerator_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1032,7 +1032,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallReactor_Titan</BlockPairName>
+      <BlockPairName>SmallBlockSmallGenerator_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1151,7 +1151,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeReactor_Titan</BlockPairName>
+      <BlockPairName>SmallBlockLargeGenerator_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>102</BuildTimeSeconds>
@@ -1265,7 +1265,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallReactor_Titan</BlockPairName>
+      <BlockPairName>LargeBlockSmallGenerator_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1388,7 +1388,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeReactor_Titan</BlockPairName>
+      <BlockPairName>LargeBlockLargeGenerator_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

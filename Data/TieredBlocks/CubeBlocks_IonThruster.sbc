@@ -84,7 +84,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrust_Gold</BlockPairName>
+      <BlockPairName>SmallBlockSmallThrust_Gold</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -207,7 +207,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrust_Gold</BlockPairName>
+      <BlockPairName>SmallBlockLargeThrust_Gold</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -331,7 +331,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrust_Gold</BlockPairName>
+      <BlockPairName>LargeBlockSmallThrust_Gold</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -456,7 +456,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrust_Gold</BlockPairName>
+      <BlockPairName>LargeBlockLargeThrust_Gold</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -580,7 +580,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrust_Platin</BlockPairName>
+      <BlockPairName>SmallBlockSmallThrust_Platin</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>23</BuildTimeSeconds>
@@ -703,7 +703,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrust_Platin</BlockPairName>
+      <BlockPairName>SmallBlockLargeThrust_Platin</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -827,7 +827,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrust_Platin</BlockPairName>
+      <BlockPairName>LargeBlockSmallThrust_Platin</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -952,7 +952,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrust_Platin</BlockPairName>
+      <BlockPairName>LargeBlockLargeThrust_Platin</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1076,7 +1076,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrust_Titan</BlockPairName>
+      <BlockPairName>SmallBlockSmallThrust_Titan</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>34</BuildTimeSeconds>
@@ -1199,7 +1199,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrust_Titan</BlockPairName>
+      <BlockPairName>SmallBlockLargeThrust_Titan</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1323,7 +1323,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrust_Titan</BlockPairName>
+      <BlockPairName>LargeBlockSmallThrust_Titan</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1448,7 +1448,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrust_Titan</BlockPairName>
+      <BlockPairName>LargeBlockLargeThrust_Titan</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>

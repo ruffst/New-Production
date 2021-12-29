@@ -75,7 +75,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OreDetector_Gold</BlockPairName>
+      <BlockPairName>LargeOreDetector_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -161,7 +161,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OreDetector_Gold</BlockPairName>
+      <BlockPairName>SmallBlockOreDetector_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -249,7 +249,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OreDetector_Platin</BlockPairName>
+      <BlockPairName>LargeOreDetector_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -335,7 +335,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OreDetector_Platin</BlockPairName>
+      <BlockPairName>SmallBlockOreDetector_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -423,7 +423,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OreDetectorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OreDetectorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OreDetector_Titan</BlockPairName>
+      <BlockPairName>LargeOreDetector_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -509,7 +509,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OreDetectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OreDetectorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OreDetector_Titan</BlockPairName>
+      <BlockPairName>SmallBlockOreDetector_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

@@ -66,7 +66,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BatteryBlock_Gold</BlockPairName>
+      <BlockPairName>SmallBlockBatteryBlock_Gold</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -156,7 +156,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BatteryBlock_Gold</BlockPairName>
+      <BlockPairName>LargeBlockBatteryBlock_Gold</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -247,7 +247,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BatteryBlock_Platin</BlockPairName>
+      <BlockPairName>SmallBlockBatteryBlock_Platin</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -337,7 +337,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BatteryBlock_Platin</BlockPairName>
+      <BlockPairName>LargeBlockBatteryBlock_Platin</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>90</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -428,7 +428,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BatteryBlock_Titan</BlockPairName>
+      <BlockPairName>SmallBlockBatteryBlock_Titan</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>68</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
@@ -518,7 +518,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BatteryBlock_Titan</BlockPairName>
+      <BlockPairName>LargeBlockBatteryBlock_Titan</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>135</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>

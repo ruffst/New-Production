@@ -84,7 +84,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrust_Gold</BlockPairName>
+      <BlockPairName>SmallBlockSmallHydrogenThrust_Gold</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -214,7 +214,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrust_Gold</BlockPairName>
+      <BlockPairName>SmallBlockLargeHydrogenThrust_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -338,7 +338,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrust_Gold</BlockPairName>
+      <BlockPairName>LargeBlockSmallHydrogenThrust_Gold</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -468,7 +468,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrust_Gold</BlockPairName>
+      <BlockPairName>LargeBlockLargeHydrogenThrust_Gold</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -595,7 +595,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrust_Platin</BlockPairName>
+      <BlockPairName>SmallBlockSmallHydrogenThrust_Platin</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -725,7 +725,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrust_Platin</BlockPairName>
+      <BlockPairName>SmallBlockLargeHydrogenThrust_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -849,7 +849,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrust_Platin</BlockPairName>
+      <BlockPairName>LargeBlockSmallHydrogenThrust_Platin</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -979,7 +979,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrust_Platin</BlockPairName>
+      <BlockPairName>LargeBlockLargeHydrogenThrust_Platin</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1106,7 +1106,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrust_Titan</BlockPairName>
+      <BlockPairName>SmallBlockSmallHydrogenThrust_Titan</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1236,7 +1236,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrust_Titan</BlockPairName>
+      <BlockPairName>SmallBlockLargeHydrogenThrust_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1360,7 +1360,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>HydrogenThrust_Titan</BlockPairName>
+      <BlockPairName>LargeBlockSmallHydrogenThrust_Titan</BlockPairName>
       <Center x="0" y="0" z="0" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1490,7 +1490,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeHydrogenThrust_Titan</BlockPairName>
+      <BlockPairName>LargeBlockLargeHydrogenThrust_Titan</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
