@@ -3,10 +3,6 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <ResearchBlocks>
 
-
-
-
-
   <!--Meilenstein_Small_Armorlight-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Armorlight  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Armorlight" />
@@ -15,30 +11,28 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorCornerSquare  Meilenstein_Armorlight-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorCornerSquare  Meilenstein_Small_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerSquare" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorCornerSquareInverted  Meilenstein_Armorlight-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorCornerSquareInverted  Meilenstein_Small_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerSquareInverted" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorSlope2Base  Meilenstein_Armorlight-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorSlope2Base  Meilenstein_Small_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Base" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorSlope2Tip  Meilenstein_Armorlight-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorSlope2Tip  Meilenstein_Small_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Tip" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>

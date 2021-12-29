@@ -73,7 +73,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PistonBaseConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PistonBaseConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>PistonBase</BlockPairName>
+      <BlockPairName>LargePistonBase</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -165,7 +165,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PistonBaseConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PistonBaseConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ExtendedPistonBase</BlockPairName>
+      <BlockPairName>LargePistonBase</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -225,7 +225,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PistonTopConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PistonTopConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>PistonTop</BlockPairName>
+      <BlockPairName>LargePistonTop</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -306,7 +306,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\PistonBaseConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\PistonBaseConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>PistonBase</BlockPairName>
+      <BlockPairName>SmallPistonBase</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -399,7 +399,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\PistonBaseConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\PistonBaseConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ExtendedPistonBase</BlockPairName>
+      <BlockPairName>SmallPistonBase</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -459,7 +459,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\PistonTopConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\PistonTopConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>PistonTop</BlockPairName>
+      <BlockPairName>SmallPistonTop</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -540,7 +540,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorStatorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorStatorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MotorStator</BlockPairName>
+      <BlockPairName>LargeStator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -683,7 +683,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorStatorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorStatorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MotorStator</BlockPairName>
+      <BlockPairName>SmallStator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -746,7 +746,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorRotorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorRotorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MotorRotor</BlockPairName>
+      <BlockPairName>SmallRotor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -829,7 +829,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorAdvancedStatorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorAdvancedStatorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MotorAdvancedStator</BlockPairName>
+      <BlockPairName>LargeAdvancedStator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -894,7 +894,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorAdvancedRotorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorAdvancedRotorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MotorAdvancedRotor</BlockPairName>
+      <BlockPairName>LargeAdvancedRotor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -969,7 +969,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorAdvancedStatorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorAdvancedStatorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MotorAdvancedStator</BlockPairName>
+      <BlockPairName>SmallAdvancedStator</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1031,7 +1031,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorAdvancedRotorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorAdvancedRotorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MotorAdvancedRotor</BlockPairName>
+      <BlockPairName>SmallAdvancedRotor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1250,7 +1250,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\HingeMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HingeMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeHinge</BlockPairName>
+      <BlockPairName>MediumHinge</BlockPairName>
       <BuildTimeSeconds>12</BuildTimeSeconds>
       <UseModelIntersection>true</UseModelIntersection>
       <RotorPart>LargeHingeHead</RotorPart>
@@ -1321,7 +1321,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HingeHeadMediumConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeHingeHead</BlockPairName>
+      <BlockPairName>MediumHingeHead</BlockPairName>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <UseModelIntersection>true</UseModelIntersection>
       <MirroringX>Y</MirroringX>
