@@ -74,7 +74,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AntennaDishConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AntennaDishConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AntennaDish</BlockPairName>
+      <BlockPairName>LargeBlockRadioAntennaDish</BlockPairName>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <BuildTimeSeconds>60</BuildTimeSeconds>
@@ -175,7 +175,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GateConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GateConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Gate</BlockPairName>
+      <BlockPairName>LargeBlockGate</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -284,7 +284,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OffsetDoorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OffsetDoorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OffsetDoor</BlockPairName>
+      <BlockPairName>LargeBlockOffsetDoor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -350,7 +350,7 @@
           <PlacementMode>Both</PlacementMode>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>DeadBody</BlockPairName>
+      <BlockPairName>DeadBody01</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

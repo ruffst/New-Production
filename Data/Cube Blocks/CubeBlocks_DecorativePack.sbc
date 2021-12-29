@@ -69,7 +69,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Desk</BlockPairName>
+      <BlockPairName>LargeBlockDesk</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -149,7 +149,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>DeskCorner</BlockPairName>
+      <BlockPairName>LargeBlockDeskCorner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -230,7 +230,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>DeskChairless</BlockPairName>
+      <BlockPairName>LargeBlockDeskChairless</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -309,7 +309,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>DeskChairlessCorner</BlockPairName>
+      <BlockPairName>LargeBlockDeskChairlessCorner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -385,7 +385,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\KitchenConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\KitchenConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Kitchen</BlockPairName>
+      <BlockPairName>LargeBlockKitchen</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -474,7 +474,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Bed</BlockPairName>
+      <BlockPairName>LargeBlockBed</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -556,7 +556,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LockerRoomConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LockerRoomConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LockerRoom</BlockPairName>
+      <BlockPairName>LargeBlockLockerRoom</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -631,7 +631,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LockerRoomCornerConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LockerRoomCornerConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LockerRoomCorner</BlockPairName>
+      <BlockPairName>LargeBlockLockerRoomCorner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -701,7 +701,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PlantersConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PlantersConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Planters</BlockPairName>
+      <BlockPairName>LargeBlockPlanters</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -777,7 +777,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Couch</BlockPairName>
+      <BlockPairName>LargeBlockCouch</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -858,7 +858,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>CouchCorner</BlockPairName>
+      <BlockPairName>LargeBlockCouchCorner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -937,7 +937,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LockersConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LockersConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Lockers</BlockPairName>
+      <BlockPairName>LargeBlockLockers</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1028,7 +1028,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>BathroomOpen</BlockPairName>
+      <BlockPairName>LargeBlockBathroomOpen</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1121,7 +1121,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Bathroom</BlockPairName>
+      <BlockPairName>LargeBlockBathroom</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1208,7 +1208,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Toilet</BlockPairName>
+      <BlockPairName>LargeBlockToilet</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1288,7 +1288,7 @@
         <ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_Numpad" TextureResolution="128" ScreenWidth="4" ScreenHeight="6" />
         <ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="128" ScreenWidth="2" ScreenHeight="1" />
       </ScreenAreas>
-      <BlockPairName>Console</BlockPairName>
+      <BlockPairName>LargeBlockConsole</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1402,7 +1402,7 @@
         <ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="128" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
         <ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_Numpad" TextureResolution="128" ScreenWidth="5" ScreenHeight="6" />
       </ScreenAreas>
-      <BlockPairName>CockpitIndustrial</BlockPairName>
+      <BlockPairName>SmallBlockCockpitIndustrial</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1528,7 +1528,7 @@
         <ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="3" Script="TSS_ArtificialHorizon" />
         <ScreenArea Name="CockpitScreen_06" DisplayName="DisplayName_Screen_Numpad" TextureResolution="256" ScreenWidth="4" ScreenHeight="5" />
       </ScreenAreas>
-      <BlockPairName>CockpitIndustrial</BlockPairName>
+      <BlockPairName>LargeBlockCockpitIndustrial</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>

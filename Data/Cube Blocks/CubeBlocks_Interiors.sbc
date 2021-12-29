@@ -56,7 +56,8 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Passage</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -115,7 +116,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageStraightConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageStraightConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Passage2Straight</BlockPairName>
+      <BlockPairName>Passage2</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -227,7 +228,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\StairsConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\StairsConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Stairs</BlockPairName>
+      <BlockPairName>LargeStairs</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -284,7 +285,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RampConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RampConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Ramp</BlockPairName>
+      <BlockPairName>LargeRamp</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -341,7 +342,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SteelCatwalkConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SteelCatwalk</BlockPairName>
+      <BlockPairName>LargeSteelCatwalk</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -580,7 +581,7 @@
         <Model BuildPercentUpperBound="0.40" File="Models\Cubes\Large\CoverWallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CoverWallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>FullCoverWall</BlockPairName>
+      <BlockPairName>LargeCoverWall</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -623,7 +624,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CoverWallHalfConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HalfCoverWall</BlockPairName>
+      <BlockPairName>LargeCoverWallHalf</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -686,7 +687,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorWallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorWallConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>InteriorWall</BlockPairName>
+      <BlockPairName>LargeBlockInteriorWall</BlockPairName>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>14</BuildTimeSeconds>
@@ -734,7 +735,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorPillarConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>InteriorPillar</BlockPairName>
+      <BlockPairName>LargeInteriorPillar</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <AutorotateMode>OppositeDirections</AutorotateMode>
@@ -799,7 +800,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>PassengerSeat</BlockPairName>
+      <BlockPairName>PassengerSeatLarge</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -872,7 +873,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>PassengerSeat</BlockPairName>
+      <BlockPairName>PassengerSeatSmall</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -949,7 +950,8 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Ladder_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Ladder_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Ladder2</BlockPairName>
+      <BlockPairName>
+      </BlockPairName>
       <ExcludedAreaForCamera>
         <BoundingBox>
           <Min>
@@ -1041,7 +1043,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Ladder_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Ladder_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Ladder2</BlockPairName>
+      <BlockPairName>LadderSmall</BlockPairName>
       <ExcludedAreaForCamera>
         <BoundingBox>
           <Min>

@@ -409,7 +409,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Suspension3x3</BlockPairName>
+      <BlockPairName>SmallSuspension3x3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <MirroringBlock>SmallSuspension3x3mirrored</MirroringBlock>
@@ -511,7 +511,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Suspension5x5</BlockPairName>
+      <BlockPairName>SmallSuspension5x5</BlockPairName>
       <MirroringY>ZThenOffsetX</MirroringY>
       <MirroringZ>YThenOffsetX</MirroringZ>
       <MirroringBlock>SmallSuspension5x5mirrored</MirroringBlock>
@@ -615,7 +615,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Suspension1x1</BlockPairName>
+      <BlockPairName>SmallSuspension1x1</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <MirroringBlock>SmallSuspension1x1mirrored</MirroringBlock>
@@ -1051,7 +1051,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Suspension3x3mirrored</BlockPairName>
+      <BlockPairName>SmallSuspension3x3mirrored</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <MirroringBlock>SmallSuspension3x3</MirroringBlock>
@@ -1154,7 +1154,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Suspension5x5mirrored</BlockPairName>
+      <BlockPairName>SmallSuspension5x5mirrored</BlockPairName>
       <MirroringY>ZThenOffsetX</MirroringY>
       <MirroringZ>YThenOffsetX</MirroringZ>
       <MirroringBlock>SmallSuspension5x5</MirroringBlock>
@@ -1258,7 +1258,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Suspension1x1mirrored</BlockPairName>
+      <BlockPairName>SmallSuspension1x1mirrored</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <MirroringBlock>SmallSuspension1x1</MirroringBlock>
@@ -1348,7 +1348,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealWheel1x1</BlockPairName>
+      <BlockPairName>SmallRealWheel1x1</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -1429,7 +1429,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealWheel</BlockPairName>
+      <BlockPairName>SmallRealWheel</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -1511,7 +1511,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealWheel5x5</BlockPairName>
+      <BlockPairName>SmallRealWheel5x5</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -1839,7 +1839,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealWheel1x1mirrored</BlockPairName>
+      <BlockPairName>SmallRealWheel1x1mirrored</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -1920,7 +1920,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealWheelmirrored</BlockPairName>
+      <BlockPairName>SmallRealWheelmirrored</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -2002,7 +2002,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealWheel5x5mirrored</BlockPairName>
+      <BlockPairName>SmallRealWheel5x5mirrored</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -2415,7 +2415,7 @@
         <MountPoint Side="Top" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75" />
         <MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75" />
       </MountPoints>
-      <BlockPairName>Wheel1x1</BlockPairName>
+      <BlockPairName>SmallWheel1x1</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -2579,7 +2579,7 @@
         <MountPoint Side="Top" StartX="0.6" StartY="0.6" EndX="2.4" EndY="2.4" />
         <MountPoint Side="Bottom" StartX="0.6" StartY="0.6" EndX="2.4" EndY="2.4" />
       </MountPoints>
-      <BlockPairName>Wheel3x3</BlockPairName>
+      <BlockPairName>SmallWheel3x3</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -2744,7 +2744,7 @@
         <MountPoint Side="Top" StartX="1" StartY="1" EndX="4" EndY="4" />
         <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="4" EndY="4" />
       </MountPoints>
-      <BlockPairName>Wheel5x5</BlockPairName>
+      <BlockPairName>SmallWheel5x5</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <UsesDeformation>false</UsesDeformation>
       <MirroringY>Z</MirroringY>

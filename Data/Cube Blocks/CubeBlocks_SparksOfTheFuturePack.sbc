@@ -65,7 +65,7 @@
         <Model BuildPercentUpperBound="0.70" File="Models\Cubes\Large\LCDPanel5x5Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LCDPanel5x5Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LCDPanel5x5</BlockPairName>
+      <BlockPairName>LargeLCDPanel5x5</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -157,7 +157,7 @@
         <Model BuildPercentUpperBound="0.70" File="Models\Cubes\Large\LCDPanel5x3Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LCDPanel5x3Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LCDPanel5x3Rot</BlockPairName>
+      <BlockPairName>LargeLCDPanel5x3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -249,7 +249,7 @@
         <Model BuildPercentUpperBound="0.70" File="Models\Cubes\Large\LCDPanel3x3Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LCDPanel3x3Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LCDPanel3x3</BlockPairName>
+      <BlockPairName>LargeLCDPanel3x3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -323,7 +323,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorWallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorWallConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SciFiWall</BlockPairName>
+      <BlockPairName>LargeBlockSciFiWall</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -376,7 +376,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NeonTubesStraight1</BlockPairName>
+      <BlockPairName>LargeNeonTubesStraight1</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -428,7 +428,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NeonTubesStraight2</BlockPairName>
+      <BlockPairName>LargeNeonTubesStraight2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -481,7 +481,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesCornerConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesCornerConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NeonTubesCorner</BlockPairName>
+      <BlockPairName>LargeNeonTubesCorner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -535,7 +535,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesBendUpConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesBendUpConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NeonTubesBendUp</BlockPairName>
+      <BlockPairName>LargeNeonTubesBendUp</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -585,7 +585,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\NeonTubesBendDownConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesBendDownConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NeonTubesBendDown</BlockPairName>
+      <BlockPairName>LargeNeonTubesBendDown</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -637,7 +637,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NeonTubesStraightEnd1</BlockPairName>
+      <BlockPairName>LargeNeonTubesStraightEnd1</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -689,7 +689,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightEnd2Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightEnd2Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NeonTubesStraightEnd2</BlockPairName>
+      <BlockPairName>LargeNeonTubesStraightEnd2</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -741,7 +741,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesStraightConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesStraightConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NeonTubesStraightDown</BlockPairName>
+      <BlockPairName>LargeNeonTubesStraightDown</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -795,7 +795,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\NeonTubesUConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\NeonTubesUConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>NeonTubesU</BlockPairName>
+      <BlockPairName>LargeNeonTubesU</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -858,7 +858,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiTerminalConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiTerminalConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SciFiTerminal</BlockPairName>
+      <BlockPairName>LargeBlockSciFiTerminal</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -934,7 +934,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SciFiButtonTerminalConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SciFiButtonTerminalConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SciFiButtonTerminal</BlockPairName>
+      <BlockPairName>LargeSciFiButtonTerminal</BlockPairName>
       <ScreenAreas>
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" />
       </ScreenAreas>
@@ -1076,7 +1076,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SideDoorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SideDoorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SideDoor</BlockPairName>
+      <BlockPairName>SmallSideDoor</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1152,7 +1152,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BarCounter_SciFi_Construction2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BarCounter_SciFi_Construction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BarCounter</BlockPairName>
+      <BlockPairName>LargeBlockBarCounter</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -1223,7 +1223,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BarCounterCorner_SciFi_Construction2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BarCounterCorner_SciFi_Construction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>BarCounterCorner</BlockPairName>
+      <BlockPairName>LargeBlockBarCounterCorner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>YHalfY</MirroringZ>
@@ -1296,7 +1296,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ButtonPanel_SciFiConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ButtonPanel_SciFiConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SciFiButtonPanel</BlockPairName>
+      <BlockPairName>LargeSciFiButtonPanel</BlockPairName>
       <ScreenAreas>
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Numpad1" TextureResolution="128" ScreenWidth="3" ScreenHeight="2" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Numpad2" TextureResolution="128" ScreenWidth="3" ScreenHeight="2" />
@@ -1434,7 +1434,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrustSciFi</BlockPairName>
+      <BlockPairName>SmallBlockSmallThrustSciFi</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1553,7 +1553,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrustSciFi</BlockPairName>
+      <BlockPairName>SmallBlockLargeThrustSciFi</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1675,7 +1675,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallThrustSciFi</BlockPairName>
+      <BlockPairName>LargeBlockSmallThrustSciFi</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1796,7 +1796,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeThrustSciFi</BlockPairName>
+      <BlockPairName>LargeBlockLargeThrustSciFi</BlockPairName>
       <Center x="1" y="0" z="2" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1922,7 +1922,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeAtmoThrustSciFi</BlockPairName>
+      <BlockPairName>LargeBlockLargeAtmosphericThrustSciFi</BlockPairName>
       <Center x="1" y="1" z="2" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2056,7 +2056,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallAtmoThrustSciFi</BlockPairName>
+      <BlockPairName>LargeBlockSmallAtmosphericThrustSciFi</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
@@ -2189,7 +2189,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeAtmoThrustSciFi</BlockPairName>
+      <BlockPairName>SmallBlockLargeAtmosphericThrustSciFi</BlockPairName>
       <Center x="1" y="1" z="2" />
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2323,7 +2323,7 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallAtmoThrustSciFi</BlockPairName>
+      <BlockPairName>SmallBlockSmallAtmosphericThrustSciFi</BlockPairName>
       <Center x="0" y="0" z="1" />
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>10</BuildTimeSeconds>

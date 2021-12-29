@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
     <Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
       <Id>
@@ -56,7 +55,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ExhaustPipe_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExhaustPipe_Racing_Construction2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ExhaustPipe</BlockPairName>
+      <BlockPairName>SmallExhaustPipe</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -142,7 +141,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ExhaustPipe_Racing_Construction2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExhaustPipe_Racing_Construction3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ExhaustPipe</BlockPairName>
+      <BlockPairName>LargeExhaustPipe</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -835,7 +834,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadSuspension3x3</BlockPairName>
+      <BlockPairName>OffroadSmallSuspension3x3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <MirroringBlock>OffroadSmallSuspension3x3mirrored</MirroringBlock>
@@ -941,7 +940,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadSuspension5x5</BlockPairName>
+      <BlockPairName>OffroadSmallSuspension5x5</BlockPairName>
       <MirroringY>ZThenOffsetX</MirroringY>
       <MirroringZ>YThenOffsetX</MirroringZ>
       <MirroringBlock>OffroadSmallSuspension5x5mirrored</MirroringBlock>
@@ -1048,7 +1047,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadSuspension1x1</BlockPairName>
+      <BlockPairName>OffroadSmallSuspension1x1</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <MirroringBlock>OffroadSmallSuspension1x1mirrored</MirroringBlock>
@@ -1497,7 +1496,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadSuspension3x3mirrored</BlockPairName>
+      <BlockPairName>OffroadSmallSuspension3x3mirrored</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <MirroringBlock>OffroadSmallSuspension3x3</MirroringBlock>
@@ -1603,7 +1602,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadSuspension5x5mirrored</BlockPairName>
+      <BlockPairName>OffroadSmallSuspension5x5mirrored</BlockPairName>
       <MirroringY>ZThenOffsetX</MirroringY>
       <MirroringZ>YThenOffsetX</MirroringZ>
       <MirroringBlock>OffroadSmallSuspension5x5</MirroringBlock>
@@ -1710,7 +1709,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadSuspension1x1mirrored</BlockPairName>
+      <BlockPairName>OffroadSmallSuspension1x1mirrored</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <MirroringBlock>OffroadSmallSuspension1x1</MirroringBlock>
@@ -1803,7 +1802,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadRealWheel1x1</BlockPairName>
+      <BlockPairName>OffroadSmallRealWheel1x1</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -1887,7 +1886,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadRealWheel</BlockPairName>
+      <BlockPairName>OffroadSmallRealWheel</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -1973,7 +1972,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadRealWheel5x5</BlockPairName>
+      <BlockPairName>OffroadSmallRealWheel5x5</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -2316,7 +2315,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadRealWheel1x1mirrored</BlockPairName>
+      <BlockPairName>OffroadSmallRealWheel1x1mirrored</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -2400,7 +2399,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadRealWheelmirrored</BlockPairName>
+      <BlockPairName>OffroadSmallRealWheelmirrored</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -2486,7 +2485,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>OffroadRealWheel5x5mirrored</BlockPairName>
+      <BlockPairName>OffroadSmallRealWheel5x5mirrored</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -2918,7 +2917,7 @@
         <MountPoint EndX="0.75" EndY="0.75" Side="Top" StartX="0.25" StartY="0.25" />
         <MountPoint EndX="0.75" EndY="0.75" Side="Bottom" StartX="0.25" StartY="0.25" />
       </MountPoints>
-      <BlockPairName>OffroadWheel1x1</BlockPairName>
+      <BlockPairName>OffroadSmallWheel1x1</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -3089,7 +3088,7 @@
         <MountPoint EndX="2.4" EndY="2.4" Side="Top" StartX="0.6" StartY="0.6" />
         <MountPoint EndX="2.4" EndY="2.4" Side="Bottom" StartX="0.6" StartY="0.6" />
       </MountPoints>
-      <BlockPairName>OffroadWheel3x3</BlockPairName>
+      <BlockPairName>OffroadSmallWheel3x3</BlockPairName>
       <UsesDeformation>false</UsesDeformation>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -3261,7 +3260,7 @@
         <MountPoint EndX="4.0" EndY="4.0" Side="Top" StartX="1.0" StartY="1.0" />
         <MountPoint EndX="4.0" EndY="4.0" Side="Bottom" StartX="1.0" StartY="1.0" />
       </MountPoints>
-      <BlockPairName>OffroadWheel5x5</BlockPairName>
+      <BlockPairName>OffroadSmallWheel5x5</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <UsesDeformation>false</UsesDeformation>
       <MirroringY>Z</MirroringY>

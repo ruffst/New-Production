@@ -58,7 +58,7 @@
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
       </ScreenAreas>
-      <BlockPairName>SafeZone</BlockPairName>
+      <BlockPairName>SafeZoneBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <BuildTimeSeconds>40</BuildTimeSeconds>

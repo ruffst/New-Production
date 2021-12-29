@@ -70,7 +70,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ProgrammingBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ProgrammingBlockConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ProgrammableBlock</BlockPairName>
+      <BlockPairName>SmallProgrammableBlock</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -162,7 +162,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ProjectorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ProjectorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Projector</BlockPairName>
+      <BlockPairName>LargeProjector</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -248,7 +248,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ProjectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ProjectorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Projector</BlockPairName>
+      <BlockPairName>SmallProjector</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>12</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -345,7 +345,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Sensor</BlockPairName>
+      <BlockPairName>SmallBlockSensor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -442,7 +442,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>Sensor</BlockPairName>
+      <BlockPairName>LargeBlockSensor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -642,7 +642,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SoundBlock</BlockPairName>
+      <BlockPairName>SmallBlockSoundBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -723,7 +723,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SoundBlock</BlockPairName>
+      <BlockPairName>LargeBlockSoundBlock</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -799,7 +799,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ButtonPanelConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ButtonPanelConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ButtonPanel</BlockPairName>
+      <BlockPairName>ButtonPanelLarge</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -907,7 +907,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\small\ButtonConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ButtonPanel</BlockPairName>
+      <BlockPairName>ButtonPanelSmall</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -990,7 +990,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\TimerBlockConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\TimerBlockConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>TimerBlock</BlockPairName>
+      <BlockPairName>TimerBlockLarge</BlockPairName>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -1066,7 +1066,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\TimerBlockConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\TimerBlockConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>TimerBlock</BlockPairName>
+      <BlockPairName>TimerBlockSmall</BlockPairName>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <BuildTimeSeconds>4</BuildTimeSeconds>
@@ -1156,7 +1156,7 @@
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
       </ScreenAreas>
-      <BlockPairName>ProgrammableBlock</BlockPairName>
+      <BlockPairName>LargeProgrammableBlock</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
