@@ -2,6 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
+
     <Definition><!---Meilenstein_Small_Armorlight-->
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -554,65 +555,6 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Meilenstein_Small Conveyors</BlockPairName>
-      <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>20</BuildTimeSeconds>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <EmissiveColorPreset>GanymedeConveyor</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
-      <DestroySound>PoofExplosionCat3</DestroySound>
-      <PCU>10</PCU>
-      <IsAirTight>true</IsAirTight>
-    </Definition>
-    <Definition><!---Meilenstein_Small_Industrial-->
-      <Id>
-        <TypeId>Conveyor</TypeId>
-        <SubtypeId>Meilenstein_Small_Industrial</SubtypeId>
-      </Id>
-      <DisplayName>Meilenstein_Small Industrial</DisplayName>
-      <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
-      <GuiVisible>false</GuiVisible>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
-      <Components>
-        <Component Subtype="MilestoneArmorMaterial" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MilestoneElectroMaterial" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MilestoneEnergyMaterial" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>BatteryScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>Meilenstein_Small Industrial</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>

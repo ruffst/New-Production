@@ -1488,6 +1488,28 @@
         </ResearchBlock>
 
 
+  <!--Meilenstein_Medical-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Medical  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Medical" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCryoChamber  Meilenstein_Medical-->
+          <Id Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Medical</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--MedicalStation  Meilenstein_Medical-->
+          <Id Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Medical</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Remote-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Remote  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Remote" />
@@ -3148,8 +3170,6 @@
             <GroupSubtype>Meilenstein_Mechanic</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>  
-
-        <
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHinge  Meilenstein_Mechanic-->
           <Id Type="MyObjectBuilder_MotorAdvancedStator" Subtype="LargeHinge" />

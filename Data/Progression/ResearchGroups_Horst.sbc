@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ResearchGroups>
+<ResearchGroups>
 <!--Large Block-->
   <!--Basic Tree-->
 
@@ -461,11 +461,156 @@
 
   <!--Tech Tree-->
 
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Armorlight 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Armorlight" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Armorlight" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Armorheavy 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Armorheavy" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Armorheavy" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Fenster 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Fenster" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Fenster" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Controls 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Controls" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Controls" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Medical 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Medical" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Medical" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Remote 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Remote" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Remote" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Gyroskop 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Gyroskop" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Gyroskop" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Tools 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Tools" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Tools" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_OreDetector 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_OreDetector" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_OreDetector" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Waffen 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Waffen" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Waffen" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Conveyors 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Conveyors" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Conveyors" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Automation 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Automation" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Automation" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Lights 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Lights" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Lights" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Power 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Power" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Power" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Thruster_Atmo 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Thruster_Atmo" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Thruster_Atmo" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Thruster_Hydro 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Thruster_Hydro" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Thruster_Hydro" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Thruster_Ionen 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Thruster_Ionen" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Thruster_Ionen" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_LCDs 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_LCDs" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_LCDs" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Mechanic 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Mechanic" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Mechanic" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Tore 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Tore" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Tore" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Räder 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Räder" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Räder" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Cargos 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Cargos" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Cargos" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Communication 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Communication" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Communication" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Landing 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Landing" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Landing" />
+      </Members>
+    </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Tanks 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Tanks" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Tanks" />
+      </Members>
+    </ResearchGroup>
 
-
-
-
-
-
-  </ResearchGroups>
+</ResearchGroups>
 </Definitions>
