@@ -2206,50 +2206,6 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-  <!--Meilenstein_Medical-->
-    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Medical  Forschung-->
-      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Medical" />
-      <UnlockedByGroups>
-        <GroupSubtype>Forschung</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCryoChamber  Meilenstein_Medical-->
-          <Id Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Medical</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCryoChamber  Meilenstein_Medical-->
-          <Id Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockCryoChamber" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Medical</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeMedicalRoom  Meilenstein_Medical-->
-          <Id Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoom" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Medical</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--MedicalStation  Meilenstein_Medical-->
-          <Id Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Medical</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCockpitSeat  Meilenstein_Controls-->
-          <Id Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Controls</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCockpit  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpit" />
           <UnlockedByGroups>
@@ -2331,6 +2287,28 @@
           <Id Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Medical-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Medical  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Medical" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCryoChamber  Meilenstein_Medical-->
+          <Id Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Medical</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--MedicalStation  Meilenstein_Medical-->
+          <Id Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Medical</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
