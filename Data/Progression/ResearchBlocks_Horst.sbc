@@ -159,421 +159,493 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorCornerSquare  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerSquare" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorCornerSquareInverted  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCornerSquareInverted" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
- 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorSlope2Base  Meilenstein_Armorlight-->
+         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorSlope2Base  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Base" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorSlope2Tip  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Tip" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHalfArmorBlock  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfArmorBlock" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHalfSlopeArmorBlock  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHalfSlopeArmorBlock" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorHalfSlopeCorner  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopeCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorHalfCorner  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorHalfSlopedCorner  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopedCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--HalfArmorBlock  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="HalfArmorBlock" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--HalfSlopeArmorBlock  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="HalfSlopeArmorBlock" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorCorner2Base  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCorner2Base" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorCorner2Tip  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorCorner2Tip" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorInvCorner2Base  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorInvCorner2Base" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorInvCorner2Tip  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorInvCorner2Tip" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorHalfSlopeCornerInverted  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopeCornerInverted" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorHalfSlopeInverted  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopeInverted" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorRoundSlope  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorRoundSlope" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorRoundCorner  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorRoundCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorRoundCornerInv  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorRoundCornerInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorSlopedCornerTip  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCornerTip" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorSlopedCornerBase  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCornerBase" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorSlopedCorner  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlopedCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockArmorHalfSlopedCornerBase  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopedCornerBase" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockInteriorWall  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockInteriorWall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSciFiWall  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockSciFiWall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeInteriorPillar  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeInteriorPillar" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeCoverWall  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeCoverWall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeCoverWallHalf  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeCoverWallHalf" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--FireCover  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="FireCover" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--FireCoverCorner  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="FireCoverCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCylindricalColumn  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockCylindricalColumn" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Passage2  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Passage2" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Passage2Wall  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Passage2Wall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassageSciFi  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFi" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassageSciFiWall  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiWall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassageSciFiIntersection  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiIntersection" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassageSciFiGate  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiGate" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassageScifiCorner  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="PassageScifiCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassageSciFiTjunction  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiTjunction" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassageSciFiWindow  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiWindow" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Passage  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_Passage" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--RailingStraight  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="RailingStraight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--RailingDouble  Meilenstein_Armorlight-->  
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="RailingDouble" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--RailingDiagonal  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="RailingDiagonal" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--RailingCorner  Meilenstein_Armorlight-->   
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="RailingCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--RailingHalfRight  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="RailingHalfRight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--RailingHalfLeft  Meilenstein_Armorlight--> 
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="RailingHalfLeft" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeSteelCatwalk  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeSteelCatwalk2Sides  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk2Sides" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeSteelCatwalkCorner  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeSteelCatwalkPlate  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkPlate" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Catwalk  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Catwalk" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--CatwalkStraight  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkStraight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--CatwalkCorner  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--CatwalkWall  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkWall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--CatwalkRailingEnd  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingEnd" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--CatwalkRailingHalfRight  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingHalfRight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--CatwalkRailingHalfLeft  Meilenstein_Armorlight-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="CatwalkRailingHalfLeft" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Small_Armorlight-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Armorlight  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Armorlight" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorCornerSquare  Meilenstein_Small_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerSquare" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorCornerSquareInverted  Meilenstein_Small_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCornerSquareInverted" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorSlope2Base  Meilenstein_Small_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Base" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorSlope2Tip  Meilenstein_Small_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Tip" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorHalfSlopeCorner  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopeCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorHalfCorner  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorHalfSlopedCorner  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopedCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorCorner2Base  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCorner2Base" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorCorner2Tip  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorCorner2Tip" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorInvCorner2Base  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorInvCorner2Base" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorInvCorner2Tip  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorInvCorner2Tip" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorHalfSlopeCornerInverted  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopeCornerInverted" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorHalfSlopeInverted  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopeInverted" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorRoundSlope  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorRoundSlope" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorRoundCorner  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorRoundCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorRoundCornerInv  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorRoundCornerInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorSlopedCornerTip  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCornerTip" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorSlopedCornerBase  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCornerBase" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorSlopedCorner  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlopedCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockArmorHalfSlopedCornerBase  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopedCornerBase" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCylindricalColumn  Meilenstein_Armorlight-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockCylindricalColumn" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
@@ -628,192 +700,162 @@
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorSlope  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorSlope" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorCorner  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorCornerInv  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorCornerInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorCornerSquare  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorCornerSquare" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorCornerSquareInverted  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorCornerSquareInverted" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorSlope2Base  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorSlope2Base" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorSlope2Tip  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorSlope2Tip" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyHalfArmorBlock  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfArmorBlock" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyHalfSlopeArmorBlock  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyHalfSlopeArmorBlock" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorHalfSlopeCorner  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorHalfSlopeCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorHalfCorner  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorHalfCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorHalfSlopedCorner  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorHalfSlopedCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--HeavyHalfArmorBlock  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfArmorBlock" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--HeavyHalfSlopeArmorBlock  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfSlopeArmorBlock" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorCorner2Base  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorCorner2Base" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorCorner2Tip  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorCorner2Tip" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorInvCorner2Base  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorInvCorner2Base" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorInvCorner2Tip  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorInvCorner2Tip" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorHalfSlopeCornerInverted  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorHalfSlopeCornerInverted" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorHalfSlopeInverted  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorHalfSlopeInverted" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorRoundSlope  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorRoundSlope" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorRoundCorner  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorRoundCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHeavyBlockArmorRoundCornerInv  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorRoundCornerInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorSlopedCornerTip  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopedCornerTip" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorSlopedCornerBase  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopedCornerBase" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorSlopedCorner  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorSlopedCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Armorheavy</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockHeavyArmorHalfSlopedCornerBase  Meilenstein_Armorheavy-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorHalfSlopedCornerBase" />
           <UnlockedByGroups>
@@ -821,6 +863,158 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Armorheavy-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Armorheavy  Meilenstein_Armorlight-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Armorheavy" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Small_Armorlight</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorBlock  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorSlope  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorSlope" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorCorner  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorCornerInv  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorCornerInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorCornerSquare  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorCornerSquare" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorCornerSquareInverted  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorCornerSquareInverted" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorSlope2Base  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorSlope2Base" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorSlope2Tip  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorSlope2Tip" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorHalfSlopeCorner  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopeCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorHalfCorner  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorHalfSlopedCorner  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopedCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorCorner2Base  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorCorner2Base" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorCorner2Tip  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorCorner2Tip" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorInvCorner2Base  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorInvCorner2Base" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorInvCorner2Tip  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorInvCorner2Tip" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorHalfSlopeCornerInverted  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopeCornerInverted" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorHalfSlopeInverted  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopeInverted" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorRoundSlope  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorRoundSlope" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorRoundCorner  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorRoundCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeavyBlockArmorRoundCornerInv  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorRoundCornerInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorSlopedCornerTip  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSlopedCornerTip" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorSlopedCornerBase  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSlopedCornerBase" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorSlopedCorner  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorSlopedCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockHeavyArmorHalfSlopedCornerBase  Meilenstein_Small_Armorheavy-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopedCornerBase" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Armorheavy</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Armor_Tin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armor_Tin  Meilenstein_Armorheavy-->
@@ -1176,214 +1370,180 @@
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x1FlatInv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x1Slope  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x2Flat  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Flat" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x2FlatInv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2FlatInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x2Slope  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Slope" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window2x3Flat  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window2x3Flat" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window2x3FlatInv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window2x3FlatInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window3x3Flat  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window3x3Flat" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window3x3FlatInv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window3x3FlatInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x1Face  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Face" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x1Inv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Inv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x1Side  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x1SideInv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x2Face  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Face" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x2Inv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Inv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x2SideLeft  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideLeft" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x2SideLeftInv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideLeftInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x2SideRight  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Window1x2SideRightInv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRightInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeWindowSquare  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeWindowSquare" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeWindowEdge  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeWindowEdge" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--WindowWall  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="WindowWall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--WindowWallLeft  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="WindowWallLeft" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--WindowWallRight  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="WindowWallRight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Viewport1  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Viewport1" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Viewport2  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="Viewport2" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--HalfWindow  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="HalfWindow" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--HalfWindowInv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="HalfWindowInv" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--HalfWindowCorner  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="HalfWindowCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--HalfWindowCornerInv  Meilenstein_Fenster-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="HalfWindowCornerInv" />
           <UnlockedByGroups>
@@ -1391,7 +1551,134 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Fenster-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Fenster  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Fenster" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x1Flat  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Flat" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x1FlatInv  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1FlatInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x1Slope  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Slope" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x2Flat  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Flat" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x2FlatInv  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2FlatInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x2Slope  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Slope" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow2x3Flat  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow2x3Flat" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow2x3FlatInv  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow2x3FlatInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow3x3Flat  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow3x3Flat" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Fenster</GroupSubtype>
+          </UnlockedByGroups>Meilenstein_Small_Fenster
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow3x3FlatInv  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow3x3FlatInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x1Face  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Face" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x1Inv  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Inv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x1Side  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Side" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x1SideInv  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1SideInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x2Face  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Face" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x2Inv  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Inv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x2SideLeft  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideLeft" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x2SideLeftInv  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideLeftInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x2SideRight  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideRight" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWindow1x2SideRightInv  Meilenstein_Small_Fenster-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideRightInv" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Fenster</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Controls-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Controls  Forschung-->
@@ -1401,85 +1688,66 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-  <!--Meilenstein_Medical-->
-    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Medical  Forschung-->
-      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Medical" />
-      <UnlockedByGroups>
-        <GroupSubtype>Forschung</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCryoChamber  Meilenstein_Medical-->
           <Id Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockCryoChamber" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Medical</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeMedicalRoom  Meilenstein_Medical-->
           <Id Type="MyObjectBuilder_MedicalRoom" Subtype="LargeMedicalRoom" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Medical</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--MedicalStation  Meilenstein_Medical-->
           <Id Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Medical</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCockpitSeat  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Controls</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCockpitIndustrial  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitIndustrial" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Controls</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCockpit  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Controls</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--CockpitOpen  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="CockpitOpen" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Controls</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OpenCockpitLarge  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitLarge" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Controls</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--RoverCockpit  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="RoverCockpit" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Controls</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--BuggyCockpit  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="BuggyCockpit" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Controls</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassengerSeatLarge  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
           <UnlockedByGroups>
@@ -1487,6 +1755,56 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Controls-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Controls  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Controls" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCockpit  Meilenstein_Small_Controls-->
+          <Id Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpit" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--DBSmallBlockFighterCockpit  Meilenstein_Small_Controls-->
+          <Id Type="MyObjectBuilder_Cockpit" Subtype="DBSmallBlockFighterCockpit" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCockpitIndustrial  Meilenstein_Small_Controls-->
+          <Id Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockCockpitIndustrial" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OpenCockpitSmall  Meilenstein_Small_Controls-->
+          <Id Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--RoverCockpit  Meilenstein_Small_Controls-->
+          <Id Type="MyObjectBuilder_Cockpit" Subtype="RoverCockpit" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--BuggyCockpit  Meilenstein_Small_Controls-->
+          <Id Type="MyObjectBuilder_Cockpit" Subtype="BuggyCockpit" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassengerSeatSmall  Meilenstein_Small_Controls-->
+          <Id Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Medical-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Medical  Forschung-->
@@ -1507,6 +1825,21 @@
           <Id Type="MyObjectBuilder_LCDPanelsBlock" Subtype="MedicalStation" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Medical</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Small_Medical-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Medical  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Medical" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCryoChamber  Meilenstein_Small_Medical-->
+          <Id Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockCryoChamber" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Medical</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
@@ -1524,8 +1857,6 @@
             <GroupSubtype>Meilenstein_Remote</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeCameraBlock  Meilenstein_Remote-->
           <Id Type="MyObjectBuilder_CameraBlock" Subtype="LargeCameraBlock" />
           <UnlockedByGroups>
@@ -1533,6 +1864,26 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Remote-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Remote  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Remote" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockRemoteControl  Meilenstein_Small_Remote-->
+          <Id Type="MyObjectBuilder_RemoteControl" Subtype="SmallBlockRemoteControl" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Remote</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallCameraBlock  Meilenstein_Small_Remote-->
+          <Id Type="MyObjectBuilder_CameraBlock" Subtype="SmallCameraBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Remote</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Gyroskop-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Gyroskop  Forschung-->
@@ -1549,6 +1900,20 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Gyroskop-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Gyroskop  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Gyroskop" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockGyro  Meilenstein_Small_Gyroskop-->
+          <Id Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Gyroskop</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Gyroskop_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Gyroskop_Gold  Meilenstein_Gyroskop-->
@@ -1612,21 +1977,43 @@
             <GroupSubtype>Meilenstein_Tools</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeShipWelder  Meilenstein_Tools-->
           <Id Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tools</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockDrill  Meilenstein_Tools-->
           <Id Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tools</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Small_Tools-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Tools  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Tools" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipGrinder  Meilenstein_Small_Tools-->
+          <Id Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tools</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipWelder  Meilenstein_Small_Tools-->
+          <Id Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tools</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockDrill  Meilenstein_Small_Tools-->
+          <Id Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tools</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
@@ -1741,6 +2128,20 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_OreDetector-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_OreDetector  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_OreDetector" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockOreDetector  Meilenstein_Small_OreDetector-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_OreDetectorDa </GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_OreDetector_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Gold  Meilenstein_OreDetector-->
@@ -1804,37 +2205,30 @@
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeGatlingTurret  Meilenstein_Waffen-->
           <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeMissileTurret  Meilenstein_Waffen-->
           <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeInteriorTurret  Meilenstein_Waffen-->
           <Id Type="MyObjectBuilder_InteriorTurret" Subtype="LargeInteriorTurret" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeWarhead  Meilenstein_Waffen-->
           <Id Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeDecoy  Meilenstein_Waffen-->
           <Id Type="MyObjectBuilder_Decoy" Subtype="LargeDecoy" />
           <UnlockedByGroups>
@@ -1842,6 +2236,56 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Waffen-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Waffen  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Waffen" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallMissileLauncher  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallRocketLauncherReload  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="SmallRocketLauncherReload" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGatlingGun  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGatlingTurret  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="SmallGatlingTurret" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallMissileTurret  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="SmallMissileTurret" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWarhead  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_Warhead" Subtype="SmallWarhead" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallDecoy  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_Decoy" Subtype="SmallDecoy" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Conveyors-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Conveyors  Forschung-->
@@ -1857,100 +2301,72 @@
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockConveyorSorterIndustrial  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorterIndustrial" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Collector  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_Collector" Subtype="Collector" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockConveyor  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockConveyorPipeJunction  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyorPipeJunction" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockConveyorPipeIntersection  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyorPipeIntersection" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConveyorTube  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-    
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConveyorFrameMedium  Meilenstein_Conveyors-->
-          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConveyorTubeCurved  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockConveyorPipeSeamless  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockConveyorPipeSeamless" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockConveyorPipeFlange  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockConveyorPipeFlange" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockConveyorPipeEnd  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockConveyorPipeEnd" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockConveyorPipeCorner  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockConveyorPipeCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Connector  Meilenstein_Conveyors-->
           <Id Type="MyObjectBuilder_ShipConnector" Subtype="Connector" />
           <UnlockedByGroups>
@@ -1958,7 +2374,86 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-     
+  <!--Meilenstein_Small_Conveyors-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Conveyors  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Conveyors" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--MediumBlockConveyorSorter  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockConveyorSorter  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="SmallBlockConveyorSorter" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--CollectorSmall  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_Collector" Subtype="CollectorSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipConveyorHub  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockConveyor  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConveyorTubeMedium  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConveyorFrameMedium  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConveyorTubeCurvedMedium  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConveyorTubeSmall  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConveyorTubeSmallCurved  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurved" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConnectorSmall  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConnectorMedium  Meilenstein_Small_Conveyors-->
+          <Id Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorMedium" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>     
 
   <!--Meilenstein_Deko1-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Deko1  Forschung-->
@@ -2350,65 +2845,97 @@
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSensor  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_SensorBlock" Subtype="LargeBlockSensor" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--TimerBlockLarge  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockLarge" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ButtonPanelLarge  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelLarge" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
- 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeSciFiButtonPanel  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonPanel" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeSciFiButtonTerminal  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonTerminal" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--VerticalButtonPanelLarge  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelLarge" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ControlPanel  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
- 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSciFiTerminal  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockSciFiTerminal" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Small_Automation-->   
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Automation  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Automation" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallProgrammableBlock  Meilenstein_Small_Automation-->
+          <Id Type="MyObjectBuilder_MyProgrammableBlock" Subtype="SmallProgrammableBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Automation</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSensor  Meilenstein_Small_Automation-->
+          <Id Type="MyObjectBuilder_SensorBlock" Subtype="SmallBlockSensor" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Automation</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TimerBlockSmall  Meilenstein_Small_Automation-->
+          <Id Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Automation</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ButtonPanelSmall  Meilenstein_Small_Automation-->
+          <Id Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Automation</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ControlPanel  Meilenstein_Small_Automation-->
+          <Id Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Automation</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallControlPanel  Meilenstein_Small_Automation-->
+          <Id Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanel" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
@@ -2426,42 +2953,30 @@
             <GroupSubtype>Meilenstein_Power</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSolarPanel  Meilenstein_Power-->
           <Id Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Power</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-  
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockWindTurbine  Meilenstein_Power-->
           <Id Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Power</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallGenerator  Meilenstein_Power-->
           <Id Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Power</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeGenerator  Meilenstein_Power-->
           <Id Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Power</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-      
-
-    
-
+        </ResearchBlock>   
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenEngine  Meilenstein_Power-->
           <Id Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine" />
           <UnlockedByGroups>
@@ -2469,7 +2984,50 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-    
+  <!--Meilenstein_Small_Power-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Power  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Power" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock  Meilenstein_Small_Power-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Power</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallBatteryBlock  Meilenstein_Small_Power-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Power</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSolarPanel  Meilenstein_Small_Power-->
+          <Id Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Power</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallGenerator  Meilenstein_Small_Power-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Power</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeGenerator  Meilenstein_Small_Power-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Power</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenEngine  Meilenstein_Small_Power-->
+          <Id Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Power</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Power_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power_Gold  Meilenstein_Power-->
@@ -2571,116 +3129,96 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLight_1corner  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLight_2corner  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetLight  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockFrontLight  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--RotatingLightLarge  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetSpotlight  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PassageSciFiLight  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_InteriorLight" Subtype="PassageSciFiLight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeNeonTubesStraight1  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraight1" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeNeonTubesStraight2  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraight2" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeNeonTubesCorner  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeNeonTubesBendUp  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesBendUp" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeNeonTubesBendDown  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesBendDown" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeNeonTubesStraightEnd1  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraightEnd1" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeNeonTubesStraightEnd2  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraightEnd2" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeNeonTubesStraightDown  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesStraightDown" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeNeonTubesU  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_EmissiveBlock" Subtype="LargeNeonTubesU" />
           <UnlockedByGroups>
@@ -2688,9 +3226,53 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Lights-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Lights  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Lights" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Power</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallLight  Meilenstein_Small_Lights-->
+          <Id Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallLight  Meilenstein_Small_Lights-->
+          <Id Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLight_1corner  Meilenstein_Small_Lights-->
+          <Id Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLight_2corner  Meilenstein_Small_Lights-->
+          <Id Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockFrontLight  Meilenstein_Small_Lights-->
+          <Id Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--RotatingLightSmall  Meilenstein_Small_Lights-->
+          <Id Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Thruster_Atmo-->
-    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Atmo  Forschung-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Atmo  Meilenstein_Power-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Atmo" />
       <UnlockedByGroups>
         <GroupSubtype>Meilenstein_Power</GroupSubtype>
@@ -2703,22 +3285,18 @@
             <GroupSubtype>Meilenstein_Thruster_Atmo</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallAtmosphericThrust  Meilenstein_Thruster_Atmo-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Thruster_Atmo</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeAtmosphericThrustSciFi  Meilenstein_Thruster_Atmo-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustSciFi" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Thruster_Atmo</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallAtmosphericThrustSciFi  Meilenstein_Thruster_Atmo-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustSciFi" />
           <UnlockedByGroups>
@@ -2727,119 +3305,11 @@
         </ResearchBlock>
 
 
-
-
-  <!--Meilenstein_Thruster_Hydro-->
-    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro  Forschung-->
-      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro" />
-      <UnlockedByGroups>
-        <GroupSubtype>Meilenstein_Thruster_Atmo</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrust  Meilenstein_Thruster_Hydro-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrust  Meilenstein_Thruster_Hydro-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrustIndustrial  Meilenstein_Thruster_Hydro-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrustIndustrial  Meilenstein_Thruster_Hydro-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-
-  <!--Meilenstein_Thruster_Hydro_Gold-->
-    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Gold  Meilenstein_Thruster_Hydro-->
-      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Gold" />
-      <UnlockedByGroups>
-        <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrustIndustrial_Gold  Meilenstein_Thruster_Hydro_Gold-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial_Gold" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro_Gold</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrustIndustrial_Gold  Meilenstein_Thruster_Hydro_Gold-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial_Gold" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro_Gold</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-  <!--Meilenstein_Thruster_Hydro_Platin-->
-    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Platin  Meilenstein_Thruster_Hydro_Gold-->
-      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Platin" />
-      <UnlockedByGroups>
-        <GroupSubtype>Meilenstein_Thruster_Hydro_Gold</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrustIndustrial_Platin  Meilenstein_Thruster_Hydro_Platin-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial_Platin" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro_Platin</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrustIndustrial_Platin  Meilenstein_Thruster_Hydro_Platin-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial_Platin" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro_Platin</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-  <!--Meilenstein_Thruster_Hydro_Titan-->
-    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Titan  Meilenstein_Thruster_Hydro_Platin-->
-      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Titan" />
-      <UnlockedByGroups>
-        <GroupSubtype>Meilenstein_Thruster_Hydro_Platin</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrustIndustrial_Titan  Meilenstein_Thruster_Hydro_Titan-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial_Titan" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro_Titan</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrustIndustrial_Titan  Meilenstein_Thruster_Hydro_Titan-->
-          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial_Titan" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Thruster_Hydro_Titan</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
   <!--Meilenstein_Thruster_Ionen-->
-    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen  Forschung-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen  Meilenstein_Thruster_Atmo-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Ionen" />
       <UnlockedByGroups>
-        <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
+        <GroupSubtype>Meilenstein_Thruster_Atmo</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
@@ -2986,6 +3456,202 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Thruster_Hydro-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro  Meilenstein_Thruster_Ionen_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrust  Meilenstein_Thruster_Hydro-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrust  Meilenstein_Thruster_Hydro-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrustIndustrial  Meilenstein_Thruster_Hydro-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrustIndustrial  Meilenstein_Thruster_Hydro-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+
+  <!--Meilenstein_Thruster_Hydro_Gold-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Gold  Meilenstein_Thruster_Hydro-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Gold" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrustIndustrial_Gold  Meilenstein_Thruster_Hydro_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrustIndustrial_Gold  Meilenstein_Thruster_Hydro_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Thruster_Hydro_Platin-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Platin  Meilenstein_Thruster_Hydro_Gold-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Platin" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Hydro_Gold</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrustIndustrial_Platin  Meilenstein_Thruster_Hydro_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrustIndustrial_Platin  Meilenstein_Thruster_Hydro_Platin-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Thruster_Hydro_Titan-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro_Titan  Meilenstein_Thruster_Hydro_Platin-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro_Titan" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Thruster_Hydro_Platin</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeHydrogenThrustIndustrial_Titan  Meilenstein_Thruster_Hydro_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallHydrogenThrustIndustrial_Titan  Meilenstein_Thruster_Hydro_Titan-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Hydro_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Small_Thruster_Atmo-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Thruster_Atmo  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Thruster_Atmo" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Power</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeAtmosphericThrust  Meilenstein_Small_Thruster_Atmo-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Atmo</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallAtmosphericThrust  Meilenstein_Small_Thruster_Atmo-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Atmo</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeAtmosphericThrustSciFi  Meilenstein_Small_Thruster_Atmo-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustSciFi" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Atmo</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallAtmosphericThrustSciFi  Meilenstein_Small_Thruster_Atmo-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustSciFi" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Atmo</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Small_Thruster_Ionen-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Thruster_Ionen  Meilenstein_Small_Thruster_Hydro-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Thruster_Ionen" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Small_Thruster_Atmo</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeThrust  Meilenstein_Small_Thruster_Ionen-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Ionen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallThrust  Meilenstein_Small_Thruster_Ionen-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Ionen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeThrustSciFi  Meilenstein_Small_Thruster_Ionen-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Ionen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallThrustSciFi  Meilenstein_Small_Thruster_Ionen-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Ionen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Small_Thruster_Hydro-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Thruster_Hydro  Meilenstein_Small_Thruster_Ionen-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Thruster_Hydro" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Small_Thruster_Ionen</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeHydrogenThrust  Meilenstein_Small_Thruster_Hydro-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Hydro</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallHydrogenThrust  Meilenstein_Small_Thruster_Hydro-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrust" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Hydro</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeHydrogenThrustIndustrial  Meilenstein_Small_Thruster_Hydro-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrial" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Hydro</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallHydrogenThrustIndustrial  Meilenstein_Small_Thruster_Hydro-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrial" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Thruster_Hydro</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_LCDs-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_LCDs  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_LCDs" />
@@ -3000,77 +3666,66 @@
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeLCDPanelWide  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanelWide" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeLCDPanel  Meilenstein_LCDs-->    
           <Id Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--TransparentLCDLarge  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDLarge" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--TransparentLCDSmall  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDSmall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeLCDPanel5x5  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel5x5" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeLCDPanel5x3  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel5x3" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeLCDPanel3x3  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel3x3" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCorner_LCD_1  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_1" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCorner_LCD_2  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_2" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCorner_LCD_Flat_1  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_Flat_1" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_LCDs</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockCorner_LCD_Flat_2  Meilenstein_LCDs-->
           <Id Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_Flat_2" />
           <UnlockedByGroups>
@@ -3078,6 +3733,62 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_LCDs-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_LCDs  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_LCDs" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallTextPanel  Meilenstein_Small_LCDs-->   
+          <Id Type="MyObjectBuilder_TextPanel" Subtype="SmallTextPanel" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_LCDs</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallLCDPanelWide  Meilenstein_Small_LCDs-->
+          <Id Type="MyObjectBuilder_TextPanel" Subtype="SmallLCDPanelWide" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_LCDs</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallLCDPanel  Meilenstein_Small_LCDs-->    
+          <Id Type="MyObjectBuilder_TextPanel" Subtype="SmallLCDPanel" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_LCDs</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--TransparentLCDSmall  Meilenstein_Small_LCDs-->
+          <Id Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_LCDs</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCorner_LCD_1  Meilenstein_Small_LCDs-->
+          <Id Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_1" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_LCDs</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCorner_LCD_2  Meilenstein_Small_LCDs-->
+          <Id Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_2" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_LCDs</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCorner_LCD_Flat_1  Meilenstein_Small_LCDs-->
+          <Id Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_Flat_1" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_LCDs</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockCorner_LCD_Flat_2  Meilenstein_Small_LCDs-->
+          <Id Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_Flat_2" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_LCDs</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Sound_Blocks-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Sound_Blocks  Forschung-->
@@ -3148,60 +3859,49 @@
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Mechanic</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>              
-               
+        </ResearchBlock>                        
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeRotor  Meilenstein_Mechanic-->
           <Id Type="MyObjectBuilder_MotorRotor" Subtype="LargeRotor" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Mechanic</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>  
-
+        </ResearchBlock> 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeAdvancedStator  Meilenstein_Mechanic-->
           <Id Type="MyObjectBuilder_MotorAdvancedStator" Subtype="LargeAdvancedStator" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Mechanic</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>              
-               
+        </ResearchBlock>                     
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeAdvancedRotor  Meilenstein_Mechanic-->
           <Id Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="LargeAdvancedRotor" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Mechanic</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>  
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHinge  Meilenstein_Mechanic-->
           <Id Type="MyObjectBuilder_MotorAdvancedStator" Subtype="LargeHinge" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Mechanic</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>  
-
-       
+        </ResearchBlock>   
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHingeHead  Meilenstein_Mechanic-->
           <Id Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="LargeHingeHead" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Mechanic</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargePistonBase  Meilenstein_Mechanic-->
           <Id Type="MyObjectBuilder_ExtendedPistonBase" Subtype="LargePistonBase" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Mechanic</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargePistonTop  Meilenstein_Mechanic-->
           <Id Type="MyObjectBuilder_PistonTop" Subtype="LargePistonTop" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Mechanic</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-       
+        </ResearchBlock> 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeShipMergeBlock  Meilenstein_Mechanic-->
           <Id Type="MyObjectBuilder_MergeBlock" Subtype="LargeShipMergeBlock" />
           <UnlockedByGroups>
@@ -3209,7 +3909,86 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-      
+  <!--Meilenstein_Small_Mechanic-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Mechanic  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Mechanic" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallStator  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MotorStator" Subtype="SmallStator" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>  
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallRotor  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MotorRotor" Subtype="SmallRotor" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>  
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallAdvancedStator  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallAdvancedStator" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>  
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallAdvancedRotor  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallAdvancedRotor" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock> 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--MediumHinge  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MotorAdvancedStator" Subtype="MediumHinge" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock> 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHinge  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallHinge" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--MediumHingeHead  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="MediumHingeHead" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHingeHead  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallHingeHead" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallPistonBase  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_ExtendedPistonBase" Subtype="SmallPistonBase" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallPistonTop  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_PistonTop" Subtype="SmallPistonTop" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipMergeBlock  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipMergeBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallShipSmallMergeBlock  Meilenstein_Small_Mechanic-->
+          <Id Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipSmallMergeBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Mechanic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Tore-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tore  Forschung-->
@@ -3224,62 +4003,49 @@
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tore</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-      
-
+        </ResearchBlock>   
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockOffsetDoor  Meilenstein_Tore-->
           <Id Type="MyObjectBuilder_Door" Subtype="LargeBlockOffsetDoor" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tore</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSlideDoor  Meilenstein_Tore-->
           <Id Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tore</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ArmorCenter  Meilenstein_Tore-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="ArmorCenter" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tore</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ArmorCorner  Meilenstein_Tore-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="ArmorCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tore</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ArmorInvCorner  Meilenstein_Tore-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="ArmorInvCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tore</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ArmorSide  Meilenstein_Tore-->
           <Id Type="MyObjectBuilder_CubeBlock" Subtype="ArmorSide" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tore</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-
-
-        
+        </ResearchBlock>       
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--AirtightHangarDoor  Meilenstein_Tore-->
           <Id Type="MyObjectBuilder_AirtightHangarDoor" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tore</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockGate  Meilenstein_Tore-->
           <Id Type="MyObjectBuilder_Door" Subtype="LargeBlockGate" />
           <UnlockedByGroups>
@@ -3287,7 +4053,50 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Tore-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Tore  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Tore" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallDoor  Meilenstein_Small_Tore-->
+          <Id Type="MyObjectBuilder_Door" Subtype="SmallDoor" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tore</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallSideDoor  Meilenstein_Small_Tore-->
+          <Id Type="MyObjectBuilder_Door" Subtype="SmallSideDoor" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tore</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorCenter  Meilenstein_Small_Tore-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorCenter" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tore</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorCorner  Meilenstein_Small_Tore-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tore</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorInvCorner  Meilenstein_Small_Tore-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorInvCorner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tore</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorSide  Meilenstein_Small_Tore-->
+          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSide" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tore</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
 
   <!--Meilenstein_Räder-->
@@ -3304,134 +4113,102 @@
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Suspension5x5  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Suspension1x1  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension1x1" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Suspension3x3mirrored  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3mirrored" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Suspension5x5mirrored  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5mirrored" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Suspension1x1mirrored  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension1x1mirrored" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-       
-
+        </ResearchBlock>      
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Wheel1x1  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_Wheel" Subtype="Wheel1x1" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Wheel3x3  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_Wheel" Subtype="Wheel3x3" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Wheel5x5  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_Wheel" Subtype="Wheel5x5" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-      
-
+        </ResearchBlock>     
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadWheel1x1  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadWheel1x1" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-      
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadWheel3x3  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadWheel3x3" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-       
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadWheel5x5  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadWheel5x5" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-     
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension1x1  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension1x1" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension3x3  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension3x3" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension5x5  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension5x5" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension3x3mirrored  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension3x3mirrored" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension5x5mirrored  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension5x5mirrored" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Räder</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSuspension1x1mirrored  Meilenstein_Räder-->
           <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSuspension1x1mirrored" />
           <UnlockedByGroups>
@@ -3439,6 +4216,122 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Räder-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Räder  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Räder" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallSuspension3x3  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension3x3" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallSuspension5x5  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallSuspension1x1  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension1x1" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallSuspension3x3mirrored  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension3x3mirrored" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallSuspension5x5mirrored  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5mirrored" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallSuspension1x1mirrored  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension1x1mirrored" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWheel1x1  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_Wheel" Subtype="SmallWheel1x1" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWheel3x3  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_Wheel" Subtype="SmallWheel3x3" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallWheel5x5  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_Wheel" Subtype="SmallWheel5x5" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallWheel1x1  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadSmallWheel1x1" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallWheel3x3  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadSmallWheel3x3" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallWheel5x5  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_Wheel" Subtype="OffroadSmallWheel5x5" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallSuspension3x3  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension3x3" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallSuspension5x5  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension5x5" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallSuspension1x1  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension1x1" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallSuspension3x3mirrored  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension3x3mirrored" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallSuspension5x5mirrored  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension5x5mirrored" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffroadSmallSuspension1x1mirrored  Meilenstein_Small_Räder-->
+          <Id Type="MyObjectBuilder_MotorSuspension" Subtype="OffroadSmallSuspension1x1mirrored" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Räder</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Cargos-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Cargos  Forschung-->
@@ -3454,44 +4347,36 @@
             <GroupSubtype>Meilenstein_Cargos</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeContainer  Meilenstein_Cargos-->
           <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Cargos</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-      
-
+        </ResearchBlock>    
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeIndustrialContainer  Meilenstein_Cargos-->
           <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Cargos</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLockerRoom  Meilenstein_Cargos-->
           <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoom" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Cargos</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLockerRoomCorner  Meilenstein_Cargos-->
           <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoomCorner" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Cargos</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLockers  Meilenstein_Cargos-->
           <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockers" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Cargos</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockWeaponRack  Meilenstein_Cargos-->
           <Id Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockWeaponRack" />
           <UnlockedByGroups>
@@ -3499,9 +4384,38 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-     
+  <!--Meilenstein_Small_Cargos-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Cargos  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Cargos" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
 
-
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallContainer  Meilenstein_Small_Cargos-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Cargos</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockMediumContainer  Meilenstein_Small_Cargos-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Cargos</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeContainer  Meilenstein_Small_Cargos-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Cargos</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockWeaponRack  Meilenstein_Small_Cargos-->
+          <Id Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockWeaponRack" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Cargos</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>     
 
 
   <!--Meilenstein_Cargos_Gold-->
@@ -3678,28 +4592,49 @@
             <GroupSubtype>Meilenstein_Communication</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockRadioAntennaDish  Meilenstein_Communication-->
           <Id Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntennaDish" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Communication</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-                                             
-
+        </ResearchBlock>                                         
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockBeacon  Meilenstein_Communication-->
           <Id Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Communication</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLaserAntenna  Meilenstein_Communication-->
           <Id Type="MyObjectBuilder_LaserAntenna" Subtype="LargeBlockLaserAntenna" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Communication</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Small_Communication-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Communication  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Communication" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockRadioAntenna  Meilenstein_Small_Communication-->
+          <Id Type="MyObjectBuilder_RadioAntenna" Subtype="SmallBlockRadioAntenna" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Communication</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBeacon  Meilenstein_Small_Communication-->
+          <Id Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Communication</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLaserAntenna  Meilenstein_Small_Communication-->
+          <Id Type="MyObjectBuilder_LaserAntenna" Subtype="SmallBlockLaserAntenna" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Communication</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
@@ -3717,26 +4652,18 @@
             <GroupSubtype>Meilenstein_Landing</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLandingGear  Meilenstein_Landing-->
           <Id Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Landing</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-    
-
+        </ResearchBlock>   
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockMagneticPlate  Meilenstein_Landing-->
           <Id Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockMagneticPlate" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Landing</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-    
-
+        </ResearchBlock> 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallMagneticPlate  Meilenstein_Landing-->
           <Id Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockSmallMagneticPlate" />
           <UnlockedByGroups>
@@ -3744,7 +4671,38 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+  <!--Meilenstein_Small_Landing-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Landing  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Landing" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmParachute  Meilenstein_Small_Landing-->
+          <Id Type="MyObjectBuilder_Parachute" Subtype="SmParachute" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Landing</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLandingGear  Meilenstein_Small_Landing-->
+          <Id Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockLandingGear" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Landing</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockMagneticPlate  Meilenstein_Small_Landing-->
+          <Id Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockMagneticPlate" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Landing</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallMagneticPlate  Meilenstein_Small_Landing-->
+          <Id Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockSmallMagneticPlate" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Landing</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Tanks-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks  Forschung-->
@@ -3759,52 +4717,80 @@
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>              
-               
- 
+        </ResearchBlock>                           
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OxygenTank  Meilenstein_Tanks-->
           <Id Type="MyObjectBuilder_OxygenTank" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
-        </ResearchBlock>
-
-    
-
+        </ResearchBlock> 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTank  Meilenstein_Tanks-->
           <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankSmall  Meilenstein_Tanks-->
           <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
- 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankIndustrial  Meilenstein_Tanks-->
           <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--AirVent  Meilenstein_Tanks-->
           <Id Type="MyObjectBuilder_AirVent" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockOxygenFarm  Meilenstein_Tanks-->
           <Id Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarm" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+  <!--Meilenstein_Small_Tanks-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Tanks  Forschung-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Tanks" />
+      <UnlockedByGroups>
+        <GroupSubtype>Forschung</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+               
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OxygenGeneratorSmall  Meilenstein_Small_Tanks-->
+          <Id Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>    
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OxygenTankSmall  Meilenstein_Small_Tanks-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankSmall  Meilenstein_Small_Tanks-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTankSmall  Meilenstein_Small_Tanks-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallAirVent  Meilenstein_Small_Tanks-->
+          <Id Type="MyObjectBuilder_AirVent" Subtype="SmallAirVent" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 

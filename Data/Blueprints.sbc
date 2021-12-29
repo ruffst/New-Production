@@ -1314,11 +1314,12 @@
       <DisplayName>Kupfer Triebwerk</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_thruster.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
-        <Item Amount="20" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
         <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="10" TypeId="Component" SubtypeId="KupferSpulle" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="Thrust" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -1331,12 +1332,13 @@
       <DisplayName>Gold Triebwerk</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_thruster.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
-        <Item Amount="20" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
         <Item Amount="15" TypeId="Component" SubtypeId="Thrust" />
         <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="10" TypeId="Component" SubtypeId="GoldSpulle" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GoldThrust" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -1349,12 +1351,13 @@
       <DisplayName>Platin Triebwerk</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_thruster.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
-        <Item Amount="20" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
         <Item Amount="15" TypeId="Component" SubtypeId="GoldThrust" />
         <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="10" TypeId="Component" SubtypeId="PlatinSpulle" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PlatinThrust" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
@@ -1367,12 +1370,13 @@
       <DisplayName>Titan Triebwerk</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_thruster.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="LargeTube" />
-        <Item Amount="20" TypeId="Component" SubtypeId="SmallTube" />
+        <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
+        <Item Amount="15" TypeId="Component" SubtypeId="SmallTube" />
         <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="5" TypeId="Component" SubtypeId="SMD" />
         <Item Amount="15" TypeId="Component" SubtypeId="PlatinThrust" />
         <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
+        <Item Amount="10" TypeId="Component" SubtypeId="TitanSpulle" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="TitanThrust" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
