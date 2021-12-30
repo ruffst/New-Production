@@ -1024,7 +1024,7 @@
         <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SmallTube" />
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
     <Blueprint>      <!--LargeTube-->
