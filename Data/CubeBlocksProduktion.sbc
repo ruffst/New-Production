@@ -3336,7 +3336,7 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>SmallBlockConveyorBasic</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_ConveyorSmall</DisplayName>
+      <DisplayName>Small Bloc kConveyor Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <CubeSize>Small</CubeSize>
@@ -3403,7 +3403,7 @@
         <TypeId>ConveyorConnector</TypeId>
         <SubtypeId>ConveyorTubeSmallBasic</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
+      <DisplayName>Conveyor Tube Small Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <CubeSize>Small</CubeSize>
@@ -3462,7 +3462,7 @@
         <TypeId>ConveyorConnector</TypeId>
         <SubtypeId>ConveyorTubeSmallCurvedBasic</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_ConveyorTubeCurvedSmall</DisplayName>
+      <DisplayName>Conveyor Tube Small Curved Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorCurveSmall.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <GuiVisible>false</GuiVisible>
@@ -3518,7 +3518,7 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>LargeBlockConveyorBasic</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+      <DisplayName>Large Block Conveyor Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <GuiVisible>false</GuiVisible>
@@ -3590,7 +3590,7 @@
         <TypeId>ConveyorConnector</TypeId>
         <SubtypeId>ConveyorTubeBasic</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_ConveyorTube</DisplayName>
+      <DisplayName>Conveyor Tube Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <GuiVisible>true</GuiVisible>
@@ -3664,7 +3664,7 @@
         <TypeId>ConveyorConnector</TypeId>
         <SubtypeId>ConveyorTubeCurvedBasic</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_ConveyorTubeCurved</DisplayName>
+      <DisplayName>Conveyor Tube Curved Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeCurved.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <GuiVisible>false</GuiVisible>
