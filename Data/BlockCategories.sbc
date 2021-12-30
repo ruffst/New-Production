@@ -1203,15 +1203,21 @@
         <string>CargoContainer/SmallBlockSmallContainer</string>
         <string>CargoContainer/LargeBlockLargeContainer</string>
         <string>CargoContainer/LargeBlockSmallContainer</string>
-        <!--<string>CargoContainer/Basic_Cargo</string>-->
+        <string>CargoContainer/Basic_Cargo</string>
         <string>SmallBlockConveyor</string>
+        <string>SmallBlockConveyorBasic</string>
         <string>LargeBlockConveyor</string>
+        <string>LargeBlockConveyorBasic</string>
         <string>ConveyorTube</string>
+        <string>ConveyorTubeBasic</string>
         <string>ConveyorTubeSmall</string>
+        <string>ConveyorTubeSmallBasic</string>
         <string>ConveyorTubeMedium</string>
         <string>ConveyorFrameMedium</string>
         <string>ConveyorTubeCurved</string>
+        <string>ConveyorTubeCurvedBasic</string>
         <string>ConveyorTubeSmallCurved</string>
+        <string>ConveyorTubeSmallCurvedBasic</string>
         <string>ConveyorTubeCurvedMedium</string>
         <string>Conveyor/LargeBlockConveyorPipeJunction</string>
         <string>Conveyor/LargeBlockConveyorPipeIntersection</string>
@@ -1219,7 +1225,7 @@
         <string>ConveyorConnector/LargeBlockConveyorPipeCorner</string>
         <string>ConveyorConnector/LargeBlockConveyorPipeFlange</string>
         <string>ConveyorConnector/LargeBlockConveyorPipeEnd</string>
-        <!--<string>ConveyorSorter/Basic_Sorter</string>--> 
+        <string>ConveyorSorter/Basic_Sorter</string>
         <string>ConveyorSorter/LargeBlockConveyorSorter</string>
         <string>ConveyorSorter/MediumBlockConveyorSorter</string>
         <string>ConveyorSorter/SmallBlockConveyorSorter</string>

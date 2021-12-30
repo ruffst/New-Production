@@ -787,7 +787,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\RohrExtruder.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -836,7 +836,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\RohrExtruder.mwm" />
       </BuildProgressModels>
       <BlockPairName>Rohrextruder</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1076,7 +1076,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\DrahtExtruder.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -1137,7 +1137,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\DrahtExtruder.mwm" />
       </BuildProgressModels>
       <BlockPairName>Drahtextruder</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1181,7 +1181,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\WickelMaschiene.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
           <DeconstructId>
@@ -1248,7 +1248,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\WickelMaschiene.mwm" />
       </BuildProgressModels>
       <BlockPairName>Wickelmaschine</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1408,7 +1408,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\Recycler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -1469,7 +1469,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Recycler.mwm" />
       </BuildProgressModels>
       <BlockPairName>Recycler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1515,7 +1515,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\ElektoAssembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -1576,7 +1576,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\ElektoAssembler.mwm" />
       </BuildProgressModels>
       <BlockPairName>Elektro Assembler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1724,7 +1724,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\Fertiger.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
           <DeconstructId>
@@ -1785,7 +1785,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Fertiger.mwm" />
       </BuildProgressModels>
       <BlockPairName>Fertiger</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1902,9 +1902,9 @@
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
       </InventorySize>
       <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
@@ -1945,7 +1945,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\ToolAssembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
           <DeconstructId>
@@ -2012,7 +2012,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\ToolAssembler.mwm" />
       </BuildProgressModels>
       <BlockPairName>VerbrauchsmaterialAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2933,7 +2933,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>190</PCU>
     </Definition>
-  <!-- module -->
+  <!--module -->
     <!---LargeProductivityModule-->
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
@@ -3218,7 +3218,7 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-  <!-- Castrated Assembler-->
+  <!--Castrated Assembler-->
     <!---LargeAssembler-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -3329,5 +3329,411 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
+  <!--Basic Conveyors-->
+    <!--SmallBlockConveyorBasic-->
+     <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>SmallBlockConveyorBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorSmall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\conveyor.mwm</Model>
+      <Components>
+        <Component Subtype="Bleiplatte" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="KupferSpulle" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <Mountpoints>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Top" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Back" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Bottom" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+        <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+      </Mountpoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>SmallBlockConveyorBasic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <!--ConveyorTubeSmallBasic-->
+     <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>ConveyorTubeSmallBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\ConveyorTube.mwm</Model>
+      <Components>
+        <Component Subtype="Bleiplatte" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="KupferSpulle" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.2" EndY="0.9" Default="true" />
+        <MountPoint Side="Back" StartX="0.8" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.2" StartY="0.1" EndX="0.8" EndY="0.2" />
+        <MountPoint Side="Back" StartX="0.2" StartY="0.8" EndX="0.8" EndY="0.9" />
+        <MountPoint Side="Front" StartX="0.1" StartY="0.1" EndX="0.2" EndY="0.9" />
+        <MountPoint Side="Front" StartX="0.8" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.1" EndX="0.8" EndY="0.2" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.8" EndX="0.8" EndY="0.9" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorTubeSmallBasic</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <!--ConveyorTubeSmallCurvedBasic-->
+     <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>ConveyorTubeSmallCurvedBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorTubeCurvedSmall</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorCurveSmall.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\ConveyorTubeCurved.mwm</Model>
+      <Components>
+        <Component Subtype="Bleiplatte" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="KupferSpulle" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeCurvedConstruction_1.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>ConveyorTubeSmallCurvedBasic</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <!--LargeBlockConveyorBasic-->
+     <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>LargeBlockConveyorBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\conveyor.mwm</Model>
+      <Components>
+        <Component Subtype="Bleiplatte" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="KupferSpulle" Count="16">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeBlockConveyorBasic</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+    </Definition>
+    <!--ConveyorTubeBasic-->
+     <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>ConveyorTubeBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorTube</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\ConveyorTube.mwm</Model>
+      <Components>
+        <Component Subtype="Bleiplatte" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="KupferSpulle" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorTubeBasic</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <AutorotateMode>OppositeDirections</AutorotateMode>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <!--ConveyorTubeCurvedBasic-->
+     <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>ConveyorTubeCurvedBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ConveyorTubeCurved</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeCurved.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\ConveyorTubeCurved.mwm</Model>
+      <Components>
+        <Component Subtype="Bleiplatte" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="KupferSpulle" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeCurvedConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeCurvedConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ConveyorTubeCurvedBasic</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Right" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <AutorotateMode>FirstDirection</AutorotateMode>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
   </CubeBlocks>
 </Definitions>
