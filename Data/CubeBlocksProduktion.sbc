@@ -787,7 +787,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\RohrExtruder.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -836,7 +836,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\RohrExtruder.mwm" />
       </BuildProgressModels>
       <BlockPairName>Rohrextruder</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1076,7 +1076,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\DrahtExtruder.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -1137,7 +1137,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\DrahtExtruder.mwm" />
       </BuildProgressModels>
       <BlockPairName>Drahtextruder</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1181,7 +1181,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\WickelMaschiene.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
           <DeconstructId>
@@ -1248,7 +1248,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\WickelMaschiene.mwm" />
       </BuildProgressModels>
       <BlockPairName>Wickelmaschine</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1408,7 +1408,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\Recycler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -1469,7 +1469,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Recycler.mwm" />
       </BuildProgressModels>
       <BlockPairName>Recycler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1515,7 +1515,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\ElektoAssembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -1576,7 +1576,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\ElektoAssembler.mwm" />
       </BuildProgressModels>
       <BlockPairName>Elektro Assembler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1724,7 +1724,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\Fertiger.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
           <DeconstructId>
@@ -1785,7 +1785,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Fertiger.mwm" />
       </BuildProgressModels>
       <BlockPairName>Fertiger</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1945,7 +1945,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="2" y="2" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\ToolAssembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
           <DeconstructId>
@@ -2012,7 +2012,7 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\ToolAssembler.mwm" />
       </BuildProgressModels>
       <BlockPairName>VerbrauchsmaterialAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
