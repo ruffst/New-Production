@@ -1,0 +1,92 @@
+Running from: D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large 
+Command: D:\SeModding\SE_Assets\Tools\MWMBuilder\MwmBuilder.exe /f /s:D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large /m:BasicRefinery01*.fbx /o:D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large /x:D:\SeModding\SE_Assets\Materials 
+D:\SeModding\SE_Assets\Materials\Armors.xml: 
+    Materialslib
+D:\SeModding\SE_Assets\Materials\Character.xml: 
+    Materialslib
+D:\SeModding\SE_Assets\Materials\enenra.xml: 
+    Materialslib
+D:\SeModding\SE_Assets\Materials\Foliage.xml: 
+    Materialslib
+D:\SeModding\SE_Assets\Materials\Items.xml: 
+    Materialslib
+D:\SeModding\SE_Assets\Materials\LODs.xml: 
+    Materialslib
+D:\SeModding\SE_Assets\Materials\Materials.xml: 
+    Materialslib
+Material Libraries: 
+    Material libraries were successfully loaded from path: D:\SeModding\SE_Assets\Materials
+: 
+    **FileName: D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx
+: 
+    **Filename (without extension): BasicRefinery01
+: 
+    **Directory Name: D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large
+: 
+    **Number of characters to cull: 43
+: 
+    **Culled Path: Models\Cubes\large
+Meshes: 
+    Found 51 meshe(s).
+Animations: 
+    Found 0 animation(s).
+: WARNING: 
+    Assimp.Meshhas UV with 3 identical vectors in a row, this likely means you have a face with an UV is 0-size which will cause SE to make the entire model shaderless.
+: WARNING: 
+    Assimp.Meshhas UV with 3 identical vectors in a row, this likely means you have a face with an UV is 0-size which will cause SE to make the entire model shaderless.
+: WARNING: 
+    Assimp.Meshhas UV with 3 identical vectors in a row, this likely means you have a face with an UV is 0-size which will cause SE to make the entire model shaderless.
+: WARNING: 
+    Assimp.Meshhas UV with 3 identical vectors in a row, this likely means you have a face with an UV is 0-size which will cause SE to make the entire model shaderless.
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Material: Metal_Shiny is already defined in the processor. Not adding it again..
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Material: MetalMilitary_Scratched is already defined in the processor. Not adding it again..
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Material: EmissiveRecolorable is already defined in the processor. Not adding it again..
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Material: Metal_Dull is already defined in the processor. Not adding it again..
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Material: Chrome is already defined in the processor. Not adding it again..
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 14532 14533 14525)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 14525 14533 14534)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 14365 14537 14536)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 14540 14536 14537)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 20936 21095 21094)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21101 21094 21095)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21115 21117 21109)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21109 21117 21156)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21460 21459 21303)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21459 21460 21467)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21472 21482 21481)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21522 21482 21472)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21829 21828 21669)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21828 21829 21836)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21841 21850 21849)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 21890 21850 21841)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 22033 22195 22194)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 22201 22194 22195)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 22214 22216 22209)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: WARNING: 
+    Model contains degenerated triangle (indices 22209 22216 22255)
+D:\SeModding\BlenderSeMods\BasicRefinery01\Models\Cubes\large\BasicRefinery01.fbx: 
+    : Finished in 0.7s
