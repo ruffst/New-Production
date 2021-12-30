@@ -290,6 +290,108 @@
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
++   <!---MiniHolzvergaser--><!---Mini Biomasse Verbrenner-->
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+      <Id>
+        <TypeId>Reactor</TypeId>
+        <SubtypeId>MiniHolzvergaser</SubtypeId>
+      </Id>
+      <DisplayName>Mini Biomasse Verbrenner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\CoalGenerator2.dds</Icon>
+      <Description>Verbrenne Holz um Energie zu erzeugen</Description>
+      <CubeSize>Large</CubeSize>
+      <ResearchGroup>Tier00Basics</ResearchGroup>
+      <ResearchCost></ResearchCost>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\BiomassB1x1x2.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="40">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LeadScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\BiomassB1x1x2.mwm" />
+      </BuildProgressModels>
+      <AvailableEffects>
+        <string>SmokeWhite</string>
+      </AvailableEffects>
+      <BlockPairName>MiniHolzvergaser</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <MaxPowerOutput>3</MaxPowerOutput>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>0.005</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.01</InventoryFillFactorMax>
+      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
+      <FuelInfos>
+        <FuelInfo>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>WoodLogs</SubtypeId>
+          </Id>
+          <Ratio>100.000</Ratio>
+        </FuelInfo>
+      </FuelInfos>
+      <PrimarySound>VergaserBetrieb</PrimarySound>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <DamagedSound>ParticleReactor</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <TieredUpdateTimes>
+        <unsignedInt>900</unsignedInt>
+        <unsignedInt>1800</unsignedInt>
+        <unsignedInt>3600</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
     <!---SpawnOreDetector-->
     <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
@@ -1824,7 +1926,7 @@
       </Id>
       <DisplayName>Legierer</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Legierer.dds</Icon>
-      <Description>Der legierer ist zum Verschmelzen verschiedener Materialien. Nickelaluminium, Nickeltitan und Litium&Neodynium</Description>
+      <Description>Der legierer ist zum Verschmelzen verschiedener Materialien. Nickelaluminium, Nickeltitan und Litium + Neodynium</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
