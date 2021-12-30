@@ -87,6 +87,15 @@
       <Ore Value="179" Type="Copper_CMM" Start="69" Depth="17"/>
       <Ore Value="180" Type="Copper_CMM" Start="60" Depth="18"/>
       <Ore Value="181" Type="Copper_CMM" Start="58" Depth="12"/>
+
+      <!-- Alu -->
+      <Ore Value="30" Type="Aluminum_CMM" Start="25" Depth="2"/>
+      <Ore Value="23" Type="Aluminum_CMM" Start="15" Depth="3"/>
+      <Ore Value="41" Type="Aluminum_CMM" Start="24" Depth="5"/>
+      <Ore Value="120" Type="Aluminum_CMM" Start="27" Depth="7"/>
+      <Ore Value="186" Type="Aluminum_CMM" Start="18" Depth="8"/>
+      <Ore Value="215" Type="Aluminum_CMM" Start="24" Depth="9"/>
+
       <!-- Fe 2-->
       <Ore Value="12" Type="Iron_02" Start="25" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="16" Type="Iron_02" Start="28" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
