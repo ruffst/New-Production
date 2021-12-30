@@ -332,7 +332,7 @@
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeGatlingTurret</TypeId>
-        <SubtypeId />
+        <SubtypeId>LargeGatlingTurret</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_GatlingTurret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
@@ -422,8 +422,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>
-      </BlockPairName>
+      <BlockPairName>LargeGatlingTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -589,7 +588,7 @@
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
-        <SubtypeId />
+        <SubtypeId>LargeMissileTurret</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_MissileTurret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
@@ -680,8 +679,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>
-      </BlockPairName>
+      <BlockPairName>LargeMissileTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -970,7 +968,7 @@
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
-        <SubtypeId />
+        <SubtypeId>SmallMissileLauncher</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_RocketLauncher</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_launcher_small.dds</Icon>
@@ -1044,8 +1042,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RocketLauncherConstruction_2.mwm" />
       </BuildProgressModels>
       <MirroringZ>X</MirroringZ>
-      <BlockPairName>
-      </BlockPairName>
+      <BlockPairName>SmallMissileLauncher</BlockPairName>
       <Center x="0" y="0" z="3" />
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
@@ -1254,7 +1251,7 @@
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallGatlingGun</TypeId>
-        <SubtypeId />
+        <SubtypeId>SmallGatlingGun</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_GatlingGun</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gatling_gun.dds</Icon>
@@ -1326,8 +1323,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GatlingGunConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GatlingGunConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>
-      </BlockPairName>
+      <BlockPairName>SmallGatlingGun</BlockPairName>
       <Center x="0" y="0" z="3" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>

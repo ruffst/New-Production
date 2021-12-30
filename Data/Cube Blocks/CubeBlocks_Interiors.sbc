@@ -4,7 +4,7 @@
     <Definition>
       <Id>
         <TypeId>Passage</TypeId>
-        <SubtypeId />
+        <SubtypeId>Passage</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Passage</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\passage.dds</Icon>
@@ -56,8 +56,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PassageConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PassageConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>
-      </BlockPairName>
+      <BlockPairName>Passage</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -892,7 +891,7 @@
     <Definition>
       <Id>
         <TypeId>Ladder2</TypeId>
-        <SubtypeId />
+        <SubtypeId>Ladder2</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Ladder</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Ladder.dds</Icon>

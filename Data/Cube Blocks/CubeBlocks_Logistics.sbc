@@ -114,7 +114,7 @@
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
-        <SubtypeId />
+        <SubtypeId>OxygenTank</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_OxygenTank</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
@@ -190,8 +190,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>
-      </BlockPairName>
+      <BlockPairName>OxygenTank</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -682,7 +681,7 @@
     <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
       <Id>
         <TypeId>AirVent</TypeId>
-        <SubtypeId />
+        <SubtypeId>AirVent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirVent</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
@@ -743,8 +742,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenPressurizerConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenPressurizerConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>
-      </BlockPairName>
+      <BlockPairName>AirVent</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

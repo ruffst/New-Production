@@ -463,7 +463,7 @@
             <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
             <Description>Description_BlockGroup_TankGroup</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="" />
+                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank" />
                 <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
@@ -492,7 +492,7 @@
             <DisplayName>DisplayName_Block_AirVent</DisplayName>
             <Description>Description_AirVent</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_AirVent" Subtype="" />
+                <Block Type="MyObjectBuilder_AirVent" Subtype="AirVent" />
                 <Block Type="MyObjectBuilder_AirVent" Subtype="SmallAirVent" />
             </Blocks>
         </BlockVariantGroup>
@@ -554,7 +554,7 @@
             </Blocks>
         </BlockVariantGroup>
 
-<BlockVariantGroup>
+        <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThickGroupBasic" />
             <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
             <DisplayName>DisplayName_Block_ConveyorBasic</DisplayName>
@@ -958,9 +958,9 @@
             <Description>Description_BlockGroup_ShipWeaponStaticGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="LargeMissileLauncher" />
-                <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="" />
+                <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="SmallMissileLauncher" />
                 <Block Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="SmallRocketLauncherReload" />
-                <Block Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+                <Block Type="MyObjectBuilder_SmallGatlingGun" Subtype="SmallGatlingGun" />
             </Blocks>
         </BlockVariantGroup>
 
@@ -970,9 +970,9 @@
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="" />
+                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="LargeGatlingTurret" />
                 <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="SmallGatlingTurret" />
-                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="LargeMissileTurret" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SmallMissileTurret" />
                 <Block Type="MyObjectBuilder_InteriorTurret" Subtype="LargeInteriorTurret" />
             </Blocks>
@@ -1039,7 +1039,7 @@
             <DisplayName>DisplayName_Block_Door</DisplayName>
             <Description>Description_Door</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Door" Subtype="" />
+                <Block Type="MyObjectBuilder_Door" Subtype="Door" />
                 <Block Type="MyObjectBuilder_Door" Subtype="SmallDoor" />
                 <Block Type="MyObjectBuilder_Door" Subtype="SmallSideDoor" />
                 <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
@@ -1055,7 +1055,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="" />
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="Ladder2" />
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
@@ -1088,7 +1088,7 @@
             <DisplayName>DisplayName_Block_AirtightHangarDoor</DisplayName>
             <Description>Description_HangarDoor</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="" />
+                <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoor" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGate" />
             </Blocks>
         </BlockVariantGroup>
@@ -1476,8 +1476,8 @@
             <DisplayName>DisplayName_BlockGroup_GravityGroup</DisplayName>
             <Description>Description_BlockGroup_GravityGroup</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_GravityGenerator" Subtype="" />
-                <Block Type="MyObjectBuilder_GravityGeneratorSphere" Subtype="" />
+                <Block Type="MyObjectBuilder_GravityGenerator" Subtype="GravityGenerator" />
+                <Block Type="MyObjectBuilder_GravityGeneratorSphere" Subtype="GravityGeneratorSphere" />
                 <Block Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassLarge" />
                 <Block Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassSmall" />
                 <Block Type="MyObjectBuilder_SpaceBall" Subtype="SpaceBallLarge" />

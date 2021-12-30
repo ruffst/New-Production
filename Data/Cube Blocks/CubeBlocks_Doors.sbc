@@ -4,7 +4,7 @@
     <Definition xsi:type="MyObjectBuilder_DoorDefinition">
       <Id>
         <TypeId>Door</TypeId>
-        <SubtypeId />
+        <SubtypeId>Door</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Door</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
@@ -92,8 +92,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\DoorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\DoorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>
-      </BlockPairName>
+      <BlockPairName>Door</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -218,7 +217,7 @@
     <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
       <Id>
         <TypeId>AirtightHangarDoor</TypeId>
-        <SubtypeId />
+        <SubtypeId>AirtightHangarDoor</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_AirtightHangarDoor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
@@ -294,8 +293,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>
-      </BlockPairName>
+      <BlockPairName>AirtightHangarDoor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
