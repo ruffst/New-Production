@@ -2,8 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
     <!--        Tier Gold-->
-    <!--Small Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--SmallBlockSmallHydrogenThrust_Gold-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrust_Gold</SubtypeId>
@@ -129,8 +129,8 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--Small Large Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--SmallBlockLargeHydrogenThrust_Gold-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrust_Gold</SubtypeId>
@@ -257,8 +257,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Small Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--LargeBlockSmallHydrogenThrust_Gold-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrust_Gold</SubtypeId>
@@ -383,8 +383,8 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--Large Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--LargeBlockLargeHydrogenThrust_Gold-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrust_Gold</SubtypeId>
@@ -513,8 +513,8 @@
       <PCU>15</PCU>
     </Definition>
     <!--        Tier Platin-->
-    <!--Small Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--SmallBlockSmallHydrogenThrust_Platin-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrust_Platin</SubtypeId>
@@ -640,8 +640,8 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--Small Large Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--SmallBlockLargeHydrogenThrust_Platin-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrust_Platin</SubtypeId>
@@ -768,8 +768,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Small Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--LargeBlockSmallHydrogenThrust_Platin-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrust_Platin</SubtypeId>
@@ -894,8 +894,8 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--Large Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--LargeBlockLargeHydrogenThrust_Platin-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrust_Platin</SubtypeId>
@@ -1024,8 +1024,8 @@
       <PCU>15</PCU>
     </Definition>
     <!--        Tier Titan-->
-    <!--Small Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--SmallBlockSmallHydrogenThrust_Titan-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrust_Titan</SubtypeId>
@@ -1151,8 +1151,8 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--Small Large Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--SmallBlockLargeHydrogenThrust_Titan-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrust_Titan</SubtypeId>
@@ -1279,8 +1279,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Small Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--LargeBlockSmallHydrogenThrust_Titan-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrust_Titan</SubtypeId>
@@ -1405,8 +1405,8 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--Large Thrust-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+    <!--LargeBlockLargeHydrogenThrust_Titan-->
+      <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrust_Titan</SubtypeId>

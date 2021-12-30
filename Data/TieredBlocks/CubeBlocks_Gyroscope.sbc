@@ -2,8 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
     <!--        Tier Gold-->
-    <!--Small Gyro-->
-    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <!--SmallBlockGyro_Gold-->
+      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Gold</SubtypeId>
@@ -87,8 +87,8 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--Large Gyro-->
-    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <!--LargeBlockGyro_Gold-->
+      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>LargeBlockGyro_Gold</SubtypeId>
@@ -179,8 +179,8 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--        Tier Platin-->
-    <!--Small Gyro-->
-    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <!--SmallBlockGyro_Platin-->
+      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Platin</SubtypeId>
@@ -264,8 +264,8 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--Large Gyro-->
-    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <!--LargeBlockGyro_Platin-->
+      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>LargeBlockGyro_Platin</SubtypeId>
@@ -356,8 +356,8 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--        Tier Titan-->
-    <!--Small Gyro-->
-    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <!--SmallBlockGyro_Titan-->
+      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Titan</SubtypeId>
@@ -441,8 +441,8 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--Large Gyro-->
-    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <!--LargeBlockGyro_Titan-->
+      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>LargeBlockGyro_Titan</SubtypeId>

@@ -4,7 +4,7 @@
     <!--        Tier Gold-->
     <!--Small Drill-->
     <!--SmallBlockDrill_Gold-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>SmallBlockDrill_Gold</SubtypeId>
@@ -114,7 +114,7 @@
     </Definition>
     <!--Large Drill-->
     <!--LargeBlockDrill_Gold-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>LargeBlockDrill_Gold</SubtypeId>
@@ -228,7 +228,7 @@
     <!--        Tier Platin-->
     <!--Small Drill-->
     <!--SmallBlockDrill_Platin-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>SmallBlockDrill_Platin</SubtypeId>
@@ -338,7 +338,7 @@
     </Definition>
     <!--Large Drill-->
     <!--LargeBlockDrill_Platin-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>LargeBlockDrill_Platin</SubtypeId>
@@ -452,7 +452,7 @@
     <!--        Tier Titan-->
     <!--Small Drill-->
     <!--SmallBlockDrill_Titan-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>SmallBlockDrill_Titan</SubtypeId>
@@ -562,7 +562,7 @@
     </Definition>
     <!--Large Drill-->
     <!--LargeBlockDrill_Titan-->
-    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
         <TypeId>Drill</TypeId>
         <SubtypeId>LargeBlockDrill_Titan</SubtypeId>

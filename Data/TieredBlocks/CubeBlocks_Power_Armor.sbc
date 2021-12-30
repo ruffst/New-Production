@@ -4,7 +4,7 @@
     <!-- Region Alu ARMOR -->
     <!-- Large -->
     <!-- AluLargeBlockArmorBlock -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluLargeBlockArmorBlock</SubtypeId>
@@ -169,7 +169,7 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!-- AluLargeBlockArmorSlope -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluLargeBlockArmorSlope</SubtypeId>
@@ -307,7 +307,7 @@
       <PCUConsole>2</PCUConsole>
     </Definition>
     <!-- AluLargeBlockArmorCorner -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluLargeBlockArmorCorner</SubtypeId>
@@ -414,7 +414,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!-- AluLargeBlockArmorCornerInv -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluLargeBlockArmorCornerInv</SubtypeId>
@@ -580,7 +580,7 @@
     <!-- Region Titan ARMOR -->
     <!-- Large -->
     <!-- TitanLargeHeavyBlockArmorBlock -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanLargeHeavyBlockArmorBlock</SubtypeId>
@@ -759,7 +759,7 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!-- TitanLargeHeavyBlockArmorSlope -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanLargeHeavyBlockArmorSlope</SubtypeId>
@@ -904,7 +904,7 @@
       <PCUConsole>2</PCUConsole>
     </Definition>
     <!-- TitanLargeHeavyBlockArmorCorner -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanLargeHeavyBlockArmorCorner</SubtypeId>
@@ -1017,7 +1017,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!-- TitanLargeHeavyBlockArmorCornerInv -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanLargeHeavyBlockArmorCornerInv</SubtypeId>
@@ -1190,7 +1190,7 @@
     <!-- Region Alu ARMOR -->
     <!-- Small -->
     <!-- AluSmallBlockArmorBlock -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorBlock</SubtypeId>
@@ -1356,7 +1356,7 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!-- AluSmallBlockArmorSlope -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorSlope</SubtypeId>
@@ -1488,7 +1488,7 @@
       <PCUConsole>2</PCUConsole>
     </Definition>
     <!-- AluSmallBlockArmorCorner -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorCorner</SubtypeId>
@@ -1589,7 +1589,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!-- AluSmallBlockArmorCornerInv -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorCornerInv</SubtypeId>
@@ -1749,7 +1749,7 @@
     <!-- Region Titan ARMOR -->
     <!-- Small -->
     <!-- TitanSmallHeavyBlockArmorBlock -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanSmallHeavyBlockArmorBlock</SubtypeId>
@@ -1927,7 +1927,7 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!-- TitanSmallHeavyBlockArmorSlope -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanSmallHeavyBlockArmorSlope</SubtypeId>
@@ -2071,7 +2071,7 @@
       <PCUConsole>2</PCUConsole>
     </Definition>
     <!-- TitanSmallHeavyBlockArmorCorner -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanSmallHeavyBlockArmorCorner</SubtypeId>
@@ -2184,7 +2184,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!-- TitanSmallHeavyBlockArmorCornerInv -->
-    <Definition>
+      <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanSmallHeavyBlockArmorCornerInv</SubtypeId>
