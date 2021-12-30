@@ -39,7 +39,6 @@
     </ResearchBlock>
 
   <!--Freischaltung Meilenstein_Basic-->
-
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Basic  0-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Basic" />
       <UnlockedByGroups>
@@ -52,32 +51,63 @@
         <UnlockedByGroups>
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
-      </ResearchBlock>
-
-  
+      </ResearchBlock> 
       <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Cargo   Meilenstein_Basic-->
         <Id Type="MyObjectBuilder_Container" Subtype="Basic_Cargo" />
         <UnlockedByGroups>
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-
       <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Sorter   Meilenstein_Basic-->
         <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />
         <UnlockedByGroups>
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-
       <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Battery   Meilenstein_Basic-->
         <Id Type="MyObjectBuilder_BatteryBlock" Subtype="Basic_Battery" />
         <UnlockedByGroups>
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-
       <ResearchBlock xsi:type="ResearchBlock">      <!--BasicConveyorTube   Meilenstein_Basic-->
         <Id Type="MyObjectBuilder_Conveyor" Subtype="BasicConveyorTube" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeBasic  Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeBasic" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeSmallBasic  Meilenstein_Basic-->      
+        <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallBasic" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeCurvedBasic  Meilenstein_Basic-->     
+        <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedBasic" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeSmallCurvedBasic  Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurvedBasic" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+      <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockConveyorBasic  Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyorBasic" />
+        <UnlockedByGroups>
+          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+      <ResearchBlock xsi:type="ResearchBlock">      <!--LargeBlockConveyorBasic  Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyorBasic" />
         <UnlockedByGroups>
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
@@ -2139,7 +2169,7 @@
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockOreDetector  Meilenstein_Small_OreDetector-->
           <Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Small_OreDetectorDa </GroupSubtype>
+            <GroupSubtype>Meilenstein_Small_OreDetector</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
