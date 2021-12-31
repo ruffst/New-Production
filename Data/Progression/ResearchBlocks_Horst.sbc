@@ -52,8 +52,8 @@
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock> 
-      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Cargo   Meilenstein_Basic-->
-        <Id Type="MyObjectBuilder_Container" Subtype="Basic_Cargo" />
+      <ResearchBlock xsi:type="ResearchBlock">      <!--BasicCargo   Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_CargoContainer" Subtype="BasicCargo" />
         <UnlockedByGroups>
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
