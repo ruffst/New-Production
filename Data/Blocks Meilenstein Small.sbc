@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-
-
-    <Definition><!---Meilenstein_Small_Armorlight-->
+    <!---Meilenstein_Small_Armorlight-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Armorlight</SubtypeId>
@@ -14,7 +13,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -23,7 +22,7 @@
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
-        </Component>       
+        </Component>
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
@@ -44,7 +43,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Armorheavy-->
+    <!---Meilenstein_Small_Armorheavy-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Armorheavy</SubtypeId>
@@ -55,7 +55,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -70,7 +70,7 @@
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
-        </Component>        
+        </Component>
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <BuildProgressModels>
@@ -91,7 +91,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Fenster-->
+    <!---Meilenstein_Small_Fenster-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Fenster</SubtypeId>
@@ -102,7 +103,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -138,7 +139,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Controls-->
+    <!---Meilenstein_Small_Controls-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Controls</SubtypeId>
@@ -149,7 +151,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -185,7 +187,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Medical-->
+    <!---Meilenstein_Small_Medical-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Medical</SubtypeId>
@@ -196,7 +199,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -232,7 +235,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Remote-->
+    <!---Meilenstein_Small_Remote-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Remote</SubtypeId>
@@ -243,7 +247,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -279,7 +283,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Gyroskop-->
+    <!---Meilenstein_Small_Gyroskop-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Gyroskop</SubtypeId>
@@ -290,7 +295,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -307,10 +312,6 @@
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneSpaceMaterial" Count="3">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="10">
           <DeconstructId>
@@ -338,7 +339,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Tools-->
+    <!---Meilenstein_Small_Tools-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Tools</SubtypeId>
@@ -349,7 +351,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -391,7 +393,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_OreDetector-->
+    <!---Meilenstein_Small_OreDetector-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_OreDetector</SubtypeId>
@@ -402,7 +405,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -450,7 +453,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Waffen-->
+    <!---Meilenstein_Small_Waffen-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Waffen</SubtypeId>
@@ -461,7 +465,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -480,7 +484,7 @@
         <Component Subtype="MilestoneCargoMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneElectroMaterial" Count="5">
@@ -509,7 +513,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Conveyors-->
+    <!---Meilenstein_Small_Conveyors-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Conveyors</SubtypeId>
@@ -520,7 +525,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -533,7 +538,7 @@
         <Component Subtype="MilestoneCargoMaterial" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="3">
@@ -545,7 +550,7 @@
         <Component Subtype="Motor" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -568,7 +573,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Automation-->
+    <!---Meilenstein_Small_Automation-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Automation</SubtypeId>
@@ -579,7 +585,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -598,7 +604,7 @@
         <Component Subtype="MilestoneCargoMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -621,7 +627,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Lights-->
+    <!---Meilenstein_Small_Lights-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Lights</SubtypeId>
@@ -632,7 +639,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -662,7 +669,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Power-->
+    <!---Meilenstein_Small_Power-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Power</SubtypeId>
@@ -673,7 +681,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -709,7 +717,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Thruster_Atmo-->
+    <!---Meilenstein_Small_Thruster_Atmo-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Atmo</SubtypeId>
@@ -720,7 +729,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -762,7 +771,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Thruster_Hydro-->
+    <!---Meilenstein_Small_Thruster_Hydro-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Hydro</SubtypeId>
@@ -773,7 +783,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -792,7 +802,7 @@
         <Component Subtype="KupferStrator" Count="25">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -815,7 +825,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Thruster_Ionen-->
+    <!---Meilenstein_Small_Thruster_Ionen-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Ionen</SubtypeId>
@@ -826,15 +837,11 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="15">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="5">
           <DeconstructId>
@@ -851,7 +858,7 @@
         <Component Subtype="Thrust" Count="25">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>BatteryScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -874,7 +881,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_LCDs-->
+    <!---Meilenstein_Small_LCDs-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_LCDs</SubtypeId>
@@ -885,7 +893,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -915,7 +923,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Mechanic-->
+    <!---Meilenstein_Small_Mechanic-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Mechanic</SubtypeId>
@@ -926,7 +935,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -968,7 +977,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Tore-->
+    <!---Meilenstein_Small_Tore-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Tore</SubtypeId>
@@ -979,7 +989,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -1021,7 +1031,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Räder-->
+    <!---Meilenstein_Small_Räder-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Räder</SubtypeId>
@@ -1032,7 +1043,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -1074,7 +1085,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Cargos-->
+    <!---Meilenstein_Small_Cargos-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Cargos</SubtypeId>
@@ -1085,14 +1097,14 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="10">
@@ -1121,7 +1133,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Communication-->
+    <!---Meilenstein_Small_Communication-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Communication</SubtypeId>
@@ -1132,7 +1145,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -1168,7 +1181,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Landing-->
+    <!---Meilenstein_Small_Landing-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Landing</SubtypeId>
@@ -1179,7 +1193,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
@@ -1221,7 +1235,8 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <Definition><!---Meilenstein_Small_Tanks-->
+    <!---Meilenstein_Small_Tanks-->
+    <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Tanks</SubtypeId>
@@ -1232,14 +1247,14 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1"/>
+      <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\small\Antenna.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
