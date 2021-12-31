@@ -422,7 +422,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeGatlingTurret</BlockPairName>
+      <BlockPairName>LargeTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -552,7 +552,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallGatlingTurret</BlockPairName>
+      <BlockPairName>SmallTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -679,7 +679,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeMissileTurret</BlockPairName>
+      <BlockPairName>LargeTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -810,7 +810,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallMissileTurret</BlockPairName>
+      <BlockPairName>SmallTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -931,7 +931,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeInteriorTurret</BlockPairName>
+      <BlockPairName>LargeTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1042,7 +1042,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RocketLauncherConstruction_2.mwm" />
       </BuildProgressModels>
       <MirroringZ>X</MirroringZ>
-      <BlockPairName>SmallMissileLauncher</BlockPairName>
+      <BlockPairName>SmallLauncher</BlockPairName>
       <Center x="0" y="0" z="3" />
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
@@ -1054,7 +1054,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>425</PCU>
-    </Definition>
+    </Definition>   
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
@@ -1132,7 +1132,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RocketLauncherConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RocketLauncherConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeMissileLauncher</BlockPairName>
+      <BlockPairName>LargeLauncher</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <Center x="0" y="0" z="1" />
       <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -1236,6 +1236,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\RocketLauncherReloadConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\RocketLauncherReloadConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockPairName>SmallLauncherReload</BlockPairName>
       <Center x="0" y="0" z="1" />
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <InventoryMaxVolume>0.24</InventoryMaxVolume>

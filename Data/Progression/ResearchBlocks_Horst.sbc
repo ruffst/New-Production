@@ -2570,7 +2570,7 @@
     </ResearchBlock>
     
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeMissileLauncher  Meilenstein_Waffen-->
-          <Id Type="MyObjectBuilder_LargeMissileLauncher" Subtype="LargeMissileLauncher" />
+          <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="LargeMissileLauncher" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>

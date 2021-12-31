@@ -861,10 +861,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="2">
+        <Component Subtype="SteelPlate" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="1">
@@ -897,10 +897,10 @@
             <SubtypeId>GlassScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="1">
+        <Component Subtype="SteelPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -944,10 +944,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="20">
+        <Component Subtype="SteelPlate" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="10">
@@ -980,10 +980,10 @@
             <SubtypeId>GlassScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="10">
+        <Component Subtype="SteelPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
@@ -1027,10 +1027,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="55">
+        <Component Subtype="SteelPlate" Count="55">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="25">
@@ -1063,10 +1063,10 @@
             <SubtypeId>GlassScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="20">
+        <Component Subtype="SteelPlate" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
