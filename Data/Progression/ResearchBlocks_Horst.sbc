@@ -52,8 +52,8 @@
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock> 
-      <ResearchBlock xsi:type="ResearchBlock">      <!--BasicCargo   Meilenstein_Basic-->
-        <Id Type="MyObjectBuilder_CargoContainer" Subtype="BasicCargo" />
+      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Cargo   Meilenstein_Basic-->
+        <Id Type="MyObjectBuilder_CargoContainer" Subtype="Basic_Cargo" />
         <UnlockedByGroups>
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
@@ -112,6 +112,12 @@
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockGyro_Basic  Meilenstein_Small_Gyroskop-->
+          <Id Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Basic" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Freischaltung Assembler1-->
 
@@ -2506,7 +2512,12 @@
             <GroupSubtype>Meilenstein_OreDetector_Gold</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockOreDetector_Gold  Meilenstein_OreDetector_Gold-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_OreDetector_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_OreDetector_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Platin  Meilenstein_OreDetector_Gold-->
@@ -2522,7 +2533,12 @@
             <GroupSubtype>Meilenstein_OreDetector_Platin</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockOreDetector_Platin  Meilenstein_OreDetector_Platin-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_OreDetector_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_OreDetector_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_OreDetector_Titan  Meilenstein_OreDetector_Platin-->
@@ -2538,7 +2554,12 @@
             <GroupSubtype>Meilenstein_OreDetector_Titan</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockOreDetector_Titan  Meilenstein_OreDetector_Titan-->
+          <Id Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_OreDetector_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Waffen-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Waffen  Forschung-->
@@ -2549,7 +2570,7 @@
     </ResearchBlock>
     
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeMissileLauncher  Meilenstein_Waffen-->
-          <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="LargeMissileLauncher" />
+          <Id Type="MyObjectBuilder_LargeMissileLauncher" Subtype="LargeMissileLauncher" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>
@@ -3424,7 +3445,12 @@
             <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Gold  Meilenstein_Power_Platin-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock_Gold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Power_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power_Platin  Meilenstein_Power_Gold-->
@@ -3464,7 +3490,12 @@
             <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Platin  Meilenstein_Power_Platin-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Power_Titan-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Power_Titan  Meilenstein_Power_Platin-->
@@ -3504,7 +3535,12 @@
             <GroupSubtype>Meilenstein_Power_Titan</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Titan  Meilenstein_Power_Platin-->
+          <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Lights-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Lights  Forschung-->

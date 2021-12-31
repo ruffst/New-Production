@@ -3,7 +3,7 @@
   <CubeBlocks>
     <!--Tier Gold-->
     <!--LargeOreDetector_Gold-->
-    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>LargeOreDetector_Gold</SubtypeId>
@@ -90,7 +90,7 @@
       <PCU>40</PCU>
     </Definition>
     <!--SmallBlockOreDetector_Gold-->
-    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SmallBlockOreDetector_Gold</SubtypeId>
@@ -177,7 +177,7 @@
     </Definition>
     <!--Tier Platin-->
     <!--LargeOreDetector_Platin-->
-    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>LargeOreDetector_Platin</SubtypeId>
@@ -264,7 +264,7 @@
       <PCU>40</PCU>
     </Definition>
     <!--SmallBlockOreDetector_Platin-->
-    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SmallBlockOreDetector_Platin</SubtypeId>
@@ -351,7 +351,7 @@
     </Definition>
     <!--Tier Titan-->
     <!--LargeOreDetector_Titan-->
-    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>LargeOreDetector_Titan</SubtypeId>
@@ -438,7 +438,7 @@
       <PCU>40</PCU>
     </Definition>
     <!--SmallBlockOreDetector_Titan-->
-    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SmallBlockOreDetector_Titan</SubtypeId>

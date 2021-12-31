@@ -49,7 +49,7 @@
         <string>CargoContainer/LargeBlockLargeContainer</string>
         <string>CargoContainer/LargeBlockLargeIndustrialContainer</string>
         <string>CargoContainer/LargeBlockSmallContainer</string>
-        <string>CargoContainer/BasicCargo</string>
+        <string>CargoContainer/Basic_Cargo</string>
         <string>Cockpit/CockpitOpen</string>
         <string>Cockpit/LargeBlockCockpit</string>
         <string>Cockpit/LargeBlockCockpitSeat</string>
@@ -263,7 +263,7 @@
 
         <string>ExhaustBlock/LargeExhaustPipe</string>
         <string>Decoy/LargeDecoy</string>
-        <string>Door/(null)</string>
+        <string>Door/Door</string>
         <string>Drill/LargeBlockDrill</string>
         <string>EmissiveBlock/LargeNeonTubesStraight1</string>
         <string>EmissiveBlock/LargeNeonTubesStraight2</string>
@@ -274,8 +274,8 @@
         <string>EmissiveBlock/LargeNeonTubesStraightEnd1</string>
         <string>EmissiveBlock/LargeNeonTubesStraightEnd2</string>
         <string>EmissiveBlock/LargeNeonTubesU</string>
-        <string>GravityGenerator/(null)</string>
-        <string>GravityGeneratorSphere/(null)</string>
+        <string>GravityGenerator/GravityGenerator</string>
+        <string>GravityGeneratorSphere/GravityGeneratorSphere</string>
         <string>Gyro/LargeBlockGyro</string>
         <string>Gyro/LargeBlockGyro_Gold</string>
         <string>Gyro/LargeBlockGyro_Platin</string>
@@ -285,8 +285,8 @@
         <string>LandingGear/LargeBlockLandingGear</string>
         <string>LandingGear/LargeBlockMagneticPlate</string>
         <string>LandingGear/LargeBlockSmallMagneticPlate</string>
-        <string>LargeGatlingTurret/(null)</string>
-        <string>LargeMissileTurret/(null)</string>
+        <string>LargeGatlingTurret/LargeGatlingTurret</string>
+        <string>LargeMissileTurret/LargeMissileTurret</string>
         <string>MedicalRoom/LargeMedicalRoom</string>
         <string>MergeBlock/LargeShipMergeBlock</string>
         <string>MotorRotor/LargeRotor</string>
@@ -307,7 +307,7 @@
         <string>OreDetector/LargeOreDetector_Gold</string>
         <string>OreDetector/LargeOreDetector_Platin</string>
         <string>OreDetector/LargeOreDetector_Titan</string>
-        <string>Passage/(null)</string>
+        <string>Passage/Passage)</string>
         <string>CubeBlock/Passage2</string>
         <string>CubeBlock/Passage2Wall</string>
         <string>CubeBlock/PassageSciFi</string>
@@ -381,12 +381,12 @@
         <string>LaserAntenna/LargeBlockLaserAntenna</string>
         <string>OxygenGenerator/OxygenGenerator</string>
         <string>OxygenGenerator/OxygenGeneratorBasic</string>
-        <string>OxygenTank/(null)</string>
+        <string>OxygenTank/OxygenTank</string>
         <string>OxygenTank/LargeHydrogenTank</string>
         <string>OxygenTank/LargeHydrogenTankSmall</string>
         <string>OxygenTank/LargeHydrogenTankIndustrial</string>
-        <string>AirVent/(null)</string>
-        <string>AirtightHangarDoor/(null)</string>
+        <string>AirVent/AirVent</string>
+        <string>AirtightHangarDoor/AirtightHangarDoor</string>
         <string>Door/LargeBlockGate</string>
         <string>OxygenFarm/LargeBlockOxygenFarm</string>
         <string>CryoChamber/LargeBlockCryoChamber</string>
@@ -400,7 +400,7 @@
         <string>WindTurbine/LargeBlockWindTurbine</string>
         <string>HydrogenEngine/LargeHydrogenEngine</string>
         <string>SurvivalKit/SurvivalKitLarge</string>
-        <string>Ladder2/(null)</string>
+        <string>Ladder2/Ladder2</string>
         <string>CryoChamber/LargeBlockBed</string>
         <string>Cockpit/LargeBlockDesk</string>
         <string>Cockpit/LargeBlockDeskCorner</string>
@@ -768,8 +768,8 @@
         <string>ShipWelder/SmallShipWelder_Gold</string>
         <string>ShipWelder/SmallShipWelder_Platin</string>
         <string>ShipWelder/SmallShipWelder_Titan</string>
-        <string>SmallGatlingGun/(null)</string>
-        <string>SmallMissileLauncher/(null)</string>
+        <string>SmallGatlingGun/SmallGatlingGun</string>
+        <string>SmallMissileLauncher/SmallMissileLauncher</string>
         <string>SolarPanel/SmallBlockSolarPanel</string>
         <string>SoundBlock/SmallBlockSoundBlock</string>
         <string>SpaceBall/SpaceBallSmall</string>
@@ -1072,8 +1072,8 @@
       <IsToolCategory>true</IsToolCategory>
       <ItemIds>
         <string>SmallMissileLauncher/LargeMissileLauncher</string>
-        <string>SmallGatlingGun/(null)</string>
-        <string>SmallMissileLauncher/(null)</string>
+        <string>SmallGatlingGun/SmallGatlingGun</string>
+        <string>SmallMissileLauncher/SmallMissileLauncher</string>
         <string>SmallMissileLauncherReload/SmallRocketLauncherReload</string>
       </ItemIds>
     </Category>
@@ -1127,13 +1127,13 @@
       <ItemIds>
         <string>Warhead/LargeWarhead</string>
         <string>InteriorTurret/LargeInteriorTurret</string>
-        <string>LargeGatlingTurret/(null)</string>
-        <string>LargeMissileTurret/(null)</string>
+        <string>LargeGatlingTurret/LargeGatlingTurret</string>
+        <string>LargeMissileTurret/LargeMissileTurret</string>
         <string>LargeGatlingTurret/SmallGatlingTurret</string>
         <string>LargeMissileTurret/SmallMissileTurret</string>
         <string>SmallMissileLauncher/LargeMissileLauncher</string>
-        <string>SmallGatlingGun/(null)</string>
-        <string>SmallMissileLauncher/(null)</string>
+        <string>SmallGatlingGun/SmallGatlingGun</string>
+        <string>SmallMissileLauncher/SmallMissileLauncher</string>
         <string>SmallMissileLauncherReload/SmallRocketLauncherReload</string>
       </ItemIds>
     </Category>
@@ -1465,7 +1465,7 @@
         <string>Refinery/Legierer</string>
         <string>Assembler/BasicAssembler</string>
         <string>Assembler/LargeAssembler</string>
-        <string>OxygenGenerator/(null)</string>
+        <string>OxygenGenerator/OxygenGenerator</string>
         
         <string>Assembler/Drahtextruder</string>
         <string>Assembler/Wickelmaschine</string>
@@ -1479,7 +1479,7 @@
 
         <string>Assembler/LargeAssemblerIndustrial</string>
         <string>Projector/LargeProjector</string>
-        <string>OxygenGenerator/(null)</string>
+        <string>OxygenGenerator/OxygenGenerator</string>
         <string>SurvivalKit/SurvivalKit</string>
         <string>SurvivalKit/SurvivalKitLarge</string>
       </ItemIds>
