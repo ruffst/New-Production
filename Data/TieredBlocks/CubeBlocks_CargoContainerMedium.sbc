@@ -3,7 +3,7 @@
   <CubeBlocks>
     <!--        Tier Gold-->
     <!--SmallBlockMediumContainer_Gold-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainer_Gold</SubtypeId>
@@ -93,7 +93,7 @@
     </Definition>
     <!--        Tier Platin-->
     <!--SmallBlockMediumContainer_Platin-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainer_Platin</SubtypeId>
@@ -183,7 +183,7 @@
     </Definition>
     <!--        Tier Titan-->
     <!--SmallBlockMediumContainer_Titan-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainer_Titan</SubtypeId>

@@ -3,7 +3,7 @@
   <CubeBlocks>
     <!--        Tier Gold-->
     <!--LargeBlockLargeContainer_Gold-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainer_Gold</SubtypeId>
@@ -110,7 +110,7 @@
       </InventorySize>
     </Definition>
     <!--SmallBlockLargeContainer_Gold-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainer_Gold</SubtypeId>
@@ -199,7 +199,7 @@
     </Definition>
     <!--        Tier Platin-->
     <!--LargeBlockLargeContainer_Platin-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainer_Platin</SubtypeId>
@@ -306,7 +306,7 @@
       </InventorySize>
     </Definition>
     <!--SmallBlockLargeContainer_Platin-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainer_Platin</SubtypeId>
@@ -395,7 +395,7 @@
     </Definition>
     <!--        Tier Titan-->
     <!--LargeBlockLargeContainer_Titan-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainer_Titan</SubtypeId>
@@ -502,7 +502,7 @@
       </InventorySize>
     </Definition>
     <!--SmallBlockLargeContainer_Titan-->
-    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainer_Titan</SubtypeId>
