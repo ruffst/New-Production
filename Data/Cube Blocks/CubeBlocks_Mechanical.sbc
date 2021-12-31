@@ -81,7 +81,7 @@
       <PrimarySound>BlockPiston</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.002</RequiredPowerInput>
-      <TopPart>PistonTop</TopPart>
+      <TopPart>LargePistonTop</TopPart>
       <Public>false</Public>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -91,7 +91,11 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight
+    ></Definition>
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -165,7 +169,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PistonBaseConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PistonBaseConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargePistonBase</BlockPairName>
+      <BlockPairName>ExtendedLargePistonBase</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -173,7 +177,7 @@
       <PrimarySound>BlockPiston</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.002</RequiredPowerInput>
-      <TopPart>PistonTop</TopPart>
+      <TopPart>LargePistonTop</TopPart>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <SafetyDetach>5</SafetyDetach>
@@ -182,7 +186,11 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+      </Definition>
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -235,6 +243,7 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
     <Definition xsi:type="MyObjectBuilder_PistonBaseDefinition">
       <Id>
         <TypeId>PistonBase</TypeId>
@@ -314,7 +323,7 @@
       <PrimarySound>BlockPiston</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0002</RequiredPowerInput>
-      <TopPart>PistonTop</TopPart>
+      <TopPart>SmallPistonTop</TopPart>
       <Maximum>2</Maximum>
       <Public>false</Public>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -325,7 +334,11 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+    </Definition>
+
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -399,7 +412,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\PistonBaseConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\PistonBaseConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallPistonBase</BlockPairName>
+      <BlockPairName>ExtendedSmallPistonBase</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -407,7 +420,7 @@
       <PrimarySound>BlockPiston</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0002</RequiredPowerInput>
-      <TopPart>PistonTop</TopPart>
+      <TopPart>SmallPistonTop</TopPart>
       <Maximum>2</Maximum>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -417,7 +430,11 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+    </Definition>
+
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
