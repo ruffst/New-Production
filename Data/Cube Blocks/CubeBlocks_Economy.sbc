@@ -30,7 +30,7 @@
         <Component Subtype="Motor" Count="6">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="4">
@@ -122,7 +122,7 @@
         <Component Subtype="GravityGenerator" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="ZoneChip" Count="5" />
@@ -219,7 +219,7 @@
         <Component Subtype="Motor" Count="6">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="4">
@@ -313,7 +313,7 @@
         <Component Subtype="Motor" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="4">
@@ -407,7 +407,7 @@
         <Component Subtype="Motor" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">

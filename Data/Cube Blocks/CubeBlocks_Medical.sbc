@@ -149,7 +149,7 @@
         <Component Subtype="Motor" Count="8">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="8">
@@ -269,7 +269,7 @@
         <Component Subtype="Motor" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Display" Count="4">

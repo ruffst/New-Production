@@ -38,7 +38,7 @@
         <Component Subtype="Motor" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -91,11 +91,7 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>100</PCU>
-      <IsAirTight>false</IsAirTight
-    ></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -134,7 +130,7 @@
         <Component Subtype="Motor" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -186,11 +182,7 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>100</PCU>
-      <IsAirTight>false</IsAirTight>
-      </Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -243,7 +235,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_PistonBaseDefinition">
       <Id>
         <TypeId>PistonBase</TypeId>
@@ -281,7 +272,7 @@
         <Component Subtype="Motor" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -334,11 +325,7 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>100</PCU>
-    </Definition>
-
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -378,7 +365,7 @@
         <Component Subtype="Motor" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -430,11 +417,7 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>100</PCU>
-    </Definition>
-
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -522,7 +505,7 @@
         <Component Subtype="Motor" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -666,7 +649,7 @@
         <Component Subtype="Motor" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -811,7 +794,7 @@
         <Component Subtype="Motor" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -956,7 +939,7 @@
         <Component Subtype="Motor" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -1093,7 +1076,7 @@
         <Component Subtype="Motor" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -1237,7 +1220,7 @@
         <Component Subtype="Motor" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
@@ -1380,7 +1363,7 @@
         <Component Subtype="Motor" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
