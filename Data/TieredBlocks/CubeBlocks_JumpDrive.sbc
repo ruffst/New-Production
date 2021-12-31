@@ -32,7 +32,7 @@
         <Component Subtype="GravityGenerator" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Detector" Count="30">
@@ -141,7 +141,7 @@
         <Component Subtype="GravityGenerator" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Detector" Count="45">
@@ -251,7 +251,7 @@
         <Component Subtype="GravityGenerator" Count="68">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Detector" Count="68">

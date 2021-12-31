@@ -3,7 +3,7 @@
   <CubeBlocks>
     <!--        Tier Gold-->
     <!--Small Grinder-->
-      <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
       <Id>
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>SmallShipGrinder_Gold</SubtypeId>
@@ -114,7 +114,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Large Grinder-->
-      <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
       <Id>
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>LargeShipGrinder_Gold</SubtypeId>
@@ -223,7 +223,7 @@
     </Definition>
     <!--        Tier Platin-->
     <!--Small Grinder-->
-      <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
       <Id>
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>SmallShipGrinder_Platin</SubtypeId>
@@ -334,7 +334,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Large Grinder-->
-      <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
       <Id>
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>LargeShipGrinder_Platin</SubtypeId>
@@ -443,7 +443,7 @@
     </Definition>
     <!--        Tier Titan-->
     <!--Small Grinder-->
-      <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
       <Id>
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>SmallShipGrinder_Titan</SubtypeId>
@@ -554,7 +554,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Large Grinder-->
-      <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
       <Id>
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>LargeShipGrinder_Titan</SubtypeId>

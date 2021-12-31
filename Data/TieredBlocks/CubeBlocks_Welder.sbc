@@ -3,7 +3,7 @@
   <CubeBlocks>
     <!--        Tier Gold-->
     <!--Small Welder-->
-      <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>SmallShipWelder_Gold</SubtypeId>
@@ -101,7 +101,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Large Welder-->
-      <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>LargeShipWelder_Gold</SubtypeId>
@@ -210,7 +210,7 @@
     </Definition>
     <!--        Tier Platin-->
     <!--Small Welder-->
-      <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>SmallShipWelder_Platin</SubtypeId>
@@ -308,7 +308,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Large Welder-->
-      <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>LargeShipWelder_Platin</SubtypeId>
@@ -417,7 +417,7 @@
     </Definition>
     <!--        Tier Titan-->
     <!--Small Welder-->
-      <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>SmallShipWelder_Titan</SubtypeId>
@@ -515,7 +515,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Large Welder-->
-      <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
       <Id>
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>LargeShipWelder_Titan</SubtypeId>

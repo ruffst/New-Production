@@ -3,7 +3,7 @@
   <CubeBlocks>
     <!--        Tier Gold-->
     <!--SmallBlockGyro_Gold-->
-      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Gold</SubtypeId>
@@ -88,7 +88,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--LargeBlockGyro_Gold-->
-      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>LargeBlockGyro_Gold</SubtypeId>
@@ -180,7 +180,7 @@
     </Definition>
     <!--        Tier Platin-->
     <!--SmallBlockGyro_Platin-->
-      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Platin</SubtypeId>
@@ -265,7 +265,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--LargeBlockGyro_Platin-->
-      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>LargeBlockGyro_Platin</SubtypeId>
@@ -357,7 +357,7 @@
     </Definition>
     <!--        Tier Titan-->
     <!--SmallBlockGyro_Titan-->
-      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Titan</SubtypeId>
@@ -442,7 +442,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--LargeBlockGyro_Titan-->
-      <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>LargeBlockGyro_Titan</SubtypeId>

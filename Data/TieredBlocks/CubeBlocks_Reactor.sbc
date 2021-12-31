@@ -3,7 +3,7 @@
   <CubeBlocks>
     <!--Tier Gold-->
     <!--SmallBlockSmallGenerator_Gold-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockSmallGenerator_Gold</SubtypeId>
@@ -117,7 +117,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallBlockLargeGenerator_Gold-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockLargeGenerator_Gold</SubtypeId>
@@ -234,7 +234,7 @@
       <PCU>25</PCU>
     </Definition>
     <!--LargeBlockSmallGenerator_Gold-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockSmallGenerator_Gold</SubtypeId>
@@ -348,7 +348,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--LargeBlockLargeGenerator_Gold-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockLargeGenerator_Gold</SubtypeId>
@@ -471,7 +471,7 @@
     </Definition>
     <!--Tier Platin-->
     <!--SmallBlockSmallGenerator_Platin-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockSmallGenerator_Platin</SubtypeId>
@@ -585,7 +585,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallBlockLargeGenerator_Platin-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockLargeGenerator_Platin</SubtypeId>
@@ -702,7 +702,7 @@
       <PCU>25</PCU>
     </Definition>
     <!--LargeBlockSmallGenerator_Platin-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockSmallGenerator_Platin</SubtypeId>
@@ -816,7 +816,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--LargeBlockLargeGenerator_Platin-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockLargeGenerator_Platin</SubtypeId>
@@ -939,7 +939,7 @@
     </Definition>
     <!--Tier Titan-->
     <!--SmallBlockSmallGenerator_Titan-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockSmallGenerator_Titan</SubtypeId>
@@ -1053,7 +1053,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallBlockLargeGenerator_Titan-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockLargeGenerator_Titan</SubtypeId>
@@ -1170,7 +1170,7 @@
       <PCU>25</PCU>
     </Definition>
     <!--LargeBlockSmallGenerator_Titan-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockSmallGenerator_Titan</SubtypeId>
@@ -1284,7 +1284,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--LargeBlockLargeGenerator_Titan-->
-      <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
+    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockLargeGenerator_Titan</SubtypeId>
