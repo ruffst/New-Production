@@ -30,12 +30,12 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
         </PhysicalItem>
-    <PhysicalItem>      <!-- Aluminum -->
+    <PhysicalItem>      <!-- Aluminium -->
       <Id>
         <TypeId>Ore</TypeId>
-        <SubtypeId>Aluminum</SubtypeId>
+        <SubtypeId>Aluminium</SubtypeId>
       </Id>
-      <DisplayName>Erz Aluminum</DisplayName>
+      <DisplayName>Erz Aluminium</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -510,7 +510,6 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Kies</IconSymbol>
     </PhysicalItem>
-
     <PhysicalItem>      <!-- Aluminium -->
       <Id>
         <TypeId>Ingot</TypeId>
