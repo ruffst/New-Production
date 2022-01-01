@@ -89,7 +89,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -136,7 +136,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="InteriorPlate" Index="500" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -183,7 +183,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="MetalGrid" Index="500" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -230,7 +230,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanPlate" Index="0" />
+      <CriticalComponent Subtype="TitanPlate" Index="500" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -277,7 +277,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="200" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -324,7 +324,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="500" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -371,7 +371,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="3" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -405,20 +405,20 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneElectroMaterial" Count="3">
+        <Component Subtype="MilestoneElectroMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="3">
+        <Component Subtype="MilestoneMechanicMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -465,7 +465,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -520,7 +520,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -581,7 +581,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="100" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -642,7 +642,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -703,7 +703,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -756,7 +756,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -815,7 +815,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldMotor" Index="0" />
+      <CriticalComponent Subtype="GoldMotor" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -874,7 +874,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinMotor" Index="0" />
+      <CriticalComponent Subtype="PlatinMotor" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -933,7 +933,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanMotor" Index="0" />
+      <CriticalComponent Subtype="TitanMotor" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -992,7 +992,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Detector" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="100" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1057,7 +1057,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldMotor" Index="0" />
+      <CriticalComponent Subtype="GoldMotor" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1122,7 +1122,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinMotor" Index="0" />
+      <CriticalComponent Subtype="PlatinMotor" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1187,7 +1187,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanMotor" Index="0" />
+      <CriticalComponent Subtype="TitanMotor" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1246,7 +1246,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1305,7 +1305,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Motor" Index="100" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1346,7 +1346,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1387,7 +1387,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1446,7 +1446,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1517,7 +1517,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1588,7 +1588,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1659,7 +1659,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1712,7 +1712,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneCargoMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneCargoMaterial" Index="20" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1753,7 +1753,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="6" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1800,7 +1800,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Reactor" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="15" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1853,7 +1853,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldReactor" Index="0" />
+      <CriticalComponent Subtype="GoldReactor" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1906,7 +1906,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinReactor" Index="0" />
+      <CriticalComponent Subtype="PlatinReactor" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -1959,7 +1959,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanReactor" Index="0" />
+      <CriticalComponent Subtype="TitanReactor" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2012,7 +2012,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2065,7 +2065,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2118,7 +2118,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldStrator" Index="0" />
+      <CriticalComponent Subtype="GoldStrator" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2171,7 +2171,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinStrator" Index="0" />
+      <CriticalComponent Subtype="PlatinStrator" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2224,7 +2224,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanStrator" Index="0" />
+      <CriticalComponent Subtype="TitanStrator" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2279,7 +2279,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Thrust" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2334,7 +2334,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldThrust" Index="0" />
+      <CriticalComponent Subtype="GoldThrust" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2389,7 +2389,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinThrust" Index="0" />
+      <CriticalComponent Subtype="PlatinThrust" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2444,7 +2444,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanThrust" Index="0" />
+      <CriticalComponent Subtype="TitanThrust" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2485,7 +2485,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="6" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2526,7 +2526,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2575,7 +2575,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2630,7 +2630,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GravityGenerator" Index="0" />
+      <CriticalComponent Subtype="GravityGenerator" Index="30" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2685,7 +2685,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="30" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2740,7 +2740,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="30" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2795,7 +2795,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="30" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2848,7 +2848,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2901,7 +2901,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="25" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -2954,7 +2954,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="15" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -3001,7 +3001,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="20" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -3060,7 +3060,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -3119,7 +3119,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -3225,7 +3225,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -3278,7 +3278,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -3325,7 +3325,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -3378,7 +3378,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="12" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -3431,7 +3431,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="12" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -3484,7 +3484,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="12" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
