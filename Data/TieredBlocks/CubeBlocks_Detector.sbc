@@ -3,7 +3,7 @@
   <CubeBlocks>
     <!--Tier Gold-->
     <!--LargeOreDetector_Gold-->
-      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>LargeOreDetector_Gold</SubtypeId>
@@ -61,7 +61,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="30" />
       <Center x="0" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -90,7 +90,7 @@
       <PCU>40</PCU>
     </Definition>
     <!--SmallBlockOreDetector_Gold-->
-      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SmallBlockOreDetector_Gold</SubtypeId>
@@ -148,7 +148,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="2" />
       <Center x="0" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -177,7 +177,7 @@
     </Definition>
     <!--Tier Platin-->
     <!--LargeOreDetector_Platin-->
-      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>LargeOreDetector_Platin</SubtypeId>
@@ -235,7 +235,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="45" />
       <Center x="0" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -264,7 +264,7 @@
       <PCU>40</PCU>
     </Definition>
     <!--SmallBlockOreDetector_Platin-->
-      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SmallBlockOreDetector_Platin</SubtypeId>
@@ -322,7 +322,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="3" />
       <Center x="0" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -351,7 +351,7 @@
     </Definition>
     <!--Tier Titan-->
     <!--LargeOreDetector_Titan-->
-      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>LargeOreDetector_Titan</SubtypeId>
@@ -409,7 +409,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="68" />
       <Center x="0" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -438,7 +438,7 @@
       <PCU>40</PCU>
     </Definition>
     <!--SmallBlockOreDetector_Titan-->
-      <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+    <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SmallBlockOreDetector_Titan</SubtypeId>
@@ -496,7 +496,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="4" />
       <Center x="0" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />

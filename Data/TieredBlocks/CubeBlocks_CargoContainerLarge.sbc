@@ -79,7 +79,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="30" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -168,7 +168,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="Display" Index="2" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
@@ -275,7 +275,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="45" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -364,7 +364,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="Display" Index="3" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
@@ -471,7 +471,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="68" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -560,7 +560,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="0" />
+      <CriticalComponent Subtype="Display" Index="4" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
