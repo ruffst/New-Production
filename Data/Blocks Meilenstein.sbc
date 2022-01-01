@@ -35,12 +35,6 @@
             <SubtypeId>LeadScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
         <Component Subtype="SmallTube" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
