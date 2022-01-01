@@ -58,7 +58,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\StoreBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\StoreBlockConstruction_2.mwm" />
@@ -151,7 +151,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="120" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />
@@ -251,7 +251,7 @@
         <ScreenArea Name="ContractsScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="ContractsScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
       </ScreenAreas>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\ContractsBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\ContractsBlockConstruction_2.mwm" />
@@ -341,7 +341,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\VendingMachineConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\VendingMachineConstruction_2.mwm" />
@@ -435,7 +435,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="Display" Index="4" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ATMConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ATMConstruction_2.mwm" />

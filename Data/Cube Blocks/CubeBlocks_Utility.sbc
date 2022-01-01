@@ -43,7 +43,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Motor" Index="6" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" />
       </MountPoints>
@@ -108,7 +108,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Motor" Index="1" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" />
       </MountPoints>
@@ -171,7 +171,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" Default="true" />
+      <CriticalComponent Subtype="Motor" Index="1" Default="true" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
         <MountPoint Side="Left" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
@@ -240,7 +240,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" Default="true" />
+      <CriticalComponent Subtype="Motor" Index="1" Default="true" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
         <MountPoint Side="Left" StartX="0.1" StartY="0.8" EndX="0.9" EndY="0.95" />
@@ -341,7 +341,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="40" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
@@ -412,7 +412,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="3" />
       <MountPoints>
         <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartX="0.4" StartY="0.44" EndX="0.6" EndY="0.55" />
       </MountPoints>
@@ -493,7 +493,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="3" />
       <MountPoints>
         <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartX="0.4" StartY="0.44" EndX="0.6" EndY="0.55" />
       </MountPoints>
@@ -589,7 +589,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MergeBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MergeBlockConstruction_2.mwm" />
@@ -667,7 +667,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MergeBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MergeBlockConstruction_2.mwm" />
@@ -752,7 +752,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MergeBlockSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MergeBlockSmallConstruction_2.mwm" />
@@ -839,7 +839,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <BlockPairName>LgParachute</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>Z</MirroringY>
@@ -1039,7 +1039,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <BlockPairName>SmParachute</BlockPairName>
       <MirroringX>None</MirroringX>
       <MirroringY>Z</MirroringY>

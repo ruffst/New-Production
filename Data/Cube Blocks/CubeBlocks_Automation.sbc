@@ -65,7 +65,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ProgrammingBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ProgrammingBlockConstruction_2.mwm" />
@@ -148,7 +148,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.33" StartY="0.33" EndX="0.66" EndY="0.66" Default="true" />
         <MountPoint Side="Back" StartX="0.33" StartY="0.33" EndX="0.66" EndY="0.66" />
@@ -235,7 +235,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -322,7 +322,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Detector" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="6" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
       </MountPoints>
@@ -419,7 +419,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Detector" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="6" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" />
       </MountPoints>
@@ -520,7 +520,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="0" />
+      <CriticalComponent Subtype="Display" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
       </MountPoints>
@@ -620,7 +620,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="3" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
@@ -700,7 +700,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="3" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" />
       </MountPoints>
@@ -787,7 +787,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="20" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.4" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
@@ -896,7 +896,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.3" />
@@ -984,7 +984,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\TimerBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\TimerBlockConstruction_2.mwm" />
@@ -1052,7 +1052,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
         <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
@@ -1146,7 +1146,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ProgrammingBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ProgrammingBlockConstruction_2.mwm" />

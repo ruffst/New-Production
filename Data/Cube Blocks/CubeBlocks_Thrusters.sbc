@@ -56,7 +56,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -180,7 +180,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -306,7 +306,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="20" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -430,7 +430,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="30" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -564,7 +564,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferStrator" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="30" />
       <Center x="1" y="1" z="2" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
@@ -702,7 +702,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferStrator" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="15" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -837,7 +837,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferStrator" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="10" />
       <Center x="1" y="1" z="2" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
@@ -974,7 +974,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferStrator" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="5" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1110,7 +1110,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="20" />
       <MountPoints>
         <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
         <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
@@ -1249,7 +1249,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="20" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true" />
         <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
@@ -1388,7 +1388,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="10" />
       <MountPoints>
         <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true" />
         <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
@@ -1528,7 +1528,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />

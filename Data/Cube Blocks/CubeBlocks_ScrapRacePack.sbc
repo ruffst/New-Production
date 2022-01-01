@@ -47,7 +47,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Motor" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
       </MountPoints>
@@ -132,7 +132,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Motor" Index="4" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
       </MountPoints>
@@ -238,7 +238,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="10" />
       <Center x="0" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
@@ -332,7 +332,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="8" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
@@ -394,7 +394,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="8" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
@@ -471,7 +471,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="6" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
         <MountPoint EndX="0.75" EndY="0.8" Side="Left" StartX="0.25" StartY="0.0" />
@@ -589,7 +589,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="20" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.8" EndY="2.2" Side="Bottom" StartX="0.2" StartY="0.8" />
         <MountPoint EndX="2.1" EndY="1.25" Side="Left" StartX="0.9" StartY="0.0" />
@@ -701,7 +701,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="6" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
         <MountPoint EndX="0.75" EndY="0.8" Side="Left" StartX="0.25" StartY="0.0" />
@@ -809,7 +809,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="1" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
         <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
@@ -917,7 +917,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="2" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.7" EndY="2.3" Side="Bottom" StartX="0.3" StartY="0.7" />
         <MountPoint EndX="2.2" EndY="1.2" Side="Left" StartX="0.8" StartY="0.0" />
@@ -1022,7 +1022,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="1" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
         <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
@@ -1134,7 +1134,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="6" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
         <MountPoint EndX="0.75" EndY="0.8" Side="Left" StartX="0.25" StartY="0.0" />
@@ -1252,7 +1252,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="20" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.8" EndY="2.2" Side="Bottom" StartX="0.2" StartY="0.8" />
         <MountPoint EndX="2.1" EndY="1.25" Side="Left" StartX="0.9" StartY="0.0" />
@@ -1364,7 +1364,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="6" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
         <MountPoint EndX="0.75" EndY="0.8" Side="Left" StartX="0.25" StartY="0.0" />
@@ -1471,7 +1471,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="1" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
         <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
@@ -1579,7 +1579,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="2" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.7" EndY="2.3" Side="Bottom" StartX="0.3" StartY="0.7" />
         <MountPoint EndX="2.2" EndY="1.2" Side="Left" StartX="0.8" StartY="0.0" />
@@ -1684,7 +1684,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
+      <CriticalComponent Index="1" Subtype="Motor" />
       <MountPoints>
         <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
         <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
@@ -1784,7 +1784,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="1" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm" />
@@ -1868,7 +1868,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="1" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm" />
@@ -1954,7 +1954,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="2" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm" />
@@ -2039,7 +2039,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="4" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction2.mwm" />
@@ -2124,7 +2124,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="6" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction2.mwm" />
@@ -2211,7 +2211,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="8" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction2.mwm" />
@@ -2297,7 +2297,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="1" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm" />
@@ -2381,7 +2381,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="1" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm" />
@@ -2467,7 +2467,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="2" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm" />
@@ -2552,7 +2552,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="4" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension1x1_Racing_Construction2.mwm" />
@@ -2637,7 +2637,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="6" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension3x3_Racing_Construction2.mwm" />
@@ -2724,7 +2724,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="8" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WheelSuspension5x5_Racing_Construction2.mwm" />
@@ -2808,7 +2808,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="4" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel1x1_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel1x1_Racing_Construction2.mwm" />
@@ -2895,7 +2895,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="1" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel1x1_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel1x1_Racing_Construction2.mwm" />
@@ -2980,7 +2980,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="6" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel3x3_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel3x3_Racing_Construction2.mwm" />
@@ -3066,7 +3066,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="1" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel3x3_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel3x3_Racing_Construction2.mwm" />
@@ -3152,7 +3152,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="8" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheel5x5_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Wheel5x5_Racing_Construction2.mwm" />
@@ -3238,7 +3238,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <CriticalComponent Index="2" Subtype="LargeTube" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel5x5_Racing_Construction1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel5x5_Racing_Construction2.mwm" />
@@ -3303,7 +3303,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" ExclusionMask="3" PropertiesMask="3" StartX="0" StartY="0" EndX="1" EndY="0.5" />
       </MountPoints>
@@ -3363,7 +3363,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" ExclusionMask="3" PropertiesMask="3" StartX="0" StartY="0" EndX="1" EndY="0.5" />
       </MountPoints>
@@ -3428,7 +3428,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="1" />
+      <CriticalComponent Subtype="Construction" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Flat_Construction.mwm" />
       </BuildProgressModels>
@@ -3482,7 +3482,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="1" />
+      <CriticalComponent Subtype="Construction" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Slope_Construction.mwm" />
       </BuildProgressModels>
@@ -3543,7 +3543,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="1" />
+      <CriticalComponent Subtype="Construction" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Side_Construction.mwm" />
       </BuildProgressModels>
@@ -3598,7 +3598,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="1" />
+      <CriticalComponent Subtype="Construction" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Face_Construction.mwm" />
       </BuildProgressModels>
@@ -3699,7 +3699,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SmallTube" Index="25" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
         <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />
@@ -3792,7 +3792,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="1" />
+      <CriticalComponent Subtype="Girder" Index="10" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
         <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />
@@ -3885,7 +3885,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GravityGenerator" Index="1" />
+      <CriticalComponent Subtype="Thrust" Index="5" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
         <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />

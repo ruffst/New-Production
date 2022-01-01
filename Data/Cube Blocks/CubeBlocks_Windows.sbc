@@ -34,7 +34,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="8" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0.8" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.2" />
@@ -86,7 +86,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="12" />
       <MountPoints>
         <MountPoint Side="Back" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0.85" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" ExclusionMask="1" PropertiesMask="2" StartX="0" StartY="0" EndX="1" EndY="0.15" />
@@ -146,7 +146,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="40" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2SlopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2SlopeConstruction_2.mwm" />
@@ -208,7 +208,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="30" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2InvConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2InvConstruction_2.mwm" />
@@ -273,7 +273,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="30" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2FaceConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2FaceConstruction_2.mwm" />
@@ -339,7 +339,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="20" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2SideLeftConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2SideLeftConstruction_2.mwm" />
@@ -396,7 +396,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="20" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2SideLeftConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2SideLeftConstruction_2.mwm" />
@@ -453,7 +453,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="20" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2SideRightConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2SideRightConstruction_2.mwm" />
@@ -510,7 +510,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="20" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2SideRightConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2SideRightConstruction_2.mwm" />
@@ -567,7 +567,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="25" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x1SlopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x1SlopeConstruction_2.mwm" />
@@ -628,7 +628,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="16" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x1FaceConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x1FaceConstruction_2.mwm" />
@@ -694,7 +694,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="12" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x1SideConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x1SideConstruction_2.mwm" />
@@ -749,7 +749,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="12" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x1SideConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x1SideConstruction_2.mwm" />
@@ -804,7 +804,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="16" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x1InvConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x1InvConstruction_2.mwm" />
@@ -869,7 +869,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="40" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2FlatConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2FlatConstruction_2.mwm" />
@@ -923,7 +923,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="35" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x2FlatInvConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x2FlatInvConstruction_2.mwm" />
@@ -977,7 +977,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="15" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x1FlatConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x1FlatConstruction_2.mwm" />
@@ -1030,7 +1030,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="15" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window1x1FlatInvConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window1x1FlatInvConstruction_2.mwm" />
@@ -1083,7 +1083,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="160" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window3x3FlatConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window3x3FlatConstruction_2.mwm" />
@@ -1136,7 +1136,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="160" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window3x3FlatInvConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window3x3FlatInvConstruction_2.mwm" />
@@ -1188,7 +1188,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="115" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window2x3FlatConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window2x3FlatConstruction_2.mwm" />
@@ -1242,7 +1242,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="115" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Window2x3FlatInvConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\Window2x3FlatInvConstruction_2.mwm" />
@@ -1297,7 +1297,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Window1x2SlopeConstruction_1.mwm" />
       </BuildProgressModels>
@@ -1358,7 +1358,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2InvConstruction_1.mwm" />
       </BuildProgressModels>
@@ -1422,7 +1422,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2FaceConstruction_1.mwm" />
       </BuildProgressModels>
@@ -1487,7 +1487,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2SideLeftConstruction_1.mwm" />
       </BuildProgressModels>
@@ -1543,7 +1543,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2SideLeftConstruction_1.mwm" />
       </BuildProgressModels>
@@ -1599,7 +1599,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2SideRightConstruction_1.mwm" />
       </BuildProgressModels>
@@ -1655,7 +1655,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Window1x2SideRightConstruction_1.mwm" />
       </BuildProgressModels>
@@ -2008,7 +2008,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2FlatConstruction_1.mwm" />
       </BuildProgressModels>
@@ -2061,7 +2061,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="1" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window1x2FlatInvConstruction_1.mwm" />
       </BuildProgressModels>
@@ -2218,7 +2218,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="9" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window3x3FlatConstruction_1.mwm" />
       </BuildProgressModels>
@@ -2270,7 +2270,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="9" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window3x3FlatInvConstruction_1.mwm" />
       </BuildProgressModels>
@@ -2321,7 +2321,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="6" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window2x3FlatConstruction_1.mwm" />
       </BuildProgressModels>
@@ -2374,7 +2374,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="6" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\Window2x3FlatInvConstruction_1.mwm" />
       </BuildProgressModels>
