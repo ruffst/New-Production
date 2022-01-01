@@ -13,7 +13,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -46,6 +46,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Basic</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -72,7 +75,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -87,6 +90,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Armor leicht</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -113,7 +119,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -134,6 +140,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Armor Alu</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -160,7 +169,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -181,6 +190,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Armor schwer</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -207,7 +219,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -228,6 +240,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Armor Tin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -254,7 +269,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -275,6 +290,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Deko Armor</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -301,7 +319,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -322,6 +340,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Fenster</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -348,7 +369,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -369,6 +390,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Controls</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -395,7 +419,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -416,6 +440,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Medical</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -442,7 +469,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -463,6 +490,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Remote</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -489,7 +519,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -518,6 +548,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Gyroskop</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -544,7 +577,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -579,6 +612,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Gyroskop Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -605,7 +641,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -640,6 +676,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Gyroskop Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -666,7 +705,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -701,6 +740,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Gyroskop Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -727,7 +769,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -754,6 +796,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Tools</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -780,7 +825,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -813,6 +858,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Tools Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -839,7 +887,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -872,6 +920,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Tools Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -898,7 +949,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -931,6 +982,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Tools Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -957,7 +1011,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -990,6 +1044,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein OreDetector</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1016,7 +1073,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1055,6 +1112,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein OreDetector Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1081,7 +1141,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1120,6 +1180,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein OreDetector Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1146,7 +1209,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1185,6 +1248,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein OreDetector Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1211,7 +1277,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1244,6 +1310,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Waffen</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1270,7 +1339,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1303,6 +1372,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Conveyors</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1329,7 +1401,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1344,6 +1416,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Deko</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1370,7 +1445,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1385,6 +1460,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Deko2</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1411,7 +1489,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1444,6 +1522,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Industrial</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1470,7 +1551,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1515,6 +1596,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Industrial Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1541,7 +1625,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1586,6 +1670,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Industrial Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1612,7 +1699,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1657,6 +1744,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Industrial Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1683,7 +1773,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1710,6 +1800,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Automation</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1736,7 +1829,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1751,6 +1844,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Lights</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1777,7 +1873,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1798,6 +1894,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Power</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1824,7 +1923,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1851,6 +1950,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Power Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1877,7 +1979,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1904,6 +2006,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Power Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1930,7 +2035,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1957,6 +2062,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Power Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1983,7 +2091,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2010,6 +2118,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Thruster Atmo</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2036,7 +2147,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2063,6 +2174,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Thruster Hydro</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2089,7 +2203,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2116,6 +2230,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Thruster Hydro</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2142,7 +2259,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2169,6 +2286,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Thruster Hydro Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2195,7 +2315,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2222,6 +2342,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Thruster Hydro Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2248,7 +2371,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2277,6 +2400,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Thruster Ionen</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2303,7 +2429,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2332,6 +2458,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Thruster Ionen Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2358,7 +2487,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2387,6 +2516,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Thruster Ionen Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2413,7 +2545,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2442,6 +2574,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Thruster Ionen Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2468,7 +2603,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2483,6 +2618,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein LCDs</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2509,7 +2647,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2524,6 +2662,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Sound Blocks</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2550,7 +2691,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2573,6 +2714,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Gravity</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2599,7 +2743,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2628,6 +2772,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Jumpdrive</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2654,7 +2801,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2683,6 +2830,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Jumpdrive Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2709,7 +2859,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2738,6 +2888,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Jumpdrive Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2764,7 +2917,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2793,6 +2946,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Jumpdrive Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2819,7 +2975,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2846,6 +3002,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Mechanic</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2872,7 +3031,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2899,6 +3058,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Tore</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2925,7 +3087,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2952,6 +3114,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Räder</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2978,7 +3143,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2999,6 +3164,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Cargos</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3025,7 +3193,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3058,6 +3226,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Cargos Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3084,7 +3255,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3117,6 +3288,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Cargos Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3143,7 +3317,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3176,6 +3350,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Cargos Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3202,7 +3379,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3223,6 +3400,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Communication</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3249,7 +3429,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3276,6 +3456,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Landing</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3302,7 +3485,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3323,6 +3506,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Tanks</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3349,7 +3535,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3376,6 +3562,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Tanks Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3402,7 +3591,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3429,6 +3618,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Tanks Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3455,7 +3647,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3482,6 +3674,9 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein Tanks Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>

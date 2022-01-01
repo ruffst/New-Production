@@ -13,9 +13,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -26,9 +26,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Armor leicht</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -55,9 +58,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -74,9 +77,12 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="500" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Armor schwer</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -103,9 +109,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -122,9 +128,12 @@
       </Components>
       <CriticalComponent Subtype="BulletproofGlass" Index="500" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Fenster</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -151,9 +160,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="1">
           <DeconstructId>
@@ -170,9 +179,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="1" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Controls</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -199,9 +211,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="1">
           <DeconstructId>
@@ -218,9 +230,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="1" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Medical</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -247,9 +262,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="2">
           <DeconstructId>
@@ -266,9 +281,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="3" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Remote</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -295,9 +313,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="5">
           <DeconstructId>
@@ -322,9 +340,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="10" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Gyroskop</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -351,9 +372,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="5">
           <DeconstructId>
@@ -376,9 +397,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="3" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Tools</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -405,9 +429,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="5">
           <DeconstructId>
@@ -436,9 +460,12 @@
       </Components>
       <CriticalComponent Subtype="Detector" Index="50" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small OreDetector</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -465,9 +492,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -496,9 +523,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="5" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Waffen</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -525,9 +555,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="5">
           <DeconstructId>
@@ -556,9 +586,12 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="40" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Conveyors</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -585,9 +618,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="25">
           <DeconstructId>
@@ -610,9 +643,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneCargoMaterial" Index="10" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Automation</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -639,9 +675,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="3">
           <DeconstructId>
@@ -652,9 +688,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="3" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Lights</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -681,9 +720,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="7">
           <DeconstructId>
@@ -700,9 +739,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="7" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Power</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -729,9 +771,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="3">
           <DeconstructId>
@@ -754,9 +796,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="2" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Thruster Atmo</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -783,9 +828,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -808,9 +853,12 @@
       </Components>
       <CriticalComponent Subtype="KupferStrator" Index="25" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Thruster Hydro</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -837,9 +885,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="15">
         </Component>
@@ -864,9 +912,12 @@
       </Components>
       <CriticalComponent Subtype="Thrust" Index="25" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Thruster Ionen</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -893,9 +944,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="3">
           <DeconstructId>
@@ -906,9 +957,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="3" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small LCDs</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -935,9 +989,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="20">
           <DeconstructId>
@@ -960,9 +1014,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="2" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Mechanic</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -989,9 +1046,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="15">
           <DeconstructId>
@@ -1014,9 +1071,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Tore</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1043,9 +1103,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="6">
           <DeconstructId>
@@ -1068,9 +1128,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="6" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Räder</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1097,9 +1160,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="12">
           <DeconstructId>
@@ -1116,9 +1179,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="10" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Cargos</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1145,9 +1211,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -1164,9 +1230,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="5" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Communication</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1193,9 +1262,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="10">
           <DeconstructId>
@@ -1218,9 +1287,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="2" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Landing</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1247,9 +1319,9 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\small\Antenna.mwm</Model>
+      <Model>Models\MilestoneSmall.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="10">
           <DeconstructId>
@@ -1266,9 +1338,12 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
       </BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>Meilenstein_Small Tanks</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
