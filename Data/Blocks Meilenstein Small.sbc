@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-    <!---Meilenstein_Small_Armorlight-->
+  <!---Meilenstein_Small_Armorlight-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -24,7 +24,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -43,7 +43,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Armorheavy-->
+  <!---Meilenstein_Small_Armorheavy-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -72,7 +72,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="0" />
+      <CriticalComponent Subtype="MetalGrid" Index="500" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -91,7 +91,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Fenster-->
+  <!---Meilenstein_Small_Fenster-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -120,7 +120,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="500" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -139,7 +139,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Controls-->
+  <!---Meilenstein_Small_Controls-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -168,7 +168,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="1" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -187,7 +187,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Medical-->
+  <!---Meilenstein_Small_Medical-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -216,7 +216,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="1" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -235,7 +235,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Remote-->
+  <!---Meilenstein_Small_Remote-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -264,7 +264,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="3" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -283,7 +283,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Gyroskop-->
+  <!---Meilenstein_Small_Gyroskop-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -320,7 +320,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -339,7 +339,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Tools-->
+  <!---Meilenstein_Small_Tools-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -374,7 +374,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="3" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -393,7 +393,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_OreDetector-->
+  <!---Meilenstein_Small_OreDetector-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -434,7 +434,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Detector" Index="0" />
+      <CriticalComponent Subtype="Detector" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -453,7 +453,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Waffen-->
+  <!---Meilenstein_Small_Waffen-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -494,7 +494,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -513,7 +513,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Conveyors-->
+  <!---Meilenstein_Small_Conveyors-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -554,7 +554,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Motor" Index="40" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -573,7 +573,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Automation-->
+  <!---Meilenstein_Small_Automation-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -608,7 +608,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneCargoMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneCargoMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -627,7 +627,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Lights-->
+  <!---Meilenstein_Small_Lights-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -650,7 +650,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="3" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -669,7 +669,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Power-->
+  <!---Meilenstein_Small_Power-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -698,7 +698,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="7" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -717,7 +717,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Thruster_Atmo-->
+  <!---Meilenstein_Small_Thruster_Atmo-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -752,7 +752,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -771,7 +771,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Thruster_Hydro-->
+  <!---Meilenstein_Small_Thruster_Hydro-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -806,7 +806,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferStrator" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="25" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -825,7 +825,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Thruster_Ionen-->
+  <!---Meilenstein_Small_Thruster_Ionen-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -862,7 +862,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="Thrust" Index="25" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -881,7 +881,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_LCDs-->
+  <!---Meilenstein_Small_LCDs-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -904,7 +904,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="3" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -923,7 +923,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Mechanic-->
+  <!---Meilenstein_Small_Mechanic-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -958,7 +958,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -977,7 +977,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Tore-->
+  <!---Meilenstein_Small_Tore-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1012,7 +1012,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -1031,7 +1031,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Räder-->
+  <!---Meilenstein_Small_Räder-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1066,7 +1066,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="6" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -1085,7 +1085,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Cargos-->
+  <!---Meilenstein_Small_Cargos-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1114,7 +1114,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="10" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -1133,7 +1133,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Communication-->
+  <!---Meilenstein_Small_Communication-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1162,7 +1162,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -1181,7 +1181,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Landing-->
+  <!---Meilenstein_Small_Landing-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1216,7 +1216,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="2" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
@@ -1235,7 +1235,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Small_Tanks-->
+  <!---Meilenstein_Small_Tanks-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1264,7 +1264,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AntennaConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AntennaConstruction_2.mwm" />
