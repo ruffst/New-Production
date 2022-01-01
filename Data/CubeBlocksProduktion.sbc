@@ -3601,7 +3601,7 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>SmallBlockConveyorBasic</SubtypeId>
       </Id>
-      <DisplayName>Small Bloc kConveyor Basic</DisplayName>
+      <DisplayName>Small Block kConveyor Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <CubeSize>Small</CubeSize>
@@ -3611,7 +3611,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\conveyor.mwm</Model>
       <Components>
-        <Component Subtype="Bleiplatte" Count="2">
+        <Component Subtype="Bleiplatte" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>LeadScrap</SubtypeId>
@@ -3629,7 +3629,7 @@
             <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Bleiplatte" Count="2">
+        <Component Subtype="Bleiplatte" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>LeadScrap</SubtypeId>
