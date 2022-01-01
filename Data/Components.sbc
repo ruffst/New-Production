@@ -46,9 +46,9 @@
             <Volume>15</Volume>
             <Model>Models\Components\metal_grid_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>30</MaxIntegrity>
+            <MaxIntegrity>50</MaxIntegrity>
             <DropProbability>0.95</DropProbability>
-            <Health>69</Health>
+            <Health>79</Health>
             <MinimumOfferAmount>250</MinimumOfferAmount>
             <MaximumOfferAmount>1000</MaximumOfferAmount>
             <MinimumOrderAmount>125</MinimumOrderAmount>
@@ -74,9 +74,9 @@
             <Volume>5</Volume>
             <Model>Models\Components\interior_plate_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>150</MaxIntegrity>
+            <MaxIntegrity>200</MaxIntegrity>
             <DropProbability>0.8</DropProbability>
-            <Health>75</Health>
+            <Health>85</Health>
             <MinimumOfferAmount>1000</MinimumOfferAmount>
             <MaximumOfferAmount>5000</MaximumOfferAmount>
             <MinimumOrderAmount>500</MinimumOrderAmount>
@@ -158,9 +158,9 @@
             <Volume>3</Volume>
             <Model>Models\Components\steel_plate_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>100</MaxIntegrity>
+            <MaxIntegrity>30</MaxIntegrity>
             <DropProbability>0.9</DropProbability>
-            <Health>53</Health>
+            <Health>20</Health>
             <MinimumOfferAmount>250</MinimumOfferAmount>
             <MaximumOfferAmount>2500</MaximumOfferAmount>
             <MinimumOrderAmount>100</MinimumOrderAmount>
