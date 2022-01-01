@@ -78,7 +78,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="60" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
@@ -187,7 +187,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="90" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
@@ -297,7 +297,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="135" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />

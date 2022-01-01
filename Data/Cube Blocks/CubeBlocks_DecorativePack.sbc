@@ -43,7 +43,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <CriticalComponent Subtype="InteriorPlate" Index="10" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
@@ -124,7 +124,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <CriticalComponent Subtype="InteriorPlate" Index="5" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="0.1" Default="true" />
         <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
@@ -204,7 +204,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <CriticalComponent Subtype="InteriorPlate" Index="10" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.32" />
@@ -284,7 +284,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <CriticalComponent Subtype="InteriorPlate" Index="5" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.9" StartY="0" EndX="1" EndY="0.1" Default="true" />
         <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="0.32" />
@@ -369,7 +369,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="Motor" Index="6" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.25" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.25" EndY="1" />
@@ -443,7 +443,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="10" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -539,7 +539,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="10" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -613,7 +613,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="10" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.28" Default="true" />
         <MountPoint Side="Bottom" StartX="0.72" StartY="0.7" EndX="1" EndY="1" Default="true" />
@@ -689,7 +689,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="8" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.28" Default="true" />
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.57" />
@@ -753,7 +753,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <CriticalComponent Subtype="InteriorPlate" Index="10" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0.65" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.35" />
@@ -832,7 +832,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <CriticalComponent Subtype="InteriorPlate" Index="10" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0.65" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.35" EndY="1" />
@@ -924,7 +924,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.28" Default="true" />
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1000,7 +1000,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <CriticalComponent Subtype="LargeTube" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.9" />
@@ -1093,7 +1093,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <CriticalComponent Subtype="LargeTube" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="0.9" />
@@ -1186,7 +1186,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <CriticalComponent Subtype="LargeTube" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.55" StartY="0.2" EndX="1" EndY="0.8" Default="true" />
         <MountPoint Side="Right" StartX="0.31" StartY="0" EndX="0.69" EndY="0.31" />
@@ -1273,7 +1273,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="0" />
+      <CriticalComponent Subtype="Display" Index="10" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
@@ -1379,7 +1379,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="60" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="1.5" EndX="3" EndY="3" Default="true" />
         <MountPoint Side="Left" StartX="2.1" StartY="3.1" EndX="4" EndY="4" />
@@ -1492,7 +1492,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="80" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0.52" StartY="0" EndX="1" EndY="0.48" />

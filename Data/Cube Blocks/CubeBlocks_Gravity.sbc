@@ -71,7 +71,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="40" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75" />
       </MountPoints>
@@ -170,7 +170,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="40" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75" />
       </MountPoints>
@@ -258,7 +258,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GravityGenerator" Index="0" />
+      <CriticalComponent Subtype="GravityGenerator" Index="9" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
         <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
@@ -345,7 +345,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GravityGenerator" Index="0" />
+      <CriticalComponent Subtype="GravityGenerator" Index="1" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.55" File="Models\Cubes\Small\VirtualMassBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\VirtualMassBlockConstruction_2.mwm" />
@@ -417,7 +417,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GravityGenerator" Index="0" />
+      <CriticalComponent Subtype="GravityGenerator" Index="3" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\SpaceBallBlockConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SpaceBallBlockConstruction_2.mwm" />
@@ -495,7 +495,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GravityGenerator" Index="0" />
+      <CriticalComponent Subtype="GravityGenerator" Index="1" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SpaceBallBlockConstruction_1.mwm" />
       </BuildProgressModels>

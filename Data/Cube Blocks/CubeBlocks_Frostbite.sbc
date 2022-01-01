@@ -65,7 +65,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="RadioCommunication" Index="0" />
+      <CriticalComponent Subtype="RadioCommunication" Index="40" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="2" StartY="2" EndX="3" EndY="3" />
       </MountPoints>
@@ -154,7 +154,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="60" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="2" />
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="2" />
@@ -271,7 +271,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="6" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.5" EndY="1" />
         <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
@@ -335,7 +335,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="RadioCommunication" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="0.6" EndY="0.9" Default="true" />
       </MountPoints>
@@ -393,7 +393,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="RadioCommunication" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.3" StartY="0.7" EndX="0.6" EndY="0.9" Default="true" />
       </MountPoints>
@@ -450,7 +450,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="RadioCommunication" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.8" Default="true" />
       </MountPoints>
@@ -507,7 +507,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="RadioCommunication" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.4" StartY="0.5" EndX="0.6" EndY="0.8" Default="true" />
       </MountPoints>
@@ -564,7 +564,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="RadioCommunication" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="0.7" EndY="0.9" Default="true" />
       </MountPoints>
@@ -621,7 +621,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="RadioCommunication" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.4" StartY="0.7" EndX="0.6" EndY="0.9" Default="true" />
       </MountPoints>
