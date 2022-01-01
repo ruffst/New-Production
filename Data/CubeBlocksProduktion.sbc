@@ -939,7 +939,7 @@
 
       <MaxBroadcastRadius>50000</MaxBroadcastRadius>
       <Flare>BeaconLarge</Flare>
-      <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+      <MaxBroadcastPowerDrainkW>0</MaxBroadcastPowerDrainkW>
       <EmissiveColorPreset>Beacon</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
@@ -1003,7 +1003,7 @@
 
       <MaxBroadcastRadius>50000</MaxBroadcastRadius>
       <Flare>BeaconSmall</Flare>
-      <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+      <MaxBroadcastPowerDrainkW>0</MaxBroadcastPowerDrainkW>
       <!-- End Beacon Props-->
       <EmissiveColorPreset>Beacon</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
