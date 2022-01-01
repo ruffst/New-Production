@@ -11,7 +11,7 @@ using VRage.ObjectBuilders;
 namespace DeleteProtection
 {
     
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Beacon), true, new string[] { "Beacon", "BeaconDeleteProtection" })]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Beacon), true, new string[] { "Beacon", "DeleteProtectionLarge", "DeleteProtectionSmall" })]
     public class BeaconDeleteProtection : MyGameLogicComponent
     {
         IMyTerminalBlock beacon;
