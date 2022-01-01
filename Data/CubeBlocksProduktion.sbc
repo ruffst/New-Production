@@ -182,7 +182,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---Holzvergaser Biomasse Verbrenner--> 
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -292,7 +291,6 @@
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---MiniHolzvergaser Mini Biomasse Verbrenner-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -396,7 +394,6 @@
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---SpawnOreDetector-->
     <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
       <Id>
@@ -452,7 +449,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>40</PCU>
     </Definition>
-
     <!--Basic_Battery-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
@@ -532,7 +528,6 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
-
     <!---BasicCargo-->
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
@@ -610,7 +605,6 @@
       </InventorySize>
       <IsAirTight>true</IsAirTight>
     </Definition>
-
     <!---Basic_Sorter-->
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
       <Id>
@@ -686,7 +680,6 @@
       <PCU>25</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-
     <!---SmallBlockGyroBasic-->
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
@@ -765,7 +758,6 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <!---OxygenGeneratorBasic-->
     <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
@@ -882,6 +874,144 @@
         <unsignedInt>2400</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
+    <!---DeleteProtectionLarge-->
+    <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+      <Id>
+        <TypeId>Beacon</TypeId>
+        <SubtypeId>DeleteProtectionLarge</SubtypeId>
+      </Id>
+      <DisplayName>Delete Protection</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\beacon.dds</Icon>
+      <Description>Block um das löschen einen Grid zu verhindern</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\beacon.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="20" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
+        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Left" StartX="0.175" StartY="0.1" EndX="0.825" EndY="0.9" />
+        <MountPoint Side="Right" StartX="0.175" StartY="0.1" EndX="0.825" EndY="0.9" />
+        <MountPoint Side="Front" StartX="0.175" StartY="0.1" EndX="0.825" EndY="0.9" />
+        <MountPoint Side="Back" StartX="0.175" StartY="0.1" EndX="0.825" EndY="0.9" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BeaconConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>DeleteProtektion</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+
+      <MaxBroadcastRadius>50000</MaxBroadcastRadius>
+      <Flare>BeaconLarge</Flare>
+      <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+      <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+    <!---DeleteProtectionSmall-->
+    <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+      <Id>
+        <TypeId>Beacon</TypeId>
+        <SubtypeId>DeleteProtectionSmall</SubtypeId>
+      </Id>
+      <DisplayName>Delete Protection</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\beacon.dds</Icon>
+      <Description>Block um das löschen einen Grid zu verhindern</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\beacon.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BeaconConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BeaconConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>DeleteProtektion</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <!-- Beacon properties -->
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+
+      <MaxBroadcastRadius>50000</MaxBroadcastRadius>
+      <Flare>BeaconSmall</Flare>
+      <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
+      <!-- End Beacon Props-->
+      <EmissiveColorPreset>Beacon</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
 
   <!--1. buildstufe-->
 

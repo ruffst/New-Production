@@ -11,6 +11,14 @@
         <BlockId Type="MyObjectBuilder_Reactor" Subtype="MiniHolzvergaser" />
       </Members>
     </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Basic_System_Items 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Basic_System_Items" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
+        <BlockId Type="MyObjectBuilder_Beacon" Subtype="DeleteProtectionLarge" />
+        <BlockId Type="MyObjectBuilder_Beacon" Subtype="DeleteProtectionSmall" />
+      </Members>
+    </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Basic 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Basic" />
       <Members>
