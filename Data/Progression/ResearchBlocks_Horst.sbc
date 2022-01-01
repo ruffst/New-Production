@@ -5334,12 +5334,6 @@
             <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankSmall  Meilenstein_Small_Tanks-->
-          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTankSmall  Meilenstein_Small_Tanks-->
           <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
           <UnlockedByGroups>
