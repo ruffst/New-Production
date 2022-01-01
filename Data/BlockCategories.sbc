@@ -31,7 +31,8 @@
         <string>Assembler/Fertiger</string>
         <string>Assembler/VerbrauchsmaterialAssembler</string>
         <string>Assembler/Legierer</string>
-        
+
+        <string>Beacon/DeleteProtektionLarge</string>       
 
         <string>Assembler/LargeAssemblerIndustrial</string>
         <string>AirtightSlideDoor/LargeBlockSlideDoor</string>
@@ -522,6 +523,8 @@
       <Name>SmallBlocks</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>
+        <string>Beacon/DeleteProtektionSmall</string>
+
         <string>MotorAdvancedStator/SmallAdvancedStator</string>
         <string>MotorAdvancedStator/MediumHinge</string>
         <string>MotorAdvancedStator/SmallHinge</string>

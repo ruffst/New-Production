@@ -115,7 +115,7 @@
               <ColorMaskHSV x="0" y="-0.8" z="-0.342101544" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Beacon">
-              <SubtypeName>SmallBlockBeacon</SubtypeName>
+              <SubtypeName>DeleteProtectionSmall</SubtypeName>
               <EntityId>115130200240453026</EntityId>
               <Min x="-1" y="0" z="3" />
               <BlockOrientation Forward="Down" Up="Right" />
@@ -125,8 +125,8 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
-              <Enabled>false</Enabled>
-              <BroadcastRadius>1499.99963</BroadcastRadius>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>7500</BroadcastRadius>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorInvCorner2Base</SubtypeName>
