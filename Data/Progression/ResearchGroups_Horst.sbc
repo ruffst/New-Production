@@ -8,6 +8,7 @@
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0" />
       <Members>
         <BlockId Type="MyObjectBuilder_Reactor" Subtype="Holzvergaser" />
+        <BlockId Type="MyObjectBuilder_Reactor" Subtype="MiniHolzvergaser" />
       </Members>
     </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Basic 0-->

@@ -5289,12 +5289,6 @@
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTank  Meilenstein_Tanks-->
-          <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankIndustrial  Meilenstein_Tanks-->
           <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial" />
           <UnlockedByGroups>
@@ -5346,6 +5340,13 @@
             <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTank  Meilenstein_Tanks-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
 
   <!--Meilenstein_Tanks_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Gold  Meilenstein_Tanks-->
