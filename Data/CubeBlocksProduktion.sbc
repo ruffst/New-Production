@@ -1343,7 +1343,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MetalGrid" Count="160">
+        <Component Subtype="MetalGrid" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -3015,7 +3015,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <Center x="1" y="1" z="5" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
