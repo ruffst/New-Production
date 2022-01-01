@@ -74,9 +74,9 @@
             <Volume>5</Volume>
             <Model>Models\Components\interior_plate_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>200</MaxIntegrity>
+            <MaxIntegrity>300</MaxIntegrity>
             <DropProbability>0.8</DropProbability>
-            <Health>150</Health>
+            <Health>85</Health>
             <MinimumOfferAmount>1000</MinimumOfferAmount>
             <MaximumOfferAmount>5000</MaximumOfferAmount>
             <MinimumOrderAmount>500</MinimumOrderAmount>
