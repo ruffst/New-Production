@@ -60,7 +60,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
@@ -91,7 +91,12 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+      </Definition>
+
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -152,7 +157,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
@@ -183,6 +188,7 @@
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
+    
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -235,6 +241,7 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
     <Definition xsi:type="MyObjectBuilder_PistonBaseDefinition">
       <Id>
         <TypeId>PistonBase</TypeId>
@@ -294,7 +301,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
@@ -326,6 +333,7 @@
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
+    
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -387,7 +395,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
@@ -418,6 +426,7 @@
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
+    
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -468,6 +477,7 @@
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>1</PCU>
     </Definition>
+
     <!-- End Region Piston-->
     <!-- Region MotorStator-->
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
@@ -527,7 +537,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
@@ -551,7 +561,7 @@
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
       <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <PropulsionForce>8000</PropulsionForce>
-      <RotorPart>MotorRotor</RotorPart>
+      <RotorPart>LargeMotorRotor</RotorPart>
       <RotorDisplacementMin>-0.4</RotorDisplacementMin>
       <RotorDisplacementMax>0.2</RotorDisplacementMax>
       <RotorDisplacementMinSmall>-0.11</RotorDisplacementMinSmall>
@@ -568,6 +578,7 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
     <Definition>
       <Id>
         <TypeId>MotorRotor</TypeId>
@@ -576,7 +587,7 @@
       <DisplayName>DisplayName_Block_RotorPart</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\RotorPart.dds</Icon>
       <Description>Description_RotorPart</Description>
-      <BlockPairName>LargeRotor</BlockPairName>
+      <BlockPairName>LargeMotorRotor</BlockPairName>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -614,6 +625,54 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>MotorRotor</TypeId>
+        <SubtypeId>SmallRotor1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_RotorPart</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\RotorPart.dds</Icon>
+      <Description>Description_RotorPart</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\MotorRotor.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="6">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorRotorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorRotorConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeMotorRotor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <RotorPart>LargeMotorRotor</RotorPart>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
       <Id>
         <TypeId>MotorStator</TypeId>
@@ -671,7 +730,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
@@ -693,7 +752,7 @@
       <RequiredPowerInput>0.0002</RequiredPowerInput>
       <MaxForceMagnitude>1E6</MaxForceMagnitude>
       <DangerousTorqueThreshold>448000</DangerousTorqueThreshold>
-      <RotorPart>MotorRotor</RotorPart>
+      <RotorPart>SmallMotorRotor</RotorPart>
       <RotorDisplacementMin>-0.11</RotorDisplacementMin>
       <RotorDisplacementMax>0.11</RotorDisplacementMax>
       <RotorDisplacementMinSmall>-0.11</RotorDisplacementMinSmall>
@@ -709,6 +768,7 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
     <Definition>
       <Id>
         <TypeId>MotorRotor</TypeId>
@@ -746,15 +806,16 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorRotorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorRotorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallRotor</BlockPairName>
+      <BlockPairName>SmallMotorRotor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>2</BuildTimeSeconds>
-      <RotorPart>MotorRotor</RotorPart>
+      <RotorPart>SmallMotorRotor</RotorPart>
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
     <!-- End Region MotorStator-->
     <!-- Region AdvMotorStator-->
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
@@ -839,7 +900,7 @@
       <RequiredPowerInput>0.002</RequiredPowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
       <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-      <RotorPart>MotorAdvancedRotor</RotorPart>
+      <RotorPart>LargeMotorAdvancedRotor</RotorPart>
       <RotorDisplacementMin>-0.4</RotorDisplacementMin>
       <RotorDisplacementMax>0.2</RotorDisplacementMax>
       <RotorDisplacementMinSmall>-0.11</RotorDisplacementMinSmall>
@@ -855,6 +916,7 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -894,7 +956,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorAdvancedRotorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorAdvancedRotorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeAdvancedRotor</BlockPairName>
+      <BlockPairName>LargeMotorAdvancedRotor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -902,6 +964,53 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>MotorAdvancedRotor</TypeId>
+        <SubtypeId>SmallAdvancedRotor1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_RotorPart</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AdvancedRotorPart.dds</Icon>
+      <Description>Description_AdvancedRotor</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="-0.25" z="0" />
+      <Model>Models\Cubes\Small\MotorAdvancedRotor.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="4" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorAdvancedRotorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorAdvancedRotorConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeMotorAdvancedRotor</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <RotorPart>LargeMotorAdvancedRotor</RotorPart>
+      <PCU>1</PCU>
+    </Definition>
+
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -961,7 +1070,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="1" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="4" Default="true" />
       </MountPoints>
@@ -979,7 +1088,7 @@
       <RequiredPowerInput>0.0002</RequiredPowerInput>
       <MaxForceMagnitude>1E6</MaxForceMagnitude>
       <DangerousTorqueThreshold>448000</DangerousTorqueThreshold>
-      <RotorPart>MotorAdvancedRotor</RotorPart>
+      <RotorPart>SmallMotorAdvancedRotor</RotorPart>
       <RotorDisplacementMin>-0.02</RotorDisplacementMin>
       <RotorDisplacementMax>0.11</RotorDisplacementMax>
       <RotorDisplacementMinSmall>-0.02</RotorDisplacementMinSmall>
@@ -994,6 +1103,7 @@
       <RotorType>Rotor</RotorType>
       <PCU>100</PCU>
     </Definition>
+
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1031,14 +1141,15 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorAdvancedRotorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorAdvancedRotorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallAdvancedRotor</BlockPairName>
+      <BlockPairName>SmallMotorAdvancedRotor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>4</BuildTimeSeconds>
-      <RotorPart>MotorAdvancedRotor</RotorPart>
+      <RotorPart>SmallMotorAdvancedRotor</RotorPart>
       <PCU>1</PCU>
     </Definition>
+
     <!-- End Region AdvMotorStator-->
     <!-- Region HingeBlocks-->
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
@@ -1098,7 +1209,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="2" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
       </MountPoints>
@@ -1132,6 +1243,7 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
+
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1185,6 +1297,61 @@
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
     </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>MotorAdvancedRotor</TypeId>
+        <SubtypeId>MediumHingeHead1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_MediumHingeHead</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HingeHeadMedium.dds</Icon>
+      <Description>Description_HingeHead</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\HingeHeadMedium.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HingeHeadMediumConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeHingeHead</BlockPairName>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <UseModelIntersection>true</UseModelIntersection>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <PCU>1</PCU>
+    </Definition>
+
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -1253,7 +1420,7 @@
       <BlockPairName>MediumHinge</BlockPairName>
       <BuildTimeSeconds>12</BuildTimeSeconds>
       <UseModelIntersection>true</UseModelIntersection>
-      <RotorPart>LargeHingeHead</RotorPart>
+      <RotorPart>MediumHingeHead</RotorPart>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -1275,6 +1442,7 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
+
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1328,6 +1496,7 @@
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
     </Definition>
+
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
