@@ -80,7 +80,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="30" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Right" StartX="0.2" StartY="0.55" EndX="0.3" EndY="0.85" />
@@ -194,7 +194,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="60" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="1.1" StartY="1.1" EndX="1.9" EndY="1.9" />
         <MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />
@@ -316,7 +316,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="30" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <Center x="1" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
@@ -440,7 +440,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldStrator" Index="15" />
+      <CriticalComponent Subtype="GoldStrator" Index="0" />
       <Center x="1" y="1" z="3" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -571,7 +571,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldStrator" Index="8" />
+      <CriticalComponent Subtype="GoldStrator" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
       </MountPoints>
@@ -698,7 +698,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldStrator" Index="45" />
+      <CriticalComponent Subtype="GoldStrator" Index="0" />
       <Center x="1" y="1" z="3" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -831,7 +831,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldStrator" Index="30" />
+      <CriticalComponent Subtype="GoldStrator" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
       </MountPoints>
@@ -983,7 +983,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="45" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Right" StartX="0.2" StartY="0.55" EndX="0.3" EndY="0.85" />
@@ -1097,7 +1097,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="90" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="1.1" StartY="1.1" EndX="1.9" EndY="1.9" />
         <MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />
@@ -1219,7 +1219,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="45" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <Center x="1" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
@@ -1343,7 +1343,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinStrator" Index="23" />
+      <CriticalComponent Subtype="PlatinStrator" Index="0" />
       <Center x="1" y="1" z="3" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -1474,7 +1474,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinStrator" Index="12" />
+      <CriticalComponent Subtype="PlatinStrator" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
       </MountPoints>
@@ -1601,7 +1601,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinStrator" Index="68" />
+      <CriticalComponent Subtype="PlatinStrator" Index="0" />
       <Center x="1" y="1" z="3" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -1734,7 +1734,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinStrator" Index="45" />
+      <CriticalComponent Subtype="PlatinStrator" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
       </MountPoints>
@@ -1886,7 +1886,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="68" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Right" StartX="0.2" StartY="0.55" EndX="0.3" EndY="0.85" />
@@ -2000,7 +2000,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="135" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="1.1" StartY="1.1" EndX="1.9" EndY="1.9" />
         <MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />
@@ -2122,7 +2122,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="68" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <Center x="1" y="0" z="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
@@ -2246,7 +2246,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanStrator" Index="34" />
+      <CriticalComponent Subtype="TitanStrator" Index="0" />
       <Center x="1" y="1" z="3" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -2377,7 +2377,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanStrator" Index="17" />
+      <CriticalComponent Subtype="TitanStrator" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
       </MountPoints>
@@ -2504,7 +2504,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanStrator" Index="102" />
+      <CriticalComponent Subtype="TitanStrator" Index="0" />
       <Center x="1" y="1" z="3" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.3" StartY="0" EndX="2.7" EndY="0.6" />
@@ -2637,7 +2637,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanStrator" Index="68" />
+      <CriticalComponent Subtype="TitanStrator" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
       </MountPoints>

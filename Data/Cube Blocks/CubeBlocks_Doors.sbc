@@ -79,7 +79,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="25" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
         <MountPoint Side="Right" PropertiesMask="1" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
@@ -186,7 +186,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="20" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="4" />
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
@@ -280,7 +280,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="25" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
         <MountPoint Side="Right" StartX="0.15" StartY="2" EndX="0.3" EndY="3" />
@@ -392,7 +392,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="15" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1" />
         <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1" />
@@ -459,7 +459,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="125" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.3" File="Models\Cubes\Large\ArmorCenterConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\ArmorCenterConstruction_2.mwm" />
@@ -509,7 +509,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="105" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.3" File="Models\Cubes\Large\ArmorCornerConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\ArmorCornerConstruction_2.mwm" />
@@ -563,7 +563,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="120" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.3" File="Models\Cubes\Large\ArmorInvCornerConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\ArmorInvCornerConstruction_2.mwm" />
@@ -617,7 +617,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="115" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.3" File="Models\Cubes\Large\ArmorSideConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\ArmorSideConstruction_2.mwm" />
@@ -669,7 +669,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="3" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ArmorCenterConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\ArmorCenterConstruction_2.mwm" />
@@ -718,7 +718,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="3" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ArmorCornerConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\ArmorCornerConstruction_2.mwm" />
@@ -771,7 +771,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="3" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ArmorInvCornerConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\ArmorInvCornerConstruction_2.mwm" />
@@ -824,7 +824,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="3" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ArmorSideConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\ArmorSideConstruction_2.mwm" />

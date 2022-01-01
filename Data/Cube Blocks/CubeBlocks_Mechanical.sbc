@@ -60,7 +60,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
@@ -91,12 +91,7 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>100</PCU>
-      <IsAirTight>false</IsAirTight>
-      </Definition>
-
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -157,7 +152,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
@@ -188,7 +183,6 @@
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
-    
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -218,7 +212,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="10" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
@@ -241,7 +235,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_PistonBaseDefinition">
       <Id>
         <TypeId>PistonBase</TypeId>
@@ -301,7 +294,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="1" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
@@ -333,7 +326,6 @@
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
-    
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -395,7 +387,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="1" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="1.7" />
@@ -426,7 +418,6 @@
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
-    
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -456,7 +447,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="4" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
@@ -477,7 +468,6 @@
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>1</PCU>
     </Definition>
-
     <!-- End Region Piston-->
     <!-- Region MotorStator-->
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
@@ -537,7 +527,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
@@ -578,7 +568,6 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorRotor</TypeId>
@@ -609,7 +598,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="30" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
@@ -625,7 +614,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorRotor</TypeId>
@@ -672,7 +660,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
       <Id>
         <TypeId>MotorStator</TypeId>
@@ -730,7 +717,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="1" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
@@ -768,7 +755,6 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorRotor</TypeId>
@@ -798,7 +784,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="12" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
@@ -815,7 +801,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <!-- End Region MotorStator-->
     <!-- Region AdvMotorStator-->
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
@@ -877,7 +862,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
         <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.61" />
@@ -916,7 +901,6 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -947,7 +931,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="30" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
@@ -964,7 +948,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1010,7 +993,6 @@
       <RotorPart>LargeMotorAdvancedRotor</RotorPart>
       <PCU>1</PCU>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -1070,7 +1052,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="1" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="4" Default="true" />
       </MountPoints>
@@ -1103,7 +1085,6 @@
       <RotorType>Rotor</RotorType>
       <PCU>100</PCU>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1133,7 +1114,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="30" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="4" Default="true" />
       </MountPoints>
@@ -1149,7 +1130,6 @@
       <RotorPart>SmallMotorAdvancedRotor</RotorPart>
       <PCU>1</PCU>
     </Definition>
-
     <!-- End Region AdvMotorStator-->
     <!-- Region HingeBlocks-->
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
@@ -1209,7 +1189,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
       </MountPoints>
@@ -1243,7 +1223,6 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1283,7 +1262,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="8" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
       </MountPoints>
@@ -1297,7 +1276,6 @@
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1337,7 +1315,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
@@ -1351,7 +1329,6 @@
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -1409,7 +1386,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="2.9" EndY="3" />
       </MountPoints>
@@ -1442,7 +1419,6 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
-
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1482,7 +1458,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="4" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
@@ -1496,7 +1472,6 @@
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -1554,7 +1529,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
       </MountPoints>
@@ -1627,7 +1602,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="2" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
       </MountPoints>

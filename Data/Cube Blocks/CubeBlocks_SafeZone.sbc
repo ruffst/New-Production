@@ -40,7 +40,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="1" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />

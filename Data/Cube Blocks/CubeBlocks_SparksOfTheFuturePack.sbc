@@ -52,7 +52,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="250" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="5" />
@@ -144,7 +144,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="150" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="3" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="3" />
@@ -236,7 +236,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="90" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="3" />
@@ -317,7 +317,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="InteriorPlate" Index="5" />
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\InteriorWallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\InteriorWallConstruction_2.mwm" />
@@ -365,7 +365,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="6" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
         <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
@@ -417,7 +417,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="6" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
         <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
@@ -469,7 +469,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="6" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
         <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
@@ -523,7 +523,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="12" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
         <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
@@ -576,7 +576,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="3" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
         <MountPoint Side="Bottom" StartX="0" StartY="0.4" EndX="0.06" EndY="0.6" Default="true" />
@@ -626,7 +626,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="6" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
         <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
@@ -678,7 +678,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="6" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
         <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.1" />
@@ -730,7 +730,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="9" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
         <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="0.06" />
@@ -782,7 +782,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="18" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
         <MountPoint Side="Left" StartX="0.4" StartY="0" EndX="0.6" EndY="1" />
@@ -848,7 +848,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="4" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartY="0.3" StartX="0.3" EndY="0.8" EndX="0.7" />
       </MountPoints>
@@ -925,7 +925,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="4" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.4" StartY="0.25" EndX="0.6" EndY="0.5" />
       </MountPoints>
@@ -1065,7 +1065,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="16" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="4" />
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
@@ -1140,7 +1140,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="6" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.25" Default="true" />
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.37" />
@@ -1209,7 +1209,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="10" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.25" Default="true" />
         <MountPoint Side="Bottom" StartX="0.75" StartY="0.25" EndX="1" EndY="1" />
@@ -1286,7 +1286,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="5" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.1" StartY="0" EndX="0.9" EndY="0.4" />
         <MountPoint Side="Bottom" StartX="0.1" StartY="0" EndX="0.9" EndY="0.1" Default="true" />
@@ -1410,7 +1410,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="1" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1529,7 +1529,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="1" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -1650,7 +1650,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="20" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1769,7 +1769,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="30" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
@@ -1898,7 +1898,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="20" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
         <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
@@ -2032,7 +2032,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="20" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true" />
         <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
@@ -2166,7 +2166,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="10" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true" />
         <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
@@ -2300,7 +2300,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="2" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />

@@ -53,7 +53,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="3" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="1" />
@@ -149,7 +149,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="6" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="6" EndY="3" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="3" />
@@ -249,7 +249,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="3" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="3" />
@@ -335,7 +335,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="3" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.76" EndX="1.00" EndY="1.00" />
@@ -411,7 +411,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="3" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.76" EndX="1.00" EndY="1.00" />
         <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.1" />
@@ -487,7 +487,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="3" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
@@ -563,7 +563,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="3" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.76" EndX="1.00" EndY="1.00" />
@@ -639,7 +639,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.76" EndX="1.00" EndY="1.00" />
@@ -710,7 +710,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.76" EndX="1.00" EndY="1.00" />
       </MountPoints>
@@ -780,7 +780,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.1" />
@@ -851,7 +851,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="2" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.1" />
@@ -933,7 +933,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="10" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0.2" EndX="0.1" EndY="0.8" />
@@ -1023,7 +1023,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="10" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />
@@ -1113,7 +1113,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="20" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
         <MountPoint Side="Left" StartX="0" StartY="0.1" EndX="0.1" EndY="0.9" />

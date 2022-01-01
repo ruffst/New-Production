@@ -58,7 +58,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="10" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
         <MountPoint Side="Left" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -168,7 +168,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="40" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
         <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
@@ -287,7 +287,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="40" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="1" EndX="3" EndY="2" />
         <MountPoint Side="Top" StartX="1" StartY="0" EndX="2" EndY="1" />
@@ -399,7 +399,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="40" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -506,7 +506,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="20" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="1.0" StartY="1.0" EndX="4.0" EndY="4.0" />
         <MountPoint Side="Top" StartX="2.0" StartY="0.0" EndX="3.0" EndY="1.0" />
@@ -630,7 +630,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="2" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" Default="true" />
@@ -729,7 +729,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="5" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -813,7 +813,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="5" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
@@ -904,7 +904,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="1" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -987,7 +987,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="1" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
@@ -1070,7 +1070,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Display" Index="1" />
+      <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="5" EndY="5" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="5" EndY="5" />
@@ -1169,7 +1169,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="5" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1271,7 +1271,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="20" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
         <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
@@ -1338,7 +1338,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="1" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <Mountpoints>
         <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
         <MountPoint Side="Top" StartX="1.0" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -1416,7 +1416,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="10" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorConstruction_2.mwm" />
@@ -1498,7 +1498,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="10" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CollectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CollectorConstruction_2.mwm" />
@@ -1594,7 +1594,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="8" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CollectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CollectorConstruction_2.mwm" />
@@ -1683,7 +1683,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="20" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConnectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConnectorConstruction_2.mwm" />
@@ -1775,7 +1775,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="4" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorConstruction_2.mwm" />
@@ -1866,7 +1866,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="6" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConnectorMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConnectorMediumConstruction_2.mwm" />
@@ -1944,7 +1944,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="6" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeConstruction_2.mwm" />
@@ -2004,7 +2004,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="1" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0.1" StartY="0.1" EndX="0.2" EndY="0.9" Default="true" />
         <MountPoint Side="Back" StartX="0.8" StartY="0.1" EndX="0.9" EndY="0.9" />
@@ -2076,7 +2076,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="6" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeMediumConstruction_2.mwm" />
@@ -2151,7 +2151,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="2" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorFrameMediumConstruction_1.mwm" />
       </BuildProgressModels>
@@ -2225,7 +2225,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="6" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorTubeCurvedConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorTubeCurvedConstruction_2.mwm" />
@@ -2288,7 +2288,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="1" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTubeCurvedConstruction_1.mwm" />
       </BuildProgressModels>
@@ -2355,7 +2355,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="6" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorTurnMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorTurnMediumConstruction_2.mwm" />
@@ -2437,7 +2437,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="15" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ConveyorHubConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\ConveyorHubConstruction_2.mwm" />
@@ -2537,7 +2537,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="20" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorSorterConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorSorterConstruction_2.mwm" />
@@ -2629,7 +2629,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="2" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorSorterMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorSorterMediumConstruction_2.mwm" />
@@ -2719,7 +2719,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="2" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ConveyorSorterSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorSorterSmallConstruction_2.mwm" />

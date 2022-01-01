@@ -34,7 +34,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="8" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0.37" EndX="1" EndY="0.63" />
         <MountPoint Side="Left" StartX="0.37" StartY="0" EndX="0.63" EndY="0.1" />
@@ -91,7 +91,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="1" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Debug\RenderDebugSpheres.mwm" />
       </BuildProgressModels>
@@ -141,7 +141,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="1" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Debug\RenderDebugSpheresMetallic.mwm" />
       </BuildProgressModels>
@@ -191,7 +191,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="1" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Debug\RenderDebugSpheresMetallic.mwm" />
       </BuildProgressModels>

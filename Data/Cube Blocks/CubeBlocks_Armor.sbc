@@ -40,7 +40,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="20" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SquarePlateConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SquarePlateConstruction_2.mwm" RandomOrientation="true" />
@@ -203,7 +203,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="10" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -338,7 +338,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="3" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
         <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -446,7 +446,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="16" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -605,7 +605,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="10" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -666,7 +666,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="3" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.2" EndY="1" />
         <MountPoint Side="Front" StartX="0.2" StartY="0" EndX="0.8" EndY="0.8" />
@@ -735,7 +735,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="16" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -811,7 +811,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="50" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -989,7 +989,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="25" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1131,7 +1131,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="10" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
         <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -1246,7 +1246,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="50" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1401,7 +1401,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1565,7 +1565,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1694,7 +1694,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
         <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -1796,7 +1796,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1962,7 +1962,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="2" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -2138,7 +2138,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -2279,7 +2279,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
         <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -2393,7 +2393,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -2555,7 +2555,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="10" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SquarePlateSlabConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SquarePlateSlabConstruction_2.mwm" />
@@ -2734,7 +2734,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="25" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
@@ -2906,7 +2906,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="5" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SquarePlateSlopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\SquarePlateSlopeConstruction_2.mwm" />
@@ -3084,7 +3084,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="15" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
@@ -3252,7 +3252,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SquarePlateSlabConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SquarePlateSlabConstruction_2.mwm" />
@@ -3431,7 +3431,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySquarePlateSlabConstruction_2.mwm" />
@@ -3597,7 +3597,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\SquarePlateSlopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\SquarePlateSlopeConstruction_2.mwm" />
@@ -3775,7 +3775,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\Armor\HeavySquarePlateSlopeConstruction_2.mwm" />
@@ -3948,7 +3948,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="10" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -4083,7 +4083,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="3" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
         <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -4191,7 +4191,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="16" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -4358,7 +4358,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="50" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -4500,7 +4500,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="40" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
         <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -4615,7 +4615,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="50" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -4771,7 +4771,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -4900,7 +4900,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
         <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -5002,7 +5002,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -5169,7 +5169,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -5310,7 +5310,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
         <MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
@@ -5424,7 +5424,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -5589,7 +5589,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="15" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\Slope2BaseConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\Slope2BaseConstruction_2.mwm" />
@@ -5762,7 +5762,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="5" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -5900,7 +5900,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="8" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
@@ -6038,7 +6038,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="3" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.9" StartY="0.8" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0.6" StartY="0.2" EndX="1" EndY="0.8" />
@@ -6147,7 +6147,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="18" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -6310,7 +6310,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="13" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
         <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
@@ -6482,7 +6482,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="45" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySlope2BaseConstruction_2.mwm" />
@@ -6661,7 +6661,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="6" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -6805,7 +6805,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="15" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
@@ -6949,7 +6949,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="6" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.9" StartY="0.8" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0.6" StartY="0.2" EndX="1" EndY="0.8" />
@@ -7064,7 +7064,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="45" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -7233,7 +7233,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="25" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
         <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
@@ -7393,7 +7393,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -7560,7 +7560,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -7692,7 +7692,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
@@ -7824,7 +7824,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.9" StartY="0.8" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0.6" StartY="0.2" EndX="1" EndY="0.8" />
@@ -7927,7 +7927,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -8084,7 +8084,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
         <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
@@ -8256,7 +8256,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -8435,7 +8435,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.5" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -8579,7 +8579,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="0.5" />
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="0.5" />
@@ -8723,7 +8723,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.9" StartY="0.8" EndX="1" EndY="1" />
         <MountPoint Side="Bottom" StartX="0.6" StartY="0.2" EndX="1" EndY="0.8" />
@@ -8838,7 +8838,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -9007,7 +9007,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="1" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1" />
         <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
