@@ -881,14 +881,14 @@
         <SubtypeId>DeleteProtectionLarge</SubtypeId>
       </Id>
       <DisplayName>Delete Protection</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\beacon.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\beaconLG.dds</Icon>
       <Description>Block um das löschen einen Grid zu verhindern</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\beacon.mwm</Model>
+      <Model>Models\LG_DeleteProtection.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20">
           <DeconstructId>
@@ -916,18 +916,11 @@
         </Component>
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="20" />
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" Default="true" />
-        <MountPoint Side="Top" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Left" StartX="0.175" StartY="0.1" EndX="0.825" EndY="0.9" />
-        <MountPoint Side="Right" StartX="0.175" StartY="0.1" EndX="0.825" EndY="0.9" />
-        <MountPoint Side="Front" StartX="0.175" StartY="0.1" EndX="0.825" EndY="0.9" />
-        <MountPoint Side="Back" StartX="0.175" StartY="0.1" EndX="0.825" EndY="0.9" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BeaconConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BeaconConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BeaconConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LG_DeleteProtection_BS1.mwm" />
       </BuildProgressModels>
       <BlockPairName>DeleteProtektion</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -953,14 +946,14 @@
         <SubtypeId>DeleteProtectionSmall</SubtypeId>
       </Id>
       <DisplayName>Delete Protection</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\beacon.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\beaconSG.dds</Icon>
       <Description>Block um das löschen einen Grid zu verhindern</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\beacon.mwm</Model>
+      <Model>Models\SG_DeleteProtection.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1">
           <DeconstructId>
@@ -989,9 +982,11 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="1" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BeaconConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BeaconConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_DeleteProtection_BS1.mwm" />
       </BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
       <BlockPairName>DeleteProtektion</BlockPairName>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
