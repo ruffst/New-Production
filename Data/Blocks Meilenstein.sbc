@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-    <!---Meilenstein_Basic-->
+  <!---Meilenstein_Basic-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -35,6 +35,12 @@
             <SubtypeId>LeadScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SmallTube" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -42,7 +48,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Bleiplatte" Index="0" />
+      <CriticalComponent Subtype="SmallTube" Index="50" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
@@ -60,7 +66,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Armorlight-->
+  <!---Meilenstein_Armorlight-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -101,7 +107,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Armor_Alu-->
+  <!---Meilenstein_Armor_Alu-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -148,7 +154,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Armorheavy-->
+  <!---Meilenstein_Armorheavy-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -195,7 +201,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Armor_Tin-->
+  <!---Meilenstein_Armor_Tin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -242,7 +248,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_ArmorDeko-->
+  <!---Meilenstein_ArmorDeko-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -289,7 +295,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Fenster-->
+  <!---Meilenstein_Fenster-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -336,7 +342,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Controls-->
+  <!---Meilenstein_Controls-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -383,7 +389,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Medical-->
+  <!---Meilenstein_Medical-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -430,7 +436,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Remote-->
+  <!---Meilenstein_Remote-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -477,7 +483,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Gyroskop-->
+  <!---Meilenstein_Gyroskop-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -532,7 +538,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Gyroskop_Gold-->
+  <!---Meilenstein_Gyroskop_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -593,7 +599,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Gyroskop_Platin-->
+  <!---Meilenstein_Gyroskop_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -654,7 +660,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Gyroskop_Titan-->
+  <!---Meilenstein_Gyroskop_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -715,7 +721,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Tools-->
+  <!---Meilenstein_Tools-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -768,7 +774,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Tools_Gold-->
+  <!---Meilenstein_Tools_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -827,7 +833,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Tools_Platin-->
+  <!---Meilenstein_Tools_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -886,7 +892,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Tools_Titan-->
+  <!---Meilenstein_Tools_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -945,7 +951,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_OreDetector-->
+  <!---Meilenstein_OreDetector-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1004,7 +1010,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_OreDetector_Gold-->
+  <!---Meilenstein_OreDetector_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1069,7 +1075,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_OreDetector_Platin-->
+  <!---Meilenstein_OreDetector_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1134,7 +1140,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_OreDetector_Titan-->
+  <!---Meilenstein_OreDetector_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1199,7 +1205,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Waffen-->
+  <!---Meilenstein_Waffen-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1258,7 +1264,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Conveyors-->
+  <!---Meilenstein_Conveyors-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1317,7 +1323,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Deko1-->
+  <!---Meilenstein_Deko1-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1358,7 +1364,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Deko2-->
+  <!---Meilenstein_Deko2-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1399,7 +1405,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Industrial-->
+  <!---Meilenstein_Industrial-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1458,7 +1464,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Industrial_Gold-->
+  <!---Meilenstein_Industrial_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1529,7 +1535,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Industrial_Platin-->
+  <!---Meilenstein_Industrial_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1600,7 +1606,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Industrial_Titan-->
+  <!---Meilenstein_Industrial_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1671,7 +1677,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Automation-->
+  <!---Meilenstein_Automation-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1724,7 +1730,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Lights-->
+  <!---Meilenstein_Lights-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1765,7 +1771,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Power-->
+  <!---Meilenstein_Power-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1812,7 +1818,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Power_Gold-->
+  <!---Meilenstein_Power_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1865,7 +1871,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Power_Platin-->
+  <!---Meilenstein_Power_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1918,7 +1924,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Power_Titan-->
+  <!---Meilenstein_Power_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1971,7 +1977,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Thruster_Atmo-->
+  <!---Meilenstein_Thruster_Atmo-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2024,7 +2030,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Thruster_Hydro-->
+  <!---Meilenstein_Thruster_Hydro-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2077,7 +2083,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Thruster_Hydro_Gold-->
+  <!---Meilenstein_Thruster_Hydro_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2130,7 +2136,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Thruster_Hydro_Platin-->
+  <!---Meilenstein_Thruster_Hydro_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2183,7 +2189,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Thruster_Hydro_Titan-->
+  <!---Meilenstein_Thruster_Hydro_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2236,7 +2242,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Thruster_Ionen-->
+  <!---Meilenstein_Thruster_Ionen-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2291,7 +2297,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Thruster_Ionen_Gold-->
+  <!---Meilenstein_Thruster_Ionen_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2346,7 +2352,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Thruster_Ionen_Platin-->
+  <!---Meilenstein_Thruster_Ionen_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2401,7 +2407,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Thruster_Ionen_Titan-->
+  <!---Meilenstein_Thruster_Ionen_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2456,7 +2462,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_LCDs-->
+  <!---Meilenstein_LCDs-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2497,7 +2503,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Sound_Blocks-->
+  <!---Meilenstein_Sound_Blocks-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2538,7 +2544,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Gravity-->
+  <!---Meilenstein_Gravity-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2587,7 +2593,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Jumpdrive-->
+  <!---Meilenstein_Jumpdrive-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2642,7 +2648,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Jumpdrive_Gold-->
+  <!---Meilenstein_Jumpdrive_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2697,7 +2703,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Jumpdrive_Platin-->
+  <!---Meilenstein_Jumpdrive_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2752,7 +2758,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Jumpdrive_Titan-->
+  <!---Meilenstein_Jumpdrive_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2807,7 +2813,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Mechanic-->
+  <!---Meilenstein_Mechanic-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2860,7 +2866,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Tore-->
+  <!---Meilenstein_Tore-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2913,7 +2919,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Räder-->
+  <!---Meilenstein_Räder-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2966,7 +2972,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Cargos-->
+  <!---Meilenstein_Cargos-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3013,7 +3019,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Cargos_Gold-->
+  <!---Meilenstein_Cargos_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3072,7 +3078,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Cargos_Platin-->
+  <!---Meilenstein_Cargos_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3131,7 +3137,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Cargos_Titan-->
+  <!---Meilenstein_Cargos_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3190,7 +3196,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Communication-->
+  <!---Meilenstein_Communication-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3237,7 +3243,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Landing-->
+  <!---Meilenstein_Landing-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3290,7 +3296,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Tanks-->
+  <!---Meilenstein_Tanks-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3337,7 +3343,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Tanks_Gold-->
+  <!---Meilenstein_Tanks_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3390,7 +3396,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Tanks_Platin-->
+  <!---Meilenstein_Tanks_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3443,7 +3449,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    <!---Meilenstein_Tanks_Titan-->
+  <!---Meilenstein_Tanks_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
