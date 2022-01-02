@@ -196,6 +196,13 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumCrystaliyzer  Forschungslabor-->
+          <Id Type="MyObjectBuilder_Refinery" Subtype="PenetratiumCrystaliyzer" />
+          <UnlockedByGroups>
+            <GroupSubtype>Forschung</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_Armorlight-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armorlight  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Armorlight" />
