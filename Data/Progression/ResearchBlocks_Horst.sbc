@@ -4158,7 +4158,7 @@
     </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallJumpDrive  Meilenstein_Small_Jumpdrive-->
-          <Id Type="MyObjectBuilder_Jumpdrive" Subtype="SmallJumpDrive" />
+          <Id Type="MyObjectBuilder_JumpDrive" Subtype="SmallJumpDrive" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Jumpdrive</GroupSubtype>
           </UnlockedByGroups>
