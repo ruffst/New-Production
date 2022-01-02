@@ -1626,7 +1626,7 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
+    <!---PenetratiumCrystaliyzer-->
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
@@ -1642,7 +1642,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Legierer.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100">
+        <Component Subtype="TitanPlate" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1666,7 +1666,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Kupferdraht" Count="20">
+        <Component Subtype="Titandraht" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>CopperScrap</SubtypeId>
@@ -1678,20 +1678,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferSpulle" Count="50">
+        <Component Subtype="TitanSpulle" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="20">
+        <Component Subtype="TitanPlate" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <CriticalComponent Subtype="TitanSpulle" Index="0" />
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MountPoints>
@@ -1710,7 +1710,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>2</InventoryMaxVolume>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
@@ -1719,12 +1719,12 @@
       <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
+      <OperationalPowerConsumption>10</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>Crystallizer</Class>
       </BlueprintClasses>
-      <RefineSpeed>0.75</RefineSpeed>
-      <MaterialEfficiency>0.75</MaterialEfficiency>
+      <RefineSpeed>1</RefineSpeed>
+      <MaterialEfficiency>1</MaterialEfficiency>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <PrimarySound>BlockRafinery</PrimarySound>
