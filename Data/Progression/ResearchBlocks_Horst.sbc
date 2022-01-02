@@ -4149,6 +4149,21 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Jumpdrive  Meilenstein_Small_Thruster_Ionen-->
+      <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Jumpdrive" />
+      <UnlockedByGroups>
+        <GroupSubtype>Meilenstein_Small_Thruster_Hydro</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallJumpDrive  Meilenstein_Small_Jumpdrive-->
+          <Id Type="MyObjectBuilder_Jumpdrive" Subtype="SmallJumpDrive" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Jumpdrive</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
   <!--Meilenstein_LCDs-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_LCDs  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_LCDs" />

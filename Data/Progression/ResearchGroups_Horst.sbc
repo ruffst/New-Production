@@ -385,6 +385,12 @@
         <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Thruster_Ionen" />
       </Members>
     </ResearchGroup>
+    <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Small_Jumpdrive 0-->
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Small_Jumpdrive" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Jumpdrive" />
+      </Members>
+    </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Thruster_Atmo 0-->
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Meilenstein_Thruster_Atmo" />
       <Members>
