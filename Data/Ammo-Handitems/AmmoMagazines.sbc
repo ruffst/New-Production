@@ -3,7 +3,7 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <AmmoMagazines>
 
-        <AmmoMagazine>              <!--SemiAutoPistolMagazine-->
+        <AmmoMagazine>            <!--SemiAutoPistolMagazine-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>SemiAutoPistolMagazine</SubtypeId>
@@ -29,7 +29,7 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
-        <AmmoMagazine>              <!--FullAutoPistolMagazine-->
+        <AmmoMagazine>            <!--FullAutoPistolMagazine-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>FullAutoPistolMagazine</SubtypeId>
@@ -55,7 +55,7 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
-        <AmmoMagazine>              <!--ElitePistolMagazine-->
+        <AmmoMagazine>            <!--ElitePistolMagazine-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>ElitePistolMagazine</SubtypeId>
@@ -81,7 +81,7 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
-        <AmmoMagazine>              <!--AutomaticRifleGun_Mag_20rd-->
+        <AmmoMagazine>            <!--AutomaticRifleGun_Mag_20rd-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId>
@@ -107,7 +107,7 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
-        <AmmoMagazine>              <!--RapidFireAutomaticRifleGun_Mag_50rd-->
+        <AmmoMagazine>            <!--RapidFireAutomaticRifleGun_Mag_50rd-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>RapidFireAutomaticRifleGun_Mag_50rd</SubtypeId>
@@ -133,7 +133,7 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
-        <AmmoMagazine>              <!--PreciseAutomaticRifleGun_Mag_5rd-->
+        <AmmoMagazine>            <!--PreciseAutomaticRifleGun_Mag_5rd-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>PreciseAutomaticRifleGun_Mag_5rd</SubtypeId>
@@ -158,8 +158,8 @@
             <MaximumOrderAmount>2000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
-        
-        <AmmoMagazine>              <!--UltimateAutomaticRifleGun_Mag_30rd-->
+
+        <AmmoMagazine>            <!--UltimateAutomaticRifleGun_Mag_30rd-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>UltimateAutomaticRifleGun_Mag_30rd</SubtypeId>
@@ -184,8 +184,8 @@
             <MaximumOrderAmount>2000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
-        
-       <!-- <AmmoMagazine>              InteriorTurret_Mag_100rd
+
+        <!-- <AmmoMagazine>              InteriorTurret_Mag_100rd
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>InteriorTurret_Mag_100rd</SubtypeId>
@@ -210,8 +210,8 @@
             <MaximumOrderAmount>2000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>-->
-        
-        <AmmoMagazine>              <!--NATO_5p56x45mm-->
+
+        <AmmoMagazine>            <!--NATO_5p56x45mm-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>NATO_5p56x45mm</SubtypeId>
@@ -237,7 +237,7 @@
             <CanPlayerOrder>false</CanPlayerOrder>
         </AmmoMagazine>
 
-        <AmmoMagazine>              <!--NATO_25x184mm-->
+        <AmmoMagazine>            <!--NATO_25x184mm-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>NATO_25x184mm</SubtypeId>
@@ -263,7 +263,33 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
-        <AmmoMagazine>              <!--Missile200mm-->
+        <AmmoMagazine>            <!--Missile200mm-->
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>GoldMissile200mm</SubtypeId>
+            </Id>
+            <DisplayName>200mm Gold missile Container</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+            <Size>
+                <X>1.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>70</Mass>
+            <Volume>70</Volume>
+            <Model>Models\Weapons\Projectile_Missile.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="GoldMissile" />
+
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>            <!--Missile200mm-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>Missile200mm</SubtypeId>
@@ -288,6 +314,6 @@
             <MaximumOrderAmount>2000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
-        
+
     </AmmoMagazines>
 </Definitions>
