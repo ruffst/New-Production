@@ -2580,13 +2580,13 @@
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeGatlingTurret  Meilenstein_Waffen-->
-          <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="LargeGatlingTurret" />
+          <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeMissileTurret  Meilenstein_Waffen-->
-          <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="LargeMissileTurret" />
+          <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>
@@ -2619,19 +2619,19 @@
     </ResearchBlock>
     
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallMissileLauncher  Meilenstein_Small_Waffen-->
-          <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="SmallMissileLauncher" />
+          <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallRocketLauncherReload  Meilenstein_Small_Waffen-->
-          <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="SmallRocketLauncherReload" />
+          <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGatlingGun  Meilenstein_Small_Waffen-->
-          <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="SmallGatlingGun" />
+          <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
           </UnlockedByGroups>

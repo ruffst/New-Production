@@ -733,7 +733,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
@@ -890,7 +890,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\LG_DeleteProtection.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20">
+        <Component Subtype="SteelPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -908,14 +908,8 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="20" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
@@ -973,14 +967,8 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="1" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\SG_DeleteProtection_BS1.mwm" />
       </BuildProgressModels>
@@ -1939,7 +1927,7 @@
       <OperationalPowerConsumption>0.28</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>Meilensteine</Class>
-    <!--<Class>Research_Blocks</Class>-->
+      <!--<Class>Research_Blocks</Class>-->
       </BlueprintClasses>
       <AssemblySpeed>0.5</AssemblySpeed>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -3140,7 +3128,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="1" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <Center x="1" y="1" z="5" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="1" EndX="3" EndY="2" Default="true" />
@@ -3254,7 +3242,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="0" />
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" Default="true" />
         <MountPoint Side="Left" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
@@ -3572,7 +3560,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>BasicTools</Class>
+        <!--<Class>BasicTools</Class>-->
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -3596,7 +3584,7 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>SmallBlockConveyorBasic</SubtypeId>
       </Id>
-      <DisplayName>Small Block kConveyor Basic</DisplayName>
+      <DisplayName>Small Block Conveyor Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <CubeSize>Small</CubeSize>
@@ -3828,7 +3816,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorConstruction_2.mwm" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-  <!---Meilenstein_Basic-->
+    <!---Meilenstein_Basic-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -13,7 +13,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -41,14 +41,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="SmallTube" Index="50" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Basic</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -63,7 +69,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Armorlight-->
+    <!---Meilenstein_Armorlight-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -75,7 +81,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -85,14 +91,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Armor leicht</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -107,7 +119,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Armor_Alu-->
+    <!---Meilenstein_Armor_Alu-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -119,7 +131,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -135,14 +147,20 @@
             <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="InteriorPlate" Index="500" />
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Armor Alu</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -157,7 +175,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Armorheavy-->
+    <!---Meilenstein_Armorheavy-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -169,7 +187,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -185,14 +203,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MetalGrid" Index="500" />
+      <CriticalComponent Subtype="MetalGrid" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Armor schwer</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -207,7 +231,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Armor_Tin-->
+    <!---Meilenstein_Armor_Tin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -219,7 +243,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -235,14 +259,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanPlate" Index="500" />
+      <CriticalComponent Subtype="TitanPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Armor Tin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -257,7 +287,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_ArmorDeko-->
+    <!---Meilenstein_ArmorDeko-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -269,7 +299,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -285,14 +315,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="200" />
+      <CriticalComponent Subtype="Construction" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Deko Armor</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -307,7 +343,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Fenster-->
+    <!---Meilenstein_Fenster-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -319,7 +355,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -335,14 +371,20 @@
             <SubtypeId>GlassScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="BulletproofGlass" Index="500" />
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Fenster</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -357,7 +399,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Controls-->
+    <!---Meilenstein_Controls-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -369,7 +411,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -385,14 +427,20 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="3" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Controls</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -407,7 +455,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Medical-->
+    <!---Meilenstein_Medical-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -419,7 +467,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -435,14 +483,20 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="5" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Medical</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -457,7 +511,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Remote-->
+    <!---Meilenstein_Remote-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -469,7 +523,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -485,14 +539,20 @@
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="5" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Remote</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -507,7 +567,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Gyroskop-->
+    <!---Meilenstein_Gyroskop-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -519,7 +579,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -543,14 +603,20 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Gyroskop</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -565,7 +631,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Gyroskop_Gold-->
+    <!---Meilenstein_Gyroskop_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -577,7 +643,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -607,14 +673,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="100" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Gyroskop Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -629,7 +701,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Gyroskop_Platin-->
+    <!---Meilenstein_Gyroskop_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -641,7 +713,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -671,14 +743,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="10" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Gyroskop Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -693,7 +771,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Gyroskop_Titan-->
+    <!---Meilenstein_Gyroskop_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -705,7 +783,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -735,14 +813,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="10" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Gyroskop Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -757,7 +841,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Tools-->
+    <!---Meilenstein_Tools-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -769,7 +853,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -791,14 +875,20 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Tools</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -813,7 +903,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Tools_Gold-->
+    <!---Meilenstein_Tools_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -825,7 +915,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -853,14 +943,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldMotor" Index="10" />
+      <CriticalComponent Subtype="GoldMotor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Tools Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -875,7 +971,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Tools_Platin-->
+    <!---Meilenstein_Tools_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -887,7 +983,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -915,14 +1011,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinMotor" Index="10" />
+      <CriticalComponent Subtype="PlatinMotor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Tools Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -937,7 +1039,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Tools_Titan-->
+    <!---Meilenstein_Tools_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -949,7 +1051,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -977,14 +1079,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanMotor" Index="10" />
+      <CriticalComponent Subtype="TitanMotor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Tools Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -999,7 +1107,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_OreDetector-->
+    <!---Meilenstein_OreDetector-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1011,7 +1119,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1039,14 +1147,20 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="Detector" Index="100" />
+      <CriticalComponent Subtype="Detector" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein OreDetector</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1061,7 +1175,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_OreDetector_Gold-->
+    <!---Meilenstein_OreDetector_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1073,7 +1187,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1107,14 +1221,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldMotor" Index="10" />
+      <CriticalComponent Subtype="GoldMotor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein OreDetector Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1129,7 +1249,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_OreDetector_Platin-->
+    <!---Meilenstein_OreDetector_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1141,7 +1261,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1175,14 +1295,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinMotor" Index="10" />
+      <CriticalComponent Subtype="PlatinMotor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein OreDetector Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1197,7 +1323,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_OreDetector_Titan-->
+    <!---Meilenstein_OreDetector_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1209,7 +1335,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1243,14 +1369,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanMotor" Index="10" />
+      <CriticalComponent Subtype="TitanMotor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein OreDetector Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1265,7 +1397,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Waffen-->
+    <!---Meilenstein_Waffen-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1277,7 +1409,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1305,14 +1437,20 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Waffen</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1327,7 +1465,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Conveyors-->
+    <!---Meilenstein_Conveyors-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1339,7 +1477,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1367,14 +1505,20 @@
             <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="Motor" Index="100" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Conveyors</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1389,7 +1533,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Deko1-->
+    <!---Meilenstein_Deko1-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1401,7 +1545,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1411,14 +1555,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Deko</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1433,7 +1583,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Deko2-->
+    <!---Meilenstein_Deko2-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1445,7 +1595,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1455,14 +1605,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Deko2</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1477,7 +1633,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Industrial-->
+    <!---Meilenstein_Industrial-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1489,7 +1645,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1517,14 +1673,20 @@
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="5" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Industrial</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1539,7 +1701,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Industrial_Gold-->
+    <!---Meilenstein_Industrial_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1551,7 +1713,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1591,14 +1753,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="5" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Industrial Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1613,7 +1781,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Industrial_Platin-->
+    <!---Meilenstein_Industrial_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1625,7 +1793,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1665,14 +1833,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="5" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Industrial Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1687,7 +1861,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Industrial_Titan-->
+    <!---Meilenstein_Industrial_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1699,7 +1873,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1739,14 +1913,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="5" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Industrial Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1761,7 +1941,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Automation-->
+    <!---Meilenstein_Automation-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1773,7 +1953,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1795,14 +1975,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneCargoMaterial" Index="20" />
+      <CriticalComponent Subtype="MilestoneCargoMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Automation</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1817,7 +2003,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Lights-->
+    <!---Meilenstein_Lights-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1829,7 +2015,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1839,14 +2025,20 @@
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="6" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Lights</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1861,7 +2053,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Power-->
+    <!---Meilenstein_Power-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1873,7 +2065,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1889,14 +2081,20 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="15" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Power</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1911,7 +2109,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Power_Gold-->
+    <!---Meilenstein_Power_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1923,7 +2121,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -1945,14 +2143,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldReactor" Index="50" />
+      <CriticalComponent Subtype="GoldReactor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Power Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -1967,7 +2171,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Power_Platin-->
+    <!---Meilenstein_Power_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -1979,7 +2183,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2001,14 +2205,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinReactor" Index="50" />
+      <CriticalComponent Subtype="PlatinReactor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Power Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2023,7 +2233,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Power_Titan-->
+    <!---Meilenstein_Power_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2035,7 +2245,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2057,14 +2267,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanReactor" Index="50" />
+      <CriticalComponent Subtype="TitanReactor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Power Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2079,7 +2295,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Thruster_Atmo-->
+    <!---Meilenstein_Thruster_Atmo-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2091,7 +2307,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2113,14 +2329,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Thruster Atmo</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2135,7 +2357,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Thruster_Hydro-->
+    <!---Meilenstein_Thruster_Hydro-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2147,7 +2369,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2169,14 +2391,20 @@
             <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="50" />
+      <CriticalComponent Subtype="KupferStrator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Thruster Hydro</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2191,7 +2419,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Thruster_Hydro_Gold-->
+    <!---Meilenstein_Thruster_Hydro_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2203,7 +2431,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2225,14 +2453,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldStrator" Index="50" />
+      <CriticalComponent Subtype="GoldStrator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Thruster Hydro</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2247,7 +2481,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Thruster_Hydro_Platin-->
+    <!---Meilenstein_Thruster_Hydro_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2259,7 +2493,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2281,14 +2515,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinStrator" Index="50" />
+      <CriticalComponent Subtype="PlatinStrator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Thruster Hydro Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2303,7 +2543,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Thruster_Hydro_Titan-->
+    <!---Meilenstein_Thruster_Hydro_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2315,7 +2555,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2337,14 +2577,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanStrator" Index="50" />
+      <CriticalComponent Subtype="TitanStrator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Thruster Hydro Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2359,7 +2605,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Thruster_Ionen-->
+    <!---Meilenstein_Thruster_Ionen-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2371,7 +2617,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2395,14 +2641,20 @@
             <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="50" />
+      <CriticalComponent Subtype="Thrust" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Thruster Ionen</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2417,7 +2669,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Thruster_Ionen_Gold-->
+    <!---Meilenstein_Thruster_Ionen_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2429,7 +2681,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2453,14 +2705,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldThrust" Index="50" />
+      <CriticalComponent Subtype="GoldThrust" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Thruster Ionen Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2475,7 +2733,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Thruster_Ionen_Platin-->
+    <!---Meilenstein_Thruster_Ionen_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2487,7 +2745,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2511,14 +2769,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinThrust" Index="50" />
+      <CriticalComponent Subtype="PlatinThrust" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Thruster Ionen Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2533,7 +2797,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Thruster_Ionen_Titan-->
+    <!---Meilenstein_Thruster_Ionen_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2545,7 +2809,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2569,14 +2833,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanThrust" Index="50" />
+      <CriticalComponent Subtype="TitanThrust" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Thruster Ionen Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2591,7 +2861,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_LCDs-->
+    <!---Meilenstein_LCDs-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2603,7 +2873,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2613,14 +2883,20 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="6" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein LCDs</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2635,7 +2911,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Sound_Blocks-->
+    <!---Meilenstein_Sound_Blocks-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2647,7 +2923,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2657,14 +2933,20 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Sound Blocks</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2679,7 +2961,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Gravity-->
+    <!---Meilenstein_Gravity-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2691,7 +2973,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2709,14 +2991,20 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Gravity</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2731,7 +3019,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Jumpdrive-->
+    <!---Meilenstein_Jumpdrive-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2743,7 +3031,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2767,14 +3055,20 @@
             <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GravityGenerator" Index="30" />
+      <CriticalComponent Subtype="GravityGenerator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Jumpdrive</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2789,7 +3083,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Jumpdrive_Gold-->
+    <!---Meilenstein_Jumpdrive_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2801,7 +3095,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2825,14 +3119,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="30" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Jumpdrive Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2847,7 +3147,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Jumpdrive_Platin-->
+    <!---Meilenstein_Jumpdrive_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2859,7 +3159,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2883,14 +3183,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="30" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Jumpdrive Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2905,7 +3211,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Jumpdrive_Titan-->
+    <!---Meilenstein_Jumpdrive_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2917,7 +3223,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2941,14 +3247,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="30" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Jumpdrive Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -2963,7 +3275,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Mechanic-->
+    <!---Meilenstein_Mechanic-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -2975,7 +3287,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -2997,14 +3309,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Mechanic</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3019,7 +3337,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Tore-->
+    <!---Meilenstein_Tore-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3031,7 +3349,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3053,14 +3371,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="25" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Tore</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3075,7 +3399,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Räder-->
+    <!---Meilenstein_Räder-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3087,7 +3411,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3109,14 +3433,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="15" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Räder</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3131,7 +3461,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Cargos-->
+    <!---Meilenstein_Cargos-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3143,7 +3473,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3159,14 +3489,20 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="20" />
+      <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Cargos</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3181,7 +3517,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Cargos_Gold-->
+    <!---Meilenstein_Cargos_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3193,7 +3529,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3221,14 +3557,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="5" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Cargos Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3243,7 +3585,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Cargos_Platin-->
+    <!---Meilenstein_Cargos_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3255,7 +3597,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3283,14 +3625,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="5" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Cargos Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3305,7 +3653,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Cargos_Titan-->
+    <!---Meilenstein_Cargos_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3317,7 +3665,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3345,14 +3693,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Cargos Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3367,7 +3721,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Communication-->
+    <!---Meilenstein_Communication-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3379,7 +3733,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3395,14 +3749,20 @@
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Communication</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3417,7 +3777,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Landing-->
+    <!---Meilenstein_Landing-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3429,7 +3789,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3451,14 +3811,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="5" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Landing</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3473,7 +3839,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Tanks-->
+    <!---Meilenstein_Tanks-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3485,7 +3851,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3501,14 +3867,20 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="10" />
+      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Tanks</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3523,7 +3895,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Tanks_Gold-->
+    <!---Meilenstein_Tanks_Gold-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3535,7 +3907,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3557,14 +3929,20 @@
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="GoldComputer" Index="12" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Tanks Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3579,7 +3957,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Tanks_Platin-->
+    <!---Meilenstein_Tanks_Platin-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3591,7 +3969,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3613,14 +3991,20 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinComputer" Index="12" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Tanks Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
@@ -3635,7 +4019,7 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-  <!---Meilenstein_Tanks_Titan-->
+    <!---Meilenstein_Tanks_Titan-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
@@ -3647,7 +4031,7 @@
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Milestone.mwm</Model>
       <Components>
@@ -3669,14 +4053,20 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="SteelPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
-      <CriticalComponent Subtype="TitanComputer" Index="12" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Milestone.mwm" />
       </BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>Meilenstein Tanks Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
