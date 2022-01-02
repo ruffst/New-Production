@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+    <!--LargeWarhead-->
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
         <TypeId>Warhead</TypeId>
@@ -90,6 +91,7 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--SmallWarhead-->
     <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
       <Id>
         <TypeId>Warhead</TypeId>
@@ -170,6 +172,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeDecoy-->
     <Definition xsi:type="MyObjectBuilder_DecoyDefinition">
       <Id>
         <TypeId>Decoy</TypeId>
@@ -254,6 +257,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--SmallDecoy-->
     <Definition xsi:type="MyObjectBuilder_DecoyDefinition">
       <Id>
         <TypeId>Decoy</TypeId>
@@ -329,10 +333,13 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+
+    <!--LargeGatlingTurret-->
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeGatlingTurret</TypeId>
-        <SubtypeId>LargeGatlingTurret</SubtypeId>
+        <SubtypeId></SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_GatlingTurret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
@@ -422,7 +429,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeTurret</BlockPairName>
+      <BlockPairName>LargeGatlingTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -456,6 +463,7 @@
         <unsignedInt>0</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
+    <!--SmallGatlingTurret-->
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeGatlingTurret</TypeId>
@@ -585,10 +593,11 @@
         <unsignedInt>0</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
+    <!--LargeMissileTurret-->
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
-        <SubtypeId>LargeMissileTurret</SubtypeId>
+        <SubtypeId></SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_MissileTurret</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_turret.dds</Icon>
@@ -679,7 +688,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeTurret</BlockPairName>
+      <BlockPairName>LargeMissileTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -713,6 +722,7 @@
         <unsignedInt>0</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
+    <!--SmallMissileTurret-->
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
@@ -810,7 +820,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallTurret</BlockPairName>
+      <BlockPairName>SmallMissileTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -843,6 +853,7 @@
         <unsignedInt>0</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
+    <!--LargeInteriorTurret-->
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>InteriorTurret</TypeId>
@@ -931,7 +942,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeTurret</BlockPairName>
+      <BlockPairName>LargeInteriorTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -965,10 +976,13 @@
         <unsignedInt>0</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
+
+
+    <!--SmallMissileLauncher-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
-        <SubtypeId>SmallMissileLauncher</SubtypeId>
+        <SubtypeId></SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_RocketLauncher</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\missile_launcher_small.dds</Icon>
@@ -1042,7 +1056,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RocketLauncherConstruction_2.mwm" />
       </BuildProgressModels>
       <MirroringZ>X</MirroringZ>
-      <BlockPairName>SmallLauncher</BlockPairName>
+      <BlockPairName>SmallMissileLauncher</BlockPairName>
       <Center x="0" y="0" z="3" />
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
@@ -1055,6 +1069,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>425</PCU>
     </Definition>
+    <!--LargeMissileLauncher-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
@@ -1132,7 +1147,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\RocketLauncherConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RocketLauncherConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeLauncher</BlockPairName>
+      <BlockPairName>LargeMissileLauncher</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <Center x="0" y="0" z="1" />
       <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -1146,10 +1161,11 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>825</PCU>
     </Definition>
+    <!--SmallRocketLauncherReload-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncherReload</TypeId>
-        <SubtypeId>SmallRocketLauncherReload</SubtypeId>
+        <SubtypeId></SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_SmallRocketLauncherReload</DisplayName>
       <BlockPairName>SmallRocketLauncherReload</BlockPairName>
@@ -1249,10 +1265,11 @@
       <PCU>425</PCU>
       <MirroringZ>Y</MirroringZ>
     </Definition>
+    <!--SmallGatlingGun-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallGatlingGun</TypeId>
-        <SubtypeId>SmallGatlingGun</SubtypeId>
+        <SubtypeId></SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_GatlingGun</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gatling_gun.dds</Icon>
@@ -1330,7 +1347,7 @@
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>13</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <WeaponDefinitionId Subtype="SmallGatlingGun" />
+      <WeaponDefinitionId Subtype="GatlingGun" />
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
       <InventoryMaxVolume>0.064</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
