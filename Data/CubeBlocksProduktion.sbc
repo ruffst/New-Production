@@ -1706,7 +1706,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Legierer.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Legierer.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Blast Furnace</BlockPairName>
+      <BlockPairName>PenetratiumCrystaliyzer</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -1721,7 +1721,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>CommonMetalHorst</Class>
+        <Class>Crystallizer</Class>
       </BlueprintClasses>
       <RefineSpeed>0.75</RefineSpeed>
       <MaterialEfficiency>0.75</MaterialEfficiency>
