@@ -30,6 +30,24 @@
         <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
         <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
     </PhysicalItem>
+    <PhysicalItem>      <!-- Penetratium -->
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Penetratium</SubtypeId>
+      </Id>
+      <DisplayName>Erz Penetratium</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_penetratium.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>1.7</Mass>
+      <Volume>0.652</Volume>
+      <Model>Models\Ingots\platinum_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Pe</IconSymbol>
+    </PhysicalItem>
     <PhysicalItem>      <!-- Aluminium -->
       <Id>
         <TypeId>Ore</TypeId>
@@ -509,6 +527,24 @@
       <Model>Models\Ingots\stone_ingot.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Kies</IconSymbol>
+    </PhysicalItem>
+    <PhysicalItem>      <!-- Penetratium -->
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Penetratium</SubtypeId>
+      </Id>
+      <DisplayName>Barren Penetratium</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\penetratium_ingot.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>0.7</Mass>
+      <Volume>0.152</Volume>
+      <Model>Models\Ingots\platinum_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Pe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>      <!-- Aluminium -->
       <Id>
