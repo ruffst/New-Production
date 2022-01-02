@@ -324,7 +324,19 @@
             <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-
+        <Class>            <!--Crystallizer-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Crystallizer</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Crystallizer</DisplayName>
+            <Description>Description_BlueprintClass_Crystallizer</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
 
     </BlueprintClasses>
     <BlueprintClassEntries>
@@ -376,6 +388,7 @@
             <Entry Class="BasicTools" BlueprintSubtypeId="HydrogenBottle" />
 
         <!--Ingots-->
+    
             <!--<Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />-->
             <Entry Class="Ingots" BlueprintSubtypeId="IronOreToIngot" />
             <Entry Class="Ingots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
@@ -390,7 +403,10 @@
             <Entry Class="Ingots" BlueprintSubtypeId="LeadOreToIngot" />
             <Entry Class="Ingots" BlueprintSubtypeId="CopperOreToIngot" />
             <Entry Class="Ingots" BlueprintSubtypeId="AluminumOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="TitaniumOreToIngot" />          
+            <Entry Class="Ingots" BlueprintSubtypeId="TitaniumOreToIngot" />       
+
+        <!--Crystallizer-->
+            <Entry Class="Crystallizer" BlueprintSubtypeId="PenetratiumOreToIngot" />
 
         <!--CommonMetalHorst-->
             <Entry Class="CommonMetalHorst" BlueprintSubtypeId="IronOreToIngot2" />
@@ -640,6 +656,10 @@
             <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Small_Communication" />
             <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Small_Landing" />
             <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Small_Tanks" />
+
+
+
+
 
 
     </BlueprintClassEntries>

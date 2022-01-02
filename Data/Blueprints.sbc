@@ -267,7 +267,7 @@
       <Result Amount="1" TypeId="Ingot" SubtypeId="Kohlenstoff" />
       <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
     </Blueprint> 
-    <Blueprint>      <!--IrontoKohlenstoff-->      <!--New_Items-->
+    <Blueprint>      <!--IrontoKohlenstoff-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IrontoKohlenstoff</SubtypeId>
@@ -280,7 +280,7 @@
       <Result Amount="1" TypeId="Ingot" SubtypeId="Kohlenstoff" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!--PlasticBP-->      <!--New_Items-->
+    <Blueprint>      <!--PlasticBP-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlasticBP</SubtypeId>
@@ -293,7 +293,7 @@
       <Result Amount="1" TypeId="Ingot" SubtypeId="Plastic" />
       <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
     </Blueprint> 
-    <Blueprint>      <!--StoneOreToIngot-->      <!--New_Items-->
+    <Blueprint>      <!--StoneOreToIngot-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot</SubtypeId>
@@ -314,7 +314,7 @@
       </Results>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!--StoneIngotToOxyge-->      <!--New-->
+    <Blueprint>      <!--StoneIngotToOxyge-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneIngotToOxyde</SubtypeId>
@@ -330,7 +330,7 @@
       </Results>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!--StoneOreToIngotBasic-->      <!--New_Items-->
+    <Blueprint>      <!--StoneOreToIngotBasic-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngotBasic</SubtypeId>
@@ -368,7 +368,7 @@
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>      <!--Nickel3AluBP-->      <!--New-->
+    <Blueprint>      <!--Nickel3AluBP-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Nickel3AluBP</SubtypeId>
@@ -383,7 +383,7 @@
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
       <IsPrimary>true</IsPrimary>
     </Blueprint>
-    <Blueprint>      <!--Nickel3TinBP-->      <!--New-->
+    <Blueprint>      <!--Nickel3TinBP-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Nickel3TinBP</SubtypeId>
@@ -533,7 +533,7 @@
       <Result Amount="0.01" TypeId="Ingot" SubtypeId="Uranium" />
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!--CopperOreToIngot-->      <!--New-->
+    <Blueprint>      <!--CopperOreToIngot-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CopperOreToIngot</SubtypeId>
@@ -549,7 +549,7 @@
       </Results>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!-- AluminumOreToIngot -->      <!--New-->
+    <Blueprint>      <!-- AluminumOreToIngot -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AluminumOreToIngot</SubtypeId>
@@ -565,7 +565,7 @@
       </Results>					
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!-- LeadOreToIngot -->      <!--New-->
+    <Blueprint>      <!-- LeadOreToIngot -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>LeadOreToIngot</SubtypeId>
@@ -581,7 +581,7 @@
       </Results>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!-- TitaniumOreToIngot -->      <!--New-->
+    <Blueprint>      <!-- TitaniumOreToIngot -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitaniumOreToIngot</SubtypeId>
@@ -596,6 +596,22 @@
         <Item Amount="40" TypeId="Ingot" SubtypeId="Titanium" />
       </Results>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!-- PenetratiumOreToIngot -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PenetratiumOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Penetratium kristalliesieren</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_penetratium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Penetratium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.1" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Penetratium" />
+      </Results>
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
 
 <!--Ice und Flaschen-->
