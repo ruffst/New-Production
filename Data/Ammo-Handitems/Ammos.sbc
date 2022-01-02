@@ -2,8 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Ammos>
-  
-    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">        <!--SemiAutoPistolMagazine-->
+
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">      <!--SemiAutoPistolMagazine-->
       <Id>
         <TypeId>AmmoDefinition</TypeId>
         <SubtypeId>SmallCaliber</SubtypeId>
@@ -18,13 +18,13 @@
       <ProjectileProperties>
         <ProjectileTrailScale>0.05</ProjectileTrailScale>
         <ProjectileHitImpulse>1</ProjectileHitImpulse>
-        <ProjectileMassDamage>300</ProjectileMassDamage> <!--150-->
+        <ProjectileMassDamage>300</ProjectileMassDamage>        <!--150-->
         <ProjectileHealthDamage>100</ProjectileHealthDamage>
         <HeadShot>true</HeadShot>
         <ProjectileHeadShotDamage>300</ProjectileHeadShotDamage>
       </ProjectileProperties>
     </Ammo>
-    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">        <!--PistolCaliber-->
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">      <!--PistolCaliber-->
       <Id>
         <TypeId>AmmoDefinition</TypeId>
         <SubtypeId>PistolCaliber</SubtypeId>
@@ -45,7 +45,7 @@
         <ProjectileHeadShotDamage>300</ProjectileHeadShotDamage>
       </ProjectileProperties>
     </Ammo>
-    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">        <!--LargeCaliber-->
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">      <!--LargeCaliber-->
       <Id>
         <TypeId>AmmoDefinition</TypeId>
         <SubtypeId>LargeCaliber</SubtypeId>
@@ -65,7 +65,7 @@
         <HeadShot>true</HeadShot>
       </ProjectileProperties>
     </Ammo>
-    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">           <!--Missile-->
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">      <!--Missile-->
       <Id>
         <TypeId>AmmoDefinition</TypeId>
         <SubtypeId>Missile</SubtypeId>
@@ -81,6 +81,29 @@
       <MissileProperties>
         <MissileMass>45</MissileMass>
         <MissileExplosionRadius>4</MissileExplosionRadius>
+        <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
+        <MissileAcceleration>600</MissileAcceleration>
+        <MissileInitialSpeed>100</MissileInitialSpeed>
+        <MissileSkipAcceleration>false</MissileSkipAcceleration>
+        <MissileExplosionDamage>500</MissileExplosionDamage>
+      </MissileProperties>
+    </Ammo>
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">      <!--Missile-->
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>GoldMissile</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>300</DesiredSpeed>
+        <SpeedVariance>20</SpeedVariance>
+        <MaxTrajectory>1200</MaxTrajectory>
+        <IsExplosive>true</IsExplosive>
+        <BackkickForce>10</BackkickForce>
+        <PhysicalMaterial>Missile</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+        <MissileMass>70</MissileMass>
+        <MissileExplosionRadius>5</MissileExplosionRadius>
         <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
         <MissileAcceleration>600</MissileAcceleration>
         <MissileInitialSpeed>100</MissileInitialSpeed>

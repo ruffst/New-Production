@@ -3155,12 +3155,12 @@
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.12</MaxAllowed>
+          <MaxAllowed>0.15</MaxAllowed>
           <MinAllowed>0</MinAllowed>
         </StaticMode>
         <DynamicMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.12</MaxAllowed>
+          <MaxAllowed>0.15</MaxAllowed>
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
@@ -3170,16 +3170,16 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSinkGroup>Defense</ResourceSinkGroup>
-      <SensorRadius>0.5</SensorRadius>
-      <SensorOffset>0.4</SensorOffset>
-      <CutOutRadius>0.6</CutOutRadius>
-      <CutOutOffset>0.15</CutOutOffset>
+      <SensorRadius>1.0</SensorRadius>
+      <SensorOffset>0.6</SensorOffset>
+      <CutOutRadius>0.9</CutOutRadius>
+      <CutOutOffset>0.4</CutOutOffset>
       <ParticleOffset>
         <X>0</X>
         <Y>0</Y>
         <Z>-1.45</Z>
       </ParticleOffset>
-      <DeformationRatio>0.1</DeformationRatio>
+      <DeformationRatio>0.15</DeformationRatio>
       <UsesDeformation>false</UsesDeformation>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
