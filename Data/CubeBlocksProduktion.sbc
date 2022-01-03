@@ -1632,7 +1632,7 @@
           <SubtypeId>PenetratiumSocket</SubtypeId>
       </Id>
       <DisplayName>Penetratium Kristallisator Sockel</DisplayName>
-      <Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Sockel.dds</Icon>
       <Description>Penetratium Kristallisator Sockel für Opitsche optimierung (Lampe)</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1649,7 +1649,7 @@
               <MountPoint Side="Top" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
               <MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
       </MountPoints>
-      <BlockPairName>PenetratiumCrystaliyzer</BlockPairName>
+      <BlockPairName>PenetratiumSocket</BlockPairName>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
