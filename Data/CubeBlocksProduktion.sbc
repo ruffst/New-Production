@@ -198,7 +198,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="4" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\large\BiomassBurner0_11.mwm</Model>
+      <Model>Models\BmB_Buildstages.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -246,9 +246,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\BmB_Buildstages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\BmB_Buildstages_BS2.mwm" />
       </BuildProgressModels>
       <AvailableEffects>
         <string>SmokeWhite</string>
@@ -307,7 +306,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\BiomassB1x1x2.mwm</Model>
+      <Model>Models\BiomassBSmallBuildstages.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="40">
           <DeconstructId>
@@ -351,7 +350,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\BiomassB1x1x2.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\BiomassBSmallBuildstages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\BiomassBSmallBuildstages_BS2.mwm" />
       </BuildProgressModels>
       <AvailableEffects>
         <string>SmokeWhite</string>
@@ -1526,7 +1526,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\large\BasicRefinery01.mwm</Model>
+      <Model>Models\BasicRefBuildstages.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="100">
           <DeconstructId>
@@ -1588,9 +1588,8 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\BasicRefBuildstages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\BasicRefBuildstages_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Blast Furnace</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1626,6 +1625,46 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
+    <!---PenetratiumSocket-->
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+            <TypeId>InteriorLight</TypeId>
+          <SubtypeId>PenetratiumSocket</SubtypeId>
+      </Id>
+      <DisplayName>Penetratium Kristallisator Sockel</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Sockel.dds</Icon>
+      <Description>Penetratium Kristallisator Sockel für Opitsche optimierung (Lampe)</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\ConverterEndCaps.mwm</Model>
+      <Components>
+          <Component Subtype="InteriorPlate" Count="74" />
+          <Component Subtype="Construction" Count="20" />
+          <Component Subtype="SmallTube" Count="48" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+              <MountPoint Side="Top" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+              <MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+      </MountPoints>
+      <BlockPairName>PenetratiumSocket</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <LightRadius Min="1" Max="30" Default="3.6" />
+      <LightFalloff Min="0" Max="3" Default="1.3" />
+      <LightIntensity Min="1" Max="20" Default="5" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <Flare>InteriorLight</Flare>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      <PCU>25</PCU>
+      <DLC>Warfare1</DLC>
+    </Definition>
     <!---PenetratiumCrystaliyzer-->
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
@@ -1638,9 +1677,9 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+			<Size x="3" y="3" z="4"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Legierer.mwm</Model>
+      <Model>Models\ConverterFinalMesh.mwm</Model>
       <Components>
         <Component Subtype="TitanPlate" Count="100">
           <DeconstructId>
@@ -1694,17 +1733,13 @@
       <CriticalComponent Subtype="TitanSpulle" Index="0" />
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="1.00" StartY="1.99" EndX="2.00" EndY="2.99"/>
+				<MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Bottom" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00"/>
+			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Legierer.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Legierer.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Legierer.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\ConverterFinalMesh.mwm" />
       </BuildProgressModels>
       <BlockPairName>PenetratiumCrystaliyzer</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1971,7 +2006,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="4" z="11" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Lab2WithPillarsnofloor.mwm</Model>
+      <Model>Models\ReLabNewCollision4.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="300">
           <DeconstructId>
@@ -2180,7 +2215,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Legierer.mwm</Model>
+      <Model>Models\LegiererBuildStages.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="100">
           <DeconstructId>
@@ -2242,9 +2277,9 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\LegiererBuildStages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\LegiererBuildStages_BS2.mwm" />
+        
       </BuildProgressModels>
       <BlockPairName>Legierer</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2296,7 +2331,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="2" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ToolAssembler.mwm</Model>
+      <Model>Models\ToolAssinclBuildStages.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
           <DeconstructId>
@@ -2363,7 +2398,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\ToolAssembler.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>VerbrauchsmaterialAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
