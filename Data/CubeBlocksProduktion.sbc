@@ -304,7 +304,7 @@
       <ResearchCost>
       </ResearchCost>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\BiomassBSmallBuildstages.mwm</Model>
       <Components>
@@ -1526,7 +1526,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\BasicRefBuildstages.mwm</Model>
+      <Model>Models\BasicRefBuildstages1.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="100">
           <DeconstructId>
@@ -1672,7 +1672,7 @@
         <SubtypeId>PenetratiumCrystaliyzer</SubtypeId>
       </Id>
       <DisplayName>Penetratium Kristallisator</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AdvancedAssemblerIndustrial.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\Kristallisator.dds</Icon>
       <Description>Kristallisiert das Erz in eine verwendbare Form</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
