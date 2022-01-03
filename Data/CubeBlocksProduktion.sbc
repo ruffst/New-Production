@@ -198,7 +198,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="4" z="3" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\large\BiomassBurnermountpoints.mwm</Model>
+      <Model>Models\BiomassBurnermountpoints.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -246,9 +246,9 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BiomassBurnermountpoints.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BiomassBurnermountpoints.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BiomassBurnermountpoints.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\BiomassBurnermountpoints.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\BiomassBurnermountpoints.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\BiomassBurnermountpoints.mwm" />
       </BuildProgressModels>
       <AvailableEffects>
         <string>SmokeWhite</string>
@@ -1528,7 +1528,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\large\BasicRefinery01.mwm</Model>
+      <Model>Models\BasicRefinery01.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="100">
           <DeconstructId>
