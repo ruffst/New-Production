@@ -15,7 +15,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -32,8 +32,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -66,7 +66,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -89,8 +89,8 @@
       </Components>
       <CriticalComponent Subtype="MetalGrid" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -123,7 +123,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -146,8 +146,8 @@
       </Components>
       <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -180,7 +180,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="1">
           <DeconstructId>
@@ -203,8 +203,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -237,7 +237,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="1">
           <DeconstructId>
@@ -260,8 +260,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -294,7 +294,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="2">
           <DeconstructId>
@@ -317,8 +317,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -351,7 +351,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="5">
           <DeconstructId>
@@ -382,8 +382,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -416,7 +416,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="5">
           <DeconstructId>
@@ -445,8 +445,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -479,7 +479,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="5">
           <DeconstructId>
@@ -514,8 +514,8 @@
       </Components>
       <CriticalComponent Subtype="Detector" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -548,7 +548,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -583,8 +583,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -617,7 +617,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="5">
           <DeconstructId>
@@ -652,8 +652,8 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -686,7 +686,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="25">
           <DeconstructId>
@@ -715,8 +715,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneCargoMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -749,7 +749,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="3">
           <DeconstructId>
@@ -766,8 +766,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -800,7 +800,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneEnergyMaterial" Count="7">
           <DeconstructId>
@@ -823,8 +823,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -857,7 +857,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="3">
           <DeconstructId>
@@ -886,8 +886,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -920,7 +920,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="15">
         </Component>
@@ -951,8 +951,8 @@
       </Components>
       <CriticalComponent Subtype="Thrust" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -986,7 +986,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneArmorMaterial" Count="5">
           <DeconstructId>
@@ -1015,8 +1015,8 @@
       </Components>
       <CriticalComponent Subtype="KupferStrator" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -1050,7 +1050,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="7">
         </Component>
@@ -1081,8 +1081,8 @@
       </Components>
       <CriticalComponent Subtype="Thrust" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -1116,7 +1116,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="3">
           <DeconstructId>
@@ -1133,8 +1133,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -1167,7 +1167,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="20">
           <DeconstructId>
@@ -1196,8 +1196,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -1230,7 +1230,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="15">
           <DeconstructId>
@@ -1259,8 +1259,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -1293,7 +1293,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="6">
           <DeconstructId>
@@ -1322,8 +1322,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -1356,7 +1356,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="12">
           <DeconstructId>
@@ -1379,8 +1379,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneMechanicMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -1413,7 +1413,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneElectroMaterial" Count="10">
           <DeconstructId>
@@ -1436,8 +1436,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneEnergyMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -1470,7 +1470,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneMechanicMaterial" Count="10">
           <DeconstructId>
@@ -1499,8 +1499,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
@@ -1533,7 +1533,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\MilestoneSmall.mwm</Model>
+      <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneCargoMaterial" Count="10">
           <DeconstructId>
@@ -1556,8 +1556,8 @@
       </Components>
       <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\MilestoneSmall.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\MilestoneSmall.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
       </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
