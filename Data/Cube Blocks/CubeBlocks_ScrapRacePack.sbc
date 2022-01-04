@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
+    <!--SmallExhaustPipe--> 
     <Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
       <Id>
         <TypeId>ExhaustBlock</TypeId>
@@ -86,6 +87,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--LargeExhaustPipe--> 
     <Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
       <Id>
         <TypeId>ExhaustBlock</TypeId>
@@ -172,6 +174,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--BuggyCockpit--> 
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
@@ -292,6 +295,7 @@
       <IsAirTight>false</IsAirTight>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--Viewport1--> 
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -354,6 +358,7 @@
       <PCU>1</PCU>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--Viewport2--> 
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -416,6 +421,645 @@
       <PCU>1</PCU>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffsetLight-->
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>OffsetLight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffsetLight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\CarLight1_Racing.dds</Icon>
+      <Description>Description_OffsetLight</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CarLight1_Racing.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" ExclusionMask="3" PropertiesMask="3" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\CarLight1_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CarLight1_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OffsetLight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <LightRadius Min="1" Max="20" Default="3.6" />
+      <LightFalloff Min="0" Max="3" Default="1.3" />
+      <LightIntensity Min="0.5" Max="10" Default="5" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <Flare>InteriorLight</Flare>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffsetSpotlight-->
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>OffsetSpotlight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffsetSpotlight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\CarLight2_Racing.dds</Icon>
+      <Description>Description_OffsetLight</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CarLight2_Racing.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="BulletproofGlass" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GlassScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" ExclusionMask="3" PropertiesMask="3" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\CarLight1_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CarLight1_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OffsetSpotlight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <LightRadius Min="1" Max="5" Default="5" />
+      <LightReflectorRadius Min="10" Max="60" Default="60" />
+      <LightFalloff Min="1" Max="3" Default="1.5" />
+      <LightIntensity Min="0.5" Max="5" Default="3" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <Flare>SpotlightSmall</Flare>
+      <ReflectorThickness>2.5</ReflectorThickness>
+      <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
+      <ReflectorConeDegrees>52</ReflectorConeDegrees>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat2</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--BarredWindow-->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>BarredWindow</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_BarredWindow</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
+      <Description>Description_BarredWindow</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BarredWindow_Racing_Flat.mwm</Model>
+      <Components>
+        <Component Subtype="Girder" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Flat_Construction.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BarredWindow</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
+        <MountPoint Side="Top" StartX="1.0" StartY="0.0" EndX="0.9" EndY="1.0" PropertiesMask="2" />
+        <MountPoint Side="Back" StartX="1.0" StartY="0.0" EndX="0.9" EndY="1.0" PropertiesMask="2" />
+        <MountPoint Side="Bottom" StartX="1.0" StartY="0.0" EndX="0.9" EndY="1.0" PropertiesMask="2" />
+        <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
+      </MountPoints>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <IsAirTight>false</IsAirTight>
+      <PCU>1</PCU>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--BarredWindowSlope-->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>BarredWindowSlope</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_BarredWindowSlope</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Slope.dds</Icon>
+      <Description>Description_BarredWindow</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BarredWindow_Racing_Slope.mwm</Model>
+      <Components>
+        <Component Subtype="Girder" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Slope_Construction.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BarredWindowSlope</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.1" PropertiesMask="2" />
+        <MountPoint Side="Back" StartX="0.0" StartY="0.9" EndX="1.0" EndY="1.0" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
+        <MountPoint Side="Right" StartX="0.0" StartY="1.0" EndX="0.2" EndY="0.8" PropertiesMask="2" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.4" EndY="0.6" PropertiesMask="2" />
+        <MountPoint Side="Right" StartX="0.4" StartY="0.6" EndX="0.6" EndY="0.4" PropertiesMask="2" />
+        <MountPoint Side="Right" StartX="0.6" StartY="0.4" EndX="0.8" EndY="0.2" PropertiesMask="2" />
+        <MountPoint Side="Right" StartX="0.8" StartY="0.2" EndX="1.0" EndY="0.0" PropertiesMask="2" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <IsAirTight>false</IsAirTight>
+      <PCU>1</PCU>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--BarredWindowSide-->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>BarredWindowSide</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_BarredWindowSide</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Side.dds</Icon>
+      <Description>Description_BarredWindow</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BarredWindow_Racing_Side.mwm</Model>
+      <Components>
+        <Component Subtype="Girder" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Side_Construction.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BarredWindowSide</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
+        <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" ExclusionMask="1" />
+        <MountPoint Side="Left" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.8" PropertiesMask="2" ExclusionMask="1" />
+        <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
+      </MountPoints>
+      <MirroringX>YMinusHalfX</MirroringX>
+      <MirroringY>HalfX</MirroringY>
+      <MirroringZ>MinusHalfX</MirroringZ>
+      <IsAirTight>false</IsAirTight>
+      <PCU>1</PCU>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--BarredWindowFace-->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>BarredWindowFace</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_BarredWindowFace</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Face.dds</Icon>
+      <Description>Description_BarredWindow</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\BarredWindow_Racing_Face.mwm</Model>
+      <Components>
+        <Component Subtype="Girder" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="2">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Face_Construction.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BarredWindowFace</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
+        <MountPoint Side="Front" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
+        <MountPoint Side="Front" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
+        <MountPoint Side="Front" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.0" StartY="1.0" EndX="0.2" EndY="0.8" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.2" StartY="0.8" EndX="0.4" EndY="0.6" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.4" StartY="0.6" EndX="0.6" EndY="0.4" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.6" StartY="0.4" EndX="0.8" EndY="0.2" PropertiesMask="2" />
+        <MountPoint Side="Left" StartX="0.8" StartY="0.2" EndX="1.0" EndY="0.0" PropertiesMask="2" />
+        <MountPoint Side="Bottom" StartY="0.0" StartX="1.0" EndY="0.2" EndX="0.8" PropertiesMask="2" />
+        <MountPoint Side="Bottom" StartY="0.2" StartX="0.8" EndY="0.4" EndX="0.6" PropertiesMask="2" />
+        <MountPoint Side="Bottom" StartY="0.4" StartX="0.6" EndY="0.6" EndX="0.4" PropertiesMask="2" />
+        <MountPoint Side="Bottom" StartY="0.6" StartX="0.4" EndY="0.8" EndX="0.2" PropertiesMask="2" />
+        <MountPoint Side="Bottom" StartY="0.8" StartX="0.2" EndY="1.0" EndX="0.0" PropertiesMask="2" />
+      </MountPoints>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <IsAirTight>false</IsAirTight>
+      <PCU>1</PCU>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--StorageShelf1-->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>StorageShelf1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_StorageShelf1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Shelf_1.dds</Icon>
+      <Description>Description_StorageShelf</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\Large\Shelf_1.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="Girder" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="InteriorPlate" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>AluminiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="SmallTube" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.3" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0.7" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.3" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.1" File="Models\Cubes\Large\Shelf_1Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\Shelf_1Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Shelf_1Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>StorageShelf1</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--StorageShelf2-->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>StorageShelf2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_StorageShelf2</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Shelf_2.dds</Icon>
+      <Description>Description_StorageShelf</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\Large\Shelf_2.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="Girder" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="PowerCell" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Girder" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="PowerCell" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Motor" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Girder" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="MetalGrid" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Girder" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.3" EndY="1" />
+        <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0.7" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.3" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.1" File="Models\Cubes\Large\Shelf_1Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\Shelf_1Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Shelf_2Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>StorageShelf2</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--StorageShelf3-->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>StorageShelf3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_StorageShelf3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Shelf_3.dds</Icon>
+      <Description>Description_StorageShelf</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\Large\Shelf_3.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="Girder" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Reactor" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Superconductor" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Thrust" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="GravityGenerator" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Reactor" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Superconductor" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Thrust" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="GravityGenerator" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
+        <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.3" EndY="1" />
+        <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0.7" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.3" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.1" File="Models\Cubes\Large\Shelf_1Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Shelf_1Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Shelf_3Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>StorageShelf3</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+
+  <!--Räder--> 
+   <!--Large--> 
+    <!--OffroadSuspension3x3-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
         <TypeId>MotorSuspension</TypeId>
@@ -533,6 +1177,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffroadSuspension5x5-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
         <TypeId>MotorSuspension</TypeId>
@@ -645,6 +1290,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffroadSuspension1x1-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
         <TypeId>MotorSuspension</TypeId>
@@ -760,325 +1406,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
-      <Id>
-        <TypeId>MotorSuspension</TypeId>
-        <SubtypeId>OffroadSmallSuspension3x3</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffroadSuspension3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingRight.dds</Icon>
-      <Description>Description_Suspension</Description>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\MotorSuspension3x3_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-      <DeformationRatio>0.1</DeformationRatio>
-      <UsesDeformation>false</UsesDeformation>
-      <Components>
-        <Component Count="5" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="7" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="SmallTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="Motor">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="3" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
-      <MountPoints>
-        <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Right" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Front" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallSuspension3x3</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallSuspension3x3mirrored</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10.0</BuildTimeSeconds>
-      <PrimarySound>BlockWheel3x3</PrimarySound>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.2</RequiredPowerInput>
-      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
-      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
-      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
-      <RotorPart>OffroadRealWheel</RotorPart>
-      <PropulsionForce>1920</PropulsionForce>
-      <MinHeight>-0.32</MinHeight>
-      <MaxHeight>0.26</MaxHeight>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <SafetyDetach>5</SafetyDetach>
-      <SafetyDetachMax>5</SafetyDetachMax>
-      <AxleFriction>20000</AxleFriction>
-      <SteeringSpeed>0.015</SteeringSpeed>
-      <AirShockMinSpeed>10</AirShockMinSpeed>
-      <AirShockMaxSpeed>25</AirShockMaxSpeed>
-      <AirShockActivationDelay>60</AirShockActivationDelay>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>50</PCU>
-      <Public>true</Public>
-      <GuiVisible>false</GuiVisible>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
-      <Id>
-        <TypeId>MotorSuspension</TypeId>
-        <SubtypeId>OffroadSmallSuspension5x5</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffroadSuspension5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5_RacingRight.dds</Icon>
-      <Description>Description_Suspension</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="3" z="2" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\MotorSuspension5x5_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-      <DeformationRatio>0.1</DeformationRatio>
-      <UsesDeformation>false</UsesDeformation>
-      <Components>
-        <Component Count="10" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="12" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="4" Subtype="SmallTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="Motor">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="6" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
-      <MountPoints>
-        <MountPoint Default="true" EndX="1.7" EndY="2.3" Side="Bottom" StartX="0.3" StartY="0.7" />
-        <MountPoint EndX="2.2" EndY="1.2" Side="Left" StartX="0.8" StartY="0.0" />
-        <MountPoint EndX="2.2" EndY="1.2" Side="Right" StartX="0.8" StartY="0.0" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallSuspension5x5</BlockPairName>
-      <MirroringY>ZThenOffsetX</MirroringY>
-      <MirroringZ>YThenOffsetX</MirroringZ>
-      <MirroringBlock>OffroadSmallSuspension5x5mirrored</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>15.0</BuildTimeSeconds>
-      <PrimarySound>BlockWheel5x5</PrimarySound>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.3</RequiredPowerInput>
-      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
-      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
-      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
-      <RotorPart>OffroadRealWheel5x5</RotorPart>
-      <PropulsionForce>4800</PropulsionForce>
-      <MinHeight>-0.5</MinHeight>
-      <MaxHeight>0.35</MaxHeight>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <SafetyDetach>5</SafetyDetach>
-      <SafetyDetachMax>5</SafetyDetachMax>
-      <AxleFriction>20000</AxleFriction>
-      <SteeringSpeed>0.015</SteeringSpeed>
-      <AirShockMinSpeed>10</AirShockMinSpeed>
-      <AirShockMaxSpeed>25</AirShockMaxSpeed>
-      <AirShockActivationDelay>60</AirShockActivationDelay>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>50</PCU>
-      <Public>true</Public>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
-      <Id>
-        <TypeId>MotorSuspension</TypeId>
-        <SubtypeId>OffroadSmallSuspension1x1</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffroadSuspension1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1_RacingRight.dds</Icon>
-      <Description>Description_Suspension</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\MotorSuspension3x3_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-      <DeformationRatio>0.1</DeformationRatio>
-      <UsesDeformation>false</UsesDeformation>
-      <Components>
-        <Component Count="5" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="7" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="SmallTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="Motor">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="3" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
-      <MountPoints>
-        <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Right" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Front" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallSuspension1x1</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallSuspension1x1mirrored</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10.0</BuildTimeSeconds>
-      <PrimarySound>BlockWheel1x1</PrimarySound>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.1</RequiredPowerInput>
-      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
-      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
-      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
-      <RotorPart>OffroadRealWheel1x1</RotorPart>
-      <PropulsionForce>120</PropulsionForce>
-      <MinHeight>-0.32</MinHeight>
-      <MaxHeight>0.26</MaxHeight>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <SafetyDetach>5</SafetyDetach>
-      <SafetyDetachMax>5</SafetyDetachMax>
-      <AxleFriction>20000</AxleFriction>
-      <SteeringSpeed>0.015</SteeringSpeed>
-      <AirShockMinSpeed>10</AirShockMinSpeed>
-      <AirShockMaxSpeed>25</AirShockMaxSpeed>
-      <AirShockActivationDelay>60</AirShockActivationDelay>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>50</PCU>
-      <Public>true</Public>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
+    <!--OffroadSuspension3x3mirrored-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
         <TypeId>MotorSuspension</TypeId>
@@ -1196,6 +1524,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffroadSuspension5x5mirrored-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
         <TypeId>MotorSuspension</TypeId>
@@ -1308,6 +1637,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffroadSuspension1x1mirrored-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
         <TypeId>MotorSuspension</TypeId>
@@ -1422,580 +1752,8 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
-      <Id>
-        <TypeId>MotorSuspension</TypeId>
-        <SubtypeId>OffroadSmallSuspension3x3mirrored</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffroadSuspension3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingLeft.dds</Icon>
-      <Description>Description_Suspension</Description>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\MotorSuspension3x3_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-      <DeformationRatio>0.1</DeformationRatio>
-      <UsesDeformation>false</UsesDeformation>
-      <Components>
-        <Component Count="5" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="7" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="SmallTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="Motor">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="3" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
-      <MountPoints>
-        <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Right" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Front" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallSuspension3x3mirrored</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallSuspension3x3</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10.0</BuildTimeSeconds>
-      <PrimarySound>BlockWheel3x3</PrimarySound>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.2</RequiredPowerInput>
-      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
-      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
-      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
-      <RotorPart>OffroadRealWheelmirrored</RotorPart>
-      <PropulsionForce>1920</PropulsionForce>
-      <MinHeight>-0.32</MinHeight>
-      <MaxHeight>0.26</MaxHeight>
-      <GuiVisible>false</GuiVisible>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <SafetyDetach>5</SafetyDetach>
-      <SafetyDetachMax>5</SafetyDetachMax>
-      <AxleFriction>20000</AxleFriction>
-      <SteeringSpeed>0.015</SteeringSpeed>
-      <AirShockMinSpeed>10</AirShockMinSpeed>
-      <AirShockMaxSpeed>25</AirShockMaxSpeed>
-      <AirShockActivationDelay>60</AirShockActivationDelay>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>50</PCU>
-      <Public>true</Public>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
-      <Id>
-        <TypeId>MotorSuspension</TypeId>
-        <SubtypeId>OffroadSmallSuspension5x5mirrored</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffroadSuspension5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5_RacingLeft.dds</Icon>
-      <Description>Description_Suspension</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="3" z="2" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\MotorSuspension5x5_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-      <DeformationRatio>0.1</DeformationRatio>
-      <UsesDeformation>false</UsesDeformation>
-      <Components>
-        <Component Count="10" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="12" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="4" Subtype="SmallTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="Motor">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="6" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
-      <MountPoints>
-        <MountPoint Default="true" EndX="1.7" EndY="2.3" Side="Bottom" StartX="0.3" StartY="0.7" />
-        <MountPoint EndX="2.2" EndY="1.2" Side="Left" StartX="0.8" StartY="0.0" />
-        <MountPoint EndX="2.2" EndY="1.2" Side="Right" StartX="0.8" StartY="0.0" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallSuspension5x5mirrored</BlockPairName>
-      <MirroringY>ZThenOffsetX</MirroringY>
-      <MirroringZ>YThenOffsetX</MirroringZ>
-      <MirroringBlock>OffroadSmallSuspension5x5</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>15.0</BuildTimeSeconds>
-      <PrimarySound>BlockWheel5x5</PrimarySound>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.3</RequiredPowerInput>
-      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
-      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
-      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
-      <RotorPart>OffroadRealWheel5x5mirrored</RotorPart>
-      <PropulsionForce>4800</PropulsionForce>
-      <MinHeight>-0.5</MinHeight>
-      <MaxHeight>0.35</MaxHeight>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <SafetyDetach>5</SafetyDetach>
-      <SafetyDetachMax>5</SafetyDetachMax>
-      <AxleFriction>20000</AxleFriction>
-      <SteeringSpeed>0.015</SteeringSpeed>
-      <AirShockMinSpeed>10</AirShockMinSpeed>
-      <AirShockMaxSpeed>25</AirShockMaxSpeed>
-      <AirShockActivationDelay>60</AirShockActivationDelay>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>50</PCU>
-      <Public>true</Public>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
-      <Id>
-        <TypeId>MotorSuspension</TypeId>
-        <SubtypeId>OffroadSmallSuspension1x1mirrored</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffroadSuspension1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1_RacingLeft.dds</Icon>
-      <Description>Description_Suspension</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="2" z="1" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\MotorSuspension3x3_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-      <DeformationRatio>0.1</DeformationRatio>
-      <UsesDeformation>false</UsesDeformation>
-      <Components>
-        <Component Count="5" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="7" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="SmallTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="Motor">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="3" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="Motor" />
-      <MountPoints>
-        <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Right" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Front" StartX="0.25" StartY="0.0" />
-        <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallSuspension1x1mirrored</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallSuspension1x1</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10.0</BuildTimeSeconds>
-      <PrimarySound>BlockWheel1x1</PrimarySound>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.1</RequiredPowerInput>
-      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
-      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
-      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
-      <RotorPart>OffroadRealWheel1x1mirrored</RotorPart>
-      <PropulsionForce>120</PropulsionForce>
-      <MinHeight>-0.32</MinHeight>
-      <MaxHeight>0.26</MaxHeight>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <SafetyDetach>5</SafetyDetach>
-      <SafetyDetachMax>5</SafetyDetachMax>
-      <AxleFriction>20000</AxleFriction>
-      <SteeringSpeed>0.015</SteeringSpeed>
-      <AirShockMinSpeed>10</AirShockMinSpeed>
-      <AirShockMaxSpeed>25</AirShockMaxSpeed>
-      <AirShockActivationDelay>60</AirShockActivationDelay>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>50</PCU>
-      <Public>true</Public>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>Wheel</TypeId>
-        <SubtypeId>OffroadSmallRealWheel1x1</SubtypeId>
-      </Id>
-      <Public>false</Public>
-      <DisplayName>DisplayName_Block_OffroadWheel1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1_RacingRight.dds</Icon>
-      <Description>Description_Wheel</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\WheelSuspension1x1_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <PhysicalMaterial>Wheel</PhysicalMaterial>
-      <Components>
-        <Component Count="1" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="5" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="LargeTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallRealWheel1x1</BlockPairName>
-      <UsesDeformation>false</UsesDeformation>
-      <DeformationRatio>0.3</DeformationRatio>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallRealWheel1x1mirrored</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <Public>false</Public>
-      <BuildTimeSeconds>10.0</BuildTimeSeconds>
-      <InventorySize>
-        <X>2.5</X>
-        <Y>2.5</Y>
-        <Z>2.5</Z>
-      </InventorySize>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
-      <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>Wheel</TypeId>
-        <SubtypeId>OffroadSmallRealWheel</SubtypeId>
-      </Id>
-      <Public>false</Public>
-      <DisplayName>DisplayName_Block_OffroadWheel3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingRight.dds</Icon>
-      <Description>Description_Wheel</Description>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="2" z="3" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\WheelSuspension3x3_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <PhysicalMaterial>Wheel</PhysicalMaterial>
-      <Components>
-        <Component Count="3" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="10" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="LargeTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallRealWheel</BlockPairName>
-      <UsesDeformation>false</UsesDeformation>
-      <DeformationRatio>0.3</DeformationRatio>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallRealWheelmirrored</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <Public>false</Public>
-      <BuildTimeSeconds>15.0</BuildTimeSeconds>
-      <InventorySize>
-        <X>2.5</X>
-        <Y>2.5</Y>
-        <Z>2.5</Z>
-      </InventorySize>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
-      <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <GuiVisible>false</GuiVisible>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>Wheel</TypeId>
-        <SubtypeId>OffroadSmallRealWheel5x5</SubtypeId>
-      </Id>
-      <Public>false</Public>
-      <DisplayName>DisplayName_Block_OffroadWheel5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5_RacingRight.dds</Icon>
-      <Description>Description_Wheel</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="5" y="3" z="5" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\WheelSuspension5x5_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <PhysicalMaterial>Wheel</PhysicalMaterial>
-      <Components>
-        <Component Count="4" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="15" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="LargeTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="3" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallRealWheel5x5</BlockPairName>
-      <UsesDeformation>false</UsesDeformation>
-      <DeformationRatio>0.3</DeformationRatio>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallRealWheel5x5mirrored</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <Public>false</Public>
-      <BuildTimeSeconds>20.0</BuildTimeSeconds>
-      <InventorySize>
-        <X>2.5</X>
-        <Y>2.5</Y>
-        <Z>2.5</Z>
-      </InventorySize>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
-      <DestroySound>PoofExplosionCat2</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
+
+    <!--OffroadRealWheel1x1-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2082,6 +1840,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffroadRealWheel-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2168,6 +1927,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffroadRealWheel5x5-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2254,261 +2014,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <Definition>
-      <Id>
-        <TypeId>Wheel</TypeId>
-        <SubtypeId>OffroadSmallRealWheel1x1mirrored</SubtypeId>
-      </Id>
-      <Public>false</Public>
-      <DisplayName>DisplayName_Block_OffroadWheel1x1mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1_RacingLeft.dds</Icon>
-      <Description>Description_Wheel</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\WheelSuspension1x1Mirrored_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <PhysicalMaterial>Wheel</PhysicalMaterial>
-      <Components>
-        <Component Count="1" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="5" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="LargeTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallRealWheel1x1mirrored</BlockPairName>
-      <UsesDeformation>false</UsesDeformation>
-      <DeformationRatio>0.3</DeformationRatio>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallRealWheel1x1</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <Public>false</Public>
-      <BuildTimeSeconds>10.0</BuildTimeSeconds>
-      <InventorySize>
-        <X>2.5</X>
-        <Y>2.5</Y>
-        <Z>2.5</Z>
-      </InventorySize>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
-      <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>Wheel</TypeId>
-        <SubtypeId>OffroadSmallRealWheelmirrored</SubtypeId>
-      </Id>
-      <Public>false</Public>
-      <DisplayName>DisplayName_Block_OffroadWheel3x3mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingLeft.dds</Icon>
-      <Description>Description_Wheel</Description>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="2" z="3" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\WheelSuspension3x3Mirrored_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <PhysicalMaterial>Wheel</PhysicalMaterial>
-      <Components>
-        <Component Count="3" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="10" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="LargeTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallRealWheelmirrored</BlockPairName>
-      <UsesDeformation>false</UsesDeformation>
-      <DeformationRatio>0.3</DeformationRatio>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallRealWheel</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <Public>false</Public>
-      <BuildTimeSeconds>15.0</BuildTimeSeconds>
-      <InventorySize>
-        <X>2.5</X>
-        <Y>2.5</Y>
-        <Z>2.5</Z>
-      </InventorySize>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
-      <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <GuiVisible>false</GuiVisible>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>Wheel</TypeId>
-        <SubtypeId>OffroadSmallRealWheel5x5mirrored</SubtypeId>
-      </Id>
-      <Public>false</Public>
-      <DisplayName>DisplayName_Block_OffroadWheel5x5mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5_RacingLeft.dds</Icon>
-      <Description>Description_Wheel</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="5" y="3" z="5" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\WheelSuspension5x5Mirrored_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <PhysicalMaterial>Wheel</PhysicalMaterial>
-      <Components>
-        <Component Count="4" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="15" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="LargeTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="3" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>OffroadSmallRealWheel5x5mirrored</BlockPairName>
-      <UsesDeformation>false</UsesDeformation>
-      <DeformationRatio>0.3</DeformationRatio>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringBlock>OffroadSmallRealWheel5x5</MirroringBlock>
-      <EdgeType>Light</EdgeType>
-      <Public>false</Public>
-      <BuildTimeSeconds>20.0</BuildTimeSeconds>
-      <InventorySize>
-        <X>2.5</X>
-        <Y>2.5</Y>
-        <Z>2.5</Z>
-      </InventorySize>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
-      <DestroySound>PoofExplosionCat2</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
+    <!--OffroadRealWheel1x1mirrored-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2595,6 +2101,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffroadRealWheelmirrored-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2681,6 +2188,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffroadRealWheel5x5mirrored-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2767,6 +2275,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+    <!--OffroadWheel1x1-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2854,92 +2363,8 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <Definition>
-      <Id>
-        <TypeId>Wheel</TypeId>
-        <SubtypeId>OffroadSmallWheel1x1</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffroadWheel1x1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Wheel1x1_Racing.dds</Icon>
-      <Description>Description_Wheel</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\Wheel1x1_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Count="1" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="5" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="LargeTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel1x1_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel1x1_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <MountPoints>
-        <MountPoint EndX="0.75" EndY="0.75" Side="Top" StartX="0.25" StartY="0.25" />
-        <MountPoint EndX="0.75" EndY="0.75" Side="Bottom" StartX="0.25" StartY="0.25" />
-      </MountPoints>
-      <BlockPairName>OffroadSmallWheel1x1</BlockPairName>
-      <UsesDeformation>false</UsesDeformation>
-      <DeformationRatio>0.3</DeformationRatio>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>10.0</BuildTimeSeconds>
-      <Public>true</Public>
-      <InventorySize>
-        <X>2.5</X>
-        <Y>2.5</Y>
-        <Z>2.5</Z>
-      </InventorySize>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
-      <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
+
+    <!--OffroadWheel3x3-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -3026,91 +2451,7 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <Definition>
-      <Id>
-        <TypeId>Wheel</TypeId>
-        <SubtypeId>OffroadSmallWheel3x3</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffroadWheel3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Wheel3x3_Racing.dds</Icon>
-      <Description>Description_Wheel</Description>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="1" z="3" />
-      <ModelOffset x="0.0" y="0.0" z="0.0" />
-      <Model>Models\Cubes\Small\Wheel3x3_Racing.mwm</Model>
-      <UseModelIntersection>true</UseModelIntersection>
-      <Components>
-        <Component Count="3" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="10" Subtype="Construction">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="1" Subtype="LargeTube">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Count="2" Subtype="SteelPlate">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Index="0" Subtype="LargeTube" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel3x3_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel3x3_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>OutsideVoxel</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0.01</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <MountPoints>
-        <MountPoint EndX="2.4" EndY="2.4" Side="Top" StartX="0.6" StartY="0.6" />
-        <MountPoint EndX="2.4" EndY="2.4" Side="Bottom" StartX="0.6" StartY="0.6" />
-      </MountPoints>
-      <BlockPairName>OffroadSmallWheel3x3</BlockPairName>
-      <UsesDeformation>false</UsesDeformation>
-      <DeformationRatio>0.3</DeformationRatio>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <Public>true</Public>
-      <BuildTimeSeconds>15.0</BuildTimeSeconds>
-      <InventorySize>
-        <X>2.5</X>
-        <Y>2.5</Y>
-        <Z>2.5</Z>
-      </InventorySize>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-      <DamagedSound>ParticleHeavyMech</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
-      <DestroySound>PoofExplosionCat2</DestroySound>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
-      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-      <InventoryMaxVolume>1.0</InventoryMaxVolume>
-      <DLC>ScrapRace</DLC>
-    </Definition>
+    <!--OffroadWheel5x5-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -3197,6 +2538,1346 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
+
+
+   <!--Small--> 
+    <!--OffroadSmallSuspension1x1-->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>OffroadSmallSuspension1x1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffroadSuspension1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1_RacingRight.dds</Icon>
+      <Description>Description_Suspension</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\MotorSuspension3x3_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Count="5" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="7" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="SmallTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="Motor">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="3" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="Motor" />
+      <MountPoints>
+        <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Right" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Front" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallSuspension1x1</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallSuspension1x1mirrored</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10.0</BuildTimeSeconds>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.1</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
+      <RotorPart>OffroadSmallRealWheel1x1</RotorPart>
+      <PropulsionForce>120</PropulsionForce>
+      <MinHeight>-0.32</MinHeight>
+      <MaxHeight>0.26</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <Public>true</Public>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>  
+    <!--OffroadSmallSuspension3x3-->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>OffroadSmallSuspension3x3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffroadSuspension3x3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingRight.dds</Icon>
+      <Description>Description_Suspension</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\MotorSuspension3x3_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Count="5" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="7" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="SmallTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="Motor">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="3" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="Motor" />
+      <MountPoints>
+        <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Right" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Front" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallSuspension3x3</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallSuspension3x3mirrored</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10.0</BuildTimeSeconds>
+      <PrimarySound>BlockWheel3x3</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.2</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
+      <RotorPart>OffroadSmallRealWheel</RotorPart>
+      <PropulsionForce>1920</PropulsionForce>
+      <MinHeight>-0.32</MinHeight>
+      <MaxHeight>0.26</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <Public>true</Public>
+      <GuiVisible>false</GuiVisible>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallSuspension5x5-->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>OffroadSmallSuspension5x5</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffroadSuspension5x5</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5_RacingRight.dds</Icon>
+      <Description>Description_Suspension</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="3" z="2" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\MotorSuspension5x5_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Count="10" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="12" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="4" Subtype="SmallTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="Motor">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="6" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="Motor" />
+      <MountPoints>
+        <MountPoint Default="true" EndX="1.7" EndY="2.3" Side="Bottom" StartX="0.3" StartY="0.7" />
+        <MountPoint EndX="2.2" EndY="1.2" Side="Left" StartX="0.8" StartY="0.0" />
+        <MountPoint EndX="2.2" EndY="1.2" Side="Right" StartX="0.8" StartY="0.0" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallSuspension5x5</BlockPairName>
+      <MirroringY>ZThenOffsetX</MirroringY>
+      <MirroringZ>YThenOffsetX</MirroringZ>
+      <MirroringBlock>OffroadSmallSuspension5x5mirrored</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15.0</BuildTimeSeconds>
+      <PrimarySound>BlockWheel5x5</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.3</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
+      <RotorPart>OffroadSmallRealWheel5x5</RotorPart>
+      <PropulsionForce>4800</PropulsionForce>
+      <MinHeight>-0.5</MinHeight>
+      <MaxHeight>0.35</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <Public>true</Public>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallSuspension1x1mirrored-->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>OffroadSmallSuspension1x1mirrored</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffroadSuspension1x1mirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1_RacingLeft.dds</Icon>
+      <Description>Description_Suspension</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\MotorSuspension3x3_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Count="5" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="7" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="SmallTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="Motor">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="3" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="Motor" />
+      <MountPoints>
+        <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Right" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Front" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallSuspension1x1mirrored</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallSuspension1x1</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10.0</BuildTimeSeconds>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.1</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
+      <RotorPart>OffroadSmallRealWheel1x1mirrored</RotorPart>
+      <PropulsionForce>120</PropulsionForce>
+      <MinHeight>-0.32</MinHeight>
+      <MaxHeight>0.26</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <Public>true</Public>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallSuspension3x3mirrored-->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>OffroadSmallSuspension3x3mirrored</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffroadSuspension3x3mirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingLeft.dds</Icon>
+      <Description>Description_Suspension</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\MotorSuspension3x3_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Count="5" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="7" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="SmallTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="Motor">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="3" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="Motor" />
+      <MountPoints>
+        <MountPoint Default="true" EndX="1.0" EndY="1.0" Side="Bottom" StartX="0.0" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Left" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Right" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Front" StartX="0.25" StartY="0.0" />
+        <MountPoint EndX="0.75" EndY="0.83" Side="Back" StartX="0.25" StartY="0.0" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension3x3_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallSuspension3x3mirrored</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallSuspension3x3</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10.0</BuildTimeSeconds>
+      <PrimarySound>BlockWheel3x3</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.2</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
+      <RotorPart>OffroadSmallRealWheelmirrored</RotorPart>
+      <PropulsionForce>1920</PropulsionForce>
+      <MinHeight>-0.32</MinHeight>
+      <MaxHeight>0.26</MaxHeight>
+      <GuiVisible>false</GuiVisible>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <Public>true</Public>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallSuspension5x5mirrored-->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>OffroadSmallSuspension5x5mirrored</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffroadSuspension5x5mirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5_RacingLeft.dds</Icon>
+      <Description>Description_Suspension</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="3" z="2" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\MotorSuspension5x5_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Count="10" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="12" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="4" Subtype="SmallTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="Motor">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="6" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="Motor" />
+      <MountPoints>
+        <MountPoint Default="true" EndX="1.7" EndY="2.3" Side="Bottom" StartX="0.3" StartY="0.7" />
+        <MountPoint EndX="2.2" EndY="1.2" Side="Left" StartX="0.8" StartY="0.0" />
+        <MountPoint EndX="2.2" EndY="1.2" Side="Right" StartX="0.8" StartY="0.0" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\MotorSuspension5x5_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallSuspension5x5mirrored</BlockPairName>
+      <MirroringY>ZThenOffsetX</MirroringY>
+      <MirroringZ>YThenOffsetX</MirroringZ>
+      <MirroringBlock>OffroadSmallSuspension5x5</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15.0</BuildTimeSeconds>
+      <PrimarySound>BlockWheel5x5</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.3</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
+      <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
+      <RotorPart>OffroadSmallRealWheel5x5mirrored</RotorPart>
+      <PropulsionForce>4800</PropulsionForce>
+      <MinHeight>-0.5</MinHeight>
+      <MaxHeight>0.35</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <Public>true</Public>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+
+
+
+    <!--OffroadSmallRealWheel1x1-->
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>OffroadSmallRealWheel1x1</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>DisplayName_Block_OffroadWheel1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1_RacingRight.dds</Icon>
+      <Description>Description_Wheel</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\WheelSuspension1x1_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Count="1" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="5" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="LargeTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallRealWheel1x1</BlockPairName>
+      <UsesDeformation>false</UsesDeformation>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallRealWheel1x1mirrored</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <Public>false</Public>
+      <BuildTimeSeconds>10.0</BuildTimeSeconds>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallRealWheel 3x3-->
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>OffroadSmallRealWheel</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>DisplayName_Block_OffroadWheel3x3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingRight.dds</Icon>
+      <Description>Description_Wheel</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\WheelSuspension3x3_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Count="3" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="10" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="LargeTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallRealWheel</BlockPairName>
+      <UsesDeformation>false</UsesDeformation>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallRealWheelmirrored</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <Public>false</Public>
+      <BuildTimeSeconds>15.0</BuildTimeSeconds>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <GuiVisible>false</GuiVisible>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallRealWheel5x5-->
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>OffroadSmallRealWheel5x5</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>DisplayName_Block_OffroadWheel5x5</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5_RacingRight.dds</Icon>
+      <Description>Description_Wheel</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="5" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\WheelSuspension5x5_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Count="4" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="15" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="LargeTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="3" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallRealWheel5x5</BlockPairName>
+      <UsesDeformation>false</UsesDeformation>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallRealWheel5x5mirrored</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <Public>false</Public>
+      <BuildTimeSeconds>20.0</BuildTimeSeconds>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat2</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallRealWheel1x1mirrored-->
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>OffroadSmallRealWheel1x1mirrored</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>DisplayName_Block_OffroadWheel1x1mirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1_RacingLeft.dds</Icon>
+      <Description>Description_Wheel</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\WheelSuspension1x1Mirrored_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Count="1" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="5" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="LargeTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension1x1_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallRealWheel1x1mirrored</BlockPairName>
+      <UsesDeformation>false</UsesDeformation>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallRealWheel1x1</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <Public>false</Public>
+      <BuildTimeSeconds>10.0</BuildTimeSeconds>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallRealWheelmirrored 3x3-->
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>OffroadSmallRealWheelmirrored</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>DisplayName_Block_OffroadWheel3x3mirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3_RacingLeft.dds</Icon>
+      <Description>Description_Wheel</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\WheelSuspension3x3Mirrored_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Count="3" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="10" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="LargeTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension3x3_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallRealWheelmirrored</BlockPairName>
+      <UsesDeformation>false</UsesDeformation>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallRealWheel</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <Public>false</Public>
+      <BuildTimeSeconds>15.0</BuildTimeSeconds>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <GuiVisible>false</GuiVisible>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallRealWheel5x5mirrored-->
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>OffroadSmallRealWheel5x5mirrored</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>DisplayName_Block_OffroadWheel5x5mirrored</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension5x5_RacingLeft.dds</Icon>
+      <Description>Description_Wheel</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="5" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\WheelSuspension5x5Mirrored_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Count="4" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="15" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="LargeTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="3" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WheelSuspension5x5_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>OffroadSmallRealWheel5x5mirrored</BlockPairName>
+      <UsesDeformation>false</UsesDeformation>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>OffroadSmallRealWheel5x5</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <Public>false</Public>
+      <BuildTimeSeconds>20.0</BuildTimeSeconds>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat2</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallWheel1x1-->
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>OffroadSmallWheel1x1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffroadWheel1x1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Wheel1x1_Racing.dds</Icon>
+      <Description>Description_Wheel</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\Wheel1x1_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Count="1" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="5" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="LargeTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel1x1_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel1x1_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint EndX="0.75" EndY="0.75" Side="Top" StartX="0.25" StartY="0.25" />
+        <MountPoint EndX="0.75" EndY="0.75" Side="Bottom" StartX="0.25" StartY="0.25" />
+      </MountPoints>
+      <BlockPairName>OffroadSmallWheel1x1</BlockPairName>
+      <UsesDeformation>false</UsesDeformation>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10.0</BuildTimeSeconds>
+      <Public>true</Public>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallWheel3x3-->
+    <Definition>
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>OffroadSmallWheel3x3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffroadWheel3x3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Wheel3x3_Racing.dds</Icon>
+      <Description>Description_Wheel</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0.0" y="0.0" z="0.0" />
+      <Model>Models\Cubes\Small\Wheel3x3_Racing.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Count="3" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="10" Subtype="Construction">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="1" Subtype="LargeTube">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Count="2" Subtype="SteelPlate">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Index="0" Subtype="LargeTube" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\Wheel3x3_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\Wheel3x3_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MountPoints>
+        <MountPoint EndX="2.4" EndY="2.4" Side="Top" StartX="0.6" StartY="0.6" />
+        <MountPoint EndX="2.4" EndY="2.4" Side="Bottom" StartX="0.6" StartY="0.6" />
+      </MountPoints>
+      <BlockPairName>OffroadSmallWheel3x3</BlockPairName>
+      <UsesDeformation>false</UsesDeformation>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>15.0</BuildTimeSeconds>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat2</DestroySound>
+      <PCU>25</PCU>
+      <GuiVisible>false</GuiVisible>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <InventoryMaxVolume>1.0</InventoryMaxVolume>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+    <!--OffroadSmallWheel5x5-->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -3282,631 +3963,6 @@
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
-      <Id>
-        <TypeId>InteriorLight</TypeId>
-        <SubtypeId>OffsetLight</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffsetLight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\CarLight1_Racing.dds</Icon>
-      <Description>Description_OffsetLight</Description>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\CarLight1_Racing.mwm</Model>
-      <Components>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" ExclusionMask="3" PropertiesMask="3" StartX="0" StartY="0" EndX="1" EndY="0.5" />
-      </MountPoints>
-      <IsStandAlone>false</IsStandAlone>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\CarLight1_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CarLight1_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>OffsetLight</BlockPairName>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
-      <LightRadius Min="1" Max="20" Default="3.6" />
-      <LightFalloff Min="0" Max="3" Default="1.3" />
-      <LightIntensity Min="0.5" Max="10" Default="5" />
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.00006</RequiredPowerInput>
-      <Flare>InteriorLight</Flare>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
-      <DestroyEffectOffset>
-        <X>0</X>
-        <Y>0</Y>
-        <Z>1.1</Z>
-      </DestroyEffectOffset>
-      <DestroySound>PoofExplosionCat1</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
-      <Id>
-        <TypeId>ReflectorLight</TypeId>
-        <SubtypeId>OffsetSpotlight</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_OffsetSpotlight</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\CarLight2_Racing.dds</Icon>
-      <Description>Description_OffsetLight</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\CarLight2_Racing.mwm</Model>
-      <Components>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="BulletproofGlass" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>GlassScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Bottom" ExclusionMask="3" PropertiesMask="3" StartX="0" StartY="0" EndX="1" EndY="0.5" />
-      </MountPoints>
-      <IsStandAlone>false</IsStandAlone>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\CarLight1_Racing_Construction1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CarLight1_Racing_Construction2.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>OffsetSpotlight</BlockPairName>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
-      <LightRadius Min="1" Max="5" Default="5" />
-      <LightReflectorRadius Min="10" Max="60" Default="60" />
-      <LightFalloff Min="1" Max="3" Default="1.5" />
-      <LightIntensity Min="0.5" Max="5" Default="3" />
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.0002</RequiredPowerInput>
-      <Flare>SpotlightSmall</Flare>
-      <ReflectorThickness>2.5</ReflectorThickness>
-      <ReflectorTexture>Textures\Lights\reflector_CarLight.dds</ReflectorTexture>
-      <ReflectorConeDegrees>52</ReflectorConeDegrees>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
-      <DestroySound>PoofExplosionCat2</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>BarredWindow</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_BarredWindow</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
-      <Description>Description_BarredWindow</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\BarredWindow_Racing_Flat.mwm</Model>
-      <Components>
-        <Component Subtype="Girder" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Flat_Construction.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>BarredWindow</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
-        <MountPoint Side="Top" StartX="1.0" StartY="0.0" EndX="0.9" EndY="1.0" PropertiesMask="2" />
-        <MountPoint Side="Back" StartX="1.0" StartY="0.0" EndX="0.9" EndY="1.0" PropertiesMask="2" />
-        <MountPoint Side="Bottom" StartX="1.0" StartY="0.0" EndX="0.9" EndY="1.0" PropertiesMask="2" />
-        <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
-      </MountPoints>
-      <MirroringX>Y</MirroringX>
-      <MirroringY>X</MirroringY>
-      <IsAirTight>false</IsAirTight>
-      <PCU>1</PCU>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>BarredWindowSlope</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_BarredWindowSlope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Slope.dds</Icon>
-      <Description>Description_BarredWindow</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\BarredWindow_Racing_Slope.mwm</Model>
-      <Components>
-        <Component Subtype="Girder" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Slope_Construction.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>BarredWindowSlope</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.1" PropertiesMask="2" />
-        <MountPoint Side="Back" StartX="0.0" StartY="0.9" EndX="1.0" EndY="1.0" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
-        <MountPoint Side="Right" StartX="0.0" StartY="1.0" EndX="0.2" EndY="0.8" PropertiesMask="2" />
-        <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.4" EndY="0.6" PropertiesMask="2" />
-        <MountPoint Side="Right" StartX="0.4" StartY="0.6" EndX="0.6" EndY="0.4" PropertiesMask="2" />
-        <MountPoint Side="Right" StartX="0.6" StartY="0.4" EndX="0.8" EndY="0.2" PropertiesMask="2" />
-        <MountPoint Side="Right" StartX="0.8" StartY="0.2" EndX="1.0" EndY="0.0" PropertiesMask="2" />
-      </MountPoints>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <IsAirTight>false</IsAirTight>
-      <PCU>1</PCU>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>BarredWindowSide</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_BarredWindowSide</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Side.dds</Icon>
-      <Description>Description_BarredWindow</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\BarredWindow_Racing_Side.mwm</Model>
-      <Components>
-        <Component Subtype="Girder" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Side_Construction.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>BarredWindowSide</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
-      <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
-        <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="0.1" EndY="1.0" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" ExclusionMask="1" />
-        <MountPoint Side="Left" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.8" PropertiesMask="2" ExclusionMask="1" />
-        <MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="1.0" PropertiesMask="2" ExclusionMask="1" />
-      </MountPoints>
-      <MirroringX>YMinusHalfX</MirroringX>
-      <MirroringY>HalfX</MirroringY>
-      <MirroringZ>MinusHalfX</MirroringZ>
-      <IsAirTight>false</IsAirTight>
-      <PCU>1</PCU>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>BarredWindowFace</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_BarredWindowFace</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Face.dds</Icon>
-      <Description>Description_BarredWindow</Description>
-      <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\BarredWindow_Racing_Face.mwm</Model>
-      <Components>
-        <Component Subtype="Girder" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\\Small\BarredWindow_Racing_Face_Construction.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>BarredWindowFace</BlockPairName>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>3</BuildTimeSeconds>
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.2" PropertiesMask="2" />
-        <MountPoint Side="Front" StartX="0.2" StartY="0.2" EndX="0.4" EndY="0.4" PropertiesMask="2" />
-        <MountPoint Side="Front" StartX="0.4" StartY="0.4" EndX="0.6" EndY="0.6" PropertiesMask="2" />
-        <MountPoint Side="Front" StartX="0.6" StartY="0.6" EndX="0.8" EndY="0.8" PropertiesMask="2" />
-        <MountPoint Side="Front" StartX="0.8" StartY="0.8" EndX="1.0" EndY="1.0" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.0" StartY="1.0" EndX="0.2" EndY="0.8" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.2" StartY="0.8" EndX="0.4" EndY="0.6" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.4" StartY="0.6" EndX="0.6" EndY="0.4" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.6" StartY="0.4" EndX="0.8" EndY="0.2" PropertiesMask="2" />
-        <MountPoint Side="Left" StartX="0.8" StartY="0.2" EndX="1.0" EndY="0.0" PropertiesMask="2" />
-        <MountPoint Side="Bottom" StartY="0.0" StartX="1.0" EndY="0.2" EndX="0.8" PropertiesMask="2" />
-        <MountPoint Side="Bottom" StartY="0.2" StartX="0.8" EndY="0.4" EndX="0.6" PropertiesMask="2" />
-        <MountPoint Side="Bottom" StartY="0.4" StartX="0.6" EndY="0.6" EndX="0.4" PropertiesMask="2" />
-        <MountPoint Side="Bottom" StartY="0.6" StartX="0.4" EndY="0.8" EndX="0.2" PropertiesMask="2" />
-        <MountPoint Side="Bottom" StartY="0.8" StartX="0.2" EndY="1.0" EndX="0.0" PropertiesMask="2" />
-      </MountPoints>
-      <MirroringX>HalfY</MirroringX>
-      <MirroringY>XHalfY</MirroringY>
-      <MirroringZ>MinusHalfY</MirroringZ>
-      <IsAirTight>false</IsAirTight>
-      <PCU>1</PCU>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>StorageShelf1</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_StorageShelf1</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Shelf_1.dds</Icon>
-      <Description>Description_StorageShelf</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <GuiVisible>false</GuiVisible>
-      <Model>Models\Cubes\Large\Shelf_1.mwm</Model>
-      <ModelOffset x="0" y="0" z="0" />
-      <Components>
-        <Component Subtype="Girder" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="25">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="25">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="25">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="25">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="25">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="25">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SmallTube" Count="25">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="InteriorPlate" Count="25">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="SmallTube" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.3" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0.7" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.3" Default="true" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.1" File="Models\Cubes\Large\Shelf_1Construction_1.mwm" />
-        <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\Shelf_1Construction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Shelf_1Construction_3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>StorageShelf1</BlockPairName>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>30</BuildTimeSeconds>
-      <PCU>1</PCU>
-      <IsAirTight>false</IsAirTight>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>StorageShelf2</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_StorageShelf2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Shelf_2.dds</Icon>
-      <Description>Description_StorageShelf</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <GuiVisible>false</GuiVisible>
-      <Model>Models\Cubes\Large\Shelf_2.mwm</Model>
-      <ModelOffset x="0" y="0" z="0" />
-      <Components>
-        <Component Subtype="Girder" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="PowerCell" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>BatteryScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Girder" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MetalGrid" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="PowerCell" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>BatteryScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Girder" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MetalGrid" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Girder" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.3" EndY="1" />
-        <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0.7" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.3" Default="true" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.1" File="Models\Cubes\Large\Shelf_1Construction_1.mwm" />
-        <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\Shelf_1Construction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Shelf_2Construction_3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>StorageShelf2</BlockPairName>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>30</BuildTimeSeconds>
-      <PCU>1</PCU>
-      <IsAirTight>false</IsAirTight>
-      <DLC>ScrapRace</DLC>
-    </Definition>
-    <Definition>
-      <Id>
-        <TypeId>CubeBlock</TypeId>
-        <SubtypeId>StorageShelf3</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_StorageShelf3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Shelf_3.dds</Icon>
-      <Description>Description_StorageShelf</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <GuiVisible>false</GuiVisible>
-      <Model>Models\Cubes\Large\Shelf_3.mwm</Model>
-      <ModelOffset x="0" y="0" z="0" />
-      <Components>
-        <Component Subtype="Girder" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Reactor" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Superconductor" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>GoldScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Thrust" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="GravityGenerator" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Reactor" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Superconductor" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>GoldScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Thrust" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="GravityGenerator" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.1" />
-        <MountPoint Side="Front" StartX="0" StartY="0.9" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.3" EndY="1" />
-        <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0.7" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.3" Default="true" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.1" File="Models\Cubes\Large\Shelf_1Construction_1.mwm" />
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\Shelf_1Construction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Shelf_3Construction_3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>StorageShelf3</BlockPairName>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>30</BuildTimeSeconds>
-      <PCU>1</PCU>
-      <IsAirTight>false</IsAirTight>
-      <DLC>ScrapRace</DLC>
-    </Definition>
+
   </CubeBlocks>
 </Definitions>
