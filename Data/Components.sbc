@@ -46,9 +46,9 @@
             <Volume>3</Volume>
             <Model>Models\Components\steel_plate_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>10000</MaxIntegrity>
+            <MaxIntegrity>100</MaxIntegrity>
             <DropProbability>0.9</DropProbability>
-            <Health>10000</Health>
+            <Health>100</Health>
             <MinimumOfferAmount>250</MinimumOfferAmount>
             <MaximumOfferAmount>2500</MaximumOfferAmount>
             <MinimumOrderAmount>100</MinimumOrderAmount>
