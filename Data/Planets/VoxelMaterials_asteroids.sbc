@@ -26,7 +26,7 @@
 			</Id>
 			<MaterialTypeName>Rock</MaterialTypeName>
 			<MinedOre>Lead</MinedOre>
-			<MinedOreRatio>1</MinedOreRatio>
+			<MinedOreRatio>1.2</MinedOreRatio>
 			<CanBeHarvested>true</CanBeHarvested>
 			<IsRare>true</IsRare>
 			<IsIndestructible>false</IsIndestructible>
@@ -44,7 +44,7 @@
 				<SubtypeId>Penetratium_CMM</SubtypeId>
 			</Id>			
 			<MinedOre>Penetratium</MinedOre>
-			<MinedOreRatio>1</MinedOreRatio>
+			<MinedOreRatio>0.3</MinedOreRatio>
 			<CanBeHarvested>true</CanBeHarvested>
 			<IsRare>true</IsRare>
 			<IsIndestructible>false</IsIndestructible>

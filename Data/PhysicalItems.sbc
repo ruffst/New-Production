@@ -48,10 +48,10 @@
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Pe</IconSymbol>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Aluminium -->
+    <PhysicalItem>      <!-- Aluminum -->
       <Id>
         <TypeId>Ore</TypeId>
-        <SubtypeId>Aluminium</SubtypeId>
+        <SubtypeId>Aluminum</SubtypeId>
       </Id>
       <DisplayName>Erz Aluminium</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
