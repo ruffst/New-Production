@@ -987,7 +987,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>SMD</SubtypeId>
             </Id>
-            <DisplayName>Elektro Komponenten</DisplayName>
+            <DisplayName>SMD Computerchips</DisplayName>
             <Icon>Textures\GUI\Icons\component\chips.dds</Icon>
             <Size>
                 <X>0.1</X>
@@ -1603,7 +1603,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>MilestoneArmorMaterial</SubtypeId>
             </Id>
-            <DisplayName>Meilenstein Panzerung</DisplayName>
+            <DisplayName>Meilenstein Material Armor</DisplayName>
             <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1631,7 +1631,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>MilestoneEnergyMaterial</SubtypeId>
             </Id>
-            <DisplayName>Meilenstein Energie</DisplayName>
+            <DisplayName>Meilenstein Material Energie</DisplayName>
             <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1659,7 +1659,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>MilestoneMechanicMaterial</SubtypeId>
             </Id>
-            <DisplayName>Meilenstein Mechanik</DisplayName>
+            <DisplayName>Meilenstein Material Mechanik</DisplayName>
             <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1687,7 +1687,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>MilestoneElectroMaterial</SubtypeId>
             </Id>
-            <DisplayName>Meilenstein Elektronik</DisplayName>
+            <DisplayName>Meilenstein Material Elektrotechnik</DisplayName>
             <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1715,7 +1715,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>MilestoneSpaceMaterial</SubtypeId>
             </Id>
-            <DisplayName>Meilenstein Raumfahrt</DisplayName>
+            <DisplayName>Meilenstein Material Raumfahrt</DisplayName>
             <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
             <Size>
                 <X>0.2</X>
@@ -1743,7 +1743,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>MilestoneCargoMaterial</SubtypeId>
             </Id>
-            <DisplayName>Meilenstein Lagerung</DisplayName>
+            <DisplayName>Meilenstein Material Lagerung</DisplayName>
             <Icon>Textures\GUI\Icons\component\milestone_armor_light.dds</Icon>
             <Size>
                 <X>0.2</X>
