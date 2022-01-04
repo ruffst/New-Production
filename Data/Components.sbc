@@ -30,6 +30,34 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
+        <Component>            <!--Adminplate-->
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Adminplate</SubtypeId>
+            </Id>
+            <DisplayName>Adminplate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\steel_plate.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>0.1</Mass>
+            <Volume>3</Volume>
+            <Model>Models\Components\steel_plate_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>10000</MaxIntegrity>
+            <DropProbability>0.9</DropProbability>
+            <Health>10000</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
         <Component>            <!--MetalGrid-->
             <Id>
                 <TypeId>Component</TypeId>

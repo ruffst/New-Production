@@ -409,7 +409,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\OreDetector.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="80">
+        <Component Subtype="Adminplate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
