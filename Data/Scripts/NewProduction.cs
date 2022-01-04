@@ -146,58 +146,58 @@ namespace NewProduction
 
         private void Beacon_PropertiesChanged(IMyTerminalBlock block)
         {
-            if (!Config.loaded) Config.InitConfig();
+            if (!MyConfig.loaded) MyConfig.InitMyConfig();
 
-            if (!Config.allowOffBeacon) block.SetValueBool("OnOff", true);
+            if (!MyConfig.allowDisableBeacon) block.SetValueBool("OnOff", true);
 
             IMyBeacon beacon = block as IMyBeacon;
-            if (beacon.Radius < Config.minBeaconRadius)
-                beacon.Radius = Config.minBeaconRadius;
+            if (beacon.Radius < MyConfig.minBeaconRadius)
+                beacon.Radius = MyConfig.minBeaconRadius;
         }
     }
 
     [MyEntityComponentDescriptor(typeof(MyObjectBuilder_TimerBlock), true)]
     public class TriggerNowFix : MyGameLogicComponent
     {
-        IMyTerminalBlock pBlock;
+        IMyTerminalBlock termBlock;
         private MyObjectBuilder_EntityBase m_objectBuilder;
 
         public override void Init(MyObjectBuilder_EntityBase objectBuilder)
         {
             base.Init(objectBuilder);
             m_objectBuilder = objectBuilder;
-            pBlock = Entity as IMyTerminalBlock;
+            termBlock = Entity as IMyTerminalBlock;
 
-            if (pBlock is IMyTimerBlock)
+            if (termBlock is IMyTimerBlock)
             {                
-                PBlock_PropertiesChanged(pBlock);
-                pBlock.PropertiesChanged += PBlock_PropertiesChanged;                
+                termBlock_PropertiesChanged(termBlock);
+                termBlock.PropertiesChanged += termBlock_PropertiesChanged;                
             }
         }
 
-        private void PBlock_PropertiesChanged(IMyTerminalBlock block)
+        private void termBlock_PropertiesChanged(IMyTerminalBlock block)
         {
-            if (!Config.loaded) Config.InitConfig();
+            if (!MyConfig.loaded) MyConfig.InitMyConfig();
 
             IMyTimerBlock timerBlock = block as IMyTimerBlock;
-            if (timerBlock.TriggerDelay < Config.triggerDelay)
-                timerBlock.TriggerDelay = Config.triggerDelay;
+            if (timerBlock.TriggerDelay < MyConfig.triggerDelay)
+                timerBlock.TriggerDelay = MyConfig.triggerDelay;
         }        
     }
 
-    public class Config
+    public class MyConfig
     {
         private const string FILE = "new-production.cfg";
 
         //options
-        public static bool allowOffBeacon = false;
+        public static bool allowDisableBeacon = false;
         public static float minBeaconRadius = 7500f;
 
         public static float triggerDelay = 3f;
 
         public static bool loaded = false;
 
-        public static void InitConfig()
+        public static void InitMyConfig()
         {
             if (!Load())
             {
@@ -211,9 +211,9 @@ namespace NewProduction
         {
             try
             {
-                if (MyAPIGateway.Utilities.FileExistsInLocalStorage(FILE, typeof(Config)))
+                if (MyAPIGateway.Utilities.FileExistsInLocalStorage(FILE, typeof(MyConfig)))
                 {
-                    var file = MyAPIGateway.Utilities.ReadFileInLocalStorage(FILE, typeof(Config));
+                    var file = MyAPIGateway.Utilities.ReadFileInLocalStorage(FILE, typeof(MyConfig));
                     ReadSettings(file);
                     file.Close();
                     return true;
@@ -227,7 +227,7 @@ namespace NewProduction
         {
             try
             {
-                var file = MyAPIGateway.Utilities.WriteFileInLocalStorage(FILE, typeof(Config));
+                var file = MyAPIGateway.Utilities.WriteFileInLocalStorage(FILE, typeof(MyConfig));
                 file.Write(GetSettingsString());
                 file.Flush();
                 file.Close();
@@ -239,7 +239,7 @@ namespace NewProduction
         {
             var str = new StringBuilder();
 
-            str.Append("allow-off-beacon=").Append(allowOffBeacon).AppendLine();
+            str.Append("allow-disable-beacon=").Append(allowDisableBeacon).AppendLine();
             str.Append("min-beacon-radius=").Append(minBeaconRadius).AppendLine();
             str.Append("min-trigger-delay=").Append(triggerDelay);
 
@@ -264,8 +264,8 @@ namespace NewProduction
 
                     switch(args[0])
                     {
-                        case "allow-off-beacon":
-                            allowOffBeacon = bool.Parse(args[1]);
+                        case "allow-disable-beacon":
+                            allowDisableBeacon = bool.Parse(args[1]);
                             break;
                         case "min-beacon-radius":
                             minBeaconRadius = float.Parse(args[1]);
