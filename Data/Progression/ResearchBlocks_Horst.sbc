@@ -3099,49 +3099,42 @@
             <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeRefineryIndustrial  Meilenstein_Industrial-->
           <Id Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeAssembler  Meilenstein_Industrial-->
           <Id Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeAssemblerIndustrial  Meilenstein_Industrial-->
           <Id Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeProductivityModule  Meilenstein_Industrial-->
           <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LargeProductivityModule" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeEffectivenessModule  Meilenstein_Industrial-->
           <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEffectivenessModule" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeEnergyModule  Meilenstein_Industrial-->
           <Id Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEnergyModule" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Industrial</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeProjector  Meilenstein_Industrial-->
           <Id Type="MyObjectBuilder_Projector" Subtype="LargeProjector" />
           <UnlockedByGroups>
@@ -3580,10 +3573,10 @@
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetLight  Meilenstein_Lights-->
-          <Id Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallLight  Meilenstein_Small_Lights-->
+          <Id Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Lights</GroupSubtype>
+            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockFrontLight  Meilenstein_Lights-->
@@ -3594,12 +3587,6 @@
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--RotatingLightLarge  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Lights</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetSpotlight  Meilenstein_Lights-->
-          <Id Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
@@ -3673,12 +3660,6 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallLight  Meilenstein_Small_Lights-->
-          <Id Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallLight  Meilenstein_Small_Lights-->
           <Id Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
           <UnlockedByGroups>
@@ -3709,7 +3690,18 @@
             <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetLight  Meilenstein_Lights-->
+          <Id Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Lights</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetSpotlight  Meilenstein_Lights-->
+          <Id Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Lights</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
   <!--Meilenstein_Thruster_Atmo-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Atmo  Meilenstein_Power-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Atmo" />
