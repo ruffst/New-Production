@@ -300,7 +300,7 @@
       <DisplayName>Stein zu Eisen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
-        <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="500" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
         <Item Amount="18" TypeId="Ingot" SubtypeId="Stone" />
