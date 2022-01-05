@@ -1099,7 +1099,6 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-
     <!---Meilenstein_Small_LCDs-->
     <Definition>
       <Id>
@@ -1470,7 +1469,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneMechanicMaterial" Count="10">
+        <Component Subtype="MilestoneMechanicMaterial" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>

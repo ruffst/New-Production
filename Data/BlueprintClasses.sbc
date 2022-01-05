@@ -40,7 +40,7 @@
             <FocusIcon>Textures\GUI\Icons\buttons\tool_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-        <Class>            <!--ComponentsDrahtextruder-->            <!--New-->
+        <Class>            <!--ComponentsDrahtextruder-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsDrahtextruder</SubtypeId>
@@ -52,7 +52,7 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-        <Class>            <!--ComponentsWickelmaschine-->            <!--New-->
+        <Class>            <!--ComponentsWickelmaschine-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsWickelmaschine</SubtypeId>
@@ -64,7 +64,7 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-        <Class>            <!--ComponentsRohrextruder-->            <!--New-->
+        <Class>            <!--ComponentsRohrextruder-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsRohrextruder</SubtypeId>
@@ -76,7 +76,7 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-        <Class>            <!--ComponentsPlattenpresse-->            <!--New-->
+        <Class>            <!--ComponentsPlattenpresse-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsPlattenpresse</SubtypeId>
@@ -88,7 +88,7 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-        <Class>            <!--ComponentsElektroAssembler-->            <!--New-->
+        <Class>            <!--ComponentsElektroAssembler-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsElektroAssembler</SubtypeId>
@@ -100,7 +100,7 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-        <Class>            <!--ComponentsFertiger-->            <!--New-->
+        <Class>            <!--ComponentsFertiger-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsFertiger</SubtypeId>
@@ -112,7 +112,7 @@
             <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-        <Class>            <!--ComponentsVerbrauchsmaterialAssembler-->            <!--New-->
+        <Class>            <!--ComponentsVerbrauchsmaterialAssembler-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>ComponentsVerbrauchsmaterialAssembler</SubtypeId>
@@ -234,7 +234,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-        <Class>            <!--Oxyde-->            <!--New-->
+        <Class>            <!--Oxyde-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Oxyde</SubtypeId>
@@ -247,7 +247,7 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
-        <Class>            <!--Legierung-->            <!--New-->
+        <Class>            <!--Legierung-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
                 <SubtypeId>Legierung</SubtypeId>
@@ -418,14 +418,14 @@
             <Entry Class="CommonMetalHorst" BlueprintSubtypeId="CopperOreToIngot" />
             <Entry Class="CommonMetalHorst" BlueprintSubtypeId="LeadOreToIngot" />
 
-        <!--Oxyde-->                                        <!--New-->
+        <!--Oxyde-->
             <Entry Class="Oxyde" BlueprintSubtypeId="StoneIngotToOxyde" />
 
-        <!--Legierung-->                                    <!--New-->
+        <!--Legierung-->
             <Entry Class="Legierung" BlueprintSubtypeId="Nickel3AluBP" />
             <Entry Class="Legierung" BlueprintSubtypeId="Nickel3TinBP" />
 
-        <!--Recycling-->                                    <!--New-->
+        <!--Recycling-->
             <Entry Class="Recycling" BlueprintSubtypeId="ScrapIngotToIronIngot" />
             <Entry Class="Recycling" BlueprintSubtypeId="GlassScrapToSilicon" />
             <Entry Class="Recycling" BlueprintSubtypeId="BatteryScrapToIngotBP" />
@@ -438,27 +438,27 @@
             <Entry Class="Recycling" BlueprintSubtypeId="LeadScrapToIngot" />
             <Entry Class="Recycling" BlueprintSubtypeId="CopperScrapToIngot" />
 
-        <!--ComponentsDrahtextruder-->                      <!--New-->
+        <!--ComponentsDrahtextruder-->
             <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Kupferdraht" />
             <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Golddraht" />
             <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Platindraht" />
             <Entry Class="ComponentsDrahtextruder" BlueprintSubtypeId="Titandraht" />
 
-        <!--ComponentsWickelmaschine-->                     <!--New-->
+        <!--ComponentsWickelmaschine-->
             <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="KupferSpulle" />
             <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="GoldSpulle" />
             <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="PlatinSpulle" />
             <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="TitanSpulle" />
             <Entry Class="ComponentsWickelmaschine" BlueprintSubtypeId="Superconductor" />
 
-        <!--ComponentsRohrextruder-->                       <!--New-->
+        <!--ComponentsRohrextruder-->
             <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="Rotor" />
             <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="SmallTube" />
             <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="LargeTube" />
             <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="Girder" />
             <Entry Class="ComponentsRohrextruder" BlueprintSubtypeId="Construction" />
 
-        <!--ComponentsPlattenpresse-->                      <!--New-->
+        <!--ComponentsPlattenpresse-->
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="SteelPlate" />
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="Titanplatte" />
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="InteriorPlate" />
@@ -469,7 +469,7 @@
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="PCB-Platine" />
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="PlasticBP" />
 
-        <!--ComponentsElektroAssembler-->                   <!--New-->
+        <!--ComponentsElektroAssembler-->
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="Computer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="KupferStrator" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="GoldStrator" />
@@ -483,7 +483,7 @@
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="PlatinComputer" />
             <Entry Class="ComponentsElektroAssembler" BlueprintSubtypeId="TitanComputer" />
 
-        <!--ComponentsFertiger-->                           <!--New-->
+        <!--ComponentsFertiger-->
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="Motor" />
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="Reactor" />
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="Thrust" />
@@ -502,7 +502,7 @@
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="TitanReactor" />
             <Entry Class="ComponentsFertiger" BlueprintSubtypeId="TitanThrust" />
 
-        <!--ComponentsVerbrauchsmaterialAssembler-->        <!--New-->
+        <!--ComponentsVerbrauchsmaterialAssembler-->
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Explosives" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="SemiAutoPistol" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="FullAutoPistol" />
