@@ -273,6 +273,19 @@
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
+        <Class>            <!--VoidMiner-->
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>VoidMiner</SubtypeId>
+            </Id>
+            <DisplayName>VoidMiner</DisplayName>
+            <Description>VoidMiner</Description>
+            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
         <Class>            <!--Ice-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
@@ -417,6 +430,10 @@
             <Entry Class="CommonMetalHorst" BlueprintSubtypeId="StoneOreToIngot" />
             <Entry Class="CommonMetalHorst" BlueprintSubtypeId="CopperOreToIngot" />
             <Entry Class="CommonMetalHorst" BlueprintSubtypeId="LeadOreToIngot" />
+
+       <!--VoidMiner-->
+            <Entry Class="VoidMiner" BlueprintSubtypeId="VoidToOre" />
+
 
         <!--Oxyde-->
             <Entry Class="Oxyde" BlueprintSubtypeId="StoneIngotToOxyde" />
