@@ -208,10 +208,10 @@
             <FocusIcon>Textures\GUI\Icons\buttons\ConsumablesFocus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
         </Class>
-        <Class>            <!--Ingots-->
+        <Class>            <!--Ingots1-->
             <Id>
                 <TypeId>BlueprintClassDefinition</TypeId>
-                <SubtypeId>Ingots</SubtypeId>
+                <SubtypeId>Ingots1</SubtypeId>
             </Id>
             <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
             <Description>Description_BlueprintClass_Ingots</Description>
@@ -387,23 +387,22 @@
             <Entry Class="BasicTools" BlueprintSubtypeId="OxygenBottle" />
             <Entry Class="BasicTools" BlueprintSubtypeId="HydrogenBottle" />
 
-        <!--Ingots-->
-    
-            <!--<Entry Class="Ingots" BlueprintSubtypeId="StoneOreToIngot" />-->
-            <Entry Class="Ingots" BlueprintSubtypeId="IronOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="ScrapIngotToIronIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="NickelOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="CobaltOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="MagnesiumOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="SiliconOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="SilverOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="GoldOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="PlatinumOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="UraniumOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="LeadOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="CopperOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="AluminumOreToIngot" />
-            <Entry Class="Ingots" BlueprintSubtypeId="TitaniumOreToIngot" />       
+        <!--Ingots1-->  
+            <!--<Entry Class="Ingots1" BlueprintSubtypeId="StoneOreToIngot" />-->
+            <Entry Class="Ingots1" BlueprintSubtypeId="IronOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="ScrapIngotToIronIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="NickelOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="CobaltOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="MagnesiumOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="SiliconOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="SilverOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="GoldOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="PlatinumOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="UraniumOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="LeadOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="CopperOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="AluminumOreToIngot" />
+            <Entry Class="Ingots1" BlueprintSubtypeId="TitaniumOreToIngot" />       
 
         <!--Crystallizer-->
             <Entry Class="Crystallizer" BlueprintSubtypeId="PenetratiumOreToIngot" />
