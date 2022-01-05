@@ -748,7 +748,7 @@
       <EdgeType>Light</EdgeType>
       <PrimarySound>BlockGyroscope</PrimarySound>
       <ResourceSinkGroup>Gyro</ResourceSinkGroup>
-      <ForceMagnitude>8000</ForceMagnitude>
+      <ForceMagnitude>20000</ForceMagnitude>
       <RequiredPowerInput>0.4</RequiredPowerInput>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
