@@ -817,7 +817,9 @@
                 <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyorBasic" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeBasic" />
                 <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedBasic" />
-                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />              
+                <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />
+                <Block Type="MyObjectBuilder_Collector" Subtype="CollectorBasic" />
+                <Block Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorBasic" />              
             </Blocks>
         </BlockVariantGroup>
 

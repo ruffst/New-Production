@@ -1229,19 +1229,19 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneMechanicMaterial" Count="15">
+        <Component Subtype="MilestoneMechanicMaterial" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneElectroMaterial" Count="5">
+        <Component Subtype="MilestoneElectroMaterial" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneArmorMaterial" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="2">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>

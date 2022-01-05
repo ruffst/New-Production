@@ -70,7 +70,7 @@
       <Icon>Textures\GUI\Icons\component\milestone_space.dds</Icon>
       <Prerequisites>
         <Item Amount="85" TypeId="Component" SubtypeId="Kupferdraht" />
-        <Item Amount="35" TypeId="Component" SubtypeId="Superconductor" />
+        <Item Amount="35" TypeId="Component" SubtypeId="GoldComputer" />
         <Item Amount="35" TypeId="Component" SubtypeId="GravityGenerator" />
       </Prerequisites>
         <Result Amount="1" TypeId="Component" SubtypeId="MilestoneSpaceMaterial" />
@@ -1115,7 +1115,6 @@
         <Item Amount="1" TypeId="Component" SubtypeId="TitanStrator" />
         <Item Amount="20" TypeId="Component" SubtypeId="Titandraht" />
         <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
-        <Item Amount="1" TypeId="Component" SubtypeId="TitanComputer" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="TitanMotor" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -1133,7 +1132,6 @@
         <Item Amount="1" TypeId="Component" SubtypeId="GoldStrator" />
         <Item Amount="20" TypeId="Component" SubtypeId="Golddraht" />
         <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
-        <Item Amount="1" TypeId="Component" SubtypeId="GoldComputer" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GoldMotor" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
@@ -1151,7 +1149,6 @@
         <Item Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
         <Item Amount="20" TypeId="Component" SubtypeId="Platindraht" />
         <Item Amount="50" TypeId="Component" SubtypeId="Construction" />
-        <Item Amount="1" TypeId="Component" SubtypeId="PlatinComputer" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PlatinMotor" />
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>

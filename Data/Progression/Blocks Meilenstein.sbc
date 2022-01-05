@@ -237,7 +237,7 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Armor_Tin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Armor Tin</DisplayName>
+      <DisplayName>Meilenstein Armor Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von leichten Panzerblöcken</Description>
       <GuiVisible>false</GuiVisible>
@@ -1413,25 +1413,25 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\LG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneArmorMaterial" Count="10">
+        <Component Subtype="MilestoneArmorMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="10">
+        <Component Subtype="MilestoneMechanicMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneCargoMaterial" Count="10">
+        <Component Subtype="MilestoneCargoMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneElectroMaterial" Count="10">
+        <Component Subtype="MilestoneElectroMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>

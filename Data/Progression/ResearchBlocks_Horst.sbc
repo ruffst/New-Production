@@ -116,12 +116,25 @@
           <GroupSubtype>Meilenstein_Basic</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockGyro_Basic  Meilenstein_Small_Gyroskop-->
+        <ResearchBlock xsi:type="ResearchBlock">    <!--SmallBlockGyro_Basic  Meilenstein_Basic-->
           <Id Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Basic" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Basic</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--CollectorBasic  Meilenstein_Basic-->
+          <Id Type="MyObjectBuilder_Collector" Subtype="CollectorBasic" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConnectorBasic  Meilenstein_Basic-->
+          <Id Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorBasic" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
 
   <!--Freischaltung Assembler1-->
 
