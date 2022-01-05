@@ -1518,7 +1518,7 @@
         </BlockVariantGroup>
 
     <!-- Communication -->
-        <!--TurretGroup-->
+        <!--AntennaGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AntennaGroup" />
             <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
@@ -1529,6 +1529,15 @@
                 <Block Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntennaDish" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon" />
                 <Block Type="MyObjectBuilder_LaserAntenna" Subtype="LargeBlockLaserAntenna" />
+            </Blocks>
+        </BlockVariantGroup>
+       <!--AntennaGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AntennaGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_AntennaGroup</DisplayName>
+            <Description>Description_BlockGroup_AntennaGroup</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_RadioAntenna" Subtype="SmallBlockRadioAntenna" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon" />
                 <Block Type="MyObjectBuilder_LaserAntenna" Subtype="SmallBlockLaserAntenna" />
@@ -1536,7 +1545,8 @@
         </BlockVariantGroup>
 
     <!-- Passages -->
-        <!--TurretGroup-->
+
+        <!--DoorGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DoorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
@@ -1544,13 +1554,23 @@
             <Description>Description_Door</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_Door" Subtype="Door" />
-                <Block Type="MyObjectBuilder_Door" Subtype="SmallDoor" />
-                <Block Type="MyObjectBuilder_Door" Subtype="SmallSideDoor" />
                 <Block Type="MyObjectBuilder_AirtightSlideDoor" Subtype="LargeBlockSlideDoor" />
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockOffsetDoor" />
             </Blocks>
         </BlockVariantGroup>
-        <!--TurretGroup-->
+        <!--DoorGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DoorGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
+            <DisplayName>DisplayName_Block_Door</DisplayName>
+            <Description>Description_Door</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Door" Subtype="SmallDoor" />
+                <Block Type="MyObjectBuilder_Door" Subtype="SmallSideDoor" />
+            </Blocks>
+        </BlockVariantGroup>
+               
+        <!--StairsGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
             <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
@@ -1560,15 +1580,25 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
                 <Block Type="MyObjectBuilder_Ladder2" Subtype="Ladder2" />
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairsMirrored" />
             </Blocks>
         </BlockVariantGroup>
+        <!--StairsGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
+            <DisplayName>DisplayName_Block_Stairs</DisplayName>
+            <Description>Description_Stairs</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderSmall" />
+            </Blocks>
+        </BlockVariantGroup>
 
     <!-- Hangars -->
-        <!--TurretGroup-->
+
+        <!--BlastDoorGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BlastDoorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
@@ -1579,13 +1609,23 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="ArmorCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="ArmorInvCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="ArmorSide" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--BlastDoorGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BlastDoorGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
+            <DisplayName>DisplayName_Block_ArmorCenter</DisplayName>
+            <Description>Description_LightArmor</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorCenter" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorInvCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSide" />
             </Blocks>
         </BlockVariantGroup>
-        <!--TurretGroup-->
+                
+        <!--AirtightHangarDoorGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirtightHangarDoorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
@@ -1599,6 +1639,7 @@
 
     <!-- Info -->
 
+        <!--LCDGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroup" />
             <Icon>Textures\GUI\Icons\Cubes\TextPanel.dds</Icon>
@@ -1608,14 +1649,24 @@
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeTextPanel" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanelWide" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanel" />
+                <Block Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDLarge" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--LCDGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\TextPanel.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LCDGroup</DisplayName>
+            <Description>Description_BlockGroup_LCDGroup</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallTextPanel" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallLCDPanelWide" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallLCDPanel" />
-                <Block Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDLarge" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="TransparentLCDSmall" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!--LCDGroupSOTF-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDGroupSOTF" />
             <Icon>Textures\GUI\Icons\Cubes\LCDPanel3x3.dds</Icon>
@@ -1628,6 +1679,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--LCDCornerGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDCornerGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Corner_LCD_1.dds</Icon>
@@ -1638,6 +1690,15 @@
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_2" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_Flat_1" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_Flat_2" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--LCDCornerGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LCDCornerGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Corner_LCD_1.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LCDCornerGroup</DisplayName>
+            <Description>Description_BlockGroup_LCDGroup</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_1" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_2" />
                 <Block Type="MyObjectBuilder_TextPanel" Subtype="SmallBlockCorner_LCD_Flat_1" />
@@ -1647,8 +1708,30 @@
 
     <!-- Internal Decoration -->
 
+        <!--LightingGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
+            <Description>Description_BlockGroup_LightingGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
+                <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
+                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--LightingGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroupSmall" />
             <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
             <Description>Description_BlockGroup_LightingGroup</Description>

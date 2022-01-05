@@ -303,7 +303,7 @@
         <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
-        <Item Amount="14" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="18" TypeId="Ingot" SubtypeId="Stone" />
         <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
         <Item Amount="2.4" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="4.0" TypeId="Ingot" SubtypeId="Silicon" />
@@ -324,8 +324,8 @@
         <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
-        <Item Amount="3" TypeId="Ingot" SubtypeId="Lithium" />
-        <Item Amount="3" TypeId="Ingot" SubtypeId="Neodymium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Neodymium" />
       </Results>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -543,12 +543,12 @@
         <Item Amount="10" TypeId="Ore" SubtypeId="Copper" />
       </Prerequisites>
       <Results>
-        <!--<Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />-->
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
         <Item Amount="4" TypeId="Ingot" SubtypeId="Copper" />
       </Results>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!-- AluminumOreToIngot -->
+    <Blueprint>      <!--AluminumOreToIngot -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AluminumOreToIngot</SubtypeId>
@@ -559,12 +559,12 @@
         <Item Amount="10" TypeId="Ore" SubtypeId="Aluminium" />
       </Prerequisites>
       <Results>
-        <!--<Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />-->
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
         <Item Amount="3" TypeId="Ingot" SubtypeId="Aluminium" />
       </Results>					
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!-- LeadOreToIngot -->
+    <Blueprint>      <!--LeadOreToIngot -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>LeadOreToIngot</SubtypeId>
@@ -575,12 +575,12 @@
         <Item Amount="100" TypeId="Ore" SubtypeId="Lead" />
       </Prerequisites>
       <Results>
-        <!--<Item Amount="60" TypeId="Ingot" SubtypeId="Stone" />-->
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Stone" />
         <Item Amount="40" TypeId="Ingot" SubtypeId="Lead" />
       </Results>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!-- TitaniumOreToIngot -->
+    <Blueprint>      <!--TitaniumOreToIngot -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitaniumOreToIngot</SubtypeId>
@@ -596,7 +596,7 @@
       </Results>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
     </Blueprint>
-    <Blueprint>      <!-- PenetratiumOreToIngot -->
+    <Blueprint>      <!--PenetratiumOreToIngot -->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PenetratiumOreToIngot</SubtypeId>
@@ -1517,7 +1517,7 @@
         <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
         <Item Amount="1" TypeId="Component" SubtypeId="PCB_Platine" />
         <Item Amount="10" TypeId="Component" SubtypeId="SMD" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Lithium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Lithium" />
         <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
         <Item Amount="20" TypeId="Component" SubtypeId="Construction" />
       </Prerequisites>
