@@ -1407,47 +1407,42 @@
         </BlockVariantGroup>
 
     <!-- Ship Weapons -->
-
+        <!--ShipWeaponStaticGroup-->
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipWeaponStaticGroupLarge" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipWeaponStaticGroup" />
             <Icon>Textures\GUI\Icons\Cubes\gatling_gun.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ShipWeaponStaticGroup</DisplayName>
             <Description>Description_BlockGroup_ShipWeaponStaticGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="LargeMissileLauncher" />
-
-                <Block Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="" />
-
             </Blocks>
         </BlockVariantGroup>
-
+        <!--ShipWeaponStaticGroupSmall-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipWeaponStaticGroupSmall" />
             <Icon>Textures\GUI\Icons\Cubes\gatling_gun.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_ShipWeaponStaticGroup</DisplayName>
             <Description>Description_BlockGroup_ShipWeaponStaticGroup</Description>
             <Blocks>
-
                 <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="" />
                 <Block Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="" />
                 <Block Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!--TurretGroup-->
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretGroupLarge" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretGroup" />
             <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
             <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="" />
-
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="" />
-
                 <Block Type="MyObjectBuilder_InteriorTurret" Subtype="LargeInteriorTurret" />
             </Blocks>
         </BlockVariantGroup>
-
+        <!--TurretGroupSmall-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretGroupSmall" />
             <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
@@ -1455,11 +1450,11 @@
             <Description>Description_BlockGroup_TurretGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="SmallGatlingTurret" />
-
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SmallMissileTurret" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!--WarheadGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WarheadGroup" />
             <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
@@ -1467,10 +1462,20 @@
             <Description>Description_Warhead</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_Warhead" Subtype="LargeWarhead" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--WarheadGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WarheadGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\warhead.dds</Icon>
+            <DisplayName>DisplayName_Block_Warhead</DisplayName>
+            <Description>Description_Warhead</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_Warhead" Subtype="SmallWarhead" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!--ExhaustPipeGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExhaustPipeGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Large.dds</Icon>
@@ -1478,12 +1483,20 @@
             <Description>Description_ExhaustPipe</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="LargeExhaustPipe" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--ExhaustPipeGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ExhaustPipeGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\ExhaustPipe_Racing_Large.dds</Icon>
+            <DisplayName>DisplayName_Block_ExhaustPipe</DisplayName>
+            <Description>Description_ExhaustPipe</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_ExhaustBlock" Subtype="SmallExhaustPipe" />
             </Blocks>
         </BlockVariantGroup>
 
-    <!-- Countermeasures -->
-
+        <!--DecoyGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoyGroup" />
             <Icon>Textures\GUI\Icons\Cubes\decoy.dds</Icon>
@@ -1491,12 +1504,21 @@
             <Description>Description_Decoy</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_Decoy" Subtype="LargeDecoy" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--DecoyGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoyGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\decoy.dds</Icon>
+            <DisplayName>DisplayName_Block_Decoy</DisplayName>
+            <Description>Description_Decoy</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_Decoy" Subtype="SmallDecoy" />
             </Blocks>
         </BlockVariantGroup>
 
     <!-- Communication -->
-
+        <!--TurretGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AntennaGroup" />
             <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
@@ -1514,7 +1536,7 @@
         </BlockVariantGroup>
 
     <!-- Passages -->
-
+        <!--TurretGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DoorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\door.dds</Icon>
@@ -1528,7 +1550,7 @@
                 <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockOffsetDoor" />
             </Blocks>
         </BlockVariantGroup>
-
+        <!--TurretGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StairsGroup" />
             <Icon>Textures\GUI\Icons\Cubes\stairs.dds</Icon>
@@ -1546,7 +1568,7 @@
         </BlockVariantGroup>
 
     <!-- Hangars -->
-
+        <!--TurretGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BlastDoorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ArmorCenter.dds</Icon>
@@ -1563,7 +1585,7 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSide" />
             </Blocks>
         </BlockVariantGroup>
-
+        <!--TurretGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirtightHangarDoorGroup" />
             <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
