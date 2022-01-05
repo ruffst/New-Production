@@ -192,7 +192,12 @@
         <GroupSubtype>Assembler2</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--VerticalButtonPanelLarge  Assembler3-->
+      <Id Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelLarge" />
+      <UnlockedByGroups>
+        <GroupSubtype>Assembler2</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
   <!--Forschungslabor-->
 
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Forschungslabor   0-->
@@ -3277,12 +3282,7 @@
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--VerticalButtonPanelLarge  Meilenstein_Automation-->
-          <Id Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelLarge" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Automation</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
+
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ControlPanel  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
           <UnlockedByGroups>
