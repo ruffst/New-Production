@@ -1814,6 +1814,119 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
+    <!---VoidMiner-->
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>VoidMiner</SubtypeId>
+      </Id>
+      <DisplayName>Penetratium Converter</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\BlastFurnace.dds</Icon>
+      <Description>Saugt Erze aus dem Subraum und wandel diese Direkt in Barren um</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\BasicRefBuildstages1.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LeadScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Kupferdraht" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="KupferSpulle" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\BasicRefBuildstages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\BasicRefBuildstages_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>VoidMiner</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <StandbyPowerConsumption>10</StandbyPowerConsumption>
+      <OperationalPowerConsumption>2000</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>VoidMiner</Class>
+      </BlueprintClasses>
+      <RefineSpeed>0.25</RefineSpeed>
+      <MaterialEfficiency>1</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>60</unsignedInt>
+        <unsignedInt>120</unsignedInt>
+        <unsignedInt>240</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
     <!---PenetratiumSocket-->
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
       <Id>
