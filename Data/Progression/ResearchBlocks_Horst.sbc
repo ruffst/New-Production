@@ -3712,7 +3712,7 @@
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetSpotlight  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Lights</GroupSubtype>
+            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
   <!--Meilenstein_Thruster_Atmo-->
