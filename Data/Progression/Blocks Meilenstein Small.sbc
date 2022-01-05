@@ -751,7 +751,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneEnergyMaterial" Count="3">
+        <Component Subtype="MilestoneEnergyMaterial" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>

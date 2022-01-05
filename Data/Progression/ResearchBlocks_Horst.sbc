@@ -3586,10 +3586,10 @@
             <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallLight  Meilenstein_Small_Lights-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallLight  Meilenstein_Lights-->
           <Id Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
+            <GroupSubtype>Meilenstein_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockFrontLight  Meilenstein_Lights-->
@@ -3703,10 +3703,10 @@
             <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetLight  Meilenstein_Lights-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetLight  Meilenstein_Small_Lights-->
           <Id Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Lights</GroupSubtype>
+            <GroupSubtype>Meilenstein_Small_Lights</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--OffsetSpotlight  Meilenstein_Lights-->
