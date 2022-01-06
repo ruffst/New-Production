@@ -1,4 +1,7 @@
-               
+               <!--leer-->
+
+
+
 <BlueprintClasses>
 
         <Class>            <!--Tools-->
@@ -51,334 +54,36 @@
         </Component>
 
 
-OffroadSuspension3x3
-OffroadSuspension5x5
 
 
-Da es ja nun schon einige "produktive Kritiken" gab, hier eine kleine Anmerkung von mir. 
-Es haben einige Ihre Meinung Kund getan was sie Scheiße finden und womit Sie nicht leben wollen.
-Sei es nun mit einem Handbohrer arbeiten zu müssen oder nicht direkt am Anfang eine schöne Fabrik 
-bauen zu können oder aber nicht alles von Anfang an automatisieren zu können.
 
-Vanilla ist ein Ponnyhof das sollte jedem klar sein. Dieser Mod wird kein Ponnyhof. 
-Es soll herrausvordernd, fesselnd und anstengenend sein. Denn nur so haben die Spieler länger als zwei Wochen Spielspass.
+        <Component Subtype="MilestoneArmorMaterial" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
 
-Wenn Ihr also mit Kritiken an Rafi oder mich herantrettet, sollte Ihr euch vorher überlegen wie es umgesetzt werden kann.
-Wir werde in Zukunft nicht mehr auf "das ist aber blöd macht das anders" eingehen. Wenn Ihr eine Änderung wollt macht euch konkrete Gedanken wie diese auszusehen hat. 
-Dann können drüber reden ob es geht ober nicht.
+        <Component Subtype="MilestoneMechanicMaterial" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
 
+        <Component Subtype="MilestoneEnergyMaterial" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>BatteryScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
 
-        'LargeGridBeamBlockTJunction'
-        'SmallGridBeamBlock'
-        'SmallGridBeamBlockSlope'
-        'SmallGridBeamBlockRound'
-        'SmallGridBeamBlockSlope2x1Base'
-        'SmallGridBeamBlockSlope2x1Tip'
-        'SmallGridBeamBlockHalf'
-        'SmallGridBeamBlockHalfSlope'
-        'SmallGridBeamBlockEnd'
-        'SmallGridBeamBlockJunction'
-        'SmallGridBeamBlockTJunction'
+        <Component Subtype="MilestoneSpaceMaterial" Count="30">
+        </Component>
 
-        'SmallArmorPanelLight'
-        'SmallArmorSlopedSidePanelLight'
-        'SmallArmorSlopedPanelLight'
-        'SmallArmorHalfPanelLight'
-        'SmallArmorQuarterPanelLight'
-        'SmallArmor2x1SlopedPanelLight'
-        'SmallArmor2x1SlopedPanelTipLight'
-        'SmallArmor2x1SlopedSideBasePanelLight'
-        'SmallArmor2x1SlopedSideTipPanelLight'
-        'SmallArmor2x1SlopedSideBasePanelLightInv'
-        'SmallArmor2x1SlopedSideTipPanelLightInv'
-        'SmallArmorHalfSlopedPanelLight'
-        'SmallArmor2x1HalfSlopedPanelLightRight'
-        'SmallArmor2x1HalfSlopedTipPanelLightRight'
-        'SmallArmor2x1HalfSlopedPanelLightLeft'
-        'SmallArmor2x1HalfSlopedTipPanelLightLeft'
-
-        'SmallArmorPanelHeavy'
-        'SmallArmorSlopedSidePanelHeavy'
-        'SmallArmorSlopedPanelHeavy'
-        'SmallArmorHalfPanelHeavy'
-        'SmallArmorQuarterPanelHeavy'
-        'SmallArmor2x1SlopedPanelHeavy'
-        'SmallArmor2x1SlopedPanelTipHeavy'
-        'SmallArmor2x1SlopedSideBasePanelHeavy'
-        'SmallArmor2x1SlopedSideTipPanelHeavy'
-        'SmallArmor2x1SlopedSideBasePanelHeavyInv'
-        'SmallArmor2x1SlopedSideTipPanelHeavyInv'
-        'SmallArmorHalfSlopedPanelHeavy'
-        'SmallArmor2x1HalfSlopedPanelHeavyRight'
-        'SmallArmor2x1HalfSlopedTipPanelHeavyRight'
-        'SmallArmor2x1HalfSlopedPanelHeavyLeft'
-        'SmallArmor2x1HalfSlopedTipPanelHeavyLeft'
-    
-
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeGridBeamBlockTJunction  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockTJunction" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlock  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlock" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlockSlope  Meilenstein_ArmorDeko-->       
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockSlope" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlockRound  Meilenstein_ArmorDeko-->       
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockRound" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlockSlope2x1Base  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockSlope2x1Base" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlockSlope2x1Tip  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockSlope2x1Tip" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlockHalf  Meilenstein_ArmorDeko-->       
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockHalf" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlockHalfSlope  Meilenstein_ArmorDeko-->  
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockHalfSlope" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlockEnd  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockEnd" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlockJunction  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockJunction" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGridBeamBlockTJunction  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockTJunction" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorPanelLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorSlopedSidePanelLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorSlopedPanelLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorHalfPanelLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorQuarterPanelLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedPanelLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedPanelTipLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedSideBasePanelLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedSideTipPanelLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedSideBasePanelLightInv  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelLightInv" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedSideTipPanelLightInv  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelLightInv" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorHalfSlopedPanelLight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelLight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1HalfSlopedPanelLightRight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightRight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1HalfSlopedTipPanelLightRight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightRight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1HalfSlopedPanelLightLeft  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelLightLeft" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1HalfSlopedTipPanelLightLeft  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelLightLeft" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorPanelHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorPanelHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorSlopedSidePanelHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedSidePanelHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorSlopedPanelHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorSlopedPanelHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorHalfPanelHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfPanelHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorQuarterPanelHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorQuarterPanelHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedPanelHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedPanelTipHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedPanelTipHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedSideBasePanelHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedSideTipPanelHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedSideBasePanelHeavyInv  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideBasePanelHeavyInv" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1SlopedSideTipPanelHeavyInv  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1SlopedSideTipPanelHeavyInv" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmorHalfSlopedPanelHeavy  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmorHalfSlopedPanelHeavy" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1HalfSlopedPanelHeavyRight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelHeavyRight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1HalfSlopedTipPanelHeavyRight  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelHeavyRight" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1HalfSlopedPanelHeavyLeft  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedPanelHeavyLeft" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallArmor2x1HalfSlopedTipPanelHeavyLeft  Meilenstein_ArmorDeko-->
-          <Id Type="MyObjectBuilder_CubeBlock" Subtype="SmallArmor2x1HalfSlopedTipPanelHeavyLeft" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_ArmorDeko</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-
-
-Gyroscope
-Thruster 
-Gravigens
-Graviblocks
-Tools
-Jumpdrives
-Projektor Large
+        <Component Subtype="MilestoneElectroMaterial" Count="50">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+
+    <!--Passage-->
     <Definition>
       <Id>
         <TypeId>Passage</TypeId>
@@ -63,6 +65,7 @@
       <BuildTimeSeconds>16</BuildTimeSeconds>
       <PCU>1</PCU>
     </Definition>
+    <!--Passage2-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -122,6 +125,7 @@
       <BuildTimeSeconds>16</BuildTimeSeconds>
       <PCU>1</PCU>
     </Definition>
+    <!--Passage2Wall-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -178,6 +182,7 @@
       <BuildTimeSeconds>12</BuildTimeSeconds>
       <PCU>1</PCU>
     </Definition>
+    <!--LargeStairs-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -234,6 +239,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
     </Definition>
+    <!--LargeRamp-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -291,6 +297,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PCU>1</PCU>
     </Definition>
+    <!--LargeSteelCatwalk-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -353,6 +360,7 @@
       </DestroyEffectOffset>
       <PCU>1</PCU>
     </Definition>
+    <!--LargeSteelCatwalk2Sides-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -415,6 +423,7 @@
       </DestroyEffectOffset>
       <PCU>1</PCU>
     </Definition>
+    <!--LargeSteelCatwalkCorner-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -479,6 +488,7 @@
       </DestroyEffectOffset>
       <PCU>1</PCU>
     </Definition>
+    <!--LargeSteelCatwalkPlate-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -542,6 +552,7 @@
       </DestroyEffectOffset>
       <PCU>1</PCU>
     </Definition>
+    <!--LargeCoverWall-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -588,6 +599,7 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeCoverWallHalf-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -631,6 +643,7 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeBlockInteriorWall-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -693,6 +706,7 @@
       <PCU>1</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
+    <!--LargeInteriorPillar-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -741,6 +755,7 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--PassengerSeatLarge-->
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
@@ -815,6 +830,7 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--PassengerSeatSmall-->
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
@@ -888,6 +904,7 @@
       <PCU>15</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--Ladder2-->
     <Definition>
       <Id>
         <TypeId>Ladder2</TypeId>
@@ -981,6 +998,7 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
     </Definition>
+    <!--LadderSmall-->
     <Definition>
       <Id>
         <TypeId>Ladder2</TypeId>
@@ -1073,5 +1091,6 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
     </Definition>
+
   </CubeBlocks>
 </Definitions>

@@ -1718,17 +1718,10 @@
             <Description>Description_BlockGroup_LightingGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
             </Blocks>
         </BlockVariantGroup>
         <!--LightingGroupSmall-->
@@ -1738,21 +1731,17 @@
             <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
             <Description>Description_BlockGroup_LightingGroup</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
                 <Block Type="MyObjectBuilder_InteriorLight" Subtype="OffsetLight" />
                 <Block Type="MyObjectBuilder_ReflectorLight" Subtype="OffsetSpotlight" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!--DeskGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DeskGroup" />
             <DisplayName>DisplayName_Block_Desk</DisplayName>
@@ -1766,6 +1755,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--CouchGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CouchGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
@@ -1778,6 +1768,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--InteriorStructureGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InteriorStructureGroup" />
             <Icon>Textures\GUI\Icons\Cubes\cover_wall_full.dds</Icon>
@@ -1792,10 +1783,20 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="FireCover" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="FireCoverCorner" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockCylindricalColumn" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--InteriorStructureGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InteriorStructureGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\cover_wall_full.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_InteriorStructureGroup</DisplayName>
+            <Description>Description_BlockGroup_InteriorStructureGroup</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockCylindricalColumn" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!--DecorativeUtilityGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeUtilityGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Kitchen.dds</Icon>
@@ -1813,6 +1814,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--DecorativeDeadBodiesGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeDeadBodiesGroup" />
             <Icon>Textures\GUI\Icons\Cubes\DeadBody_1.dds</Icon>
@@ -1828,6 +1830,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--LockersGroup-->
         <BlockVariantGroup>            
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LockersGroup" />
             <Icon>Textures\GUI\Icons\Cubes\LockerRoom.dds</Icon>
@@ -1838,10 +1841,20 @@
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockerRoomCorner" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLockers" />
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockWeaponRack" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--LockersGroupSmall-->
+        <BlockVariantGroup>            
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LockersGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\LockerRoom.dds</Icon>
+            <DisplayName>DisplayName_Block_LockerRoom</DisplayName>
+            <Description>Description_LockerRoomCorner</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockWeaponRack" />
             </Blocks>
         </BlockVariantGroup>
-
+                
+        <!--BathroomGroup-->
         <BlockVariantGroup>            
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BathroomGroup" />
             <DisplayName>DisplayName_Block_Shower</DisplayName>
@@ -1856,7 +1869,7 @@
         </BlockVariantGroup>
 
     <!-- External Decoration -->
-
+        <!--InteriorBlockGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="InteriorBlockGroup" />
             <Icon>Textures\GUI\Icons\Cubes\passage.dds</Icon>
@@ -1876,7 +1889,8 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="PassageSciFiWindow" />
             </Blocks>
         </BlockVariantGroup>
-
+        
+        <!--RailingGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RailingGroup" />
             <Icon>Textures\GUI\Icons\Cubes\RailingStraight.dds</Icon>
@@ -1892,6 +1906,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--CatwalkGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CatwalkGroup" />
             <Icon>Textures\GUI\Icons\Cubes\steel_catwalk.dds</Icon>
@@ -1905,6 +1920,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--DecoCatwalkGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecoCatwalkGroup" />
             <Icon>Textures\GUI\Icons\Cubes\GratedCatwalkWall.dds</Icon>
@@ -1921,6 +1937,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--NeonTubes-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="NeonTubes" />
             <Icon>Textures\GUI\Icons\Cubes\NeonTubesStraight1.dds</Icon>
@@ -1941,6 +1958,7 @@
 
     <!-- Windows -->
 
+        <!--WindowSmallGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowSmallGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Window1x1Inv.dds</Icon>
@@ -1950,12 +1968,23 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope" />
+
+            </Blocks>
+        </BlockVariantGroup>
+        <!--WindowSmallGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowSmallGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Inv.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowSmallGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Flat" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1FlatInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Slope" />
             </Blocks>
         </BlockVariantGroup>
-
+                
+        <!--WindowMediumGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowMediumGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
@@ -1965,12 +1994,22 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Flat" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2FlatInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Slope" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--WindowMediumGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowMediumGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowMediumGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Flat" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2FlatInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Slope" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!--WindowLargeGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowLargeGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Window3x3Flat.dds</Icon>
@@ -1981,13 +2020,23 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window2x3FlatInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window3x3Flat" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window3x3FlatInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--WindowLargeGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowLargeGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Window3x3Flat.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowLargeGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow2x3Flat" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow2x3FlatInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow3x3Flat" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow3x3FlatInv" />
             </Blocks>
         </BlockVariantGroup>
-
+                
+        <!--WindowSmallCornerGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowSmallCornerGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
@@ -1999,6 +2048,15 @@
                 <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FaceInv" />-->
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--WindowSmallCornerGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowSmallCornerGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowSmallCornerGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Face" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Inv" />
                 <!--<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1FaceInv" />-->
@@ -2007,6 +2065,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--WindowMediumCornerGroupRess-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowMediumCornerGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
@@ -2019,6 +2078,15 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideLeftInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRightInv" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--WindowMediumCornerGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WindowMediumCornerGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Face.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowMediumCornerGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Face" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Inv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideLeft" />
@@ -2028,6 +2096,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--ShutterGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShutterGroup" />
             <Icon>Textures\GUI\Icons\Cubes\window.dds</Icon>
@@ -2044,6 +2113,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--HalfWindowGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HalfWindowGroup" />
             <Icon>Textures\GUI\Icons\Cubes\HalfWindow.dds</Icon>
@@ -2058,7 +2128,7 @@
         </BlockVariantGroup>
 
     <!-- High-Tech -->
-
+        <!--GravityGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravityGroup" />
             <Icon>Textures\GUI\Icons\Cubes\gravity_generator.dds</Icon>
@@ -2068,8 +2138,17 @@
                 <Block Type="MyObjectBuilder_GravityGenerator" Subtype="GravityGenerator" />
                 <Block Type="MyObjectBuilder_GravityGeneratorSphere" Subtype="GravityGeneratorSphere" />
                 <Block Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassLarge" />
-                <Block Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassSmall" />
                 <Block Type="MyObjectBuilder_SpaceBall" Subtype="SpaceBallLarge" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--GravityGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GravityGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\gravity_generator.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_GravityGroup</DisplayName>
+            <Description>Description_BlockGroup_GravityGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_VirtualMass" Subtype="VirtualMassSmall" />
                 <Block Type="MyObjectBuilder_SpaceBall" Subtype="SpaceBallSmall" />
             </Blocks>
         </BlockVariantGroup>
@@ -2090,6 +2169,7 @@
 
     <!-- Advanced Systems -->
 
+        <!--AutomationGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ProgrammingBlock.dds</Icon>
@@ -2097,14 +2177,24 @@
             <Description>Description_BlockGroup_AutomationGroup</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="LargeProgrammableBlock" />
-                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="SmallProgrammableBlock" />
                 <Block Type="MyObjectBuilder_SensorBlock" Subtype="LargeBlockSensor" />
-                <Block Type="MyObjectBuilder_SensorBlock" Subtype="SmallBlockSensor" />
                 <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockLarge" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--AutomationGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AutomationGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\ProgrammingBlock.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_AutomationGroup</DisplayName>
+            <Description>Description_BlockGroup_AutomationGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MyProgrammableBlock" Subtype="SmallProgrammableBlock" />
+                <Block Type="MyObjectBuilder_SensorBlock" Subtype="SmallBlockSensor" />
                 <Block Type="MyObjectBuilder_TimerBlock" Subtype="TimerBlockSmall" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!--SoundGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SoundGroup" />
             <Icon>Textures\GUI\Icons\Cubes\SoundBlock.dds</Icon>
@@ -2112,11 +2202,21 @@
             <Description>Description_Sound</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_SoundBlock" Subtype="LargeBlockSoundBlock" />
-                <Block Type="MyObjectBuilder_SoundBlock" Subtype="SmallBlockSoundBlock" />
                 <Block Type="MyObjectBuilder_Jukebox" Subtype="Jukebox" />
             </Blocks>
         </BlockVariantGroup>
+        <!--SoundGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SoundGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\SoundBlock.dds</Icon>
+            <DisplayName>DisplayName_Block_SoundBlock</DisplayName>
+            <Description>Description_Sound</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_SoundBlock" Subtype="SmallBlockSoundBlock" />
+            </Blocks>
+        </BlockVariantGroup>
 
+        <!--ButtonPanelGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ButtonPanelGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ButtonPanel.dds</Icon>
@@ -2124,16 +2224,25 @@
             <Description>Description_ButtonPanel</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelLarge" />
-                <Block Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelSmall" />
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonPanel" />
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="LargeSciFiButtonTerminal" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
-                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanel" />
                 <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeBlockSciFiTerminal" />
                 <Block Type="MyObjectBuilder_ButtonPanel" Subtype="VerticalButtonPanelLarge" />
             </Blocks>
         </BlockVariantGroup>
+        <!--ButtonPanelGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ButtonPanelGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\ButtonPanel.dds</Icon>
+            <DisplayName>DisplayName_Block_ButtonPanel</DisplayName>
+            <Description>Description_ButtonPanel</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_TerminalBlock" Subtype="SmallControlPanel" />
+            </Blocks>
+        </BlockVariantGroup>
 
+        <!--EconomyGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EconomyGroup" />
             <Icon>Textures\GUI\Icons\Cubes\ATM.dds</Icon>
@@ -2146,6 +2255,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--StoreGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StoreGroup" />
             <Icon>Textures\GUI\Icons\Cubes\StoreBlock.dds</Icon>
@@ -2159,6 +2269,7 @@
 
     <!-- Mechanics -->
 
+        <!--GravityGroupSmall-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RotorGroupLarge" />
             <Icon>Textures\GUI\Icons\Cubes\motor.dds</Icon>
@@ -2172,6 +2283,7 @@
              </Blocks>
         </BlockVariantGroup>
 
+        <!--GravityGroupSmall-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RotorGroupsmall" />
             <Icon>Textures\GUI\Icons\Cubes\motor.dds</Icon>
@@ -2185,6 +2297,7 @@
              </Blocks>
         </BlockVariantGroup>
 
+        <!--HingeGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HingeGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Hinge.dds</Icon>
@@ -2192,14 +2305,24 @@
             <Description>Description_Rotor</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="LargeHinge" />
-                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="MediumHinge" />
-                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallHinge" />
                 <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="LargeHingeHead" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--HingeGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HingeGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Hinge.dds</Icon>
+            <DisplayName>DisplayName_Block_Hinge</DisplayName>
+            <Description>Description_Rotor</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="MediumHinge" />
                 <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="MediumHingeHead" />
+                <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallHinge" />               
                 <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallHingeHead" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!--PistonGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PistonGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
@@ -2207,10 +2330,19 @@
             <Description>Description_Piston</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_ExtendedPistonBase" Subtype="LargePistonBase" />
-                <Block Type="MyObjectBuilder_ExtendedPistonBase" Subtype="SmallPistonBase" />
                 <Block Type="MyObjectBuilder_PistonTop" Subtype="LargePistonTop" />
-                <Block Type="MyObjectBuilder_PistonTop" Subtype="SmallPistonTop" />
                 <Block Type="MyObjectBuilder_MergeBlock" Subtype="LargeShipMergeBlock" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--PistonGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PistonGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
+            <DisplayName>DisplayName_Block_PistonBase</DisplayName>
+            <Description>Description_Piston</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_ExtendedPistonBase" Subtype="SmallPistonBase" />
+                <Block Type="MyObjectBuilder_PistonTop" Subtype="SmallPistonTop" />
                 <Block Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipMergeBlock" />
                 <Block Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipSmallMergeBlock" />
             </Blocks>
@@ -2218,6 +2350,7 @@
 
     <!-- Symbols -->
 
+        <!--LettersAZ-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LettersAZ" />
             <Icon>Textures\GUI\Icons\Cubes\Symbol_A.dds</Icon>
@@ -2250,6 +2383,15 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSymbolX" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSymbolY" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSymbolZ" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--LettersAZSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LettersAZSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Symbol_A.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_LettersAH</DisplayName>
+            <Description>Description_Letters</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSymbolA" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSymbolB" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSymbolC" />
@@ -2279,6 +2421,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--Numbers1-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Numbers1" />
             <Icon>Textures\GUI\Icons\Cubes\Symbol_1.dds</Icon>
@@ -2295,6 +2438,15 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSymbol8" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSymbol9" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSymbol0" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--Numbers1Small-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Numbers1Small" />
+            <Icon>Textures\GUI\Icons\Cubes\Symbol_1.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_Numbers</DisplayName>
+            <Description>Description_Numbers</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSymbol1" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSymbol2" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSymbol3" />
@@ -2308,6 +2460,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--Symbols-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Symbols" />
             <Icon>Textures\GUI\Icons\Cubes\Symbol_Dot.dds</Icon>
@@ -2322,6 +2475,15 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSymbolColon" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSymbolExclamationMark" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeSymbolQuestionMark" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--SymbolsSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SymbolsSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\Symbol_Dot.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_Symbols</DisplayName>
+            <Description>Description_Symbols</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSymbolHyphen" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSymbolUnderscore" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallSymbolDot" />
@@ -2333,6 +2495,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--BarredWindows-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BarredWindows" />
             <Icon>Textures\GUI\Icons\Cubes\BarredWindow_Racing_Flat.dds</Icon>
@@ -2346,6 +2509,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--StorageShelves-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="StorageShelves" />
             <Icon>Textures\GUI\Icons\Cubes\Shelf_1.dds</Icon>
@@ -2358,6 +2522,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--EmbrasureGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EmbrasureGroup" />
             <Icon>Textures\GUI\Icons\Cubes\Embrasure.dds</Icon>
@@ -2368,6 +2533,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--TargetDummyGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TargetDummyGroup" />
             <Icon>Textures\GUI\Icons\Cubes\TargetDummy.dds</Icon>
@@ -2378,6 +2544,7 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--BeamGroup-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BeamGroup" />
             <Icon>Textures\GUI\Icons\Cubes\LargeGirderStraight.dds</Icon>
@@ -2394,6 +2561,15 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockEnd" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockJunction" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeGridBeamBlockTJunction" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!--BeamGroupSmall-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BeamGroupSmall" />
+            <Icon>Textures\GUI\Icons\Cubes\LargeGirderStraight.dds</Icon>
+            <DisplayName>DisplayName_Block_BeamBlock</DisplayName>
+            <Description>Description_BeamBlock</Description>
+            <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlock" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockSlope" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallGridBeamBlockRound" />

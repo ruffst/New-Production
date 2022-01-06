@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-    <!-- Decorative Blocks #2-->
+    <!--FoodDispenser-->
     <Definition xsi:type="MyObjectBuilder_VendingMachineDefinition">
       <Id>
         <TypeId>VendingMachine</TypeId>
@@ -120,6 +120,7 @@
         <string>FoodDispenser</string>
       </AdditionalEmissiveMaterials>
     </Definition>
+    <!--Jukebox-->
     <Definition xsi:type="MyObjectBuilder_JukeboxDefinition">
       <Id>
         <TypeId>Jukebox</TypeId>
@@ -198,6 +199,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LabEquipment-->
     <Definition xsi:type="MyObjectBuilder_LCDPanelsBlockDefinition">
       <Id>
         <TypeId>LCDPanelsBlock</TypeId>
@@ -271,6 +273,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--Shower-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -342,6 +345,7 @@
       <PCU>1</PCU>
       <DLC>DecorativeBlocks2</DLC>
     </Definition>
+    <!--WindowWall-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -407,6 +411,7 @@
       <IsAirTight>true</IsAirTight>
       <DLC>DecorativeBlocks2</DLC>
     </Definition>
+    <!--WindowWallLeft-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -473,6 +478,7 @@
       <IsAirTight>true</IsAirTight>
       <DLC>DecorativeBlocks2</DLC>
     </Definition>
+    <!--WindowWallRight-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -539,6 +545,7 @@
       <IsAirTight>true</IsAirTight>
       <DLC>DecorativeBlocks2</DLC>
     </Definition>
+    <!--MedicalStation-->
     <Definition xsi:type="MyObjectBuilder_LCDPanelsBlockDefinition">
       <Id>
         <TypeId>LCDPanelsBlock</TypeId>
@@ -620,6 +627,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--TransparentLCDLarge-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -699,6 +707,7 @@
       <PCU>50</PCU>
       <DLC>DecorativeBlocks2</DLC>
     </Definition>
+    <!--TransparentLCDSmall-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -789,6 +798,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DLC>DecorativeBlocks2</DLC>
     </Definition>
+    <!--Catwalk-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -852,6 +862,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--CatwalkCorner-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -915,6 +926,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--CatwalkStraight-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -977,6 +989,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--CatwalkWall-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1039,6 +1052,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--CatwalkRailingEnd-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1101,6 +1115,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--CatwalkRailingHalfRight-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1164,6 +1179,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--CatwalkRailingHalfLeft-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1227,6 +1243,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--GratedStairs-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1291,6 +1308,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--GratedHalfStairs-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1354,6 +1372,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--GratedHalfStairsMirrored-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1417,6 +1436,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--RailingStraight-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1471,6 +1491,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--RailingDouble-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1528,6 +1549,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--RailingCorner-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1584,6 +1606,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--RailingDiagonal-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1643,6 +1666,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--RailingHalfRight-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1697,6 +1721,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--RailingHalfLeft-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1751,6 +1776,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--RotatingLightLarge-->
     <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
       <Id>
         <TypeId>ReflectorLight</TypeId>
@@ -1818,6 +1844,7 @@
       <ReflectorConeDegrees>40</ReflectorConeDegrees>
       <ReflectorConeMaterial>ReflectorConeNarrow</ReflectorConeMaterial>
     </Definition>
+    <!--RotatingLightSmall-->
     <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
       <Id>
         <TypeId>ReflectorLight</TypeId>
@@ -1897,6 +1924,7 @@
       <ReflectorConeDegrees>40</ReflectorConeDegrees>
       <ReflectorConeMaterial>ReflectorConeNarrow</ReflectorConeMaterial>
     </Definition>
+    <!--Freight1-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1957,6 +1985,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--Freight2-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -2017,6 +2046,7 @@
       <DLC>DecorativeBlocks2</DLC>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--Freight3-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>

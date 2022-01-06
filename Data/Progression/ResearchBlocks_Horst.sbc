@@ -3282,7 +3282,12 @@
             <GroupSubtype>Meilenstein_Automation</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ControlPanel  Meilenstein_Automation-->
+          <Id Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Automation</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ControlPanel  Meilenstein_Automation-->
           <Id Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
           <UnlockedByGroups>
@@ -3324,12 +3329,6 @@
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--ButtonPanelSmall  Meilenstein_Small_Automation-->
           <Id Type="MyObjectBuilder_ButtonPanel" Subtype="ButtonPanelSmall" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Small_Automation</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ControlPanel  Meilenstein_Small_Automation-->
-          <Id Type="MyObjectBuilder_TerminalBlock" Subtype="ControlPanel" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Automation</GroupSubtype>
           </UnlockedByGroups>
@@ -3469,10 +3468,10 @@
             <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Gold  Meilenstein_Power_Platin-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Gold  Meilenstein_Power_Gold-->
           <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock_Gold" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+            <GroupSubtype>Meilenstein_Power_Gold</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
@@ -3559,10 +3558,10 @@
             <GroupSubtype>Meilenstein_Power_Titan</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Titan  Meilenstein_Power_Platin-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockBatteryBlock_Titan  Meilenstein_Power_Titan-->
           <Id Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock_Titan" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Power_Platin</GroupSubtype>
+            <GroupSubtype>Meilenstein_Power_Titan</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
@@ -5321,12 +5320,6 @@
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankSmall  Meilenstein_Tanks-->
-          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
-          <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankIndustrial  Meilenstein_Tanks-->
           <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial" />
           <UnlockedByGroups>
@@ -5345,6 +5338,13 @@
             <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeHydrogenTankSmall  Meilenstein_Small_Tanks-->
+          <Id Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
 
   <!--Meilenstein_Small_Tanks-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Tanks  Forschung-->
@@ -5378,13 +5378,12 @@
             <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTank  Meilenstein_Tanks-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHydrogenTank  Meilenstein_Small_Tanks-->
           <Id Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Tanks</GroupSubtype>
+            <GroupSubtype>Meilenstein_Small_Tanks</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
 
   <!--Meilenstein_Tanks_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Tanks_Gold  Meilenstein_Tanks-->
