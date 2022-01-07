@@ -431,7 +431,7 @@
             <Entry Class="CommonMetalHorst" BlueprintSubtypeId="CopperOreToIngot" />
             <Entry Class="CommonMetalHorst" BlueprintSubtypeId="LeadOreToIngot" />
 
-       <!--VoidMiner-->
+        <!--VoidMiner-->
             <Entry Class="VoidMiner" BlueprintSubtypeId="VoidToOre" />
 
 
@@ -477,7 +477,7 @@
 
         <!--ComponentsPlattenpresse-->
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="SteelPlate" />
-            <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="Titanplatte" />
+            <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="TitanPlate" />
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="InteriorPlate" />
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="Bleiplatte" />
             <Entry Class="ComponentsPlattenpresse" BlueprintSubtypeId="BulletproofGlass" />

@@ -922,7 +922,17 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneSpaceMaterial" Count="15">
+        <Component Subtype="Motor" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>MechanicScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="5">
           <DeconstructId>
