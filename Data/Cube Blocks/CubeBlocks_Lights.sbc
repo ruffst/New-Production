@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+
+    <!--LargeBlockFrontLight-->
     <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
       <Id>
         <TypeId>ReflectorLight</TypeId>
@@ -81,6 +83,8 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallBlockFrontLight-->
     <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
       <Id>
         <TypeId>ReflectorLight</TypeId>
@@ -160,6 +164,8 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallLight-->
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
       <Id>
         <TypeId>InteriorLight</TypeId>
@@ -212,6 +218,8 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallBlockSmallLight-->
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
       <Id>
         <TypeId>InteriorLight</TypeId>
@@ -260,6 +268,8 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--LargeBlockLight_1corner-->
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
       <Id>
         <TypeId>InteriorLight</TypeId>
@@ -294,6 +304,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Light_1corner_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>LargeBlockLight_1corner</BlockPairName>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <Flare>NoFlare</Flare>
       <LightRadius Min="0.1" Max="10" Default="2.0" />
@@ -315,6 +326,8 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--LargeBlockLight_2corner-->
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
       <Id>
         <TypeId>InteriorLight</TypeId>
@@ -348,6 +361,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Light_2corner_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>LargeBlockLight_2corner</BlockPairName>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <Flare>NoFlare</Flare>
       <LightRadius Min="0.1" Max="10" Default="2.0" />
@@ -369,6 +383,8 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallBlockLight_1corner-->
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
       <Id>
         <TypeId>InteriorLight</TypeId>
@@ -403,6 +419,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\Light_1corner_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>SmallBlockLight_1corner</BlockPairName>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <Flare>NoFlare</Flare>
       <LightRadius Min="0.1" Max="4" Default="2.0" />
@@ -419,6 +436,8 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallBlockLight_2corner-->
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
       <Id>
         <TypeId>InteriorLight</TypeId>
@@ -452,6 +471,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\Light_2corner_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>SmallBlockLight_2corner</BlockPairName>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <Flare>NoFlare</Flare>
       <LightRadius Min="0.1" Max="4" Default="2.0" />
@@ -468,5 +488,6 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
   </CubeBlocks>
 </Definitions>

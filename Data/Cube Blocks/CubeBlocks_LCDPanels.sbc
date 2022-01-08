@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+    <!--SmallTextPanel-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -97,6 +98,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
     </Definition>
+    <!--SmallLCDPanelWide-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -198,6 +200,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--SmallLCDPanel-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -295,6 +298,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeBlockCorner_LCD_1-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -344,6 +348,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Corner_LCD_1_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>LargeBlockCorner_LCD_1</BlockPairName>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -371,6 +376,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeBlockCorner_LCD_2-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -420,6 +426,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Corner_LCD_2_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>LargeBlockCorner_LCD_2</BlockPairName>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -447,6 +454,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeBlockCorner_LCD_Flat_1-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -496,6 +504,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Corner_LCD_Flat_1_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>LargeBlockCorner_LCD_Flat_1</BlockPairName>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -523,6 +532,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeBlockCorner_LCD_Flat_2-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -572,6 +582,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Corner_LCD_Flat_2_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>LargeBlockCorner_LCD_Flat_2</BlockPairName>
       <ScreenWidth>7</ScreenWidth>
       <ScreenHeight>1</ScreenHeight>
       <ScreenAreas>
@@ -599,6 +610,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--SmallBlockCorner_LCD_1-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -648,6 +660,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\Corner_LCD_1_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>SmallBlockCorner_LCD_1</BlockPairName>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -670,6 +683,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--SmallBlockCorner_LCD_2-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -718,6 +732,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\Corner_LCD_2_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>SmallBlockCorner_LCD_2</BlockPairName>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -740,6 +755,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--leer-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -789,6 +805,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\Corner_LCD_Flat_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>SmallBlockCorner_LCD_Flat_1</BlockPairName>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -811,6 +828,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--SmallBlockCorner_LCD_Flat_2-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -860,6 +878,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\Corner_LCD_Flat_Construction_1.mwm" />
       </BuildProgressModels>
+      <BlockPairName>SmallBlockCorner_LCD_Flat_2</BlockPairName>
       <BuildTimeSeconds>4</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -882,6 +901,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeTextPanel-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -972,6 +992,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeLCDPanel-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -1062,6 +1083,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--LargeLCDPanelWide-->
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
@@ -1156,5 +1178,6 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
   </CubeBlocks>
 </Definitions>

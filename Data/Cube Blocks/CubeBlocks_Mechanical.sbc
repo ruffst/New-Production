@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-    <!-- Region Piston-->
+  <!--Region Piston-->
+
+    <!--LargePistonBase-->
     <Definition xsi:type="MyObjectBuilder_PistonBaseDefinition">
       <Id>
         <TypeId>PistonBase</TypeId>
@@ -91,7 +93,13 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <!--LargePistonBase-->
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -182,7 +190,13 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU><IsAirTight>false</IsAirTight></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <!--LargePistonTop-->
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -235,6 +249,8 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallPistonBase-->
     <Definition xsi:type="MyObjectBuilder_PistonBaseDefinition">
       <Id>
         <TypeId>PistonBase</TypeId>
@@ -325,7 +341,12 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+    </Definition>
+
+    <!--SmallPistonBase-->
     <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition">
       <Id>
         <TypeId>ExtendedPistonBase</TypeId>
@@ -417,7 +438,12 @@
       <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
       <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
       <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect><DestroySound>WepSmallWarheadExpl</DestroySound><PCU>100</PCU></Definition>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+    </Definition>
+
+    <!--SmallPistonTop-->
     <Definition>
       <Id>
         <TypeId>PistonTop</TypeId>
@@ -468,8 +494,10 @@
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>1</PCU>
     </Definition>
-    <!-- End Region Piston-->
-    <!-- Region MotorStator-->
+
+  <!--MotorStator-->
+
+    <!--LargeStator-->
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
       <Id>
         <TypeId>MotorStator</TypeId>
@@ -568,6 +596,8 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--LargeRotor-->
     <Definition>
       <Id>
         <TypeId>MotorRotor</TypeId>
@@ -607,6 +637,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorRotorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorRotorConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockPairName>LargeRotor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -614,6 +645,8 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallRotor1-->
     <Definition>
       <Id>
         <TypeId>MotorRotor</TypeId>
@@ -660,6 +693,8 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallStator-->
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
       <Id>
         <TypeId>MotorStator</TypeId>
@@ -755,6 +790,8 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallRotor-->
     <Definition>
       <Id>
         <TypeId>MotorRotor</TypeId>
@@ -801,8 +838,10 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!-- End Region MotorStator-->
-    <!-- Region AdvMotorStator-->
+
+  <!--AdvMotorStator-->
+
+    <!--LargeAdvancedStator-->
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -901,6 +940,8 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--LargeAdvancedRotor-->
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -948,6 +989,8 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <!--SmallAdvancedRotor1-->
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -993,6 +1036,8 @@
       <RotorPart>LargeMotorAdvancedRotor</RotorPart>
       <PCU>1</PCU>
     </Definition>
+
+    <!--SmallAdvancedStator-->
     <Definition xsi:type="MyObjectBuilder_MotorStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -1085,6 +1130,8 @@
       <RotorType>Rotor</RotorType>
       <PCU>100</PCU>
     </Definition>
+
+    <!--SmallAdvancedRotor-->
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1130,8 +1177,11 @@
       <RotorPart>SmallMotorAdvancedRotor</RotorPart>
       <PCU>1</PCU>
     </Definition>
-    <!-- End Region AdvMotorStator-->
-    <!-- Region HingeBlocks-->
+
+
+  <!--HingeBlocks-->
+
+    <!--LargeHinge-->
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -1223,6 +1273,8 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
+
+    <!--LargeHingeHead-->
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1276,6 +1328,8 @@
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
     </Definition>
+
+    <!--MediumHingeHead1-->
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1329,6 +1383,8 @@
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
     </Definition>
+
+    <!--MediumHinge-->
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -1419,6 +1475,8 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
+
+    <!--MediumHingeHead-->
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1472,6 +1530,8 @@
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
     </Definition>
+
+    <!--SmallHinge-->
     <Definition xsi:type="MyObjectBuilder_MotorAdvancedStatorDefinition">
       <Id>
         <TypeId>MotorAdvancedStator</TypeId>
@@ -1562,6 +1622,8 @@
       <RotorType>Hinge</RotorType>
       <PCU>100</PCU>
     </Definition>
+
+    <!--SmallHingeHead-->
     <Definition>
       <Id>
         <TypeId>MotorAdvancedRotor</TypeId>
@@ -1616,5 +1678,6 @@
       <MirroringY>X</MirroringY>
       <PCU>1</PCU>
     </Definition>
+
   </CubeBlocks>
 </Definitions>
