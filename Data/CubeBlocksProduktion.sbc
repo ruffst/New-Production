@@ -4539,10 +4539,10 @@
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
 
-      <RequiredPowerInput>16</RequiredPowerInput>
+      <RequiredPowerInput>32</RequiredPowerInput>
       <PowerNeededForJump>3</PowerNeededForJump>
       <MaxJumpDistance>100000</MaxJumpDistance>
-      <MaxJumpMass>80000</MaxJumpMass>
+      <MaxJumpMass>100000</MaxJumpMass>
 
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
