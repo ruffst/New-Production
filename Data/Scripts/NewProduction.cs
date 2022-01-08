@@ -121,11 +121,10 @@ namespace NewProduction
 		}	
 	}
 
-#endregion 
-
+    #endregion
 
 #region DElETE PROTECTION
-   [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Beacon), true, new string[] { "Beacon", "DeleteProtectionLarge", "DeleteProtectionSmall" })]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Beacon), true, new string[] { "Beacon", "DeleteProtectionLarge", "DeleteProtectionSmall" })]
     public class BeaconDeleteProtection : MyGameLogicComponent
     {
         IMyTerminalBlock beacon;
@@ -185,6 +184,10 @@ namespace NewProduction
         }        
     }
 
+
+    #endregion
+
+    #region CONFIG
     public class MyConfig
     {
         private const string FILE = "new-production.cfg";
@@ -192,9 +195,10 @@ namespace NewProduction
         //options
         public static bool allowDisableBeacon = false;
         public static float minBeaconRadius = 7500f;
-
         public static float triggerDelay = 3f;
-
+        public static float dt1range = 3f;
+        public static float dt2range = 3f;
+        public static float dt3range = 3f;
         public static bool loaded = false;
 
         public static void InitMyConfig()
@@ -219,7 +223,7 @@ namespace NewProduction
                     return true;
                 }
             }
-            catch (Exception) {}
+            catch (Exception) { }
             return false;
         }
 
@@ -242,6 +246,9 @@ namespace NewProduction
             str.Append("allow-disable-beacon=").Append(allowDisableBeacon).AppendLine();
             str.Append("min-beacon-radius=").Append(minBeaconRadius).AppendLine();
             str.Append("min-trigger-delay=").Append(triggerDelay);
+            str.Append("drillT1Range=").Append(dt1range);
+            str.Append("drillT2Range=").Append(dt2range);
+            str.Append("drillT3Range=").Append(dt3range);
 
             return str.ToString();
         }
@@ -262,7 +269,7 @@ namespace NewProduction
                     args[0] = args[0].Trim().ToLower();
                     args[1] = args[1].Trim().ToLower();
 
-                    switch(args[0])
+                    switch (args[0])
                     {
                         case "allow-disable-beacon":
                             allowDisableBeacon = bool.Parse(args[1]);
@@ -273,13 +280,22 @@ namespace NewProduction
                         case "min-trigger-delay":
                             triggerDelay = float.Parse(args[1]);
                             break;
+                        case "drillT1Range":
+                            dt1range = float.Parse(args[1]);
+                            break;
+                        case "drillT2Range":
+                            dt2range = float.Parse(args[1]);
+                            break;
+                        case "drillT3Range":
+                            dt3range = float.Parse(args[1]);
+                            break;
                     }
                 }
             }
             catch (Exception) { }
         }
     }
-#endregion
+    #endregion
 }
 
 
