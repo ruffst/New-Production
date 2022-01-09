@@ -122,13 +122,13 @@
             <GroupSubtype>Meilenstein_Basic</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--CollectorBasic  Meilenstein_Basic-->
+        <ResearchBlock xsi:type="ResearchBlock">    <!--CollectorBasic  Meilenstein_Basic-->
           <Id Type="MyObjectBuilder_Collector" Subtype="CollectorBasic" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Basic</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--ConnectorBasic  Meilenstein_Basic-->
+        <ResearchBlock xsi:type="ResearchBlock">    <!--ConnectorBasic  Meilenstein_Basic-->
           <Id Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorBasic" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Basic</GroupSubtype>
@@ -207,22 +207,29 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-         <ResearchBlock xsi:type="ResearchBlock">                                    <!--BasicSmallBlockDrill  Forschungslabor-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--BasicSmallBlockDrill  Forschungslabor-->
           <Id Type="MyObjectBuilder_Drill" Subtype="BasicSmallBlockDrill" />
           <UnlockedByGroups>
             <GroupSubtype>Forschung</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
-         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumCrystaliyzer  Forschungslabor-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumCrystaliyzer  Forschungslabor-->
           <Id Type="MyObjectBuilder_Refinery" Subtype="PenetratiumCrystaliyzer" />
           <UnlockedByGroups>
             <GroupSubtype>Forschung</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
-         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumSocket  Forschungslabor-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumSocket  Forschungslabor-->
           <Id Type="MyObjectBuilder_LightingBlock" Subtype="PenetratiumSocket" />
+          <UnlockedByGroups>
+            <GroupSubtype>Forschung</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockRig1  Forschungslabor-->
+          <Id Type="MyObjectBuilder_Assembler" Subtype="LargeBlockRig1" />
           <UnlockedByGroups>
             <GroupSubtype>Forschung</GroupSubtype>
           </UnlockedByGroups>
