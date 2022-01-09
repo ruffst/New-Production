@@ -320,7 +320,7 @@
     </PhysicalItem>
   <!--Scraps -->
 
-    <PhysicalItem>      <!-- Scrap -->
+    <PhysicalItem>      <!--Scrap-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>Scrap</SubtypeId>
@@ -337,7 +337,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Battery Scrap von Batterien -->      <!--New-->
+    <PhysicalItem>      <!--BatteryScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>BatteryScrap</SubtypeId>
@@ -354,7 +354,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Elektro Scrap von Elekronik -->      <!--New-->
+    <PhysicalItem>      <!--ElektroScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>ElektroScrap</SubtypeId>
@@ -371,7 +371,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Aluminium Scrap von Alu Armor -->      <!--New-->
+    <PhysicalItem>      <!--AluminiumScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>AluminiumScrap</SubtypeId>
@@ -388,7 +388,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Titan Scrap von Titanarmor-->      <!--New-->
+    <PhysicalItem>      <!--TitanScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>TitanScrap</SubtypeId>
@@ -405,7 +405,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Glass Scrap -->      <!--New-->
+    <PhysicalItem>      <!--GlassScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>GlassScrap</SubtypeId>
@@ -422,7 +422,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Gold Scrap -->      <!--New-->
+    <PhysicalItem>      <!--GoldScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>GoldScrap</SubtypeId>
@@ -439,7 +439,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Platin Scrap -->      <!--New-->
+    <PhysicalItem>      <!--PlatinScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>PlatinScrap</SubtypeId>
@@ -456,7 +456,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- CopperScrap -->      <!--New-->
+    <PhysicalItem>      <!--CopperScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>CopperScrap</SubtypeId>
@@ -473,7 +473,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- LeadScrap -->      <!--New-->
+    <PhysicalItem>      <!--LeadScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>LeadScrap</SubtypeId>
@@ -490,7 +490,7 @@
       <Model>Models\Components\ScrapMetalComponent.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
     </PhysicalItem>
-    <PhysicalItem>      <!-- Mechanic Scrap von FertigerComponenten -->      <!--New-->
+    <PhysicalItem>      <!--MechanicScrap-->      <!--New-->
       <Id>
         <TypeId>Ore</TypeId>
         <SubtypeId>MechanicScrap</SubtypeId>
