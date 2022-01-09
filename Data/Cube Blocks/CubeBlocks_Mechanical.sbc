@@ -239,6 +239,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PistonTopConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PistonTopConstruction_3.mwm" />
       </BuildProgressModels>
+      <TopPart>LargePistonTop</TopPart>
       <BlockPairName>LargePistonTop</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -485,6 +486,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\PistonTopConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\PistonTopConstruction_2.mwm" />
       </BuildProgressModels>
+      <TopPart>SmallPistonTop</TopPart>
       <BlockPairName>SmallPistonTop</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
