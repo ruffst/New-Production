@@ -1251,7 +1251,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\RohrExtruder.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Rohrextruder</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1347,7 +1348,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\PlattenPresseUbgrade1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Plattenpresse</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1668,7 +1670,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\WickelMaschiene.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Wickelmaschine</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2153,7 +2156,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Recycler.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Recycler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2261,7 +2265,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\ElektoAssembler.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Elektro Assembler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2471,7 +2476,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\Fertiger.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Fertiger</BlockPairName>
       <EdgeType>Light</EdgeType>
