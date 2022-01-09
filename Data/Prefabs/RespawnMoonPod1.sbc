@@ -188,7 +188,7 @@
               <ColorMaskHSV x="0" y="-0.8" z="-0.306840628" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OreDetector">
-              <SubtypeName>SpawnOreDetector</SubtypeName>
+              <SubtypeName>SmallBlockOreDetector</SubtypeName>
               <EntityId>131144769852536267</EntityId>
               <Min x="2" y="2" z="2" />
               <BlockOrientation Forward="Up" Up="Left" />
