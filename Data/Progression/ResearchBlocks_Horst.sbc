@@ -2953,7 +2953,7 @@
         </ResearchBlock>
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--Ladder2  Meilenstein_Deko1-->
-          <Id Type="MyObjectBuilder_Ladder2" Subtype="" />
+          <Id Type="MyObjectBuilder_Ladder2" Subtype="LadderSmall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Deko1</GroupSubtype>
           </UnlockedByGroups>

@@ -1581,7 +1581,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeRamp" />
-                <Block Type="MyObjectBuilder_Ladder2" Subtype="Ladder2" />
+                <Block Type="MyObjectBuilder_Ladder2" Subtype="LadderSmall" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairs" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="GratedHalfStairsMirrored" />
@@ -2269,7 +2269,7 @@
 
     <!-- Mechanics -->
 
-        <!--GravityGroupSmall-->
+        <!--RotorGroupLarge-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RotorGroupLarge" />
             <Icon>Textures\GUI\Icons\Cubes\motor.dds</Icon>
@@ -2278,12 +2278,13 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_MotorStator" Subtype="LargeStator" />
                 <Block Type="MyObjectBuilder_MotorRotor" Subtype="LargeRotor" />
+                <Block Type="MyObjectBuilder_MotorRotor" Subtype="SmallRotor1" />
                 <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="LargeAdvancedStator" />
                 <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="LargeAdvancedRotor" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallAdvancedRotor1" />
              </Blocks>
         </BlockVariantGroup>
-
-        <!--GravityGroupSmall-->
+        <!--RotorGroupsmall-->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RotorGroupsmall" />
             <Icon>Textures\GUI\Icons\Cubes\motor.dds</Icon>
@@ -2306,6 +2307,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="LargeHinge" />
                 <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="LargeHingeHead" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="MediumHingeHead1" />
             </Blocks>
         </BlockVariantGroup>
         <!--HingeGroupSmall-->
@@ -2316,7 +2318,7 @@
             <Description>Description_Rotor</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="MediumHinge" />
-                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="MediumHingeHead" />
+                <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="MediumHingeHead" />             
                 <Block Type="MyObjectBuilder_MotorAdvancedStator" Subtype="SmallHinge" />               
                 <Block Type="MyObjectBuilder_MotorAdvancedRotor" Subtype="SmallHingeHead" />
             </Blocks>

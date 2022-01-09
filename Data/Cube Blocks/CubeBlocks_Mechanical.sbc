@@ -637,7 +637,6 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorRotorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorRotorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeRotor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -829,7 +828,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\MotorRotorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MotorRotorConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallMotorRotor</BlockPairName>
+      <BlockPairName>SmallRotor</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1376,6 +1375,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HingeHeadMediumConstruction_1.mwm" />
       </BuildProgressModels>
+      <RotorPart>LargeHingeHead</RotorPart>
       <BlockPairName>LargeHingeHead</BlockPairName>
       <BuildTimeSeconds>8</BuildTimeSeconds>
       <UseModelIntersection>true</UseModelIntersection>
