@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
   <CubeBlocks>
-    <!-- Region Thrust-->
+    <!-- Region IonenThruster-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -345,7 +345,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
       <FlameLengthScale>1.5</FlameLengthScale>
       <FlameIdleColor>
@@ -472,7 +472,7 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
@@ -610,6 +610,10 @@
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>7200000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
@@ -736,6 +740,10 @@
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>1080000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>
@@ -1050,7 +1058,7 @@
         <unsignedInt>0</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-    <!--HydrogenThrusters End-->
+    <!--Atmothruster End-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
