@@ -1008,6 +1008,10 @@
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
       <ForceMagnitude>28800000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>0.175</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
