@@ -890,18 +890,6 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\LG_DeleteProtection.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
         <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -909,17 +897,15 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\LG_DeleteProtection_BS1.mwm" />
-      </BuildProgressModels>
+
       <BlockPairName>DeleteProtektion</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
-      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <BuildTimeSeconds>0</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
@@ -949,18 +935,6 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_DeleteProtection.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
         <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -968,17 +942,15 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\SG_DeleteProtection_BS1.mwm" />
-      </BuildProgressModels>
+      <CriticalComponent Subtype="Computer" Index="0" />
+
       <MountPoints>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
       <BlockPairName>DeleteProtektion</BlockPairName>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <BuildTimeSeconds>0</BuildTimeSeconds>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <!-- Beacon properties -->

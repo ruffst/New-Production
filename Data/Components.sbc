@@ -858,7 +858,7 @@
             <Volume>1</Volume>
             <Model>Models\Components\computer_component.mwm</Model>
             <PhysicalMaterial>Metal</PhysicalMaterial>
-            <MaxIntegrity>1</MaxIntegrity>
+            <MaxIntegrity>150</MaxIntegrity>
             <DropProbability>0.1</DropProbability>
             <Health>11</Health>
             <MinimumOfferAmount>1000</MinimumOfferAmount>
