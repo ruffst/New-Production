@@ -1,0 +1,455 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <!-- Industrial Blocks -->
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>PipeX1</SubtypeId>
+            </Id>
+            <DisplayName>PipeX1</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\large\Pipe  x 1 .mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Pipe  x 1 _BS1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Pipe  x 1 _BS1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Pipe  x 1 _BS1.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>PipeX1</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7</BuildTimeSeconds>
+            <MountPoints>
+               	<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>PipeX3</SubtypeId>
+            </Id>
+            <DisplayName>PipeX3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\large\Pipe x 3.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Pipe x 3_BS1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Pipe x 3_BS1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Pipe x 3_BS1.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>PipeX3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7</BuildTimeSeconds>
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+            </MountPoints>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>PipeX5</SubtypeId>
+            </Id>
+            <DisplayName>PipeX5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\large\Pipe x 5.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Pipe x 5_BS1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Pipe x 5_BS1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Pipe x 5_BS1.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>PipeX5</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7</BuildTimeSeconds>
+           <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="5.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>PipeX7</SubtypeId>
+            </Id>
+            <DisplayName>PipeX7</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="7" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\large\Pipe x 7.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Pipe x 7_BS1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Pipe x 7_BS1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Pipe x 7_BS1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PipeX7</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7</BuildTimeSeconds>
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="7.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="7.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="7.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="7.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>PipeX9</SubtypeId>
+            </Id>
+            <DisplayName>PipeX9</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="9" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\large\Pipe x 9.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Pipe x 9_BS1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Pipe x 9_BS1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Pipe x 9_BS1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PipeX9</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7</BuildTimeSeconds>
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="9.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="9.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="9.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="9.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>PipeX11</SubtypeId>
+            </Id>
+            <DisplayName>Pipex11</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="11" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\Pipe 11.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Pipe 11_BS1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Pipe 11_BS1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Pipe 11_BS1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PipeX11</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7</BuildTimeSeconds>
+           <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="11.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="11.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="11.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="11.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>Conveyor</TypeId>
+                <SubtypeId>PipeTJunction</SubtypeId>
+            </Id>
+            <DisplayName>PipeTJunction</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\large\Pipe T Jumction.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Pipe T Jumction_BS1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Pipe T Jumction_BS1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Pipe T Jumction_BS1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>PipeTJunction</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7</BuildTimeSeconds>
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>Conveyor</TypeId>
+                <SubtypeId>Pipe4WayTJunction</SubtypeId>
+            </Id>
+            <DisplayName>Pipe4WayTJunction</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeNode.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\large\Pipe 4x Corner Junction.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Pipe 4x Corner Junction_BS1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Pipe 4x Corner Junction_BS1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Pipe 4x Corner Junction_BS1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>Pipe4WayTJunction</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7</BuildTimeSeconds>
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+
+         <Definition>
+            <Id>
+                <TypeId>Conveyor</TypeId>
+                <SubtypeId>Pipe5WayJunction</SubtypeId>
+            </Id>
+            <DisplayName>Pipe5WayJunction</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\PipeNode.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>false</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\large\Junction 5x.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Junction 5x_BS1.mwm"/>
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\Junction 5x_BS1.mwm"/>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Junction 5x_BS1.mwm"/>
+            </BuildProgressModels>
+            <BlockPairName>Pipe5WayJunction</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>7</BuildTimeSeconds>
+            <MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+     </CubeBlocks>
+</Definitions>
