@@ -891,6 +891,24 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <!--X Conveyor-->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="X_Conveyor_Group" />
+            <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
+            <DisplayName>DisplayName_Block_Conveyor</DisplayName>
+            <Description>Description_ConveyorTube</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="PipeTJunction" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Pipe4WayTJunction" />
+                <Block Type="MyObjectBuilder_Conveyor" Subtype="Pipe5WayJunction" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX1" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX3" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX5" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX7" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX9" />
+                <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX11" />          
+            </Blocks>
+
     <!-- Control -->
         <!-- CockpitGroup -->
         <BlockVariantGroup>

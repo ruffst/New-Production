@@ -2787,6 +2787,63 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PipeX1  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX1" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PipeX3  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX3" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PipeX5  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX5" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PipeX7  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX7" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PipeX9  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX9" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PipeX11  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="PipeX11" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PipeTJunction  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_Conveyor" Subtype="PipeTJunction" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--Pipe4WayTJunction  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_Conveyor" Subtype="Pipe4WayTJunction" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--Pipe5WayJunction  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_Conveyor" Subtype="Pipe5WayJunction" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+
+
   <!--Meilenstein_Small_Conveyors-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Conveyors  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Conveyors" />
