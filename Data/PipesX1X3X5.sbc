@@ -8,7 +8,7 @@
                 <SubtypeId>PipeX1</SubtypeId>
             </Id>
             <DisplayName>PipeX1</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamlessx1.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -48,6 +48,7 @@
             <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
             <DestroySound>PoofExplosionCat3</DestroySound>
             <PCU>10</PCU>
+            <IconSymbol>x1</IconSymbol>
             <IsAirTight>true</IsAirTight>
             <DLC>HeavyIndustry</DLC>
         </Definition>
@@ -58,7 +59,7 @@
                 <SubtypeId>PipeX3</SubtypeId>
             </Id>
             <DisplayName>PipeX3</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamlessx3.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -98,6 +99,7 @@
             <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
             <DestroySound>PoofExplosionCat3</DestroySound>
             <PCU>10</PCU>
+            <IconSymbol>x3</IconSymbol>
             <IsAirTight>true</IsAirTight>
             <DLC>HeavyIndustry</DLC>
         </Definition>
@@ -108,7 +110,7 @@
                 <SubtypeId>PipeX5</SubtypeId>
             </Id>
             <DisplayName>PipeX5</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamlessx5.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -148,6 +150,7 @@
             <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
             <DestroySound>PoofExplosionCat3</DestroySound>
             <PCU>10</PCU>
+            <IconSymbol>x5</IconSymbol>
             <IsAirTight>true</IsAirTight>
             <DLC>HeavyIndustry</DLC>
         </Definition>
@@ -158,7 +161,7 @@
                 <SubtypeId>PipeX7</SubtypeId>
             </Id>
             <DisplayName>PipeX7</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamlessx7.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -198,6 +201,7 @@
             <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
             <DestroySound>PoofExplosionCat3</DestroySound>
             <PCU>10</PCU>
+            <IconSymbol>x7</IconSymbol>
             <IsAirTight>true</IsAirTight>
             <DLC>HeavyIndustry</DLC>
         </Definition>
@@ -208,7 +212,7 @@
                 <SubtypeId>PipeX9</SubtypeId>
             </Id>
             <DisplayName>PipeX9</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PipeSeamlessx9.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -248,6 +252,7 @@
             <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
             <DestroySound>PoofExplosionCat3</DestroySound>
             <PCU>10</PCU>
+            <IconSymbol>x9</IconSymbol>
             <IsAirTight>true</IsAirTight>
             <DLC>HeavyIndustry</DLC>
         </Definition>
@@ -258,7 +263,7 @@
                 <SubtypeId>PipeX11</SubtypeId>
             </Id>
             <DisplayName>Pipex11</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\\PipeSeamlessx11.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -298,6 +303,7 @@
             <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
             <DestroySound>PoofExplosionCat3</DestroySound>
             <PCU>10</PCU>
+            <IconSymbol>x11</IconSymbol>
             <IsAirTight>true</IsAirTight>
             <DLC>HeavyIndustry</DLC>
         </Definition>
@@ -308,7 +314,7 @@
                 <SubtypeId>PipeTJunction</SubtypeId>
             </Id>
             <DisplayName>PipeTJunction</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\PipeTJunction.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -358,7 +364,7 @@
                 <SubtypeId>Pipe4WayTJunction</SubtypeId>
             </Id>
             <DisplayName>Pipe4WayTJunction</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeNode.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Pipe4WayT.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -408,7 +414,7 @@
                 <SubtypeId>Pipe5WayJunction</SubtypeId>
             </Id>
             <DisplayName>Pipe5WayJunction</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeNode.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\Pipe5Way.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
