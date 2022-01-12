@@ -8,7 +8,7 @@
                 <SubtypeId>PipeX1</SubtypeId>
             </Id>
             <DisplayName>PipeX1</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\PipeSeamlessx1.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -58,7 +58,7 @@
                 <SubtypeId>PipeX3</SubtypeId>
             </Id>
             <DisplayName>PipeX3</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\PipeSeamlessx2.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -108,7 +108,7 @@
                 <SubtypeId>PipeX5</SubtypeId>
             </Id>
             <DisplayName>PipeX5</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\PipeSeamlessx5.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -158,7 +158,7 @@
                 <SubtypeId>PipeX7</SubtypeId>
             </Id>
             <DisplayName>PipeX7</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\PipeSeamlessx7.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -208,7 +208,7 @@
                 <SubtypeId>PipeX9</SubtypeId>
             </Id>
             <DisplayName>PipeX9</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\PipeSeamlessx9.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -258,7 +258,7 @@
                 <SubtypeId>PipeX11</SubtypeId>
             </Id>
             <DisplayName>Pipex11</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\PipeSeamlessx11.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -308,7 +308,7 @@
                 <SubtypeId>PipeTJunction</SubtypeId>
             </Id>
             <DisplayName>PipeTJunction</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeSeamless.dds</Icon>
+            <Icon>Textures\TJunction.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
@@ -358,7 +358,7 @@
                 <SubtypeId>Pipe4WayTJunction</SubtypeId>
             </Id>
             <DisplayName>Pipe4WayTJunction</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\PipeNode.dds</Icon>
+            <Icon>Textures\4WayT.dds</Icon>
             <Description>Description_ConveyorTube</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
