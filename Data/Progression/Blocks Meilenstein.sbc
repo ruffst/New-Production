@@ -2475,7 +2475,7 @@
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BlockPairName>Meilenstein Thruster Hydro</BlockPairName>
+      <BlockPairName>Meilenstein Thruster Hydro Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -3044,12 +3044,12 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!---Meilenstein_Jumpdrive-->
-    <Definition Enabled="false">
+    <Definition Enabled="true">
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Jumpdrive</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Jumpdrive</DisplayName>
+      <DisplayName>Meilenstein Travel Drive Large</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
       <Description>Forschungsblock zum freischalten von Blöcken</Description>
       <GuiVisible>false</GuiVisible>
@@ -3093,7 +3093,7 @@
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BlockPairName>Meilenstein Jumpdrive</BlockPairName>
+      <BlockPairName>Meilenstein Travel Drive Large</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>

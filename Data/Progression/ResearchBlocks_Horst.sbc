@@ -3967,7 +3967,7 @@
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Hydro  Meilenstein_Thruster_Ionen_Gold-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Thruster_Hydro" />
       <UnlockedByGroups>
-        <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+        <GroupSubtype>Meilenstein_Thruster_Ionen</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
@@ -5175,7 +5175,7 @@
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive" />
       <UnlockedByGroups>
-        <GroupSubtype>Forschung</GroupSubtype>
+        <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 

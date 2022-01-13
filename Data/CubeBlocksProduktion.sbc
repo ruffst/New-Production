@@ -4420,7 +4420,7 @@
     </Definition>
 
   <!--Small Jumpdrives-->  
-    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
         <SubtypeId>SmallJumpDrive</SubtypeId>
