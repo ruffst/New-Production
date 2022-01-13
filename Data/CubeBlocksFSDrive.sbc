@@ -8,13 +8,13 @@
       </Id>
       <Public>true</Public>
       <DisplayName>D5 Frameshift Drive</DisplayName>
-      <Icon>Textures\GUI\Icons\QDVK.dds</Icon>
+      <Icon>..\2640137506\Textures\GUI\Icons\QDVK.dds</Icon>
       <Description>Compact version of S7</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\MiniJumpDrive.mwm</Model>
+      <Model>..\2640137506\Models\Cubes\Small\MiniJumpDrive.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="40" />
         <Component Subtype="MetalGrid" Count="60" />
@@ -36,9 +36,9 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\MiniJumpDriveConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\MiniJumpDriveConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MiniJumpDriveConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="..\2640137506\Models\Cubes\Small\MiniJumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2640137506\Models\Cubes\Small\MiniJumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2640137506\Models\Cubes\Small\MiniJumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
       <BlockPairName>FSDrive</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -59,13 +59,13 @@
       </Id>
       <Public>true</Public>
       <DisplayName>S7 Frameshift Drive</DisplayName>
-      <Icon>Textures\GUI\Icons\QDXL.dds</Icon>
+      <Icon>..\2640137506\Textures\GUI\Icons\QDXL.dds</Icon>
       <Description>Friendship drive charging!</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+      <Model>..\2640137506\Models\Cubes\Large\JumpDrive.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="180" />
         <Component Subtype="MetalGrid" Count="300" />
@@ -87,9 +87,9 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="..\2640137506\Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="..\2640137506\Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="..\2640137506\Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
       <BlockPairName>FSDrive</BlockPairName>
       <MirroringY>Z</MirroringY>
