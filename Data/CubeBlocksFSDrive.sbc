@@ -14,7 +14,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\2640137506\Models\Cubes\Small\MiniJumpDrive.mwm</Model>
+      <Model>Models\Cubes\Small\MiniJumpDrive.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20">
           <DeconstructId>
@@ -87,9 +87,9 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2640137506\Models\Cubes\Small\MiniJumpDriveConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2640137506\Models\Cubes\Small\MiniJumpDriveConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2640137506\Models\Cubes\Small\MiniJumpDriveConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\MiniJumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\MiniJumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\MiniJumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
       <BlockPairName>FSDrive</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -116,7 +116,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>..\2640137506\Models\Cubes\Large\JumpDrive.mwm</Model>
+      <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="200">
           <DeconstructId>
@@ -189,9 +189,9 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="..\2640137506\Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="..\2640137506\Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="..\2640137506\Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
       <BlockPairName>FSDrive</BlockPairName>
       <MirroringY>Z</MirroringY>
