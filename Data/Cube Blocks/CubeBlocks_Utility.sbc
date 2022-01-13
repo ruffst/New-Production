@@ -266,7 +266,7 @@
       <PCU>35</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
         <SubtypeId>LargeJumpDrive</SubtypeId>

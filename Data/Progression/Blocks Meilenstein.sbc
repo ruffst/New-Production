@@ -3044,7 +3044,7 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!---Meilenstein_Jumpdrive-->
-    <Definition>
+    <Definition Enabled="false">
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Jumpdrive</SubtypeId>
@@ -3108,7 +3108,7 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!---Meilenstein_Jumpdrive_Gold-->
-    <Definition>
+    <Definition Enabled="false">
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Jumpdrive_Gold</SubtypeId>
@@ -3172,7 +3172,7 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!---Meilenstein_Jumpdrive_Platin-->
-    <Definition>
+    <Definition Enabled="false">
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Jumpdrive_Platin</SubtypeId>
@@ -3236,7 +3236,7 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!---Meilenstein_Jumpdrive_Titan-->
-    <Definition>
+    <Definition Enabled="false">
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Jumpdrive_Titan</SubtypeId>
