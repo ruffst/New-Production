@@ -91,7 +91,7 @@
         <Model BuildPercentUpperBound="0.66" File="..\2640137506\Models\Cubes\Small\MiniJumpDriveConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="..\2640137506\Models\Cubes\Small\MiniJumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>FSDrive</BlockPairName>
+      <BlockPairName>FSDrive Small</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -193,7 +193,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>FSDrive</BlockPairName>
+      <BlockPairName>FSDrive Large</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

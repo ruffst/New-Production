@@ -4206,6 +4206,7 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeHydrogenThrust  Meilenstein_Small_Thruster_Hydro-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust" />
           <UnlockedByGroups>
@@ -4231,7 +4232,7 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-
+  <!--Meilenstein_Small_Jumpdrive-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Jumpdrive  Meilenstein_Small_Thruster_Ionen-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Small_Jumpdrive" />
       <UnlockedByGroups>
@@ -4241,6 +4242,13 @@
 
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallJumpDrive  Meilenstein_Small_Jumpdrive-->
           <Id Type="MyObjectBuilder_JumpDrive" Subtype="SmallJumpDrive" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Jumpdrive</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--FSDriveSmall  Meilenstein_Jumpdrive-->
+          <Id Type="MyObjectBuilder_UpgradeModule" Subtype="FSDriveSmall" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Jumpdrive</GroupSubtype>
           </UnlockedByGroups>
@@ -5172,7 +5180,7 @@
         </ResearchBlock>
 
   <!--Meilenstein_Jumpdrive-->
-    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive  Forschung-->
+    <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive FSD  Forschung-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Jumpdrive" />
       <UnlockedByGroups>
         <GroupSubtype>Meilenstein_Thruster_Hydro</GroupSubtype>
@@ -5186,6 +5194,12 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--FSDriveSmall  Meilenstein_Jumpdrive-->
+          <Id Type="MyObjectBuilder_UpgradeModule" Subtype="FSDriveLarge" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Jumpdrive</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Jumpdrive_Gold-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Jumpdrive_Gold  Meilenstein_Jumpdrive-->
