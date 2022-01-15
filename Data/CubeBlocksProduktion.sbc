@@ -2371,6 +2371,7 @@
       <ActionSound>BlockResearchLabProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>40</PCU>
       <IsAirTight>false</IsAirTight>
       <TieredUpdateTimes>
