@@ -39,9 +39,6 @@
     </ResearchBlock>
 
 
-
-
-
   <!--Freischaltung Meilenstein_Basic-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Basic  0-->
       <Id Type="MyObjectBuilder_Conveyor" Subtype="Meilenstein_Basic" />
@@ -50,88 +47,88 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-      <ResearchBlock xsi:type="ResearchBlock">      <!--OxygenGeneratorBasic  Meilenstein_Basic-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--OxygenGeneratorBasic  Basic_System_Items-->
         <Id Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorBasic" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock> 
-      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Cargo   Meilenstein_Basic-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Cargo   Basic_System_Items-->
         <Id Type="MyObjectBuilder_CargoContainer" Subtype="Basic_Cargo" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Sorter   Meilenstein_Basic-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Sorter   Basic_System_Items-->
         <Id Type="MyObjectBuilder_ConveyorSorter" Subtype="Basic_Sorter" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Battery   Meilenstein_Basic-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--Basic_Battery   Basic_System_Items-->
         <Id Type="MyObjectBuilder_BatteryBlock" Subtype="Basic_Battery" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-      <ResearchBlock xsi:type="ResearchBlock">      <!--BasicConveyorTube   Meilenstein_Basic-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--BasicConveyorTube   Basic_System_Items-->
         <Id Type="MyObjectBuilder_Conveyor" Subtype="BasicConveyorTube" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeBasic  Meilenstein_Basic-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeBasic  Basic_System_Items-->
         <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeBasic" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeSmallBasic  Meilenstein_Basic-->      
+      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeSmallBasic  Basic_System_Items-->      
         <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallBasic" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeCurvedBasic  Meilenstein_Basic-->     
+      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeCurvedBasic  Basic_System_Items-->     
         <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedBasic" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeSmallCurvedBasic  Meilenstein_Basic-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--ConveyorTubeSmallCurvedBasic  Basic_System_Items-->
         <Id Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurvedBasic" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-      <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockConveyorBasic  Meilenstein_Basic-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--SmallBlockConveyorBasic  Basic_System_Items-->
         <Id Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyorBasic" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-      <ResearchBlock xsi:type="ResearchBlock">      <!--LargeBlockConveyorBasic  Meilenstein_Basic-->
+      <ResearchBlock xsi:type="ResearchBlock">      <!--LargeBlockConveyorBasic  Basic_System_Items-->
         <Id Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyorBasic" />
         <UnlockedByGroups>
-          <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">    <!--SmallBlockGyro_Basic  Meilenstein_Basic-->
+        <ResearchBlock xsi:type="ResearchBlock">    <!--SmallBlockGyro_Basic  Basic_System_Items-->
           <Id Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Basic" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+            <GroupSubtype>Basic_System_Items</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">    <!--CollectorBasic  Meilenstein_Basic-->
+        <ResearchBlock xsi:type="ResearchBlock">    <!--CollectorBasic  Basic_System_Items-->
           <Id Type="MyObjectBuilder_Collector" Subtype="CollectorBasic" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+            <GroupSubtype>Basic_System_Items</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">    <!--ConnectorBasic  Meilenstein_Basic-->
+        <ResearchBlock xsi:type="ResearchBlock">    <!--ConnectorBasic  Basic_System_Items-->
           <Id Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorBasic" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Basic</GroupSubtype>
+            <GroupSubtype>Basic_System_Items</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
