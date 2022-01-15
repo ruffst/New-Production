@@ -1172,9 +1172,9 @@
       <ResearchGroup>15</ResearchGroup>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="2" z="3" />
+			<Size x="2" y="1" z="3"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\RohrExtruder.mwm</Model>
+      <Model>Models\Cubes\large\RohrExtruder.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -1215,16 +1215,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Rohrextruder</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1247,6 +1247,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>40</PCU>
       <IsAirTight>true</IsAirTight>
       <TieredUpdateTimes>
@@ -1269,9 +1270,9 @@
       <ResearchGroup>10</ResearchGroup>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="2" z="3" />
+			<Size x="2" y="1" z="3"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\PlattenPresseUbgrade1.mwm</Model>
+      <Model>Models\Cubes\large\PlattenPresse.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -1312,16 +1313,16 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Plattenpresse</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1344,6 +1345,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>40</PCU>
       <IsAirTight>true</IsAirTight>
       <TieredUpdateTimes>
@@ -1466,9 +1468,9 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="2" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\DrahtExtruder.mwm</Model>
+			<Size x="2" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\large\DrahtExtruder.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -1521,15 +1523,16 @@
       </Components>
       <CriticalComponent Subtype="Girder" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.00" File="Models\DrahtExtruder.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Drahtextruder</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1552,6 +1555,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>40</PCU>
       <IsAirTight>true</IsAirTight>
       <TieredUpdateTimes>
@@ -1573,9 +1577,9 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="2" z="3" />
+			<Size x="2" y="1" z="3"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\WickelMaschiene.mwm</Model>
+      <Model>Models\Cubes\large\Wickelmaschiene.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
           <DeconstructId>
@@ -1634,16 +1638,16 @@
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Wickelmaschine</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -1666,6 +1670,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>40</PCU>
       <IsAirTight>true</IsAirTight>
       <TieredUpdateTimes>
@@ -2065,9 +2070,9 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="2" z="3" />
+			<Size x="2" y="1" z="3"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Recycler.mwm</Model>
+      <Model>Models\Cubes\large\Recycler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -2120,16 +2125,16 @@
       </Components>
       <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Recycler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2152,6 +2157,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>40</PCU>
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
@@ -2174,9 +2180,9 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="2" z="3" />
+			<Size x="2" y="1" z="3"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ElektoAssembler.mwm</Model>
+      <Model>Models\Cubes\large\ElektoAssembler.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
           <DeconstructId>
@@ -2229,16 +2235,16 @@
       </Components>
       <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>Elektro Assembler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2261,6 +2267,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>40</PCU>
       <IsAirTight>true</IsAirTight>
       <TieredUpdateTimes>
@@ -2385,9 +2392,9 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="2" z="3" />
+			<Size x="2" y="1" z="3"/>
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Fertiger.mwm</Model>
+      <Model>Models\Cubes\large\Fertiger.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="120">
           <DeconstructId>
@@ -2440,16 +2447,16 @@
       </Components>
       <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00" />
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="2.00" />
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
       </BuildProgressModels>
       <BlockPairName>Fertiger</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2472,6 +2479,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>40</PCU>
       <IsAirTight>true</IsAirTight>
       <TieredUpdateTimes>
@@ -2609,7 +2617,7 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="2" y="2" z="3" />
+			<Size x="2" y="1" z="3"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\ToolAssinclBuildStages.mwm</Model>
       <Components>
@@ -2678,8 +2686,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\ToolAssinclBuildStages_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\ToolAssinclBuildStages_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
       </BuildProgressModels>
       <BlockPairName>VerbrauchsmaterialAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2702,6 +2710,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <PCU>40</PCU>
       <IsAirTight>true</IsAirTight>
       <TieredUpdateTimes>

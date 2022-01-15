@@ -22,6 +22,7 @@
 				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\DrahtExtruder_BS1.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS2.mwm"/>
 			</BuildProgressModels>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
 			<BlockPairName>DrahtExtruder</BlockPairName>
 		</Definition>
 	</CubeBlocks>
