@@ -2618,7 +2618,7 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="3"/>
+			<Size x="2" y="2" z="3"/>
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\ToolAssinclBuildStages.mwm</Model>
       <Components>
@@ -2687,8 +2687,8 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\ToolAssinclBuildStages_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\ToolAssinclBuildStages_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>VerbrauchsmaterialAssembler</BlockPairName>
       <EdgeType>Light</EdgeType>
