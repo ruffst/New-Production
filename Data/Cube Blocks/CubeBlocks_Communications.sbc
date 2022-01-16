@@ -86,7 +86,7 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_BeaconDefinition">
       <Id>
         <TypeId>Beacon</TypeId>
         <SubtypeId>LargeBlockBeacon</SubtypeId>
@@ -176,7 +176,7 @@
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_BeaconDefinition">
       <Id>
         <TypeId>Beacon</TypeId>
         <SubtypeId>SmallBlockBeacon</SubtypeId>
