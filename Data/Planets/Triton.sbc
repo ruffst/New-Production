@@ -79,18 +79,7 @@
       <Ore Value="84" Type="Magnesium_01" Start="52" Depth="5" />
       <Ore Value="88" Type="Magnesium_01" Start="55" Depth="6" />
       <Ore Value="92" Type="Magnesium_01" Start="62" Depth="9" />
-      <Ore Value="96" Type="Magnesium_01" Start="21" Depth="3" />
-      <Ore Value="100" Type="Magnesium_01" Start="25" Depth="3" />
-      <Ore Value="104" Type="Magnesium_01" Start="31" Depth="5" />
-      <Ore Value="108" Type="Magnesium_01" Start="55" Depth="8" />
-      <Ore Value="112" Type="Magnesium_01" Start="58" Depth="9" />
-      <Ore Value="116" Type="Magnesium_01" Start="63" Depth="11" />
-      <Ore Value="120" Type="Magnesium_01" Start="23" Depth="4" />
-      <Ore Value="124" Type="Magnesium_01" Start="26" Depth="4" />
-      <Ore Value="128" Type="Magnesium_01" Start="29" Depth="5" />
-      <Ore Value="132" Type="Magnesium_01" Start="53" Depth="7" />
-      <Ore Value="136" Type="Magnesium_01" Start="55" Depth="8" />
-      <Ore Value="140" Type="Magnesium_01" Start="59" Depth="10" />
+
       <Ore Value="144" Type="Iron_02" Start="32" Depth="2" />
       <Ore Value="148" Type="Iron_02" Start="35" Depth="3" />
       <Ore Value="152" Type="Silicon_01" Start="38" Depth="5" />
@@ -103,6 +92,12 @@
       <Ore Value="180" Type="Magnesium_01" Start="100" Depth="4" />
       <Ore Value="184" Type="Magnesium_01" Start="107" Depth="5" />
       <Ore Value="188" Type="Magnesium_01" Start="112" Depth="8" />
+      <Ore Value="200" Type="Titanium_CMM" Start="64" Depth="13"/>
+      <Ore Value="201" Type="Titanium_CMM" Start="68" Depth="14"/>
+      <Ore Value="202" Type="Titanium_CMM" Start="70" Depth="15"/>
+      <Ore Value="203" Type="Titanium_CMM" Start="68" Depth="17"/>
+      <Ore Value="204" Type="Titanium_CMM" Start="70" Depth="18"/>
+      <Ore Value="205" Type="Titanium_CMM" Start="74" Depth="12"/>
     </OreMappings>
 
     <SoundRules>

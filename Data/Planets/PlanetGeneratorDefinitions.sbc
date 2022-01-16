@@ -3615,6 +3615,12 @@
       <Ore Value="40" Type="Nickel_01" Start="27" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="44" Type="Nickel_01" Start="30" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 
+      <Ore Value="182" Type="Aluminum_CMM" Start="59" Depth="13"/>
+      <Ore Value="183" Type="Aluminum_CMM" Start="57" Depth="15"/>
+      <Ore Value="184" Type="Aluminum_CMM" Start="63" Depth="17"/>
+      <Ore Value="185" Type="Aluminum_CMM" Start="74" Depth="18"/>
+      <Ore Value="186" Type="Aluminum_CMM" Start="74" Depth="19"/>
+      <Ore Value="187" Type="Aluminum_CMM" Start="64" Depth="12"/>
       <!-- Si 1-->
       <Ore Value="48" Type="Silicon_01" Start="9" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="52" Type="Silicon_01" Start="13" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
@@ -3667,15 +3673,6 @@
       <Ore Value="160" Type="Ice_01" Start="89" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="164" Type="Ice_01" Start="96" Depth="11" TargetColor="#616c83" ColorInfluence="15"/>
 
-      <!-- Au 1-->
-      <Ore Value="168" Type="Platinum_01" Start="40" Depth="1" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="172" Type="Platinum_01" Start="42" Depth="2" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="176" Type="Platinum_01" Start="45" Depth="3" TargetColor="#616c83" ColorInfluence="15"/>
-
-      <!-- Au 2-->
-      <Ore Value="180" Type="Platinum_01" Start="100" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="184" Type="Platinum_01" Start="107" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="188" Type="Platinum_01" Start="112" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
     </OreMappings>
 
     <!-- Mars ambient -->
@@ -4602,25 +4599,9 @@
       <Ore Value="178" Type="Copper_CMM" Start="64" Depth="15"/>
       <Ore Value="179" Type="Copper_CMM" Start="69" Depth="17"/>
       <Ore Value="180" Type="Copper_CMM" Start="60" Depth="18"/>
-      <Ore Value="181" Type="Copper_CMM" Start="58" Depth="12"/>
-      <Ore Value="182" Type="Aluminum_CMM" Start="59" Depth="13"/>
-      <Ore Value="183" Type="Aluminum_CMM" Start="57" Depth="15"/>
-      <Ore Value="184" Type="Aluminum_CMM" Start="63" Depth="17"/>
-      <Ore Value="185" Type="Aluminum_CMM" Start="74" Depth="18"/>
-      <Ore Value="186" Type="Aluminum_CMM" Start="74" Depth="19"/>
-      <Ore Value="187" Type="Aluminum_CMM" Start="64" Depth="12"/>
-      <Ore Value="194" Type="Lead_CMM" Start="71" Depth="13"/>
-      <Ore Value="195" Type="Lead_CMM" Start="55" Depth="14"/>
-      <Ore Value="196" Type="Lead_CMM" Start="64" Depth="15"/>
-      <Ore Value="197" Type="Lead_CMM" Start="65" Depth="16"/>
-      <Ore Value="198" Type="Lead_CMM" Start="71" Depth="17"/>
-      <Ore Value="199" Type="Lead_CMM" Start="65" Depth="12"/>
-      <Ore Value="200" Type="Titanium_CMM" Start="64" Depth="13"/>
-      <Ore Value="201" Type="Titanium_CMM" Start="68" Depth="14"/>
-      <Ore Value="202" Type="Titanium_CMM" Start="70" Depth="15"/>
-      <Ore Value="203" Type="Titanium_CMM" Start="68" Depth="17"/>
-      <Ore Value="204" Type="Titanium_CMM" Start="70" Depth="18"/>
-      <Ore Value="205" Type="Titanium_CMM" Start="74" Depth="12"/>
+
+
+
 
     </OreMappings>
 
