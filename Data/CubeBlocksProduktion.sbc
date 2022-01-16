@@ -835,7 +835,7 @@
       <InventoryFillFactorMax>0.3</InventoryFillFactorMax>
       <FuelPullAmountFromConveyorInMinutes>1.1</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>1</OperationalPowerConsumption>
+      <OperationalPowerConsumption>100</OperationalPowerConsumption>
       <ProducedGases>
         <GasInfo>
           <Id>
@@ -3214,7 +3214,7 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.5</OperationalPowerConsumption>
+      <OperationalPowerConsumption>10</OperationalPowerConsumption>
       <ProducedGases>
         <GasInfo>
           <Id>
@@ -3355,7 +3355,7 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <FuelPullAmountFromConveyorInMinutes>2.75</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+      <OperationalPowerConsumption>0.3</OperationalPowerConsumption>
       <ProducedGases>
         <GasInfo>
           <Id>
