@@ -1495,7 +1495,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="GoldSpulle" Count="5">
+        <Component Subtype="KupferSpulle" Count="25">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>CopperScrap</SubtypeId>
@@ -1626,7 +1626,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="GoldSpulle" Count="50">
+        <Component Subtype="KupferSpulle" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>CopperScrap</SubtypeId>
