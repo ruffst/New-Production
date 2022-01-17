@@ -540,7 +540,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="5">
+        <Component Subtype="InteriorPlate" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -570,7 +570,7 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="12">
+        <Component Subtype="InteriorPlate" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -667,7 +667,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="45">
+        <Component Subtype="InteriorPlate" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -697,7 +697,7 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="23">
+        <Component Subtype="InteriorPlate" Count="23">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -794,7 +794,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="34">
+        <Component Subtype="InteriorPlate" Count="34">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -824,7 +824,7 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="23">
+        <Component Subtype="InteriorPlate" Count="23">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -925,7 +925,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="225">
+        <Component Subtype="InteriorPlate" Count="225">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -955,7 +955,7 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="113">
+        <Component Subtype="InteriorPlate" Count="113">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1059,7 +1059,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="7">
+        <Component Subtype="TitanPlate" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1089,7 +1089,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="17">
+        <Component Subtype="TitanPlate" Count="17">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1186,7 +1186,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="68">
+        <Component Subtype="TitanPlate" Count="68">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1216,7 +1216,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="34">
+        <Component Subtype="TitanPlate" Count="34">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1313,7 +1313,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="51">
+        <Component Subtype="TitanPlate" Count="51">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1343,7 +1343,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="34">
+        <Component Subtype="TitanPlate" Count="34">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1444,7 +1444,7 @@
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="338">
+        <Component Subtype="TitanPlate" Count="338">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1474,7 +1474,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="169">
+        <Component Subtype="TitanPlate" Count="169">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>

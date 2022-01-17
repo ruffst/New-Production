@@ -955,7 +955,7 @@
       <Model>Models\Cubes\Small\GeneratorSmall.mwm</Model>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="4">
+        <Component Subtype="TitanPlate" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1003,7 +1003,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="7">
+        <Component Subtype="TitanPlate" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1069,7 +1069,7 @@
       <Model>Models\Cubes\Small\GeneratorLarge.mwm</Model>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="135">
+        <Component Subtype="TitanPlate" Count="135">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1117,7 +1117,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="68">
+        <Component Subtype="TitanPlate" Count="68">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1185,7 +1185,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="169">
+        <Component Subtype="TitanPlate" Count="169">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1233,7 +1233,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="102">
+        <Component Subtype="TitanPlate" Count="102">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1299,7 +1299,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\GeneratorLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="2700">
+        <Component Subtype="TitanPlate" Count="2700">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1353,7 +1353,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="675">
+        <Component Subtype="TitanPlate" Count="675">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>

@@ -199,7 +199,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="12">
+        <Component Subtype="InteriorPlate" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -235,7 +235,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="45">
+        <Component Subtype="InteriorPlate" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -288,7 +288,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="45">
+        <Component Subtype="InteriorPlate" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -324,7 +324,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="135">
+        <Component Subtype="InteriorPlate" Count="135">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -380,7 +380,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="17">
+        <Component Subtype="TitanPlate" Count="17">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -416,7 +416,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="68">
+        <Component Subtype="TitanPlate" Count="68">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -469,7 +469,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="68">
+        <Component Subtype="TitanPlate" Count="68">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -505,7 +505,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="203">
+        <Component Subtype="TitanPlate" Count="203">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>

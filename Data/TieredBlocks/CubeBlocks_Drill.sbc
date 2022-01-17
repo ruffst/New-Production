@@ -245,7 +245,7 @@
       <PlaceDecals>false</PlaceDecals>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="45">
+        <Component Subtype="InteriorPlate" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -281,7 +281,7 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="27">
+        <Component Subtype="InteriorPlate" Count="27">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -356,7 +356,7 @@
       <UseModelIntersection>true</UseModelIntersection>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="SteelPlate" Count="405">
+        <Component Subtype="InteriorPlate" Count="405">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -392,7 +392,7 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="270">
+        <Component Subtype="InteriorPlate" Count="270">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -469,7 +469,7 @@
       <PlaceDecals>false</PlaceDecals>
       <UseModelIntersection>true</UseModelIntersection>
       <Components>
-        <Component Subtype="SteelPlate" Count="68">
+        <Component Subtype="TitanPlate" Count="68">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -505,7 +505,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="41">
+        <Component Subtype="TitanPlate" Count="41">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -580,7 +580,7 @@
       <UseModelIntersection>true</UseModelIntersection>
       <UsesDeformation>false</UsesDeformation>
       <Components>
-        <Component Subtype="SteelPlate" Count="608">
+        <Component Subtype="TitanPlate" Count="608">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -616,7 +616,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="405">
+        <Component Subtype="TitanPlate" Count="405">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>

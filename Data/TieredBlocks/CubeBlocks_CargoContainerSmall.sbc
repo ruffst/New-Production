@@ -414,7 +414,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="102">
+        <Component Subtype="TitanPlate" Count="102">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
@@ -468,7 +468,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="34">
+        <Component Subtype="TitanPlate" Count="34">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
@@ -522,7 +522,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="7">
+        <Component Subtype="TitanPlate" Count="7">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
@@ -558,7 +558,7 @@
             <SubtypeId>GlassScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="4">
+        <Component Subtype="TitanPlate" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>

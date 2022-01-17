@@ -196,7 +196,7 @@
       <Model>Models\Cubes\Small\gyroscope.mwm</Model>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="34">
+        <Component Subtype="InteriorPlate" Count="34">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -232,7 +232,7 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="23">
+        <Component Subtype="InteriorPlate" Count="23">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -280,7 +280,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\gyroscope.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="1125">
+        <Component Subtype="InteriorPlate" Count="1125">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -322,7 +322,7 @@
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="225">
+        <Component Subtype="InteriorPlate" Count="225">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -373,7 +373,7 @@
       <Model>Models\Cubes\Small\gyroscope.mwm</Model>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="51">
+        <Component Subtype="TitanPlate" Count="51">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -409,7 +409,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="34">
+        <Component Subtype="TitanPlate" Count="34">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -457,7 +457,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\gyroscope.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="1688">
+        <Component Subtype="TitanPlate" Count="1688">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -499,7 +499,7 @@
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="338">
+        <Component Subtype="TitanPlate" Count="338">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
