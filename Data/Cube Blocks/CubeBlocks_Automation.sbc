@@ -1097,10 +1097,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\ProgrammingBlock.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="11">
+        <Component Subtype="PenetratiumPlate" Count="11">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>PenetratiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="4">
@@ -1139,10 +1139,10 @@
             <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="PenetratiumPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>PenetratiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
