@@ -1581,6 +1581,19 @@
       <Result Amount="1" TypeId="Component" SubtypeId="Adminplate" />
       <BaseProductionTimeInSeconds>99999</BaseProductionTimeInSeconds>
     </Blueprint>
+    <Blueprint>      <!--PenetratiumToPlate-->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>PenetratiumToPlate</SubtypeId>
+      </Id>
+      <DisplayName>Penetratium Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\penetratium_plate.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Penetratium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PenetratiumPlate" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
 
 <!--Weapons-->
 

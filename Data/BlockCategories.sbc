@@ -32,7 +32,8 @@
         <string>Assembler/VerbrauchsmaterialAssembler</string>
         <string>Assembler/Legierer</string>
 
-        <string>Beacon/DeleteProtektionLarge</string>       
+        <string>Beacon/DeleteProtektionLarge</string>
+        <string>Reactor/KohlenstoffReactorLarge</string> 
 
         <string>ConveyorConnector/PipeX1</string>
         <string>ConveyorConnector/PipeX3</string>
@@ -537,6 +538,7 @@
       <ItemIds>
         <string>Beacon/DeleteProtektionSmall</string>
         <string>JumpDrive/SmallJumpDrive</string>
+        <string>Reactor/KohlenstofReactorSmall</string>
 
         <string>MotorAdvancedStator/SmallAdvancedStator</string>
         <string>MotorAdvancedStator/MediumHinge</string>

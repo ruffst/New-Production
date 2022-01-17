@@ -611,6 +611,7 @@
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine" />
                 <Block Type="MyObjectBuilder_ReactorDefinition" Subtype="Holzvergaser" />
                 <Block Type="MyObjectBuilder_ReactorDefinition" Subtype="MiniHolzvergaser" />
+                <Block Type="MyObjectBuilder_ReactorDefinition" Subtype="KohlenstoffReactorLarge" />
             </Blocks>
         </BlockVariantGroup>
         <!-- EnergyFueledGroupSmall -->
@@ -624,6 +625,7 @@
                 <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator" />
                 <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine" />
+                <Block Type="MyObjectBuilder_ReactorDefinition" Subtype="KohlenstoffReactorSmall" />
             </Blocks>
         </BlockVariantGroup>
 

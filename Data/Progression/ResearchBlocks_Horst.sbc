@@ -195,6 +195,8 @@
         <GroupSubtype>Assembler2</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
+
   <!--Forschungslabor-->
 
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Forschungslabor   0-->
@@ -204,33 +206,48 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--BasicSmallBlockDrill  Forschungslabor-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--BasicSmallBlockDrill  Forschung-->
           <Id Type="MyObjectBuilder_Drill" Subtype="BasicSmallBlockDrill" />
           <UnlockedByGroups>
             <GroupSubtype>Forschung</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumCrystaliyzer  Forschungslabor-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumCrystaliyzer  Forschung-->
           <Id Type="MyObjectBuilder_Refinery" Subtype="PenetratiumCrystaliyzer" />
           <UnlockedByGroups>
             <GroupSubtype>Forschung</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumSocket  Forschungslabor-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumSocket  Forschung-->
           <Id Type="MyObjectBuilder_LightingBlock" Subtype="PenetratiumSocket" />
           <UnlockedByGroups>
             <GroupSubtype>Forschung</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
 
-        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockRig1  Forschungslabor-->
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockRig1  Forschung-->
           <Id Type="MyObjectBuilder_Assembler" Subtype="LargeBlockRig1" />
           <UnlockedByGroups>
             <GroupSubtype>Forschung</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--KohlenstofReactorSmall  Forschung-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="KohlenstofReactorSmall" />
+          <UnlockedByGroups>
+            <GroupSubtype>Forschung</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+            <ResearchBlock xsi:type="ResearchBlock">                                    <!--KohlenstoffReactorLarge  Forschung-->
+          <Id Type="MyObjectBuilder_Reactor" Subtype="KohlenstoffReactorLarge" />
+          <UnlockedByGroups>
+            <GroupSubtype>Forschung</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+
 
   <!--Meilenstein_Armorlight-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Armorlight  Forschung-->
