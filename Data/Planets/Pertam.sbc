@@ -55,7 +55,6 @@
     <OreMappings>
       <Ore Value="200" Type="Iron_02" Start="3" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="220" Type="Nickel_01" Start="3" Depth="3" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="240" Type="Silicon_01" Start="3" Depth="3" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="250" Type="Iron_02" Start="3" Depth="3" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="1" Type="Iron_02" Start="10" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="4" Type="Iron_02" Start="12" Depth="4" TargetColor="#000000" ColorInfluence="200" />
@@ -69,15 +68,6 @@
       <Ore Value="36" Type="Nickel_01" Start="24" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="40" Type="Nickel_01" Start="27" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="44" Type="Nickel_01" Start="30" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="48" Type="Silicon_01" Start="9" Depth="3" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="52" Type="Silicon_01" Start="13" Depth="3" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="56" Type="Silicon_01" Start="10" Depth="3" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="60" Type="Silicon_01" Start="22" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="64" Type="Silicon_01" Start="25" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="68" Type="Silicon_01" Start="27" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="72" Type="Silicon_01" Start="20" Depth="3" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="76" Type="Silicon_01" Start="22" Depth="3" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="80" Type="Silicon_01" Start="26" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="84" Type="Nickel_01" Start="36" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="88" Type="Nickel_01" Start="44" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="92" Type="Nickel_01" Start="62" Depth="5" TargetColor="#000000" ColorInfluence="200" />
@@ -95,14 +85,8 @@
       <Ore Value="140" Type="Nickel_01" Start="59" Depth="2" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="144" Type="Iron_02" Start="32" Depth="2" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="148" Type="Iron_02" Start="35" Depth="3" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="152" Type="Silicon_01" Start="38" Depth="4" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="156" Type="Silicon_01" Start="80" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="160" Type="Nickel_01" Start="89" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="164" Type="Nickel_01" Start="96" Depth="1" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="168" Type="Cobalt_01" Start="40" Depth="2" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="172" Type="Nickel_01" Start="42" Depth="2" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="176" Type="Gold_01" Start="45" Depth="3" TargetColor="#000000" ColorInfluence="200" />
-      <Ore Value="180" Type="Silver_01" Start="80" Depth="4" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="184" Type="Nickel_01" Start="90" Depth="5" TargetColor="#000000" ColorInfluence="200" />
       <Ore Value="96" Type="Magnesium_01" Start="21" Depth="3" />
       <Ore Value="100" Type="Magnesium_01" Start="25" Depth="3" />
@@ -116,7 +100,7 @@
       <Ore Value="132" Type="Magnesium_01" Start="53" Depth="7" />
       <Ore Value="136" Type="Magnesium_01" Start="55" Depth="8" />
       <Ore Value="140" Type="Magnesium_01" Start="59" Depth="10" />
-      <Ore Value="188" Type="Nickel_01" Start="110" Depth="6" TargetColor="#000000" ColorInfluence="200" />
+
     </OreMappings>
 
     <SoundRules>

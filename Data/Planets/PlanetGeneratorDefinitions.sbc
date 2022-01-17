@@ -162,8 +162,7 @@
 
       <!-- Au 2-->
       <Ore Value="180" Type="Cobalt_01" Start="100" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="184" Type="Magnesium_01" Start="107" Depth="1" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="188" Type="Magnesium_01" Start="112" Depth="2" TargetColor="#616c83" ColorInfluence="15"/>
+
     </OreMappings>
 
     <SoundRules>
@@ -4125,7 +4124,7 @@
     </CustomMaterialTable>
 
 
-   <!-- Earthmoon definitions -->
+    <!-- Earthmoon definitions -->
     <ComplexMaterials>
       <MaterialGroup Name="Craters" Value="48">
 
@@ -4314,8 +4313,6 @@
       <!-- Tier 1 ! INSERT ONLY IN BLUE CHANNEL ! -->
       <!-- EASY START-->
       <Ore Value="200" Type="Iron_02" Start="3" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="220" Type="Nickel_01" Start="3" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="240" Type="Silicon_01" Start="3" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
       <!-- Fe 1-->
       <Ore Value="1" Type="Iron_02" Start="10" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
@@ -4327,27 +4324,7 @@
       <Ore Value="16" Type="Iron_02" Start="28" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="20" Type="Iron_02" Start="31" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
-      <!-- Ni 1-->
-      <Ore Value="24" Type="Nickel_01" Start="10" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="28" Type="Nickel_01" Start="11" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="32" Type="Nickel_01" Start="11" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
-      <!-- Ni 2-->
-      <Ore Value="36" Type="Nickel_01" Start="24" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="40" Type="Nickel_01" Start="27" Depth="5" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="44" Type="Nickel_01" Start="30" Depth="8" TargetColor="#FFFFFF" ColorInfluence="15"/>
-
-      <!-- Si 1-->
-      <Ore Value="48" Type="Silicon_01" Start="9" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="52" Type="Silicon_01" Start="13" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="56" Type="Silicon_01" Start="10" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
-
-      <!-- Si 2-->
-      <Ore Value="60" Type="Silicon_01" Start="22" Depth="6" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="64" Type="Silicon_01" Start="25" Depth="7" TargetColor="#FFFFFF" ColorInfluence="15"/>
-      <Ore Value="68" Type="Silicon_01" Start="27" Depth="9" TargetColor="#FFFFFF" ColorInfluence="15"/>
-
-      <!-- ORE Tier 2 -->
       <!-- Fe 1-->
       <Ore Value="72" Type="Iron_02" Start="20" Depth="3" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="76" Type="Iron_02" Start="22" Depth="4" TargetColor="#FFFFFF" ColorInfluence="15"/>
@@ -4865,15 +4842,7 @@
       <Ore Value="16" Type="Iron_02" Start="28" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="20" Type="Iron_02" Start="31" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 
-      <!-- Ni 1-->
-      <Ore Value="24" Type="Nickel_01" Start="10" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="28" Type="Nickel_01" Start="11" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="32" Type="Nickel_01" Start="11" Depth="6" TargetColor="#616c83" ColorInfluence="15"/>
 
-      <!-- Ni 2-->
-      <Ore Value="36" Type="Nickel_01" Start="24" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="40" Type="Nickel_01" Start="27" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="44" Type="Nickel_01" Start="30" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- Si 1-->
       <Ore Value="48" Type="Silicon_01" Start="9" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
