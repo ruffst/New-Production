@@ -1008,6 +1008,7 @@
             <Description>Description_Gyroscope</Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro" />
+                <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Basic" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Gold" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Platin" />
                 <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Titan" />               
