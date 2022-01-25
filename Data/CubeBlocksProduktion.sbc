@@ -741,7 +741,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GyroscopeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GyroscopeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallBlockGyro_Basic</BlockPairName>
+      <BlockPairName>Basic Gyroscope</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>14</BuildTimeSeconds>
