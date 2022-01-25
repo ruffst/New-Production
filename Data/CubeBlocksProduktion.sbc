@@ -4521,7 +4521,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="KupferSpulle" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorConstruction_2.mwm" />
