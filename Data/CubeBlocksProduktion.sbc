@@ -72,9 +72,9 @@
       <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
       <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
       </InventorySize>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
@@ -574,7 +574,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -652,7 +652,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="SmallTube" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConveyorSorterConstruction_1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConveyorSorterConstruction_2.mwm" />
@@ -1042,9 +1042,9 @@
       <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
       <RequiredPowerInput>0.002</RequiredPowerInput>
       <InventorySize>
-        <X>2.5</X>
-        <Y>2.5</Y>
-        <Z>1</Z>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
       </InventorySize>
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1147,6 +1147,11 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>125</PCU>
+      <InventorySize>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+      </InventorySize>
       <IsAirTight>false</IsAirTight>
       <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
       <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
@@ -1356,9 +1361,9 @@
     </Definition>
 
     <!---BasicAssembler Kohlenstoff Köhler-->
-    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
-        <TypeId>Assembler</TypeId>
+        <TypeId>Refinery</TypeId>
         <SubtypeId>BasicAssembler</SubtypeId>
       </Id>
       <DisplayName>Kohlenstoff Köhler</DisplayName>
@@ -1446,6 +1451,7 @@
       <ActionSound>BlockAssemblerProcess</ActionSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
+      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
       <PCU>40</PCU>
       <IsAirTight>true</IsAirTight>
       <TieredUpdateTimes>
@@ -2617,11 +2623,11 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>20</InventoryMaxVolume>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
       </InventorySize>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.28</OperationalPowerConsumption>
@@ -4172,7 +4178,7 @@
 
   <!--Castrated Assembler-->
     <!---LargeAssembler-->
-    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
         <TypeId>Assembler</TypeId>
         <SubtypeId>LargeAssembler</SubtypeId>

@@ -1552,6 +1552,7 @@
                 <Block Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntenna" />
                 <Block Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntennaDish" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="DeleteProtectionLarge" />
                 <Block Type="MyObjectBuilder_LaserAntenna" Subtype="LargeBlockLaserAntenna" />
             </Blocks>
         </BlockVariantGroup>
@@ -1564,6 +1565,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_RadioAntenna" Subtype="SmallBlockRadioAntenna" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="DeleteProtectionSmall" />
                 <Block Type="MyObjectBuilder_LaserAntenna" Subtype="SmallBlockLaserAntenna" />
             </Blocks>
         </BlockVariantGroup>

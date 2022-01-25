@@ -15,8 +15,7 @@
       <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="Basic_System_Items" />
       <Members>
         <BlockId Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
-        <BlockId Type="MyObjectBuilder_Beacon" Subtype="DeleteProtectionLarge" />
-        <BlockId Type="MyObjectBuilder_Beacon" Subtype="DeleteProtectionSmall" />
+
       </Members>
     </ResearchGroup>
     <ResearchGroup xsi:type="ResearchGroup">      <!--Meilenstein_Basic 0-->
