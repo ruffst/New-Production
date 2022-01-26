@@ -1955,7 +1955,7 @@
 
   <!--3. buildstufe-->
     <!---Block_Arc_Furnace-->
-    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
         <SubtypeId>Blast_Furnace</SubtypeId>
@@ -2068,7 +2068,7 @@
       </TieredUpdateTimes>
     </Definition>
     <!---VoidMiner-->
-    <Definition Enabled="false" xsi:type="MyObjectBuilder_RefineryDefinition">
+    <Definition  xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
         <SubtypeId>VoidMiner</SubtypeId>
@@ -2086,7 +2086,7 @@
         <Component Subtype="PenetratiumPlate" Count="1000">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>PenetratiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Bleiplatte" Count="500">
@@ -2134,7 +2134,7 @@
         <Component Subtype="PenetratiumPlate" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>PenetratiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
