@@ -296,9 +296,9 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>MiniHolzvergaser</SubtypeId>
       </Id>
-      <DisplayName>Mini Biomasse Verbrenner</DisplayName>
+      <DisplayName>DisplayName_Block_MiniHolzvergaser</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\CoalGeneratorMini.dds</Icon>
-      <Description>Basic Technologie um Energie aus Holz zu erzeugen</Description>
+      <Description>Description_MiniHolzvergaser</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
       <ResearchCost>
@@ -400,9 +400,9 @@
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SpawnOreDetector</SubtypeId>
       </Id>
-      <DisplayName>SmallOreDetectorStarter</DisplayName>
+      <DisplayName>DisplayName_Block_SpawnOreDetector</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
-      <Description>Description_OreDetector</Description>
+      <Description>Description_SpawnOreDetector</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
@@ -455,9 +455,9 @@
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>Basic_Battery</SubtypeId>
       </Id>
-      <DisplayName>Basic Battery</DisplayName>
+      <DisplayName>DisplayName_Block_Basic_Battery</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
-      <Description>Description_Battery</Description>
+      <Description>Description_Basic_Battery</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -534,9 +534,9 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>Basic_Cargo</SubtypeId>
       </Id>
-      <DisplayName>Basic Cargo Container</DisplayName>
+      <DisplayName>DisplayName_Block_Basic_Cargo</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\container.dds</Icon>
-      <Description>Description_SmallCargoContainer</Description>
+      <Description>Description_Basic_Cargo</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -611,9 +611,9 @@
         <TypeId>ConveyorSorter</TypeId>
         <SubtypeId>Basic_Sorter</SubtypeId>
       </Id>
-      <DisplayName>Basic Sorter</DisplayName>
+      <DisplayName>DisplayName_Block_Basic_Sorter</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorSorterLarge.dds</Icon>
-      <Description>Description_ConveyorSorter</Description>
+      <Description>Description_Basic_Sorter</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -686,9 +686,9 @@
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Basic</SubtypeId>
       </Id>
-      <DisplayName>Basic Gyroscope</DisplayName>
+      <DisplayName>DisplayName_Block_SmallBlockGyro_Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
-      <Description>Basic Gyroscope</Description>
+      <Description>Description_SmallBlockGyro_Basic</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -764,9 +764,9 @@
         <TypeId>OxygenGenerator</TypeId>
         <SubtypeId>OxygenGeneratorBasic</SubtypeId>
       </Id>
-      <DisplayName>Basic Oxygen Generator</DisplayName>
+      <DisplayName>DisplayName_Block_OxygenGeneratorBasic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
-      <Description>Description_OxygenGenerator</Description>
+      <Description>Description_OxygenGeneratorBasic</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
@@ -880,9 +880,9 @@
         <TypeId>Beacon</TypeId>
         <SubtypeId>DeleteProtectionLarge</SubtypeId>
       </Id>
-      <DisplayName>Delete Protection</DisplayName>
+      <DisplayName>DisplayName_Block_DeleteProtectionLarge</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\beaconLG.dds</Icon>
-      <Description>Block um das löschen einen Grid zu verhindern</Description>
+      <Description>Description_DeleteProtectionLarge</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -925,9 +925,9 @@
         <TypeId>Beacon</TypeId>
         <SubtypeId>DeleteProtectionSmall</SubtypeId>
       </Id>
-      <DisplayName>Delete Protection</DisplayName>
+      <DisplayName>DisplayName_Block_DeleteProtectionSmall</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\beaconSG.dds</Icon>
-      <Description>Block um das löschen einen Grid zu verhindern</Description>
+      <Description>Description_DeleteProtectionSmall</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -972,9 +972,9 @@
         <TypeId>Collector</TypeId>
         <SubtypeId>CollectorBasic</SubtypeId>
       </Id>
-      <DisplayName>Basic Collector</DisplayName>
+      <DisplayName>DisplayName_Block_CollectorBasic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\collector.dds</Icon>
-      <Description>Description_Collector</Description>
+      <Description>Description_CollectorBasic</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1069,9 +1069,9 @@
         <TypeId>ShipConnector</TypeId>
         <SubtypeId>ConnectorBasic</SubtypeId>
       </Id>
-      <DisplayName>Basic Connector</DisplayName>
+      <DisplayName>DisplayName_Block_ConnectorBasic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Connector.dds</Icon>
-      <Description>Basic Connector</Description>
+      <Description>Description_ConnectorBasic</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1170,9 +1170,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>Rohrextruder</SubtypeId>
       </Id>
-      <DisplayName>Rohrextruder</DisplayName>
+      <DisplayName>DisplayName_Block_Rohrextruder</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_Rohrextruder</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>15</ResearchGroup>
       <GuiVisible>false</GuiVisible>
@@ -1267,9 +1267,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>Plattenpresse</SubtypeId>
       </Id>
-      <DisplayName>Plattenpresse</DisplayName>
+      <DisplayName>DisplayName_Block_Plattenpresse</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_Plattenpresse</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>10</ResearchGroup>
       <GuiVisible>false</GuiVisible>
@@ -1364,9 +1364,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>BasicAssembler</SubtypeId>
       </Id>
-      <DisplayName>Kohlenstoff Köhler</DisplayName>
+      <DisplayName>DisplayName_Block_BasicAssembler</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
-      <Description>Köhler zur Herstellung von Kohlenstoff aus Holz oder Eisen</Description>
+      <Description>Description_BasicAssembler</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>
       </ResearchGroup>
@@ -1464,9 +1464,9 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>KohlenstofReactorSmall</SubtypeId>
       </Id>
-      <DisplayName>Kohlenstoff Reactor Small</DisplayName>
+      <DisplayName>DisplayName_Block_KohlenstofReactorSmall</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-      <Description>Erzeugt Energie aus Kohlenstoff</Description>
+      <Description>Description_KohlenstofReactorSmall</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1596,9 +1596,9 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>KohlenstoffReactorLarge</SubtypeId>
       </Id>
-      <DisplayName>Kohlenstoff Reactor Large</DisplayName>
+      <DisplayName>DisplayName_Block_KohlenstoffReactorLarge</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-      <Description>Erzeugt Energie aus Kohlenstoff</Description>
+      <Description>Description_KohlenstoffReactorLarge</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1732,9 +1732,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>Drahtextruder</SubtypeId>
       </Id>
-      <DisplayName>Drahtextruder</DisplayName>
+      <DisplayName>DisplayName_Block_Drahtextruder</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_Drahtextruder</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1840,9 +1840,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>Wickelmaschine</SubtypeId>
       </Id>
-      <DisplayName>Wickelmaschine</DisplayName>
+      <DisplayName>DisplayName_Block_Wickelmaschine</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_Wickelmaschine</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1957,9 +1957,9 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>Blast_Furnace</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_Arc_Furnace</DisplayName>
+      <DisplayName>DisplayName_Block_Blast_Furnace</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\BlastFurnace.dds</Icon>
-      <Description>Arc Furnace</Description>
+      <Description>Description_Blast_Furnace</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2070,9 +2070,9 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>VoidMiner</SubtypeId>
       </Id>
-      <DisplayName>Penetratium Converter</DisplayName>
+      <DisplayName>DisplayName_Block_VoidMiner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\BlastFurnace.dds</Icon>
-      <Description>Saugt Erze aus Paralleluniversen und wandelt diese direkt in Barren um. Verbraucht dabei Penetratium und Strom</Description>
+      <Description>Description_VoidMiner</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2189,9 +2189,9 @@
             <TypeId>InteriorLight</TypeId>
           <SubtypeId>PenetratiumSocket</SubtypeId>
       </Id>
-      <DisplayName>Penetratium Kristallisator Sockel</DisplayName>
+      <DisplayName>DisplayName_Block_PenetratiumSocket</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Sockel.dds</Icon>
-      <Description>Penetratium Kristallisator Sockel für Opitsche optimierung (Lampe)</Description>
+      <Description>Description_PenetratiumSocket</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="1" z="3" />
@@ -2229,9 +2229,9 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>PenetratiumCrystaliyzer</SubtypeId>
       </Id>
-      <DisplayName>Penetratium Kristallisator</DisplayName>
+      <DisplayName>DisplayName_Block_PenetratiumCrystaliyzer</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Kristallisator.dds</Icon>
-      <Description>Kristallisiert das Erz in eine verwendbare Form</Description>
+      <Description>Description_PenetratiumCrystaliyzer</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2339,9 +2339,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>Recycler</SubtypeId>
       </Id>
-      <DisplayName>Recycler</DisplayName>
+      <DisplayName>DisplayName_Block_Recycler</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_Recycler</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2448,9 +2448,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>Elektro_Assembler</SubtypeId>
       </Id>
-      <DisplayName>Elektro Assembler</DisplayName>
+      <DisplayName>DisplayName_Block_Elektro_Assembler</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_Elektro_Assembler</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2559,9 +2559,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>Forschungslabor</SubtypeId>
       </Id>
-      <DisplayName>Forschungslabor</DisplayName>
+      <DisplayName>DisplayName_Block_Forschungslabor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ResearchLab.dds</Icon>
-      <Description>Forschungslabor zur Herstellung von Meilensteinmaterial. Die meißten Meilensteine sind nach dem Bau des Labors baubar. Einige sind verschachtelt.</Description>
+      <Description>Description_Forschungslabor</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2661,9 +2661,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>Fertiger</SubtypeId>
       </Id>
-      <DisplayName>Fertiger</DisplayName>
+      <DisplayName>DisplayName_Block_Fertiger</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_Fertiger</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2769,9 +2769,9 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>Legierer</SubtypeId>
       </Id>
-      <DisplayName>Legierer</DisplayName>
+      <DisplayName>DisplayName_Block_Legierer</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Legierer.dds</Icon>
-      <Description>Der legierer ist zum Verschmelzen verschiedener Materialien. Nickelaluminium, Nickeltitan und Litium und Neodynium aus Kies</Description>
+      <Description>Description_Legierer</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2884,9 +2884,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>VerbrauchsmaterialAssembler</SubtypeId>
       </Id>
-      <DisplayName>Tools Assembler</DisplayName>
+      <DisplayName>DisplayName_Block_VerbrauchsmaterialAssembler</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_VerbrauchsmaterialAssembler</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3779,9 +3779,9 @@
         <TypeId>Drill</TypeId>
         <SubtypeId>BasicSmallBlockDrill</SubtypeId>
       </Id>
-      <DisplayName>Basic Drill</DisplayName>
+      <DisplayName>DisplayName_Block_BasicSmallBlockDrill</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\drill.dds</Icon>
-      <Description>Description_Drill</Description>
+      <Description>Description_BasicSmallBlockDrill</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4284,15 +4284,16 @@
     </Definition>
 
   <!--Basic Conveyors-->
+
     <!--SmallBlockConveyorBasic-->
     <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>SmallBlockConveyorBasic</SubtypeId>
       </Id>
-      <DisplayName>Small Block Conveyor Basic</DisplayName>
+      <DisplayName>DisplayName_Block_SmallBlockConveyorBasic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
-      <Description>Description_ConveyorTube</Description>
+      <Description>Description_SmallBlockConveyorBasic</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4358,9 +4359,9 @@
         <TypeId>ConveyorConnector</TypeId>
         <SubtypeId>ConveyorTubeSmallBasic</SubtypeId>
       </Id>
-      <DisplayName>Conveyor Tube Small Basic</DisplayName>
+      <DisplayName>DisplayName_Block_ConveyorTubeSmallBasic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeSmall.dds</Icon>
-      <Description>Description_ConveyorTube</Description>
+      <Description>Description_ConveyorTubeSmallBasic</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -4418,9 +4419,9 @@
         <TypeId>ConveyorConnector</TypeId>
         <SubtypeId>ConveyorTubeSmallCurvedBasic</SubtypeId>
       </Id>
-      <DisplayName>Conveyor Tube Small Curved Basic</DisplayName>
+      <DisplayName>DisplayName_Block_ConveyorTubeSmallCurvedBasic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorCurveSmall.dds</Icon>
-      <Description>Description_ConveyorTube</Description>
+      <Description>Description_ConveyorTubeSmallCurvedBasic</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4475,9 +4476,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>LargeBlockConveyorBasic</SubtypeId>
       </Id>
-      <DisplayName>Large Block Conveyor Basic</DisplayName>
+      <DisplayName>DisplayName_Block_LargeBlockConveyorBasic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
-      <Description>Description_ConveyorTube</Description>
+      <Description>Description_LargeBlockConveyorBasic</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4548,9 +4549,9 @@
         <TypeId>ConveyorConnector</TypeId>
         <SubtypeId>ConveyorTubeBasic</SubtypeId>
       </Id>
-      <DisplayName>Conveyor Tube Basic</DisplayName>
+      <DisplayName>DisplayName_Block_ConveyorTubeBasic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
-      <Description>Description_ConveyorTube</Description>
+      <Description>Description_ConveyorTubeBasic</Description>
       <GuiVisible>true</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4617,15 +4618,15 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 
-  <!--ConveyorTubeCurvedBasic-->
+    <!--ConveyorTubeCurvedBasic-->
     <Definition>
       <Id>
         <TypeId>ConveyorConnector</TypeId>
         <SubtypeId>ConveyorTubeCurvedBasic</SubtypeId>
       </Id>
-      <DisplayName>Conveyor Tube Curved Basic</DisplayName>
+      <DisplayName>DisplayName_Block_ConveyorTubeCurvedBasic</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ConveyorTubeCurved.dds</Icon>
-      <Description>Description_ConveyorTube</Description>
+      <Description>Description_ConveyorTubeCurvedBasic</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
