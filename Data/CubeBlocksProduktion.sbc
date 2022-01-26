@@ -8,8 +8,8 @@
         <TypeId>SurvivalKit</TypeId>
         <SubtypeId>SurvivalKitLarge</SubtypeId>
       </Id>
-      <DisplayName>Survival-Kit</DisplayName>
-      <Description>Preiset die Pottsau und fürchtet euch vor dem Harlock</Description>
+      <DisplayName>DisplayName_Block_SurvivalKit</DisplayName>
+      <Description>Description_SurvivalKit</Description>
       <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -188,9 +188,9 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>Holzvergaser</SubtypeId>
       </Id>
-      <DisplayName>Biomasse Verbrenner</DisplayName>
+      <DisplayName>DisplayName_Block_Holzvergaser</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\CoalGenerator2.dds</Icon>
-      <Description>Basic Technologie um Energie aus Holz zu erzeugen</Description>
+      <Description>Description_Holzvergaser</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
       <ResearchCost>

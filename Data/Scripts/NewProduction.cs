@@ -3,6 +3,7 @@ using System.Timers;
 using System.Text;
 using System.IO;
 using System.Collections.Generic;
+using System.Linq;
 
 using VRageMath;
 using VRage;
@@ -40,6 +41,7 @@ namespace NewProduction
 {
 
 #region WOOD CUTTING
+
 
     [MySessionComponentDescriptor(MyUpdateOrder.NoUpdate)]
     public class WoodCut : MySessionComponentBase
@@ -187,7 +189,7 @@ namespace NewProduction
 
     #endregion
 
-    #region CONFIG
+#region CONFIG
     public class MyConfig
     {
         private const string FILE = "new-production.cfg";
@@ -296,6 +298,56 @@ namespace NewProduction
         }
     }
     #endregion
+
+#region TESTLOCALIZATION
+    [MySessionComponentDescriptor(MyUpdateOrder.NoUpdate)]
+    public class Localization : MySessionComponentBase
+    {
+        public MyLanguagesEnum? Language { get; private set; }
+        public override void LoadData()
+        {
+            NewProduction();
+            MyAPIGateway.Gui.GuiControlRemoved += OnGuiControlRemoved;
+        }
+        protected override void UnloadData()
+        {
+            MyAPIGateway.Gui.GuiControlRemoved -= OnGuiControlRemoved;
+        }
+        private void NewProduction()
+        {
+            var path = Path.Combine(ModContext.ModPathData, "Localization");
+            var supportedLanguages = new HashSet<MyLanguagesEnum>();
+            MyTexts.LoadSupportedLanguages(path, supportedLanguages);
+
+            var currentLanguage = supportedLanguages.Contains(MyAPIGateway.Session.Config.Language) ? MyAPIGateway.Session.Config.Language : MyLanguagesEnum.English;
+            if (Language == currentLanguage)
+            {
+                return;
+            }
+
+            Language = currentLanguage;
+            var languageDescription = MyTexts.Languages.Where(x => x.Key == currentLanguage).Select(x => x.Value).FirstOrDefault();
+            if (languageDescription == null)
+            {
+                return;
+            }
+
+            var cultureName = string.IsNullOrWhiteSpace(languageDescription.CultureName) ? null : languageDescription.CultureName;
+            var subcultureName = string.IsNullOrWhiteSpace(languageDescription.SubcultureName) ? null : languageDescription.SubcultureName;
+
+            MyTexts.LoadTexts(path, cultureName, subcultureName);
+        }
+
+        private void OnGuiControlRemoved(object obj)
+        {
+            if (obj.ToString().EndsWith("ScreenOptionsSpace"))
+            {
+                NewProduction();
+            }
+        }
+    }
+#endregion
+
 }
 
 
