@@ -1261,7 +1261,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---Plattenpresse-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -1359,7 +1358,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---BasicAssembler Kohlenstoff Köhler-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -1460,7 +1458,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!--KohlenstofReactorSmall-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -1593,7 +1590,6 @@
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!--KohlenstoffReactorLarge-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
@@ -1729,6 +1725,7 @@
 
 
   <!--2. buildstufe-->
+
     <!---Drahtextruder-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -1837,7 +1834,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---Wickelmaschine-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -1954,6 +1950,7 @@
     </Definition>
 
   <!--3. buildstufe-->
+
     <!---Block_Arc_Furnace-->
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
@@ -2336,7 +2333,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---Recycler-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -2446,7 +2442,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---Elektro_Assembler-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -2557,6 +2552,7 @@
     </Definition>
 
   <!--4. buildstufe-->
+
     <!---Forschungslabor-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -2659,7 +2655,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---Fertiger-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -2768,7 +2763,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---Legierer (Blast_Furnace)-->
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
@@ -2884,7 +2878,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---VerbrauchsmaterialAssembler-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -2999,7 +2992,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---LargeRefinery-->
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
@@ -3127,7 +3119,6 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---LargeRefineryIndustrial-->
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
@@ -3273,7 +3264,6 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-
     <!---LargeAssemblerIndustrial-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -3397,7 +3387,6 @@
       </TieredUpdateTimes>
       <DLC>HeavyIndustry</DLC>
     </Definition>
-
     <!---OxygenGeneratorLarge-->
     <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
@@ -3532,7 +3521,6 @@
         <unsignedInt>1200</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---OxygenGeneratorSmall-->
     <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
@@ -3676,7 +3664,6 @@
         <unsignedInt>1200</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
     <!---LargeBlockOxygenFarm-->
     <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
       <Id>
