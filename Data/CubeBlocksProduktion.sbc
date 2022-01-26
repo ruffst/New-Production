@@ -2068,7 +2068,7 @@
       </TieredUpdateTimes>
     </Definition>
     <!---VoidMiner-->
-    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
         <SubtypeId>VoidMiner</SubtypeId>
@@ -2083,13 +2083,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\BasicRefBuildstages1.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="100">
+        <Component Subtype="PenetratiumPlate" Count="1000">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Bleiplatte" Count="80">
+        <Component Subtype="Bleiplatte" Count="500">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>LeadScrap</SubtypeId>
@@ -2101,38 +2101,44 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="20">
+        <Component Subtype="Construction" Count="2000">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Kupferdraht" Count="20">
+        <Component Subtype="Titandraht" Count="200">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="10">
+        <Component Subtype="LargeTube" Count="200">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferSpulle" Count="50">
+        <Component Subtype="TitanSpulle" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="20">
+        <Component Subtype="TitanComputer" Count="100">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="PenetratiumPlate" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferSpulle" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
       <MountPoints>

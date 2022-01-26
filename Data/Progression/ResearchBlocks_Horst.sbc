@@ -220,6 +220,13 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--VoidMiner  Forschung-->
+          <Id Type="MyObjectBuilder_Refinery" Subtype="VoidMiner" />
+          <UnlockedByGroups>
+            <GroupSubtype>Forschung</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--PenetratiumSocket  Forschung-->
           <Id Type="MyObjectBuilder_LightingBlock" Subtype="PenetratiumSocket" />
           <UnlockedByGroups>
