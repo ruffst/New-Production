@@ -261,9 +261,9 @@
       <DisplayName>Baumstämme in Kohlenstoff</DisplayName>
       <Icon>Textures\GUI\Icons\Ingot\kohlenstoff.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Component" SubtypeId="WoodLogs" />
+        <Item Amount="1" TypeId="Component" SubtypeId="WoodLogs" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Kohlenstoff" />
+      <Result Amount="100" TypeId="Ingot" SubtypeId="Kohlenstoff" />
       <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
     </Blueprint> 
     <Blueprint>      <!--IrontoKohlenstoff-->
@@ -274,9 +274,9 @@
       <DisplayName>Eisen Erz in Kohlenstoff</DisplayName>
       <Icon>Textures\GUI\Icons\Ingot\kohlenstoff.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ore" SubtypeId="Iron" />
+        <Item Amount="100" TypeId="Ore" SubtypeId="Iron" />
       </Prerequisites>
-      <Result Amount="1" TypeId="Ingot" SubtypeId="Kohlenstoff" />
+      <Result Amount="200" TypeId="Ingot" SubtypeId="Kohlenstoff" />
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>      <!--PlasticBP-->

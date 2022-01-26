@@ -190,7 +190,7 @@
       </Id>
       <DisplayName>Biomasse Verbrenner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\CoalGenerator2.dds</Icon>
-      <Description>Verbrenne Holz um Energie zu erzeugen</Description>
+      <Description>Basic Technologie um Energie aus Holz zu erzeugen</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
       <ResearchCost>
@@ -273,7 +273,7 @@
             <TypeId>Component</TypeId>
             <SubtypeId>WoodLogs</SubtypeId>
           </Id>
-          <Ratio>70.000</Ratio>
+          <Ratio>50</Ratio>
         </FuelInfo>
       </FuelInfos>
       <PrimarySound>VergaserBetrieb</PrimarySound>
@@ -298,7 +298,7 @@
       </Id>
       <DisplayName>Mini Biomasse Verbrenner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\CoalGeneratorMini.dds</Icon>
-      <Description>Verbrenne Holz um Energie zu erzeugen</Description>
+      <Description>Basic Technologie um Energie aus Holz zu erzeugen</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>Tier00Basics</ResearchGroup>
       <ResearchCost>
@@ -377,7 +377,7 @@
             <TypeId>Component</TypeId>
             <SubtypeId>WoodLogs</SubtypeId>
           </Id>
-          <Ratio>70.000</Ratio>
+          <Ratio>70</Ratio>
         </FuelInfo>
       </FuelInfos>
       <PrimarySound>VergaserBetrieb</PrimarySound>
@@ -1071,7 +1071,7 @@
       </Id>
       <DisplayName>Basic Connector</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Connector.dds</Icon>
-      <Description>Description_Connector</Description>
+      <Description>Basic Connector</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1361,14 +1361,14 @@
     </Definition>
 
     <!---BasicAssembler Kohlenstoff Köhler-->
-    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
-        <TypeId>Refinery</TypeId>
+        <TypeId>Assembler</TypeId>
         <SubtypeId>BasicAssembler</SubtypeId>
       </Id>
       <DisplayName>Kohlenstoff Köhler</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\basicAssembler.dds</Icon>
-      <Description>Holzköhler</Description>
+      <Description>Köhler zur Herstellung von Kohlenstoff aus Holz oder Eisen</Description>
       <CubeSize>Large</CubeSize>
       <ResearchGroup>
       </ResearchGroup>
@@ -1576,6 +1576,7 @@
             <TypeId>Ingot</TypeId>
             <SubtypeId>Kohlenstoff</SubtypeId>
           </Id>
+          <Ratio>70</Ratio>
         </FuelInfo>
       </FuelInfos>
       <PrimarySound>ShipSmNuclearSm</PrimarySound>
@@ -1708,6 +1709,7 @@
             <TypeId>Ingot</TypeId>
             <SubtypeId>Kohlenstoff</SubtypeId>
           </Id>
+          <Ratio>70</Ratio>
         </FuelInfo>
       </FuelInfos>
       <PrimarySound>ShipLrgNuclearSm</PrimarySound>
