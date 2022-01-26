@@ -1955,7 +1955,7 @@
 
   <!--3. buildstufe-->
     <!---Block_Arc_Furnace-->
-    <Definition Enabled="false" xsi:type="MyObjectBuilder_RefineryDefinition">
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
         <SubtypeId>Blast_Furnace</SubtypeId>
@@ -2068,7 +2068,7 @@
       </TieredUpdateTimes>
     </Definition>
     <!---VoidMiner-->
-    <Definition  xsi:type="MyObjectBuilder_RefineryDefinition">
+    <Definition Enabled="false"  xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
         <SubtypeId>VoidMiner</SubtypeId>
