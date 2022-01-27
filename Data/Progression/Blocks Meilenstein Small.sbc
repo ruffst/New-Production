@@ -7,9 +7,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Armorlight</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Armor leicht</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Armorlight</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von leichten Panzerblöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Armorlight</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -58,9 +58,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Armorheavy</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Armor schwer</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Armorheavy</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von schweren Panzerblöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Armorheavy</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -115,9 +115,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Fenster</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Fenster</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Fenster</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Fenster</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -172,9 +172,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Controls</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Controls</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Controls</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Controls</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -229,9 +229,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Medical</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Medical</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Medical</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Medical</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -286,9 +286,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Remote</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Remote</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Remote</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Remote</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -343,9 +343,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Gyroskop</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Gyroskop</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Gyroskop</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Gyroskop</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -408,9 +408,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Tools</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Tools</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Tools</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Tools</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -471,9 +471,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_OreDetector</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small OreDetector</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_OreDetector</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_OreDetector</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -540,9 +540,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Waffen</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Waffen</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Waffen</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Waffen</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -609,9 +609,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Conveyors</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Conveyors</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Conveyors</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Conveyors</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -678,9 +678,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Automation</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Automation</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Automation</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Automation</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -741,9 +741,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Lights</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Lights</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Lights</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Lights</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -792,9 +792,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Power</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Power</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Power</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Power</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -849,9 +849,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Atmo</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Thruster Atmo</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Thruster_Atmo</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Atmo</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -912,9 +912,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Ionen</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Thruster Ionen</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Thruster_Ionen</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Ionen</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -987,9 +987,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Hydro</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Thruster Hydro</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Thruster_Hydro</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Hydro</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1050,9 +1050,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Jumpdrive</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Travel Drive</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Jumpdrive</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Jumpdrive</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1115,9 +1115,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_LCDs</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small LCDs</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_LCDs</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_LCDs</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1166,9 +1166,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Mechanic</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Mechanic</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Mechanic</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Mechanic</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1229,9 +1229,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Tore</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Tore</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Tore</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Tore</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1292,9 +1292,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Räder</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Räder</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Räder</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Räder</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1355,9 +1355,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Cargos</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Cargos</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Cargos</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Cargos</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1412,9 +1412,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Communication</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Communication</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Communication</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Communication</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1469,9 +1469,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Landing</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Landing</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Landing</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Landing</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1532,9 +1532,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Tanks</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein_Small Tanks</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Tanks</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Tanks</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

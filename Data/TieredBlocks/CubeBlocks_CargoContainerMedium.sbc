@@ -8,7 +8,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainer_Gold</SubtypeId>
       </Id>
-      <DisplayName>Medium Gold Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_SmallBlockMediumContainer_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\container_medium_gold.dds</Icon>
       <Description>Description_MediumCargoContainer</Description>
@@ -98,7 +98,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainer_Platin</SubtypeId>
       </Id>
-      <DisplayName>Medium Platin Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_SmallBlockMediumContainer_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\container_medium_platin.dds</Icon>
       <Description>Description_MediumCargoContainer</Description>
@@ -188,7 +188,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockMediumContainer_Titan</SubtypeId>
       </Id>
-      <DisplayName>Medium Titan Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_SmallBlockMediumContainer_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\container_medium_titan.dds</Icon>
       <Description>Description_MediumCargoContainer</Description>

@@ -8,7 +8,7 @@
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>SmallShipWelder_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Welder</DisplayName>
+      <DisplayName>DisplayName_ShipWelder_SmallShipWelder_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Welder_Gold.dds</Icon>
       <Description>Description_ShipWelder</Description>
@@ -106,7 +106,7 @@
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>LargeShipWelder_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Welder</DisplayName>
+      <DisplayName>DisplayName_ShipWelder_LargeShipWelder_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Welder_Gold.dds</Icon>
       <Description>Description_ShipWelder</Description>
@@ -215,7 +215,7 @@
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>SmallShipWelder_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Welder</DisplayName>
+      <DisplayName>DisplayName_ShipWelder_SmallShipWelder_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Welder_Platin.dds</Icon>
       <Description>Description_ShipWelder</Description>
@@ -313,7 +313,7 @@
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>LargeShipWelder_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Welder</DisplayName>
+      <DisplayName>DisplayName_ShipWelder_LargeShipWelder_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Welder_Platin.dds</Icon>
       <Description>Description_ShipWelder</Description>
@@ -422,7 +422,7 @@
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>SmallShipWelder_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Welder</DisplayName>
+      <DisplayName>DisplayName_ShipWelder_SmallShipWelder_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Welder_Titan.dds</Icon>
       <Description>Description_ShipWelder</Description>
@@ -520,7 +520,7 @@
         <TypeId>ShipWelder</TypeId>
         <SubtypeId>LargeShipWelder_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Welder</DisplayName>
+      <DisplayName>DisplayName_ShipWelder_LargeShipWelder_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Welder_Titan.dds</Icon>
       <Description>Description_ShipWelder</Description>

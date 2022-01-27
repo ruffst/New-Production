@@ -7,7 +7,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeRefinery_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Refinery</DisplayName>
+      <DisplayName>DisplayName_Refinery_LargeRefinery_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\refinery_Gold.dds</Icon>
       <Description>Description_Refinery</Description>
@@ -116,7 +116,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeRefinery_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Refinery</DisplayName>
+      <DisplayName>DisplayName_Refinery_LargeRefinery_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\refinery_Platin.dds</Icon>
       <Description>Description_Refinery</Description>
@@ -225,7 +225,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeRefinery_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Refinery</DisplayName>
+      <DisplayName>DisplayName_Refinery_LargeRefinery_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\refinery_Titan.dds</Icon>
       <Description>Description_Refinery</Description>

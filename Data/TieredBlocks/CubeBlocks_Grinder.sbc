@@ -8,7 +8,7 @@
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>SmallShipGrinder_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Grinder</DisplayName>
+      <DisplayName>DisplayName_ShipGrinder_SmallShipGrinder_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Grinder_Gold.dds</Icon>
       <Description>Description_ShipGrinder</Description>
@@ -119,7 +119,7 @@
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>LargeShipGrinder_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Grinder</DisplayName>
+      <DisplayName>DisplayName_ShipGrinder_LargeShipGrinder_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Grinder_Gold.dds</Icon>
       <Description>Description_ShipGrinder</Description>
@@ -228,7 +228,7 @@
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>SmallShipGrinder_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Grinder</DisplayName>
+      <DisplayName>DisplayName_ShipGrinder_SmallShipGrinder_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Grinder_Platin.dds</Icon>
       <Description>Description_ShipGrinder</Description>
@@ -339,7 +339,7 @@
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>LargeShipGrinder_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Grinder</DisplayName>
+      <DisplayName>DisplayName_ShipGrinder_LargeShipGrinder_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Grinder_Platin.dds</Icon>
       <Description>Description_ShipGrinder</Description>
@@ -448,7 +448,7 @@
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>SmallShipGrinder_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Grinder</DisplayName>
+      <DisplayName>DisplayName_ShipGrinder_SmallShipGrinder_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Grinder_Titan.dds</Icon>
       <Description>Description_ShipGrinder</Description>
@@ -559,7 +559,7 @@
         <TypeId>ShipGrinder</TypeId>
         <SubtypeId>LargeShipGrinder_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Grinder</DisplayName>
+      <DisplayName>DisplayName_ShipGrinder_LargeShipGrinder_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Grinder_Titan.dds</Icon>
       <Description>Description_ShipGrinder</Description>

@@ -8,7 +8,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTank_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_LargeHydrogenTank_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank_Gold.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -117,7 +117,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankSmall_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Small Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_LargeHydrogenTankSmall_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\LargeHydrogenTankSmall_Gold.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -221,7 +221,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTank_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_SmallHydrogenTank_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank_Gold.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -342,7 +342,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTankSmall_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Small Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_SmallHydrogenTankSmall_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall_Gold.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -447,7 +447,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTank_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_LargeHydrogenTank_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank_Platin.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -556,7 +556,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankSmall_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Small Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_LargeHydrogenTankSmall_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\LargeHydrogenTankSmall_Platin.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -660,7 +660,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTank_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_SmallHydrogenTank_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank_Platin.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -781,7 +781,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTankSmall_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Small Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_SmallHydrogenTankSmall_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall_Platin.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -886,7 +886,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTank_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_LargeHydrogenTank_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank_Titan.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -995,7 +995,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankSmall_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Small Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_LargeHydrogenTankSmall_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\LargeHydrogenTankSmall_Titan.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -1099,7 +1099,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTank_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_SmallHydrogenTank_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank_Titan.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -1220,7 +1220,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>SmallHydrogenTankSmall_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Small Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_SmallHydrogenTankSmall_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmall_Titan.dds</Icon>
       <Description>Description_HydrogenTank</Description>

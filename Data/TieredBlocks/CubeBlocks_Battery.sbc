@@ -8,7 +8,7 @@
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>SmallBlockBatteryBlock_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Battery</DisplayName>
+      <DisplayName>DisplayName_BatteryBlock_SmallBlockBatteryBlock_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Battery_Gold.dds</Icon>
       <Description>Description_Battery</Description>
@@ -97,7 +97,7 @@
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>LargeBlockBatteryBlock_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Battery</DisplayName>
+      <DisplayName>DisplayName_BatteryBlock_LargeBlockBatteryBlock_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Battery_Gold.dds</Icon>
       <Description>Description_Battery</Description>
@@ -189,7 +189,7 @@
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>SmallBlockBatteryBlock_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Battery</DisplayName>
+      <DisplayName>DisplayName_BatteryBlock_SmallBlockBatteryBlock_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Battery_Platin.dds</Icon>
       <Description>Description_Battery</Description>
@@ -278,7 +278,7 @@
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>LargeBlockBatteryBlock_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Battery</DisplayName>
+      <DisplayName>DisplayName_BatteryBlock_LargeBlockBatteryBlock_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Battery_Platin.dds</Icon>
       <Description>Description_Battery</Description>
@@ -370,7 +370,7 @@
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>SmallBlockBatteryBlock_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Battery</DisplayName>
+      <DisplayName>DisplayName_BatteryBlock_SmallBlockBatteryBlock_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Battery_Titan.dds</Icon>
       <Description>Description_Battery</Description>
@@ -459,7 +459,7 @@
         <TypeId>BatteryBlock</TypeId>
         <SubtypeId>LargeBlockBatteryBlock_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Battery</DisplayName>
+      <DisplayName>DisplayName_BatteryBlock_LargeBlockBatteryBlock_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Battery_Titan.dds</Icon>
       <Description>Description_Battery</Description>

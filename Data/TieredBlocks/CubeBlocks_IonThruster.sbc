@@ -9,7 +9,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallThrust_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallThrust_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_Gold.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -132,7 +132,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeThrust_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Large Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeThrust_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_large_Gold.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -256,7 +256,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallThrust_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallThrust_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_Gold.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -378,7 +378,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeThrust_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Large Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeThrust_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_large_Gold.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -505,7 +505,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallThrust_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallThrust_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_Platin.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -628,7 +628,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeThrust_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Large Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeThrust_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_large_Platin.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -752,7 +752,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallThrust_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallThrust_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_Platin.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -874,7 +874,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeThrust_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Large Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeThrust_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_large_Platin.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -1001,7 +1001,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallThrust_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallThrust_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_Titan.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -1124,7 +1124,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeThrust_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Large Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeThrust_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_large_Titan.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -1248,7 +1248,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallThrust_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallThrust_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_Titan.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -1370,7 +1370,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeThrust_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Large Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeThrust_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\thrust_large_Titan.dds</Icon>
       <Description>Description_IonThrust</Description>

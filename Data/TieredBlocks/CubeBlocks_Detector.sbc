@@ -8,7 +8,7 @@
         <TypeId>OreDetector</TypeId>
         <SubtypeId>LargeOreDetector_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Ore Detector</DisplayName>
+      <DisplayName>DisplayName_OreDetector_LargeOreDetector_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\detector_Gold.dds</Icon>
       <Description>Description_OreDetector</Description>
@@ -95,7 +95,7 @@
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SmallBlockOreDetector_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Ore Detector</DisplayName>
+      <DisplayName>DisplayName_OreDetector_SmallBlockOreDetector_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\detector_Gold.dds</Icon>
       <Description>Description_OreDetector</Description>
@@ -182,7 +182,7 @@
         <TypeId>OreDetector</TypeId>
         <SubtypeId>LargeOreDetector_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Ore Detector</DisplayName>
+      <DisplayName>DisplayName_OreDetector_LargeOreDetector_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\detector_Platin.dds</Icon>
       <Description>Description_OreDetector</Description>
@@ -269,7 +269,7 @@
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SmallBlockOreDetector_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Ore Detector</DisplayName>
+      <DisplayName>DisplayName_OreDetector_SmallBlockOreDetector_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\detector_Platin.dds</Icon>
       <Description>Description_OreDetector</Description>
@@ -356,7 +356,7 @@
         <TypeId>OreDetector</TypeId>
         <SubtypeId>LargeOreDetector_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Ore Detector</DisplayName>
+      <DisplayName>DisplayName_OreDetector_LargeOreDetector_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\detector_Titan.dds</Icon>
       <Description>Description_OreDetector</Description>
@@ -443,7 +443,7 @@
         <TypeId>OreDetector</TypeId>
         <SubtypeId>SmallBlockOreDetector_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Ore Detector</DisplayName>
+      <DisplayName>DisplayName_OreDetector_SmallBlockOreDetector_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\detector_Titan.dds</Icon>
       <Description>Description_OreDetector</Description>

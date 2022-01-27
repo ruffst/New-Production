@@ -7,9 +7,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Basic</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Basic</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Basic</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Basic Komponenten</Description>
+      <Description>Description_Conveyor_Meilenstein_Basic</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -75,9 +75,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Armorlight</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Armor leicht</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Armorlight</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von leichten Panzerblöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Armorlight</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -125,9 +125,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Armor_Alu</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Armor Alu</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Armor_Alu</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von leichten Panzerblöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Armor_Alu</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -181,9 +181,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Armorheavy</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Armor schwer</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Armorheavy</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von schweren Panzerblöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Armorheavy</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -237,9 +237,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Armor_Tin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Armor Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Armor_Tin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von leichten Panzerblöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Armor_Tin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -293,9 +293,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_ArmorDeko</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Deko Armor</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_ArmorDeko</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_ArmorDeko</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -349,9 +349,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Fenster</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Fenster</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Fenster</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Fenster</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -405,9 +405,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Controls</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Controls</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Controls</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Controls</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -461,9 +461,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Medical</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Medical</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Medical</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Medical</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -517,9 +517,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Remote</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Remote</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Remote</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Remote</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -573,9 +573,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Gyroskop</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Gyroskop</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Gyroskop</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Gyroskop</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -597,8 +597,8 @@
         </Component>
         <Component Subtype="MilestoneSpaceMaterial" Count="8">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="10">
@@ -641,9 +641,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Gyroskop_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Gyroskop_Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Gyroskop_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Gyroskop_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -665,8 +665,8 @@
         </Component>
         <Component Subtype="MilestoneSpaceMaterial" Count="15">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="15">
@@ -715,9 +715,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Gyroskop_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Gyroskop Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Gyroskop_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Gyroskop_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -739,8 +739,8 @@
         </Component>
         <Component Subtype="MilestoneSpaceMaterial" Count="8">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="10">
@@ -789,9 +789,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Gyroskop_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Gyroskop Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Gyroskop_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Gyroskop_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -813,8 +813,8 @@
         </Component>
         <Component Subtype="MilestoneSpaceMaterial" Count="8">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="10">
@@ -863,9 +863,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Tools</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Tools</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Tools</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Tools</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -925,9 +925,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Tools_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Tools Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Tools_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Tools_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -993,9 +993,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Tools_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Tools Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Tools_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Tools_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1061,9 +1061,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Tools_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Tools Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Tools_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Tools_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1129,9 +1129,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_OreDetector</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein OreDetector</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_OreDetector</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_OreDetector</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1197,9 +1197,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_OreDetector_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein OreDetector Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_OreDetector_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_OreDetector_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1271,9 +1271,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_OreDetector_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein OreDetector Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_OreDetector_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_OreDetector_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1345,9 +1345,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_OreDetector_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein OreDetector Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_OreDetector_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_OreDetector_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1419,9 +1419,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Waffen</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Waffen</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Waffen</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Waffen</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1487,9 +1487,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Conveyors</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Conveyors</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Conveyors</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Conveyors</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1555,9 +1555,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Deko1</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Deko</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Deko1</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Deko1</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1605,9 +1605,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Deko2</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Deko2</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Deko2</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Deko2</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1655,9 +1655,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Industrial</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Industrial</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Industrial</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Industrial</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1723,9 +1723,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Industrial_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Industrial Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Industrial_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Industrial_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1803,9 +1803,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Industrial_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Industrial Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Industrial_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Industrial_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1883,9 +1883,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Industrial_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Industrial Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Industrial_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Industrial_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1963,9 +1963,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Automation</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Automation</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Automation</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Automation</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2025,9 +2025,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Lights</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Lights</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Lights</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Lights</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2075,9 +2075,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Power</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Power</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Power</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Power</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2131,9 +2131,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Power_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Power Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Power_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Power_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2193,9 +2193,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Power_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Power Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Power_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Power_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2255,9 +2255,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Power_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Power Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Power_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Power_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2317,9 +2317,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Thruster_Atmo</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Thruster Atmo</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Thruster_Atmo</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Thruster_Atmo</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2379,9 +2379,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Thruster_Hydro</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Thruster Hydro</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Thruster_Hydro</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Thruster_Hydro</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2441,9 +2441,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Thruster_Hydro_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Thruster Hydro Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Thruster_Hydro_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Thruster_Hydro_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2471,8 +2471,8 @@
         </Component>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="GoldStrator" Count="50">
@@ -2515,9 +2515,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Thruster_Hydro_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Thruster Hydro Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Thruster_Hydro_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Thruster_Hydro_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2545,8 +2545,8 @@
         </Component>
         <Component Subtype="MilestoneSpaceMaterial" Count="45">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="PlatinStrator" Count="50">
@@ -2589,9 +2589,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Thruster_Hydro_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Thruster Hydro Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Thruster_Hydro_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Thruster_Hydro_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2619,8 +2619,8 @@
         </Component>
         <Component Subtype="MilestoneSpaceMaterial" Count="60">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="TitanStrator" Count="50">
@@ -2663,9 +2663,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Thruster_Ionen</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Thruster Ionen</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Thruster_Ionen</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Thruster_Ionen</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2675,8 +2675,8 @@
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="10">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="10">
@@ -2731,9 +2731,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Thruster_Ionen_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Thruster Ionen Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Thruster_Ionen_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Thruster_Ionen_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2743,8 +2743,8 @@
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="20">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="25">
@@ -2799,9 +2799,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Thruster_Ionen_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Thruster Ionen Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Thruster_Ionen_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Thruster_Ionen_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2811,8 +2811,8 @@
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="35">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="30">
@@ -2867,9 +2867,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Thruster_Ionen_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Thruster Ionen Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Thruster_Ionen_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Thruster_Ionen_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2879,8 +2879,8 @@
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="50">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneMechanicMaterial" Count="40">
@@ -2935,9 +2935,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_LCDs</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein LCDs</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_LCDs</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_LCDs</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2985,9 +2985,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Sound_Blocks</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Sound Blocks</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Sound_Blocks</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Sound_Blocks</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3035,9 +3035,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Gravity</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Gravity</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Gravity</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Gravity</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3047,8 +3047,8 @@
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="10">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneEnergyMaterial" Count="10">
@@ -3097,9 +3097,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Jumpdrive</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Travel Drive Large</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Jumpdrive</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Jumpdrive</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3109,8 +3109,8 @@
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneElectroMaterial" Count="30">
@@ -3165,9 +3165,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Jumpdrive_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Jumpdrive Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Jumpdrive_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Jumpdrive_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3177,8 +3177,8 @@
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneElectroMaterial" Count="30">
@@ -3233,9 +3233,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Jumpdrive_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Jumpdrive Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Jumpdrive_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Jumpdrive_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3245,8 +3245,8 @@
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneElectroMaterial" Count="30">
@@ -3301,9 +3301,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Jumpdrive_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Jumpdrive Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Jumpdrive_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Jumpdrive_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3313,8 +3313,8 @@
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="30">
           <DeconstructId>
-              <TypeId>Ore</TypeId>
-              <SubtypeId>GoldScrap</SubtypeId>        
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="MilestoneElectroMaterial" Count="30">
@@ -3369,9 +3369,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Mechanic</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Mechanic</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Mechanic</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Mechanic</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3431,9 +3431,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Tore</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Tore</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Tore</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Tore</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3493,9 +3493,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Räder</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Räder</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Räder</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Räder</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3555,9 +3555,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Cargos</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Cargos</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Cargos</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Cargos</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3611,9 +3611,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Cargos_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Cargos Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Cargos_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Cargos_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3679,9 +3679,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Cargos_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Cargos Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Cargos_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Cargos_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3747,9 +3747,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Cargos_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Cargos Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Cargos_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Cargos_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3815,9 +3815,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Communication</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Communication</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Communication</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Communication</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3871,9 +3871,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Landing</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Landing</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Landing</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Landing</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3933,9 +3933,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Tanks</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Tanks</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Tanks</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Tanks</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3989,9 +3989,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Tanks_Gold</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Tanks Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Tanks_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Tanks_Gold</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4051,9 +4051,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Tanks_Platin</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Tanks Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Tanks_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Tanks_Platin</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4113,9 +4113,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Tanks_Titan</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Tanks Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Tanks_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\Milestone.dds</Icon>
-      <Description>Forschungsblock zum freischalten von Blöcken</Description>
+      <Description>Description_Conveyor_Meilenstein_Tanks_Titan</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

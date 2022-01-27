@@ -8,7 +8,7 @@
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Gyroscope</DisplayName>
+      <DisplayName>DisplayName_Gyro_SmallBlockGyro_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\gyro_Gold.dds</Icon>
       <Description>Description_Gyroscope</Description>
@@ -93,7 +93,7 @@
         <TypeId>Gyro</TypeId>
         <SubtypeId>LargeBlockGyro_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Gyroscope</DisplayName>
+      <DisplayName>DisplayName_Gyro_LargeBlockGyro_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\gyro_Gold.dds</Icon>
       <Description>Description_Gyroscope</Description>
@@ -185,7 +185,7 @@
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Gyroscope</DisplayName>
+      <DisplayName>DisplayName_Gyro_SmallBlockGyro_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\gyro_Platin.dds</Icon>
       <Description>Description_Gyroscope</Description>
@@ -270,7 +270,7 @@
         <TypeId>Gyro</TypeId>
         <SubtypeId>LargeBlockGyro_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Gyroscope</DisplayName>
+      <DisplayName>DisplayName_Gyro_LargeBlockGyro_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\gyro_Platin.dds</Icon>
       <Description>Description_Gyroscope</Description>
@@ -362,7 +362,7 @@
         <TypeId>Gyro</TypeId>
         <SubtypeId>SmallBlockGyro_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Gyroscope</DisplayName>
+      <DisplayName>DisplayName_Gyro_SmallBlockGyro_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\gyro_Titan.dds</Icon>
       <Description>Description_Gyroscope</Description>
@@ -447,7 +447,7 @@
         <TypeId>Gyro</TypeId>
         <SubtypeId>LargeBlockGyro_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Gyroscope</DisplayName>
+      <DisplayName>DisplayName_Gyro_LargeBlockGyro_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\gyro_Titan.dds</Icon>
       <Description>Description_Gyroscope</Description>

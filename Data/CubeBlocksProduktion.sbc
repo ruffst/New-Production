@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-  <!--0. buildstufe / Basic-->
+    <!--0. buildstufe / Basic-->
     <!--SurvivalKitLarge-->
     <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
       <Id>
@@ -182,7 +182,7 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-    <!---Holzvergaser Biomasse Verbrenner--> 
+    <!---Holzvergaser Biomasse Verbrenner-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -886,7 +886,7 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\LG_DeleteProtection.mwm</Model>
       <Components>
@@ -898,10 +898,9 @@
         </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
-
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>DeleteProtektion</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
@@ -909,7 +908,6 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-
       <MaxBroadcastRadius>50000</MaxBroadcastRadius>
       <Flare>BeaconLarge</Flare>
       <MaxBroadcastPowerDrainkW>0</MaxBroadcastPowerDrainkW>
@@ -931,7 +929,7 @@
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1"/>
+      <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_DeleteProtection.mwm</Model>
       <Components>
@@ -943,10 +941,9 @@
         </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
-
       <MountPoints>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-			</MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
       <BlockPairName>DeleteProtektion</BlockPairName>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -955,7 +952,6 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <!-- Beacon properties -->
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-
       <MaxBroadcastRadius>50000</MaxBroadcastRadius>
       <Flare>BeaconSmall</Flare>
       <MaxBroadcastPowerDrainkW>0</MaxBroadcastPowerDrainkW>
@@ -1161,9 +1157,7 @@
         <unsignedInt>320</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
-  <!--1. buildstufe-->
-
+    <!--1. buildstufe-->
     <!---Rohrextruder-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -1177,7 +1171,7 @@
       <ResearchGroup>15</ResearchGroup>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="3"/>
+      <Size x="2" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\large\RohrExtruder.mwm</Model>
       <Components>
@@ -1220,12 +1214,12 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
@@ -1274,7 +1268,7 @@
       <ResearchGroup>10</ResearchGroup>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="3"/>
+      <Size x="2" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\large\PlattenPresse.mwm</Model>
       <Components>
@@ -1317,12 +1311,12 @@
       </Components>
       <CriticalComponent Subtype="SmallTube" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
@@ -1722,10 +1716,7 @@
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
-
-  <!--2. buildstufe-->
-
+    <!--2. buildstufe-->
     <!---Drahtextruder-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -1738,8 +1729,8 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="3"/>
-			<ModelOffset x="0" y="0" z="0"/>
+      <Size x="2" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\large\DrahtExtruder.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="80">
@@ -1793,12 +1784,12 @@
       </Components>
       <CriticalComponent Subtype="Girder" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
@@ -1846,7 +1837,7 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="3"/>
+      <Size x="2" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\large\Wickelmaschiene.mwm</Model>
       <Components>
@@ -1907,12 +1898,12 @@
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
@@ -1948,9 +1939,7 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
-  <!--3. buildstufe-->
-
+    <!--3. buildstufe-->
     <!---Block_Arc_Furnace-->
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
@@ -2065,7 +2054,7 @@
       </TieredUpdateTimes>
     </Definition>
     <!---VoidMiner-->
-    <Definition Enabled="false"  xsi:type="MyObjectBuilder_RefineryDefinition">
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
         <SubtypeId>VoidMiner</SubtypeId>
@@ -2186,8 +2175,8 @@
     <!---PenetratiumSocket-->
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
       <Id>
-            <TypeId>InteriorLight</TypeId>
-          <SubtypeId>PenetratiumSocket</SubtypeId>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>PenetratiumSocket</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_PenetratiumSocket</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Sockel.dds</Icon>
@@ -2198,14 +2187,14 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\ConverterEndCaps.mwm</Model>
       <Components>
-          <Component Subtype="InteriorPlate" Count="74" />
-          <Component Subtype="Construction" Count="20" />
-          <Component Subtype="SmallTube" Count="48" />
+        <Component Subtype="InteriorPlate" Count="74" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="48" />
       </Components>
       <CriticalComponent Subtype="Construction" Index="0" />
       <MountPoints>
-              <MountPoint Side="Top" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
-              <MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+        <MountPoint Side="Top" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+        <MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
       </MountPoints>
       <BlockPairName>PenetratiumSocket</BlockPairName>
       <MirroringZ>Y</MirroringZ>
@@ -2235,7 +2224,7 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="3" y="3" z="4"/>
+      <Size x="3" y="3" z="4" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\ConverterFinalMesh.mwm</Model>
       <Components>
@@ -2291,11 +2280,11 @@
       <CriticalComponent Subtype="TitanSpulle" Index="0" />
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
-			<MountPoints>
-				<MountPoint Side="Top" StartX="1.00" StartY="1.99" EndX="2.00" EndY="2.99"/>
-				<MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
-				<MountPoint Side="Bottom" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00"/>
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Top" StartX="1.00" StartY="1.99" EndX="2.00" EndY="2.99" />
+        <MountPoint Side="Bottom" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+        <MountPoint Side="Bottom" StartX="1.00" StartY="3.00" EndX="2.00" EndY="4.00" />
+      </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.0" File="Models\ConverterFinalMesh.mwm" />
       </BuildProgressModels>
@@ -2345,7 +2334,7 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="3"/>
+      <Size x="2" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\large\Recycler.mwm</Model>
       <Components>
@@ -2400,12 +2389,12 @@
       </Components>
       <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
@@ -2454,7 +2443,7 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="3"/>
+      <Size x="2" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\large\ElektroAssembler.mwm</Model>
       <Components>
@@ -2509,12 +2498,12 @@
       </Components>
       <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
@@ -2550,9 +2539,7 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
-  <!--4. buildstufe-->
-
+    <!--4. buildstufe-->
     <!---Forschungslabor-->
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -2667,7 +2654,7 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="1" z="3"/>
+      <Size x="2" y="1" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\large\Fertiger.mwm</Model>
       <Components>
@@ -2722,12 +2709,12 @@
       </Components>
       <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00"/>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00"/>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="3.00" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\large\DrahtExtruder_BS1.mwm" />
@@ -2841,7 +2828,6 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\LegiererBuildStages_BS1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\LegiererBuildStages_BS2.mwm" />
-        
       </BuildProgressModels>
       <BlockPairName>Legierer</BlockPairName>
       <EdgeType>Light</EdgeType>
@@ -2890,7 +2876,7 @@
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="2" y="2" z="3"/>
+      <Size x="2" y="2" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\ToolAssinclBuildStages.mwm</Model>
       <Components>
@@ -3672,7 +3658,7 @@
       </Id>
       <DisplayName>DisplayName_Block_OxygenFarm</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
-      <Description>Sauerstofffarm</Description>
+      <Description>Description_OxygenFarm_LargeBlockOxygenFarm</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="1" z="1" />
@@ -3771,8 +3757,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-
-  <!--Tools-->
+    <!--Tools-->
     <!---BasicSmallBlockDrill-->
     <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
       <Id>
@@ -3882,8 +3867,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>190</PCU>
     </Definition>
-
-  <!--module -->
+    <!--module -->
     <!---LargeProductivityModule-->
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
@@ -3982,7 +3966,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <!---LargeEffectivenessModule-->
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
@@ -4076,7 +4059,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <!---LargeEnergyModule-->
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
@@ -4170,8 +4152,7 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
-  <!--Castrated Assembler-->
+    <!--Castrated Assembler-->
     <!---LargeAssembler-->
     <Definition Enabled="false" xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
@@ -4282,9 +4263,7 @@
         <unsignedInt>240</unsignedInt>
       </TieredUpdateTimes>
     </Definition>
-
-  <!--Basic Conveyors-->
-
+    <!--Basic Conveyors-->
     <!--SmallBlockConveyorBasic-->
     <Definition>
       <Id>
@@ -4352,7 +4331,6 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-
     <!--ConveyorTubeSmallBasic-->
     <Definition>
       <Id>
@@ -4412,7 +4390,6 @@
       <PCU>10</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <!--ConveyorTubeSmallCurvedBasic-->
     <Definition>
       <Id>
@@ -4469,7 +4446,6 @@
       <PCU>10</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <!--LargeBlockConveyorBasic-->
     <Definition>
       <Id>
@@ -4542,7 +4518,6 @@
       <PCU>10</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-
     <!--ConveyorTubeBasic-->
     <Definition>
       <Id>
@@ -4617,7 +4592,6 @@
       <PCU>10</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
     <!--ConveyorTubeCurvedBasic-->
     <Definition>
       <Id>
@@ -4694,20 +4668,19 @@
       <PCU>10</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-
-  <!--Small Jumpdrives-->  
+    <!--Small Jumpdrives-->
     <Definition Enabled="false" xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
         <SubtypeId>SmallJumpDrive</SubtypeId>
       </Id>
-      <DisplayName>Small Jumpdrive</DisplayName>
+      <DisplayName>DisplayName_JumpDrive_SmallJumpDrive</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\JumpDriveSmall.dds</Icon>
       <Description>Description_JumpDrive</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="3" y="3" z="2"/>
-			<ModelOffset x="0" y="0" z="0"/>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
       <Model>Models\JumpDrive.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20">
@@ -4780,11 +4753,11 @@
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
       </MountPoints>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\JumpDrive_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\JumpDrive_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\JumpDrive_BS3.mwm"/>
-			</BuildProgressModels>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\JumpDrive_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.67" File="Models\JumpDrive_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\JumpDrive_BS3.mwm" />
+      </BuildProgressModels>
       <BlockPairName>SmallJumpDrive</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -4793,18 +4766,15 @@
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
-
       <RequiredPowerInput>32</RequiredPowerInput>
       <PowerNeededForJump>3</PowerNeededForJump>
       <MaxJumpDistance>100000</MaxJumpDistance>
       <MaxJumpMass>100000</MaxJumpMass>
-
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <PCU>100</PCU>
       <IsAirTight>true</IsAirTight>
-    </Definition>   
-
+    </Definition>
   </CubeBlocks>
 </Definitions>

@@ -8,7 +8,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrust_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallHydrogenThrust_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall_Gold.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -135,7 +135,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrust_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Large Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeHydrogenThrust_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge_Gold.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -263,7 +263,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrust_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallHydrogenThrust_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall_Gold.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -393,7 +393,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrust_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Large Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeHydrogenThrust_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge_Gold.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -527,7 +527,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrust_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallHydrogenThrust_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall_Platin.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -654,7 +654,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrust_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Large Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeHydrogenThrust_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge_Platin.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -782,7 +782,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrust_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallHydrogenThrust_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall_Platin.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -912,7 +912,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrust_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Large Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeHydrogenThrust_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge_Platin.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -1046,7 +1046,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrust_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallHydrogenThrust_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall_Titan.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -1173,7 +1173,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrust_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Large Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeHydrogenThrust_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge_Titan.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -1301,7 +1301,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrust_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallHydrogenThrust_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterSmall_Titan.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -1431,7 +1431,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrust_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Large Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeHydrogenThrust_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge_Titan.dds</Icon>
       <Description>Description_HydrogenThrust</Description>

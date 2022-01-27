@@ -8,7 +8,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainer_Gold</SubtypeId>
       </Id>
-      <DisplayName>Large Gold Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_LargeBlockLargeContainer_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\container_large_gold.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
@@ -115,7 +115,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainer_Gold</SubtypeId>
       </Id>
-      <DisplayName>Large Gold Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_SmallBlockLargeContainer_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\container_large_gold.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
@@ -204,7 +204,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainer_Platin</SubtypeId>
       </Id>
-      <DisplayName>Large Platin Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_LargeBlockLargeContainer_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\container_large_platin.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
@@ -311,7 +311,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainer_Platin</SubtypeId>
       </Id>
-      <DisplayName>Large Platin Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_SmallBlockLargeContainer_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\container_large_platin.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
@@ -400,7 +400,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeContainer_Titan</SubtypeId>
       </Id>
-      <DisplayName>Large Titan Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_LargeBlockLargeContainer_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\container_large_titan.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
@@ -507,7 +507,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>SmallBlockLargeContainer_Titan</SubtypeId>
       </Id>
-      <DisplayName>Large Titan Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_SmallBlockLargeContainer_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\container_large_titan.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>

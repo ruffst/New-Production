@@ -8,7 +8,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockSmallGenerator_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_SmallBlockSmallGenerator_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_Gold.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -122,7 +122,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockLargeGenerator_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_SmallBlockLargeGenerator_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large_Gold.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -239,7 +239,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockSmallGenerator_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_LargeBlockSmallGenerator_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_Gold.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -353,7 +353,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockLargeGenerator_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_LargeBlockLargeGenerator_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large_Gold.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -476,7 +476,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockSmallGenerator_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_SmallBlockSmallGenerator_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_Platin.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -590,7 +590,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockLargeGenerator_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_SmallBlockLargeGenerator_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large_Platin.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -707,7 +707,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockSmallGenerator_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_LargeBlockSmallGenerator_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_Platin.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -821,7 +821,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockLargeGenerator_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_LargeBlockLargeGenerator_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large_Platin.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -944,7 +944,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockSmallGenerator_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_SmallBlockSmallGenerator_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_Titan.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -1058,7 +1058,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>SmallBlockLargeGenerator_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_SmallBlockLargeGenerator_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large_Titan.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -1175,7 +1175,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockSmallGenerator_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_LargeBlockSmallGenerator_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_Titan.dds</Icon>
       <Description>Description_Reactor</Description>
@@ -1289,7 +1289,7 @@
         <TypeId>Reactor</TypeId>
         <SubtypeId>LargeBlockLargeGenerator_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Reactor</DisplayName>
+      <DisplayName>DisplayName_Reactor_LargeBlockLargeGenerator_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_large_Titan.dds</Icon>
       <Description>Description_Reactor</Description>

@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>FSDriveSmall</SubtypeId>
       </Id>
       <Public>true</Public>
-      <DisplayName>D5 Frameshift Drive</DisplayName>
+      <DisplayName>DisplayName_UpgradeModule_FSDriveSmall</DisplayName>
       <Icon>..\2640137506\Textures\GUI\Icons\QDVK.dds</Icon>
-      <Description>Compact version of S7</Description>
+      <Description>Description_UpgradeModule_FSDriveSmall</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="2" />
@@ -95,23 +95,23 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <Upgrades></Upgrades>
+      <Upgrades>
+      </Upgrades>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>32</RequiredPowerInput>
       <DamageEffectId>214</DamageEffectId>
       <PCU>250</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>FSDriveLarge</SubtypeId>
       </Id>
       <Public>true</Public>
-      <DisplayName>S7 Frameshift Drive</DisplayName>
+      <DisplayName>DisplayName_UpgradeModule_FSDriveLarge</DisplayName>
       <Icon>..\2640137506\Textures\GUI\Icons\QDXL.dds</Icon>
-      <Description>Friendship drive charging!</Description>
+      <Description>Description_UpgradeModule_FSDriveLarge</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="2" />
@@ -197,12 +197,13 @@
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <Upgrades></Upgrades>
+      <Upgrades>
+      </Upgrades>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>44</RequiredPowerInput>
       <DamageEffectId>214</DamageEffectId>
       <PCU>250</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
-    </CubeBlocks>
+  </CubeBlocks>
 </Definitions>

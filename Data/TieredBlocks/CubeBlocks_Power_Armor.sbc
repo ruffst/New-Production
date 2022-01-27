@@ -9,9 +9,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluLargeBlockArmorBlock</SubtypeId>
       </Id>
-      <DisplayName>Alu Block</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_AluLargeBlockArmorBlock</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_cube.dds</Icon>
-      <Description>Leichte stabile Panzerung</Description>
+      <Description>Description_CubeBlock_AluLargeBlockArmorBlock</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -180,9 +180,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluLargeBlockArmorSlope</SubtypeId>
       </Id>
-      <DisplayName>Alu Block Slope</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_AluLargeBlockArmorSlope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_slope.dds</Icon>
-      <Description>Leichte stabile Panzerung</Description>
+      <Description>Description_CubeBlock_AluLargeBlockArmorSlope</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -324,9 +324,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluLargeBlockArmorCorner</SubtypeId>
       </Id>
-      <DisplayName>Alu Block Corner</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_AluLargeBlockArmorCorner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_corner.dds</Icon>
-      <Description>Leichte stabile Panzerung</Description>
+      <Description>Description_CubeBlock_AluLargeBlockArmorCorner</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -437,9 +437,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluLargeBlockArmorCornerInv</SubtypeId>
       </Id>
-      <DisplayName>Alu Block Corner Inv.</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_AluLargeBlockArmorCornerInv</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_inv_corner.dds</Icon>
-      <Description>Leichte stabile Panzerung</Description>
+      <Description>Description_CubeBlock_AluLargeBlockArmorCornerInv</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -609,9 +609,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanLargeHeavyBlockArmorBlock</SubtypeId>
       </Id>
-      <DisplayName>Titan Block</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_TitanLargeHeavyBlockArmorBlock</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_cube.dds</Icon>
-      <Description>Schwere stabile Panzerung</Description>
+      <Description>Description_CubeBlock_TitanLargeHeavyBlockArmorBlock</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -788,9 +788,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanLargeHeavyBlockArmorSlope</SubtypeId>
       </Id>
-      <DisplayName>Titan Block Slope</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_TitanLargeHeavyBlockArmorSlope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_slope.dds</Icon>
-      <Description>Schwere stabile Panzerung</Description>
+      <Description>Description_CubeBlock_TitanLargeHeavyBlockArmorSlope</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -933,9 +933,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanLargeHeavyBlockArmorCorner</SubtypeId>
       </Id>
-      <DisplayName>Titan Block Corner</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_TitanLargeHeavyBlockArmorCorner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_corner.dds</Icon>
-      <Description>Schwere stabile Panzerung</Description>
+      <Description>Description_CubeBlock_TitanLargeHeavyBlockArmorCorner</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -1046,9 +1046,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanLargeHeavyBlockArmorCornerInv</SubtypeId>
       </Id>
-      <DisplayName>Titan Block Corner Inv.</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_TitanLargeHeavyBlockArmorCornerInv</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_inv_corner.dds</Icon>
-      <Description>Schwere stabile Panzerung</Description>
+      <Description>Description_CubeBlock_TitanLargeHeavyBlockArmorCornerInv</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -1219,9 +1219,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorBlock</SubtypeId>
       </Id>
-      <DisplayName>Alu Block</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_AluSmallBlockArmorBlock</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_cube.dds</Icon>
-      <Description>Leichte stabile Panzerung</Description>
+      <Description>Description_CubeBlock_AluSmallBlockArmorBlock</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1391,9 +1391,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorSlope</SubtypeId>
       </Id>
-      <DisplayName>Alu Block Slope</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_AluSmallBlockArmorSlope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_slope.dds</Icon>
-      <Description>Leichte stabile Panzerung</Description>
+      <Description>Description_CubeBlock_AluSmallBlockArmorSlope</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>Cube</BlockTopology>
@@ -1529,9 +1529,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorCorner</SubtypeId>
       </Id>
-      <DisplayName>Alu Block Corner Small</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_AluSmallBlockArmorCorner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_corner.dds</Icon>
-      <Description>Leichte stabile Panzerung</Description>
+      <Description>Description_CubeBlock_AluSmallBlockArmorCorner</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>Cube</BlockTopology>
@@ -1636,9 +1636,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AluSmallBlockArmorCornerInv</SubtypeId>
       </Id>
-      <DisplayName>Alu Block Corner Inv. Small</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_AluSmallBlockArmorCornerInv</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_inv_corner.dds</Icon>
-      <Description>Leichte stabile Panzerung</Description>
+      <Description>Description_CubeBlock_AluSmallBlockArmorCornerInv</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>Cube</BlockTopology>
@@ -1802,9 +1802,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanSmallHeavyBlockArmorBlock</SubtypeId>
       </Id>
-      <DisplayName>Titan Block Small</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_TitanSmallHeavyBlockArmorBlock</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_cube.dds</Icon>
-      <Description>Schwere stabile Panzerung</Description>
+      <Description>Description_CubeBlock_TitanSmallHeavyBlockArmorBlock</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1980,9 +1980,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanSmallHeavyBlockArmorSlope</SubtypeId>
       </Id>
-      <DisplayName>Titan Block Slope Small</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_TitanSmallHeavyBlockArmorSlope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_slope.dds</Icon>
-      <Description>Schwere stabile Panzerung</Description>
+      <Description>Description_CubeBlock_TitanSmallHeavyBlockArmorSlope</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>Cube</BlockTopology>
@@ -2124,9 +2124,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanSmallHeavyBlockArmorCorner</SubtypeId>
       </Id>
-      <DisplayName>Titan Block Corner Small</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_TitanSmallHeavyBlockArmorCorner</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_corner.dds</Icon>
-      <Description>Schwere stabile Panzerung</Description>
+      <Description>Description_CubeBlock_TitanSmallHeavyBlockArmorCorner</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>Cube</BlockTopology>
@@ -2237,9 +2237,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>TitanSmallHeavyBlockArmorCornerInv</SubtypeId>
       </Id>
-      <DisplayName>Titan Block Corner Inv. Small</DisplayName>
+      <DisplayName>DisplayName_CubeBlock_TitanSmallHeavyBlockArmorCornerInv</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_inv_corner.dds</Icon>
-      <Description>Schwere stabile Panzerung</Description>
+      <Description>Description_CubeBlock_TitanSmallHeavyBlockArmorCornerInv</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>Cube</BlockTopology>

@@ -9,7 +9,7 @@
         <TypeId>Drill</TypeId>
         <SubtypeId>SmallBlockDrill_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Drill</DisplayName>
+      <DisplayName>DisplayName_Drill_SmallBlockDrill_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\drill_Gold.dds</Icon>
       <Description>Description_Drill</Description>
@@ -119,7 +119,7 @@
         <TypeId>Drill</TypeId>
         <SubtypeId>LargeBlockDrill_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Drill</DisplayName>
+      <DisplayName>DisplayName_Drill_LargeBlockDrill_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\drill_Gold.dds</Icon>
       <Description>Description_Drill</Description>
@@ -233,7 +233,7 @@
         <TypeId>Drill</TypeId>
         <SubtypeId>SmallBlockDrill_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Drill</DisplayName>
+      <DisplayName>DisplayName_Drill_SmallBlockDrill_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\drill_Platin.dds</Icon>
       <Description>Description_Drill</Description>
@@ -343,7 +343,7 @@
         <TypeId>Drill</TypeId>
         <SubtypeId>LargeBlockDrill_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Drill</DisplayName>
+      <DisplayName>DisplayName_Drill_LargeBlockDrill_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\drill_Platin.dds</Icon>
       <Description>Description_Drill</Description>
@@ -457,7 +457,7 @@
         <TypeId>Drill</TypeId>
         <SubtypeId>SmallBlockDrill_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Drill</DisplayName>
+      <DisplayName>DisplayName_Drill_SmallBlockDrill_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\drill_Titan.dds</Icon>
       <Description>Description_Drill</Description>
@@ -567,7 +567,7 @@
         <TypeId>Drill</TypeId>
         <SubtypeId>LargeBlockDrill_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Drill</DisplayName>
+      <DisplayName>DisplayName_Drill_LargeBlockDrill_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\drill_Titan.dds</Icon>
       <Description>Description_Drill</Description>

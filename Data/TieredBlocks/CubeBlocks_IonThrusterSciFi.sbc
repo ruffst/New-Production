@@ -7,7 +7,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallThrustSciFi_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Sci-Fi Ion Thruster Small</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallThrustSciFi_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Small_IonThrusterLarge_SciFi_Gold.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -129,7 +129,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeThrustSciFi_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Sci-Fi Large Ion Thruster Small</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeThrustSciFi_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Small_IonThrusterLarge_SciFi_Gold.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -251,7 +251,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallThrustSciFi_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Sci-Fi Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallThrustSciFi_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\large_IonThrusterLarge_SciFi_Gold.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -373,7 +373,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeThrustSciFi_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Sci-Fi Large Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeThrustSciFi_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\large_IonThrusterLarge_SciFi_Gold.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -497,7 +497,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallThrustSciFi_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Sci-Fi Ion Thruster Small</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallThrustSciFi_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Small_IonThrusterLarge_SciFi_Platin.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -619,7 +619,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeThrustSciFi_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Sci-Fi Large Ion Thruster Small</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeThrustSciFi_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Small_IonThrusterLarge_SciFi_Platin.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -741,7 +741,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallThrustSciFi_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Sci-Fi Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallThrustSciFi_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\large_IonThrusterLarge_SciFi_Platin.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -863,7 +863,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeThrustSciFi_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Sci-Fi Large Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeThrustSciFi_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\large_IonThrusterLarge_SciFi_Platin.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -987,7 +987,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallThrustSciFi_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Sci-Fi Ion Thruster Small</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallThrustSciFi_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Small_IonThrusterLarge_SciFi_Titan.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -1109,7 +1109,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeThrustSciFi_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Sci-Fi Large Ion Thruster Small</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeThrustSciFi_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\Small_IonThrusterLarge_SciFi_Titan.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -1231,7 +1231,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallThrustSciFi_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Sci-Fi Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallThrustSciFi_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\large_IonThrusterLarge_SciFi_Titan.dds</Icon>
       <Description>Description_IonThrust</Description>
@@ -1353,7 +1353,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeThrustSciFi_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Sci-Fi Large Ion Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeThrustSciFi_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\large_IonThrusterLarge_SciFi_Titan.dds</Icon>
       <Description>Description_IonThrust</Description>

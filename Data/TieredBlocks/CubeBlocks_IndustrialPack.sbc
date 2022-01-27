@@ -8,7 +8,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeIndustrialContainer_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Large I. Cargo Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_LargeBlockLargeIndustrialContainer_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\CargoContainer_gold.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
@@ -139,7 +139,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankIndustrial_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold I. Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_LargeHydrogenTankIndustrial_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTankIndustrial_gold.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -257,7 +257,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeRefineryIndustrial_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Industrial Refinery</DisplayName>
+      <DisplayName>DisplayName_Refinery_LargeRefineryIndustrial_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\AdvancedRefinery_gold.dds</Icon>
       <Description>Description_Refinery</Description>
@@ -391,7 +391,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Large I. Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeHydrogenThrustIndustrial_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialLarge_gold.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -521,7 +521,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Large I. Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallHydrogenThrustIndustrial_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialSmall_gold.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -649,7 +649,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Large I. Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeHydrogenThrustIndustrial_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialLarge_gold.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -781,7 +781,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold I. Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallHydrogenThrustIndustrial_Gold</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialSmall_gold.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -911,7 +911,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeIndustrialContainer_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Large I. Cargo Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_LargeBlockLargeIndustrialContainer_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\CargoContainer_platin.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
@@ -1042,7 +1042,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankIndustrial_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin I. Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_LargeHydrogenTankIndustrial_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTankIndustrial_platin.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -1160,7 +1160,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeRefineryIndustrial_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Industrial Refinery</DisplayName>
+      <DisplayName>DisplayName_Refinery_LargeRefineryIndustrial_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\AdvancedRefinery_platin.dds</Icon>
       <Description>Description_Refinery</Description>
@@ -1294,7 +1294,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Large I. Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeHydrogenThrustIndustrial_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialLarge_platin.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -1424,7 +1424,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Large I. Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallHydrogenThrustIndustrial_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialSmall_platin.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -1552,7 +1552,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin Large I. Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeHydrogenThrustIndustrial_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialLarge_platin.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -1684,7 +1684,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial_Platin</SubtypeId>
       </Id>
-      <DisplayName>Platin I. Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallHydrogenThrustIndustrial_Platin</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialSmall_platin.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -1814,7 +1814,7 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>LargeBlockLargeIndustrialContainer_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Large I. Cargo Container</DisplayName>
+      <DisplayName>DisplayName_CargoContainer_LargeBlockLargeIndustrialContainer_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\CargoContainer_titan.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
@@ -1945,7 +1945,7 @@
         <TypeId>OxygenTank</TypeId>
         <SubtypeId>LargeHydrogenTankIndustrial_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan I. Hydrogen Tank</DisplayName>
+      <DisplayName>DisplayName_OxygenTank_LargeHydrogenTankIndustrial_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTankIndustrial_titan.dds</Icon>
       <Description>Description_HydrogenTank</Description>
@@ -2063,7 +2063,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeRefineryIndustrial_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Industrial Refinery</DisplayName>
+      <DisplayName>DisplayName_Refinery_LargeRefineryIndustrial_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\AdvancedRefinery_titan.dds</Icon>
       <Description>Description_Refinery</Description>
@@ -2197,7 +2197,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Large I. Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockLargeHydrogenThrustIndustrial_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialLarge_titan.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -2327,7 +2327,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Large I. Hydrogen Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_SmallBlockSmallHydrogenThrustIndustrial_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialSmall_titan.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -2455,7 +2455,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan Large I. Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockLargeHydrogenThrustIndustrial_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialLarge_titan.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
@@ -2587,7 +2587,7 @@
         <TypeId>Thrust</TypeId>
         <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial_Titan</SubtypeId>
       </Id>
-      <DisplayName>Titan I. Thruster</DisplayName>
+      <DisplayName>DisplayName_Thrust_LargeBlockSmallHydrogenThrustIndustrial_Titan</DisplayName>
       <GuiVisible>false</GuiVisible>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialSmall_titan.dds</Icon>
       <Description>Description_HydrogenThrust</Description>
