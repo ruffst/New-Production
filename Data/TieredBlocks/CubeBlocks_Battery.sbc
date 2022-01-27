@@ -2,6 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
     <!--Tier Gold-->
+
     <!--SmallBlockBatteryBlock_Gold-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
@@ -182,7 +183,9 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
+
     <!--Tier Platin-->
+
     <!--SmallBlockBatteryBlock_Platin-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
@@ -363,7 +366,9 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
+
     <!--Tier Titan-->
+
     <!--SmallBlockBatteryBlock_Titan-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
@@ -544,5 +549,6 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
+    
   </CubeBlocks>
 </Definitions>
