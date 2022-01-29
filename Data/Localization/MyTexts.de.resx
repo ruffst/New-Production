@@ -3,10 +3,10 @@
   <!-- 
     Microsoft ResX Schema 
     
-    Version 2.0
+    VersIonen 2.0
     
     The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
+    that is mostly human readable. The generatIonen and parsing of the 
     various data types are done through the TypeConverter classes 
     associated with the data types.
     
@@ -32,7 +32,7 @@
     
     Each data row contains a name, and value. The row also contains a 
     type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
+    text/value conversIonen through the TypeConverter architecture. 
     Classes that don't support this are serialized and stored with the 
     mimetype set.
     
@@ -128,87 +128,87 @@
       <!--0. buildstufe / Basic-->
 
         <data name="DisplayName_Block_Holzvergaser" xml:space="preserve">
-          <value>Holzvergaser</value>
+          <value>Biomasse Verbrenner</value>
         </data>
         <data name="Description_Holzvergaser" xml:space="preserve">
-          <value>Basic Technologie um Energie aus Holz zu erzeugen</value>
+          <value>Einfache Technologie um Energie aus Holz zu erzeugen</value>
         </data>
 
         <data name="DisplayName_Block_MiniHolzvergaser" xml:space="preserve">
-          <value>Mini Holzvergaser</value>
+          <value>Einfacher Kleiner Biomasse Verbrenner</value>
         </data>
         <data name="Description_MiniHolzvergaser" xml:space="preserve">
-          <value>Basic Technologie um Energie aus Holz zu erzeugen</value>
+          <value>Einfache Technologie um Energie aus Holz zu erzeugen</value>
         </data>
 
         <data name="DisplayName_Block_SpawnOreDetector" xml:space="preserve">
-          <value>SpawnOreDetector</value>
+          <value>Einfacher Erzsensor</value>
         </data>
         <data name="Description_SpawnOreDetector" xml:space="preserve">
-          <value>Basic Technologie um Energie aus Holz zu erzeugen</value>
+          <value>Einfache Technologie um Erze zu finden</value>
         </data>
 
         <data name="DisplayName_Block_Basic_Battery" xml:space="preserve">
-          <value>Starter Batterie</value>
+          <value>Einfache Batterie</value>
         </data>
         <data name="Description_Basic_Battery" xml:space="preserve">
-          <value>Basic Technologie um Energie aus Holz zu erzeugen</value>
+          <value>Einfache Technologie um Energie zu speichern</value>
         </data>
 
         <data name="DisplayName_Block_Basic_Cargo" xml:space="preserve">
-          <value>Basic Cargo Container</value>
+          <value>Einfacher Cargo Container</value>
         </data>
         <data name="Description_Basic_Cargo" xml:space="preserve">
-          <value>Basic Technologie um Energie aus Holz zu erzeugen</value>
+          <value>Einfache Technologie um Gegenstände zu lagern</value>
         </data>
 
         <data name="DisplayName_Block_Basic_Sorter" xml:space="preserve">
-          <value>Basic Sortierer</value>
+          <value>Einfacher Sortierer</value>
         </data>
         <data name="Description_Basic_Sorter" xml:space="preserve">
-          <value></value>
+          <value>Einfache Technologie um Gegenstände zu sortieren</value>
         </data>
 
         <data name="DisplayName_Block_SmallBlockGyro_Basic" xml:space="preserve">
-          <value>Kleines Basic Gyroskop</value>
+          <value>Kleines Einfacher Gyroskop</value>
         </data>
         <data name="Description_SmallBlockGyro_Basic" xml:space="preserve">
-          <value></value>
+          <value>Einfache und energielastige Technologie um Blöcke zu steuern</value>
         </data>
 
         <data name="DisplayName_Block_OxygenGeneratorBasic" xml:space="preserve">
-          <value>Basic Sauerstoff Generator</value>
+          <value>Einfacher Sauerstoff Generator</value>
         </data>
         <data name="Description_OxygenGeneratorBasic" xml:space="preserve">
-          <value></value>
+          <value>Einfache und energielastige Technologie um Sauerstoff und Wasserstoff zu erzeugen</value>
         </data>
 
         <data name="DisplayName_Block_DeleteProtectionLarge" xml:space="preserve">
           <value>Großer Löschschutz Block</value>
         </data>
         <data name="Description_DeleteProtectionLarge" xml:space="preserve">
-          <value></value>
+          <value>Jedes Schiff und jede Basis benötigt diesen Block um nicht gelöscht zu werden</value>
         </data>
 
         <data name="DisplayName_Block_DeleteProtectionSmall" xml:space="preserve">
-          <value>Kleiner Löschschutz Block</value>
+          <value>Einfacher Kleiner Löschschutz Block</value>
         </data>
         <data name="Description_DeleteProtectionSmall" xml:space="preserve">
-          <value></value>
+          <value>Jedes Schiff und jede Basis benötigt diesen Block um nicht gelöscht zu werden</value>
         </data>
 
         <data name="DisplayName_Block_CollectorBasic" xml:space="preserve">
-          <value>Basic Sammler</value>
+          <value>Einfacher Sammler</value>
         </data>
         <data name="Description_CollectorBasic" xml:space="preserve">
           <value></value>
         </data>
 
         <data name="DisplayName_Block_ConnectorBasic" xml:space="preserve">
-          <value>Basic Verbinder</value>
+          <value>Einfacher Verbinder</value>
         </data>
         <data name="Description_ConnectorBasic" xml:space="preserve">
-          <value></value>
+          <value>Einfache Technologie um Gegenstände zu sammeln</value>
         </data>
 
       <!--1. buildstufe-->
@@ -217,32 +217,32 @@
           <value>Rohrextruder</value>
         </data>
         <data name="Description_Rohrextruder" xml:space="preserve">
-          <value></value>
+          <value>Produktionsanlage zur Herstellung länglicher Formen</value>
         </data>
 
         <data name="DisplayName_Block_Plattenpresse" xml:space="preserve">
           <value>Plattenpresse</value>
         </data>
         <data name="Description_Plattenpresse" xml:space="preserve">
-          <value></value>
+          <value>Produktionsanlage zur Herstellung von Platten</value>
         </data>
 
         <data name="DisplayName_Block_BasicAssembler" xml:space="preserve">
-          <value>BasicAssembler</value>
+          <value>Köhler</value>
         </data>
         <data name="Description_BasicAssembler" xml:space="preserve">
           <value>Köhler zur Herstellung von Kohlenstoff aus Holz oder Eisen</value>
         </data>
 
         <data name="DisplayName_Block_KohlenstofReactorSmall" xml:space="preserve">
-          <value>Kleiner Kohlenstoff Generator</value>
+          <value>Einfacher Kleiner Kohlenstoff Generator</value>
         </data>
         <data name="Description_KohlenstofReactorSmall" xml:space="preserve">
           <value>Erzeugt Energie aus Kohlenstoff</value>
         </data>
 
         <data name="DisplayName_Block_KohlenstoffReactorLarge" xml:space="preserve">
-          <value>Großer Energie aus Kohlenstoff</value>
+          <value>GRoßer Kohlenstoff Generator</value>
         </data>
         <data name="Description_KohlenstoffReactorLarge" xml:space="preserve">
           <value>Erzeugt Energie aus Kohlenstoff</value>
@@ -274,7 +274,7 @@
         </data>
 
         <data name="DisplayName_Block_VoidMiner" xml:space="preserve">
-          <value>Penetratium Converter</value>
+          <value>Penetratium Konverter</value>
         </data>
         <data name="Description_VoidMiner" xml:space="preserve">
           <value>Saugt Erze aus Paralleluniversen und wandelt diese direkt in Barren um. Verbraucht dabei Penetratium und Strom</value>
@@ -305,7 +305,7 @@
           <value>Elektro Bauteilfabrikator</value>
         </data>
         <data name="Description_Elektro_Assembler" xml:space="preserve">
-          <value>Maschine zum Produktion von Elektro Bauteilen und Computer Komponenten.</value>
+          <value>Maschine zum ProduktIonen von Elektro Bauteilen und Computer Komponenten.</value>
         </data>
 
       <!--4. buildstufe-->
@@ -321,7 +321,7 @@
           <value>Fertiger</value>
         </data>
         <data name="Description_Fertiger" xml:space="preserve">
-          <value>Maschine zur Fertigung vom fertigen Bautteilgruppen</value>
+          <value>Maschine zur Fertigung von komplexen Bautteilgruppen</value>
         </data>
 
         <data name="DisplayName_Block_Legierer" xml:space="preserve">
@@ -332,85 +332,85 @@
         </data>
 
         <data name="DisplayName_Block_VerbrauchsmaterialAssembler" xml:space="preserve">
-          <value>Tools Assembler</value>
+          <value>Verbrauchsmaterial Assembler</value>
         </data>
         <data name="Description_VerbrauchsmaterialAssembler" xml:space="preserve">
           <value>Maschine zur Herstellung von Werkzeugen, Verbrauchsgütern und Munition</value>
         </data>
 
         <data name="DisplayName_Block_BasicSmallBlockDrill" xml:space="preserve">
-          <value>Basic Drill</value>
+          <value>Einfacher Bohrer</value>
         </data>
         <data name="Description_BasicSmallBlockDrill" xml:space="preserve">
           <value>Er bohrt nicht Tief, er bohrt nicht groß, doch sein Strom verbrauche der ist Famos. So bohret lang und bohret viel, dann ist der Hand Drill aus dem Spiel.</value>
         </data>
 
-      <!--Basic Conveyors-->
+      <!--Einfacher Conveyors-->
 
         <data name="DisplayName_Block_SmallBlockConveyorBasic" xml:space="preserve">
-          <value>Small Block Conveyor Basic</value>
+          <value>Einfaches kleines Förderband</value>
         </data>
         <data name="Description_SmallBlockConveyorBasic" xml:space="preserve">
-          <value>Schweres Basic Förderband</value>
+          <value>Schweres einfaches Förderband</value>
         </data>
 
         <data name="DisplayName_Block_ConveyorTubeSmallBasic" xml:space="preserve">
-          <value>Conveyor Tube Small Basic</value>
+          <value>Förderband Rohr klein</value>
         </data>
         <data name="Description_ConveyorTubeSmallBasic" xml:space="preserve">
-          <value>Schweres Basic Förderband</value>
+          <value>Schweres einfaches Förderband</value>
         </data>
 
         <data name="DisplayName_Block_ConveyorTubeSmallCurvedBasic" xml:space="preserve">
-          <value>Conveyor Tube Small Curved Basic</value>
+          <value>Förderband Rohr klein gebogen</value>
         </data>
         <data name="Description_ConveyorTubeSmallCurvedBasic" xml:space="preserve">
-          <value>Schweres Basic Förderband</value>
+          <value>Schweres Einfacher Förderband</value>
         </data>
 
         <data name="DisplayName_Block_LargeBlockConveyorBasic" xml:space="preserve">
-          <value>Large Block Conveyor Basic</value>
+          <value>Großes Förderband</value>
         </data>
         <data name="Description_LargeBlockConveyorBasic" xml:space="preserve">
-          <value>Schweres Basic Förderband</value>
+          <value>Schweres sinfaches Förderband</value>
         </data>
 
         <data name="DisplayName_Block_ConveyorTubeBasic" xml:space="preserve">
-          <value>Conveyor Tube Basic</value>
+          <value>Förderband Rohr</value>
         </data>
         <data name="Description_ConveyorTubeBasic" xml:space="preserve">
-          <value>Schweres Basic Förderband</value>
+          <value>Schweres einfaches Förderband</value>
         </data>
 
         <data name="DisplayName_Block_ConveyorTubeCurvedBasic" xml:space="preserve">
-          <value>Conveyor Tube Curved Basic</value>
+          <value>Förderband Rohr gebogen</value>
         </data>
         <data name="Description_ConveyorTubeCurvedBasic" xml:space="preserve">
-          <value>Schweres Basic Förderband</value>
+          <value>Schweres einfaches Förderband</value>
         </data>
 
         <data name="Description_OxygenFarm_LargeBlockOxygenFarm" xml:space="preserve">
             <value>Sauerstofffarm</value>
         </data>
         <data name="DisplayName_JumpDrive_SmallJumpDrive" xml:space="preserve">
-            <value>Small Jumpdrive</value>
+            <value>Einfacher kleiner Sprungantrieb</value>
         </data>
 
 
       <!--CubeBlocksFSDrive.sbc-->
 
         <data name="Description_UpgradeModule_FSDriveSmall" xml:space="preserve">
-            <value>Compact version of S7</value>
+            <value>FTL Antrieb klein</value>
         </data>
         <data name="DisplayName_UpgradeModule_FSDriveSmall" xml:space="preserve">
             <value>D5 Frameshift Drive</value>
         </data>
 
         <data name="Description_UpgradeModule_FSDriveLarge" xml:space="preserve">
-            <value>Friendship drive charging!</value>
+            <value>FTL Antrieb lädt!</value>
         </data>
         <data name="DisplayName_UpgradeModule_FSDriveLarge" xml:space="preserve">
-            <value>S7 Frameshift Drive</value>
+            <value>FTL Antrieb</value>
         </data>
 
       <!--PhysicalItems-->
@@ -533,7 +533,7 @@
             <value>Plastik</value>
         </data>
         <data name="DisplayName_Ingot_Kohlenstoff" xml:space="preserve">
-            <value>Kohlenstoff</value>
+            <value>Barren Kohlenstoff</value>
         </data>
         <data name="DisplayName_Ingot_Magnesium" xml:space="preserve">
             <value>Barren Magnesium</value>
@@ -569,642 +569,642 @@
             <value>CubePlacer</value>
         </data>
 
-      <!-- Blocks Meilenstein Small.sbc -->
+      <!-- Blocks Meilenstein klein.sbc -->
 
         <data name="Description_Conveyor_Meilenstein_Small_Armorlight" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von leichten Panzerblöcken</value>
+            <value>Forschungsblock zum Freischalten von leichten Panzerblöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Armorlight" xml:space="preserve">
-            <value>Meilenstein_Small Armor leicht</value>
+            <value>Meilenstein kleine Panterung leicht</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Armorheavy" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von schweren Panzerblöcken</value>
+            <value>Forschungsblock zum Freischalten von schweren Panzerblöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Armorheavy" xml:space="preserve">
-            <value>Meilenstein_Small Armor schwer</value>
+            <value>Meilenstein kleine Panzerung schwer</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Fenster" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Fenster" xml:space="preserve">
-            <value>Meilenstein_Small Fenster</value>
+            <value>Meilenstein kleine Fenster</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Controls" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Controls" xml:space="preserve">
-            <value>Meilenstein_Small Controls</value>
+            <value>Meilenstein kleine Steuerung</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Medical" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Medical" xml:space="preserve">
-            <value>Meilenstein_Small Medical</value>
+            <value>Meilenstein kleine Medizin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Remote" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Remote" xml:space="preserve">
-            <value>Meilenstein_Small Remote</value>
+            <value>Meilenstein kleine Fernsteuerung</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Gyroskop" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Gyroskop" xml:space="preserve">
-            <value>Meilenstein_Small Gyroskop</value>
+            <value>Meilenstein kleine Gyroskope</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Tools" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Tools" xml:space="preserve">
-            <value>Meilenstein_Small Tools</value>
+            <value>Meilenstein kleine Werkzeuge</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_OreDetector" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_OreDetector" xml:space="preserve">
-            <value>Meilenstein_Small OreDetector</value>
+            <value>Meilenstein kleine Erzsensoren</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Waffen" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Waffen" xml:space="preserve">
-            <value>Meilenstein_Small Waffen</value>
+            <value>Meilenstein kleine Waffen</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Conveyors" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Conveyors" xml:space="preserve">
-            <value>Meilenstein_Small Conveyors</value>
+            <value>Meilenstein kleine Förderbänder</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Automation" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Automation" xml:space="preserve">
-            <value>Meilenstein_Small Automation</value>
+            <value>Meilenstein kleine Automation</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Lights" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Lights" xml:space="preserve">
-            <value>Meilenstein_Small Lights</value>
+            <value>Meilenstein kleine Lichter</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Power" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Power" xml:space="preserve">
-            <value>Meilenstein_Small Power</value>
+            <value>Meilenstein kleine Energie</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Thruster_Atmo" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Thruster_Atmo" xml:space="preserve">
-            <value>Meilenstein_Small Thruster Atmo</value>
+            <value>Meilenstein kleine Triebwerke Atmo</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Thruster_Ionen" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Thruster_Ionen" xml:space="preserve">
-            <value>Meilenstein_Small Thruster Ionen</value>
+            <value>Meilenstein kleine Triebwerke Ionen</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Thruster_Hydro" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Thruster_Hydro" xml:space="preserve">
-            <value>Meilenstein_Small Thruster Hydro</value>
+            <value>Meilenstein kleine Triebwerke Hydro</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Jumpdrive" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Jumpdrive" xml:space="preserve">
-            <value>Meilenstein Travel Drive</value>
+            <value>Meilenstein FTL</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_LCDs" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_LCDs" xml:space="preserve">
-            <value>Meilenstein_Small LCDs</value>
+            <value>Meilenstein kleine LCDs</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Mechanic" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Mechanic" xml:space="preserve">
-            <value>Meilenstein_Small Mechanic</value>
+            <value>Meilenstein kleine Mechanik</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Tore" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Tore" xml:space="preserve">
-            <value>Meilenstein_Small Tore</value>
+            <value>Meilenstein kleine Tore</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Räder" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Räder" xml:space="preserve">
-            <value>Meilenstein_Small Räder</value>
+            <value>Meilenstein kleine Räder</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Cargos" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Cargos" xml:space="preserve">
-            <value>Meilenstein_Small Cargos</value>
+            <value>Meilenstein kleine Container</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Communication" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Communication" xml:space="preserve">
-            <value>Meilenstein_Small Communication</value>
+            <value>Meilenstein kleine Kommunication</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Landing" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Landing" xml:space="preserve">
-            <value>Meilenstein_Small Landing</value>
+            <value>Meilenstein kleine Fahrwerke</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Small_Tanks" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Small_Tanks" xml:space="preserve">
-            <value>Meilenstein_Small Tanks</value>
+            <value>Meilenstein kleine Tanks</value>
         </data>
 
           <!-- Blocks Meilenstein.sbc -->
 
         <data name="Description_Conveyor_Meilenstein_Basic" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Basic Komponenten</value>
+            <value>Forschungsblock zum Freischalten von Einfacher Komponenten</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Basic" xml:space="preserve">
-            <value>Meilenstein Basic</value>
+            <value>Meilenstein</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Armorlight" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von leichten Panzerblöcken</value>
+            <value>Forschungsblock zum Freischalten von leichten Panzerblöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Armorlight" xml:space="preserve">
-            <value>Meilenstein Armor leicht</value>
+            <value>Meilenstein Panzerung leicht</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Armor_Alu" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von leichten Panzerblöcken</value>
+            <value>Forschungsblock zum Freischalten von leichten Panzerblöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Armor_Alu" xml:space="preserve">
-            <value>Meilenstein Armor Alu</value>
+            <value>Meilenstein Panzerung Alu</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Armorheavy" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von schweren Panzerblöcken</value>
+            <value>Forschungsblock zum Freischalten von schweren Panzerblöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Armorheavy" xml:space="preserve">
-            <value>Meilenstein Armor schwer</value>
+            <value>Meilenstein Panzerung schwer</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Armor_Tin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von leichten Panzerblöcken</value>
+            <value>Forschungsblock zum Freischalten von leichten Panzerblöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Armor_Tin" xml:space="preserve">
-            <value>Meilenstein Armor Titan</value>
+            <value>Meilenstein Panzerung Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_ArmorDeko" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_ArmorDeko" xml:space="preserve">
-            <value>Meilenstein Deko Armor</value>
+            <value>Meilenstein Deko Panzerung</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Fenster" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Fenster" xml:space="preserve">
             <value>Meilenstein Fenster</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Controls" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Controls" xml:space="preserve">
-            <value>Meilenstein Controls</value>
+            <value>Meilenstein Steuerung</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Medical" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Medical" xml:space="preserve">
-            <value>Meilenstein Medical</value>
+            <value>Meilenstein Medizin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Remote" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Remote" xml:space="preserve">
-            <value>Meilenstein Remote</value>
+            <value>Meilenstein Fernsteuerung</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Gyroskop" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Gyroskop" xml:space="preserve">
             <value>Meilenstein Gyroskop</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Gyroskop_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Gyroskop_Gold" xml:space="preserve">
-            <value>Meilenstein Gyroskop_Gold</value>
+            <value>Meilenstein Gyroskop Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Gyroskop_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Gyroskop_Platin" xml:space="preserve">
             <value>Meilenstein Gyroskop Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Gyroskop_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Gyroskop_Titan" xml:space="preserve">
             <value>Meilenstein Gyroskop Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Tools" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Tools" xml:space="preserve">
-            <value>Meilenstein Tools</value>
+            <value>Meilenstein Werkzeuge</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Tools_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Tools_Gold" xml:space="preserve">
-            <value>Meilenstein Tools Gold</value>
+            <value>Meilenstein Werkzeuge Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Tools_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Tools_Platin" xml:space="preserve">
-            <value>Meilenstein Tools Platin</value>
+            <value>Meilenstein Werkzeuge Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Tools_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Tools_Titan" xml:space="preserve">
-            <value>Meilenstein Tools Titan</value>
+            <value>Meilenstein Werkzeuge Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_OreDetector" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_OreDetector" xml:space="preserve">
-            <value>Meilenstein OreDetector</value>
+            <value>Meilenstein Erzsensor</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_OreDetector_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_OreDetector_Gold" xml:space="preserve">
-            <value>Meilenstein OreDetector Gold</value>
+            <value>Meilenstein Erzsensor Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_OreDetector_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_OreDetector_Platin" xml:space="preserve">
-            <value>Meilenstein OreDetector Platin</value>
+            <value>Meilenstein Erzsensor Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_OreDetector_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_OreDetector_Titan" xml:space="preserve">
-            <value>Meilenstein OreDetector Titan</value>
+            <value>Meilenstein Erzsensor Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Waffen" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Waffen" xml:space="preserve">
             <value>Meilenstein Waffen</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Conveyors" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Conveyors" xml:space="preserve">
-            <value>Meilenstein Conveyors</value>
+            <value>Meilenstein Förderbänder</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Deko1" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Deko1" xml:space="preserve">
             <value>Meilenstein Deko</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Deko2" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Deko2" xml:space="preserve">
-            <value>Meilenstein Deko2</value>
+            <value>Meilenstein Deko 2</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Industrial" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Industrial" xml:space="preserve">
-            <value>Meilenstein Industrial</value>
+            <value>Meilenstein Industrie</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Industrial_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Industrial_Gold" xml:space="preserve">
-            <value>Meilenstein Industrial Gold</value>
+            <value>Meilenstein Industrie Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Industrial_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Industrial_Platin" xml:space="preserve">
-            <value>Meilenstein Industrial Platin</value>
+            <value>Meilenstein Industrie Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Industrial_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Industrial_Titan" xml:space="preserve">
-            <value>Meilenstein Industrial Titan</value>
+            <value>Meilenstein Industrie Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Automation" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Automation" xml:space="preserve">
             <value>Meilenstein Automation</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Lights" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Lights" xml:space="preserve">
-            <value>Meilenstein Lights</value>
+            <value>Meilenstein Lichter</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Power" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Power" xml:space="preserve">
-            <value>Meilenstein Power</value>
+            <value>Meilenstein Energie</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Power_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Power_Gold" xml:space="preserve">
-            <value>Meilenstein Power Gold</value>
+            <value>Meilenstein Energie Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Power_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Power_Platin" xml:space="preserve">
-            <value>Meilenstein Power Platin</value>
+            <value>Meilenstein Energie Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Power_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Power_Titan" xml:space="preserve">
-            <value>Meilenstein Power Titan</value>
+            <value>Meilenstein Energie Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Thruster_Atmo" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Thruster_Atmo" xml:space="preserve">
-            <value>Meilenstein Thruster Atmo</value>
+            <value>Meilenstein Triebwerke Atmo</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Thruster_Hydro" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Thruster_Hydro" xml:space="preserve">
-            <value>Meilenstein Thruster Hydro</value>
+            <value>Meilenstein Triebwerke Hydro</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Thruster_Hydro_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Thruster_Hydro_Gold" xml:space="preserve">
-            <value>Meilenstein Thruster Hydro Gold</value>
+            <value>Meilenstein Triebwerke Hydro Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Thruster_Hydro_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Thruster_Hydro_Platin" xml:space="preserve">
-            <value>Meilenstein Thruster Hydro Platin</value>
+            <value>Meilenstein Triebwerke Hydro Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Thruster_Hydro_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Thruster_Hydro_Titan" xml:space="preserve">
-            <value>Meilenstein Thruster Hydro Titan</value>
+            <value>Meilenstein Triebwerke Hydro Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Thruster_Ionen" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Thruster_Ionen" xml:space="preserve">
-            <value>Meilenstein Thruster Ionen</value>
+            <value>Meilenstein Triebwerke Ionen</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Thruster_Ionen_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Thruster_Ionen_Gold" xml:space="preserve">
-            <value>Meilenstein Thruster Ionen Gold</value>
+            <value>Meilenstein Triebwerke Ionen Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Thruster_Ionen_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Thruster_Ionen_Platin" xml:space="preserve">
-            <value>Meilenstein Thruster Ionen Platin</value>
+            <value>Meilenstein Triebwerke Ionen Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Thruster_Ionen_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Thruster_Ionen_Titan" xml:space="preserve">
-            <value>Meilenstein Thruster Ionen Titan</value>
+            <value>Meilenstein Triebwerke Ionen Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_LCDs" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_LCDs" xml:space="preserve">
             <value>Meilenstein LCDs</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Sound_Blocks" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Sound_Blocks" xml:space="preserve">
-            <value>Meilenstein Sound Blocks</value>
+            <value>Meilenstein Audio</value>
         </data>
         
         <data name="Description_Conveyor_Meilenstein_Gravity" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Gravity" xml:space="preserve">
-            <value>Meilenstein Gravity</value>
+            <value>Meilenstein Gravitation</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Jumpdrive" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Jumpdrive" xml:space="preserve">
-            <value>Meilenstein Travel Drive Large</value>
+            <value>Meilenstein FTL Large</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Jumpdrive_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Jumpdrive_Gold" xml:space="preserve">
-            <value>Meilenstein Jumpdrive Gold</value>
+            <value>Meilenstein FTL Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Jumpdrive_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Jumpdrive_Platin" xml:space="preserve">
-            <value>Meilenstein Jumpdrive Platin</value>
+            <value>Meilenstein FTL Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Jumpdrive_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Jumpdrive_Titan" xml:space="preserve">
-            <value>Meilenstein Jumpdrive Titan</value>
+            <value>Meilenstein FTL Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Mechanic" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Mechanic" xml:space="preserve">
-            <value>Meilenstein Mechanic</value>
+            <value>Meilenstein Mechanik</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Tore" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Tore" xml:space="preserve">
             <value>Meilenstein Tore</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Räder" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Räder" xml:space="preserve">
             <value>Meilenstein Räder</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Cargos" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Cargos" xml:space="preserve">
-            <value>Meilenstein Cargos</value>
+            <value>Meilenstein Container</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Cargos_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Cargos_Gold" xml:space="preserve">
-            <value>Meilenstein Cargos Gold</value>
+            <value>Meilenstein Container Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Cargos_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Cargos_Platin" xml:space="preserve">
-            <value>Meilenstein Cargos Platin</value>
+            <value>Meilenstein Container Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Cargos_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Cargos_Titan" xml:space="preserve">
-            <value>Meilenstein Cargos Titan</value>
+            <value>Meilenstein Container Titan</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Communication" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Communication" xml:space="preserve">
-            <value>Meilenstein Communication</value>
+            <value>Meilenstein Kommunication</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Landing" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Landing" xml:space="preserve">
-            <value>Meilenstein Landing</value>
+            <value>Meilenstein Fahrwerke</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Tanks" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Tanks" xml:space="preserve">
             <value>Meilenstein Tanks</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Tanks_Gold" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Tanks_Gold" xml:space="preserve">
             <value>Meilenstein Tanks Gold</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Tanks_Platin" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Tanks_Platin" xml:space="preserve">
             <value>Meilenstein Tanks Platin</value>
         </data>
 
         <data name="Description_Conveyor_Meilenstein_Tanks_Titan" xml:space="preserve">
-            <value>Forschungsblock zum freischalten von Blöcken</value>
+            <value>Forschungsblock zum Freischalten von Blöcken</value>
         </data>
         <data name="DisplayName_Conveyor_Meilenstein_Tanks_Titan" xml:space="preserve">
             <value>Meilenstein Tanks Titan</value>
@@ -1213,43 +1213,43 @@
       <!-- CubeBlocks_Battery.sbc -->
 
         <data name="DisplayName_BatteryBlock_SmallBlockBatteryBlock_Gold" xml:space="preserve">
-            <value>Gold Battery</value>
+            <value>Gold Batterie</value>
         </data>
         <data name="DisplayName_BatteryBlock_LargeBlockBatteryBlock_Gold" xml:space="preserve">
-            <value>Gold Battery</value>
+            <value>Gold Batterie</value>
         </data>
         <data name="DisplayName_BatteryBlock_SmallBlockBatteryBlock_Platin" xml:space="preserve">
-            <value>Platin Battery</value>
+            <value>Platin Batterie</value>
         </data>
         <data name="DisplayName_BatteryBlock_LargeBlockBatteryBlock_Platin" xml:space="preserve">
-            <value>Platin Battery</value>
+            <value>Platin Batterie</value>
         </data>
         <data name="DisplayName_BatteryBlock_SmallBlockBatteryBlock_Titan" xml:space="preserve">
-            <value>Titan Battery</value>
+            <value>Titan Batterie</value>
         </data>
         <data name="DisplayName_BatteryBlock_LargeBlockBatteryBlock_Titan" xml:space="preserve">
-            <value>Titan Battery</value>
+            <value>Titan Batterie</value>
         </data>
 
       <!-- CubeBlocks_CargoContainerLarge.sbc -->
 
         <data name="DisplayName_CargoContainer_LargeBlockLargeContainer_Gold" xml:space="preserve">
-            <value>Large Gold Container</value>
+            <value>Großer Gold Container</value>
         </data>
         <data name="DisplayName_CargoContainer_SmallBlockLargeContainer_Gold" xml:space="preserve">
-            <value>Large Gold Container</value>
+            <value>Großer Gold Container</value>
         </data>
         <data name="DisplayName_CargoContainer_LargeBlockLargeContainer_Platin" xml:space="preserve">
-            <value>Large Platin Container</value>
+            <value>Großer Platin Container</value>
         </data>
         <data name="DisplayName_CargoContainer_SmallBlockLargeContainer_Platin" xml:space="preserve">
-            <value>Large Platin Container</value>
+            <value>Großer Platin Container</value>
         </data>
         <data name="DisplayName_CargoContainer_LargeBlockLargeContainer_Titan" xml:space="preserve">
-            <value>Large Titan Container</value>
+            <value>Großer Titan Container</value>
         </data>
         <data name="DisplayName_CargoContainer_SmallBlockLargeContainer_Titan" xml:space="preserve">
-            <value>Large Titan Container</value>
+            <value>Großer Titan Container</value>
         </data>
 
       <!-- CubeBlocks_CargoContainerMedium.sbc -->
@@ -1267,106 +1267,106 @@
       <!-- CubeBlocks_CargoContainerSmall.sbc -->
 
         <data name="DisplayName_CargoContainer_LargeBlockSmallContainer_Gold" xml:space="preserve">
-            <value>Small Gold Container</value>
+            <value>Einfacher Kleiner Gold Container</value>
         </data>
         <data name="DisplayName_CargoContainer_SmallBlockSmallContainer_Gold" xml:space="preserve">
-            <value>Small Gold Container</value>
+            <value>Einfacher Kleiner Gold Container</value>
         </data>
         <data name="DisplayName_CargoContainer_LargeBlockSmallContainer_Platin" xml:space="preserve">
-            <value>Small Platin Container</value>
+            <value>Einfacher Kleiner Platin Container</value>
         </data>
         <data name="DisplayName_CargoContainer_SmallBlockSmallContainer_Platin" xml:space="preserve">
-            <value>Small Platin Container</value>
+            <value>Einfacher Kleiner Platin Container</value>
         </data>
         <data name="DisplayName_CargoContainer_LargeBlockSmallContainer_Titan" xml:space="preserve">
-            <value>Small Titan Container</value>
+            <value>Einfacher Kleiner Titan Container</value>
         </data>
         <data name="DisplayName_CargoContainer_SmallBlockSmallContainer_Titan" xml:space="preserve">
-            <value>Small Titan Container</value>
+            <value>Einfacher Kleiner Titan Container</value>
         </data>
 
       <!-- CubeBlocks_Detector.sbc -->
 
         <data name="DisplayName_OreDetector_LargeOreDetector_Gold" xml:space="preserve">
-            <value>Gold Ore Detector</value>
+            <value>Gold Erzsensor</value>
         </data>
         <data name="DisplayName_OreDetector_SmallBlockOreDetector_Gold" xml:space="preserve">
-            <value>Gold Ore Detector</value>
+            <value>Gold Erzsensor</value>
         </data>
         <data name="DisplayName_OreDetector_LargeOreDetector_Platin" xml:space="preserve">
-            <value>Platin Ore Detector</value>
+            <value>Platin Erzsensor</value>
         </data>
         <data name="DisplayName_OreDetector_SmallBlockOreDetector_Platin" xml:space="preserve">
-            <value>Platin Ore Detector</value>
+            <value>Platin Erzsensor</value>
         </data>
         <data name="DisplayName_OreDetector_LargeOreDetector_Titan" xml:space="preserve">
-            <value>Titan Ore Detector</value>
+            <value>Titan Erzsensor</value>
         </data>
         <data name="DisplayName_OreDetector_SmallBlockOreDetector_Titan" xml:space="preserve">
-            <value>Titan Ore Detector</value>
+            <value>Titan Erzsensor</value>
         </data>
 
       <!-- CubeBlocks_Drill.sbc -->
 
         <data name="DisplayName_Drill_SmallBlockDrill_Gold" xml:space="preserve">
-            <value>Gold Drill</value>
+            <value>Gold Bohrer</value>
         </data>
         <data name="DisplayName_Drill_LargeBlockDrill_Gold" xml:space="preserve">
-            <value>Gold Drill</value>
+            <value>Gold Bohrer</value>
         </data>
         <data name="DisplayName_Drill_SmallBlockDrill_Platin" xml:space="preserve">
-            <value>Platin Drill</value>
+            <value>Platin Bohrer</value>
         </data>
         <data name="DisplayName_Drill_LargeBlockDrill_Platin" xml:space="preserve">
-            <value>Platin Drill</value>
+            <value>Platin Bohrer</value>
         </data>
         <data name="DisplayName_Drill_SmallBlockDrill_Titan" xml:space="preserve">
-            <value>Titan Drill</value>
+            <value>Titan Bohrer</value>
         </data>
         <data name="DisplayName_Drill_LargeBlockDrill_Titan" xml:space="preserve">
-            <value>Titan Drill</value>
+            <value>Titan Bohrer</value>
         </data>
 
       <!-- CubeBlocks_Grinder.sbc -->
 
         <data name="DisplayName_ShipGrinder_SmallShipGrinder_Gold" xml:space="preserve">
-            <value>Gold Grinder</value>
+            <value>Gold Schleifmaschiene</value>
         </data>
         <data name="DisplayName_ShipGrinder_LargeShipGrinder_Gold" xml:space="preserve">
-            <value>Gold Grinder</value>
+            <value>Gold Schleifmaschiene</value>
         </data>
         <data name="DisplayName_ShipGrinder_SmallShipGrinder_Platin" xml:space="preserve">
-            <value>Platin Grinder</value>
+            <value>Platin Schleifmaschiene</value>
         </data>
         <data name="DisplayName_ShipGrinder_LargeShipGrinder_Platin" xml:space="preserve">
-            <value>Platin Grinder</value>
+            <value>Platin Schleifmaschiene</value>
         </data>
         <data name="DisplayName_ShipGrinder_SmallShipGrinder_Titan" xml:space="preserve">
-            <value>Titan Grinder</value>
+            <value>Titan Schleifmaschiene</value>
         </data>
         <data name="DisplayName_ShipGrinder_LargeShipGrinder_Titan" xml:space="preserve">
-            <value>Titan Grinder</value>
+            <value>Titan Schleifmaschiene</value>
         </data>
 
       <!-- CubeBlocks_Gyroscope.sbc -->
 
         <data name="DisplayName_Gyro_SmallBlockGyro_Gold" xml:space="preserve">
-            <value>Gold Gyroscope</value>
+            <value>Gold Gyroscop</value>
         </data>
         <data name="DisplayName_Gyro_LargeBlockGyro_Gold" xml:space="preserve">
-            <value>Gold Gyroscope</value>
+            <value>Gold Gyroscop</value>
         </data>
         <data name="DisplayName_Gyro_SmallBlockGyro_Platin" xml:space="preserve">
-            <value>Platin Gyroscope</value>
+            <value>Platin Gyroscop</value>
         </data>
         <data name="DisplayName_Gyro_LargeBlockGyro_Platin" xml:space="preserve">
-            <value>Platin Gyroscope</value>
+            <value>Platin Gyroscop</value>
         </data>
         <data name="DisplayName_Gyro_SmallBlockGyro_Titan" xml:space="preserve">
-            <value>Titan Gyroscope</value>
+            <value>Titan Gyroscop</value>
         </data>
         <data name="DisplayName_Gyro_LargeBlockGyro_Titan" xml:space="preserve">
-            <value>Titan Gyroscope</value>
+            <value>Titan Gyroscop</value>
         </data>
 
       <!-- CubeBlocks_HydrogenTank.sbc -->
@@ -1375,230 +1375,230 @@
             <value>Gold Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_LargeHydrogenTankSmall_Gold" xml:space="preserve">
-            <value>Gold Small Hydrogen Tank</value>
+            <value>Gold Kleiner Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_SmallHydrogenTank_Gold" xml:space="preserve">
             <value>Gold Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_SmallHydrogenTankSmall_Gold" xml:space="preserve">
-            <value>Gold Small Hydrogen Tank</value>
+            <value>Gold Kleiner Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_LargeHydrogenTank_Platin" xml:space="preserve">
             <value>Platin Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_LargeHydrogenTankSmall_Platin" xml:space="preserve">
-            <value>Platin Small Hydrogen Tank</value>
+            <value>Platin Kleiner Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_SmallHydrogenTank_Platin" xml:space="preserve">
             <value>Platin Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_SmallHydrogenTankSmall_Platin" xml:space="preserve">
-            <value>Platin Small Hydrogen Tank</value>
+            <value>Platin Kleiner Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_LargeHydrogenTank_Titan" xml:space="preserve">
             <value>Titan Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_LargeHydrogenTankSmall_Titan" xml:space="preserve">
-            <value>Titan Small Hydrogen Tank</value>
+            <value>Titan Kleiner Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_SmallHydrogenTank_Titan" xml:space="preserve">
             <value>Titan Hydrogen Tank</value>
         </data>
         <data name="DisplayName_OxygenTank_SmallHydrogenTankSmall_Titan" xml:space="preserve">
-            <value>Titan Small Hydrogen Tank</value>
+            <value>Titan Kleiner Hydrogen Tank</value>
         </data>
 
       <!-- CubeBlocks_HydrogenThruster.sbc -->
 
         <data name="DisplayName_Thrust_SmallBlockSmallHydrogenThrust_Gold" xml:space="preserve">
-            <value>Gold Hydrogen Thruster</value>
+            <value>Gold Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeHydrogenThrust_Gold" xml:space="preserve">
-            <value>Gold Large Hydrogen Thruster</value>
+            <value>Gold großes Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallHydrogenThrust_Gold" xml:space="preserve">
-            <value>Gold Hydrogen Thruster</value>
+            <value>Gold Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeHydrogenThrust_Gold" xml:space="preserve">
-            <value>Gold Large Hydrogen Thruster</value>
+            <value>Gold großes Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockSmallHydrogenThrust_Platin" xml:space="preserve">
-            <value>Platin Hydrogen Thruster</value>
+            <value>Platin Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeHydrogenThrust_Platin" xml:space="preserve">
-            <value>Platin Large Hydrogen Thruster</value>
+            <value>Platin großes Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallHydrogenThrust_Platin" xml:space="preserve">
-            <value>Platin Hydrogen Thruster</value>
+            <value>Platin Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeHydrogenThrust_Platin" xml:space="preserve">
-            <value>Platin Large Hydrogen Thruster</value>
+            <value>Platin großes Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockSmallHydrogenThrust_Titan" xml:space="preserve">
-            <value>Titan Hydrogen Thruster</value>
+            <value>Titan Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeHydrogenThrust_Titan" xml:space="preserve">
-            <value>Titan Large Hydrogen Thruster</value>
+            <value>Titan großes Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallHydrogenThrust_Titan" xml:space="preserve">
-            <value>Titan Hydrogen Thruster</value>
+            <value>Titan Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeHydrogenThrust_Titan" xml:space="preserve">
-            <value>Titan Large Hydrogen Thruster</value>
+            <value>Titan großes Hydrogen Triebwerk</value>
         </data>
 
       <!-- CubeBlocks_IndustrialPack.sbc -->
 
         <data name="DisplayName_CargoContainer_LargeBlockLargeIndustrialContainer_Gold" xml:space="preserve">
-            <value>Gold Large I. Cargo Container</value>
+            <value>Gold großer I. Cargo Container</value>
         </data>
         <data name="DisplayName_OxygenTank_LargeHydrogenTankIndustrial_Gold" xml:space="preserve">
             <value>Gold I. Hydrogen Tank</value>
         </data>
         <data name="DisplayName_Refinery_LargeRefineryIndustrial_Gold" xml:space="preserve">
-            <value>Gold Industrial Refinery</value>
+            <value>Gold Industrial Raffinerie</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeHydrogenThrustIndustrial_Gold" xml:space="preserve">
-            <value>Gold Large I. Hydrogen Thruster</value>
+            <value>Gold großes I. Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockSmallHydrogenThrustIndustrial_Gold" xml:space="preserve">
-            <value>Gold Large I. Hydrogen Thruster</value>
+            <value>Gold großes I. Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeHydrogenThrustIndustrial_Gold" xml:space="preserve">
-            <value>Gold Large I. Thruster</value>
+            <value>Gold großes I. Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallHydrogenThrustIndustrial_Gold" xml:space="preserve">
-            <value>Gold I. Thruster</value>
+            <value>Gold I. Triebwerk</value>
         </data>
         <data name="DisplayName_CargoContainer_LargeBlockLargeIndustrialContainer_Platin" xml:space="preserve">
-            <value>Platin Large I. Cargo Container</value>
+            <value>Platin großer I. Cargo Container</value>
         </data>
         <data name="DisplayName_OxygenTank_LargeHydrogenTankIndustrial_Platin" xml:space="preserve">
             <value>Platin I. Hydrogen Tank</value>
         </data>
         <data name="DisplayName_Refinery_LargeRefineryIndustrial_Platin" xml:space="preserve">
-            <value>Platin Industrial Refinery</value>
+            <value>Platin Industrial Raffinerie</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeHydrogenThrustIndustrial_Platin" xml:space="preserve">
-            <value>Platin Large I. Hydrogen Thruster</value>
+            <value>Platin großes I. Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockSmallHydrogenThrustIndustrial_Platin" xml:space="preserve">
-            <value>Platin Large I. Hydrogen Thruster</value>
+            <value>Platin großes I. Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeHydrogenThrustIndustrial_Platin" xml:space="preserve">
-            <value>Platin Large I. Thruster</value>
+            <value>Platin großes I. Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallHydrogenThrustIndustrial_Platin" xml:space="preserve">
-            <value>Platin I. Thruster</value>
+            <value>Platin I. Triebwerk</value>
         </data>
         <data name="DisplayName_CargoContainer_LargeBlockLargeIndustrialContainer_Titan" xml:space="preserve">
-            <value>Titan Large I. Cargo Container</value>
+            <value>Titan großes I. Cargo Container</value>
         </data>
         <data name="DisplayName_OxygenTank_LargeHydrogenTankIndustrial_Titan" xml:space="preserve">
             <value>Titan I. Hydrogen Tank</value>
         </data>
         <data name="DisplayName_Refinery_LargeRefineryIndustrial_Titan" xml:space="preserve">
-            <value>Titan Industrial Refinery</value>
+            <value>Titan Industrial Raffinerie</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeHydrogenThrustIndustrial_Titan" xml:space="preserve">
-            <value>Titan Large I. Hydrogen Thruster</value>
+            <value>Titan großes I. Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockSmallHydrogenThrustIndustrial_Titan" xml:space="preserve">
-            <value>Titan Large I. Hydrogen Thruster</value>
+            <value>Titan großes I. Hydrogen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeHydrogenThrustIndustrial_Titan" xml:space="preserve">
-            <value>Titan Large I. Thruster</value>
+            <value>Titan großes I. Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallHydrogenThrustIndustrial_Titan" xml:space="preserve">
-            <value>Titan I. Thruster</value>
+            <value>Titan I. Triebwerk</value>
         </data>
 
       <!-- CubeBlocks_IonThruster.sbc -->
 
         <data name="DisplayName_Thrust_SmallBlockSmallThrust_Gold" xml:space="preserve">
-            <value>Gold Ion Thruster</value>
+            <value>Gold Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeThrust_Gold" xml:space="preserve">
-            <value>Gold Large Ion Thruster</value>
+            <value>Gold großes Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallThrust_Gold" xml:space="preserve">
-            <value>Gold Ion Thruster</value>
+            <value>Gold Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeThrust_Gold" xml:space="preserve">
-            <value>Gold Large Ion Thruster</value>
+            <value>Gold großes Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockSmallThrust_Platin" xml:space="preserve">
-            <value>Platin Ion Thruster</value>
+            <value>Platin Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeThrust_Platin" xml:space="preserve">
-            <value>Platin Large Ion Thruster</value>
+            <value>Platin großes Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallThrust_Platin" xml:space="preserve">
-            <value>Platin Ion Thruster</value>
+            <value>Platin Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeThrust_Platin" xml:space="preserve">
-            <value>Platin Large Ion Thruster</value>
+            <value>Platin großes Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockSmallThrust_Titan" xml:space="preserve">
-            <value>Titan Ion Thruster</value>
+            <value>Titan Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeThrust_Titan" xml:space="preserve">
-            <value>Titan Large Ion Thruster</value>
+            <value>Titan großes Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallThrust_Titan" xml:space="preserve">
-            <value>Titan Ion Thruster</value>
+            <value>Titan Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeThrust_Titan" xml:space="preserve">
-            <value>Titan Large Ion Thruster</value>
+            <value>Titan großes Ionen Triebwerk</value>
         </data>
 
       <!-- CubeBlocks_IonThrusterSciFi.sbc -->
         <data name="DisplayName_Thrust_SmallBlockSmallThrustSciFi_Gold" xml:space="preserve">
-            <value>Gold Sci-Fi Ion Thruster Small</value>
+            <value>Gold Sci-Fi Ionen Triebwerk klein</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeThrustSciFi_Gold" xml:space="preserve">
-            <value>Gold Sci-Fi Large Ion Thruster Small</value>
+            <value>Gold Sci-Fi großes Ionen Triebwerk klein</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallThrustSciFi_Gold" xml:space="preserve">
-            <value>Gold Sci-Fi Ion Thruster</value>
+            <value>Gold Sci-Fi Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeThrustSciFi_Gold" xml:space="preserve">
-            <value>Gold Sci-Fi Large Ion Thruster</value>
+            <value>Gold Sci-Fi großes Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockSmallThrustSciFi_Platin" xml:space="preserve">
-            <value>Platin Sci-Fi Ion Thruster Small</value>
+            <value>Platin Sci-Fi Ionen Triebwerk klein</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeThrustSciFi_Platin" xml:space="preserve">
-            <value>Platin Sci-Fi Large Ion Thruster Small</value>
+            <value>Platin Sci-Fi großes Ionen Triebwerk klein</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallThrustSciFi_Platin" xml:space="preserve">
-            <value>Platin Sci-Fi Ion Thruster</value>
+            <value>Platin Sci-Fi Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeThrustSciFi_Platin" xml:space="preserve">
-            <value>Platin Sci-Fi Large Ion Thruster</value>
+            <value>Platin Sci-Fi großes Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockSmallThrustSciFi_Titan" xml:space="preserve">
-            <value>Titan Sci-Fi Ion Thruster Small</value>
+            <value>Titan Sci-Fi Ionen Triebwerk klein</value>
         </data>
         <data name="DisplayName_Thrust_SmallBlockLargeThrustSciFi_Titan" xml:space="preserve">
-            <value>Titan Sci-Fi Large Ion Thruster Small</value>
+            <value>Titan Sci-Fi großes Ionen Triebwerk klein</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockSmallThrustSciFi_Titan" xml:space="preserve">
-            <value>Titan Sci-Fi Ion Thruster</value>
+            <value>Titan Sci-Fi Ionen Triebwerk</value>
         </data>
         <data name="DisplayName_Thrust_LargeBlockLargeThrustSciFi_Titan" xml:space="preserve">
-            <value>Titan Sci-Fi Large Ion Thruster</value>
+            <value>Titan Sci-Fi großes Ionen Triebwerk</value>
         </data>
 
       <!-- CubeBlocks_JumpDrive.sbc -->
         <data name="DisplayName_JumpDrive_LargeJumpDrive_Gold" xml:space="preserve">
-            <value>Gold Jump Drive</value>
+            <value>Gold Sprungantrieb</value>
         </data>
         <data name="DisplayName_JumpDrive_LargeJumpDrive_Platin" xml:space="preserve">
-            <value>Platin Jump Drive</value>
+            <value>Platin Sprungantrieb</value>
         </data>
         <data name="DisplayName_JumpDrive_LargeJumpDrive_Titan" xml:space="preserve">
-            <value>Titan Jump Drive</value>
+            <value>Titan Sprungantrieb</value>
         </data>
 
       <!-- CubeBlocks_Power_Armor.sbc -->
@@ -1666,128 +1666,110 @@
             <value>Leichte stabile Panzerung</value>
         </data>
         <data name="DisplayName_CubeBlock_AluSmallBlockArmorCorner" xml:space="preserve">
-            <value>Alu Block Corner Small</value>
+            <value>Alu Block Corner klein</value>
         </data>
         <data name="Description_CubeBlock_AluSmallBlockArmorCornerInv" xml:space="preserve">
             <value>Leichte stabile Panzerung</value>
         </data>
         <data name="DisplayName_CubeBlock_AluSmallBlockArmorCornerInv" xml:space="preserve">
-            <value>Alu Block Corner Inv. Small</value>
+            <value>Alu Block Corner Inv. klein</value>
         </data>
         <data name="Description_CubeBlock_TitanSmallHeavyBlockArmorBlock" xml:space="preserve">
             <value>Schwere stabile Panzerung</value>
         </data>
         <data name="DisplayName_CubeBlock_TitanSmallHeavyBlockArmorBlock" xml:space="preserve">
-            <value>Titan Block Small</value>
+            <value>Titan Block klein</value>
         </data>
         <data name="Description_CubeBlock_TitanSmallHeavyBlockArmorSlope" xml:space="preserve">
             <value>Schwere stabile Panzerung</value>
         </data>
         <data name="DisplayName_CubeBlock_TitanSmallHeavyBlockArmorSlope" xml:space="preserve">
-            <value>Titan Block Slope Small</value>
+            <value>Titan Block Slope klein</value>
         </data>
         <data name="Description_CubeBlock_TitanSmallHeavyBlockArmorCorner" xml:space="preserve">
             <value>Schwere stabile Panzerung</value>
         </data>
         <data name="DisplayName_CubeBlock_TitanSmallHeavyBlockArmorCorner" xml:space="preserve">
-            <value>Titan Block Corner Small</value>
+            <value>Titan Block Corner klein</value>
         </data>
         <data name="Description_CubeBlock_TitanSmallHeavyBlockArmorCornerInv" xml:space="preserve">
             <value>Schwere stabile Panzerung</value>
         </data>
         <data name="DisplayName_CubeBlock_TitanSmallHeavyBlockArmorCornerInv" xml:space="preserve">
-            <value>Titan Block Corner Inv. Small</value>
+            <value>Titan Block Corner Inv. klein</value>
         </data>
 
       <!-- CubeBlocks_Reactor.sbc -->
 
         <data name="DisplayName_Reactor_SmallBlockSmallGenerator_Gold" xml:space="preserve">
-            <value>Gold Reactor</value>
+            <value>Gold Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_SmallBlockLargeGenerator_Gold" xml:space="preserve">
-            <value>Gold Reactor</value>
+            <value>Gold Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_LargeBlockSmallGenerator_Gold" xml:space="preserve">
-            <value>Gold Reactor</value>
+            <value>Gold Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_LargeBlockLargeGenerator_Gold" xml:space="preserve">
-            <value>Gold Reactor</value>
+            <value>Gold Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_SmallBlockSmallGenerator_Platin" xml:space="preserve">
-            <value>Platin Reactor</value>
+            <value>Platin Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_SmallBlockLargeGenerator_Platin" xml:space="preserve">
-            <value>Platin Reactor</value>
+            <value>Platin Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_LargeBlockSmallGenerator_Platin" xml:space="preserve">
-            <value>Platin Reactor</value>
+            <value>Platin Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_LargeBlockLargeGenerator_Platin" xml:space="preserve">
-            <value>Platin Reactor</value>
+            <value>Platin Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_SmallBlockSmallGenerator_Titan" xml:space="preserve">
-            <value>Titan Reactor</value>
+            <value>Titan Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_SmallBlockLargeGenerator_Titan" xml:space="preserve">
-            <value>Titan Reactor</value>
+            <value>Titan Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_LargeBlockSmallGenerator_Titan" xml:space="preserve">
-            <value>Titan Reactor</value>
+            <value>Titan Reaktor</value>
         </data>
         <data name="DisplayName_Reactor_LargeBlockLargeGenerator_Titan" xml:space="preserve">
-            <value>Titan Reactor</value>
+            <value>Titan Reaktor</value>
         </data>
 
       <!-- CubeBlocks_Refinery.sbc -->
 
         <data name="DisplayName_Refinery_LargeRefinery_Gold" xml:space="preserve">
-            <value>Gold Refinery</value>
+            <value>Gold Raffinerie</value>
         </data>
         <data name="DisplayName_Refinery_LargeRefinery_Platin" xml:space="preserve">
-            <value>Platin Refinery</value>
+            <value>Platin Raffinerie</value>
         </data>
         <data name="DisplayName_Refinery_LargeRefinery_Titan" xml:space="preserve">
-            <value>Titan Refinery</value>
+            <value>Titan Raffinerie</value>
         </data>
 
       <!-- CubeBlocks_Welder.sbc -->
 
         <data name="DisplayName_ShipWelder_SmallShipWelder_Gold" xml:space="preserve">
-            <value>Gold Welder</value>
+            <value>Gold Schweißgerät</value>
         </data>
         <data name="DisplayName_ShipWelder_LargeShipWelder_Gold" xml:space="preserve">
-            <value>Gold Welder</value>
+            <value>Gold Schweißgerät</value>
         </data>
         <data name="DisplayName_ShipWelder_SmallShipWelder_Platin" xml:space="preserve">
-            <value>Platin Welder</value>
+            <value>Platin Schweißgerät</value>
         </data>
         <data name="DisplayName_ShipWelder_LargeShipWelder_Platin" xml:space="preserve">
-            <value>Platin Welder</value>
+            <value>Platin Schweißgerät</value>
         </data>
         <data name="DisplayName_ShipWelder_SmallShipWelder_Titan" xml:space="preserve">
-            <value>Titan Welder</value>
+            <value>Titan Schweißgerät</value>
         </data>
         <data name="DisplayName_ShipWelder_LargeShipWelder_Titan" xml:space="preserve">
-            <value>Titan Welder</value>
+            <value>Titan Schweißgerät</value>
         </data>
         
-
-
-
-      <data name="DisplayName_Block_" xml:space="preserve">
-        <value></value>
-      </data>
-      <data name="Description_" xml:space="preserve">
-        <value></value>
-      </data>
-
-
-
-
-
-
-
-
-
 
 </root>
