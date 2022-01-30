@@ -299,7 +299,7 @@ namespace NewProduction
     }
     #endregion
 
-#region TESTLOCALIZATION
+#region LOCALIZATION
     [MySessionComponentDescriptor(MyUpdateOrder.NoUpdate)]
     public class Localization : MySessionComponentBase
     {

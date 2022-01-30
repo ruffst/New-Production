@@ -4776,5 +4776,84 @@
       <PCU>100</PCU>
       <IsAirTight>true</IsAirTight>
     </Definition>
+    <!--SafeZoneBlock  -->
+     <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
+      <Id>
+        <TypeId>SafeZoneBlock</TypeId>
+        <SubtypeId>SafeZoneBlock</SubtypeId>
+      </Id>
+      <DisplayName>Kautsch Safezone</DisplayName>
+      <Icon>Textures/Safezone.dds</Icon>
+      <Description>Description_SafeZone</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="250">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="110">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="2.5" />
+        <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Right" StartX="1" StartY="0.5" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" />
+      </BuildProgressModels>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
+      </ScreenAreas>
+      <BlockPairName>SafeZoneBlock</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <!-- Safezone info -->
+      <MaxSafeZoneRadius>90</MaxSafeZoneRadius>
+      <MinSafeZoneRadius>10</MinSafeZoneRadius>
+      <DefaultSafeZoneRadius>20</DefaultSafeZoneRadius>
+      <SafeZoneActivationTimeS>60</SafeZoneActivationTimeS>
+      <MaxSafeZonePowerDrainkW>24500</MaxSafeZonePowerDrainkW>
+      <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
+      <SafeZoneUpkeep>0</SafeZoneUpkeep>
+      <SafeZoneUpkeepTimeM>2880</SafeZoneUpkeepTimeM>
+      <!-- End Safezone Props -->
+      <ActionSound>BlockSafeZone</ActionSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    </Definition>
   </CubeBlocks>
 </Definitions>
