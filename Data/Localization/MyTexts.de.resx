@@ -400,14 +400,14 @@
       <!--CubeBlocksFSDrive.sbc-->
 
         <data name="Description_UpgradeModule_FSDriveSmall" xml:space="preserve">
-            <value>FTL Antrieb klein</value>
+            <value>1 Gang: 32MW | 2 Gang: 60MW | 3 Gang: 90MW | 4 Gang 120MW</value>
         </data>
         <data name="DisplayName_UpgradeModule_FSDriveSmall" xml:space="preserve">
-            <value>D5 Frameshift Drive</value>
+            <value>FTL Antrieb klein</value>
         </data>
 
         <data name="Description_UpgradeModule_FSDriveLarge" xml:space="preserve">
-            <value>FTL Antrieb lädt!</value>
+            <value>1 Gang: 1,95GW | 2 Gang: 2.1GW | 3 Gang: 2,4GW | 4 Gang 2,9GW</value>
         </data>
         <data name="DisplayName_UpgradeModule_FSDriveLarge" xml:space="preserve">
             <value>FTL Antrieb</value>

@@ -400,14 +400,14 @@
       <!--CubeBlocksFSDrive.sbc-->
 
         <data name="Description_UpgradeModule_FSDriveSmall" xml:space="preserve">
-            <value>Small FTL Drive</value>
+            <value>1 Gear: 32MW | 2 Gear: 60MW | 3 Gear: 90MW | 4 Gear 120MW</value>
         </data>
         <data name="DisplayName_UpgradeModule_FSDriveSmall" xml:space="preserve">
             <value>Small FTL Drive</value>
         </data>
 
         <data name="Description_UpgradeModule_FSDriveLarge" xml:space="preserve">
-            <value>Friendship drive charging!</value>
+            <value>1 Gear: 1,95GW | 2 Gear: 2.1GW | 3 Gear: 2,4GW | 4 Gear 2,9GW</value>
         </data>
         <data name="DisplayName_UpgradeModule_FSDriveLarge" xml:space="preserve">
             <value>FTL Drive</value>
