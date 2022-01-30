@@ -1591,13 +1591,13 @@
         <SubtypeId>KohlenstoffReactorLarge</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_KohlenstoffReactorLarge</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\carbon_generator.dds</Icon>
       <Description>Description_KohlenstoffReactorLarge</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
+       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
+      <Model>Models\Cubes\large\Carbon Power Generator.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="50">
           <DeconstructId>
@@ -1655,18 +1655,10 @@
         </Component>
       </Components>
       <CriticalComponent Subtype="CopperComputer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
-        <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
-        <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-        <MountPoint Side="Left" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-        <MountPoint Side="Bottom" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" Default="true" />
-        <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-      </MountPoints>
+
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GeneratorSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\Carbon Power Generator_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Carbon Power Generator_BS3.mwm" />
       </BuildProgressModels>
       <BlockPairName>KohlenstoffReactorLarge</BlockPairName>
       <MirroringY>Z</MirroringY>
@@ -2554,7 +2546,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="4" z="11" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\ReLabNewCollision4.mwm</Model>
+      <Model>Models\LabFixed.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="300">
           <DeconstructId>
@@ -2610,6 +2602,11 @@
         <MountPoint Side="Right" StartX="4.00" StartY="1.00" EndX="5.00" EndY="2.00" />
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="5.00" EndY="11.00" />
       </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\LabFixed_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\LabFixed_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\LabFixed_BS3.mwm" />
+      </BuildProgressModels>
       <BlockPairName>Forschungslabor</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>40</BuildTimeSeconds>
@@ -2871,7 +2868,7 @@
         <SubtypeId>VerbrauchsmaterialAssembler</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_VerbrauchsmaterialAssembler</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Plattenpresse.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\tool_assembler.dds</Icon>
       <Description>Description_VerbrauchsmaterialAssembler</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
