@@ -1163,7 +1163,7 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PenetratiumPlate" Count="10">
+        <Component Subtype="SteelPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -1231,20 +1231,20 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="GoldMotor" Count="15">
+        <Component Subtype="Motor" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PenetratiumPlate" Count="10">
+        <Component Subtype="SteelPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="GoldMotor" Index="0" />
+      <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\LG_Milestone.mwm" />
       </BuildProgressModels>
@@ -1305,20 +1305,20 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PlatinMotor" Count="20">
+        <Component Subtype="GoldMotor" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PenetratiumPlate" Count="10">
+        <Component Subtype="SteelPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="PlatinMotor" Index="0" />
+      <CriticalComponent Subtype="GoldMotor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\LG_Milestone.mwm" />
       </BuildProgressModels>
@@ -1379,20 +1379,20 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="TitanMotor" Count="25">
+        <Component Subtype="PlatinMotor" Count="25">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PenetratiumPlate" Count="10">
+        <Component Subtype="SteelPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="TitanMotor" Index="0" />
+      <CriticalComponent Subtype="PlatinMotor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\LG_Milestone.mwm" />
       </BuildProgressModels>
