@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-  <!--Large-->
+    <!--Large-->
 
     <!--Suspension3x3-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -116,6 +116,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--Suspension5x5-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -226,6 +229,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large3X</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--Suspension1x1-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -338,6 +344,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Suspension3x3mirrored-->
@@ -453,6 +462,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--Suspension5x5mirrored-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -563,6 +575,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large3X</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--Suspension1x1mirrored-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -675,6 +690,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
 
     <!--RealWheel1x1-->
@@ -759,6 +777,9 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--RealWheel 3x3-->
@@ -842,6 +863,9 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--RealWheel5x5-->
@@ -926,6 +950,9 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--RealWheel1x1mirrored-->
@@ -1009,6 +1036,9 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--RealWheelmirrored 3x3-->
@@ -1092,6 +1122,9 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--RealWheel5x5mirrored-->
@@ -1175,6 +1208,9 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Wheel1x1-->
@@ -1260,6 +1296,9 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Wheel3x3-->
@@ -1344,6 +1383,9 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--Wheel5x5-->
     <Definition>
@@ -1428,12 +1470,15 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
 
 
 
 
-  <!--Small-->
+    <!--Small-->
 
     <!--SmallSuspension1x1-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -1539,6 +1584,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--SmallSuspension3x3-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -1643,6 +1691,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--SmallSuspension5x5-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -1746,6 +1797,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--SmallSuspension1x1mirrored-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -1851,6 +1905,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--SmallSuspension3x3mirrored-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -1956,6 +2013,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--SmallSuspension5x5mirrored-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
@@ -2059,6 +2119,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
 
     <!--SmallRealWheel1x1-->
@@ -2142,6 +2205,9 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallRealWheel 3x3-->
@@ -2224,6 +2290,9 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallRealWheel5x5-->
@@ -2306,6 +2375,9 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallRealWheel1x1mirrored-->
@@ -2389,6 +2461,9 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallRealWheelmirrored 3x3-->
@@ -2471,6 +2546,9 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallRealWheel5x5mirrored-->
@@ -2554,6 +2632,9 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallWheel1x1-->
@@ -2638,6 +2719,9 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallWheel3x3-->
@@ -2721,6 +2805,9 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
     <!--SmallWheel5x5-->
     <Definition>
@@ -2804,6 +2891,9 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
   </CubeBlocks>
 </Definitions>

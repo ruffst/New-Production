@@ -89,6 +89,10 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>100</PCU>
+
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallWarhead-->
@@ -170,6 +174,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--LargeDecoy-->
@@ -255,6 +262,11 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+        <string>Propulsion</string>
+        <string>PowerSystems</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--SmallDecoy-->
@@ -331,6 +343,11 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <PCU>50</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+        <string>Propulsion</string>
+        <string>PowerSystems</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
     </Definition>
 
@@ -454,6 +471,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>225</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
       <AmmoPullAmountPerTick>3</AmmoPullAmountPerTick>
       <InventoryFillFactorMin>.25</InventoryFillFactorMin>
@@ -585,6 +605,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>225</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
       <AmmoPullAmountPerTick>3</AmmoPullAmountPerTick>
       <InventoryFillFactorMin>.25</InventoryFillFactorMin>
       <InventoryFillFactorMax>.5</InventoryFillFactorMax>
@@ -713,6 +736,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>275</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
       <AmmoPullAmountPerTick>3</AmmoPullAmountPerTick>
       <InventoryFillFactorMin>.25</InventoryFillFactorMin>
@@ -845,6 +871,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>100</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
       <AmmoPullAmountPerTick>3</AmmoPullAmountPerTick>
       <InventoryFillFactorMin>.25</InventoryFillFactorMin>
       <InventoryFillFactorMax>.5</InventoryFillFactorMax>
@@ -967,6 +996,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>125</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
       <IsAirTight>false</IsAirTight>
       <AmmoPullAmountPerTick>3</AmmoPullAmountPerTick>
       <InventoryFillFactorMin>.25</InventoryFillFactorMin>
@@ -1068,6 +1100,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>425</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
     </Definition>
     <!--LargeMissileLauncher-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
@@ -1160,6 +1195,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>825</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
     </Definition>
     <!--SmallRocketLauncherReload-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
@@ -1263,6 +1301,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>425</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
       <MirroringZ>Y</MirroringZ>
     </Definition>
     <!--SmallGatlingGun-->
@@ -1355,6 +1396,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>80</PCU>
+      <TargetingGroups>
+        <string>Weapons</string>
+      </TargetingGroups>
       <InventoryFillFactorMin>.6</InventoryFillFactorMin>
     </Definition>
   </CubeBlocks>
