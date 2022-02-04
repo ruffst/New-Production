@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
+
+        <!--BridgeWindow1x1Slope-->
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
@@ -51,7 +54,7 @@
             <IsAirTight>true</IsAirTight>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--BridgeWindow1x1Face-->
         <Definition>
             <Id>
                 <TypeId>CubeBlock</TypeId>
@@ -105,7 +108,7 @@
             <PCU>1</PCU>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--PassengerBench-->
         <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
             <Id>
                 <TypeId>Cockpit</TypeId>
@@ -168,7 +171,7 @@
             <IsAirTight>false</IsAirTight>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--LargeLightPanel-->
         <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
             <Id>
                 <TypeId>InteriorLight</TypeId>
@@ -221,7 +224,7 @@
             <PCU>25</PCU>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallLightPanel-->
         <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
             <Id>
                 <TypeId>InteriorLight</TypeId>
@@ -274,7 +277,7 @@
             <PCU>25</PCU>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--LargeBlockSmallGeneratorWarfare2-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
@@ -363,7 +366,7 @@
             </TargetingGroups>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--LargeBlockLargeGeneratorWarfare2-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
@@ -457,7 +460,7 @@
             </TargetingGroups>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallBlockSmallGeneratorWarfare2-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
@@ -551,7 +554,7 @@
             </TargetingGroups>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallBlockLargeGeneratorWarfare2-->
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
@@ -645,7 +648,7 @@
             </TargetingGroups>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--AirtightHangarDoorWarfare2A-->
         <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
             <Id>
                 <TypeId>AirtightHangarDoor</TypeId>
@@ -704,7 +707,7 @@
             <PCU>115</PCU>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--AirtightHangarDoorWarfare2B-->
         <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
             <Id>
                 <TypeId>AirtightHangarDoor</TypeId>
@@ -763,7 +766,7 @@
             <PCU>115</PCU>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--AirtightHangarDoorWarfare2C-->
         <Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
             <Id>
                 <TypeId>AirtightHangarDoor</TypeId>
@@ -822,7 +825,7 @@
             <PCU>115</PCU>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallMissileLauncherWarfare2-->
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallMissileLauncher</TypeId>
@@ -876,7 +879,7 @@
             </TargetingGroups>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallGatlingGunWarfare2-->
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallGatlingGun</TypeId>
@@ -931,7 +934,7 @@
             </TargetingGroups>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--LargeBlockBatteryBlockWarfare2-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
@@ -995,7 +998,7 @@
             </TargetingGroups>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallBlockBatteryBlockWarfare2-->
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
@@ -1064,7 +1067,7 @@
             </TargetingGroups>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SlidingHatchDoor-->
         <Definition xsi:type="MyObjectBuilder_DoorDefinition">
             <Id>
                 <TypeId>Door</TypeId>
@@ -1132,7 +1135,7 @@
             <DepressurizationEffectOffset x="0" y="1.25" z ="0" />
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SlidingHatchDoorHalf-->
         <Definition xsi:type="MyObjectBuilder_DoorDefinition">
             <Id>
                 <TypeId>Door</TypeId>
@@ -1199,7 +1202,7 @@
             <DepressurizationEffectOffset x="0" y="1.25" z ="0" />
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallSearchlight-->
         <Definition xsi:type="MyObjectBuilder_SearchlightDefinition">
             <Id>
                 <TypeId>Searchlight</TypeId>
@@ -1293,7 +1296,7 @@
             <LightShaftOffset>-0.2</LightShaftOffset>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--LargeSearchlight-->
         <Definition xsi:type="MyObjectBuilder_SearchlightDefinition">
             <Id>
                 <TypeId>Searchlight</TypeId>
@@ -1388,7 +1391,7 @@
             <LightShaftOffset>-0.4</LightShaftOffset>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--LargeHeatVentBlock-->
         <Definition xsi:type="MyObjectBuilder_HeatVentBlockDefinition">
             <Id>
                 <TypeId>HeatVentBlock</TypeId>
@@ -1456,7 +1459,7 @@
             <IdleSound>BlockOxyGenIdle</IdleSound>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallHeatVentBlock-->
         <Definition xsi:type="MyObjectBuilder_HeatVentBlockDefinition">
             <Id>
                 <TypeId>HeatVentBlock</TypeId>
@@ -1522,7 +1525,7 @@
             <LightOffsetBounds Min="0" Max="5" Default="0.5" />
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallBlockStandingCockpit-->
         <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
             <Id>
                 <TypeId>Cockpit</TypeId>
@@ -1564,7 +1567,7 @@
                 <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Small" TextureResolution="512" ScreenWidth="3" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
                 <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="2" Script="TSS_Velocity"/>
                 <!--
-                <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon"  />
+                <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
                 -->
             </ScreenAreas>
             <VoxelPlacement>
@@ -1595,7 +1598,7 @@
             <DLC>Warfare2</DLC>
             <HasInventory>false</HasInventory>
         </Definition>
-
+        <!--LargeBlockStandingCockpit-->
         <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
             <Id>
                 <TypeId>Cockpit</TypeId>
@@ -1636,7 +1639,7 @@
                 <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Small" TextureResolution="512" ScreenWidth="3" ScreenHeight="1" Script="TSS_EnergyHydrogen" />
                 <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="5" ScreenHeight="2" Script="TSS_Velocity"/>
                 <!--
-                <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon"  />
+                <ScreenArea Name="TransparentScreenArea" DisplayName="TransparentScreenArea" TextureResolution="512" ScreenWidth="2" ScreenHeight="1" Script="TSS_ArtificialHorizon" />
                 -->
             </ScreenAreas>
             <VoxelPlacement>
@@ -1667,7 +1670,7 @@
             <IsAirTight>false</IsAirTight>
             <DLC>Warfare2</DLC>
         </Definition>
-
+        <!--SmallBlockSmallModularThruster-->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1765,7 +1768,7 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
-
+        <!--SmallBlockLargeModularThruster-->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1866,7 +1869,7 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
-
+        <!--LargeBlockSmallModularThruster-->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -1964,7 +1967,7 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
-
+        <!--LargeBlockLargeModularThruster-->
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
@@ -2065,7 +2068,7 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
-        
-        
+
+
     </CubeBlocks>
 </Definitions>
