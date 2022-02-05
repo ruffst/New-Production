@@ -71,6 +71,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
       <MaxPowerOutput>8</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>8</RequiredPowerInput>
@@ -161,6 +164,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
       <MaxPowerOutput>24</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>24</RequiredPowerInput>
@@ -254,6 +260,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
       <MaxPowerOutput>16</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>16</RequiredPowerInput>
@@ -344,6 +353,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>90</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
       <MaxPowerOutput>48</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>48</RequiredPowerInput>
@@ -437,6 +449,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>68</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
       <MaxPowerOutput>32</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>32</RequiredPowerInput>
@@ -527,6 +542,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>135</BuildTimeSeconds>
       <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
       <MaxPowerOutput>96</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>96</RequiredPowerInput>

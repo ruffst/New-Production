@@ -14,6 +14,12 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
+    <LeakPercent>0.0025</LeakPercent>
+    <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+    <GasExplosionNeededVolumeToReachMaxRadius>15000000</GasExplosionNeededVolumeToReachMaxRadius>
+    <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+    <GasExplosionSound>ArcHydrogenExplosion</GasExplosionSound>
+    <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -123,6 +129,12 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
+    <LeakPercent>0.0025</LeakPercent>
+    <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+    <GasExplosionNeededVolumeToReachMaxRadius>15000000</GasExplosionNeededVolumeToReachMaxRadius>
+    <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+    <GasExplosionSound>ArcHydrogenExplosion</GasExplosionSound>
+    <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
@@ -226,6 +238,12 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank_Gold.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <CubeSize>Small</CubeSize>
+      <LeakPercent>0.005</LeakPercent>
+      <GasExplosionMaxRadius>5</GasExplosionMaxRadius>
+      <GasExplosionNeededVolumeToReachMaxRadius>500000</GasExplosionNeededVolumeToReachMaxRadius>
+      <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+      <GasExplosionSound>WepSmallWarheadExpl</GasExplosionSound>
+      <GasExplosionEffect>Explosion_Warhead_02</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <Public>true</Public>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -348,6 +366,12 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
+      <LeakPercent>0.005</LeakPercent>
+      <GasExplosionMaxRadius>5</GasExplosionMaxRadius>
+      <GasExplosionNeededVolumeToReachMaxRadius>500000</GasExplosionNeededVolumeToReachMaxRadius>
+      <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+      <GasExplosionSound>WepSmallWarheadExpl</GasExplosionSound>
+      <GasExplosionEffect>Explosion_Warhead_02</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="2" z="1" />
@@ -453,6 +477,12 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
+    <LeakPercent>0.0025</LeakPercent>
+    <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+    <GasExplosionNeededVolumeToReachMaxRadius>15000000</GasExplosionNeededVolumeToReachMaxRadius>
+    <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+    <GasExplosionSound>ArcHydrogenExplosion</GasExplosionSound>
+    <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -562,6 +592,12 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
+    <LeakPercent>0.0025</LeakPercent>
+    <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+    <GasExplosionNeededVolumeToReachMaxRadius>15000000</GasExplosionNeededVolumeToReachMaxRadius>
+    <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+    <GasExplosionSound>ArcHydrogenExplosion</GasExplosionSound>
+    <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
@@ -665,6 +701,12 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank_Platin.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <CubeSize>Small</CubeSize>
+      <LeakPercent>0.005</LeakPercent>
+      <GasExplosionMaxRadius>5</GasExplosionMaxRadius>
+      <GasExplosionNeededVolumeToReachMaxRadius>500000</GasExplosionNeededVolumeToReachMaxRadius>
+      <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+      <GasExplosionSound>WepSmallWarheadExpl</GasExplosionSound>
+      <GasExplosionEffect>Explosion_Warhead_02</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <Public>true</Public>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -787,6 +829,12 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
+      <LeakPercent>0.005</LeakPercent>
+      <GasExplosionMaxRadius>5</GasExplosionMaxRadius>
+      <GasExplosionNeededVolumeToReachMaxRadius>500000</GasExplosionNeededVolumeToReachMaxRadius>
+      <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+      <GasExplosionSound>WepSmallWarheadExpl</GasExplosionSound>
+      <GasExplosionEffect>Explosion_Warhead_02</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="2" z="1" />
@@ -892,6 +940,12 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
+    <LeakPercent>0.0025</LeakPercent>
+    <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+    <GasExplosionNeededVolumeToReachMaxRadius>15000000</GasExplosionNeededVolumeToReachMaxRadius>
+    <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+    <GasExplosionSound>ArcHydrogenExplosion</GasExplosionSound>
+    <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -1001,6 +1055,12 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
+    <LeakPercent>0.0025</LeakPercent>
+    <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+    <GasExplosionNeededVolumeToReachMaxRadius>15000000</GasExplosionNeededVolumeToReachMaxRadius>
+    <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+    <GasExplosionSound>ArcHydrogenExplosion</GasExplosionSound>
+    <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
@@ -1104,6 +1164,12 @@
       <Icon>Textures\GUI\Icons\Cubes\HydrogenTank_Titan.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <CubeSize>Small</CubeSize>
+      <LeakPercent>0.005</LeakPercent>
+      <GasExplosionMaxRadius>5</GasExplosionMaxRadius>
+      <GasExplosionNeededVolumeToReachMaxRadius>500000</GasExplosionNeededVolumeToReachMaxRadius>
+      <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+      <GasExplosionSound>WepSmallWarheadExpl</GasExplosionSound>
+      <GasExplosionEffect>Explosion_Warhead_02</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <Public>true</Public>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1226,6 +1292,12 @@
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
+      <LeakPercent>0.005</LeakPercent>
+      <GasExplosionMaxRadius>5</GasExplosionMaxRadius>
+      <GasExplosionNeededVolumeToReachMaxRadius>500000</GasExplosionNeededVolumeToReachMaxRadius>
+      <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+      <GasExplosionSound>WepSmallWarheadExpl</GasExplosionSound>
+      <GasExplosionEffect>Explosion_Warhead_02</GasExplosionEffect>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="2" z="1" />

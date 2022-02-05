@@ -481,6 +481,9 @@
       <MaxPowerConsumption>1.05</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>960000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -598,6 +601,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>196800</ForceMagnitude>
       <FuelConverter>
         <FuelId>
@@ -740,6 +746,9 @@
       <MaxPowerConsumption>13.1250</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>14400000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -859,6 +868,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>2160000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
@@ -1384,6 +1396,9 @@
       <MaxPowerConsumption>1.8375</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>1920000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -1501,6 +1516,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>23</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>393600</ForceMagnitude>
       <FuelConverter>
         <FuelId>
@@ -1643,6 +1661,9 @@
       <MaxPowerConsumption>22.9688</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>28800000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -1762,6 +1783,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>90</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>4320000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
@@ -2287,6 +2311,9 @@
       <MaxPowerConsumption>3.2156</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>3840000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -2404,6 +2431,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>34</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>787200</ForceMagnitude>
       <FuelConverter>
         <FuelId>
@@ -2546,6 +2576,9 @@
       <MaxPowerConsumption>40.1953</MaxPowerConsumption>
       <MinPowerConsumption>0.000000001</MinPowerConsumption>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>57600000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -2665,6 +2698,9 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>135</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <ForceMagnitude>8640000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
