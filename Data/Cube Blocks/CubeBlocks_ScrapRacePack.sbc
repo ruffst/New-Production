@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-    <!--SmallExhaustPipe--> 
+    <!--SmallExhaustPipe-->
     <Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
       <Id>
         <TypeId>ExhaustBlock</TypeId>
@@ -87,7 +88,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <!--LargeExhaustPipe--> 
+    <!--LargeExhaustPipe-->
     <Definition xsi:type="MyObjectBuilder_ExhaustBlockDefinition">
       <Id>
         <TypeId>ExhaustBlock</TypeId>
@@ -174,7 +175,7 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <!--BuggyCockpit--> 
+    <!--BuggyCockpit-->
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
@@ -191,6 +192,7 @@
       <PrimarySound>BlockCockpitFlightSeat</PrimarySound>
       <CharacterAnimation>BuggyCockpitPose</CharacterAnimation>
       <UsesDeformation>false</UsesDeformation>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <Components>
         <Component Subtype="InteriorPlate" Count="10">
           <DeconstructId>
@@ -295,7 +297,7 @@
       <IsAirTight>false</IsAirTight>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <!--Viewport1--> 
+    <!--Viewport1-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -358,7 +360,7 @@
       <PCU>1</PCU>
       <DLC>ScrapRace</DLC>
     </Definition>
-    <!--Viewport2--> 
+    <!--Viewport2-->
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
@@ -1057,8 +1059,8 @@
       <DLC>ScrapRace</DLC>
     </Definition>
 
-  <!--Räder--> 
-   <!--Large--> 
+    <!--Räder-->
+    <!--Large-->
     <!--OffroadSuspension3x3-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
@@ -1154,6 +1156,9 @@
       <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <PropulsionForce>60000</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <RotorPart>OffroadRealWheel</RotorPart>
       <!-- The max angle (radians) that steer angle slider can go to. -->
       <MaxSteer>0.8</MaxSteer>
@@ -1269,6 +1274,9 @@
       <RequiredPowerInput>1.5</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <PropulsionForce>100000</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <RotorPart>OffroadRealWheel5x5</RotorPart>
@@ -1386,6 +1394,9 @@
       <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <PropulsionForce>20000</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <RotorPart>OffroadRealWheel1x1</RotorPart>
       <MinHeight>-1.5</MinHeight>
       <MaxHeight>1.3</MaxHeight>
@@ -1501,6 +1512,9 @@
       <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <PropulsionForce>60000</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <RotorPart>OffroadRealWheelmirrored</RotorPart>
       <!-- The max angle (radians) that steer angle slider can go to. -->
       <MaxSteer>0.8</MaxSteer>
@@ -1616,6 +1630,9 @@
       <RequiredPowerInput>1.5</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <PropulsionForce>100000</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <RotorPart>OffroadRealWheel5x5mirrored</RotorPart>
@@ -1733,6 +1750,9 @@
       <MaxForceMagnitude>1.0E9</MaxForceMagnitude>
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <PropulsionForce>20000</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <RotorPart>OffroadRealWheel1x1mirrored</RotorPart>
       <MinHeight>-1.5</MinHeight>
       <MaxHeight>1.3</MaxHeight>
@@ -2540,7 +2560,7 @@
     </Definition>
 
 
-   <!--Small--> 
+    <!--Small-->
     <!--OffroadSmallSuspension1x1-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
@@ -2631,6 +2651,9 @@
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <RotorPart>OffroadSmallRealWheel1x1</RotorPart>
       <PropulsionForce>120</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <MinHeight>-0.32</MinHeight>
       <MaxHeight>0.26</MaxHeight>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -2648,7 +2671,7 @@
       <Public>true</Public>
       <InventoryMaxVolume>1.0</InventoryMaxVolume>
       <DLC>ScrapRace</DLC>
-    </Definition>  
+    </Definition>
     <!--OffroadSmallSuspension3x3-->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
@@ -2738,6 +2761,9 @@
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <RotorPart>OffroadSmallRealWheel</RotorPart>
       <PropulsionForce>1920</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <MinHeight>-0.32</MinHeight>
       <MaxHeight>0.26</MaxHeight>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -2845,6 +2871,9 @@
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <RotorPart>OffroadSmallRealWheel5x5</RotorPart>
       <PropulsionForce>4800</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <MinHeight>-0.5</MinHeight>
       <MaxHeight>0.35</MaxHeight>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -2953,6 +2982,9 @@
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <RotorPart>OffroadSmallRealWheel1x1mirrored</RotorPart>
       <PropulsionForce>120</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <MinHeight>-0.32</MinHeight>
       <MaxHeight>0.26</MaxHeight>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -3060,6 +3092,9 @@
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <RotorPart>OffroadSmallRealWheelmirrored</RotorPart>
       <PropulsionForce>1920</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <MinHeight>-0.32</MinHeight>
       <MaxHeight>0.26</MaxHeight>
       <GuiVisible>false</GuiVisible>
@@ -3167,6 +3202,9 @@
       <DangerousTorqueThreshold>3.36E7</DangerousTorqueThreshold>
       <RotorPart>OffroadSmallRealWheel5x5mirrored</RotorPart>
       <PropulsionForce>4800</PropulsionForce>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
       <MinHeight>-0.5</MinHeight>
       <MaxHeight>0.35</MaxHeight>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
     <!-- Decorative Blocks -->
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -76,6 +77,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
@@ -157,6 +159,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
@@ -237,6 +240,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -317,6 +321,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -481,6 +486,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <OxygenCapacity>1</OxygenCapacity>
@@ -784,6 +790,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>
@@ -866,6 +873,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>15</BuildTimeSeconds>
@@ -1035,11 +1043,15 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>&gt;
-      <BuildTimeSeconds>14</BuildTimeSeconds><PCU>15</PCU><DLC>DecorativeBlocks</DLC></Definition>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <PCU>15</PCU>
+      <DLC>DecorativeBlocks</DLC>
+    </Definition>
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
@@ -1128,11 +1140,15 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>&gt;
-      <BuildTimeSeconds>15</BuildTimeSeconds><PCU>15</PCU><DLC>DecorativeBlocks</DLC></Definition>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <PCU>15</PCU>
+      <DLC>DecorativeBlocks</DLC>
+    </Definition>
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
@@ -1215,6 +1231,7 @@
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>false</EnableShipControl>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <TargetLockingEnabled>false</TargetLockingEnabled>
       <IsPressurized>false</IsPressurized>
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>14</BuildTimeSeconds>

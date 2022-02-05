@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
     <!--FoodDispenser-->
     <Definition xsi:type="MyObjectBuilder_VendingMachineDefinition">
@@ -1839,6 +1840,8 @@
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0002</RequiredPowerInput>
       <Flare>SpotlightSmall</Flare>
+      <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+      <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
       <ReflectorThickness>5.0</ReflectorThickness>
       <ReflectorTexture>Textures\Lights\reflector.dds</ReflectorTexture>
       <ReflectorConeDegrees>40</ReflectorConeDegrees>
@@ -1919,6 +1922,8 @@
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0.0002</RequiredPowerInput>
       <Flare>SpotlightSmall</Flare>
+      <PointLightEmissiveMaterial>Emissive</PointLightEmissiveMaterial>
+      <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
       <ReflectorThickness>5.0</ReflectorThickness>
       <ReflectorTexture>Textures\Lights\reflector.dds</ReflectorTexture>
       <ReflectorConeDegrees>40</ReflectorConeDegrees>

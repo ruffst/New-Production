@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-<!-- Control Panels -->
+    <!-- Control Panels -->
 
     <!-- ControlPanel -->
     <Definition>
@@ -135,7 +136,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 
-<!-- Region Cockpits -->
+    <!-- Region Cockpits -->
 
     <!-- LargeBlockCockpit -->
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
@@ -236,6 +237,7 @@
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
       <IsPressurized>false</IsPressurized>
       <DeformationRatio>0.2</DeformationRatio>
@@ -363,6 +365,7 @@
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -487,6 +490,7 @@
       <EdgeType>Light</EdgeType>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -505,7 +509,7 @@
       </RaycastOffset>
       <PCU>150</PCU>
     </Definition>
-    <!-- DBSmallBlockFighterCockpit -->   
+    <!-- DBSmallBlockFighterCockpit -->
     <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
       <Id>
         <TypeId>Cockpit</TypeId>
@@ -633,6 +637,7 @@
       <EdgeType>Light</EdgeType>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
       <DeformationRatio>0.2</DeformationRatio>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -750,6 +755,7 @@
       <MirroringY>Z</MirroringY>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
       <IsPressurized>false</IsPressurized>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -872,6 +878,7 @@
       <MirroringY>Z</MirroringY>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <EnableBuilderCockpit>true</EnableBuilderCockpit>
       <IsPressurized>false</IsPressurized>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
@@ -982,6 +989,7 @@
       <EdgeType>Light</EdgeType>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
       <IsPressurized>false</IsPressurized>
       <BuildTimeSeconds>20</BuildTimeSeconds>
@@ -1090,6 +1098,7 @@
       <EdgeType>Light</EdgeType>
       <EnableFirstPerson>true</EnableFirstPerson>
       <EnableShipControl>true</EnableShipControl>
+      <TargetLockingEnabled>true</TargetLockingEnabled>
       <EnableBuilderCockpit>false</EnableBuilderCockpit>
       <IsPressurized>false</IsPressurized>
       <BuildTimeSeconds>32</BuildTimeSeconds>
@@ -1099,7 +1108,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
 
-<!-- Gyros -->
+    <!-- Gyros -->
 
     <!-- LargeBlockGyro -->
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
