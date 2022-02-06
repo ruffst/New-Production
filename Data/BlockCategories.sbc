@@ -36,6 +36,15 @@
         <string>Reactor/KohlenstoffReactorLarge</string>
         <string>Refinery/VoidMiner</string>  
 
+        <string>CubeBlock/BridgeWindow1x1Slope</string>
+        <string>CubeBlock/BridgeWindow1x1Face</string>
+        <string>InteriorLight/LargeLightPanel</string>
+        <string>Reactor/LargeBlockLargeGeneratorWarfare2</string>
+        <string>Reactor/LargeBlockSmallGeneratorWarfare2</string>
+        <string>AirtightHangarDoor/AirtightHangarDoorWarfare2A</string>
+        <string>AirtightHangarDoor/AirtightHangarDoorWarfare2B</string>
+        <string>AirtightHangarDoor/AirtightHangarDoorWarfare2C</string>
+
         <string>ConveyorConnector/PipeX1</string>
         <string>ConveyorConnector/PipeX3</string>
         <string>ConveyorConnector/PipeX5</string>
@@ -540,6 +549,10 @@
         <string>Beacon/DeleteProtektionSmall</string>
         <string>JumpDrive/SmallJumpDrive</string>
         <string>Reactor/KohlenstofReactorSmall</string>
+        <string>Cockpit/PassengerBench</string>
+        <string>InteriorLight/SmallLightPanel</string>
+        <string>Reactor/SmallBlockLargeGeneratorWarfare2</string>
+        <string>Reactor/SmallBlockSmallGeneratorWarfare2</string>
 
         <string>MotorAdvancedStator/SmallAdvancedStator</string>
         <string>MotorAdvancedStator/MediumHinge</string>
@@ -1992,6 +2005,46 @@
         <string>CubeBlock/SmallGridBeamBlockTJunction</string>
 
       </ItemIds>
+    </Category>
+  <!--WarfarePack2-->
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+            <TypeId>GuiBlockCategoryDefinition</TypeId>
+            <SubtypeId/>
+        </Id>
+        <DisplayName>DisplayName_DLC_Warfare2DLC</DisplayName>
+        <Name>WarfarePack2</Name>
+        <StrictSearch>true</StrictSearch>
+        <ItemIds>
+            <string>CubeBlock/BridgeWindow1x1Slope</string>
+            <string>CubeBlock/BridgeWindow1x1Face</string>
+            <string>Cockpit/PassengerBench</string>
+            <string>InteriorLight/LargeLightPanel</string>
+            <string>InteriorLight/SmallLightPanel</string>
+            <string>Reactor/LargeBlockLargeGeneratorWarfare2</string>
+            <string>Reactor/LargeBlockSmallGeneratorWarfare2</string>
+            <string>Reactor/SmallBlockLargeGeneratorWarfare2</string>
+            <string>Reactor/SmallBlockSmallGeneratorWarfare2</string>
+            <string>AirtightHangarDoor/AirtightHangarDoorWarfare2A</string>
+            <string>AirtightHangarDoor/AirtightHangarDoorWarfare2B</string>
+            <string>AirtightHangarDoor/AirtightHangarDoorWarfare2C</string>
+            <string>SmallMissileLauncher/SmallMissileLauncherWarfare2</string>
+            <string>SmallGatlingGun/SmallGatlingGunWarfare2</string>
+            <string>BatteryBlock/LargeBlockBatteryBlockWarfare2</string>
+            <string>BatteryBlock/SmallBlockSmallBatteryBlockWarfare2</string>
+            <string>Door/SlidingHatchDoor</string>
+            <string>Door/SlidingHatchDoorHalf</string>
+            <string>Searchlight/LargeSearchlight</string>
+            <string>Searchlight/SmallSearchlight</string>
+            <string>HeatVentBlock/LargeHeatVentBlock</string>
+            <string>HeatVentBlock/SmallHeatVentBlock</string>
+            <string>Cockpit/LargeBlockStandingCockpit</string>
+            <string>Cockpit/SmallBlockStandingCockpit</string>
+            <string>Thrust/LargeBlockLargeModularThruster</string>
+            <string>Thrust/LargeBlockSmallModularThruster</string>
+            <string>Thrust/SmallBlockLargeModularThruster</string>
+            <string>Thrust/SmallBlockSmallModularThruster</string>
+        </ItemIds>
     </Category>
 
   </CategoryClasses>

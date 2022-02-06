@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+    <!--SmallBlockAutocannon-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallGatlingGun</TypeId>
@@ -79,7 +80,7 @@
       </BuildProgressModels>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
-      <BlockPairName>Autocannon</BlockPairName>
+      <BlockPairName>SmallBlockAutocannon</BlockPairName>
       <Center x="0" y="0" z="4" />
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
@@ -95,6 +96,7 @@
         <string>Weapons</string>
       </TargetingGroups>
     </Definition>
+    <!--SmallBlockMediumCalibreGun-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncherReload</TypeId>
@@ -167,7 +169,7 @@
       </BuildProgressModels>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
-      <BlockPairName>MediumCalibreGun</BlockPairName>
+      <BlockPairName>SmallBlockMediumCalibreGun</BlockPairName>
       <Center x="0" y="0" z="7" />
       <BuildTimeSeconds>26</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
@@ -183,6 +185,7 @@
         <string>Weapons</string>
       </TargetingGroups>
     </Definition>
+    <!--LargeBlockLargeCalibreGun-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncher</TypeId>
@@ -255,7 +258,7 @@
       </BuildProgressModels>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
-      <BlockPairName>LargeCalibreGun</BlockPairName>
+      <BlockPairName>LargeBlockLargeCalibreGun</BlockPairName>
       <Center x="0" y="0" z="3" />
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
@@ -282,6 +285,7 @@
         <Z>4</Z>
       </DamageEffectOffset>
     </Definition>
+    <!--LargeRailgun-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncherReload</TypeId>
@@ -360,7 +364,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\RailGunConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\RailGunConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Railgun</BlockPairName>
+      <BlockPairName>LargeRailgun</BlockPairName>
       <Center x="0" y="1" z="6" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -381,6 +385,7 @@
         <string>Weapons</string>
       </TargetingGroups>
     </Definition>
+    <!--SmallRailgun-->
     <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
       <Id>
         <TypeId>SmallMissileLauncherReload</TypeId>
@@ -458,7 +463,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\RailGunConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\RailGunConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Railgun</BlockPairName>
+      <BlockPairName>SmallRailgun</BlockPairName>
       <Center x="0" y="1" z="6" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -478,6 +483,7 @@
         <string>Weapons</string>
       </TargetingGroups>
     </Definition>
+    <!--LargeCalibreTurret-->
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
@@ -620,6 +626,7 @@
         <Z>0</Z>
       </AimingOffset>
     </Definition>
+    <!--LargeBlockMediumCalibreTurret-->
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
@@ -716,7 +723,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>MediumCalibreTurret</BlockPairName>
+      <BlockPairName>LargeBlockMediumCalibreTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -757,6 +764,7 @@
       <UpCameraOffset>1.0</UpCameraOffset>
       <ForwardCameraOffset>0.5</ForwardCameraOffset>
     </Definition>
+    <!--SmallBlockMediumCalibreTurret-->
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeMissileTurret</TypeId>
@@ -850,7 +858,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>MediumCalibreTurret</BlockPairName>
+      <BlockPairName>SmallBlockMediumCalibreTurret</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -891,6 +899,7 @@
       <UpCameraOffset>1.0</UpCameraOffset>
       <ForwardCameraOffset>0.5</ForwardCameraOffset>
     </Definition>
+    <!--AutoCannonTurret-->
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         <TypeId>LargeGatlingTurret</TypeId>

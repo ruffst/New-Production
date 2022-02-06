@@ -2202,7 +2202,7 @@
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallHeatVentBlock  Meilenstein_Controls-->
           <Id Type="MyObjectBuilder_HeatVentBlock" Subtype="SmallHeatVentBlock" />
           <UnlockedByGroups>
-            <GroupSubtype>Meilenstein_Controls</GroupSubtype>
+            <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockStandingCockpit  Meilenstein_Small_Controls-->
@@ -2711,6 +2711,30 @@
             <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeCalibreGun  Meilenstein_Waffen-->
+          <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="LargeBlockLargeCalibreGun" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeRailgun  Meilenstein_Waffen-->
+          <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="LargeRailgun" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeCalibreTurret  Meilenstein_Waffen-->
+          <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="LargeCalibreTurret" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockMediumCalibreTurret  Meilenstein_Waffen-->
+          <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="LargeBlockMediumCalibreTurret" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
   <!--Meilenstein_Small_Waffen-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Waffen  Forschung-->
@@ -2770,6 +2794,30 @@
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGatlingGunWarfare2  Meilenstein_Small_Waffen-->
           <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="SmallGatlingGunWarfare2" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockAutocannon  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="SmallBlockAutocannon" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockMediumCalibreGun  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="SmallBlockMediumCalibreGun" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallRailgun  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="SmallRailgun" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockMediumCalibreTurret  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_LargeMissileTurret" Subtype="SmallBlockMediumCalibreTurret" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
           </UnlockedByGroups>
