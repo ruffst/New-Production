@@ -8,7 +8,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MilestoneArmorMaterialBP</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Material Armor</DisplayName>
+      <DisplayName>DisplayName_Component_MilestoneArmorMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_armor.dds</Icon>
       <Prerequisites>
         <Item Amount="165" TypeId="Component" SubtypeId="SteelPlate" />
@@ -22,7 +22,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MilestoneEnergyMaterialBP</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Material Energie</DisplayName>
+      <DisplayName>DisplayName_Component_MilestoneEnergyMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_energy.dds</Icon>
       <Prerequisites>
         <Item Amount="70" TypeId="Component" SubtypeId="PowerCell" />
@@ -36,7 +36,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MilestoneMechanicMaterialBP</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Material Mechanik</DisplayName>
+      <DisplayName>DisplayName_Component_MilestoneMechanicMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_mech.dds</Icon>
       <Prerequisites>
         <Item Amount="65" TypeId="Component" SubtypeId="Motor" />
@@ -51,7 +51,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MilestoneElectroMaterialBP</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Material Elektrotechnik</DisplayName>
+      <DisplayName>DisplayName_Component_MilestoneElectroMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_electro.dds</Icon>
       <Prerequisites>
         <Item Amount="85" TypeId="Component" SubtypeId="Kupferdraht" />
@@ -66,7 +66,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MilestoneSpaceMaterialBP</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Material Raumfahrt</DisplayName>
+      <DisplayName>DisplayName_Component_MilestoneSpaceMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_space.dds</Icon>
       <Prerequisites>
         <Item Amount="85" TypeId="Component" SubtypeId="Kupferdraht" />
@@ -81,7 +81,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MilestoneCargoMaterialBP</SubtypeId>
       </Id>
-      <DisplayName>Meilenstein Material Lagerung</DisplayName>
+      <DisplayName>DisplayName_Component_MilestoneCargoMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\milestone_armor.dds</Icon>
       <Prerequisites>
         <Item Amount="85" TypeId="Component" SubtypeId="Kupferdraht" />
@@ -98,7 +98,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ScrapIngotToIronIngot</SubtypeId>
       </Id>
-      <DisplayName>Eisenshrott zu Eisen</DisplayName>
+      <DisplayName>DisplayName_Ore_Scrap</DisplayName>
       <Icon>Textures\GUI\Icons\component\ScrapMetalComponent.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="Scrap" />
@@ -111,7 +111,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GlassScrapToSilicon</SubtypeId>
       </Id>
-      <DisplayName>Glasscherben zu Silizuim</DisplayName>
+      <DisplayName>DisplayName_Ore_GlassScrap</DisplayName>
       <Icon>Textures\GUI\Icons\glas_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="GlassScrap" />
@@ -124,7 +124,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>BatteryScrapToIngotBP</SubtypeId>
       </Id>
-      <DisplayName>Batteriereste verwerten</DisplayName>
+      <DisplayName>DisplayName_Ore_BatteryScrap</DisplayName>
       <Icon>Textures\GUI\Icons\ore_battery_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ore" SubtypeId="BatteryScrap" />
@@ -141,7 +141,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>ElektroScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>Electroschrott verwerten</DisplayName>
+      <DisplayName>DisplayName_Ore_ElektroScrap</DisplayName>
       <Icon>Textures\GUI\Icons\ore_electronic_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ore" SubtypeId="ElektroScrap" />
@@ -159,7 +159,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AluminiumScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>Aluschrott zu Aluminiumbarren</DisplayName>
+      <DisplayName>DisplayName_Ore_AluminiumScrap</DisplayName>
       <Icon>Textures\GUI\Icons\alu_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="AluminiumScrap" />
@@ -172,7 +172,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>Titanschrott zu Titanbarren</DisplayName>
+      <DisplayName>DisplayName_Ore_TitanScrap</DisplayName>
       <Icon>Textures\GUI\Icons\titan_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="TitanScrap" />
@@ -185,7 +185,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>Platinschrott zu Platinbarren</DisplayName>
+      <DisplayName>DisplayName_Ore_PlatinScrap</DisplayName>
       <Icon>Textures\GUI\Icons\platin_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="PlatinScrap" />
@@ -198,7 +198,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>Goldschrott zu Goldbarren</DisplayName>
+      <DisplayName>DisplayName_Ore_GoldScrap</DisplayName>
       <Icon>Textures\GUI\Icons\gold_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="GoldScrap" />
@@ -211,7 +211,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CopperScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>Kupferschrott zu Kupferbarren</DisplayName>
+      <DisplayName>DisplayName_Ore_CopperScrap</DisplayName>
       <Icon>Textures\GUI\Icons\copper_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="CopperScrap" />
@@ -224,7 +224,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>LeadScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>Bleischrott zu Bleibarren</DisplayName>
+      <DisplayName>DisplayName_Ore_LeadScrap</DisplayName>
       <Icon>Textures\GUI\Icons\lead_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="LeadScrap" />
@@ -237,7 +237,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MechanicScrapToIngot</SubtypeId>
       </Id>
-      <DisplayName>Mechanikschrott verwerten</DisplayName>
+      <DisplayName>DisplayName_Ore_MechanicScrap</DisplayName>
       <Icon>Textures\GUI\Icons\mech_scrap.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ore" SubtypeId="MechanicScrap" />
@@ -258,7 +258,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>WoodLogsBP</SubtypeId>
       </Id>
-      <DisplayName>Baumstämme in Kohlenstoff</DisplayName>
+      <DisplayName>DisplayName_Ingot_Kohlenstoff</DisplayName>
       <Icon>Textures\GUI\Icons\Ingot\kohlenstoff.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="WoodLogs" />
@@ -271,7 +271,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IrontoKohlenstoff</SubtypeId>
       </Id>
-      <DisplayName>Eisen Erz in Kohlenstoff</DisplayName>
+      <DisplayName>DisplayName_Ingot_Kohlenstoff</DisplayName>
       <Icon>Textures\GUI\Icons\Ingot\kohlenstoff.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="Iron" />
@@ -284,7 +284,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlasticBP</SubtypeId>
       </Id>
-      <DisplayName>Plastik</DisplayName>
+      <DisplayName>DisplayName_Ingot_Plastic</DisplayName>
       <Icon>Textures\GUI\Icons\component\plastic.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Kohlenstoff" />
@@ -297,7 +297,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Stein zu Eisen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Iron</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
         <Item Amount="500" TypeId="Ore" SubtypeId="Stone" />
@@ -318,7 +318,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneIngotToOxyde</SubtypeId>
       </Id>
-      <DisplayName>Stein zu Eisen 2</DisplayName>
+      <DisplayName>DisplayName_Ingot_Iron</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ingot" SubtypeId="Stone" />
@@ -334,7 +334,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngotBasic</SubtypeId>
       </Id>
-      <DisplayName>Stein zu Eisen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Iron</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
@@ -356,7 +356,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>StoneOreToIngot_Deconstruction</SubtypeId>
       </Id>
-      <DisplayName>Stein zu Schotter</DisplayName>
+      <DisplayName>DisplayName_Ingot_Stone</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Stone" />
@@ -372,7 +372,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Nickel3AluBP</SubtypeId>
       </Id>
-      <DisplayName>Nickel+Alu verschmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Nickel3Alu</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\nickel3_aluminum.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
@@ -387,7 +387,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Nickel3TinBP</SubtypeId>
       </Id>
-      <DisplayName>Nickel+Titan verschmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Nickel3Tin</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\nickel3_titan_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
@@ -402,7 +402,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IronOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Eisen schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Iron</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Iron" />
@@ -416,7 +416,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IronOreToIngot2</SubtypeId>
       </Id>
-      <DisplayName>Eisen schmelzen2</DisplayName>
+      <DisplayName>DisplayName_Ingot_Iron</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Iron" />
@@ -466,7 +466,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Nickel schmelzen</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
+      <DisplayName>DisplayName_Ingot_Nickel</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Nickel" />
@@ -479,7 +479,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CobaltOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Kobalt schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Cobalt</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Cobalt" />
@@ -492,7 +492,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MagnesiumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Magnesium schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Magnesium</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Magnesium" />
@@ -505,7 +505,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SiliconOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Silizium schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Silicon</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Silicon" />
@@ -518,7 +518,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SilverOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Silber schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Silver</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Silver" />
@@ -531,7 +531,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Gold schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Gold" />
@@ -544,7 +544,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Platin schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Platinum</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Platinum" />
@@ -557,7 +557,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>UraniumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Uran schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Uranium</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Uranium" />
@@ -570,7 +570,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CopperOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Kupfer schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Copper</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Cu_copper.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ore" SubtypeId="Copper" />
@@ -586,7 +586,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AluminumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Aluminium schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Aluminium</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Al_aluminum.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ore" SubtypeId="Aluminium" />
@@ -602,7 +602,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>LeadOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Blei schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Lead</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Pb_lead.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="Lead" />
@@ -618,7 +618,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitaniumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Titan schmelzen</DisplayName>
+      <DisplayName>DisplayName_Ingot_Titanium</DisplayName>
       <Icon>Textures\GUI\Icons\ore_Ti_titanium.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ore" SubtypeId="Titanium" />
@@ -634,7 +634,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PenetratiumOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Penetratium kristalliesieren</DisplayName>
+      <DisplayName>DisplayName_Block_VoidMiner</DisplayName>
       <Icon>Textures\GUI\Icons\ore_penetratium.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Penetratium" />
@@ -653,7 +653,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IceToOxygen</SubtypeId>
       </Id>
-      <DisplayName>Sauerstoff extrahieren</DisplayName>
+      <DisplayName>DisplayName_Item_Oxygen</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Ice" />
@@ -666,7 +666,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>OxygenBottlesRefill</SubtypeId>
       </Id>
-      <DisplayName>Sauerstoffflaschen abfüllen</DisplayName>
+      <DisplayName>DisplayName_BlueprintClass_OxygenBottles</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="OxygenContainerObject" SubtypeId="OxygenBottle" />
@@ -680,7 +680,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>OxygenBottle</SubtypeId>
       </Id>
-      <DisplayName>Sauerstoffflasche</DisplayName>
+      <DisplayName>DisplayName_BlueprintClass_OxygenBottles</DisplayName>
       <Icon>Textures\GUI\Icons\component\OxygenBottleComponent.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Ingot" SubtypeId="Iron" />
@@ -696,7 +696,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HydrogenBottlesRefill</SubtypeId>
       </Id>
-      <DisplayName>Wasserstoffflasche abfüllen</DisplayName>
+      <DisplayName>DisplayName_Item_HydrogenBottle</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="GasContainerObject" SubtypeId="HydrogenBottle" />
@@ -709,7 +709,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>HydrogenBottle</SubtypeId>
       </Id>
-      <DisplayName>Wasserstoffflasche</DisplayName>
+      <DisplayName>DisplayName_Item_HydrogenBottle</DisplayName>
       <Icon>Textures\GUI\Icons\component\HydrogenBottle_Component.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Ingot" SubtypeId="Iron" />
@@ -728,7 +728,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Construction</SubtypeId>
       </Id>
-      <DisplayName>Schrauben</DisplayName>
+      <DisplayName>DisplayName_Component_Construction</DisplayName>
       <Icon>Textures\GUI\Icons\component\screws.dds</Icon>
       <Prerequisites>
         <Item Amount="8" TypeId="Ingot" SubtypeId="Iron" />
@@ -742,7 +742,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Girder</SubtypeId>
       </Id>
-      <DisplayName>Träger</DisplayName>
+      <DisplayName>DisplayName_Component_Girder</DisplayName>
       <Icon>Textures\GUI\Icons\component\grider.dds</Icon>
       <Prerequisites>
         <Item Amount="6" TypeId="Ingot" SubtypeId="Iron" />
@@ -756,7 +756,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>MetalGrid</SubtypeId>
       </Id>
-      <DisplayName>Eisengitter</DisplayName>
+      <DisplayName>DisplayName_Component_MetalGrid</DisplayName>
       <Icon>Textures\GUI\Icons\component\metal_grid.dds</Icon>
       <Prerequisites>
 
@@ -773,7 +773,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>InteriorPlate</SubtypeId>
       </Id>
-      <DisplayName>Aluminiumplatte</DisplayName>
+      <DisplayName>DisplayName_Component_InteriorPlate</DisplayName>
       <Icon>Textures\GUI\Icons\component\alu_plate.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Ingot" SubtypeId="Aluminium" />
@@ -787,7 +787,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanPlate</SubtypeId>
       </Id>
-      <DisplayName>TitanPlate</DisplayName>
+      <DisplayName>DisplayName_Component_TitanPlate</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_plate.dds</Icon>
       <Prerequisites>
         <Item Amount="21" TypeId="Ingot" SubtypeId="Titanium" />
@@ -801,7 +801,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Bleiplatte</SubtypeId>
       </Id>
-      <DisplayName>Bleiplatte</DisplayName>
+      <DisplayName>DisplayName_Component_Bleiplatte</DisplayName>
       <Icon>Textures\GUI\Icons\component\lead_plate.dds</Icon>
       <Prerequisites>
         <Item Amount="18" TypeId="Ingot" SubtypeId="Lead" />
@@ -815,7 +815,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Kupferdraht</SubtypeId>
       </Id>
-      <DisplayName>Kupferdraht</DisplayName>
+      <DisplayName>DisplayName_Component_Kupferdraht</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_wire.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
@@ -829,7 +829,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Golddraht</SubtypeId>
       </Id>
-      <DisplayName>Golddraht</DisplayName>
+      <DisplayName>DisplayName_Component_Golddraht</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_wire.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
@@ -843,7 +843,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Platindraht</SubtypeId>
       </Id>
-      <DisplayName>Platindraht</DisplayName>
+      <DisplayName>DisplayName_Component_Platindraht</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_wire.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Platinum" />
@@ -857,7 +857,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Titandraht</SubtypeId>
       </Id>
-      <DisplayName>Titandraht</DisplayName>
+      <DisplayName>DisplayName_Component_Titandraht</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_wire.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Titanium" />
@@ -871,7 +871,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Superconductor</SubtypeId>
       </Id>
-      <DisplayName>Supraleiter</DisplayName>
+      <DisplayName>DisplayName_Component_Superconductor</DisplayName>
       <Icon>Textures\GUI\Icons\component\superconductor.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel3Alu" />
@@ -885,7 +885,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>KupferSpulle</SubtypeId>
       </Id>
-      <DisplayName>Kupfer Spule</DisplayName>
+      <DisplayName>DisplayName_Component_KupferSpulle</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_coil.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="Kupferdraht" />
@@ -899,7 +899,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldSpulle</SubtypeId>
       </Id>
-      <DisplayName>Gold Spule</DisplayName>
+      <DisplayName>DisplayName_Component_GoldSpulle</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_coil.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="Golddraht" />
@@ -913,7 +913,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinSpulle</SubtypeId>
       </Id>
-      <DisplayName>Platin Spule</DisplayName>
+      <DisplayName>DisplayName_Component_PlatinSpulle</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_coil.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="Platindraht" />
@@ -927,7 +927,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanSpulle</SubtypeId>
       </Id>
-      <DisplayName>Titan Spule</DisplayName>
+      <DisplayName>DisplayName_Component_TitanSpulle</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_coil.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="Titandraht" />
@@ -941,7 +941,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>KupferStrator</SubtypeId>
       </Id>
-      <DisplayName>Kupfer Stator</DisplayName>
+      <DisplayName>DisplayName_Component_KupferStrator</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_strator.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="SmallTube" />
@@ -956,7 +956,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldStrator</SubtypeId>
       </Id>
-      <DisplayName>Gold Stator</DisplayName>
+      <DisplayName>DisplayName_Component_GoldStrator</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_strator.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="KupferStrator" />
@@ -972,7 +972,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinStrator</SubtypeId>
       </Id>
-      <DisplayName>Platin Stator</DisplayName>
+      <DisplayName>DisplayName_Component_PlatinStrator</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_strator.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="GoldStrator" />
@@ -988,7 +988,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanStrator</SubtypeId>
       </Id>
-      <DisplayName>Titan Stator</DisplayName>
+      <DisplayName>DisplayName_Component_TitanStrator</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_strator.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="PlatinStrator" />
@@ -1004,7 +1004,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PCB_Platine</SubtypeId>
       </Id>
-      <DisplayName>PCB Platine</DisplayName>
+      <DisplayName>DisplayName_Component_PCB_Platine</DisplayName>
       <Icon>Textures\GUI\Icons\component\pcb.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Kupferdraht" />
@@ -1018,7 +1018,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SMD</SubtypeId>
       </Id>
-      <DisplayName>SMD Computerchips</DisplayName>
+      <DisplayName>DisplayName_Component_SMD</DisplayName>
       <Icon>Textures\GUI\Icons\component\chips.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
@@ -1033,7 +1033,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Rotor</SubtypeId>
       </Id>
-      <DisplayName>Rotor</DisplayName>
+      <DisplayName>DisplayName_Component_Rotor</DisplayName>
       <Icon>Textures\GUI\Icons\component\rotor.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
@@ -1049,7 +1049,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SteelPlate</SubtypeId>
       </Id>
-      <DisplayName>Eisenplatte</DisplayName>
+      <DisplayName>DisplayName_Component_SteelPlate</DisplayName>
       <Icon>Textures\GUI\Icons\component\steel_plate.dds</Icon>
       <Prerequisites>
         <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
@@ -1063,7 +1063,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SmallTube</SubtypeId>
       </Id>
-      <DisplayName>Kleine Rohre</DisplayName>
+      <DisplayName>DisplayName_Component_SmallTube</DisplayName>
       <Icon>Textures\GUI\Icons\component\tube_smal.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Ingot" SubtypeId="Iron" />
@@ -1077,7 +1077,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>LargeTube</SubtypeId>
       </Id>
-      <DisplayName>Große Rohre</DisplayName>
+      <DisplayName>DisplayName_Component_LargeTube</DisplayName>
       <Icon>Textures\GUI\Icons\component\tube_large.dds</Icon>
       <Prerequisites>
         <Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
@@ -1091,7 +1091,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Motor</SubtypeId>
       </Id>
-      <DisplayName>Kupfer Motor</DisplayName>
+      <DisplayName>DisplayName_Component_Motor</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_motor.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
@@ -1108,7 +1108,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Display</SubtypeId>
       </Id>
-      <DisplayName>Monitor</DisplayName>
+      <DisplayName>DisplayName_Component_Display</DisplayName>
       <Icon>Textures\GUI\Icons\component\display.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="BulletproofGlass" />
@@ -1127,7 +1127,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>BulletproofGlass</SubtypeId>
       </Id>
-      <DisplayName>Glasplatte</DisplayName>
+      <DisplayName>DisplayName_Component_BulletproofGlass</DisplayName>
       <Icon>Textures\GUI\Icons\component\glas.dds</Icon>
       <Prerequisites>
         <Item Amount="15" TypeId="Ingot" SubtypeId="Silicon" />
@@ -1141,7 +1141,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanMotor</SubtypeId>
       </Id>
-      <DisplayName>Titan Motor</DisplayName>
+      <DisplayName>DisplayName_Component_TitanStrator</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_motor.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
@@ -1158,7 +1158,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldMotor</SubtypeId>
       </Id>
-      <DisplayName>Gold Motor</DisplayName>
+      <DisplayName>DisplayName_Component_GoldMotor</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_motor.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
@@ -1175,7 +1175,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinMotor</SubtypeId>
       </Id>
-      <DisplayName>Platin Motor</DisplayName>
+      <DisplayName>DisplayName_Component_PlatinMotor</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_motor.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
@@ -1192,7 +1192,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Computer</SubtypeId>
       </Id>
-      <DisplayName>Owner Chip</DisplayName>
+      <DisplayName>DisplayName_Component_Computer</DisplayName>
       <Icon>Textures\GUI\Icons\component\ownerchip.dds</Icon>
       <Prerequisites>
         <Item Amount="2" TypeId="Ingot" SubtypeId="Copper" />
@@ -1207,7 +1207,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CopperComputer</SubtypeId>
       </Id>
-      <DisplayName>Kupfer Computer</DisplayName>
+      <DisplayName>DisplayName_Component_CopperComputer</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_computer.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="SMD" />
@@ -1224,7 +1224,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldComputer</SubtypeId>
       </Id>
-      <DisplayName>Gold Computer</DisplayName>
+      <DisplayName>DisplayName_Component_GoldComputer</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_computer.dds</Icon>
       <Prerequisites>
         <Item Amount="4" TypeId="Component" SubtypeId="CopperComputer" />
@@ -1242,7 +1242,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinComputer</SubtypeId>
       </Id>
-      <DisplayName>Platin Computer</DisplayName>
+      <DisplayName>DisplayName_Component_PlatinComputer</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_computer.dds</Icon>
       <Prerequisites>
         <Item Amount="7" TypeId="Component" SubtypeId="GoldComputer" />
@@ -1260,7 +1260,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanComputer</SubtypeId>
       </Id>
-      <DisplayName>Titan Computer</DisplayName>
+      <DisplayName>DisplayName_Component_TitanComputer</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_computer.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="PlatinComputer" />
@@ -1278,7 +1278,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Reactor</SubtypeId>
       </Id>
-      <DisplayName>Kupfer Reaktor</DisplayName>
+      <DisplayName>DisplayName_Component_Reactor</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_reactor.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Component" SubtypeId="LargeTube" />
@@ -1296,7 +1296,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldReactor</SubtypeId>
       </Id>
-      <DisplayName>Gold Reaktor</DisplayName>
+      <DisplayName>DisplayName_Component_GoldReactor</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_reactor.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Component" SubtypeId="LargeTube" />
@@ -1315,7 +1315,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanReactor</SubtypeId>
       </Id>
-      <DisplayName>Titan Reaktor</DisplayName>
+      <DisplayName>DisplayName_Component_TitanReactor</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_reactor.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Component" SubtypeId="LargeTube" />
@@ -1334,7 +1334,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinReactor</SubtypeId>
       </Id>
-      <DisplayName>Platin Reaktor</DisplayName>
+      <DisplayName>DisplayName_Component_PlatinReactor</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_reactor.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Component" SubtypeId="LargeTube" />
@@ -1353,7 +1353,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Thrust</SubtypeId>
       </Id>
-      <DisplayName>Kupfer Triebwerk</DisplayName>
+      <DisplayName>DisplayName_Component_Thrust</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_thruster.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
@@ -1371,7 +1371,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GoldThrust</SubtypeId>
       </Id>
-      <DisplayName>Gold Triebwerk</DisplayName>
+      <DisplayName>DisplayName_Component_GoldThrust</DisplayName>
       <Icon>Textures\GUI\Icons\component\gold_thruster.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
@@ -1390,7 +1390,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PlatinThrust</SubtypeId>
       </Id>
-      <DisplayName>Platin Triebwerk</DisplayName>
+      <DisplayName>DisplayName_Component_PlatinThrust</DisplayName>
       <Icon>Textures\GUI\Icons\component\platin_thruster.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
@@ -1409,7 +1409,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanThrust</SubtypeId>
       </Id>
-      <DisplayName>Titan Triebwerk</DisplayName>
+      <DisplayName>DisplayName_Component_TitanThrust</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_thruster.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
@@ -1428,7 +1428,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>GravityGenerator</SubtypeId>
       </Id>
-      <DisplayName>Kupfer Gravi-Generator</DisplayName>
+      <DisplayName>DisplayName_Component_GravityGenerator</DisplayName>
       <Icon>Textures\GUI\Icons\component\copper_gravity.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Component" SubtypeId="LargeTube" />
@@ -1446,7 +1446,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Medical</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
+      <DisplayName>DisplayName_Component_Medical</DisplayName>
       <Icon>Textures\GUI\Icons\component\medic_comp.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Ingot" SubtypeId="Iron" />
@@ -1462,7 +1462,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>RadioCommunication</SubtypeId>
       </Id>
-      <DisplayName>Kommunikationskomponente</DisplayName>
+      <DisplayName>DisplayName_Component_RadioCommunication</DisplayName>
       <Icon>Textures\GUI\Icons\component\radio.dds</Icon>
       <Prerequisites>
         <Item Amount="8" TypeId="Component" SubtypeId="SteelPlate" />
@@ -1477,7 +1477,7 @@
     <Blueprint>      <!--DetectorComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Detector</SubtypeId>
+        <SubtypeId>DisplayName_Component_Detector</SubtypeId>
       </Id>
       <DisplayName>Detektorkomponente</DisplayName>
       <Icon>Textures\GUI\Icons\component\detector.dds</Icon>
@@ -1496,7 +1496,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Canvas</SubtypeId>
       </Id>
-      <DisplayName>Fallschirm</DisplayName>
+      <DisplayName>DisplayName_Component_Canvas</DisplayName>
       <Icon>Textures\GUI\Icons\component\canvas.dds</Icon>
       <Prerequisites>
         <Item Amount="35" TypeId="Ingot" SubtypeId="Silicon" />
@@ -1510,7 +1510,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Explosives</SubtypeId>
       </Id>
-      <DisplayName>Sprengstoff</DisplayName>
+      <DisplayName>DisplayName_Component_Explosives</DisplayName>
       <Icon>Textures\GUI\Icons\component\explosive.dds</Icon>
       <Prerequisites>
         <Item Amount="0.5" TypeId="Ingot" SubtypeId="Silicon" />
@@ -1524,7 +1524,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>SolarCell</SubtypeId>
       </Id>
-      <DisplayName>Solarzellen</DisplayName>
+      <DisplayName>DisplayName_Component_SolarCell</DisplayName>
       <Icon>Textures\GUI\Icons\component\solar_cell.dds</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="Ingot" SubtypeId="Iron" />
@@ -1541,7 +1541,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PowerCell</SubtypeId>
       </Id>
-      <DisplayName>Batteriezelle</DisplayName>
+      <DisplayName>DisplayName_Component_PowerCell</DisplayName>
       <Icon>Textures\GUI\Icons\component\energy_cell.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
@@ -1573,7 +1573,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Adminplate</SubtypeId>
       </Id>
-      <DisplayName>Adminplate</DisplayName>
+      <DisplayName>DisplayName_Component_Adminplate</DisplayName>
       <Icon>Textures\GUI\Icons\component\steel_plate.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Adminplate" />
@@ -1586,7 +1586,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>PenetratiumToPlate</SubtypeId>
       </Id>
-      <DisplayName>Penetratium Plate</DisplayName>
+      <DisplayName>DisplayName_Component_PenetratiumPlate</DisplayName>
       <Icon>Textures\GUI\Icons\component\penetratium_plate.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Penetratium" />
