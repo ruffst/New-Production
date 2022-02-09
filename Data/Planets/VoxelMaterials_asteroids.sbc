@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VoxelMaterials>
     <!-- Lead_01(Native)-->
-    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">      
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>Lead_CMM</SubtypeId>
@@ -20,11 +19,11 @@
       <SpecularShininess>6.5</SpecularShininess>
       <ColorMetalXZnY>Textures\Voxels\Lead_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Lead_ng.dds</NormalGlossXZnY>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>6</AsteroidGeneratorSpawnProbabilityMultiplier>
 
     </VoxelMaterial>
     <!-- Aluminum(Native)-->
-    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">      
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>Aluminum_CMM</SubtypeId>
@@ -42,10 +41,10 @@
       <SpecularShininess>6.632</SpecularShininess>
       <ColorMetalXZnY>Textures\Voxels\Aluminium_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Aluminium_ng.dds</NormalGlossXZnY>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
     </VoxelMaterial>
     <!-- Copper (Native)-->
-    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">      
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>Copper_CMM</SubtypeId>
@@ -62,7 +61,7 @@
       <SpecularShininess>6.096</SpecularShininess>
       <ColorMetalXZnY>Textures\Voxels\Copper_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Copper_ng.dds</NormalGlossXZnY>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>3</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>4</AsteroidGeneratorSpawnProbabilityMultiplier>
     </VoxelMaterial>
     <!-- Stone_01 - Stone_05 -->
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
@@ -372,7 +371,7 @@
       <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>5</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>7</AsteroidGeneratorSpawnProbabilityMultiplier>
 
 
       <VoxelHandPreview>Textures\Voxels\Iron_02_Thumbnail.dds</VoxelHandPreview>
@@ -434,7 +433,7 @@
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>3</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>4</AsteroidGeneratorSpawnProbabilityMultiplier>
 
 
       <VoxelHandPreview>Textures\Voxels\Nickel_01_Thumbnail.dds</VoxelHandPreview>
@@ -679,7 +678,7 @@
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <VoxelHandPreview>Textures\Voxels\Gold_01_Thumbnail.dds</VoxelHandPreview>
       <ColorMetalXZnY>Textures\Voxels\Gold_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
@@ -730,7 +729,7 @@
       <IsRare>true</IsRare>
       <SpawnsInAsteroids>false</SpawnsInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <VoxelHandPreview>Textures\Voxels\Uraninite_01_Thumbnail.dds</VoxelHandPreview>
       <ColorMetalXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
@@ -995,7 +994,7 @@
       <ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>0.3</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
       <SimpleTilingSetup>
         <InitialScale>2</InitialScale>
         <ScaleMultiplier>3</ScaleMultiplier>
@@ -1027,7 +1026,7 @@
 
     </VoxelMaterial>
     <!-- Titanium-->
-    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">      
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>Titanium_CMM</SubtypeId>
@@ -1044,7 +1043,7 @@
       <SpecularShininess>6.2</SpecularShininess>
       <ColorMetalXZnY>Textures\Voxels\Titanium_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Titanium_ng.dds</NormalGlossXZnY>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>0.2</AsteroidGeneratorSpawnProbabilityMultiplier>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
     </VoxelMaterial>
     <!-- Penetratium -->
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
@@ -1060,6 +1059,7 @@
       <DamageRatio>0.5</DamageRatio>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>1</SpecularShininess>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>1</AsteroidGeneratorSpawnProbabilityMultiplier>
       <ColorMetalXZnY>Textures\Voxels\Penetratium_cm.dds</ColorMetalXZnY>
       <ColorMetalXZnYFar1>Textures\Voxels\Penetratium_cm.dds</ColorMetalXZnYFar1>
       <ColorMetalXZnYFar2>Textures\Voxels\Penetratium_cm.dds</ColorMetalXZnYFar2>
@@ -1072,7 +1072,6 @@
       <NormalGlossY>Textures\Voxels\Penetratium_ng.dds</NormalGlossY>
       <NormalGlossYFar1>Textures\Voxels\Penetratium_ng.dds</NormalGlossYFar1>
       <NormalGlossYFar2>Textures\Voxels\Penetratium_ng.dds</NormalGlossYFar2>
-      <AsteroidGeneratorSpawnProbabilityMultiplier>0.1</AsteroidGeneratorSpawnProbabilityMultiplier>
       <Scale>500</Scale>
       <ScaleFar1>1000</ScaleFar1>
       <ScaleFar2>2500</ScaleFar2>
