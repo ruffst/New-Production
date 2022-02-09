@@ -1157,7 +1157,7 @@
       <ActionSound>ArcBlockWindTurbine</ActionSound>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-      <MaxPowerOutput>0.4</MaxPowerOutput>
+      <MaxPowerOutput>0.5</MaxPowerOutput>
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <IsAirTight>false</IsAirTight>
       <VoxelPlacement>
@@ -1263,7 +1263,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <ResourceSourceGroup>SolarPanels</ResourceSourceGroup>
-      <MaxPowerOutput>0.16</MaxPowerOutput>
+      <MaxPowerOutput>0.75</MaxPowerOutput>
       <PanelOrientation>
         <X>0</X>
         <Y>0</Y>
