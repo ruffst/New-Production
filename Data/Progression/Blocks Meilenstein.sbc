@@ -427,7 +427,7 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="10">
+        <Component Subtype="PenetratiumPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
