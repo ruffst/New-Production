@@ -16,6 +16,7 @@ using VRage.Game.ModAPI.Interfaces;
 using VRage.Game.ObjectBuilders.ComponentSystem;
 using VRage.Game.ObjectBuilders.Definitions.SessionComponents;
 using VRage.Game.ObjectBuilders.Components;
+using VRage.Game.ObjectBuilders;
 using VRage.Audio;
 using VRage.Data.Audio;
 using VRage.Utils;
@@ -25,6 +26,7 @@ using Ingame = VRage.Game.ModAPI.Ingame;
 
 using Sandbox.Game;
 using Sandbox.Game.Entities;
+using Sandbox.Game.Entities.Cube;
 using Sandbox.Game.EntityComponents;
 using Sandbox.Game.World;
 using Sandbox.Game.Weapons;
@@ -37,8 +39,146 @@ using Sandbox.ModAPI.Interfaces.Terminal;
 
 using SpaceEngineers.Game.ModAPI;
 
+//using ObjectBuilders.SafeZone;
+//using ObjectBuilders.Definitions.SafeZone;
 namespace NewProduction
 {
+
+#region CONFIG
+    public class MyConfig
+    {
+        private const string FILE = "new-production.cfg";
+
+        //options
+        public static bool allowDisableBeacon = false;
+        public static float minBeaconRadius = 7500f;
+        public static float triggerDelay = 3f;
+        public static float dt1range = 3f;
+        public static float dt2range = 3f;
+        public static float dt3range = 3f;
+        public static bool loaded = false;
+        public static double HowMuchWoodToGive = 38.0;
+        public static bool SafezoneAllowed = false;
+                
+        public static void InitMyConfig()
+        {
+            if (!Load())
+            {
+                Save();
+                Load();
+                loaded = true;
+            }
+        }
+
+        private static bool Load()
+        {
+            try
+            {
+                if (MyAPIGateway.Utilities.FileExistsInLocalStorage(FILE, typeof(MyConfig)))
+                {
+                    var file = MyAPIGateway.Utilities.ReadFileInLocalStorage(FILE, typeof(MyConfig));
+                    ReadSettings(file);
+                    file.Close();
+                    return true;
+                }
+            }
+            catch (Exception) { }
+            return false;
+        }
+
+        private static void Save()
+        {
+            try
+            {
+                var file = MyAPIGateway.Utilities.WriteFileInLocalStorage(FILE, typeof(MyConfig));
+                file.Write(GetSettingsString());
+                file.Flush();
+                file.Close();
+            }
+            catch (Exception) { }
+        }
+
+        private static string GetSettingsString()
+        {
+            var str = new StringBuilder();
+
+            str.Append("allow-disable-beacon=").Append(allowDisableBeacon).AppendLine();
+            str.Append("min-beacon-radius=").Append(minBeaconRadius).AppendLine();
+            str.Append("min-trigger-delay=").Append(triggerDelay).AppendLine();
+            str.Append("HowMuchWoodToGive=").Append(HowMuchWoodToGive).AppendLine();
+            str.Append("SafezoneAllowed=").Append(SafezoneAllowed).AppendLine();
+
+            return str.ToString();
+        }
+
+        private static void ReadSettings(TextReader file)
+        {
+            try
+            {
+                string line;
+                string[] args;
+                while ((line = file.ReadLine()) != null)
+                {
+                    if (line.Length == 0) continue;
+
+                    args = line.Split(new char[] { '=' }, 2);
+                    if (args.Length != 2) continue;
+
+                    args[0] = args[0].Trim().ToLower();
+                    args[1] = args[1].Trim().ToLower();
+
+                    switch (args[0])
+                    {
+                        case "allow-disable-beacon":
+                            allowDisableBeacon = bool.Parse(args[1]);
+                            break;
+                        case "min-beacon-radius":
+                            minBeaconRadius = float.Parse(args[1]);
+                            break;
+                        case "min-trigger-delay":
+                            triggerDelay = float.Parse(args[1]);
+                            break;
+                        case "HowMuchWoodToGive":
+                            HowMuchWoodToGive = double.Parse(args[1]);
+                            break;
+                        case "SafezoneAllowed":
+                            SafezoneAllowed = bool.Parse(args[1]);
+                            break;
+                    }
+                }
+            }
+            catch (Exception) { }
+        }
+    }
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_TimerBlock), true)]
+    public class TriggerNowFix : MyGameLogicComponent
+    {
+        IMyTerminalBlock termBlock;
+        private MyObjectBuilder_EntityBase m_objectBuilder;
+
+        public override void Init(MyObjectBuilder_EntityBase objectBuilder)
+        {
+            base.Init(objectBuilder);
+            m_objectBuilder = objectBuilder;
+            termBlock = Entity as IMyTerminalBlock;
+
+            if (termBlock is IMyTimerBlock)
+            {                
+                termBlock_PropertiesChanged(termBlock);
+                termBlock.PropertiesChanged += termBlock_PropertiesChanged;                
+            }
+        }
+
+        private void termBlock_PropertiesChanged(IMyTerminalBlock block)
+        {
+            if (!MyConfig.loaded) MyConfig.InitMyConfig();
+
+            IMyTimerBlock timerBlock = block as IMyTimerBlock;
+            if (timerBlock.TriggerDelay < MyConfig.triggerDelay)
+                timerBlock.TriggerDelay = MyConfig.triggerDelay;
+        }        
+    }
+#endregion
 
 #region WOOD CUTTING
 
@@ -53,7 +193,7 @@ namespace NewProduction
 		int _nullCubeDefCount = 0;
 
 		
-		double HowMuchWoodToGive = 38.0;
+		//double HowMuchWoodToGive = 38.0;
 		static public MyObjectBuilder_Component LogBuilder = MyObjectBuilderSerializer.CreateNewObject<MyObjectBuilder_Component>("WoodLogs");
 
 		public override void Init(MyObjectBuilder_SessionComponent sessionComponent)
@@ -71,11 +211,12 @@ namespace NewProduction
 			
 			if (usestring.StartsWith("MyDebrisTr")) 
 			{
-				
+                double woodamount = 38.0;
+				if (!MyConfig.loaded) MyConfig.InitMyConfig();
+                woodamount = MyConfig.HowMuchWoodToGive;
+
 				IMyEntity ie = obj as IMyEntity;
 				String treemodel = ie.Model.AssetName;
-
-				double woodamount = HowMuchWoodToGive;
 				
 				if (treemodel.Contains("Medium"))
 				woodamount *= 0.9;
@@ -157,147 +298,8 @@ namespace NewProduction
         }
     }
 
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_TimerBlock), true)]
-    public class TriggerNowFix : MyGameLogicComponent
-    {
-        IMyTerminalBlock termBlock;
-        private MyObjectBuilder_EntityBase m_objectBuilder;
 
-        public override void Init(MyObjectBuilder_EntityBase objectBuilder)
-        {
-            base.Init(objectBuilder);
-            m_objectBuilder = objectBuilder;
-            termBlock = Entity as IMyTerminalBlock;
-
-            if (termBlock is IMyTimerBlock)
-            {                
-                termBlock_PropertiesChanged(termBlock);
-                termBlock.PropertiesChanged += termBlock_PropertiesChanged;                
-            }
-        }
-
-        private void termBlock_PropertiesChanged(IMyTerminalBlock block)
-        {
-            if (!MyConfig.loaded) MyConfig.InitMyConfig();
-
-            IMyTimerBlock timerBlock = block as IMyTimerBlock;
-            if (timerBlock.TriggerDelay < MyConfig.triggerDelay)
-                timerBlock.TriggerDelay = MyConfig.triggerDelay;
-        }        
-    }
-
-
-    #endregion
-
-#region CONFIG
-    public class MyConfig
-    {
-        private const string FILE = "new-production.cfg";
-
-        //options
-        public static bool allowDisableBeacon = false;
-        public static float minBeaconRadius = 7500f;
-        public static float triggerDelay = 3f;
-        public static float dt1range = 3f;
-        public static float dt2range = 3f;
-        public static float dt3range = 3f;
-        public static bool loaded = false;
-
-        public static void InitMyConfig()
-        {
-            if (!Load())
-            {
-                Save();
-                Load();
-                loaded = true;
-            }
-        }
-
-        private static bool Load()
-        {
-            try
-            {
-                if (MyAPIGateway.Utilities.FileExistsInLocalStorage(FILE, typeof(MyConfig)))
-                {
-                    var file = MyAPIGateway.Utilities.ReadFileInLocalStorage(FILE, typeof(MyConfig));
-                    ReadSettings(file);
-                    file.Close();
-                    return true;
-                }
-            }
-            catch (Exception) { }
-            return false;
-        }
-
-        private static void Save()
-        {
-            try
-            {
-                var file = MyAPIGateway.Utilities.WriteFileInLocalStorage(FILE, typeof(MyConfig));
-                file.Write(GetSettingsString());
-                file.Flush();
-                file.Close();
-            }
-            catch (Exception) { }
-        }
-
-        private static string GetSettingsString()
-        {
-            var str = new StringBuilder();
-
-            str.Append("allow-disable-beacon=").Append(allowDisableBeacon).AppendLine();
-            str.Append("min-beacon-radius=").Append(minBeaconRadius).AppendLine();
-            str.Append("min-trigger-delay=").Append(triggerDelay);
-            str.Append("drillT1Range=").Append(dt1range);
-            str.Append("drillT2Range=").Append(dt2range);
-            str.Append("drillT3Range=").Append(dt3range);
-
-            return str.ToString();
-        }
-
-        private static void ReadSettings(TextReader file)
-        {
-            try
-            {
-                string line;
-                string[] args;
-                while ((line = file.ReadLine()) != null)
-                {
-                    if (line.Length == 0) continue;
-
-                    args = line.Split(new char[] { '=' }, 2);
-                    if (args.Length != 2) continue;
-
-                    args[0] = args[0].Trim().ToLower();
-                    args[1] = args[1].Trim().ToLower();
-
-                    switch (args[0])
-                    {
-                        case "allow-disable-beacon":
-                            allowDisableBeacon = bool.Parse(args[1]);
-                            break;
-                        case "min-beacon-radius":
-                            minBeaconRadius = float.Parse(args[1]);
-                            break;
-                        case "min-trigger-delay":
-                            triggerDelay = float.Parse(args[1]);
-                            break;
-                        case "drillT1Range":
-                            dt1range = float.Parse(args[1]);
-                            break;
-                        case "drillT2Range":
-                            dt2range = float.Parse(args[1]);
-                            break;
-                        case "drillT3Range":
-                            dt3range = float.Parse(args[1]);
-                            break;
-                    }
-                }
-            }
-            catch (Exception) { }
-        }
-    }
-    #endregion
+#endregion
 
 #region LOCALIZATION
     [MySessionComponentDescriptor(MyUpdateOrder.NoUpdate)]
@@ -346,6 +348,45 @@ namespace NewProduction
             }
         }
     }
+#endregion
+
+#region SAFEZONE [NOT WORKING ATM]
+    
+    /*
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_SafeZoneBlock), true, new string[] { "SafeZoneBlock"})]
+    public class FreeSafeZoneBlock : MyGameLogicComponent
+    {
+        IMyTerminalBlock safezone;
+        private MyObjectBuilder_EntityBase m_objectBuilder;
+
+        public override void Init(MyObjectBuilder_EntityBase objectBuilder)
+        {
+            base.Init(objectBuilder);
+            m_objectBuilder = objectBuilder;
+            safezone = Entity as IMyTerminalBlock;
+
+            if (safezone is IMySafeZoneBlock)
+            {
+                SafeZoneBlock_PropertiesChanged(safezone);
+                safezone.PropertiesChanged += SafeZoneBlock_PropertiesChanged;
+            }
+        }
+
+        private void SafeZoneBlock_PropertiesChanged(IMyTerminalBlock block)
+        {
+            if (!MyConfig.loaded) MyConfig.InitMyConfig();
+
+            if (MyConfig.SafezoneAllowed == false)
+            {
+                block.SetValueBool("OnOff ", false);    
+            } 
+            //IMySafeZoneBlock safezone = block as IMySafeZoneBlock;
+            //safezone.Enabled = false;
+
+        }
+         
+    }*/
+    
 #endregion
 
 }

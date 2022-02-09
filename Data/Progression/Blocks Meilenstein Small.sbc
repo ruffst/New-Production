@@ -859,7 +859,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneArmorMaterial" Count="3">
+        <Component Subtype="MilestoneEnergyMaterial" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -877,7 +877,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="1">
+        <Component Subtype="" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
