@@ -1,78 +1,76 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-    <!--        Tier Gold-->
-    <!--Small Small Thrust-->
-    <!--SmallBlockSmallThrust_Gold-->
+
+    <!--Tier Gold-->
+    <!--SmallBlockSmallModularThrusterGold-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockSmallThrust_Gold</SubtypeId>
+        <SubtypeId>SmallBlockSmallModularThrusterGold</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_SmallBlockSmallThrust_Gold</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_Gold.dds</Icon>
+      <DisplayName>DisplayName_Block_SmallModularThrusterGold</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterSmallGold.dds</Icon>
       <Description>Description_IonThrust</Description>
-      <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\ThrustSmall.mwm</Model>
+      <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="2">
+        <Component Subtype="SteelPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="2">
+        <Component Subtype="Construction" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="2">
+        <Component Subtype="LargeTube" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="GoldThrust" Count="2">
+        <Component Subtype="GoldThrust" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="2">
+        <Component Subtype="Construction" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="2">
+        <Component Subtype="SteelPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ThrustSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ThrustSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -84,15 +82,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallBlockSmallThrust_Gold</BlockPairName>
+      <BlockPairName>SmallBlockSmallModularThrusterGold</BlockPairName>
       <Center x="0" y="0" z="1" />
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>28800</ForceMagnitude>
       <MaxPowerConsumption>0.35</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -100,24 +96,24 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
       <FlameDamage>0.1</FlameDamage>
-      <FlameLengthScale>1.4</FlameLengthScale>
+      <FlameLengthScale>1.6</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>SmallGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>200</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
@@ -127,34 +123,164 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--Small Large Thrust-->
-    <!--SmallBlockLargeThrust_Gold-->
+    <!--SmallBlockLargeModularThrusterGold-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockLargeThrust_Gold</SubtypeId>
+        <SubtypeId>SmallBlockLargeModularThrusterGold</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_SmallBlockLargeThrust_Gold</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_large_Gold.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeModularThrusterGold</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterLargeGold.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="2" z="4" />
+      <Size x="2" y="3" z="4" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\ThrustLarge.mwm</Model>
+      <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="2">
+        <Component Subtype="SteelPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="2">
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="GoldThrust" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="4">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="1" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>SmallBlockLargeModularThrusterGold</BlockPairName>
+      <Center x="0" y="1" z="2" />
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>345600</ForceMagnitude>
+      <MaxPowerConsumption>4.2</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameDamage>0.2</FlameDamage>
+      <FlameLengthScale>1.1</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>SmallGridLargeThruster</FlameFlare>
+      <FlameVisibilityDistance>300</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
+    </Definition>
+    <!--LargeBlockSmallModularThrusterGold-->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeBlockSmallModularThrusterGold</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SmallModularThrusterGold</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterSmallGold.dds</Icon>
+      <Description>Description_IonThrust</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
+      <ThrusterType>Ion</ThrusterType>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
@@ -166,39 +292,39 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="GoldThrust" Count="18">
+        <Component Subtype="GoldThrust" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="2">
+        <Component Subtype="Construction" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="6">
+        <Component Subtype="SteelPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="3" EndY="4" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
-        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ThrustLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ThrustLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -210,89 +336,87 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallBlockLargeThrust_Gold</BlockPairName>
-      <Center x="1" y="0" z="2" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <BlockPairName>LargeBlockSmallModularThrusterGold</BlockPairName>
+      <Center x="0" y="0" z="1" />
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
-      <ForceMagnitude>345600</ForceMagnitude>
-      <MaxPowerConsumption>4.2</MaxPowerConsumption>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
-      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-      <FlameDamage>0.2</FlameDamage>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <EffectivenessAtMaxInfluence>0</EffectivenessAtMaxInfluence>
+      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+      <FlameLengthScale>1.5</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
-      <FlameFlare>SmallGridLargeThruster</FlameFlare>
-      <FlameVisibilityDistance>300</FlameVisibilityDistance>
-      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
-      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>500</FlameVisibilityDistance>
+      <FlameGlareQuerySize>1</FlameGlareQuerySize>
+      <PrimarySound>LrgShipSmJet</PrimarySound>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--Small Thrust-->
-    <!--LargeBlockSmallThrust_Gold-->
+    <!--LargeBlockLargeModularThrusterGold-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>LargeBlockSmallThrust_Gold</SubtypeId>
+        <SubtypeId>LargeBlockLargeModularThrusterGold</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_LargeBlockSmallThrust_Gold</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_Gold.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeModularThrusterGold</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLargeGold.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="2" />
+      <Size x="2" y="3" z="4" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\ThrustSmall.mwm</Model>
+      <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="SteelPlate" Count="23">
+        <Component Subtype="SteelPlate" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="60">
+        <Component Subtype="Construction" Count="70">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="12">
+        <Component Subtype="LargeTube" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="GoldThrust" Count="120">
+        <Component Subtype="GoldThrust" Count="960">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>GoldScrap</SubtypeId>
@@ -304,28 +428,31 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="SteelPlate" Count="15">
+        <Component Subtype="SteelPlate" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ThrustSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ThrustSmallConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ThrustSmallConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -337,144 +464,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeBlockSmallThrust_Gold</BlockPairName>
-      <Center x="0" y="0" z="1" />
-      <MirroringZ>Y</MirroringZ>
+      <BlockPairName>LargeBlockLargeModularThrusterGold</BlockPairName>
+      <Center x="0" y="1" z="2" />
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
-      <ForceMagnitude>691200</ForceMagnitude>
-      <MaxPowerConsumption>5.8800</MaxPowerConsumption>
-      <MinPowerConsumption>0.000002</MinPowerConsumption>
-      <SlowdownFactor>1</SlowdownFactor>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
-      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
-      <FlameLengthScale>1.5</FlameLengthScale>
-      <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
-        <W>0.75</W>
-      </FlameIdleColor>
-      <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
-        <W>0.75</W>
-      </FlameFullColor>
-      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
-      <FlameFlare>LargeGridSmallThruster</FlameFlare>
-      <FlameVisibilityDistance>500</FlameVisibilityDistance>
-      <FlameGlareQuerySize>1</FlameGlareQuerySize>
-      <PrimarySound>LrgShipSmJet</PrimarySound>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>15</PCU>
-    </Definition>
-    <!--Large Thrust-->
-    <!--LargeBlockLargeThrust_Gold-->
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
-      <Id>
-        <TypeId>Thrust</TypeId>
-        <SubtypeId>LargeBlockLargeThrust_Gold</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Thrust_LargeBlockLargeThrust_Gold</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_large_Gold.dds</Icon>
-      <Description>Description_IonThrust</Description>
-      <CubeSize>Large</CubeSize>
-      <GuiVisible>false</GuiVisible>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="2" z="4" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\ThrustLarge.mwm</Model>
-      <ThrusterType>Ion</ThrusterType>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-      <Components>
-        <Component Subtype="SteelPlate" Count="150">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="105">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="LargeTube" Count="60">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="GoldThrust" Count="1440">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>GoldScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="45">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="75">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="3" EndY="4" />
-        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="2" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\ThrustLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ThrustLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="0.49" File="Models\Cubes\Large\ThrustLargeConstruction_3.mwm" />
-        <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\ThrustLargeConstruction_4.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ThrustLargeConstruction_5.mwm" />
-      </BuildProgressModels>
-      <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-        <StaticMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </StaticMode>
-        <DynamicMode>
-          <PlacementMode>Volumetric</PlacementMode>
-          <MaxAllowed>0.2</MaxAllowed>
-          <MinAllowed>0</MinAllowed>
-        </DynamicMode>
-      </VoxelPlacement>
-      <BlockPairName>LargeBlockLargeThrust_Gold</BlockPairName>
-      <Center x="1" y="0" z="2" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>135</BuildTimeSeconds>
-      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>8640000</ForceMagnitude>
       <MaxPowerConsumption>58.8000</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -482,23 +478,23 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>LargeGridLargeThruster</FlameFlare>
       <FlameVisibilityDistance>700</FlameVisibilityDistance>
       <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
@@ -508,79 +504,80 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--        Tier Platin-->
-    <!--Small Small Thrust-->
-    <!--SmallBlockSmallThrust_Platin-->
+    <!--Tier Platin-->
+    <!--SmallBlockSmallModularThrusterPlatin-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockSmallThrust_Platin</SubtypeId>
+        <SubtypeId>SmallBlockSmallModularThrusterPlatin</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_SmallBlockSmallThrust_Platin</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_Platin.dds</Icon>
+      <DisplayName>DisplayName_Block_SmallModularThrusterPlatin</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterSmallPlatin.dds</Icon>
       <Description>Description_IonThrust</Description>
-      <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\ThrustSmall.mwm</Model>
+      <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="InteriorPlate" Count="3">
+        <Component Subtype="InteriorPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="3">
+        <Component Subtype="Construction" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="3">
+        <Component Subtype="LargeTube" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PlatinThrust" Count="3">
+        <Component Subtype="PlatinThrust" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="3">
+        <Component Subtype="Construction" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="3">
+        <Component Subtype="InteriorPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ThrustSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ThrustSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -592,15 +589,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallBlockSmallThrust_Platin</BlockPairName>
+      <BlockPairName>SmallBlockSmallModularThrusterPlatin</BlockPairName>
       <Center x="0" y="0" z="1" />
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>23</BuildTimeSeconds>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>57600</ForceMagnitude>
       <MaxPowerConsumption>0.6125</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -608,24 +603,24 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
       <FlameDamage>0.1</FlameDamage>
-      <FlameLengthScale>1.4</FlameLengthScale>
+      <FlameLengthScale>1.6</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>SmallGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>200</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
@@ -635,78 +630,82 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--Small Large Thrust-->
-    <!--SmallBlockLargeThrust_Platin-->
+    <!--SmallBlockLargeModularThrusterPlatin-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockLargeThrust_Platin</SubtypeId>
+        <SubtypeId>SmallBlockLargeModularThrusterPlatin</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_SmallBlockLargeThrust_Platin</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_large_Platin.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeModularThrusterPlatin</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterLargePlatin.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="2" z="4" />
+      <Size x="2" y="3" z="4" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\ThrustLarge.mwm</Model>
+      <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="InteriorPlate" Count="3">
+        <Component Subtype="InteriorPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="3">
+        <Component Subtype="Construction" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="12">
+        <Component Subtype="LargeTube" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PlatinThrust" Count="27">
+        <Component Subtype="PlatinThrust" Count="12">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="3">
+        <Component Subtype="Construction" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="9">
+        <Component Subtype="InteriorPlate" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="3" EndY="4" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
-        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ThrustLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ThrustLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -718,16 +717,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallBlockLargeThrust_Platin</BlockPairName>
-      <Center x="1" y="0" z="2" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <BlockPairName>SmallBlockLargeModularThrusterPlatin</BlockPairName>
+      <Center x="0" y="1" z="2" />
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>691200</ForceMagnitude>
       <MaxPowerConsumption>7.35</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -735,24 +731,24 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameDamage>0.2</FlameDamage>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameLengthScale>1.1</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>SmallGridLargeThruster</FlameFlare>
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
@@ -762,78 +758,80 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--Small Thrust-->
-    <!--LargeBlockSmallThrust_Platin-->
+    <!--LargeBlockSmallModularThrusterPlatin-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>LargeBlockSmallThrust_Platin</SubtypeId>
+        <SubtypeId>LargeBlockSmallModularThrusterPlatin</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_LargeBlockSmallThrust_Platin</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_Platin.dds</Icon>
+      <DisplayName>DisplayName_Block_SmallModularThrusterPlatin</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterSmallPlatin.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\ThrustSmall.mwm</Model>
+      <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="InteriorPlate" Count="34">
+        <Component Subtype="InteriorPlate" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="90">
+        <Component Subtype="Construction" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="18">
+        <Component Subtype="LargeTube" Count="8">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PlatinThrust" Count="180">
+        <Component Subtype="PlatinThrust" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="45">
+        <Component Subtype="Construction" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="23">
+        <Component Subtype="InteriorPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ThrustSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ThrustSmallConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ThrustSmallConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -845,15 +843,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeBlockSmallThrust_Platin</BlockPairName>
+      <BlockPairName>LargeBlockSmallModularThrusterPlatin</BlockPairName>
       <Center x="0" y="0" z="1" />
-      <MirroringZ>Y</MirroringZ>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>90</BuildTimeSeconds>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>1382400</ForceMagnitude>
       <MaxPowerConsumption>10.2900</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -861,23 +857,23 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
       <FlameLengthScale>1.5</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>LargeGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>500</FlameVisibilityDistance>
       <FlameGlareQuerySize>1</FlameGlareQuerySize>
@@ -887,81 +883,83 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--Large Thrust-->
-    <!--LargeBlockLargeThrust_Platin-->
+    <!--LargeBlockLargeModularThrusterPlatin-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>LargeBlockLargeThrust_Platin</SubtypeId>
+        <SubtypeId>LargeBlockLargeModularThrusterPlatin</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_LargeBlockLargeThrust_Platin</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_large_Platin.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeModularThrusterPlatin</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLargePlatin.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Large</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="2" z="4" />
+      <Size x="2" y="3" z="4" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\ThrustLarge.mwm</Model>
+      <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="InteriorPlate" Count="225">
+        <Component Subtype="InteriorPlate" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="158">
+        <Component Subtype="Construction" Count="70">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="90">
+        <Component Subtype="LargeTube" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PlatinThrust" Count="2160">
+        <Component Subtype="PlatinThrust" Count="960">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="68">
+        <Component Subtype="Construction" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="InteriorPlate" Count="113">
+        <Component Subtype="InteriorPlate" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>AluminiumScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="3" EndY="4" />
-        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="2" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\ThrustLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ThrustLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="0.49" File="Models\Cubes\Large\ThrustLargeConstruction_3.mwm" />
-        <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\ThrustLargeConstruction_4.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ThrustLargeConstruction_5.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -973,16 +971,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeBlockLargeThrust_Platin</BlockPairName>
-      <Center x="1" y="0" z="2" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+      <BlockPairName>LargeBlockLargeModularThrusterPlatin</BlockPairName>
+      <Center x="0" y="1" z="2" />
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>203</BuildTimeSeconds>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>17280000</ForceMagnitude>
       <MaxPowerConsumption>102.9000</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -990,23 +985,23 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>LargeGridLargeThruster</FlameFlare>
       <FlameVisibilityDistance>700</FlameVisibilityDistance>
       <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
@@ -1016,79 +1011,81 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--        Tier Titan-->
-    <!--Small Small Thrust-->
-    <!--SmallBlockSmallThrust_Titan-->
+
+    <!--Tier Titan-->
+    <!--SmallBlockSmallModularThrusterTitan-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockSmallThrust_Titan</SubtypeId>
+        <SubtypeId>SmallBlockSmallModularThrusterTitan</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_SmallBlockSmallThrust_Titan</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_Titan.dds</Icon>
+      <DisplayName>DisplayName_Block_SmallModularThrusterTitan</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterSmallTitan.dds</Icon>
       <Description>Description_IonThrust</Description>
-      <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\ThrustSmall.mwm</Model>
+      <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="TitanPlate" Count="4">
+        <Component Subtype="TitanPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="4">
+        <Component Subtype="Construction" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="4">
+        <Component Subtype="LargeTube" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="TitanThrust" Count="4">
+        <Component Subtype="TitanThrust" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="4">
+        <Component Subtype="Construction" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="TitanPlate" Count="4">
+        <Component Subtype="TitanPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ThrustSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ThrustSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -1100,15 +1097,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallBlockSmallThrust_Titan</BlockPairName>
+      <BlockPairName>SmallBlockSmallModularThrusterTitan</BlockPairName>
       <Center x="0" y="0" z="1" />
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>34</BuildTimeSeconds>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>115200</ForceMagnitude>
       <MaxPowerConsumption>1.0719</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -1116,24 +1111,24 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
       <FlameDamage>0.1</FlameDamage>
-      <FlameLengthScale>1.4</FlameLengthScale>
+      <FlameLengthScale>1.6</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>SmallGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>200</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
@@ -1143,78 +1138,82 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--Small Large Thrust-->
-    <!--SmallBlockLargeThrust_Titan-->
+    <!--SmallBlockLargeModularThrusterTitan-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockLargeThrust_Titan</SubtypeId>
+        <SubtypeId>SmallBlockLargeModularThrusterTitan</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_SmallBlockLargeThrust_Titan</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_large_Titan.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeModularThrusterTitan</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterLargeTitan.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="2" z="4" />
+      <Size x="2" y="3" z="4" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\ThrustLarge.mwm</Model>
+      <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
+        <Component Subtype="TitanPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanThrust" Count="12">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="TitanPlate" Count="4">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="4">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="LargeTube" Count="17">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="TitanThrust" Count="41">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>TitanScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="4">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="TitanPlate" Count="14">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>TitanScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="3" EndY="4" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
-        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ThrustLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ThrustLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -1226,16 +1225,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>SmallBlockLargeThrust_Titan</BlockPairName>
-      <Center x="1" y="0" z="2" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <BuildTimeSeconds>68</BuildTimeSeconds>
+      <BlockPairName>SmallBlockLargeModularThrusterTitan</BlockPairName>
+      <Center x="0" y="1" z="2" />
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>1382400</ForceMagnitude>
       <MaxPowerConsumption>12.8625</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -1243,24 +1239,24 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0.2</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameDamage>0.2</FlameDamage>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameLengthScale>1.1</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>SmallGridLargeThruster</FlameFlare>
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
@@ -1270,78 +1266,80 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--Small Thrust-->
-    <!--LargeBlockSmallThrust_Titan-->
+    <!--LargeBlockSmallModularThrusterTitan-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>LargeBlockSmallThrust_Titan</SubtypeId>
+        <SubtypeId>LargeBlockSmallModularThrusterTitan</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_LargeBlockSmallThrust_Titan</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_Titan.dds</Icon>
+      <DisplayName>DisplayName_Block_SmallModularThrusterTitan</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterSmallTitan.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\ThrustSmall.mwm</Model>
+      <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="TitanPlate" Count="51">
+        <Component Subtype="TitanPlate" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="135">
+        <Component Subtype="Construction" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="27">
+        <Component Subtype="LargeTube" Count="8">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="TitanThrust" Count="270">
+        <Component Subtype="TitanThrust" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="68">
+        <Component Subtype="Construction" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="TitanPlate" Count="34">
+        <Component Subtype="TitanPlate" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
-        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ThrustSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ThrustSmallConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ThrustSmallConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -1353,15 +1351,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeBlockSmallThrust_Titan</BlockPairName>
+      <BlockPairName>LargeBlockSmallModularThrusterTitan</BlockPairName>
       <Center x="0" y="0" z="1" />
-      <MirroringZ>Y</MirroringZ>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>135</BuildTimeSeconds>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>2764800</ForceMagnitude>
       <MaxPowerConsumption>18.0075</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -1369,23 +1365,23 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
       <FlameLengthScale>1.5</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>LargeGridSmallThruster</FlameFlare>
       <FlameVisibilityDistance>500</FlameVisibilityDistance>
       <FlameGlareQuerySize>1</FlameGlareQuerySize>
@@ -1395,81 +1391,83 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
-    <!--Large Thrust-->
-    <!--LargeBlockLargeThrust_Titan-->
+    <!--LargeBlockLargeModularThrusterTitan-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>LargeBlockLargeThrust_Titan</SubtypeId>
+        <SubtypeId>LargeBlockLargeModularThrusterTitan</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Thrust_LargeBlockLargeThrust_Titan</DisplayName>
-      <GuiVisible>false</GuiVisible>
-      <Icon>Textures\GUI\Icons\Cubes\thrust_large_Titan.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeModularThrusterTitan</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLargeTitan.dds</Icon>
       <Description>Description_IonThrust</Description>
       <CubeSize>Large</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="2" z="4" />
+      <Size x="2" y="3" z="4" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\ThrustLarge.mwm</Model>
+      <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="TitanPlate" Count="338">
+        <Component Subtype="TitanPlate" Count="100">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="237">
+        <Component Subtype="Construction" Count="70">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="LargeTube" Count="135">
+        <Component Subtype="LargeTube" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="TitanThrust" Count="3240">
+        <Component Subtype="TitanThrust" Count="960">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="102">
+        <Component Subtype="Construction" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="TitanPlate" Count="169">
+        <Component Subtype="TitanPlate" Count="50">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Construction" Index="0" />
+      <CriticalComponent Subtype="Construction" Index="1" />
       <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="3" EndY="4" />
-        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="2" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+        <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\ThrustLargeConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ThrustLargeConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="0.49" File="Models\Cubes\Large\ThrustLargeConstruction_3.mwm" />
-        <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\ThrustLargeConstruction_4.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ThrustLargeConstruction_5.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -1481,16 +1479,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>LargeBlockLargeThrust_Titan</BlockPairName>
-      <Center x="1" y="0" z="2" />
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
+      <BlockPairName>LargeBlockLargeModularThrusterTitan</BlockPairName>
+      <Center x="0" y="1" z="2" />
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>304</BuildTimeSeconds>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <TargetingGroups>
-        <string>Propulsion</string>
-      </TargetingGroups>
       <ForceMagnitude>34560000</ForceMagnitude>
       <MaxPowerConsumption>180.0750</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
@@ -1498,23 +1493,23 @@
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.2745098</X>
-        <Y>0.4090196</Y>
-        <Z>0.6505882</Z>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlameFlare>LargeGridLargeThruster</FlameFlare>
       <FlameVisibilityDistance>700</FlameVisibilityDistance>
       <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
@@ -1524,6 +1519,10 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
+      <DLC>Warfare2</DLC>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
     </Definition>
   </CubeBlocks>
 </Definitions>

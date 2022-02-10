@@ -1964,5 +1964,25 @@
     <data name="DisplayName_Component_MilestoneCargoMaterial" xml:space="preserve">
         <value>Meilenstein Material Lagerung</value>
     </data>
+    <!-- Modular ion Tiered Thruster -->
+    <data name="DisplayName_Block_SmallModularThrusterGold" xml:space="preserve">
+        <value>Kleines Modulares Ionentreibwerk Gold</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThrusterGold" xml:space="preserve">
+        <value>Großes Modulares Ionentreibwerk Gold</value>
+    </data>
 
+    <data name="DisplayName_Block_SmallModularThrusterPlatin" xml:space="preserve">
+        <value>Kleines Modulares Ionentreibwerk Platin</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThrusterPlatin" xml:space="preserve">
+        <value>Großes Modulares Ionentreibwerk Platin</value>
+    </data>
+
+    <data name="DisplayName_Block_SmallModularThrusterTitan" xml:space="preserve">
+        <value>Kleines Modulares Ionentreibwerk Titan</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThrusterTitan" xml:space="preserve">
+        <value>Großes Modulares Ionentreibwerk Titan</value>
+    </data>
 </root>
