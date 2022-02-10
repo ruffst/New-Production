@@ -4058,7 +4058,6 @@
             <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrust_Gold  Meilenstein_Thruster_Ionen_Gold-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust_Gold" />
           <UnlockedByGroups>
@@ -4066,20 +4065,45 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallThrustSciFi_Gold  Meilenstein_Thruster_Ionen_Gold-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi_Gold" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrustSciFi_Gold  Meilenstein_Thruster_Ionen_Gold-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi_Gold" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallModularThrusterGold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThrusterGold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeModularThrusterGold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThrusterGold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallModularThrusterGold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThrusterGold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeModularThrusterGold  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThrusterGold" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Gold</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+
 
   <!--Meilenstein_Thruster_Ionen_Platin-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Thruster_Ionen_Platin  Meilenstein_Thruster_Ionen_Gold-->
@@ -4096,7 +4120,6 @@
             <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrust_Platin  Meilenstein_Thruster_Ionen_Platin-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust_Platin" />
           <UnlockedByGroups>
@@ -4104,16 +4127,39 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallThrustSciFi_Platin  Meilenstein_Thruster_Ionen_Platin-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi_Platin" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrustSciFi_Platin  Meilenstein_Thruster_Ionen_Platin-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi_Platin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallModularThrusterPlatin  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThrusterPlatin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeModularThrusterPlatin  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThrusterPlatin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallModularThrusterPlatin  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThrusterPlatin" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeModularThrusterPlatin  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThrusterPlatin" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Thruster_Ionen_Platin</GroupSubtype>
           </UnlockedByGroups>
@@ -4133,7 +4179,6 @@
             <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrust_Titan  Meilenstein_Thruster_Ionen_Titan-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust_Titan" />
           <UnlockedByGroups>
@@ -4141,16 +4186,39 @@
           </UnlockedByGroups>
         </ResearchBlock>
 
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallThrustSciFi_Titan  Meilenstein_Thruster_Ionen_Titan-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi_Titan" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
-
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeThrustSciFi_Titan  Meilenstein_Thruster_Ionen_Titan-->
           <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi_Titan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallModularThrusterTitan  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThrusterTitan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeModularThrusterTitan  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThrusterTitan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallModularThrusterTitan  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThrusterTitan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeModularThrusterTitan  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThrusterTitan" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
           </UnlockedByGroups>
