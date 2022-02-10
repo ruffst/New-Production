@@ -4838,9 +4838,9 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <!-- Safezone info -->
-      <MaxSafeZoneRadius>90</MaxSafeZoneRadius>
+      <MaxSafeZoneRadius>220</MaxSafeZoneRadius>
       <MinSafeZoneRadius>10</MinSafeZoneRadius>
-      <DefaultSafeZoneRadius>20</DefaultSafeZoneRadius>
+      <DefaultSafeZoneRadius>40</DefaultSafeZoneRadius>
       <SafeZoneActivationTimeS>60</SafeZoneActivationTimeS>
       <MaxSafeZonePowerDrainkW>24500</MaxSafeZonePowerDrainkW>
       <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
