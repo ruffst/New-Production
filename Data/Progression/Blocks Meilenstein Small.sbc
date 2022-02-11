@@ -1061,11 +1061,10 @@
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="7">
-        <DeconstructId>
+          <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
-        </Component>
         </Component>
         <Component Subtype="MilestoneElectroMaterial" Count="6">
           <DeconstructId>
