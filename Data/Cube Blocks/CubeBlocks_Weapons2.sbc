@@ -952,7 +952,7 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-      <Component Subtype="CopperComputer" Count="10">
+        <Component Subtype="CopperComputer" Count="10">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>CopperScrap</SubtypeId>

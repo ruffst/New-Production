@@ -2142,6 +2142,13 @@
             <GroupSubtype>Meilenstein_Controls</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeTurretControlBlock  Meilenstein_Controls-->
+          <Id Type="MyObjectBuilder_TurretControlBlock" Subtype="LargeTurretControlBlock" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+
 
   <!--Meilenstein_Small_Controls-->
     <ResearchBlock xsi:type="ResearchBlock">                                    <!--Meilenstein_Small_Controls  Forschung-->
@@ -2207,6 +2214,12 @@
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockStandingCockpit  Meilenstein_Small_Controls-->
           <Id Type="MyObjectBuilder_Cockpit" Subtype="SmallBlockStandingCockpit" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallTurretControlBlock  Meilenstein_Small_Controls-->
+          <Id Type="MyObjectBuilder_TurretControlBlock" Subtype="SmallTurretControlBlock" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Controls</GroupSubtype>
           </UnlockedByGroups>
@@ -2793,13 +2806,19 @@
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallGatlingGunWarfare2  Meilenstein_Small_Waffen-->
-          <Id Type="MyObjectBuilder_SmallMissileLauncher" Subtype="SmallGatlingGunWarfare2" />
+          <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="SmallGatlingGunWarfare2" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
         <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockAutocannon  Meilenstein_Small_Waffen-->
           <Id Type="MyObjectBuilder_SmallGatlingGun" Subtype="SmallBlockAutocannon" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--AutoCannonTurret  Meilenstein_Small_Waffen-->
+          <Id Type="MyObjectBuilder_LargeGatlingTurret" Subtype="AutoCannonTurret" />
           <UnlockedByGroups>
             <GroupSubtype>Meilenstein_Small_Waffen</GroupSubtype>
           </UnlockedByGroups>
