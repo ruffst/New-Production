@@ -1061,6 +1061,11 @@
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
         <Component Subtype="MilestoneSpaceMaterial" Count="7">
+        <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         </Component>
         <Component Subtype="MilestoneElectroMaterial" Count="6">
           <DeconstructId>
@@ -1138,7 +1143,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
