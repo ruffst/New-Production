@@ -276,10 +276,10 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\VerticalButtonPanel.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="5">
+        <Component Subtype="SteelPlate" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>AluminiumScrap</SubtypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Construction" Count="5">
