@@ -821,7 +821,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="GoldComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -849,9 +849,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Power_Gold</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Power_Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Energy_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Power_Gold</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Power</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -859,7 +859,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneEnergyMaterial" Count="7">
+        <Component Subtype="MilestoneEnergyMaterial" Count="17">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
@@ -871,6 +871,12 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="GoldReactor" Count="35">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SteelPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -878,7 +884,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="GoldReactor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -906,9 +912,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Power_Platin</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Power_Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Energy_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Power_Platin</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Power</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -916,16 +922,22 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneEnergyMaterial" Count="7">
+        <Component Subtype="MilestoneEnergyMaterial" Count="27">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneElectroMaterial" Count="7">
+        <Component Subtype="MilestoneElectroMaterial" Count="17">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="PlatinReactor" Count="35">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -935,7 +947,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="PlatinReactor" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -963,9 +975,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Power_Titan</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Power_Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Energy_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Power_Titan</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Power</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -973,16 +985,22 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneEnergyMaterial" Count="7">
+        <Component Subtype="MilestoneEnergyMaterial" Count="37">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneElectroMaterial" Count="7">
+        <Component Subtype="MilestoneElectroMaterial" Count="27">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanComputer" Count="35">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -992,7 +1010,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneElectroMaterial" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -1048,6 +1066,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="KupferStrator" Count="25">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SteelPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -1055,7 +1079,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="Strator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -1158,9 +1182,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Ionen_Gold</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Thruster_Ionen_Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Ion_Thrust_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Ionen_Gold</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Ionen</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1168,34 +1192,22 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="Motor" Count="20">
+         <Component Subtype="MilestoneMechanicMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="CopperComputer" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MilestoneEnergyMaterial" Count="25">
+        <Component Subtype="MilestoneEnergyMaterial" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="25">
+        <Component Subtype="GoldThrust" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -1205,7 +1217,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="GoldThrust" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -1233,9 +1245,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Ionen_Platin</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Thruster_Ionen_Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Ion_Thrust_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Ionen_Platin</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Ionen</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1243,34 +1255,22 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="Motor" Count="20">
+          <Component Subtype="MilestoneMechanicMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="CopperComputer" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MilestoneEnergyMaterial" Count="25">
+        <Component Subtype="MilestoneEnergyMaterial" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="25">
+        <Component Subtype="PlatinThrust" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -1280,7 +1280,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="PlatinThrust" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -1308,9 +1308,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Ionen_Titan</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Thruster_Ionen_Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Ion_Thrust_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Ionen_Titan</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Ionen</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1318,34 +1318,22 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="Motor" Count="20">
+         <Component Subtype="MilestoneMechanicMaterial" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="CopperComputer" Count="20">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>MechanicScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MilestoneEnergyMaterial" Count="25">
+        <Component Subtype="MilestoneEnergyMaterial" Count="55">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>BatteryScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Thrust" Count="25">
+        <Component Subtype="TitanThrust" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -1355,7 +1343,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Thrust" Index="0" />
+      <CriticalComponent Subtype="TitanThrust" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -1405,7 +1393,7 @@
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferStrator" Count="25">
+        <Component Subtype="KupferStrator" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>CopperScrap</SubtypeId>
@@ -1446,9 +1434,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Hydro_Gold</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Thruster_Hydro_Gold</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Hydro_Thrust_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Hydro_Gold</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Hydro</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1462,16 +1450,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="25">
+        <Component Subtype="MilestoneMechanicMaterial" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferStrator" Count="25">
+        <Component Subtype="GoldStrator" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -1481,7 +1469,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferStrator" Index="0" />
+      <CriticalComponent Subtype="GoldStrator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -1509,9 +1497,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Hydro_Platin</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Thruster_Hydro_Platin</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Hydro_Thrust_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Hydro_Platin</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Hydro</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1525,16 +1513,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="25">
+        <Component Subtype="MilestoneMechanicMaterial" Count="45">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferStrator" Count="25">
+        <Component Subtype="PlatinStrator" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -1544,7 +1532,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferStrator" Index="0" />
+      <CriticalComponent Subtype="PlatinStrator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -1572,9 +1560,9 @@
         <TypeId>Conveyor</TypeId>
         <SubtypeId>Meilenstein_Small_Thruster_Hydro_Titan</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Thruster_Hydro_Titan</DisplayName>
+      <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Hydro_Thrust_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Hydro_Titan</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Thruster_Hydro</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1588,16 +1576,16 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneMechanicMaterial" Count="25">
+        <Component Subtype="MilestoneMechanicMaterial" Count="55">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>MechanicScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="KupferStrator" Count="25">
+        <Component Subtype="TitanStrator" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -1607,7 +1595,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="KupferStrator" Index="0" />
+      <CriticalComponent Subtype="TitanStrator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -2188,16 +2176,22 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneCargoMaterial" Count="10">
+        <Component Subtype="MilestoneCargoMaterial" Count="20">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneArmorMaterial" Count="5">
+        <Component Subtype="MilestoneArmorMaterial" Count="15">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>  
+        <Component Subtype="GoldComputer" Count="35">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>GoldScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -2245,16 +2239,22 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneCargoMaterial" Count="10">
+        <Component Subtype="MilestoneCargoMaterial" Count="30">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneArmorMaterial" Count="5">
+        <Component Subtype="MilestoneArmorMaterial" Count="25">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="PlatinComputer" Count="35">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>PlatinScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -2264,7 +2264,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="PlatinComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
@@ -2302,16 +2302,22 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\SG_Milestone.mwm</Model>
       <Components>
-        <Component Subtype="MilestoneCargoMaterial" Count="10">
+        <Component Subtype="MilestoneCargoMaterial" Count="40">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="MilestoneArmorMaterial" Count="5">
+        <Component Subtype="MilestoneArmorMaterial" Count="35">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="TitanComputer" Count="35">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>TitanScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="1">
@@ -2321,7 +2327,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="MilestoneArmorMaterial" Index="0" />
+      <CriticalComponent Subtype="TitanComputer" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />

@@ -3253,9 +3253,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>LargeAssemblerIndustrial</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_AssemblerIndustrial</DisplayName>
+      <DisplayName>DisplayName_Block_AssemblerIndustrial_new</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AdvancedAssemblerIndustrial.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_Assembler_new</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -3352,7 +3352,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>BasicTools</Class>
+        <Class>Ammo</Class>
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -4156,9 +4156,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>LargeAssembler</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_Assembler</DisplayName>
+      <DisplayName>DisplayName_Block_Assembler_new</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-      <Description>Description_Assembler</Description>
+      <Description>Description_Assembler_new</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4244,7 +4244,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
       <BlueprintClasses>
-        <!--<Class>BasicTools</Class>-->
+        <Class>Ammo</Class>
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>

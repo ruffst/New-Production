@@ -396,6 +396,17 @@
         <value>Small Jumpdrive</value>
     </data>
 
+    <!-- Assembler -->
+
+    <data name="Description_Assembler_new" xml:space="preserve">
+        <value>Ammunition factory</value>
+    </data>
+    <data name="DisplayName_Block_AssemblerIndustrial_new" xml:space="preserve">
+        <value>Ammunition factory Industrial</value>
+    </data>
+    <data name="DisplayName_Block_Assembler_new" xml:space="preserve">
+        <value>Ammunition factory</value>
+    </data>
 
     <!--CubeBlocksFSDrive.sbc-->
 
@@ -787,10 +798,10 @@
         <value>Milestone small Energy Gold</value>
     </data>
     <data name="DisplayName_Conveyor_Meilenstein_Small_Energy_Platin" xml:space="preserve">
-        <value>Milestone small Energy Gold</value>
+        <value>Milestone small Energy Platin</value>
     </data>
     <data name="DisplayName_Conveyor_Meilenstein_Small_Energy_Titan" xml:space="preserve">
-        <value>Milestone small Energy Gold</value>
+        <value>Milestone small Energy Titan</value>
     </data>   
 
     <!-- Blocks Meilenstein.sbc -->
@@ -2024,6 +2035,12 @@
     <data name="DisplayName_Block_LargeModularThrusterTitan" xml:space="preserve">
         <value>Large Modular Ion Thruster Titan</value>
     </data>
-
+    <!-- Ammo -->
+    <data name="DisplayName_Item_Missile200mm_lead" xml:space="preserve">
+        <value>Lead Missile</value>
+    </data>
+    <data name="DisplayName_Item_NATO_25x184mm_lead" xml:space="preserve">
+        <value>Lead Gattling Ammo</value>
+    </data>
 
 </root>

@@ -410,6 +410,7 @@
             <DeviateShotAngleAiming>1</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
+                <AmmoMagazine Subtype="LeadMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
             <RecoilJetpackVertical>0</RecoilJetpackVertical>
@@ -456,6 +457,7 @@
             <DeviateShotAngleAiming>0.1</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
+                <AmmoMagazine Subtype="LeadMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>6000</ReloadTime>
             <RecoilJetpackVertical>0</RecoilJetpackVertical>
@@ -501,6 +503,7 @@
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
+                <AmmoMagazine Subtype="LeadMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>2000</ReloadTime>
         </Weapon>
@@ -516,7 +519,7 @@
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
-                <AmmoMagazine Subtype="GoldMissile200mm" />
+                <AmmoMagazine Subtype="LeadMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -531,6 +534,7 @@
             <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
+                <AmmoMagazine Subtype="LeadMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -545,6 +549,7 @@
             <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
+                <AmmoMagazine Subtype="LeadMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>6000</ReloadTime>
         </Weapon>
@@ -563,6 +568,7 @@
             <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="NATO_25x184mm" />
+                <AmmoMagazine Subtype="Lead_NATO_25x184mm" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -579,6 +585,7 @@
             <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="NATO_25x184mm" />
+                <AmmoMagazine Subtype="Lead_NATO_25x184mm" />
             </AmmoMagazines>
             <ReloadTime>6000</ReloadTime>
         </Weapon>
@@ -595,6 +602,7 @@
             <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="NATO_25x184mm" />
+                <AmmoMagazine Subtype="Lead_NATO_25x184mm" />
             </AmmoMagazines>
             <ReloadTime>3000</ReloadTime>
         </Weapon>

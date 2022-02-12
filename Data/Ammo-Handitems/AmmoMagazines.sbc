@@ -263,13 +263,39 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
-        <AmmoMagazine>            <!--Missile200mm-->
+        <AmmoMagazine>            <!--NATO_25x184mm-->
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
-                <SubtypeId>GoldMissile200mm</SubtypeId>
+                <SubtypeId>Lead_NATO_25x184mm</SubtypeId>
             </Id>
-            <DisplayName>200mm Gold missile Container</DisplayName>
-            <Icon>Textures\GUI\Icons\ammo\Small_Rocket_Gold.dds</Icon>
+            <DisplayName>DisplayName_Item_NATO_25x184mm_lead</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Lead_Ammo_Box.dds</Icon>
+            <Size>
+                <X>0.25</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size>
+            <Mass>25</Mass>
+            <Volume>16</Volume>
+            <Model>Models\Weapons\Ammo_Box.mwm</Model>
+            <PhysicalMaterial>Ammo</PhysicalMaterial>
+            <Capacity>140</Capacity>
+            <AmmoDefinitionId Subtype="LeadLargeCaliber" />
+
+            <MinimumOfferAmount>100</MinimumOfferAmount>
+            <MaximumOfferAmount>1000</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>            <!--LeadMissile200mm-->
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>LeadMissile200mm</SubtypeId>
+            </Id>
+            <DisplayName>200mm Lead missile Container</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Small_Rocket_lead.dds</Icon>
             <Size>
                 <X>1.2</X>
                 <Y>0.2</Y>
@@ -280,7 +306,7 @@
             <Model>Models\Weapons\Projectile_Missile.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
             <Capacity>1</Capacity>
-            <AmmoDefinitionId Subtype="GoldMissile" />
+            <AmmoDefinitionId Subtype="LeadMissile" />
 
             <MinimumOfferAmount>100</MinimumOfferAmount>
             <MaximumOfferAmount>1000</MaximumOfferAmount>
