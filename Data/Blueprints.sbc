@@ -2074,6 +2074,22 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
+    <!--Lead_NATO_25x184mmMagazine-->
+    <Blueprint>      
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Lead_NATO_25x184mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NATO_25x184mm_lead</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Lead_Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="3.0" TypeId="Ingot" SubtypeId="Lead" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Lead_NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+    </Blueprint>
     <!--Missile200mm-->
     <Blueprint>
       <Id>
@@ -2093,6 +2109,22 @@
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
-
+    <!--LeadMissile200mm-->
+       <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LeadMissile200mm</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_Missile200mm_lead</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\Small_Rocket_lead.dds</Icon>
+            <Prerequisites>
+                <Item Amount="35" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Lead" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LeadMissile200mm" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
   </Blueprints>
 </Definitions>

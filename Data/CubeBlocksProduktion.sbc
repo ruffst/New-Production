@@ -3352,7 +3352,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>BasicTools</Class>
+        <Class>Ammo</Class>
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -4244,7 +4244,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
       <BlueprintClasses>
-        <!--<Class>BasicTools</Class>-->
+        <Class>Ammo</Class>
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>

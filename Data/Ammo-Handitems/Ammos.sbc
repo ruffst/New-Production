@@ -65,15 +65,35 @@
         <HeadShot>true</HeadShot>
       </ProjectileProperties>
     </Ammo>
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">      <!--LeadLargeCaliber-->
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>LeadLargeCaliber</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>300</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>600</MaxTrajectory>
+        <BackkickForce>40</BackkickForce>
+        <PhysicalMaterial>GunBullet</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileTrailScale>0.1</ProjectileTrailScale>
+        <ProjectileHitImpulse>2</ProjectileHitImpulse>
+        <ProjectileMassDamage>120</ProjectileMassDamage>
+        <ProjectileHealthDamage>23</ProjectileHealthDamage>
+        <HeadShot>true</HeadShot>
+      </ProjectileProperties>
+    </Ammo>
     <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">      <!--Missile-->
       <Id>
         <TypeId>AmmoDefinition</TypeId>
         <SubtypeId>Missile</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>200</DesiredSpeed>
+        <DesiredSpeed>220</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
-        <MaxTrajectory>800</MaxTrajectory>
+        <MaxTrajectory>900</MaxTrajectory>
         <IsExplosive>true</IsExplosive>
         <BackkickForce>0</BackkickForce>
         <PhysicalMaterial>Missile</PhysicalMaterial>
@@ -88,27 +108,27 @@
         <MissileExplosionDamage>500</MissileExplosionDamage>
       </MissileProperties>
     </Ammo>
-    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">      <!--Missile-->
+    <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">      <!--LeadMissile-->
       <Id>
         <TypeId>AmmoDefinition</TypeId>
-        <SubtypeId>GoldMissile</SubtypeId>
+        <SubtypeId>LeadMissile</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>300</DesiredSpeed>
+        <DesiredSpeed>120</DesiredSpeed>
         <SpeedVariance>20</SpeedVariance>
-        <MaxTrajectory>1200</MaxTrajectory>
+        <MaxTrajectory>650</MaxTrajectory>
         <IsExplosive>true</IsExplosive>
         <BackkickForce>10</BackkickForce>
-        <PhysicalMaterial>Missile</PhysicalMaterial>
+        <PhysicalMaterial>LeadMissile</PhysicalMaterial>
       </BasicProperties>
       <MissileProperties>
-        <MissileMass>70</MissileMass>
-        <MissileExplosionRadius>5</MissileExplosionRadius>
+        <MissileMass>30</MissileMass>
+        <MissileExplosionRadius>3</MissileExplosionRadius>
         <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
         <MissileAcceleration>600</MissileAcceleration>
         <MissileInitialSpeed>100</MissileInitialSpeed>
         <MissileSkipAcceleration>false</MissileSkipAcceleration>
-        <MissileExplosionDamage>500</MissileExplosionDamage>
+        <MissileExplosionDamage>300</MissileExplosionDamage>
       </MissileProperties>
     </Ammo>
     <!--   <Ammo>       Shrapnel

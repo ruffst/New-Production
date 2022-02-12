@@ -353,6 +353,33 @@
 
     </BlueprintClasses>
     <BlueprintClassEntries>
+        <!-- Ammo -->
+
+            <Entry Class="Ammo" BlueprintSubtypeId="SemiAutoPistolMagazine" />
+            <Entry Class="Ammo" BlueprintSubtypeId="AutomaticRifleGun_Mag_20rd" />
+            <Entry Class="Ammo" BlueprintSubtypeId="FullAutoPistolMagazine" />
+            <Entry Class="Ammo" BlueprintSubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
+            <!--<Entry Class="Consumables" BlueprintSubtypeId="InteriorTurret_Mag_100rd" />-->
+
+            <Entry Class="Ammo" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+            <Entry Class="Ammo" BlueprintSubtypeId="NATO_25x184mmMagazine" />
+            <Entry Class="Ammo" BlueprintSubtypeId="Lead_NATO_25x184mmMagazine" />
+            <Entry Class="Ammo" BlueprintSubtypeId="AutocannonClip" />
+            <Entry Class="Ammo" BlueprintSubtypeId="Missile200mm" />
+            <Entry Class="Ammo" BlueprintSubtypeId="LeadMissile200mm" />
+            <Entry Class="Ammo" BlueprintSubtypeId="LargeCalibreAmmo" />
+            <Entry Class="Ammo" BlueprintSubtypeId="MediumCalibreAmmo" />
+            <Entry Class="Ammo" BlueprintSubtypeId="LargeRailgunAmmo" />
+            <Entry Class="Ammo" BlueprintSubtypeId="SmallRailgunAmmo" />
+            <Entry Class="Ammo" BlueprintSubtypeId="SemiAutoPistolMagazine" />
+            <Entry Class="Ammo" BlueprintSubtypeId="FullAutoPistolMagazine" />
+            <Entry Class="Ammo" BlueprintSubtypeId="ElitePistolMagazine" />
+            <Entry Class="Ammo" BlueprintSubtypeId="AutomaticRifleGun_Mag_20rd" />
+            <Entry Class="Ammo" BlueprintSubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
+            <Entry Class="Ammo" BlueprintSubtypeId="PreciseAutomaticRifleGun_Mag_5rd" />
+            <Entry Class="Ammo" BlueprintSubtypeId="UltimateAutomaticRifleGun_Mag_30rd" />
+
+
         <!--Meilensteine-->
             <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneArmorMaterialBP" />
             <Entry Class="Meilensteine" BlueprintSubtypeId="MilestoneEnergyMaterialBP" />
@@ -522,6 +549,8 @@
 
         <!--ComponentsVerbrauchsmaterialAssembler-->
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Explosives" />
+            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Canvas" />
+
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="SemiAutoPistol" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="FullAutoPistol" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AutomaticRifle" />
@@ -563,18 +592,6 @@
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="BasicHandHeldLauncher" />
             <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AdvancedHandHeldLauncher" />
 
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Explosives" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="NATO_25x184mmMagazine" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Missile200mm" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="SemiAutoPistolMagazine" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="FullAutoPistolMagazine" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="ElitePistolMagazine" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="AutomaticRifleGun_Mag_20rd" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="RapidFireAutomaticRifleGun_Mag_50rd" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="PreciseAutomaticRifleGun_Mag_5rd" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="UltimateAutomaticRifleGun_Mag_30rd" />
-            <Entry Class="ComponentsVerbrauchsmaterialAssembler" BlueprintSubtypeId="Canvas" />
 
         <!--Gas Verarbeitung-->
 
