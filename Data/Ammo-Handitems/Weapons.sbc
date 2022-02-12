@@ -411,6 +411,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
                 <AmmoMagazine Subtype="LeadMissile200mm" />
+                <AmmoMagazine Subtype="PeneMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
             <RecoilJetpackVertical>0</RecoilJetpackVertical>
@@ -458,6 +459,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
                 <AmmoMagazine Subtype="LeadMissile200mm" />
+                <AmmoMagazine Subtype="PeneMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>6000</ReloadTime>
             <RecoilJetpackVertical>0</RecoilJetpackVertical>
@@ -504,6 +506,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
                 <AmmoMagazine Subtype="LeadMissile200mm" />
+                <AmmoMagazine Subtype="PeneMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>2000</ReloadTime>
         </Weapon>
@@ -520,6 +523,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
                 <AmmoMagazine Subtype="LeadMissile200mm" />
+                <AmmoMagazine Subtype="PeneMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -535,6 +539,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
                 <AmmoMagazine Subtype="LeadMissile200mm" />
+                <AmmoMagazine Subtype="PeneMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -550,6 +555,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
                 <AmmoMagazine Subtype="LeadMissile200mm" />
+                <AmmoMagazine Subtype="PeneMissile200mm" />
             </AmmoMagazines>
             <ReloadTime>6000</ReloadTime>
         </Weapon>
@@ -569,6 +575,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="NATO_25x184mm" />
                 <AmmoMagazine Subtype="Lead_NATO_25x184mm" />
+                <AmmoMagazine Subtype="Pene_NATO_25x184mm" />
             </AmmoMagazines>
             <ReloadTime>4000</ReloadTime>
         </Weapon>
@@ -586,6 +593,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="NATO_25x184mm" />
                 <AmmoMagazine Subtype="Lead_NATO_25x184mm" />
+                <AmmoMagazine Subtype="Pene_NATO_25x184mm" />
             </AmmoMagazines>
             <ReloadTime>6000</ReloadTime>
         </Weapon>
@@ -603,6 +611,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="NATO_25x184mm" />
                 <AmmoMagazine Subtype="Lead_NATO_25x184mm" />
+                <AmmoMagazine Subtype="Pene_NATO_25x184mm" />
             </AmmoMagazines>
             <ReloadTime>3000</ReloadTime>
         </Weapon>
