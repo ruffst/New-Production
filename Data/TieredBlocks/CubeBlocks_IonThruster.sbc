@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
     <!--        Tier Gold-->
-    <!--Small Small Thrust-->
+
     <!--SmallBlockSmallThrust_Gold-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -128,7 +128,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Small Large Thrust-->
     <!--SmallBlockLargeThrust_Gold-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -255,7 +254,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Small Thrust-->
     <!--LargeBlockSmallThrust_Gold-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -380,7 +378,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Large Thrust-->
     <!--LargeBlockLargeThrust_Gold-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -510,7 +507,7 @@
       <PCU>15</PCU>
     </Definition>
     <!--        Tier Platin-->
-    <!--Small Small Thrust-->
+
     <!--SmallBlockSmallThrust_Platin-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -636,7 +633,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Small Large Thrust-->
     <!--SmallBlockLargeThrust_Platin-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -763,7 +759,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Small Thrust-->
     <!--LargeBlockSmallThrust_Platin-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -888,7 +883,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Large Thrust-->
     <!--LargeBlockLargeThrust_Platin-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -1018,7 +1012,7 @@
       <PCU>15</PCU>
     </Definition>
     <!--        Tier Titan-->
-    <!--Small Small Thrust-->
+    
     <!--SmallBlockSmallThrust_Titan-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -1144,7 +1138,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Small Large Thrust-->
     <!--SmallBlockLargeThrust_Titan-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -1271,7 +1264,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Small Thrust-->
     <!--LargeBlockSmallThrust_Titan-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -1396,7 +1388,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
     </Definition>
-    <!--Large Thrust-->
     <!--LargeBlockLargeThrust_Titan-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>

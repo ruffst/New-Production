@@ -1193,8 +1193,7 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">      
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
-      </Id>
+        <SubtypeId/></Id>
       <DisplayName>DisplayName_Category_WindowBlocks</DisplayName>
       <Name>WindowBlocks</Name>
       <IsShipCategory>true</IsShipCategory>
@@ -1408,47 +1407,73 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">      
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
-      </Id>
+        <SubtypeId/></Id>
       <DisplayName>DisplayName_Category_ShipThrusters</DisplayName>
       <Name>ShipThrusters</Name>
       <IsShipCategory>true</IsShipCategory>
-      <IsBlockCategory>false</IsBlockCategory>
+      <IsBlockCategory>true</IsBlockCategory>
       <ItemIds>
-        <string>SmallBlockSmallThrust</string>
-        <string>SmallBlockLargeThrust</string>
-        <string>LargeBlockSmallThrust</string>
-        <string>LargeBlockLargeThrust</string>
+        <!--Ionen-->
+        <string>Thrust/SmallBlockSmallThrust</string>
+        <string>Thrust/SmallBlockLargeThrust</string>
+        <string>Thrust/LargeBlockSmallThrust</string>
+        <string>Thrust/LargeBlockLargeThrust</string>
 
-        <string>SmallBlockSmallThrust_Gold</string>
-        <string>SmallBlockLargeThrust_Gold</string>
-        <string>LargeBlockSmallThrust_Gold</string>
-        <string>LargeBlockLargeThrust_Gold</string>
+        <string>Thrust/SmallBlockSmallThrust_Gold</string>
+        <string>Thrust/SmallBlockLargeThrust_Gold</string>
+        <string>Thrust/LargeBlockSmallThrust_Gold</string>
+        <string>Thrust/LargeBlockLargeThrust_Gold</string>
 
-        <string>SmallBlockSmallThrust_Platin</string>
-        <string>SmallBlockLargeThrust_Platin</string>
-        <string>LargeBlockSmallThrust_Platin</string>
-        <string>LargeBlockLargeThrust_Platin</string>
+        <string>Thrust/SmallBlockSmallThrust_Platin</string>
+        <string>Thrust/SmallBlockLargeThrust_Platin</string>
+        <string>Thrust/LargeBlockSmallThrust_Platin</string>
+        <string>Thrust/LargeBlockLargeThrust_Platin</string>
 
-        <string>SmallBlockSmallThrust_Titan</string>
-        <string>SmallBlockLargeThrust_Titan</string>
-        <string>LargeBlockSmallThrust_Titan</string>
-        <string>LargeBlockLargeThrust_Titan</string>
+        <string>Thrust/SmallBlockSmallThrust_Titan</string>
+        <string>Thrust/SmallBlockLargeThrust_Titan</string>
+        <string>Thrust/LargeBlockSmallThrust_Titan</string>
+        <string>Thrust/LargeBlockLargeThrust_Titan</string>
 
-        <string>SmallBlockSmallThrustSciFi_Gold</string>
-        <string>SmallBlockLargeThrustSciFi_Gold</string>
-        <string>LargeBlockSmallThrustSciFi_Gold</string>
-        <string>LargeBlockLargeThrustSciFi_Gold</string>
+        <string>Thrust/SmallBlockSmallThrustSciFi_Gold</string>
+        <string>Thrust/SmallBlockLargeThrustSciFi_Gold</string>
+        <string>Thrust/LargeBlockSmallThrustSciFi_Gold</string>
+        <string>Thrust/LargeBlockLargeThrustSciFi_Gold</string>
 
-        <string>SmallBlockSmallThrustSciFi_Platin</string>
-        <string>SmallBlockLargeThrustSciFi_Platin</string>
-        <string>LargeBlockSmallThrustSciFi_Platin</string>
-        <string>LargeBlockLargeThrustSciFi_Platin</string>
+        <string>Thrust/SmallBlockSmallThrustSciFi_Platin</string>
+        <string>Thrust/SmallBlockLargeThrustSciFi_Platin</string>
+        <string>Thrust/LargeBlockSmallThrustSciFi_Platin</string>
+        <string>Thrust/LargeBlockLargeThrustSciFi_Platin</string>
 
-        <string>SmallBlockSmallThrustSciFi_Titan</string>
-        <string>SmallBlockLargeThrustSciFi_Titan</string>
-        <string>LargeBlockSmallThrustSciFi_Titan</string>
-        <string>LargeBlockLargeThrustSciFi_Titan</string>
+        <string>Thrust/SmallBlockSmallThrustSciFi_Titan</string>
+        <string>Thrust/SmallBlockLargeThrustSciFi_Titan</string>
+        <string>Thrust/LargeBlockSmallThrustSciFi_Titan</string>
+        <string>Thrust/LargeBlockLargeThrustSciFi_Titan</string>
+
+        <!--Hydro-->
+        <string>Thrust/SmallBlockSmallHydrogenThrust</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrust</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrust</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrust</string>
+
+        <string>Thrust/LargeBlockLargeHydrogenThrustIndustrial</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrustIndustrial</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrustIndustrial</string>
+        <string>Thrust/SmallBlockSmallHydrogenThrustIndustrial</string>
+
+        <string>Thrust/SmallBlockSmallHydrogenThrust_Gold</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrust_Gold</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrust_Gold</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrust_Gold</string>
+
+        <string>Thrust/SmallBlockSmallHydrogenThrust_Platin</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrust_Platin</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrust_Platin</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrust_Platin</string>
+
+        <string>Thrust/SmallBlockSmallHydrogenThrust_Titan</string>
+        <string>Thrust/SmallBlockLargeHydrogenThrust_Titan</string>
+        <string>Thrust/LargeBlockSmallHydrogenThrust_Titan</string>
+        <string>Thrust/LargeBlockLargeHydrogenThrust_Titan</string>
       </ItemIds>
     </Category>
   <!--ShipLights-->
@@ -1618,9 +1643,18 @@
         <string>Conveyor/Meilenstein_Small_Automation</string>
         <string>Conveyor/Meilenstein_Small_Lights</string>
         <string>Conveyor/Meilenstein_Small_Power</string>
+        <string>Conveyor/Meilenstein_Small_Power_Gold</string>
+        <string>Conveyor/Meilenstein_Small_Power_Platin</string>
+        <string>Conveyor/Meilenstein_Small_Power_Titan</string>
         <string>Conveyor/Meilenstein_Small_Thruster_Atmo</string>
         <string>Conveyor/Meilenstein_Small_Thruster_Hydro</string>
+        <string>Conveyor/Meilenstein_Small_Thruster_Hydro_Gold</string>
+        <string>Conveyor/Meilenstein_Small_Thruster_Hydro_Platin</string>
+        <string>Conveyor/Meilenstein_Small_Thruster_Hydro_Titan</string>
         <string>Conveyor/Meilenstein_Small_Thruster_Ionen</string>
+        <string>Conveyor/Meilenstein_Small_Thruster_Ionen_Gold</string>
+        <string>Conveyor/Meilenstein_Small_Thruster_Ionen_Platin</string>
+        <string>Conveyor/Meilenstein_Small_Thruster_Ionen_Titan</string>
         <string>Conveyor/Meilenstein_Small_LCDs</string>
         <string>Conveyor/Meilenstein_Small_Mechanic</string>
         <string>Conveyor/Meilenstein_Small_Tore</string>
@@ -1629,6 +1663,9 @@
         <string>Conveyor/Meilenstein_Small_Communication</string>
         <string>Conveyor/Meilenstein_Small_Landing</string>
         <string>Conveyor/Meilenstein_Small_Tanks</string>
+        <string>Conveyor/Meilenstein_Small_Tanks_Gold</string>
+        <string>Conveyor/Meilenstein_Small_Tanks_Platin</string>
+        <string>Conveyor/Meilenstein_Small_Tanks_Titan</string>
         <string>Conveyor/Meilenstein_Small_Jumpdrive</string>
       </ItemIds>
     </Category>
