@@ -1139,6 +1139,13 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust_Platin" />           
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust_Titan" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust_Titan" />
+                
             </Blocks>
         </BlockVariantGroup>
         <!-- ThrusterIonGroupSmall -->
@@ -1150,6 +1157,13 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust_Titan" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust_Titan" />
+                
             </Blocks>
         </BlockVariantGroup>
 
@@ -1162,6 +1176,12 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi_Titan" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi_Titan" />
             </Blocks>
         </BlockVariantGroup>
         <!-- ThrusterSciFiIonGroupSmall -->
@@ -1173,9 +1193,16 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi" />
                 <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi_Gold" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi_Platin" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi_Titan" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi_Titan" />
             </Blocks>
         </BlockVariantGroup>
 
+        <!-- ModularThrusterGroup -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ModularThrusterGroup" />
             <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLarge.dds</Icon>
@@ -1186,6 +1213,7 @@
                 <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThruster" />
             </Blocks>
         </BlockVariantGroup>
+        <!-- ModularThrusterGroupSmall -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ModularThrusterGroupSmall" />
             <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLarge.dds</Icon>

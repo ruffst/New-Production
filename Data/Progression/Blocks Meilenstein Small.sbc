@@ -2158,7 +2158,7 @@
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BlockPairName>Meilenstein_Small Tanks</BlockPairName>
+      <BlockPairName>Meilenstein_Small_Tanks</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -2180,7 +2180,7 @@
       </Id>
       <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Tanks_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Tanks_Gold</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Tanks</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2215,7 +2215,7 @@
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BlockPairName>Meilenstein_Small Tanks_Gold</BlockPairName>
+      <BlockPairName>Meilenstein_Small_Tanks_Gold</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -2237,7 +2237,7 @@
       </Id>
       <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Tanks_Platin</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Tanks_Platin</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Tanks</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2272,7 +2272,7 @@
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BlockPairName>Meilenstein_Small Tanks_Platin</BlockPairName>
+      <BlockPairName>Meilenstein_Small_Tanks_Platin</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -2294,7 +2294,7 @@
       </Id>
       <DisplayName>DisplayName_Conveyor_Meilenstein_Small_Tanks_Titan</DisplayName>
       <Icon>Textures\GUI\Icons\MilestoneMini.dds</Icon>
-      <Description>Description_Conveyor_Meilenstein_Small_Tanks_Titan</Description>
+      <Description>Description_Conveyor_Meilenstein_Small_Tanks</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -2329,7 +2329,7 @@
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BlockPairName>Meilenstein_Small Tanks_Titan</BlockPairName>
+      <BlockPairName>Meilenstein_Small_Tanks_Titan</BlockPairName>
       <GeneralDamageMultiplier>0.95</GeneralDamageMultiplier>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
