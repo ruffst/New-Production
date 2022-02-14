@@ -1477,9 +1477,9 @@
     <Blueprint>      <!--DetectorComponent-->
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>DisplayName_Component_Detector</SubtypeId>
+        <SubtypeId>Detector</SubtypeId>
       </Id>
-      <DisplayName>Detektorkomponente</DisplayName>
+      <DisplayName>DisplayName_Component_Detector</DisplayName>
       <Icon>Textures\GUI\Icons\component\detector.dds</Icon>
       <Prerequisites>
         <Item Amount="5" TypeId="Component" SubtypeId="SteelPlate" />
