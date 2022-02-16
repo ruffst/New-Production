@@ -36,6 +36,26 @@
       </Id>
       <Prefab>RespawnMoonPod</Prefab>
     </Ship>-->
-
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnPlanetPod</SubtypeId>
+      </Id>
+      <Prefab>RespawnPlanetPod</Prefab>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnSpacePod</SubtypeId>
+      </Id>
+      <Prefab>RespawnSpacePod</Prefab>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnMoonPod</SubtypeId>
+      </Id>
+      <Prefab>RespawnMoonPod</Prefab>
+    </Ship>
   </RespawnShips>
 </Definitions>
