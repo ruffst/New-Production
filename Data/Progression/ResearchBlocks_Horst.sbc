@@ -113,24 +113,19 @@
           <GroupSubtype>Basic_System_Items</GroupSubtype>
         </UnlockedByGroups>
       </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">    <!--SmallBlockGyro_Basic  Basic_System_Items-->
-          <Id Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Basic" />
-          <UnlockedByGroups>
-            <GroupSubtype>Basic_System_Items</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">    <!--CollectorBasic  Basic_System_Items-->
-          <Id Type="MyObjectBuilder_Collector" Subtype="CollectorBasic" />
-          <UnlockedByGroups>
-            <GroupSubtype>Basic_System_Items</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
-        <ResearchBlock xsi:type="ResearchBlock">    <!--ConnectorBasic  Basic_System_Items-->
-          <Id Type="MyObjectBuilder_ShipConnector" Subtype="ConnectorBasic" />
-          <UnlockedByGroups>
-            <GroupSubtype>Basic_System_Items</GroupSubtype>
-          </UnlockedByGroups>
-        </ResearchBlock>
+      <ResearchBlock xsi:type="ResearchBlock">    <!--SmallBlockGyro_Basic  Basic_System_Items-->
+        <Id Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro_Basic" />
+        <UnlockedByGroups>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+      <ResearchBlock xsi:type="ResearchBlock">    <!--CollectorBasic  Basic_System_Items-->
+        <Id Type="MyObjectBuilder_Collector" Subtype="CollectorBasic" />
+        <UnlockedByGroups>
+          <GroupSubtype>Basic_System_Items</GroupSubtype>
+        </UnlockedByGroups>
+      </ResearchBlock>
+      
 
 
   <!--Freischaltung Assembler1-->

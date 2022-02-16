@@ -1,6 +1,13 @@
                <!--leer-->
                Enabled="false"
 
+DisplayName_Block_
+
+Description_
+
+
+
+
 
 Server Mod Id
 
@@ -11,7 +18,7 @@ Server Mod Id
 1825460112    AQD - No Armor Edges
 1354870812    [VSI] Recolorable Thrusters
 514062285     BuildInfo (extra block+terminal info, air leak finder)
-758597413     Text HUD API
+758597413     Text HUD API    
 1697184408    Build Vision 2.5
 1965654081    Rich HUD Master
 2712348698    FIST-Inc.-Static-Drill
@@ -103,270 +110,40 @@ Server Mod Id
         </Component>
 
 
-    <!--Kohlenstoff Reactor-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
-      <Id>
-        <TypeId>Reactor</TypeId>
-        <SubtypeId>KohlenstofReactorSmall</SubtypeId>
-      </Id>
-      <DisplayName>Kohlenstoff Reactor Small</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-      <Description>Erzeugt Energie aus Kohlenstoff</Description>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\GeneratorSmall.mwm</Model>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-      <Components>
-        <Component Subtype="SteelPlate" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="10">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MetalGrid" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="LargeTube" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="GoldSpulle" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Computer" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="CopperComputer" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>Kohlenstoff Reactor Small</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>20</BuildTimeSeconds>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>0.5</MaxPowerOutput>
-      <InventorySize>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </InventorySize>
-      <!-- 
-                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
-                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
-                Warning: Changing these values will affect performance.
-            -->
-      <InventoryFillFactorMin>0.0002</InventoryFillFactorMin>
-      <InventoryFillFactorMax>0.0004</InventoryFillFactorMax>
-      <!-- 
-                This is how much of fuel is pulled from conveyor system in one tick.
-                It's in minutes, means that it will pull X minutes of fuel in one tick.
-                Warning: Changing this value will affect performance.
-            -->
-      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
-      <FuelInfos>
-        <FuelInfo>
-          <Id>
-            <TypeId>Ingot</TypeId>
-            <SubtypeId>Kohlenstoff</SubtypeId>
-          </Id>
-        </FuelInfo>
-      </FuelInfos>
-      <PrimarySound>ShipSmNuclearSm</PrimarySound>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
-      <DamagedSound>ParticleReactor</DamagedSound>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <TieredUpdateTimes>
-        <unsignedInt>900</unsignedInt>
-        <unsignedInt>1800</unsignedInt>
-        <unsignedInt>3600</unsignedInt>
-      </TieredUpdateTimes>
-    </Definition>
+Übersetzungen für die Spiel Elemente
 
-    <!--KohlenstoffReactorLarge-->
-    <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
-      <Id>
-        <TypeId>Reactor</TypeId>
-        <SubtypeId>KohlenstoffReactorLarge</SubtypeId>
-      </Id>
-      <DisplayName>Kohlenstoff Reactor Large</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-      <Description>Erzeugt Energie aus Kohlenstoff</Description>
-      <CubeSize>Large</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="50">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Construction" Count="40">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="MetalGrid" Count="4">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="LargeTube" Count="8">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="GoldSpulle" Count="50">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Motor" Count="6">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Computer" Count="1">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="CopperComputer" Count="100">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>CopperScrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="SteelPlate" Count="30">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-      </Components>
-      <CriticalComponent Subtype="CopperComputer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
-        <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
-        <MountPoint Side="Right" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-        <MountPoint Side="Left" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-        <MountPoint Side="Bottom" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" Default="true" />
-        <MountPoint Side="Front" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\GeneratorSmallConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>KohlenstoffReactorLarge</BlockPairName>
-      <MirroringY>Z</MirroringY>
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>40</BuildTimeSeconds>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>2.5</MaxPowerOutput>
-      <InventorySize>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
-      </InventorySize>
-      <!-- 
-                Values are volume fill ratio, means how much fuel reactor pulls from conveyor system to the inventory.
-                If volume fill ratio is bellow minimum, reactor starts pulling fuel up to maximum value.
-                Warning: Changing these values will affect performance.
-            -->
-      <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
-      <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
-      <!-- 
-                This is how much of fuel is pulled from conveyor system in one tick.
-                It's in minutes, means that it will pull X minutes of fuel in one tick.
-                Warning: Changing this value will affect performance.
-            -->
-      <FuelPullAmountFromConveyorInMinutes>10.0</FuelPullAmountFromConveyorInMinutes>
-      <FuelInfos>
-        <FuelInfo>
-          <Id>
-            <TypeId>Ingot</TypeId>
-            <SubtypeId>Kohlenstoff</SubtypeId>
-          </Id>
-        </FuelInfo>
-      </FuelInfos>
-      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
-      <DamagedSound>ParticleReactor</DamagedSound>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>
-      <TieredUpdateTimes>
-        <unsignedInt>900</unsignedInt>
-        <unsignedInt>1800</unsignedInt>
-        <unsignedInt>3600</unsignedInt>
-      </TieredUpdateTimes>
-    </Definition>
+      <data name="DisplayName_Block_" xml:space="preserve">
+        <value></value>
+      </data>
+      <data name="Description_" xml:space="preserve">
+        <value></value>
+      </data>
 
+Gold Platin Titan
 
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockSmallModularThrusterTitan  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThrusterTitan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--SmallBlockLargeModularThrusterTitan  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThrusterTitan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockSmallModularThrusterTitan  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThrusterTitan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--LargeBlockLargeModularThrusterTitan  Meilenstein_Thruster_Ionen_Gold-->
+          <Id Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThrusterTitan" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Thruster_Ionen_Titan</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
 

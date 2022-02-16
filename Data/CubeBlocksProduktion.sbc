@@ -1060,7 +1060,7 @@
       <IsAirTight>true</IsAirTight>
     </Definition>
     <!-- ConnectorBasic -->
-    <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_ShipConnectorDefinition">
       <Id>
         <TypeId>ShipConnector</TypeId>
         <SubtypeId>ConnectorBasic</SubtypeId>
