@@ -17,6 +17,12 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\ProgrammingBlock.mwm</Model>
       <Components>
+        <Component Subtype="PenetratiumPlate" Count="1">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>PenetratiumScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="SteelPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
