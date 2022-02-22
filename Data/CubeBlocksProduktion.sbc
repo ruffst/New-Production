@@ -4867,13 +4867,54 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\StoneDuster\StoneDusterLarge.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="120" />
-        <Component Subtype="Construction" Count="80" />
-        <Component Subtype="SmallTube" Count="50" />
-        <Component Subtype="LargeTube" Count="30" />
-        <Component Subtype="Motor" Count="60" />
-        <Component Subtype="Computer" Count="40" />
-        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="SteelPlate" Count="120" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SmallTube" Count="50" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="LargeTube" Count="30" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="KupferSpulle" Count="60">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="CopperComputer" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="1" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="SteelPlate" Count="80" >
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MirroringY>Z</MirroringY>
