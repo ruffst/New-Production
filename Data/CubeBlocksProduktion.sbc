@@ -4852,5 +4852,70 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
     </Definition>
+    <!--StoneDusterLarge    noch nicht einsortiert und im Baum vorhanden -->
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>StoneDusterLarge</SubtypeId>
+      </Id>
+      <DisplayName>Stone Duster</DisplayName>
+      <Icon>Textures\StoneDusterIcon\StoneDusterIcon.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\StoneDuster\StoneDusterLarge.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="120" />
+        <Component Subtype="Construction" Count="80" />
+        <Component Subtype="SmallTube" Count="50" />
+        <Component Subtype="LargeTube" Count="30" />
+        <Component Subtype="Motor" Count="60" />
+        <Component Subtype="Computer" Count="40" />
+        <Component Subtype="SteelPlate" Count="80" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ConnectorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ConnectorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConnectorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>StoneDuster</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>20.5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>5</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>GravelToDust</Class>
+		    <Class>StoneToDust</Class>
+      </BlueprintClasses>
+      <RefineSpeed>300</RefineSpeed>
+      <MaterialEfficiency>1.0</MaterialEfficiency>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <OreAmountPerPullRequest>337838</OreAmountPerPullRequest> <!-- every 100 ticks -->
+	  <PCU>50</PCU>
+    </Definition>
   </CubeBlocks>
 </Definitions>
