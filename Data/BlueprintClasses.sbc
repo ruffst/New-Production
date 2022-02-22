@@ -349,7 +349,30 @@
             <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>       
+        <Class>            <!--StoneToDust-->
+            <Id>                   
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>StoneToDust</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
+        <Class>            <!--GravelToDust-->
+            <Id>                   
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GravelToDust</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
 
     </BlueprintClasses>
     <BlueprintClassEntries>
@@ -693,7 +716,9 @@
             <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Small_Landing" />
             <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Small_Tanks" />
 
-
+        <!--Duster-->
+            <Entry Class="GravelToDust" BlueprintSubtypeId="GravelToNil" />
+            <Entry Class="StoneToDust" BlueprintSubtypeId="StoneToNil" />
 
 
 
