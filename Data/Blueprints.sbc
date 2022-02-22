@@ -645,6 +645,33 @@
       </Results>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
+    <Blueprint>      <!--GravelToNil -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>GravelToNil</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Gravel</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="0.001" TypeId="Ore" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>      <!--StoneToNil -->
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneToNil</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Gravel</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="0.001" TypeId="Ingot" SubtypeId="Stone" />
+      <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
+    </Blueprint>
+
 
 <!--Ice und Flaschen-->
 
