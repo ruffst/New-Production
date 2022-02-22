@@ -4858,7 +4858,8 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>StoneDusterLarge</SubtypeId>
       </Id>
-      <DisplayName>Stone Duster</DisplayName>
+      <DisplayName>DisplayName_StoneDusterLarge</DisplayName>
+      <Description>Description_StoneDusterLarge</Description>
       <Icon>Textures\StoneDusterIcon\StoneDusterIcon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
