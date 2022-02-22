@@ -3579,7 +3579,7 @@
     <OreMappings>
       <!-- Tier 1 !INSERT ONLY IN BLUE CHANNEL! -->
       <!-- Underground Ice for Marz  -->
-      <Ore Value="50" Type="Ice" Start="2" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="50" Type="Ice_01" Start="2" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
 
       <!-- EASY START-->
       <Ore Value="200" Type="Iron_02" Start="3" Depth="7" TargetColor="#616c83" ColorInfluence="15"/>
