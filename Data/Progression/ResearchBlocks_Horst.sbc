@@ -2978,6 +2978,12 @@
             <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
           </UnlockedByGroups>
         </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">                                    <!--StoneDusterLarge  Meilenstein_Conveyors-->
+          <Id Type="MyObjectBuilder_Refinery" Subtype="StoneDusterLarge" />
+          <UnlockedByGroups>
+            <GroupSubtype>Meilenstein_Conveyors</GroupSubtype>
+          </UnlockedByGroups>
+        </ResearchBlock>
 
 
 

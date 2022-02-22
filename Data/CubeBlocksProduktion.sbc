@@ -4957,7 +4957,7 @@
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <OreAmountPerPullRequest>337838</OreAmountPerPullRequest> <!-- every 100 ticks -->
-	  <PCU>50</PCU>
+	    <PCU>50</PCU>
     </Definition>
   </CubeBlocks>
 </Definitions>
