@@ -129,10 +129,10 @@
     <Id Type="MyObjectBuilder_VoxelMaterialModifierDefinition" Subtype="Europa" />
     <Options>
       <Option Chance="0.20">
-        <Change From="Stone" To="Ice" />
+        <Change From="Stone" To="Ice_01" />
       </Option>
       <Option Chance="0.80">
-        <Change From="Stone" To="Ice" />
+        <Change From="Stone" To="Ice_01" />
         <Change From="Iron_01" To="Gold_01" />
         <Change From="Iron_02" To="Gold_01" />
       </Option>
