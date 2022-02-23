@@ -644,7 +644,7 @@
       </Results>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
     </Blueprint>
-     <!--StoneToNix -->
+    <!--StoneToNix -->
     <Blueprint>      
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -653,13 +653,15 @@
       <DisplayName>Description_Block_StoneDusterLarge</DisplayName>
       <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="1000" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
         <Item Amount="0.001" TypeId="Ingot" SubtypeId="Stone" />
       </Results>
       <BaseProductionTimeInSeconds>0.01</BaseProductionTimeInSeconds>
     </Blueprint>
+    
+    
 
 
 <!--Ice und Flaschen-->
