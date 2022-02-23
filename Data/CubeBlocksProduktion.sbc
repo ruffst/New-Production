@@ -4944,8 +4944,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>5</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>GravelToDust</Class>
-		    <Class>StoneToDust</Class>
+		    <Class>StoneToDust</Class>-->
       </BlueprintClasses>
       <RefineSpeed>300</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -4958,7 +4957,6 @@
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <OreAmountPerPullRequest>337838</OreAmountPerPullRequest> <!-- every 100 ticks -->
 	    <PCU>50</PCU>
-      
     </Definition>
   </CubeBlocks>
 </Definitions>

@@ -721,8 +721,8 @@
             <Entry Class="Research_Blocks" BlueprintSubtypeId="Conveyor/Meilenstein_Small_Tanks" />
 
         <!--Duster-->
-            <Entry Class="GravelToDust" BlueprintSubtypeId="GravelToNil" />
-            <Entry Class="StoneToDust" BlueprintSubtypeId="StoneToNil" />
+            
+            <Entry Class="StoneToDust" BlueprintSubtypeId="StoneToNix" />
             <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/StoneDusterLarge" />
 
 
