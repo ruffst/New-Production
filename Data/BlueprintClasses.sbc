@@ -356,8 +356,10 @@
                 <SubtypeId>StoneToDust</SubtypeId>
             </Id>
             <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
-            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
@@ -367,8 +369,10 @@
                 <SubtypeId>GravelToDust</SubtypeId>
             </Id>
             <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
-            <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
-            <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+            <Description>Description_BlueprintClass_Ingots</Description>
+            <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ingot\ingot_class.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ingot\ingot_class_focus.dds</FocusIcon>
             <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
             <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
         </Class>
@@ -719,6 +723,7 @@
         <!--Duster-->
             <Entry Class="GravelToDust" BlueprintSubtypeId="GravelToNil" />
             <Entry Class="StoneToDust" BlueprintSubtypeId="StoneToNil" />
+            <Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/StoneDusterLarge" />
 
 
 

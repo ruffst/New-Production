@@ -901,7 +901,7 @@
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BlockPairName>DeleteProtektion</BlockPairName>
+      <BlockPairName>DeleteProtectionLarge</BlockPairName>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <BuildTimeSeconds>0</BuildTimeSeconds>
@@ -944,7 +944,7 @@
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
       </MountPoints>
-      <BlockPairName>DeleteProtektion</BlockPairName>
+      <BlockPairName>DeleteProtectionSmall</BlockPairName>
       <MirroringY>Z</MirroringY>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>0</BuildTimeSeconds>
@@ -4858,8 +4858,8 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>StoneDusterLarge</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_StoneDusterLarge</DisplayName>
-      <Description>Description_StoneDusterLarge</Description>
+      <DisplayName>DisplayName_Block_StoneDusterLarge</DisplayName>
+      <Description>Description_Block_StoneDusterLarge</Description>
       <Icon>Textures\StoneDusterIcon\StoneDusterIcon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4958,6 +4958,7 @@
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <OreAmountPerPullRequest>337838</OreAmountPerPullRequest> <!-- every 100 ticks -->
 	    <PCU>50</PCU>
+      
     </Definition>
   </CubeBlocks>
 </Definitions>
