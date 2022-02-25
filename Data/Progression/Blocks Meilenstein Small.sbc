@@ -1079,7 +1079,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Strator" Index="0" />
+      <CriticalComponent Subtype="KupferStrator" Index="0" />
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\SG_Milestone.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\SG_Milestone.mwm" />
