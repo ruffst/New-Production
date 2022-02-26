@@ -415,6 +415,12 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\LG_Milestone.mwm</Model>
       <Components>
+        <Component Subtype="PenetratiumPlate" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="MilestoneEnergyMaterial" Count="3">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -427,7 +433,7 @@
             <SubtypeId>ElektroScrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="PenetratiumPlate" Count="10">
+        <Component Subtype="PenetratiumPlate" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>Scrap</SubtypeId>
