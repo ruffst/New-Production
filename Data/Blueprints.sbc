@@ -1159,7 +1159,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>TitanMotor</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Component_TitanStrator</DisplayName>
+      <DisplayName>DisplayName_Component_TitanMotor</DisplayName>
       <Icon>Textures\GUI\Icons\component\titan_motor.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Component" SubtypeId="Rotor" />
