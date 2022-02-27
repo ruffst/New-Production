@@ -482,7 +482,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Tier Platin-->
-    <!--SmallBlockSmallGenerator_Platin 1.5313 (6,55)-->
+    <!--SmallBlockSmallGenerator_Platin 1.5313 (6.55)-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -962,7 +962,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Tier Titan-->
-    <!--SmallBlockSmallGenerator_Titan 2.6797 (13,11)-->
+    <!--SmallBlockSmallGenerator_Titan 2.6797 (13.11)-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -1056,7 +1056,7 @@
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <MaxPowerOutput>13,11</MaxPowerOutput>
+      <MaxPowerOutput>13.11</MaxPowerOutput>
       <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
