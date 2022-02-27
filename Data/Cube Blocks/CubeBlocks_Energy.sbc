@@ -2,7 +2,8 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-    <!-- Region BatteryBlock-->
+    <!--Region BatteryBlock-->
+    <!--LargeBlockBatteryBlock-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
@@ -93,6 +94,7 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
+    <!--SmallBlockBatteryBlock-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
@@ -181,6 +183,7 @@
       <MirroringZ>Y</MirroringZ>
       <MirroringY>Z</MirroringY>
     </Definition>
+    <!--SmallBlockSmallBatteryBlock-->
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
       <Id>
         <TypeId>BatteryBlock</TypeId>
@@ -268,8 +271,10 @@
       <IsAirTight>true</IsAirTight>
       <PCU>15</PCU>
     </Definition>
-    <!-- End Region BatteryBlock-->
-    <!-- Region -->
+    <!--End  Region BatteryBlock-->
+
+    <!--Region Reactor-->
+    <!--SmallBlockSmallGenerator 2.5 (1.63=)-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -359,7 +364,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <MaxPowerOutput>2.5</MaxPowerOutput>
+      <MaxPowerOutput>1.63</MaxPowerOutput>
       <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -403,6 +408,7 @@
         <string>PowerSystems</string>
       </TargetingGroups>
     </Definition>
+    <!--SmallBlockLargeGenerator 14.75-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -540,6 +546,7 @@
         <string>PowerSystems</string>
       </TargetingGroups>
     </Definition>
+    <!--LargeBlockSmallGenerator 15-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -673,6 +680,7 @@
         <string>PowerSystems</string>
       </TargetingGroups>
     </Definition>
+    <!--LargeBlockLargeGenerator 300-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -815,6 +823,7 @@
         <string>PowerSystems</string>
       </TargetingGroups>
     </Definition>
+    <!--LargeHydrogenEngine 5-->
     <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
       <Id>
         <TypeId>HydrogenEngine</TypeId>
@@ -950,6 +959,7 @@
       <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
       <PCU>25</PCU>
     </Definition>
+    <!--SmallHydrogenEngine 1-->
     <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
       <Id>
         <TypeId>HydrogenEngine</TypeId>
@@ -1076,6 +1086,8 @@
       <PCU>25</PCU>
     </Definition>
     <!-- End Region Reactor-->
+
+    <!--LargeBlockWindTurbine 0.5-->
     <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
       <Id>
         <TypeId>WindTurbine</TypeId>
@@ -1179,6 +1191,7 @@
       <TurbineRotationSpeed>7</TurbineRotationSpeed>
       <PCU>55</PCU>
     </Definition>
+    <!--LargeBlockSolarPanel 0.75-->
     <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
       <Id>
         <TypeId>SolarPanel</TypeId>
@@ -1280,6 +1293,7 @@
       <PCU>55</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+    <!--SmallBlockSolarPanel 0.04-->
     <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
       <Id>
         <TypeId>SolarPanel</TypeId>

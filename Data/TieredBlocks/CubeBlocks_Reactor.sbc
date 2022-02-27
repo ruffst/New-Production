@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-    <!--Tier Gold-->
-    <!--SmallBlockSmallGenerator_Gold-->
+    <!--Tier Gold -->
+    <!--SmallBlockSmallGenerator_Gold 0.875 (3.27)-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -96,7 +96,7 @@
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <MaxPowerOutput>0.875</MaxPowerOutput>
+      <MaxPowerOutput>3.27</MaxPowerOutput>
       <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -119,7 +119,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--SmallBlockLargeGenerator_Gold-->
+    <!--SmallBlockLargeGenerator_Gold 25.8125-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -239,7 +239,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <!--LargeBlockSmallGenerator_Gold-->
+    <!--LargeBlockSmallGenerator_Gold 26.2500-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -356,7 +356,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--LargeBlockLargeGenerator_Gold-->
+    <!--LargeBlockLargeGenerator_Gold 525.0000-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -482,7 +482,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Tier Platin-->
-    <!--SmallBlockSmallGenerator_Platin-->
+    <!--SmallBlockSmallGenerator_Platin 1.5313 (6,55)-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -576,7 +576,7 @@
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <MaxPowerOutput>1.5313</MaxPowerOutput>
+      <MaxPowerOutput>6,55</MaxPowerOutput>
       <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -599,7 +599,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--SmallBlockLargeGenerator_Platin-->
+    <!--SmallBlockLargeGenerator_Platin 45.1719-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -719,7 +719,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <!--LargeBlockSmallGenerator_Platin-->
+    <!--LargeBlockSmallGenerator_Platin 45.937-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -836,7 +836,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--LargeBlockLargeGenerator_Platin-->
+    <!--LargeBlockLargeGenerator_Platin 918.7500-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -962,7 +962,7 @@
       <IsAirTight>false</IsAirTight>
     </Definition>
     <!--Tier Titan-->
-    <!--SmallBlockSmallGenerator_Titan-->
+    <!--SmallBlockSmallGenerator_Titan 2.6797 (13,11)-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -1056,7 +1056,7 @@
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <MaxPowerOutput>2.6797</MaxPowerOutput>
+      <MaxPowerOutput>13,11</MaxPowerOutput>
       <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
@@ -1079,7 +1079,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--SmallBlockLargeGenerator_Titan-->
+    <!--SmallBlockLargeGenerator_Titan 79.0508-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -1199,7 +1199,7 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
     </Definition>
-    <!--LargeBlockSmallGenerator_Titan-->
+    <!--LargeBlockSmallGenerator_Titan 80.3906-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -1316,7 +1316,7 @@
       <PCU>25</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <!--LargeBlockLargeGenerator_Titan-->
+    <!--LargeBlockLargeGenerator_Titan 1607.8125-->
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
       <Id>
         <TypeId>Reactor</TypeId>
