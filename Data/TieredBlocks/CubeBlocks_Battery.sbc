@@ -77,7 +77,7 @@
       <MaxPowerOutput>8</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>8</RequiredPowerInput>
-      <MaxStoredPower>2</MaxStoredPower>
+      <MaxStoredPower>4</MaxStoredPower>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
       <InventorySize>
         <X>1</X>
@@ -266,7 +266,7 @@
       <MaxPowerOutput>16</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>16</RequiredPowerInput>
-      <MaxStoredPower>4</MaxStoredPower>
+      <MaxStoredPower>8</MaxStoredPower>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
       <InventorySize>
         <X>1</X>
@@ -455,7 +455,7 @@
       <MaxPowerOutput>32</MaxPowerOutput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <RequiredPowerInput>32</RequiredPowerInput>
-      <MaxStoredPower>8</MaxStoredPower>
+      <MaxStoredPower>12</MaxStoredPower>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
       <InventorySize>
         <X>1</X>

@@ -91,7 +91,7 @@
         <string>Propulsion</string>
       </TargetingGroups>
       <ForceMagnitude>28800</ForceMagnitude>
-      <MaxPowerConsumption>0.35</MaxPowerConsumption>
+      <MaxPowerConsumption>0.85</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -216,7 +216,7 @@
         <string>Propulsion</string>
       </TargetingGroups>
       <ForceMagnitude>345600</ForceMagnitude>
-      <MaxPowerConsumption>4.2</MaxPowerConsumption>
+      <MaxPowerConsumption>5.1</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -503,6 +503,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
+
+
     <!--SmallBlockSmallThrustSciFi_Platin-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -593,7 +595,7 @@
         <string>Propulsion</string>
       </TargetingGroups>
       <ForceMagnitude>57600</ForceMagnitude>
-      <MaxPowerConsumption>0.6125</MaxPowerConsumption>
+      <MaxPowerConsumption>1.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -718,7 +720,7 @@
         <string>Propulsion</string>
       </TargetingGroups>
       <ForceMagnitude>691200</ForceMagnitude>
-      <MaxPowerConsumption>7.35</MaxPowerConsumption>
+      <MaxPowerConsumption>9.6</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -844,7 +846,7 @@
         <string>Propulsion</string>
       </TargetingGroups>
       <ForceMagnitude>1382400</ForceMagnitude>
-      <MaxPowerConsumption>10.2900</MaxPowerConsumption>
+      <MaxPowerConsumption>14.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -971,7 +973,7 @@
         <string>Propulsion</string>
       </TargetingGroups>
       <ForceMagnitude>17280000</ForceMagnitude>
-      <MaxPowerConsumption>102.9000</MaxPowerConsumption>
+      <MaxPowerConsumption>86.4</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1005,6 +1007,8 @@
       <PCU>15</PCU>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
+
+
     <!--SmallBlockSmallThrustSciFi_Titan-->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -1095,7 +1099,7 @@
         <string>Propulsion</string>
       </TargetingGroups>
       <ForceMagnitude>115200</ForceMagnitude>
-      <MaxPowerConsumption>1.0719</MaxPowerConsumption>
+      <MaxPowerConsumption>3.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1220,7 +1224,7 @@
         <string>Propulsion</string>
       </TargetingGroups>
       <ForceMagnitude>1382400</ForceMagnitude>
-      <MaxPowerConsumption>12.8625</MaxPowerConsumption>
+      <MaxPowerConsumption>19.2</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
@@ -1346,7 +1350,7 @@
         <string>Propulsion</string>
       </TargetingGroups>
       <ForceMagnitude>2764800</ForceMagnitude>
-      <MaxPowerConsumption>18.0075</MaxPowerConsumption>
+      <MaxPowerConsumption>28.8</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>

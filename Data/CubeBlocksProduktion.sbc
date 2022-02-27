@@ -2293,7 +2293,7 @@
       <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>10</OperationalPowerConsumption>
+      <OperationalPowerConsumption>200</OperationalPowerConsumption>
       <BlueprintClasses>
         <Class>Crystallizer</Class>
       </BlueprintClasses>
