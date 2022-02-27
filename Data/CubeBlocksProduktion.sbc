@@ -3255,7 +3255,7 @@
       </Id>
       <DisplayName>DisplayName_Block_AssemblerIndustrial_new</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AdvancedAssemblerIndustrial.dds</Icon>
-      <Description>Description_Assembler_new</Description>
+      <Description>Description_Assembler</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4151,14 +4151,14 @@
     </Definition>
     <!--Castrated Assembler-->
     <!---LargeAssembler-->
-    <Definition Enabled="false" xsi:type="MyObjectBuilder_AssemblerDefinition">
+    <Definition Enabled="true" xsi:type="MyObjectBuilder_AssemblerDefinition">
       <Id>
         <TypeId>Assembler</TypeId>
         <SubtypeId>LargeAssembler</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Assembler_new</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-      <Description>Description_Assembler_new</Description>
+      <Description>Description_Assembler</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -4172,16 +4172,22 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Construction" Count="80">
+        <Component Subtype="Bleiplatte" Count="80">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
+            <SubtypeId>LeadScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Computer" Count="1">
           <DeconstructId>
             <TypeId>Ore</TypeId>
             <SubtypeId>ElektroScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Construction" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="Motor" Count="20">
@@ -4202,10 +4208,10 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
-        <Component Subtype="Computer" Count="160">
+        <Component Subtype="CopperComputer" Count="160">
           <DeconstructId>
             <TypeId>Ore</TypeId>
-            <SubtypeId>ElektroScrap</SubtypeId>
+            <SubtypeId>CopperScrap</SubtypeId>
           </DeconstructId>
         </Component>
         <Component Subtype="SteelPlate" Count="20">
@@ -4215,7 +4221,7 @@
           </DeconstructId>
         </Component>
       </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
+      <CriticalComponent Subtype="CopperComputer" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />

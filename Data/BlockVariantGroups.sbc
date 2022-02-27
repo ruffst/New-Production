@@ -37,7 +37,7 @@
         <!-- Aluminium_Armor -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aluminium_Armor" />
-            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_cube.dds</Icon>
             <DisplayName>Aluminium Armor</DisplayName>
             <Description>Extrem Leichte Panzerung</Description>
             <Blocks>
@@ -51,7 +51,7 @@
         <!-- Aluminium_ArmorSmall -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aluminium_ArmorSmall" />
-            <Icon>Textures\GUI\Icons\Cubes\light_armor_cube.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\alu_heavy_armor_cube.dds</Icon>
             <DisplayName>Aluminium Armor</DisplayName>
             <Description>Extrem Leichte Panzerung</Description>
             <Blocks>
@@ -211,7 +211,7 @@
         <!-- Titan_Armor -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Titan_Armor" />
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_cube.dds</Icon>
             <DisplayName>Titan Armor</DisplayName>
             <Description>Leicht und Stabile Panzerung Panzerung</Description>
             <Blocks>
@@ -224,7 +224,7 @@
         <!-- Titan_ArmorSmall -->
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Titan_ArmorSmall" />
-            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\titan_heavy_armor_cube.dds</Icon>
             <DisplayName>Titan Armor</DisplayName>
             <Description>Leicht und Stabile Panzerung Panzerung</Description>
             <Blocks>
