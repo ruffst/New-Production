@@ -98,7 +98,7 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_ProjectorDefinition">
+    <Definition  xsi:type="MyObjectBuilder_ProjectorDefinition">
       <Id>
         <TypeId>MyObjectBuilder_Projector</TypeId>
         <SubtypeId>LargeProjector</SubtypeId>
@@ -173,7 +173,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <RequiredPowerInput>66</RequiredPowerInput>
       <Public>true</Public>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -259,7 +259,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>12</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.0001</RequiredPowerInput>
+      <RequiredPowerInput>33</RequiredPowerInput>
       <Public>true</Public>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>

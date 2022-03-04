@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Components>
+    <!--Construction-->
     <Component>
-      <!--Construction-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Construction</SubtypeId>
@@ -29,8 +29,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
-    <Component>
-      <!--Adminplate-->
+    <!--Adminplate-->
+    <Component>  
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Adminplate</SubtypeId>
@@ -57,8 +57,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--PenetratiumPlate-->
     <Component>
-      <!--PenetratiumPlate-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PenetratiumPlate</SubtypeId>
@@ -85,8 +85,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--MetalGrid-->
     <Component>
-      <!--MetalGrid-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>MetalGrid</SubtypeId>
@@ -113,8 +113,8 @@
       <MinimumAcquisitionAmount>125</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--InteriorPlate AluPlatte-->
     <Component>
-      <!--InteriorPlate AluPlatte-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>InteriorPlate</SubtypeId>
@@ -141,8 +141,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--SteelPlate-->
     <Component>
-      <!--SteelPlate-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>SteelPlate</SubtypeId>
@@ -169,9 +169,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--TitanPlate-->
     <Component>
-      <!--TitanPlate-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>TitanPlate</SubtypeId>
@@ -198,9 +197,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Bleiplatte-->
     <Component>
-      <!--Bleiplatte-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Bleiplatte</SubtypeId>
@@ -227,8 +225,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Girder-->
     <Component>
-      <!--Girder-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Girder</SubtypeId>
@@ -254,8 +252,8 @@
       <MinimumAcquisitionAmount>40</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>400</MaximumAcquisitionAmount>
     </Component>
+    <!--SmallTube-->
     <Component>
-      <!--SmallTube-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>SmallTube</SubtypeId>
@@ -282,8 +280,8 @@
       <MinimumAcquisitionAmount>60</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--LargeTube-->
     <Component>
-      <!--LargeTube-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>LargeTube</SubtypeId>
@@ -310,8 +308,8 @@
       <MinimumAcquisitionAmount>80</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
     </Component>
+    <!--Motor-->
     <Component>
-      <!--Motor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Motor</SubtypeId>
@@ -338,8 +336,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--GoldMotor-->
     <Component>
-      <!--GoldMotor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>GoldMotor</SubtypeId>
@@ -366,8 +364,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--TitanMotor-->
     <Component>
-      <!--TitanMotor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>TitanMotor</SubtypeId>
@@ -394,8 +392,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--PlatinMotor-->
     <Component>
-      <!--PlatinMotor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PlatinMotor</SubtypeId>
@@ -422,9 +420,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--KupferStrator-->
     <Component>
-      <!--KupferStrator-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>KupferStrator</SubtypeId>
@@ -451,9 +448,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--GoldStrator-->
     <Component>
-      <!--GoldStrator-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>GoldStrator</SubtypeId>
@@ -480,9 +476,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--PlatinStrator-->
     <Component>
-      <!--PlatinStrator-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PlatinStrator</SubtypeId>
@@ -509,9 +504,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--TitanStrator-->
     <Component>
-      <!--TitanStrator-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>TitanStrator</SubtypeId>
@@ -538,9 +532,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Rotor-->
     <Component>
-      <!--Rotor-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Rotor</SubtypeId>
@@ -567,8 +560,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Display-->
     <Component>
-      <!--Display-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Display</SubtypeId>
@@ -595,8 +588,8 @@
       <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
     </Component>
+    <!--BulletproofGlass-->
     <Component>
-      <!--BulletproofGlass-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>BulletproofGlass</SubtypeId>
@@ -623,9 +616,8 @@
       <MinimumAcquisitionAmount>200</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Kupferdraht-->
     <Component>
-      <!--Kupferdraht-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Kupferdraht</SubtypeId>
@@ -652,9 +644,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--Golddraht-->
     <Component>
-      <!--Golddraht-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Golddraht</SubtypeId>
@@ -681,9 +672,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--Platindraht-->
     <Component>
-      <!--Platindraht-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Platindraht</SubtypeId>
@@ -710,9 +700,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--Titandraht -->
     <Component>
-      <!--Titandraht -->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Titandraht</SubtypeId>
@@ -739,9 +728,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--KupferSpulle-->
     <Component>
-      <!--KupferSpulle-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>KupferSpulle</SubtypeId>
@@ -768,9 +756,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--GoldSpulle-->
     <Component>
-      <!--GoldSpulle-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>GoldSpulle</SubtypeId>
@@ -797,9 +784,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--PlatinSpulle-->
     <Component>
-      <!--PlatinSpulle-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PlatinSpulle</SubtypeId>
@@ -826,9 +812,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--TitanSpulle-->
     <Component>
-      <!--TitanSpulle-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>TitanSpulle</SubtypeId>
@@ -855,8 +840,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--Superconductor-->
     <Component>
-      <!--Superconductor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Superconductor</SubtypeId>
@@ -883,9 +868,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--Computer-->
     <Component>
-      <!--Computer-->
-      <!--New Items-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Computer</SubtypeId>
@@ -912,9 +896,8 @@
       <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--CopperComputer-->
     <Component>
-      <!--CopperComputer-->
-      <!--New Items-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>CopperComputer</SubtypeId>
@@ -941,9 +924,8 @@
       <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--GoldComputer-->
     <Component>
-      <!--GoldComputer-->
-      <!--New Items-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>GoldComputer</SubtypeId>
@@ -970,9 +952,8 @@
       <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--PlatinComputer-->
     <Component>
-      <!--PlatinComputer-->
-      <!--New Items-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PlatinComputer</SubtypeId>
@@ -999,9 +980,8 @@
       <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--TitanComputer-->
     <Component>
-      <!--TitanComputer-->
-      <!--New Items-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>TitanComputer</SubtypeId>
@@ -1028,9 +1008,8 @@
       <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--SMD-->
     <Component>
-      <!--SMD-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>SMD</SubtypeId>
@@ -1057,9 +1036,8 @@
       <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--PCB_Platine-->
     <Component>
-      <!--PCB_Platine-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PCB_Platine</SubtypeId>
@@ -1086,9 +1064,8 @@
       <MinimumAcquisitionAmount>300</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--WoodLogs-->
     <Component>
-      <!--WoodLogs-->
-      <!--New-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>WoodLogs</SubtypeId>
@@ -1115,8 +1092,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--Reactor-->
     <Component>
-      <!--Reactor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Reactor</SubtypeId>
@@ -1143,8 +1120,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--GoldReactor-->
     <Component>
-      <!--GoldReactor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>GoldReactor</SubtypeId>
@@ -1171,8 +1148,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--PlatinReactor-->
     <Component>
-      <!--PlatinReactor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PlatinReactor</SubtypeId>
@@ -1199,8 +1176,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--TitanReactor-->
     <Component>
-      <!--TitanReactor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>TitanReactor</SubtypeId>
@@ -1227,8 +1204,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--Thrust-->
     <Component>
-      <!--Thrust-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Thrust</SubtypeId>
@@ -1255,8 +1232,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--GoldThrust-->
     <Component>
-      <!--GoldThrust-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>GoldThrust</SubtypeId>
@@ -1283,8 +1260,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--PlatinThrust-->
     <Component>
-      <!--PlatinThrust-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PlatinThrust</SubtypeId>
@@ -1311,8 +1288,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--TitanThrust-->
     <Component>
-      <!--TitanThrust-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>TitanThrust</SubtypeId>
@@ -1339,8 +1316,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
     </Component>
+    <!--GravityGenerator-->
     <Component>
-      <!--GravityGenerator-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>GravityGenerator</SubtypeId>
@@ -1367,8 +1344,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
     </Component>
+    <!--GoldGravityGenerator-->
     <Component>
-      <!--GoldGravityGenerator-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>GoldGravityGenerator</SubtypeId>
@@ -1395,8 +1372,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
     </Component>
+    <!--PlatinGravityGenerator-->
     <Component>
-      <!--PlatinGravityGenerator-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PlatinGravityGenerator</SubtypeId>
@@ -1423,8 +1400,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
     </Component>
+    <!--TitanGravityGenerator-->
     <Component>
-      <!--TitanGravityGenerator-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>TitanGravityGenerator</SubtypeId>
@@ -1451,8 +1428,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
     </Component>
+    <!--Medical-->
     <Component>
-      <!--Medical-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Medical</SubtypeId>
@@ -1479,8 +1456,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
     </Component>
+    <!--RadioCommunication-->
     <Component>
-      <!--RadioCommunication-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>RadioCommunication</SubtypeId>
@@ -1507,8 +1484,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
     </Component>
+    <!--Detector-->
     <Component>
-      <!--Detector-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Detector</SubtypeId>
@@ -1535,8 +1512,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
     </Component>
+    <!--Explosives-->
     <Component>
-      <!--Explosives-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Explosives</SubtypeId>
@@ -1563,8 +1540,8 @@
       <MinimumAcquisitionAmount>6</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>18</MaximumAcquisitionAmount>
     </Component>
+    <!--SolarCell-->
     <Component>
-      <!--SolarCell-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>SolarCell</SubtypeId>
@@ -1591,8 +1568,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>30</MaximumAcquisitionAmount>
     </Component>
+    <!--PowerCell-->
     <Component>
-      <!--PowerCell-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>PowerCell</SubtypeId>
@@ -1619,8 +1596,8 @@
       <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>120</MaximumAcquisitionAmount>
     </Component>
+    <!--Canvas-->
     <Component>
-      <!--Canvas-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>Canvas</SubtypeId>
@@ -1648,8 +1625,8 @@
       <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
     </Component>
     <!-- Meilenstein Material -->
+    <!--Milestone Armor-->
     <Component>
-      <!--Milestone Armor-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>MilestoneArmorMaterial</SubtypeId>
@@ -1676,8 +1653,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Milestone Energy-->
     <Component>
-      <!--Milestone Energy-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>MilestoneEnergyMaterial</SubtypeId>
@@ -1704,8 +1681,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Milestone Mech-->
     <Component>
-      <!--Milestone Mech-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>MilestoneMechanicMaterial</SubtypeId>
@@ -1732,8 +1709,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Milestone Electro-->
     <Component>
-      <!--Milestone Electro-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>MilestoneElectroMaterial</SubtypeId>
@@ -1760,8 +1737,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Milestone Raumfahrt-->
     <Component>
-      <!--Milestone Raumfahrt-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>MilestoneSpaceMaterial</SubtypeId>
@@ -1788,8 +1765,8 @@
       <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
+    <!--Milestone Cargo-->
     <Component>
-      <!--Milestone Cargo-->
       <Id>
         <TypeId>Component</TypeId>
         <SubtypeId>MilestoneCargoMaterial</SubtypeId>
