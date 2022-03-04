@@ -627,9 +627,9 @@
       <ForceMagnitude>7200000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0.1</EffectivenessAtMaxInfluence>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameLengthScale>1.15</FlameLengthScale>
       <FlameIdleColor>
@@ -760,9 +760,9 @@
       <ForceMagnitude>1080000</ForceMagnitude>
       <SlowdownFactor>1</SlowdownFactor>
       <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.1</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMaxInfluence>0.1</EffectivenessAtMaxInfluence>
       <FuelConverter>
         <FuelId>
           <TypeId>GasProperties</TypeId>

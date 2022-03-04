@@ -3391,6 +3391,12 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Bleiplatte" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>LeadScrap</SubtypeId>
+          </DeconstructId>
+        </Component>
         <Component Subtype="Construction" Count="5">
           <DeconstructId>
             <TypeId>Ore</TypeId>
@@ -3465,7 +3471,7 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-      <OperationalPowerConsumption>10</OperationalPowerConsumption>
+      <OperationalPowerConsumption>1</OperationalPowerConsumption>
       <ProducedGases>
         <GasInfo>
           <Id>
@@ -3619,7 +3625,7 @@
             <TypeId>GasProperties</TypeId>
             <SubtypeId>Hydrogen</SubtypeId>
           </Id>
-          <IceToGasRatio>20</IceToGasRatio>
+          <IceToGasRatio>10</IceToGasRatio>
         </GasInfo>
       </ProducedGases>
       <BlueprintClasses>
